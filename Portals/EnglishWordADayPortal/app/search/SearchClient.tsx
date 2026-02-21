@@ -22,8 +22,8 @@ export default function SearchClient() {
     setHasSearched(true);
     try {
       const res = await apiSearch(q, g || undefined, d || undefined);
-      setResults(res.words);
-      setTotal(res.total);
+      setResults(res.words || []);
+      setTotal(res.total || 0);
     } catch {
       setResults([]);
       setTotal(0);

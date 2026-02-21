@@ -76,7 +76,7 @@ func (c *MemoryCache) GetPaginated(page, pageSize int, genre, date, query string
 		candidateIDs = c.allIDs
 	}
 
-	var filtered []models.Word
+	filtered := make([]models.Word, 0)
 	q := strings.ToLower(query)
 	for _, id := range candidateIDs {
 		w := c.words[id]
