@@ -2208,7 +2208,7 @@
     "meaning": "A strategic guide outlining predefined responses and automations for common scenarios.",
     "genre": "devops",
     "difficulty": 2,
-    "dateAdded": "2026-02-21",
+    "dateAdded": "2026-02-20",
     "samplePhrase": "The Ansible playbook configures the entire production stack with a single command.",
     "itContext": "Playbooks automate complex multi-step operations and serve as living documentation.",
     "alternativeWords": [

@@ -2213,7 +2213,7 @@
     "meaning": "Achieving a desired level of explanation or prediction with the fewest possible parameters.",
     "genre": "data-science",
     "difficulty": 5,
-    "dateAdded": "2026-02-21",
+    "dateAdded": "2026-02-20",
     "samplePhrase": "A parsimonious model with five features outperforms the bloated model with fifty.",
     "itContext": "Parsimony favors simpler models that generalize better and are easier to maintain in production.",
     "alternativeWords": [

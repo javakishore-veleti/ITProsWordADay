@@ -46,15 +46,11 @@ export function getWordById(id: string): Word | undefined {
 
 export function getWordOfTheDay(): Word {
   const all = loadAllWords();
-  const todayStr = new Date().toISOString().split("T")[0];
-  const todayWord = all.find((w) => w.dateAdded === todayStr);
-  if (todayWord) return todayWord;
-  const today = new Date();
-  const dayOfYear = Math.floor(
-    (today.getTime() - new Date(today.getFullYear(), 0, 0).getTime()) /
-      (1000 * 60 * 60 * 24)
-  );
-  return all[dayOfYear % all.length];
+  let latest = all[0];
+  for (const w of all) {
+    if (w.dateAdded > latest.dateAdded) latest = w;
+  }
+  return latest;
 }
 
 export function getTopWordsByGenre(genreSlug: string, limit: number = 10): Word[] {

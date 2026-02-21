@@ -2231,7 +2231,7 @@
     "meaning": "To increase rapidly in number or spread widely; to reproduce or multiply at a fast rate.",
     "genre": "git-version",
     "difficulty": 4,
-    "dateAdded": "2026-02-21",
+    "dateAdded": "2026-02-20",
     "samplePhrase": "Without branch naming conventions, stale branches proliferate and make the repository harder to navigate.",
     "itContext": "Unmanaged branches proliferate in organizations without clear git hygiene policies.",
     "alternativeWords": [

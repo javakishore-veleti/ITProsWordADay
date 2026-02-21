@@ -1849,7 +1849,7 @@
     "meaning": "A destination that absorbs data without further propagation",
     "genre": "data-engineering",
     "difficulty": 4,
-    "dateAdded": "2026-02-21",
+    "dateAdded": "2026-02-20",
     "samplePhrase": "The sinkhole aspect of the review helps us achieve professional excellence.",
     "itContext": "Sinkhole is valuable vocabulary for IT professionals in data engineering contexts.",
     "alternativeWords": [
@@ -1872,7 +1872,7 @@
     "meaning": "To remove all data from a table while keeping its structure",
     "genre": "data-engineering",
     "difficulty": 2,
-    "dateAdded": "2026-02-22",
+    "dateAdded": "2026-02-20",
     "samplePhrase": "We should truncate this initiative to drive better outcomes.",
     "itContext": "Truncate is valuable vocabulary for IT professionals in data engineering contexts.",
     "alternativeWords": [
@@ -1895,7 +1895,7 @@
     "meaning": "The preceding stage or source in a data processing chain",
     "genre": "data-engineering",
     "difficulty": 2,
-    "dateAdded": "2026-02-23",
+    "dateAdded": "2026-02-20",
     "samplePhrase": "The upstream aspect of the project helps us achieve professional excellence.",
     "itContext": "Upstream is valuable vocabulary for IT professionals in data engineering contexts.",
     "alternativeWords": [
@@ -1917,7 +1917,7 @@
     "meaning": "To verify that data conforms to expected rules and formats",
     "genre": "data-engineering",
     "difficulty": 2,
-    "dateAdded": "2026-02-24",
+    "dateAdded": "2026-02-20",
     "samplePhrase": "We should validate this quarter to drive better outcomes.",
     "itContext": "Validate is valuable vocabulary for IT professionals in data engineering contexts.",
     "alternativeWords": [
@@ -1939,7 +1939,7 @@
     "meaning": "A central repository of integrated data from multiple sources",
     "genre": "data-engineering",
     "difficulty": 2,
-    "dateAdded": "2026-02-25",
+    "dateAdded": "2026-02-20",
     "samplePhrase": "The warehouse aspect of our team helps us achieve professional excellence.",
     "itContext": "Warehouse is valuable vocabulary for IT professionals in data engineering contexts.",
     "alternativeWords": [
@@ -1961,7 +1961,7 @@
     "meaning": "A unit of data equal to one quintillion bytes",
     "genre": "data-engineering",
     "difficulty": 4,
-    "dateAdded": "2026-02-26",
+    "dateAdded": "2026-02-20",
     "samplePhrase": "The exabyte aspect of the discussion helps us achieve professional excellence.",
     "itContext": "Exabyte is valuable vocabulary for IT professionals in data engineering contexts.",
     "alternativeWords": [
@@ -1983,7 +1983,7 @@
     "meaning": "A human-readable data serialization format for configuration",
     "genre": "data-engineering",
     "difficulty": 2,
-    "dateAdded": "2026-02-27",
+    "dateAdded": "2026-02-20",
     "samplePhrase": "The yaml aspect of the review helps us achieve professional excellence.",
     "itContext": "YAML is valuable vocabulary for IT professionals in data engineering contexts.",
     "alternativeWords": [
@@ -2006,7 +2006,7 @@
     "meaning": "A notebook-based tool for interactive data analytics",
     "genre": "data-engineering",
     "difficulty": 3,
-    "dateAdded": "2026-02-28",
+    "dateAdded": "2026-02-20",
     "samplePhrase": "The zeppelin aspect of this initiative helps us achieve professional excellence.",
     "itContext": "Zeppelin is valuable vocabulary for IT professionals in data engineering contexts.",
     "alternativeWords": [
@@ -2029,7 +2029,7 @@
     "meaning": "A row-based data serialization system for efficient storage",
     "genre": "data-engineering",
     "difficulty": 3,
-    "dateAdded": "2026-03-01",
+    "dateAdded": "2026-02-20",
     "samplePhrase": "The avro aspect of the project helps us achieve professional excellence.",
     "itContext": "Avro is valuable vocabulary for IT professionals in data engineering contexts.",
     "alternativeWords": [
@@ -2052,7 +2052,7 @@
     "meaning": "A probabilistic data structure for set membership testing",
     "genre": "data-engineering",
     "difficulty": 4,
-    "dateAdded": "2026-03-02",
+    "dateAdded": "2026-02-20",
     "samplePhrase": "The bloom aspect of this quarter helps us achieve professional excellence.",
     "itContext": "Bloom is valuable vocabulary for IT professionals in data engineering contexts.",
     "alternativeWords": [
@@ -2075,7 +2075,7 @@
     "meaning": "The number of unique values in a data column",
     "genre": "data-engineering",
     "difficulty": 3,
-    "dateAdded": "2026-03-03",
+    "dateAdded": "2026-02-20",
     "samplePhrase": "The cardinality aspect of our team helps us achieve professional excellence.",
     "itContext": "Cardinality is valuable vocabulary for IT professionals in data engineering contexts.",
     "alternativeWords": [
@@ -2097,7 +2097,7 @@
     "meaning": "An orchestration platform for data pipelines and assets",
     "genre": "data-engineering",
     "difficulty": 3,
-    "dateAdded": "2026-03-04",
+    "dateAdded": "2026-02-20",
     "samplePhrase": "The dagster aspect of the discussion helps us achieve professional excellence.",
     "itContext": "Dagster is valuable vocabulary for IT professionals in data engineering contexts.",
     "alternativeWords": [
@@ -2120,7 +2120,7 @@
     "meaning": "Achieving consistency over time rather than immediately",
     "genre": "data-engineering",
     "difficulty": 3,
-    "dateAdded": "2026-03-05",
+    "dateAdded": "2026-02-20",
     "samplePhrase": "The eventual aspect of the review helps us achieve professional excellence.",
     "itContext": "Eventual is valuable vocabulary for IT professionals in data engineering contexts.",
     "alternativeWords": [
@@ -2143,7 +2143,7 @@
     "meaning": "A pipeline stage that narrows data flow through filtering",
     "genre": "data-engineering",
     "difficulty": 2,
-    "dateAdded": "2026-03-06",
+    "dateAdded": "2026-02-20",
     "samplePhrase": "The funnel aspect of this initiative helps us achieve professional excellence.",
     "itContext": "Funnel is valuable vocabulary for IT professionals in data engineering contexts.",
     "alternativeWords": [

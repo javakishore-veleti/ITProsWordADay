@@ -35,16 +35,29 @@ export default function Dashboard() {
   return <DashboardContent allWords={allWords} genreWords={genreWords} />;
 }
 
-function getTodaysWord(words: Word[]): Word {
+let _latestWordCache: { word: Word; isToday: boolean } | null = null;
+
+function getLatestWord(words: Word[]): { word: Word; isToday: boolean } {
+  if (_latestWordCache) return _latestWordCache;
   const today = new Date().toISOString().split("T")[0];
-  const todayWord = words.find((w) => w.dateAdded === today);
-  if (todayWord) return todayWord;
-  return words[Math.floor((new Date().getTime() / 86400000) % words.length)] || words[0];
+  let latest = words[0];
+  for (const w of words) {
+    if (w.dateAdded > latest.dateAdded) latest = w;
+  }
+  _latestWordCache = { word: latest, isToday: latest.dateAdded === today };
+  return _latestWordCache;
+}
+
+function formatWordLabel(dateAdded: string, isToday: boolean): string {
+  if (isToday) return "Today\u2019s Word";
+  const d = new Date(dateAdded + "T00:00:00");
+  return `Word from ${d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}`;
 }
 
 function DashboardContent({ allWords, genreWords }: { allWords: Word[]; genreWords: Record<string, Word[]> }) {
-  const initialWord = getTodaysWord(allWords);
+  const { word: initialWord, isToday: initialIsToday } = getLatestWord(allWords);
   const { currentWord, nextWord } = useWordRotation(initialWord, allWords);
+  const isFeaturedWord = currentWord.id === initialWord.id;
 
   return (
     <div>
@@ -53,7 +66,9 @@ function DashboardContent({ allWords, genreWords }: { allWords: Word[]; genreWor
         <div className="flex flex-col lg:flex-row items-start lg:items-center gap-10">
           <div className="flex-1 min-w-0" key={currentWord.id}>
             <div className="flex items-center gap-3 mb-6">
-              <span className="badge badge-accent">Today&apos;s Word</span>
+              <span className="badge badge-accent">
+                {isFeaturedWord ? formatWordLabel(initialWord.dateAdded, initialIsToday) : "Exploring Words"}
+              </span>
               <span className="text-xs text-[var(--text-muted)]">{currentWord.dateAdded}</span>
             </div>
             <h1 className="text-5xl lg:text-6xl xl:text-7xl font-bold gradient-text tracking-tight mb-3 animate-slide-down">
