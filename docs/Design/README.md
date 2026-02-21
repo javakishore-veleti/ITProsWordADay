@@ -2,9 +2,9 @@
 
 ## AWS ECS Fargate Deployment
 
-![AWS ECS Fargate Architecture](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/javakishore-veleti/ITProsWordADay/main/Docs/Design/aws-ecs-fargate-architecture.puml)
+![AWS ECS Fargate Architecture](./aws-ecs-fargate-architecture.png)
 
-> Diagram source: [aws-ecs-fargate-architecture.puml](./aws-ecs-fargate-architecture.puml)
+> Diagram source: [aws-ecs-fargate-architecture.puml](./aws-ecs-fargate-architecture.puml) | Rendered: [aws-ecs-fargate-architecture.png](./aws-ecs-fargate-architecture.png)
 
 ### What This Diagram Shows
 

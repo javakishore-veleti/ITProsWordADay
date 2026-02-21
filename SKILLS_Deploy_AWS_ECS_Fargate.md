@@ -10,31 +10,11 @@ See also:
 - `SKILLS_Deploy_GitHub_Pages.md` — static-only deployment to GitHub Pages
 - `SKILLS_Deploy_AWS.md` — Blue/Green EC2 deployment with Auto Scaling Groups
 
-## Architecture Diagram Reference
-```
-GitHub Repository
-    │
-    ▼
-┌─────────────────── AWS BUILD & DEPLOY ───────────────────┐
-│                                                           │
-│  GitHub Actions  ──▶  CodeBuild  ──▶  ECR  ──▶  ECS     │
-│  (Trigger)           (Build)       (Registry) (Deploy)   │
-│                                                           │
-└───────────────────────────────────────────────────────────┘
-    │
-    ▼
-┌─────────────────── AWS RUNTIME ──────────────────────────┐
-│                                                           │
-│  ECS Fargate (Cluster)                                   │
-│       │                                                   │
-│       ▼                                                   │
-│  ALB (Application Load Balancer)  ──▶  Users (Browser)   │
-│       │                                                   │
-│       ▼                                                   │
-│  CloudWatch (Logs)                                       │
-│                                                           │
-└───────────────────────────────────────────────────────────┘
-```
+## Architecture Diagram
+
+![AWS ECS Fargate Architecture](./Docs/Design/aws-ecs-fargate-architecture.png)
+
+> Full diagram source: [Docs/Design/aws-ecs-fargate-architecture.puml](./Docs/Design/aws-ecs-fargate-architecture.puml)
 
 ## Deployment Flow (Step by Step)
 
