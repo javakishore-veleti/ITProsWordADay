@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { GENRES } from "@/lib/data";
 import type { Word } from "@/lib/data";
 import { fetchAllWords, fetchWordsByGenre } from "@/lib/api";
@@ -79,10 +78,16 @@ function DashboardContent({ allWords, genreWords }: { allWords: Word[]; genreWor
               <button onClick={nextWord} className="btn-secondary">Next word →</button>
             </div>
           </div>
-          <div className="w-64 h-64 lg:w-80 lg:h-80 shrink-0 rounded-2xl overflow-hidden animate-float"
-            style={{ animationDelay: "0.5s", border: "1px solid var(--border-subtle)", boxShadow: "var(--shadow-card)" }}>
-            <Image src="/images/word-hero.png" alt="Learn a new word every day" width={320} height={320}
-              className="w-full h-full object-cover" priority />
+          <div className="w-64 h-64 lg:w-80 lg:h-80 shrink-0 rounded-2xl overflow-hidden animate-float flex items-center justify-center"
+            style={{ animationDelay: "0.5s", border: "1px solid var(--border-subtle)", boxShadow: "var(--shadow-card)", background: "var(--accent-gradient)" }}>
+            <svg viewBox="0 0 200 200" className="w-3/4 h-3/4 opacity-90" fill="none">
+              <rect x="30" y="40" width="140" height="120" rx="12" fill="white" fillOpacity="0.15"/>
+              <rect x="45" y="60" width="80" height="8" rx="4" fill="white" fillOpacity="0.6"/>
+              <rect x="45" y="78" width="110" height="5" rx="2.5" fill="white" fillOpacity="0.3"/>
+              <rect x="45" y="90" width="95" height="5" rx="2.5" fill="white" fillOpacity="0.3"/>
+              <rect x="45" y="110" width="50" height="20" rx="6" fill="white" fillOpacity="0.5"/>
+              <text x="100" y="30" textAnchor="middle" fill="white" fontSize="24" fontWeight="bold" opacity="0.8">Aa</text>
+            </svg>
           </div>
         </div>
       </section>
@@ -91,11 +96,14 @@ function DashboardContent({ allWords, genreWords }: { allWords: Word[]; genreWor
       <section className="mb-14">
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
           <FeatureCard href="/search" title="Search Words" desc="Find by name, meaning, date, or genre"
-            imageSrc="/images/search-illustration.png" delay="stagger-1" />
+            icon={<svg viewBox="0 0 48 48" className="w-16 h-16" fill="none" stroke="var(--accent)" strokeWidth="2.5"><circle cx="20" cy="20" r="14" /><path d="M30 30l10 10" strokeLinecap="round"/><circle cx="20" cy="20" r="7" strokeDasharray="3 3" opacity="0.4"/></svg>}
+            delay="stagger-1" />
           <FeatureCard href="/sentence" title="Sentence Analyzer" desc="Upgrade vocabulary with AI-powered analysis"
-            imageSrc="/images/sentence-analyzer.png" delay="stagger-2" />
+            icon={<svg viewBox="0 0 48 48" className="w-16 h-16" fill="none" stroke="var(--accent)" strokeWidth="2.5"><rect x="4" y="8" width="40" height="32" rx="4"/><path d="M12 18h24M12 26h18M12 34h12" strokeLinecap="round"/><path d="M36 28l4 4-4 4" opacity="0.5" strokeLinecap="round" strokeLinejoin="round"/></svg>}
+            delay="stagger-2" />
           <FeatureCard href="/professional" title="Professional Speak" desc="Communicate like a pro in JIRA, Slack, Git"
-            imageSrc="/images/professional-speak.png" delay="stagger-3" />
+            icon={<svg viewBox="0 0 48 48" className="w-16 h-16" fill="none" stroke="var(--accent)" strokeWidth="2.5"><path d="M8 36V12a4 4 0 014-4h24a4 4 0 014 4v16a4 4 0 01-4 4H16l-8 8z"/><path d="M16 18h16M16 24h10" strokeLinecap="round"/></svg>}
+            delay="stagger-3" />
         </div>
       </section>
 
@@ -137,15 +145,16 @@ function DashboardContent({ allWords, genreWords }: { allWords: Word[]; genreWor
   );
 }
 
-function FeatureCard({ href, title, desc, imageSrc, delay }: {
-  href: string; title: string; desc: string; imageSrc: string; delay: string;
+function FeatureCard({ href, title, desc, icon, delay }: {
+  href: string; title: string; desc: string; icon: React.ReactNode; delay: string;
 }) {
   return (
     <Link href={href}>
       <div className={`card card-interactive overflow-hidden group h-full animate-fade-in ${delay}`}>
         <div className="h-40 flex items-center justify-center p-4 bg-[var(--bg-surface)]">
-          <Image src={imageSrc} alt={title} width={140} height={140}
-            className="w-28 h-28 object-contain group-hover:scale-110 transition-transform duration-500" />
+          <div className="group-hover:scale-110 transition-transform duration-500">
+            {icon}
+          </div>
         </div>
         <div className="p-5">
           <h3 className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors mb-1.5">{title}</h3>
