@@ -19,11 +19,41 @@ permissions:
 
 jobs:
   # ──────────────────────────────────────────────
+  # Preflight: validate required secrets exist
+  # ──────────────────────────────────────────────
+  preflight:
+    name: Validate Secrets
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check required secrets
+        run: |
+          MISSING=()
+          if [ -z "${{ secrets.AWS_IAM_ROLE_ARN }}" ]; then MISSING+=("AWS_IAM_ROLE_ARN"); fi
+          if [ -z "${{ secrets.AWS_REGION }}" ]; then MISSING+=("AWS_REGION"); fi
+          if [ -z "${{ secrets.AWS_S3_ARTIFACT_BUCKET }}" ]; then MISSING+=("AWS_S3_ARTIFACT_BUCKET"); fi
+          if [ -z "${{ secrets.AWS_CODEDEPLOY_APP }}" ]; then MISSING+=("AWS_CODEDEPLOY_APP"); fi
+          if [ -z "${{ secrets.AWS_CODEDEPLOY_GROUP }}" ]; then MISSING+=("AWS_CODEDEPLOY_GROUP"); fi
+          if [ -z "${{ secrets.AWS_ASG_NAME }}" ]; then MISSING+=("AWS_ASG_NAME"); fi
+
+          if [ ${#MISSING[@]} -gt 0 ]; then
+            echo "::error::Missing required GitHub Actions secrets: ${MISSING[*]}"
+            echo ""
+            echo "Go to: GitHub repo → Settings → Secrets and variables → Actions"
+            echo "Add the following secrets:"
+            for s in "${MISSING[@]}"; do echo "  - $s"; done
+            echo ""
+            echo "See SKILLS_Deploy_AWS_EC2_BlueGreen.md for details."
+            exit 1
+          fi
+          echo "All required secrets are configured."
+
+  # ──────────────────────────────────────────────
   # Job 1: Create / update CloudFormation stack
   # ──────────────────────────────────────────────
   infrastructure:
     name: CloudFormation Infrastructure
-    if: inputs.action == 'infrastructure' || inputs.action == 'full (infrastructure + build + deploy)'
+    needs: [preflight]
+    if: github.event.inputs.action == 'infrastructure' || github.event.inputs.action == 'full (infrastructure + build + deploy)'
     runs-on: ubuntu-latest
     outputs:
       alb_dns: ${{ steps.outputs.outputs.alb_dns }}
@@ -73,7 +103,8 @@ jobs:
   # ──────────────────────────────────────────────
   efs-sync:
     name: Sync Word Data to EFS
-    if: inputs.action == 'efs-sync'
+    needs: [preflight]
+    if: github.event.inputs.action == 'efs-sync'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -124,8 +155,12 @@ jobs:
   # ──────────────────────────────────────────────
   build:
     name: Build Deployment Artifact
-    needs: [infrastructure]
-    if: always() && (needs.infrastructure.result == 'success' || needs.infrastructure.result == 'skipped') && (github.event.inputs.action == 'build-and-deploy' || github.event.inputs.action == 'full (infrastructure + build + deploy)')
+    needs: [preflight, infrastructure]
+    if: |
+      always()
+      && needs.preflight.result == 'success'
+      && (needs.infrastructure.result == 'success' || needs.infrastructure.result == 'skipped')
+      && (github.event.inputs.action == 'build-and-deploy' || github.event.inputs.action == 'full (infrastructure + build + deploy)')
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -185,7 +220,11 @@ jobs:
   # ──────────────────────────────────────────────
   deploy:
     name: CodeDeploy Blue/Green
-    needs: [build]
+    needs: [preflight, build]
+    if: |
+      always()
+      && needs.preflight.result == 'success'
+      && needs.build.result == 'success'
     runs-on: ubuntu-latest
     steps:
       - name: Configure AWS credentials

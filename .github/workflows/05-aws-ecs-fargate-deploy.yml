@@ -23,11 +23,40 @@ env:
 
 jobs:
   # ──────────────────────────────────────────────
+  # Preflight: validate required secrets exist
+  # ──────────────────────────────────────────────
+  preflight:
+    name: Validate Secrets
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check required secrets
+        run: |
+          MISSING=()
+          if [ -z "${{ secrets.AWS_IAM_ROLE_ARN }}" ]; then MISSING+=("AWS_IAM_ROLE_ARN"); fi
+          if [ -z "${{ secrets.AWS_REGION }}" ]; then MISSING+=("AWS_REGION"); fi
+          if [ -z "${{ secrets.AWS_ECR_REPOSITORY }}" ]; then MISSING+=("AWS_ECR_REPOSITORY"); fi
+          if [ -z "${{ secrets.AWS_ECS_CLUSTER }}" ]; then MISSING+=("AWS_ECS_CLUSTER"); fi
+          if [ -z "${{ secrets.AWS_ECS_SERVICE }}" ]; then MISSING+=("AWS_ECS_SERVICE"); fi
+
+          if [ ${#MISSING[@]} -gt 0 ]; then
+            echo "::error::Missing required GitHub Actions secrets: ${MISSING[*]}"
+            echo ""
+            echo "Go to: GitHub repo → Settings → Secrets and variables → Actions"
+            echo "Add the following secrets:"
+            for s in "${MISSING[@]}"; do echo "  - $s"; done
+            echo ""
+            echo "See SKILLS_Deploy_AWS_ECS_Fargate.md for details."
+            exit 1
+          fi
+          echo "All required secrets are configured."
+
+  # ──────────────────────────────────────────────
   # Job 1: Create / update CloudFormation stack
   # ──────────────────────────────────────────────
   infrastructure:
     name: CloudFormation Infrastructure
-    if: inputs.action == 'infrastructure' || inputs.action == 'full (infrastructure + build + deploy)'
+    needs: [preflight]
+    if: github.event.inputs.action == 'infrastructure' || github.event.inputs.action == 'full (infrastructure + build + deploy)'
     runs-on: ubuntu-latest
     outputs:
       ecr_uri: ${{ steps.stack.outputs.EcrRepositoryUri }}
@@ -66,8 +95,12 @@ jobs:
   # ──────────────────────────────────────────────
   build-push:
     name: Build & Push to ECR
-    needs: [infrastructure]
-    if: always() && (needs.infrastructure.result == 'success' || needs.infrastructure.result == 'skipped') && (github.event.inputs.action == 'build-and-deploy' || github.event.inputs.action == 'full (infrastructure + build + deploy)')
+    needs: [preflight, infrastructure]
+    if: |
+      always()
+      && needs.preflight.result == 'success'
+      && (needs.infrastructure.result == 'success' || needs.infrastructure.result == 'skipped')
+      && (github.event.inputs.action == 'build-and-deploy' || github.event.inputs.action == 'full (infrastructure + build + deploy)')
     runs-on: ubuntu-latest
     outputs:
       image: ${{ steps.image.outputs.uri }}
@@ -107,7 +140,11 @@ jobs:
   # ──────────────────────────────────────────────
   deploy:
     name: Deploy to ECS Fargate
-    needs: [build-push]
+    needs: [preflight, build-push]
+    if: |
+      always()
+      && needs.preflight.result == 'success'
+      && needs.build-push.result == 'success'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
