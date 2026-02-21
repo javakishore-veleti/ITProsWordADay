@@ -5,10 +5,6 @@
 
 !include <awslib/General/Users>
 !include <awslib/General/Internet>
-!include <awslib/GroupIcons/Region>
-!include <awslib/GroupIcons/VPC>
-!include <awslib/GroupIcons/Availabilityzone>
-!include <awslib/GroupIcons/PublicSubnet>
 
 !include <awslib/NetworkingContentDelivery/ElasticLoadBalancingApplicationLoadBalancer>
 !include <awslib/NetworkingContentDelivery/VPCInternetGateway>
@@ -22,99 +18,75 @@
 
 !include <awslib/SecurityIdentityCompliance/IdentityandAccessManagement>
 
-' ============================================================
-' TITLE
-' ============================================================
-title IT Pros WordADay\nAWS ECS Fargate Architecture
+title IT Pros WordADay — AWS ECS Fargate Architecture
 
-' ============================================================
-' ACTORS & EXTERNAL
-' ============================================================
+' ── External ──
 Users(users, "End Users", "Browser")
 Internet(internet, "Internet", "")
 
-rectangle "CI/CD Pipeline" as cicd #E8F5E9 {
-  rectangle "**GitHub Repository**\njavakishore-veleti/ITProsWordADay" as github #FFFFFF
-  rectangle "**GitHub Actions**\nWorkflow 05 (manual)" as gha #FFFFFF
+' ── CI/CD ──
+rectangle "**CI/CD Pipeline**" as cicd #E8F5E9 {
+  rectangle "GitHub Repository" as github #FFFFFF
+  rectangle "GitHub Actions\nWorkflow 05" as gha #FFFFFF
 }
 
-' ============================================================
-' AWS REGION
-' ============================================================
-RegionGroup(region, "AWS Region") {
+' ── AWS ──
+rectangle "**AWS Region**" as region #F5F5F5 {
 
-  CloudFormation(cfn, "CloudFormation", "ecs-stack")
   IdentityandAccessManagement(iam, "IAM", "OIDC Federation")
+  CloudFormation(cfn, "CloudFormation", "ecs-stack")
   ElasticContainerRegistry(ecr, "ECR", "itpros-wordaday")
   CloudWatch(cw, "CloudWatch Logs", "/ecs/itpros-wordaday")
 
-  VPCGroup(vpc, "VPC  10.1.0.0/16") {
+  rectangle "**VPC  10.1.0.0/16**" as vpc #E3F2FD {
 
     VPCInternetGateway(igw, "Internet Gateway", "")
 
-    AvailabilityzoneGroup(az1, "Availability Zone A") {
-      PublicSubnetGroup(pubsub1, "Public Subnet  10.1.0.0/20") {
-        ElasticLoadBalancingApplicationLoadBalancer(alb, "ALB", "HTTP :80 / :443")
-      }
+    rectangle "**AZ-A — Public Subnet 10.1.0.0/20**" as az1 #E8F5E9 {
+      ElasticLoadBalancingApplicationLoadBalancer(alb, "ALB", "HTTP :80/:443")
+      Fargate(task1, "Fargate Task", "Go + Next.js :8080")
     }
 
-    AvailabilityzoneGroup(az2, "Availability Zone B") {
-      PublicSubnetGroup(pubsub2, "Public Subnet  10.1.16.0/20") {
-      }
+    rectangle "**AZ-B — Public Subnet 10.1.16.0/20**" as az2 #E8F5E9 {
+      Fargate(task2, "Fargate Task", "Go + Next.js :8080")
     }
 
     ElasticContainerService(ecs, "ECS Cluster", "itpros-wordaday-cluster")
-
-    Fargate(task1, "Fargate Task", "Go + Next.js :8080")
-    Fargate(task2, "Fargate Task", "Go + Next.js :8080")
   }
 }
 
-' ============================================================
-' CI/CD FLOW
-' ============================================================
+' ── CI/CD Flow ──
 github -down-> gha : "workflow_dispatch"
-gha -down-> iam : "OIDC\nAssumeRole"
-gha -down-> ecr : "docker build\n& push"
+gha -down-> iam : "OIDC AssumeRole"
+gha -down-> ecr : "docker push"
 gha -down-> cfn : "deploy stack"
 gha -down-> ecs : "update service"
 
-' ============================================================
-' INFRASTRUCTURE CREATION
-' ============================================================
-cfn .down.> vpc : <<creates>>
-cfn .down.> ecs : <<creates>>
-cfn .down.> ecr : <<creates>>
+' ── Infra Creation ──
+cfn ..> vpc : <<creates>>
 
-' ============================================================
-' RUNTIME TRAFFIC
-' ============================================================
+' ── Traffic Flow ──
 users -down-> internet
 internet -down-> igw
 igw -down-> alb : "HTTP"
 alb -down-> task1 : ":8080"
 alb -down-> task2 : ":8080"
 
-' ============================================================
-' CONTAINER MANAGEMENT
-' ============================================================
-ecs -down-> task1 : manages
-ecs -down-> task2 : manages
-ecr -right-> task1 : image pull
-ecr -right-> task2 : image pull
-task1 -right-> cw : logs
-task2 -right-> cw : logs
+' ── Container Mgmt ──
+ecs --> task1 : manages
+ecs --> task2 : manages
+ecr --> task1 : image
+ecr --> task2 : image
+task1 --> cw : logs
+task2 --> cw : logs
 
-' ============================================================
-' LEGEND
-' ============================================================
 legend right
   |= Security Group |= Inbound |
   | ALB SG | 80, 443 from 0.0.0.0/0 |
-  | Task SG | 8080 from ALB SG |
+  | Task SG | 8080 from ALB SG only |
   ---
   |= Container |= Value |
-  | Image | Go backend + Next.js static |
+  | Runtime | Go backend + Next.js static |
   | Port | 8080 |
   | Health | GET /api/health |
   | CPU / Mem | 0.25 vCPU / 512 MB |
