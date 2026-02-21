@@ -56,7 +56,7 @@ function formatWordLabel(dateAdded: string, isToday: boolean): string {
 
 function DashboardContent({ allWords, genreWords }: { allWords: Word[]; genreWords: Record<string, Word[]> }) {
   const { word: initialWord, isToday: initialIsToday } = getLatestWord(allWords);
-  const { currentWord, nextWord } = useWordRotation(initialWord, allWords);
+  const { currentWord, nextWord, prevWord, hasPrev } = useWordRotation(initialWord, allWords);
   const isFeaturedWord = currentWord.id === initialWord.id;
 
   return (
@@ -86,6 +86,9 @@ function DashboardContent({ allWords, genreWords }: { allWords: Word[]; genreWor
               </p>
             </div>
             <div className="flex items-center gap-3 animate-slide-down stagger-4">
+              {hasPrev && (
+                <button onClick={prevWord} className="btn-secondary">← Previous</button>
+              )}
               <Link href={`/word/${currentWord.id}`} className="btn-primary">
                 Explore word
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M5 12h14M12 5l7 7-7 7" /></svg>

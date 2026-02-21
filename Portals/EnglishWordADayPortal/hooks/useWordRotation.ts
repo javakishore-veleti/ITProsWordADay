@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback, useEffect } from "react";
+import { useState, useCallback, useEffect, useRef } from "react";
 import { type Word } from "@/lib/data";
 
 const HISTORY_KEY = "word_a_day_history";
@@ -23,14 +23,11 @@ function saveHistory(history: string[]) {
     } catch { }
 }
 
-/**
- * Hook to manage the current displayed word and navigate to the next word
- * without repeating the last 25 words.
- */
 export function useWordRotation(initialWord: Word, availableWords: Word[]) {
     const [currentWord, setCurrentWord] = useState<Word>(initialWord);
+    const sessionStack = useRef<string[]>([initialWord.id]);
+    const stackIndex = useRef(0);
 
-    // Initialize history with the initial word if not present
     useEffect(() => {
         const history = getHistory();
         if (!history.includes(initialWord.id)) {
@@ -40,33 +37,40 @@ export function useWordRotation(initialWord: Word, availableWords: Word[]) {
     }, [initialWord]);
 
     const nextWord = useCallback(() => {
-        const history = getHistory();
-
-        // Find words we haven't seen recently
-        let unseenWords = availableWords.filter(w => !history.includes(w.id));
-
-        // If we've seen everything (or all available words are in history),
-        // we can reset or just pick the oldest from history that is in availableWords.
-        // Easiest is to just clear history or pick a random word if unseen is empty.
-        if (unseenWords.length === 0) {
-            if (availableWords.length > 1) {
-                // Exclude the currently displayed word so it at least changes
-                unseenWords = availableWords.filter(w => w.id !== currentWord.id);
-            } else {
-                unseenWords = availableWords;
-            }
+        if (stackIndex.current > 0) {
+            stackIndex.current--;
+            const prevId = sessionStack.current[stackIndex.current];
+            const found = availableWords.find(w => w.id === prevId);
+            if (found) { setCurrentWord(found); return; }
         }
 
-        // Pick a random word from the unseen ones
-        const randomIndex = Math.floor(Math.random() * unseenWords.length);
-        const next = unseenWords[randomIndex];
+        const history = getHistory();
+        let unseenWords = availableWords.filter(w => !history.includes(w.id));
+        if (unseenWords.length === 0) {
+            unseenWords = availableWords.length > 1
+                ? availableWords.filter(w => w.id !== currentWord.id)
+                : availableWords;
+        }
 
-        // Update history
+        const next = unseenWords[Math.floor(Math.random() * unseenWords.length)];
         const newHistory = [next.id, ...history].slice(0, MAX_HISTORY);
         saveHistory(newHistory);
 
+        sessionStack.current = [next.id, ...sessionStack.current];
+        stackIndex.current = 0;
         setCurrentWord(next);
     }, [availableWords, currentWord]);
 
-    return { currentWord, nextWord };
+    const prevWord = useCallback(() => {
+        if (stackIndex.current < sessionStack.current.length - 1) {
+            stackIndex.current++;
+            const id = sessionStack.current[stackIndex.current];
+            const found = availableWords.find(w => w.id === id);
+            if (found) setCurrentWord(found);
+        }
+    }, [availableWords]);
+
+    const hasPrev = stackIndex.current < sessionStack.current.length - 1;
+
+    return { currentWord, nextWord, prevWord, hasPrev };
 }

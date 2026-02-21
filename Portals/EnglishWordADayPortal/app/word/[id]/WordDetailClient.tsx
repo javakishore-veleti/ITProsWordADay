@@ -18,7 +18,7 @@ export default function WordDetailClient({ word }: Props) {
     fetchWordsByGenre(word.genre).then((res) => setGenreWords(res.words)).catch(() => {});
   }, [word.genre]);
 
-  const { currentWord: displayWord, nextWord } = useWordRotation(word, genreWords);
+  const { currentWord: displayWord, nextWord, prevWord, hasPrev } = useWordRotation(word, genreWords);
   const alternatives = displayWord.alternativeWords || [];
   const avgDifficulty = getAverageDifficulty(displayWord);
 
@@ -114,12 +114,19 @@ export default function WordDetailClient({ word }: Props) {
         )}
       </div>
 
-      {/* Next Word */}
+      {/* Navigation */}
       <div className="card p-6 mb-6 text-center animate-fade-in">
-        <p className="text-xs text-[var(--text-muted)] mb-3">Keep learning — discover the next word</p>
-        <button onClick={nextWord} className="btn-primary py-3 px-8 text-base w-full sm:w-auto">
-          Next Word →
-        </button>
+        <p className="text-xs text-[var(--text-muted)] mb-3">Keep learning — explore more words</p>
+        <div className="flex items-center justify-center gap-3">
+          {hasPrev && (
+            <button onClick={prevWord} className="btn-secondary py-3 px-8 text-base">
+              ← Previous
+            </button>
+          )}
+          <button onClick={nextWord} className="btn-primary py-3 px-8 text-base">
+            Next Word →
+          </button>
+        </div>
       </div>
 
       {/* Back to genre */}
