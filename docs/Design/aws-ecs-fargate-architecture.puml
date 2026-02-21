@@ -1,147 +1,126 @@
 @startuml AWS ECS Fargate Architecture - IT Pros WordADay
 
-!define AWSPuml https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/v18.0/dist
+!include <awslib/AWSCommon>
+!include <awslib/AWSSimplified>
 
-!include AWSPuml/AWSCommon.puml
-!include AWSPuml/AWSSimplified.puml
+!include <awslib/General/Users>
+!include <awslib/General/Internet>
+!include <awslib/GroupIcons/Region>
+!include <awslib/GroupIcons/VPC>
+!include <awslib/GroupIcons/Availabilityzone>
+!include <awslib/GroupIcons/PublicSubnet>
 
-!include AWSPuml/General/Users.puml
-!include AWSPuml/General/Internet.puml
-!include AWSPuml/GroupIcons/Region.puml
-!include AWSPuml/GroupIcons/VPC.puml
-!include AWSPuml/GroupIcons/Availabilityzone.puml
-!include AWSPuml/GroupIcons/PublicSubnet.puml
-!include AWSPuml/GroupIcons/SecurityGroup.puml
+!include <awslib/NetworkingContentDelivery/ElasticLoadBalancingApplicationLoadBalancer>
+!include <awslib/NetworkingContentDelivery/VPCInternetGateway>
 
-!include AWSPuml/NetworkingContentDelivery/ElasticLoadBalancingApplicationLoadBalancer.puml
-!include AWSPuml/NetworkingContentDelivery/VPCInternetGateway.puml
+!include <awslib/Containers/ElasticContainerService>
+!include <awslib/Containers/ElasticContainerRegistry>
+!include <awslib/Containers/Fargate>
 
-!include AWSPuml/Containers/ElasticContainerService.puml
-!include AWSPuml/Containers/ElasticContainerRegistry.puml
-!include AWSPuml/Containers/Fargate.puml
+!include <awslib/ManagementGovernance/CloudWatch>
+!include <awslib/ManagementGovernance/CloudFormation>
 
-!include AWSPuml/ManagementGovernance/CloudWatch.puml
-!include AWSPuml/ManagementGovernance/CloudFormation.puml
-
-!include AWSPuml/SecurityIdentityCompliance/IdentityandAccessManagement.puml
-
-!include AWSPuml/DeveloperTools/all.puml
+!include <awslib/SecurityIdentityCompliance/IdentityandAccessManagement>
 
 ' ============================================================
 ' TITLE
 ' ============================================================
-title IT Pros WordADay — AWS ECS Fargate Architecture
+title IT Pros WordADay\nAWS ECS Fargate Architecture
 
 ' ============================================================
-' ACTORS
+' ACTORS & EXTERNAL
 ' ============================================================
 Users(users, "End Users", "Browser")
 Internet(internet, "Internet", "")
 
-' ============================================================
-' CI/CD PIPELINE (outside AWS)
-' ============================================================
 rectangle "CI/CD Pipeline" as cicd #E8F5E9 {
-  rectangle "GitHub\nRepository" as github #FFFFFF
-  rectangle "GitHub Actions\n(Workflow 05)" as gha #FFFFFF
+  rectangle "**GitHub Repository**\njavakishore-veleti/ITProsWordADay" as github #FFFFFF
+  rectangle "**GitHub Actions**\nWorkflow 05 (manual)" as gha #FFFFFF
 }
 
 ' ============================================================
 ' AWS REGION
 ' ============================================================
-RegionGroup(region, "AWS Region (us-east-1)") {
+RegionGroup(region, "AWS Region") {
 
-  ' ── Build / Registry ──
-  ElasticContainerRegistry(ecr, "ECR\nitpros-wordaday", "Docker Image Registry")
+  CloudFormation(cfn, "CloudFormation", "ecs-stack")
+  IdentityandAccessManagement(iam, "IAM", "OIDC Federation")
+  ElasticContainerRegistry(ecr, "ECR", "itpros-wordaday")
+  CloudWatch(cw, "CloudWatch Logs", "/ecs/itpros-wordaday")
 
-  ' ── Infrastructure as Code ──
-  CloudFormation(cfn, "CloudFormation\necs-stack", "Infrastructure as Code")
-
-  ' ── IAM ──
-  IdentityandAccessManagement(iam, "IAM\nOIDC + Roles", "Authentication")
-
-  ' ── VPC ──
   VPCGroup(vpc, "VPC  10.1.0.0/16") {
 
-    VPCInternetGateway(igw, "Internet\nGateway", "")
+    VPCInternetGateway(igw, "Internet Gateway", "")
 
-    ' ── AZ-a ──
     AvailabilityzoneGroup(az1, "Availability Zone A") {
-      PublicSubnetGroup(pubsub1, "Public Subnet\n10.1.0.0/20") {
-        ElasticLoadBalancingApplicationLoadBalancer(alb1, "ALB\n(listener)", "Port 80/443")
-        Fargate(task1, "Fargate Task\n(Go + Next.js)", "Port 8080")
+      PublicSubnetGroup(pubsub1, "Public Subnet  10.1.0.0/20") {
+        ElasticLoadBalancingApplicationLoadBalancer(alb, "ALB", "HTTP :80 / :443")
       }
     }
 
-    ' ── AZ-b ──
     AvailabilityzoneGroup(az2, "Availability Zone B") {
-      PublicSubnetGroup(pubsub2, "Public Subnet\n10.1.16.0/20") {
-        ElasticLoadBalancingApplicationLoadBalancer(alb2, "ALB\n(target)", "Port 80/443")
-        Fargate(task2, "Fargate Task\n(Go + Next.js)", "Port 8080")
+      PublicSubnetGroup(pubsub2, "Public Subnet  10.1.16.0/20") {
       }
     }
+
+    ElasticContainerService(ecs, "ECS Cluster", "itpros-wordaday-cluster")
+
+    Fargate(task1, "Fargate Task", "Go + Next.js :8080")
+    Fargate(task2, "Fargate Task", "Go + Next.js :8080")
   }
-
-  ' ── ECS Cluster ──
-  ElasticContainerService(ecs, "ECS Cluster\nitpros-wordaday-cluster", "Service Orchestration")
-
-  ' ── Monitoring ──
-  CloudWatch(cw, "CloudWatch Logs\n/ecs/itpros-wordaday", "Logging & Monitoring")
 }
 
 ' ============================================================
-' RELATIONSHIPS — CI/CD
+' CI/CD FLOW
 ' ============================================================
-github -down-> gha : "workflow_dispatch\n(manual trigger)"
-gha -down-> iam : "OIDC\nAssumeRoleWithWebIdentity"
-gha -right-> ecr : "docker build & push\n(latest + SHA tag)"
-gha -down-> cfn : "deploy stack\n(create/update)"
-gha -down-> ecs : "render task def\n+ deploy service"
+github -down-> gha : "workflow_dispatch"
+gha -down-> iam : "OIDC\nAssumeRole"
+gha -down-> ecr : "docker build\n& push"
+gha -down-> cfn : "deploy stack"
+gha -down-> ecs : "update service"
 
 ' ============================================================
-' RELATIONSHIPS — Infrastructure
+' INFRASTRUCTURE CREATION
 ' ============================================================
-cfn -down-> vpc : "creates"
-cfn -down-> ecs : "creates"
-cfn -down-> ecr : "creates"
-cfn -down-> cw : "creates"
+cfn .down.> vpc : <<creates>>
+cfn .down.> ecs : <<creates>>
+cfn .down.> ecr : <<creates>>
 
 ' ============================================================
-' RELATIONSHIPS — Runtime Traffic
+' RUNTIME TRAFFIC
 ' ============================================================
 users -down-> internet
 internet -down-> igw
-igw -down-> alb1 : "HTTP :80"
-igw -down-> alb2 : "HTTP :80"
-alb1 -down-> task1 : ":8080\n(health: /api/health)"
-alb2 -down-> task2 : ":8080\n(health: /api/health)"
+igw -down-> alb : "HTTP"
+alb -down-> task1 : ":8080"
+alb -down-> task2 : ":8080"
 
 ' ============================================================
-' RELATIONSHIPS — Container
+' CONTAINER MANAGEMENT
 ' ============================================================
-ecs -down-> task1 : "manages"
-ecs -down-> task2 : "manages"
-ecr -down-> task1 : "pulls image"
-ecr -down-> task2 : "pulls image"
-task1 -right-> cw : "stdout/stderr\n(awslogs driver)"
-task2 -right-> cw : "stdout/stderr\n(awslogs driver)"
+ecs -down-> task1 : manages
+ecs -down-> task2 : manages
+ecr -right-> task1 : image pull
+ecr -right-> task2 : image pull
+task1 -right-> cw : logs
+task2 -right-> cw : logs
 
 ' ============================================================
-' SECURITY GROUPS LEGEND
+' LEGEND
 ' ============================================================
 legend right
-  |= Security Group |= Inbound Rules |
-  | ALB SG | TCP 80, 443 from 0.0.0.0/0 |
-  | Task SG | TCP 8080 from ALB SG only |
+  |= Security Group |= Inbound |
+  | ALB SG | 80, 443 from 0.0.0.0/0 |
+  | Task SG | 8080 from ALB SG |
   ---
-  |= Container |= Details |
-  | Go Backend | Serves /api/* + static frontend |
+  |= Container |= Value |
+  | Image | Go backend + Next.js static |
   | Port | 8080 |
-  | Health Check | GET /api/health |
-  | CPU / Memory | 0.25 vCPU / 512 MB |
+  | Health | GET /api/health |
+  | CPU / Mem | 0.25 vCPU / 512 MB |
   ---
   |= Auth |= Method |
-  | GitHub → AWS | OIDC Federation (no static keys) |
+  | GitHub to AWS | OIDC (no static keys) |
 endlegend
 
 @enduml
