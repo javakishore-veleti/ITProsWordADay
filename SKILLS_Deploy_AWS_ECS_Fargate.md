@@ -183,83 +183,32 @@ Only **two secrets** are needed for AWS authentication — no AWS access keys:
 | `AWS_ECS_SERVICE` | ECS service name | `itpros-wordaday-service` |
 | `AWS_ECS_TASK_FAMILY` | ECS task definition family name | `itpros-wordaday-task` |
 
-## GitHub Actions Workflows to Generate
+## GitHub Actions Workflow
 
-All workflows are manually triggered (`workflow_dispatch`). They continue the existing numbering (01-04 already exist for build, Docker build, GitHub Pages deploy, and DockerHub publish).
+A **single consolidated workflow** handles the entire ECS Fargate deployment pipeline:
 
----
+### Workflow 05: `05-aws-ecs-fargate-deploy.yml`
 
-### Workflow 05: `05-aws-ecr-push.yml` — Build & Push Docker Image to AWS ECR
+**Name**: `05 - AWS ECS Fargate Deploy`
 
-**Name**: `05 - AWS ECR Build & Push`
-
-**Trigger**: `workflow_dispatch` (manual only)
-
-**Purpose**: Build the Docker image from the repo root `Dockerfile` and push it to AWS ECR.
-
-**Steps**:
-1. Checkout the repository
-2. Configure AWS credentials using OIDC federation (`aws-actions/configure-aws-credentials@v6`) with the `AWS_IAM_ROLE_ARN` secret and `AWS_REGION`
-3. Login to AWS ECR using `aws-actions/amazon-ecr-login@v2`
-4. Build the Docker image using `docker/build-push-action@v5` with context `.` (repo root)
-5. Tag the image with both `latest` and the git SHA (`${{ github.sha }}`)
-6. Push both tags to ECR: `$AWS_ACCOUNT_ID.dkr.ecr.$AWS_REGION.amazonaws.com/$AWS_ECR_REPOSITORY:latest` and `...:${{ github.sha }}`
-7. Print the pushed image URIs for confirmation
+**Trigger**: `workflow_dispatch` with a choice input:
+- `infrastructure` — create/update CloudFormation stack only
+- `build-and-deploy` — build Docker image, push to ECR, deploy to ECS
+- `full (infrastructure + build + deploy)` — all of the above sequentially
 
 **Permissions**: `id-token: write`, `contents: read`
 
-**Authentication**: Use `aws-actions/configure-aws-credentials@v6` with OIDC as described in "GitHub Actions to AWS Authentication" section above. The IAM role must have `ecr:GetAuthorizationToken`, `ecr:BatchCheckLayerAvailability`, `ecr:PutImage`, `ecr:InitiateLayerUpload`, `ecr:UploadLayerPart`, `ecr:CompleteLayerUpload` permissions.
+**Jobs**:
 
----
-
-### Workflow 06: `06-aws-ecs-deploy.yml` — Deploy to ECS Fargate
-
-**Name**: `06 - AWS ECS Fargate Deploy`
-
-**Trigger**: `workflow_dispatch` (manual only)
-
-**Permissions**: `id-token: write`, `contents: read`
-
-**Purpose**: Update the ECS task definition with the latest ECR image and deploy it to the ECS Fargate service.
-
-**Steps**:
-1. Checkout the repository (needed for the task definition template)
-2. Configure AWS credentials using OIDC federation (`aws-actions/configure-aws-credentials@v6`)
-3. Login to ECR (to resolve the image URI)
-4. Read the ECS task definition template from `aws/ecs-task-definition.json` in the repo
-5. Use `aws-actions/amazon-ecs-render-task-definition@v1` to inject the new image URI into the task definition container named `itpros-wordaday`
-6. Use `aws-actions/amazon-ecs-deploy-task-definition@v2` to register the new task definition and update the ECS service
-   - Set `cluster` from `AWS_ECS_CLUSTER` secret
-   - Set `service` from `AWS_ECS_SERVICE` secret
-   - Set `wait-for-service-stability` to `true` (waits for rolling deploy to complete and health checks to pass)
-7. Print the deployed task definition ARN and service status
-
----
-
-### Workflow 07: `07-aws-infrastructure.yml` — Create/Update AWS Infrastructure via CloudFormation
-
-**Name**: `07 - AWS Infrastructure (CloudFormation)`
-
-**Trigger**: `workflow_dispatch` (manual only)
-
-**Permissions**: `id-token: write`, `contents: read`
-
-**Purpose**: Create or update all AWS infrastructure required by this deployment model using a CloudFormation stack.
-
-**Steps**:
-1. Checkout the repository
-2. Configure AWS credentials using OIDC federation
-3. Deploy the CloudFormation stack from `aws/cloudformation.yml` using `aws-actions/aws-cloudformation-github-deploy@v1`
-   - Stack name: `itpros-wordaday-stack`
-   - Pass parameters: VPC ID, subnet IDs, desired count, container port (8080), image URI
-   - Enable `no-fail-on-empty-changeset` so re-runs are safe
-4. Print stack outputs (ALB DNS name, ECS cluster ARN, service ARN)
+1. **infrastructure** (conditional): Deploys `aws/ecs-fargate/cloudformation.yml` via `aws-actions/aws-cloudformation-github-deploy@v1`, outputs ALB DNS and ECR URI
+2. **build-push** (conditional, runs after infrastructure): Builds Docker image from repo root `Dockerfile`, pushes to ECR with `latest` and git SHA tags using `aws-actions/amazon-ecr-login@v2` + `docker/build-push-action@v5`
+3. **deploy** (runs after build-push): Renders the task definition from `aws/ecs-fargate/ecs-task-definition.json` with new image URI via `aws-actions/amazon-ecs-render-task-definition@v1`, deploys via `aws-actions/amazon-ecs-deploy-task-definition@v2` with `wait-for-service-stability: true`
 
 ---
 
 ## Files to Generate
 
-### 1. `aws/ecs-task-definition.json`
+### 1. `aws/ecs-fargate/ecs-task-definition.json`
 
 A standard ECS task definition JSON file:
 
@@ -278,7 +227,7 @@ A standard ECS task definition JSON file:
   - **Log configuration**: `awslogs` driver with log group `/ecs/itpros-wordaday`, region from parameter, stream prefix `ecs`
   - **Health check**: `CMD-SHELL`, `wget -q --spider http://localhost:8080/api/health || exit 1`, interval 30s, timeout 5s, retries 3, start period 10s
 
-### 2. `aws/cloudformation.yml`
+### 2. `aws/ecs-fargate/cloudformation.yml`
 
 A CloudFormation template that creates the full runtime infrastructure:
 
@@ -310,12 +259,9 @@ A CloudFormation template that creates the full runtime infrastructure:
 - `EcrRepositoryUri` — the ECR repository URI
 - `LogGroupName` — the CloudWatch log group name
 
-### 3. GitHub Actions workflow files
+### 3. GitHub Actions workflow
 
-As described in the "GitHub Actions Workflows to Generate" section above:
-- `.github/workflows/05-aws-ecr-push.yml`
-- `.github/workflows/06-aws-ecs-deploy.yml`
-- `.github/workflows/07-aws-infrastructure.yml`
+- `.github/workflows/05-aws-ecs-fargate-deploy.yml`
 
 ## How to Use This Deployment Model
 
@@ -324,16 +270,14 @@ As described in the "GitHub Actions Workflows to Generate" section above:
 1. **Create an IAM OIDC identity provider** in your AWS account for GitHub Actions: `token.actions.githubusercontent.com`
 2. **Create an IAM role** (`GitHubActionsECSDeployRole`) that trusts the OIDC provider, scoped to your repository `javakishore-veleti/ITProsWordADay`, with permissions for ECR push, ECS deploy, CloudFormation create/update, and CloudWatch
 3. **Add all required secrets** listed in "GitHub Actions Secrets Required" to the GitHub repository
-4. **Run workflow 07** (`07 - AWS Infrastructure`) to create the CloudFormation stack (creates VPC resources, ECS cluster, ALB, ECR repo, etc.)
-5. **Run workflow 05** (`05 - AWS ECR Build & Push`) to build and push the first Docker image
-6. **Run workflow 06** (`06 - AWS ECS Fargate Deploy`) to deploy the image to ECS
+4. **Run workflow 05** with action `infrastructure` to create the CloudFormation stack
+5. **Run workflow 05** with action `build-and-deploy` to build/push the Docker image and deploy to ECS
 
 ### Subsequent deployments (after code changes)
 
 1. Push code changes to GitHub
-2. Manually run workflow **05** to build and push the new image
-3. Manually run workflow **06** to deploy the new image to ECS Fargate
-4. The ALB health check on `/api/health` confirms the new deployment is healthy
+2. Manually run workflow **05** with action `build-and-deploy`
+3. The ALB health check on `/api/health` confirms the new deployment is healthy
 
 ### Verification
 
@@ -355,7 +299,7 @@ As described in the "GitHub Actions Workflows to Generate" section above:
 | **Config mgmt** | Env vars at build time | ECS task definition env | SSM Parameter Store |
 | **Logging** | Browser console | CloudWatch (awslogs) | CloudWatch (agent) |
 | **Lifecycle hooks** | None | ALB health check | Lambda + CodeDeploy hooks |
-| **Workflows** | 03 | 05, 06, 07 | 08, 09, 10, 11 |
+| **Workflows** | 03 | 05 | 06 |
 
 ## Important Constraints
 

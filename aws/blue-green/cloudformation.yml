@@ -1,0 +1,595 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: IT Pros WordADay — Blue/Green EC2 infrastructure with VPC
+
+Parameters:
+  VpcCidr:
+    Type: String
+    Default: "10.0.0.0/16"
+  PublicSubnet1Cidr:
+    Type: String
+    Default: "10.0.0.0/20"
+  PublicSubnet2Cidr:
+    Type: String
+    Default: "10.0.48.0/20"
+  PrivateSubnet1Cidr:
+    Type: String
+    Default: "10.0.16.0/20"
+  PrivateSubnet2Cidr:
+    Type: String
+    Default: "10.0.32.0/20"
+  BastionAllowedCidr:
+    Type: String
+    Default: "0.0.0.0/0"
+    Description: CIDR allowed to SSH into Bastion host
+  KeyPairName:
+    Type: String
+    Default: ""
+    Description: EC2 key pair (leave blank to skip Bastion)
+  InstanceType:
+    Type: String
+    Default: t3.micro
+  AmiId:
+    Type: AWS::SSM::Parameter::Value<AWS::EC2::Image::Id>
+    Default: /aws/service/ami-amazon-linux-latest/al2023-ami-kernel-default-x86_64
+  DesiredCapacity:
+    Type: Number
+    Default: 1
+  MinSize:
+    Type: Number
+    Default: 1
+  MaxSize:
+    Type: Number
+    Default: 3
+  ContainerPort:
+    Type: Number
+    Default: 8080
+
+Conditions:
+  HasKeyPair: !Not [!Equals [!Ref KeyPairName, ""]]
+
+Resources:
+  # ════════════════════════════════════════════════
+  #  NETWORKING
+  # ════════════════════════════════════════════════
+  Vpc:
+    Type: AWS::EC2::VPC
+    Properties:
+      CidrBlock: !Ref VpcCidr
+      EnableDnsSupport: true
+      EnableDnsHostnames: true
+      Tags:
+        - Key: Name
+          Value: itpros-wordaday-vpc
+
+  InternetGateway:
+    Type: AWS::EC2::InternetGateway
+  AttachGateway:
+    Type: AWS::EC2::VPCGatewayAttachment
+    Properties:
+      VpcId: !Ref Vpc
+      InternetGatewayId: !Ref InternetGateway
+
+  PublicSubnet1:
+    Type: AWS::EC2::Subnet
+    Properties:
+      VpcId: !Ref Vpc
+      CidrBlock: !Ref PublicSubnet1Cidr
+      AvailabilityZone: !Select [0, !GetAZs ""]
+      MapPublicIpOnLaunch: true
+      Tags:
+        - Key: Name
+          Value: itpros-public-1
+
+  PublicSubnet2:
+    Type: AWS::EC2::Subnet
+    Properties:
+      VpcId: !Ref Vpc
+      CidrBlock: !Ref PublicSubnet2Cidr
+      AvailabilityZone: !Select [1, !GetAZs ""]
+      MapPublicIpOnLaunch: true
+      Tags:
+        - Key: Name
+          Value: itpros-public-2
+
+  PrivateSubnet1:
+    Type: AWS::EC2::Subnet
+    Properties:
+      VpcId: !Ref Vpc
+      CidrBlock: !Ref PrivateSubnet1Cidr
+      AvailabilityZone: !Select [0, !GetAZs ""]
+      Tags:
+        - Key: Name
+          Value: itpros-private-1
+
+  PrivateSubnet2:
+    Type: AWS::EC2::Subnet
+    Properties:
+      VpcId: !Ref Vpc
+      CidrBlock: !Ref PrivateSubnet2Cidr
+      AvailabilityZone: !Select [1, !GetAZs ""]
+      Tags:
+        - Key: Name
+          Value: itpros-private-2
+
+  NatEip:
+    Type: AWS::EC2::EIP
+    DependsOn: AttachGateway
+  NatGateway:
+    Type: AWS::EC2::NatGateway
+    Properties:
+      AllocationId: !GetAtt NatEip.AllocationId
+      SubnetId: !Ref PublicSubnet1
+
+  PublicRouteTable:
+    Type: AWS::EC2::RouteTable
+    Properties:
+      VpcId: !Ref Vpc
+  PublicRoute:
+    Type: AWS::EC2::Route
+    DependsOn: AttachGateway
+    Properties:
+      RouteTableId: !Ref PublicRouteTable
+      DestinationCidrBlock: "0.0.0.0/0"
+      GatewayId: !Ref InternetGateway
+  PublicSubnet1Assoc:
+    Type: AWS::EC2::SubnetRouteTableAssociation
+    Properties:
+      SubnetId: !Ref PublicSubnet1
+      RouteTableId: !Ref PublicRouteTable
+  PublicSubnet2Assoc:
+    Type: AWS::EC2::SubnetRouteTableAssociation
+    Properties:
+      SubnetId: !Ref PublicSubnet2
+      RouteTableId: !Ref PublicRouteTable
+
+  PrivateRouteTable:
+    Type: AWS::EC2::RouteTable
+    Properties:
+      VpcId: !Ref Vpc
+  PrivateRoute:
+    Type: AWS::EC2::Route
+    Properties:
+      RouteTableId: !Ref PrivateRouteTable
+      DestinationCidrBlock: "0.0.0.0/0"
+      NatGatewayId: !Ref NatGateway
+  PrivateSubnet1Assoc:
+    Type: AWS::EC2::SubnetRouteTableAssociation
+    Properties:
+      SubnetId: !Ref PrivateSubnet1
+      RouteTableId: !Ref PrivateRouteTable
+  PrivateSubnet2Assoc:
+    Type: AWS::EC2::SubnetRouteTableAssociation
+    Properties:
+      SubnetId: !Ref PrivateSubnet2
+      RouteTableId: !Ref PrivateRouteTable
+
+  # ════════════════════════════════════════════════
+  #  BASTION HOST
+  # ════════════════════════════════════════════════
+  BastionSg:
+    Type: AWS::EC2::SecurityGroup
+    Condition: HasKeyPair
+    Properties:
+      GroupDescription: Bastion - SSH from allowed IP only
+      VpcId: !Ref Vpc
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: 22
+          ToPort: 22
+          CidrIp: !Ref BastionAllowedCidr
+
+  BastionHost:
+    Type: AWS::EC2::Instance
+    Condition: HasKeyPair
+    Properties:
+      InstanceType: t3.micro
+      ImageId: !Ref AmiId
+      KeyName: !Ref KeyPairName
+      SubnetId: !Ref PublicSubnet2
+      SecurityGroupIds:
+        - !Ref BastionSg
+      Tags:
+        - Key: Name
+          Value: itpros-bastion
+
+  # ════════════════════════════════════════════════
+  #  STORAGE & LOGGING
+  # ════════════════════════════════════════════════
+  ArtifactBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub "itpros-wordaday-artifacts-${AWS::AccountId}"
+      VersioningConfiguration:
+        Status: Enabled
+      LifecycleConfiguration:
+        Rules:
+          - Id: DeleteOldArtifacts
+            Status: Enabled
+            ExpirationInDays: 30
+
+  LogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: /ec2/itpros-wordaday
+      RetentionInDays: 30
+
+  EfsFileSystem:
+    Type: AWS::EFS::FileSystem
+    Properties:
+      Encrypted: true
+      PerformanceMode: generalPurpose
+      ThroughputMode: bursting
+      FileSystemTags:
+        - Key: Name
+          Value: itpros-wordaday-efs
+
+  EfsSg:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupDescription: EFS - NFS from EC2 SG only
+      VpcId: !Ref Vpc
+
+  EfsMountTarget1:
+    Type: AWS::EFS::MountTarget
+    Properties:
+      FileSystemId: !Ref EfsFileSystem
+      SubnetId: !Ref PrivateSubnet1
+      SecurityGroups:
+        - !Ref EfsSg
+
+  EfsMountTarget2:
+    Type: AWS::EFS::MountTarget
+    Properties:
+      FileSystemId: !Ref EfsFileSystem
+      SubnetId: !Ref PrivateSubnet2
+      SecurityGroups:
+        - !Ref EfsSg
+
+  # ════════════════════════════════════════════════
+  #  LOAD BALANCER
+  # ════════════════════════════════════════════════
+  AlbSg:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupDescription: ALB - HTTP/HTTPS from internet
+      VpcId: !Ref Vpc
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: 80
+          ToPort: 80
+          CidrIp: "0.0.0.0/0"
+        - IpProtocol: tcp
+          FromPort: 443
+          ToPort: 443
+          CidrIp: "0.0.0.0/0"
+
+  Alb:
+    Type: AWS::ElasticLoadBalancingV2::LoadBalancer
+    Properties:
+      Name: itpros-wordaday-alb
+      Scheme: internet-facing
+      Subnets:
+        - !Ref PublicSubnet1
+        - !Ref PublicSubnet2
+      SecurityGroups:
+        - !Ref AlbSg
+
+  BlueTg:
+    Type: AWS::ElasticLoadBalancingV2::TargetGroup
+    Properties:
+      Name: itpros-blue-tg
+      TargetType: instance
+      Port: !Ref ContainerPort
+      Protocol: HTTP
+      VpcId: !Ref Vpc
+      HealthCheckPath: /api/health
+      HealthCheckIntervalSeconds: 30
+      HealthyThresholdCount: 2
+      UnhealthyThresholdCount: 3
+
+  GreenTg:
+    Type: AWS::ElasticLoadBalancingV2::TargetGroup
+    Properties:
+      Name: itpros-green-tg
+      TargetType: instance
+      Port: !Ref ContainerPort
+      Protocol: HTTP
+      VpcId: !Ref Vpc
+      HealthCheckPath: /api/health
+      HealthCheckIntervalSeconds: 30
+      HealthyThresholdCount: 2
+      UnhealthyThresholdCount: 3
+
+  HttpListener:
+    Type: AWS::ElasticLoadBalancingV2::Listener
+    Properties:
+      LoadBalancerArn: !Ref Alb
+      Port: 80
+      Protocol: HTTP
+      DefaultActions:
+        - Type: forward
+          TargetGroupArn: !Ref BlueTg
+
+  # ════════════════════════════════════════════════
+  #  COMPUTE (EC2 + ASG)
+  # ════════════════════════════════════════════════
+  Ec2Sg:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupDescription: EC2 app instances
+      VpcId: !Ref Vpc
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: !Ref ContainerPort
+          ToPort: !Ref ContainerPort
+          SourceSecurityGroupId: !Ref AlbSg
+
+  Ec2SgSshFromBastion:
+    Type: AWS::EC2::SecurityGroupIngress
+    Condition: HasKeyPair
+    Properties:
+      GroupId: !Ref Ec2Sg
+      IpProtocol: tcp
+      FromPort: 22
+      ToPort: 22
+      SourceSecurityGroupId: !Ref BastionSg
+
+  EfsIngressFromEc2:
+    Type: AWS::EC2::SecurityGroupIngress
+    Properties:
+      GroupId: !Ref EfsSg
+      IpProtocol: tcp
+      FromPort: 2049
+      ToPort: 2049
+      SourceSecurityGroupId: !Ref Ec2Sg
+
+  Ec2Role:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: itpros-wordaday-ec2-role
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: ec2.amazonaws.com
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/AmazonSSMManagedInstanceCore
+        - arn:aws:iam::aws:policy/CloudWatchAgentServerPolicy
+        - arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess
+        - arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess
+
+  InstanceProfile:
+    Type: AWS::IAM::InstanceProfile
+    Properties:
+      Roles:
+        - !Ref Ec2Role
+
+  LaunchTemplate:
+    Type: AWS::EC2::LaunchTemplate
+    Properties:
+      LaunchTemplateName: itpros-wordaday-lt
+      LaunchTemplateData:
+        ImageId: !Ref AmiId
+        InstanceType: !Ref InstanceType
+        KeyName: !If [HasKeyPair, !Ref KeyPairName, !Ref "AWS::NoValue"]
+        IamInstanceProfile:
+          Arn: !GetAtt InstanceProfile.Arn
+        SecurityGroupIds:
+          - !Ref Ec2Sg
+        UserData:
+          Fn::Base64: !Sub |
+            #!/bin/bash
+            set -ex
+            yum update -y
+            yum install -y ruby wget amazon-efs-utils
+
+            # Install CodeDeploy agent
+            REGION=$(curl -s http://169.254.169.254/latest/meta-data/placement/region)
+            cd /tmp
+            wget "https://aws-codedeploy-${!REGION}.s3.${!REGION}.amazonaws.com/latest/install"
+            chmod +x install && ./install auto
+
+            # Mount EFS
+            mkdir -p /mnt/efs
+            mount -t efs ${EfsFileSystem}:/ /mnt/efs || true
+            echo "${EfsFileSystem}:/ /mnt/efs efs defaults,_netdev 0 0" >> /etc/fstab
+
+            # Create app directory
+            mkdir -p /opt/itpros-wordaday
+            chown ec2-user:ec2-user /opt/itpros-wordaday
+        TagSpecifications:
+          - ResourceType: instance
+            Tags:
+              - Key: Name
+                Value: itpros-wordaday-app
+
+  Asg:
+    Type: AWS::AutoScaling::AutoScalingGroup
+    Properties:
+      AutoScalingGroupName: itpros-wordaday-asg
+      LaunchTemplate:
+        LaunchTemplateId: !Ref LaunchTemplate
+        Version: !GetAtt LaunchTemplate.LatestVersionNumber
+      MinSize: !Ref MinSize
+      MaxSize: !Ref MaxSize
+      DesiredCapacity: !Ref DesiredCapacity
+      VPCZoneIdentifier:
+        - !Ref PrivateSubnet1
+        - !Ref PrivateSubnet2
+      TargetGroupARNs:
+        - !Ref BlueTg
+      Tags:
+        - Key: Name
+          Value: itpros-wordaday-app
+          PropagateAtLaunch: true
+
+  # ════════════════════════════════════════════════
+  #  CODEDEPLOY
+  # ════════════════════════════════════════════════
+  CodeDeployServiceRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: itpros-wordaday-codedeploy-role
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: codedeploy.amazonaws.com
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/AWSCodeDeployRole
+
+  CodeDeployApp:
+    Type: AWS::CodeDeploy::Application
+    Properties:
+      ApplicationName: itpros-wordaday-app
+      ComputePlatform: Server
+
+  CodeDeployGroup:
+    Type: AWS::CodeDeploy::DeploymentGroup
+    DependsOn: Asg
+    Properties:
+      ApplicationName: !Ref CodeDeployApp
+      DeploymentGroupName: itpros-wordaday-bg-group
+      ServiceRoleArn: !GetAtt CodeDeployServiceRole.Arn
+      AutoScalingGroups:
+        - !Ref Asg
+      DeploymentStyle:
+        DeploymentType: BLUE_GREEN
+        DeploymentOption: WITH_TRAFFIC_CONTROL
+      BlueGreenDeploymentConfiguration:
+        TerminateBlueInstancesOnDeploymentSuccess:
+          Action: TERMINATE
+          TerminationWaitTimeInMinutes: 5
+        DeploymentReadyOption:
+          ActionOnTimeout: CONTINUE_DEPLOYMENT
+        GreenFleetProvisioningOption:
+          Action: COPY_AUTO_SCALING_GROUP
+      LoadBalancerInfo:
+        TargetGroupPairInfoList:
+          - TargetGroups:
+              - Name: itpros-blue-tg
+              - Name: itpros-green-tg
+            ProdTrafficRoute:
+              ListenerArns:
+                - !Ref HttpListener
+
+  # ════════════════════════════════════════════════
+  #  LAMBDA (deployment hook)
+  # ════════════════════════════════════════════════
+  LambdaRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: itpros-wordaday-lambda-role
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: lambda.amazonaws.com
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+      Policies:
+        - PolicyName: DeployHookPolicy
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - codedeploy:PutLifecycleEventHookExecutionStatus
+                Resource: "*"
+              - Effect: Allow
+                Action:
+                  - ssm:PutParameter
+                  - ssm:GetParameter
+                Resource: !Sub "arn:aws:ssm:${AWS::Region}:${AWS::AccountId}:parameter/itpros-wordaday/*"
+              - Effect: Allow
+                Action:
+                  - cloudformation:DescribeStacks
+                Resource: !Sub "arn:aws:cloudformation:${AWS::Region}:${AWS::AccountId}:stack/itpros-wordaday-bg-stack/*"
+
+  DeployHookFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: itpros-wordaday-deploy-hook
+      Runtime: python3.12
+      Handler: deployment_hook.handler
+      Role: !GetAtt LambdaRole.Arn
+      Timeout: 60
+      Code:
+        S3Bucket: !Ref ArtifactBucket
+        S3Key: lambda/deployment_hook.zip
+      Environment:
+        Variables:
+          STACK_NAME: itpros-wordaday-bg-stack
+          SSM_PREFIX: /itpros-wordaday
+
+  # ════════════════════════════════════════════════
+  #  SSM PARAMETERS
+  # ════════════════════════════════════════════════
+  SsmDeploymentMode:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Name: /itpros-wordaday/deployment-mode
+      Type: String
+      Value: aws
+  SsmPort:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Name: /itpros-wordaday/port
+      Type: String
+      Value: "8080"
+  SsmDataRootPath:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Name: /itpros-wordaday/data-root-path
+      Type: String
+      Value: /mnt/efs/data
+  SsmPageSize:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Name: /itpros-wordaday/page-size
+      Type: String
+      Value: "20"
+  SsmEfsId:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Name: /itpros-wordaday/efs-id
+      Type: String
+      Value: !Ref EfsFileSystem
+  SsmAppVersion:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Name: /itpros-wordaday/app-version
+      Type: String
+      Value: initial
+
+Outputs:
+  VpcId:
+    Value: !Ref Vpc
+  PublicSubnetIds:
+    Value: !Join [",", [!Ref PublicSubnet1, !Ref PublicSubnet2]]
+  PrivateSubnetIds:
+    Value: !Join [",", [!Ref PrivateSubnet1, !Ref PrivateSubnet2]]
+  BastionPublicIp:
+    Condition: HasKeyPair
+    Value: !GetAtt BastionHost.PublicIp
+  AlbDnsName:
+    Value: !GetAtt Alb.DNSName
+    Description: Application URL
+  AutoScalingGroupName:
+    Value: !Ref Asg
+  CodeDeployAppName:
+    Value: !Ref CodeDeployApp
+  CodeDeployGroupName:
+    Value: !Ref CodeDeployGroup
+  S3ArtifactBucket:
+    Value: !Ref ArtifactBucket
+  EfsFileSystemId:
+    Value: !Ref EfsFileSystem
+  LogGroupName:
+    Value: !Ref LogGroup

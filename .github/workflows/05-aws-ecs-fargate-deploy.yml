@@ -1,0 +1,147 @@
+name: "05 - AWS ECS Fargate Deploy"
+
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: "What to do"
+        required: true
+        type: choice
+        options:
+          - infrastructure
+          - build-and-deploy
+          - full (infrastructure + build + deploy)
+
+permissions:
+  id-token: write
+  contents: read
+
+env:
+  ECR_REPO: ${{ secrets.AWS_ECR_REPOSITORY }}
+  ECS_CLUSTER: ${{ secrets.AWS_ECS_CLUSTER }}
+  ECS_SERVICE: ${{ secrets.AWS_ECS_SERVICE }}
+
+jobs:
+  # ──────────────────────────────────────────────
+  # Job 1: Create / update CloudFormation stack
+  # ──────────────────────────────────────────────
+  infrastructure:
+    name: CloudFormation Infrastructure
+    if: inputs.action == 'infrastructure' || inputs.action == 'full (infrastructure + build + deploy)'
+    runs-on: ubuntu-latest
+    outputs:
+      ecr_uri: ${{ steps.stack.outputs.EcrRepositoryUri }}
+      alb_dns: ${{ steps.stack.outputs.AlbDnsName }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v6
+        with:
+          role-to-assume: ${{ secrets.AWS_IAM_ROLE_ARN }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      - name: Deploy CloudFormation stack
+        id: stack
+        uses: aws-actions/aws-cloudformation-github-deploy@v1
+        with:
+          name: itpros-wordaday-ecs-stack
+          template: aws/ecs-fargate/cloudformation.yml
+          parameter-overrides: >-
+            ContainerPort=8080,
+            DesiredCount=1
+          capabilities: CAPABILITY_NAMED_IAM
+          no-fail-on-empty-changeset: "1"
+
+      - name: Print stack outputs
+        run: |
+          echo "ALB DNS: ${{ steps.stack.outputs.AlbDnsName }}"
+          echo "ECR URI: ${{ steps.stack.outputs.EcrRepositoryUri }}"
+          echo "Cluster: ${{ steps.stack.outputs.EcsClusterArn }}"
+          echo "Service: ${{ steps.stack.outputs.EcsServiceArn }}"
+
+  # ──────────────────────────────────────────────
+  # Job 2: Build Docker image and push to ECR
+  # ──────────────────────────────────────────────
+  build-push:
+    name: Build & Push to ECR
+    needs: [infrastructure]
+    if: always() && (needs.infrastructure.result == 'success' || needs.infrastructure.result == 'skipped') && (github.event.inputs.action == 'build-and-deploy' || github.event.inputs.action == 'full (infrastructure + build + deploy)')
+    runs-on: ubuntu-latest
+    outputs:
+      image: ${{ steps.image.outputs.uri }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v6
+        with:
+          role-to-assume: ${{ secrets.AWS_IAM_ROLE_ARN }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      - name: Login to Amazon ECR
+        id: ecr-login
+        uses: aws-actions/amazon-ecr-login@v2
+
+      - name: Set image URI
+        id: image
+        run: |
+          REGISTRY=${{ steps.ecr-login.outputs.registry }}
+          URI="${REGISTRY}/${{ env.ECR_REPO }}:${{ github.sha }}"
+          echo "uri=${URI}" >> "$GITHUB_OUTPUT"
+          echo "Image URI: ${URI}"
+
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          push: true
+          tags: |
+            ${{ steps.ecr-login.outputs.registry }}/${{ env.ECR_REPO }}:latest
+            ${{ steps.ecr-login.outputs.registry }}/${{ env.ECR_REPO }}:${{ github.sha }}
+
+  # ──────────────────────────────────────────────
+  # Job 3: Deploy new image to ECS Fargate
+  # ──────────────────────────────────────────────
+  deploy:
+    name: Deploy to ECS Fargate
+    needs: [build-push]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v6
+        with:
+          role-to-assume: ${{ secrets.AWS_IAM_ROLE_ARN }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      - name: Render new task definition
+        id: render
+        uses: aws-actions/amazon-ecs-render-task-definition@v1
+        with:
+          task-definition: aws/ecs-fargate/ecs-task-definition.json
+          container-name: itpros-wordaday
+          image: ${{ needs.build-push.outputs.image }}
+
+      - name: Deploy to ECS
+        uses: aws-actions/amazon-ecs-deploy-task-definition@v2
+        with:
+          task-definition: ${{ steps.render.outputs.task-definition }}
+          service: ${{ env.ECS_SERVICE }}
+          cluster: ${{ env.ECS_CLUSTER }}
+          wait-for-service-stability: true
+
+      - name: Print deployment info
+        run: |
+          echo "Deployed image: ${{ needs.build-push.outputs.image }}"
+          echo "Cluster: ${{ env.ECS_CLUSTER }}"
+          echo "Service: ${{ env.ECS_SERVICE }}"
+          aws ecs describe-services \
+            --cluster "${{ env.ECS_CLUSTER }}" \
+            --services "${{ env.ECS_SERVICE }}" \
+            --query 'services[0].{status:status,running:runningCount,desired:desiredCount,taskDef:taskDefinition}' \
+            --output table

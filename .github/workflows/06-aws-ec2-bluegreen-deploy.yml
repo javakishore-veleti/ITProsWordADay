@@ -1,0 +1,232 @@
+name: "06 - AWS EC2 Blue/Green Deploy"
+
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: "What to do"
+        required: true
+        type: choice
+        options:
+          - infrastructure
+          - build-and-deploy
+          - efs-sync
+          - full (infrastructure + build + deploy)
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  # ──────────────────────────────────────────────
+  # Job 1: Create / update CloudFormation stack
+  # ──────────────────────────────────────────────
+  infrastructure:
+    name: CloudFormation Infrastructure
+    if: inputs.action == 'infrastructure' || inputs.action == 'full (infrastructure + build + deploy)'
+    runs-on: ubuntu-latest
+    outputs:
+      alb_dns: ${{ steps.outputs.outputs.alb_dns }}
+      asg_name: ${{ steps.outputs.outputs.asg_name }}
+      s3_bucket: ${{ steps.outputs.outputs.s3_bucket }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v6
+        with:
+          role-to-assume: ${{ secrets.AWS_IAM_ROLE_ARN }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      - name: Package Lambda code
+        run: |
+          cd aws/blue-green/lambda
+          zip -j deployment_hook.zip deployment_hook.py
+          aws s3 cp deployment_hook.zip \
+            s3://${{ secrets.AWS_S3_ARTIFACT_BUCKET }}/lambda/deployment_hook.zip
+
+      - name: Deploy CloudFormation stack
+        run: |
+          aws cloudformation deploy \
+            --template-file aws/blue-green/cloudformation.yml \
+            --stack-name itpros-wordaday-bg-stack \
+            --parameter-overrides \
+              BastionAllowedCidr=${{ secrets.AWS_BASTION_ALLOWED_CIDR }} \
+              KeyPairName=${{ secrets.AWS_KEYPAIR_NAME }} \
+            --capabilities CAPABILITY_NAMED_IAM \
+            --no-fail-on-empty-changeset
+
+      - name: Get stack outputs
+        id: outputs
+        run: |
+          OUTPUTS=$(aws cloudformation describe-stacks \
+            --stack-name itpros-wordaday-bg-stack \
+            --query 'Stacks[0].Outputs' --output json)
+          echo "alb_dns=$(echo $OUTPUTS | jq -r '.[] | select(.OutputKey=="AlbDnsName") | .OutputValue')" >> "$GITHUB_OUTPUT"
+          echo "asg_name=$(echo $OUTPUTS | jq -r '.[] | select(.OutputKey=="AutoScalingGroupName") | .OutputValue')" >> "$GITHUB_OUTPUT"
+          echo "s3_bucket=$(echo $OUTPUTS | jq -r '.[] | select(.OutputKey=="S3ArtifactBucket") | .OutputValue')" >> "$GITHUB_OUTPUT"
+          echo "$OUTPUTS" | jq -r '.[] | "\(.OutputKey): \(.OutputValue)"'
+
+  # ──────────────────────────────────────────────
+  # Job 2: Sync word data to EFS via S3 + SSM
+  # ──────────────────────────────────────────────
+  efs-sync:
+    name: Sync Word Data to EFS
+    if: inputs.action == 'efs-sync'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v6
+        with:
+          role-to-assume: ${{ secrets.AWS_IAM_ROLE_ARN }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      - name: Upload word data to S3
+        run: |
+          aws s3 sync \
+            Services/EnglishWordADayService/data/words/ \
+            s3://${{ secrets.AWS_S3_ARTIFACT_BUCKET }}/efs-data/words/ \
+            --delete
+          echo "Word data uploaded to S3"
+
+      - name: Sync S3 to EFS via SSM Run Command
+        run: |
+          COMMAND_ID=$(aws ssm send-command \
+            --targets "Key=tag:aws:autoscaling:groupName,Values=${{ secrets.AWS_ASG_NAME }}" \
+            --document-name "AWS-RunShellScript" \
+            --parameters 'commands=["aws s3 sync s3://${{ secrets.AWS_S3_ARTIFACT_BUCKET }}/efs-data/words/ /mnt/efs/data/words/ --delete"]' \
+            --max-concurrency "1" \
+            --max-errors "0" \
+            --query 'Command.CommandId' --output text)
+
+          echo "SSM Command ID: ${COMMAND_ID}"
+          echo "Waiting for command to complete..."
+
+          aws ssm wait command-executed \
+            --command-id "${COMMAND_ID}" \
+            --instance-id "$(aws ssm list-command-invocations \
+              --command-id "${COMMAND_ID}" \
+              --query 'CommandInvocations[0].InstanceId' --output text)" \
+            2>/dev/null || true
+
+          aws ssm list-command-invocations \
+            --command-id "${COMMAND_ID}" \
+            --details \
+            --query 'CommandInvocations[*].{Instance:InstanceId,Status:Status}' \
+            --output table
+
+  # ──────────────────────────────────────────────
+  # Job 3: Build artifact and upload to S3
+  # ──────────────────────────────────────────────
+  build:
+    name: Build Deployment Artifact
+    needs: [infrastructure]
+    if: always() && (needs.infrastructure.result == 'success' || needs.infrastructure.result == 'skipped') && (github.event.inputs.action == 'build-and-deploy' || github.event.inputs.action == 'full (infrastructure + build + deploy)')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v6
+        with:
+          role-to-assume: ${{ secrets.AWS_IAM_ROLE_ARN }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: "1.21"
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Build Go backend
+        working-directory: Services/EnglishWordADayService
+        run: CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o server .
+
+      - name: Build Next.js frontend
+        working-directory: Portals/EnglishWordADayPortal
+        run: |
+          npm ci
+          npm run build
+
+      - name: Assemble deployment bundle
+        run: |
+          mkdir -p deploy-bundle/app/public
+          mkdir -p deploy-bundle/scripts
+          mkdir -p deploy-bundle/data/words
+
+          cp aws/blue-green/appspec.yml deploy-bundle/
+          cp aws/blue-green/scripts/*.sh deploy-bundle/scripts/
+          chmod +x deploy-bundle/scripts/*.sh
+
+          cp Services/EnglishWordADayService/server deploy-bundle/app/
+          cp -r Portals/EnglishWordADayPortal/out/* deploy-bundle/app/public/
+          cp -r Services/EnglishWordADayService/data/words/* deploy-bundle/data/words/
+
+          cd deploy-bundle && zip -r ../deploy-bundle.zip .
+
+      - name: Upload artifact to S3
+        run: |
+          aws s3 cp deploy-bundle.zip \
+            s3://${{ secrets.AWS_S3_ARTIFACT_BUCKET }}/deploys/${{ github.sha }}.zip
+          SIZE=$(du -h deploy-bundle.zip | cut -f1)
+          echo "Uploaded: s3://${{ secrets.AWS_S3_ARTIFACT_BUCKET }}/deploys/${{ github.sha }}.zip (${SIZE})"
+
+  # ──────────────────────────────────────────────
+  # Job 4: Trigger CodeDeploy Blue/Green
+  # ──────────────────────────────────────────────
+  deploy:
+    name: CodeDeploy Blue/Green
+    needs: [build]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v6
+        with:
+          role-to-assume: ${{ secrets.AWS_IAM_ROLE_ARN }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      - name: Create CodeDeploy deployment
+        id: codedeploy
+        run: |
+          DEPLOYMENT_ID=$(aws deploy create-deployment \
+            --application-name ${{ secrets.AWS_CODEDEPLOY_APP }} \
+            --deployment-group-name ${{ secrets.AWS_CODEDEPLOY_GROUP }} \
+            --s3-location \
+              bucket=${{ secrets.AWS_S3_ARTIFACT_BUCKET }},key=deploys/${{ github.sha }}.zip,bundleType=zip \
+            --description "Deploy ${{ github.sha }} from GitHub Actions" \
+            --query 'deploymentId' --output text)
+
+          echo "deployment_id=${DEPLOYMENT_ID}" >> "$GITHUB_OUTPUT"
+          echo "Deployment ID: ${DEPLOYMENT_ID}"
+
+      - name: Wait for deployment to complete
+        run: |
+          echo "Waiting for deployment ${{ steps.codedeploy.outputs.deployment_id }}..."
+          if aws deploy wait deployment-successful \
+            --deployment-id "${{ steps.codedeploy.outputs.deployment_id }}"; then
+            echo "Deployment succeeded!"
+          else
+            echo "Deployment failed or timed out. Fetching details..."
+            aws deploy get-deployment \
+              --deployment-id "${{ steps.codedeploy.outputs.deployment_id }}" \
+              --query 'deploymentInfo.{status:status,errorInfo:errorInformation}' \
+              --output json
+            exit 1
+          fi
+
+      - name: Print deployment summary
+        if: always()
+        run: |
+          aws deploy get-deployment \
+            --deployment-id "${{ steps.codedeploy.outputs.deployment_id }}" \
+            --query 'deploymentInfo.{Status:status,Created:createTime,Completed:completeTime,Description:description}' \
+            --output table

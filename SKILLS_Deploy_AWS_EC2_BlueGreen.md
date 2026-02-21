@@ -289,145 +289,28 @@ Stored in **SSM Parameter Store** and injected into EC2 instances at boot via us
 - **Next.js frontend** (`Portals/EnglishWordADayPortal/`): Built as static export (`next export`), served by Go backend from `/app/public/`
 - **Word JSON data files**: Copied to Amazon EFS once, shared across all EC2 instances
 
-## GitHub Actions Workflows to Generate
+## GitHub Actions Workflow
 
-All workflows are manually triggered (`workflow_dispatch`). They use numbers 08-11, continuing after the ECS Fargate model (05-07).
+A **single consolidated workflow** handles the entire Blue/Green EC2 deployment pipeline:
 
----
+### Workflow 06: `06-aws-ec2-bluegreen-deploy.yml`
 
-### Workflow 08: `08-aws-bg-build.yml` — Build Deployment Artifact
+**Name**: `06 - AWS EC2 Blue/Green Deploy`
 
-**Name**: `08 - AWS Blue/Green Build Artifact`
-
-**Trigger**: `workflow_dispatch` (manual only)
-
-**Permissions**: `id-token: write`, `contents: read`
-
-**Purpose**: Build the Go binary and Next.js static export, package them with CodeDeploy scripts, and upload the zip artifact to S3.
-
-**Steps**:
-1. Checkout the repository
-2. Configure AWS credentials using OIDC federation (`aws-actions/configure-aws-credentials@v6`) with `AWS_IAM_ROLE_ARN` and `AWS_REGION` secrets
-3. Setup Go 1.21 and Node.js 20
-4. Build the Go backend:
-   ```
-   cd Services/EnglishWordADayService && CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o server .
-   ```
-5. Build the Next.js frontend static export:
-   ```
-   cd Portals/EnglishWordADayPortal && npm ci && npm run build
-   ```
-6. Assemble the deployment bundle directory structure:
-   ```
-   deploy-bundle/
-   ├── appspec.yml                    # CodeDeploy lifecycle hooks
-   ├── scripts/
-   │   ├── install_dependencies.sh    # Install runtime dependencies on EC2
-   │   ├── start_server.sh            # Start the Go server as a systemd service
-   │   ├── stop_server.sh             # Stop the Go server gracefully
-   │   └── validate_service.sh        # Health check after deployment
-   ├── app/
-   │   ├── server                     # Go binary
-   │   └── public/                    # Next.js static export output
-   └── data/
-       └── words/                     # Word JSON files (all genres)
-   ```
-7. Zip the deployment bundle
-8. Upload the zip to S3: `s3://${{ secrets.AWS_S3_ARTIFACT_BUCKET }}/deploys/${{ github.sha }}.zip`
-9. Print the S3 URI and artifact size
-
----
-
-### Workflow 09: `09-aws-bg-deploy.yml` — Trigger Blue/Green Deployment
-
-**Name**: `09 - AWS Blue/Green Deploy`
-
-**Trigger**: `workflow_dispatch` (manual only)
+**Trigger**: `workflow_dispatch` with a choice input:
+- `infrastructure` — create/update CloudFormation stack only
+- `build-and-deploy` — build Go + Next.js, upload artifact to S3, trigger CodeDeploy Blue/Green
+- `efs-sync` — sync word JSON data from the repo to EFS via S3 + SSM Run Command
+- `full (infrastructure + build + deploy)` — infrastructure then build then CodeDeploy sequentially
 
 **Permissions**: `id-token: write`, `contents: read`
 
-**Purpose**: Trigger a CodeDeploy Blue/Green deployment using the latest artifact from S3.
+**Jobs**:
 
-**Steps**:
-1. Checkout the repository
-2. Configure AWS credentials using OIDC federation
-3. Create a CodeDeploy deployment:
-   ```
-   aws deploy create-deployment \
-     --application-name ${{ secrets.AWS_CODEDEPLOY_APP }} \
-     --deployment-group-name ${{ secrets.AWS_CODEDEPLOY_GROUP }} \
-     --s3-location bucket=${{ secrets.AWS_S3_ARTIFACT_BUCKET }},key=deploys/${{ github.sha }}.zip,bundleType=zip \
-     --description "Deploy ${{ github.sha }} from GitHub Actions"
-   ```
-4. Wait for deployment to complete:
-   ```
-   aws deploy wait deployment-successful --deployment-id <id>
-   ```
-   Set a timeout of 15 minutes. If it exceeds this, the workflow fails.
-5. Print the deployment status, deployment ID, and the ALB DNS name
-6. If deployment fails, print the deployment error info:
-   ```
-   aws deploy get-deployment --deployment-id <id>
-   ```
-
----
-
-### Workflow 10: `10-aws-bg-infrastructure.yml` — Create/Update Infrastructure via CloudFormation
-
-**Name**: `10 - AWS Blue/Green Infrastructure (CloudFormation)`
-
-**Trigger**: `workflow_dispatch` (manual only)
-
-**Permissions**: `id-token: write`, `contents: read`
-
-**Purpose**: Create or update all AWS infrastructure for the Blue/Green deployment model using a CloudFormation stack.
-
-**Steps**:
-1. Checkout the repository
-2. Configure AWS credentials using OIDC federation
-3. Deploy the CloudFormation stack from `aws/blue-green/cloudformation.yml`:
-   ```
-   aws cloudformation deploy \
-     --template-file aws/blue-green/cloudformation.yml \
-     --stack-name itpros-wordaday-bg-stack \
-     --parameter-overrides \
-       BastionAllowedCidr=${{ secrets.AWS_BASTION_ALLOWED_CIDR }} \
-       KeyPairName=${{ secrets.AWS_KEYPAIR_NAME }} \
-       EfsFileSystemId=${{ secrets.AWS_EFS_FILE_SYSTEM_ID }} \
-     --capabilities CAPABILITY_NAMED_IAM \
-     --no-fail-on-empty-changeset
-   ```
-4. Print stack outputs (ALB DNS name, ASG name, CodeDeploy app/group, S3 bucket)
-
----
-
-### Workflow 11: `11-aws-bg-efs-sync.yml` — Sync Word Data to EFS
-
-**Name**: `11 - AWS Sync Word Data to EFS`
-
-**Trigger**: `workflow_dispatch` (manual only)
-
-**Permissions**: `id-token: write`, `contents: read`
-
-**Purpose**: Upload the latest word JSON files from the repository to the EFS file system via a temporary EC2 instance or AWS DataSync.
-
-**Steps**:
-1. Checkout the repository
-2. Configure AWS credentials using OIDC federation
-3. Upload word data files from `Services/EnglishWordADayService/data/words/` to S3:
-   ```
-   aws s3 sync Services/EnglishWordADayService/data/words/ \
-     s3://${{ secrets.AWS_S3_ARTIFACT_BUCKET }}/efs-data/words/ --delete
-   ```
-4. Trigger an SSM Run Command on one running EC2 instance in the ASG to sync from S3 to EFS:
-   ```
-   aws ssm send-command \
-     --targets Key=tag:aws:autoscaling:groupName,Values=${{ secrets.AWS_ASG_NAME }} \
-     --document-name "AWS-RunShellScript" \
-     --parameters 'commands=["aws s3 sync s3://<bucket>/efs-data/words/ /mnt/efs/data/words/ --delete"]' \
-     --max-concurrency "1" --max-errors "0"
-   ```
-5. Wait for the command to complete, then print status
+1. **infrastructure** (conditional): Packages `aws/blue-green/lambda/deployment_hook.py` → S3, then deploys `aws/blue-green/cloudformation.yml` via `aws cloudformation deploy`, outputs ALB DNS, ASG name, S3 bucket
+2. **efs-sync** (conditional): Syncs `Services/EnglishWordADayService/data/words/` → S3, then triggers `aws ssm send-command` on an ASG instance to pull from S3 → `/mnt/efs/data/words/`
+3. **build** (conditional, runs after infrastructure): Builds Go binary (`CGO_ENABLED=0 GOOS=linux GOARCH=amd64`), Next.js static export, assembles deployment bundle with `appspec.yml` + scripts + binary + frontend + word data, zips and uploads to `s3://<bucket>/deploys/<sha>.zip`
+4. **deploy** (runs after build): Calls `aws deploy create-deployment` for Blue/Green, waits with `aws deploy wait deployment-successful`, prints summary
 
 ---
 
@@ -633,13 +516,9 @@ A CloudFormation template for the full Blue/Green infrastructure:
 - `EfsFileSystemId` — EFS file system ID
 - `LogGroupName` — CloudWatch log group name
 
-### 8. GitHub Actions workflow files
+### 8. GitHub Actions workflow
 
-As described in the "GitHub Actions Workflows to Generate" section above:
-- `.github/workflows/08-aws-bg-build.yml`
-- `.github/workflows/09-aws-bg-deploy.yml`
-- `.github/workflows/10-aws-bg-infrastructure.yml`
-- `.github/workflows/11-aws-bg-efs-sync.yml`
+- `.github/workflows/06-aws-ec2-bluegreen-deploy.yml`
 
 ---
 
@@ -649,18 +528,16 @@ As described in the "GitHub Actions Workflows to Generate" section above:
 
 1. **Create the OIDC identity provider and IAM role** in AWS for GitHub Actions (see "GitHub Actions to AWS Authentication" section above)
 2. **Add all required secrets** listed in the secrets sections to the GitHub repository Settings > Secrets
-3. **Run workflow 10** (`10 - AWS Blue/Green Infrastructure`) to create the CloudFormation stack
-4. **Run workflow 11** (`11 - AWS Sync Word Data to EFS`) to upload the initial word data to EFS
-5. **Run workflow 08** (`08 - AWS Blue/Green Build Artifact`) to build and upload the first deployment artifact
-6. **Run workflow 09** (`09 - AWS Blue/Green Deploy`) to trigger the first CodeDeploy deployment
+3. **Run workflow 06** with action `infrastructure` to create the CloudFormation stack
+4. **Run workflow 06** with action `efs-sync` to upload the initial word data to EFS
+5. **Run workflow 06** with action `build-and-deploy` to build artifact and trigger Blue/Green deployment
 
 ### Subsequent deployments (after code changes)
 
 1. Push code changes to GitHub
-2. Manually run workflow **08** to build a new artifact
-3. Manually run workflow **09** to deploy via Blue/Green
-4. If word data files changed, also run workflow **11** to sync to EFS
-5. CodeDeploy health check on `/api/health` confirms the deployment is healthy
+2. Manually run workflow **06** with action `build-and-deploy`
+3. If word data files changed, also run workflow **06** with action `efs-sync`
+4. CodeDeploy health check on `/api/health` confirms the deployment is healthy
 
 ### Rollback
 
@@ -699,7 +576,7 @@ aws deploy create-deployment \
 | **Config mgmt** | Env vars at build time | ECS task definition env | SSM Parameter Store |
 | **Logging** | Browser console | CloudWatch (awslogs) | CloudWatch (agent) |
 | **Lifecycle hooks** | None | ALB health check | Lambda + CodeDeploy hooks |
-| **Workflows** | 03 | 05, 06, 07 | 08, 09, 10, 11 |
+| **Workflows** | 03 | 05 | 06 |
 
 ## Important Constraints
 
