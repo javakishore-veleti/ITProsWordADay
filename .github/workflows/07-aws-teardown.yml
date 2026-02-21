@@ -1,0 +1,109 @@
+name: "07 - AWS Teardown"
+
+on:
+  workflow_dispatch:
+    inputs:
+      target:
+        description: "Which stack to delete"
+        required: true
+        type: choice
+        options:
+          - ecs-fargate
+          - ec2-bluegreen
+          - both
+      confirm:
+        description: "Type DELETE to confirm (safety check)"
+        required: true
+        type: string
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  validate:
+    name: Validate Confirmation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check confirmation
+        if: github.event.inputs.confirm != 'DELETE'
+        run: |
+          echo "::error::You must type DELETE in the confirm field to proceed."
+          exit 1
+
+  teardown-ecs-fargate:
+    name: Delete ECS Fargate Stack
+    needs: validate
+    if: github.event.inputs.target == 'ecs-fargate' || github.event.inputs.target == 'both'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v6
+        with:
+          role-to-assume: ${{ secrets.AWS_IAM_ROLE_ARN }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      - name: Delete ECR images (allow failure)
+        continue-on-error: true
+        run: |
+          REPO="${{ secrets.AWS_ECR_REPOSITORY }}"
+          echo "Deleting all images from ECR repo: ${REPO}"
+          IMAGES=$(aws ecr list-images --repository-name "${REPO}" --query 'imageIds[*]' --output json 2>/dev/null || echo "[]")
+          if [ "$IMAGES" != "[]" ] && [ -n "$IMAGES" ]; then
+            aws ecr batch-delete-image --repository-name "${REPO}" --image-ids "$IMAGES"
+          else
+            echo "No images to delete or repo doesn't exist"
+          fi
+
+      - name: Delete CloudFormation stack
+        run: |
+          STACK_NAME="itpros-wordaday-fargate"
+          echo "Deleting stack: ${STACK_NAME}"
+          aws cloudformation delete-stack --stack-name "${STACK_NAME}"
+          echo "Waiting for stack deletion to complete..."
+          aws cloudformation wait stack-delete-complete --stack-name "${STACK_NAME}"
+          echo "Stack ${STACK_NAME} deleted successfully"
+
+  teardown-ec2-bluegreen:
+    name: Delete EC2 Blue/Green Stack
+    needs: validate
+    if: github.event.inputs.target == 'ec2-bluegreen' || github.event.inputs.target == 'both'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v6
+        with:
+          role-to-assume: ${{ secrets.AWS_IAM_ROLE_ARN }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      - name: Empty S3 bucket (allow failure)
+        continue-on-error: true
+        run: |
+          BUCKET="itpros-wordaday-artifacts"
+          echo "Emptying S3 bucket: ${BUCKET}"
+          aws s3 rm "s3://${BUCKET}" --recursive 2>/dev/null || echo "Bucket doesn't exist or already empty"
+
+      - name: Delete CloudFormation stack
+        run: |
+          STACK_NAME="itpros-wordaday-ec2-bluegreen"
+          echo "Deleting stack: ${STACK_NAME}"
+          aws cloudformation delete-stack --stack-name "${STACK_NAME}"
+          echo "Waiting for stack deletion to complete..."
+          aws cloudformation wait stack-delete-complete --stack-name "${STACK_NAME}"
+          echo "Stack ${STACK_NAME} deleted successfully"
+
+  summary:
+    name: Teardown Summary
+    needs: [teardown-ecs-fargate, teardown-ec2-bluegreen]
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - name: Report results
+        run: |
+          echo "=== Teardown Summary ==="
+          echo "Target: ${{ github.event.inputs.target }}"
+          echo "ECS Fargate: ${{ needs.teardown-ecs-fargate.result || 'skipped' }}"
+          echo "EC2 Blue/Green: ${{ needs.teardown-ec2-bluegreen.result || 'skipped' }}"
+          echo ""
+          echo "Note: GitHub Actions secrets (AWS_IAM_ROLE_ARN, etc.) are NOT deleted."
+          echo "Remove them manually in Settings > Secrets if no longer needed."
