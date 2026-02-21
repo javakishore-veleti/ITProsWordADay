@@ -1,0 +1,2254 @@
+[
+  {
+    "id": "dev-001",
+    "word": "Pragmatic",
+    "meaning": "Dealing with things sensibly; focused on practical results over theoretical perfection",
+    "genre": "software-dev",
+    "difficulty": 2,
+    "dateAdded": "2025-11-14",
+    "samplePhrase": "The pragmatic nature of the codebase makes it easier to maintain.",
+    "itContext": "Pragmatic is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "practical",
+      "realistic",
+      "sensible",
+      "grounded"
+    ],
+    "pronunciation": "prag-MAT-ik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      5,
+      5
+    ]
+  },
+  {
+    "id": "dev-002",
+    "word": "Refactor",
+    "meaning": "To restructure existing code without changing its external behavior",
+    "genre": "software-dev",
+    "difficulty": 2,
+    "dateAdded": "2025-11-15",
+    "samplePhrase": "We should refactor the module to improve code quality.",
+    "itContext": "Refactor is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "restructure",
+      "reorganize",
+      "optimize",
+      "clean up"
+    ],
+    "pronunciation": "ree-FAK-tor",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      2
+    ]
+  },
+  {
+    "id": "dev-003",
+    "word": "Abstraction",
+    "meaning": "Hiding complex implementation behind a simpler interface",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2025-11-16",
+    "samplePhrase": "The abstraction nature of the function makes it easier to maintain.",
+    "itContext": "Abstraction is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "generalization",
+      "simplification",
+      "encapsulation",
+      "interface"
+    ],
+    "pronunciation": "ab-STRAK-shun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "dev-004",
+    "word": "Deprecate",
+    "meaning": "To mark a feature as outdated and discouraged for future removal",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2025-11-17",
+    "samplePhrase": "We should deprecate the API to improve code quality.",
+    "itContext": "Deprecate is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "phase out",
+      "sunset",
+      "retire",
+      "supersede"
+    ],
+    "pronunciation": "DEP-ruh-kayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "dev-005",
+    "word": "Boilerplate",
+    "meaning": "Standardized code reused with little modification across projects",
+    "genre": "software-dev",
+    "difficulty": 2,
+    "dateAdded": "2025-11-18",
+    "samplePhrase": "The boilerplate nature of the component makes it easier to maintain.",
+    "itContext": "Boilerplate is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "template",
+      "scaffold",
+      "standard code",
+      "starter"
+    ],
+    "pronunciation": "BOY-ler-playt",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "dev-006",
+    "word": "Polymorphic",
+    "meaning": "Taking many forms; objects that respond differently to the same interface",
+    "genre": "software-dev",
+    "difficulty": 4,
+    "dateAdded": "2025-11-19",
+    "samplePhrase": "The polymorphic nature of the library makes it easier to maintain.",
+    "itContext": "Polymorphic is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "versatile",
+      "multiform",
+      "adaptable",
+      "shapeshifting"
+    ],
+    "pronunciation": "pol-ee-MOR-fik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      2
+    ]
+  },
+  {
+    "id": "dev-007",
+    "word": "Recursive",
+    "meaning": "A process that calls itself repeatedly until a base condition is met",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2025-11-20",
+    "samplePhrase": "The recursive nature of the codebase makes it easier to maintain.",
+    "itContext": "Recursive is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "self-referential",
+      "iterative",
+      "nested",
+      "circular"
+    ],
+    "pronunciation": "ree-KUR-siv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "id": "dev-008",
+    "word": "Declarative",
+    "meaning": "Expressing what the desired outcome is rather than how to achieve it",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2025-11-21",
+    "samplePhrase": "The declarative nature of the module makes it easier to maintain.",
+    "itContext": "Declarative is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "descriptive",
+      "outcome-focused",
+      "specification-based",
+      "what-oriented"
+    ],
+    "pronunciation": "dee-KLAR-uh-tiv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      5,
+      5
+    ]
+  },
+  {
+    "id": "dev-009",
+    "word": "Imperative",
+    "meaning": "Expressing step-by-step instructions for how to achieve a result",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2025-11-22",
+    "samplePhrase": "The imperative nature of the function makes it easier to maintain.",
+    "itContext": "Imperative is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "procedural",
+      "instructional",
+      "step-by-step",
+      "how-oriented"
+    ],
+    "pronunciation": "im-PER-uh-tiv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "dev-010",
+    "word": "Semantic",
+    "meaning": "Relating to meaning; code or markup that conveys intent and purpose",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2025-11-23",
+    "samplePhrase": "The semantic nature of the API makes it easier to maintain.",
+    "itContext": "Semantic is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "meaningful",
+      "contextual",
+      "interpretive",
+      "symbolic"
+    ],
+    "pronunciation": "seh-MAN-tik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "dev-011",
+    "word": "Syntactic",
+    "meaning": "Relating to the formal rules and structure of a programming language",
+    "genre": "software-dev",
+    "difficulty": 4,
+    "dateAdded": "2025-11-24",
+    "samplePhrase": "The syntactic nature of the component makes it easier to maintain.",
+    "itContext": "Syntactic is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "structural",
+      "grammatical",
+      "formal",
+      "rule-based"
+    ],
+    "pronunciation": "sin-TAK-tik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "dev-012",
+    "word": "Serialize",
+    "meaning": "To convert an object into a format suitable for storage or transmission",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2025-11-25",
+    "samplePhrase": "We should serialize the library to improve code quality.",
+    "itContext": "Serialize is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "encode",
+      "marshal",
+      "flatten",
+      "stringify"
+    ],
+    "pronunciation": "SEER-ee-uh-lize",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      2,
+      5
+    ]
+  },
+  {
+    "id": "dev-013",
+    "word": "Instantiate",
+    "meaning": "To create a concrete instance of a class or template",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2025-11-26",
+    "samplePhrase": "We should instantiate the codebase to improve code quality.",
+    "itContext": "Instantiate is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "create",
+      "initialize",
+      "construct",
+      "spawn"
+    ],
+    "pronunciation": "in-STAN-shee-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "id": "dev-014",
+    "word": "Enumerate",
+    "meaning": "To list or count items in a collection systematically",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2025-11-27",
+    "samplePhrase": "We should enumerate the module to improve code quality.",
+    "itContext": "Enumerate is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "list",
+      "iterate",
+      "catalog",
+      "count"
+    ],
+    "pronunciation": "ee-NOO-meh-rayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      5
+    ]
+  },
+  {
+    "id": "dev-015",
+    "word": "Compile",
+    "meaning": "To translate source code into executable machine code",
+    "genre": "software-dev",
+    "difficulty": 2,
+    "dateAdded": "2025-11-28",
+    "samplePhrase": "We should compile the function to improve code quality.",
+    "itContext": "Compile is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "build",
+      "translate",
+      "transform",
+      "assemble"
+    ],
+    "pronunciation": "kum-PILE",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "dev-016",
+    "word": "Interpolate",
+    "meaning": "To insert or embed expressions within strings or data",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2025-11-29",
+    "samplePhrase": "We should interpolate the API to improve code quality.",
+    "itContext": "Interpolate is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "embed",
+      "insert",
+      "inject",
+      "substitute"
+    ],
+    "pronunciation": "in-TER-poh-layt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "dev-017",
+    "word": "Concatenate",
+    "meaning": "To link or join things together in a series or chain",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2025-11-30",
+    "samplePhrase": "We should concatenate the component to improve code quality.",
+    "itContext": "Concatenate is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "join",
+      "combine",
+      "append",
+      "merge"
+    ],
+    "pronunciation": "kon-KAT-eh-nayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5,
+      2
+    ]
+  },
+  {
+    "id": "dev-018",
+    "word": "Verbose",
+    "meaning": "Using more words or output than necessary; overly detailed",
+    "genre": "software-dev",
+    "difficulty": 2,
+    "dateAdded": "2025-12-01",
+    "samplePhrase": "The verbose nature of the library makes it easier to maintain.",
+    "itContext": "Verbose is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "wordy",
+      "detailed",
+      "long-winded",
+      "excessive"
+    ],
+    "pronunciation": "ver-BOHS",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "dev-019",
+    "word": "Succinct",
+    "meaning": "Briefly and clearly expressed; compact and efficient",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2025-12-02",
+    "samplePhrase": "The succinct nature of the codebase makes it easier to maintain.",
+    "itContext": "Succinct is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "concise",
+      "brief",
+      "terse",
+      "compact"
+    ],
+    "pronunciation": "suk-SINKT",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      5,
+      5
+    ]
+  },
+  {
+    "id": "dev-020",
+    "word": "Robust",
+    "meaning": "Strong and able to withstand adverse conditions without failing",
+    "genre": "software-dev",
+    "difficulty": 2,
+    "dateAdded": "2025-12-03",
+    "samplePhrase": "The robust nature of the module makes it easier to maintain.",
+    "itContext": "Robust is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "strong",
+      "resilient",
+      "reliable",
+      "sturdy"
+    ],
+    "pronunciation": "roh-BUST",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      2,
+      2
+    ]
+  },
+  {
+    "id": "dev-021",
+    "word": "Brittle",
+    "meaning": "Easily broken or prone to failure when conditions change slightly",
+    "genre": "software-dev",
+    "difficulty": 2,
+    "dateAdded": "2025-12-04",
+    "samplePhrase": "The brittle nature of the function makes it easier to maintain.",
+    "itContext": "Brittle is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "fragile",
+      "delicate",
+      "unstable",
+      "rigid"
+    ],
+    "pronunciation": "BRIT-ul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "dev-022",
+    "word": "Encapsulate",
+    "meaning": "To bundle data and methods together while hiding internal details",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2025-12-05",
+    "samplePhrase": "We should encapsulate the API to improve code quality.",
+    "itContext": "Encapsulate is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "wrap",
+      "contain",
+      "hide",
+      "abstract"
+    ],
+    "pronunciation": "en-KAP-soo-layt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "dev-023",
+    "word": "Cohesive",
+    "meaning": "Elements that belong together and work as a unified module",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2025-12-06",
+    "samplePhrase": "The cohesive nature of the component makes it easier to maintain.",
+    "itContext": "Cohesive is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "unified",
+      "consistent",
+      "integrated",
+      "harmonious"
+    ],
+    "pronunciation": "koh-HEE-siv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "dev-024",
+    "word": "Deterministic",
+    "meaning": "Always producing the same output for the same input conditions",
+    "genre": "software-dev",
+    "difficulty": 4,
+    "dateAdded": "2025-12-07",
+    "samplePhrase": "The deterministic nature of the library makes it easier to maintain.",
+    "itContext": "Deterministic is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "predictable",
+      "consistent",
+      "reproducible",
+      "certain"
+    ],
+    "pronunciation": "dee-TER-min-IS-tik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5,
+      3
+    ]
+  },
+  {
+    "id": "dev-025",
+    "word": "Asynchronous",
+    "meaning": "Operations that execute independently without blocking the main thread",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2025-12-08",
+    "samplePhrase": "The asynchronous nature of the codebase makes it easier to maintain.",
+    "itContext": "Asynchronous is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "non-blocking",
+      "concurrent",
+      "parallel",
+      "deferred"
+    ],
+    "pronunciation": "ay-SIN-kruh-nus",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "dev-026",
+    "word": "Synchronous",
+    "meaning": "Operations that execute sequentially, each waiting for the previous to complete",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2025-12-09",
+    "samplePhrase": "The synchronous nature of the module makes it easier to maintain.",
+    "itContext": "Synchronous is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "blocking",
+      "sequential",
+      "ordered",
+      "linear"
+    ],
+    "pronunciation": "SIN-kruh-nus",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "dev-027",
+    "word": "Heuristic",
+    "meaning": "A practical approach to problem-solving that may not be perfect but is sufficient",
+    "genre": "software-dev",
+    "difficulty": 4,
+    "dateAdded": "2025-12-10",
+    "samplePhrase": "The heuristic nature of the function makes it easier to maintain.",
+    "itContext": "Heuristic is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "rule of thumb",
+      "approximation",
+      "shortcut",
+      "guideline"
+    ],
+    "pronunciation": "hyoo-RIS-tik",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      2,
+      2
+    ]
+  },
+  {
+    "id": "dev-028",
+    "word": "Idiomatic",
+    "meaning": "Following the natural conventions and best practices of a language",
+    "genre": "software-dev",
+    "difficulty": 4,
+    "dateAdded": "2025-12-11",
+    "samplePhrase": "The idiomatic nature of the API makes it easier to maintain.",
+    "itContext": "Idiomatic is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "conventional",
+      "native",
+      "standard",
+      "canonical"
+    ],
+    "pronunciation": "id-ee-oh-MAT-ik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      2,
+      5
+    ]
+  },
+  {
+    "id": "dev-029",
+    "word": "Ergonomic",
+    "meaning": "Designed for efficiency and comfort in the working environment",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2025-12-12",
+    "samplePhrase": "The ergonomic nature of the component makes it easier to maintain.",
+    "itContext": "Ergonomic is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "user-friendly",
+      "comfortable",
+      "efficient",
+      "well-designed"
+    ],
+    "pronunciation": "er-goh-NOM-ik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      2,
+      2
+    ]
+  },
+  {
+    "id": "dev-030",
+    "word": "Orthogonal",
+    "meaning": "Independent and non-overlapping; changes to one don't affect another",
+    "genre": "software-dev",
+    "difficulty": 5,
+    "dateAdded": "2025-12-13",
+    "samplePhrase": "The orthogonal nature of the library makes it easier to maintain.",
+    "itContext": "Orthogonal is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "independent",
+      "unrelated",
+      "perpendicular",
+      "decoupled"
+    ],
+    "pronunciation": "or-THOG-oh-nul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      2
+    ]
+  },
+  {
+    "id": "dev-031",
+    "word": "Modular",
+    "meaning": "Composed of self-contained units that can be combined independently",
+    "genre": "software-dev",
+    "difficulty": 2,
+    "dateAdded": "2025-12-14",
+    "samplePhrase": "The modular nature of the codebase makes it easier to maintain.",
+    "itContext": "Modular is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "component-based",
+      "pluggable",
+      "composable",
+      "reusable"
+    ],
+    "pronunciation": "MOJ-oo-ler",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "dev-032",
+    "word": "Monolithic",
+    "meaning": "A single unified architecture where all components are tightly integrated",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2025-12-15",
+    "samplePhrase": "The monolithic nature of the module makes it easier to maintain.",
+    "itContext": "Monolithic is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "unified",
+      "all-in-one",
+      "tightly-coupled",
+      "single-codebase"
+    ],
+    "pronunciation": "mon-oh-LITH-ik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "dev-033",
+    "word": "Iterate",
+    "meaning": "To repeat a process with the aim of approaching a desired result",
+    "genre": "software-dev",
+    "difficulty": 2,
+    "dateAdded": "2025-12-16",
+    "samplePhrase": "We should iterate the function to improve code quality.",
+    "itContext": "Iterate is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "repeat",
+      "loop",
+      "cycle",
+      "refine"
+    ],
+    "pronunciation": "IT-er-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "dev-034",
+    "word": "Transpile",
+    "meaning": "To convert source code from one language to another at similar abstraction",
+    "genre": "software-dev",
+    "difficulty": 4,
+    "dateAdded": "2025-12-17",
+    "samplePhrase": "We should transpile the API to improve code quality.",
+    "itContext": "Transpile is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "convert",
+      "translate",
+      "transform",
+      "compile-across"
+    ],
+    "pronunciation": "TRANS-pile",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "dev-035",
+    "word": "Parse",
+    "meaning": "To analyze a string or data structure according to formal grammar rules",
+    "genre": "software-dev",
+    "difficulty": 2,
+    "dateAdded": "2025-12-18",
+    "samplePhrase": "We should parse the component to improve code quality.",
+    "itContext": "Parse is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "analyze",
+      "interpret",
+      "process",
+      "tokenize"
+    ],
+    "pronunciation": "PARS",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "dev-036",
+    "word": "Emit",
+    "meaning": "To produce or send out events, signals, or data from a component",
+    "genre": "software-dev",
+    "difficulty": 2,
+    "dateAdded": "2025-12-19",
+    "samplePhrase": "We should emit the library to improve code quality.",
+    "itContext": "Emit is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "send",
+      "produce",
+      "output",
+      "broadcast"
+    ],
+    "pronunciation": "ee-MIT",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "dev-037",
+    "word": "Invoke",
+    "meaning": "To call a function or method, causing it to execute",
+    "genre": "software-dev",
+    "difficulty": 2,
+    "dateAdded": "2025-12-20",
+    "samplePhrase": "We should invoke the codebase to improve code quality.",
+    "itContext": "Invoke is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "call",
+      "execute",
+      "trigger",
+      "activate"
+    ],
+    "pronunciation": "in-VOHK",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "dev-038",
+    "word": "Delegate",
+    "meaning": "To pass responsibility for a task to another object or function",
+    "genre": "software-dev",
+    "difficulty": 2,
+    "dateAdded": "2025-12-21",
+    "samplePhrase": "We should delegate the module to improve code quality.",
+    "itContext": "Delegate is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "assign",
+      "forward",
+      "proxy",
+      "hand off"
+    ],
+    "pronunciation": "DEL-eh-gayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "dev-039",
+    "word": "Mutable",
+    "meaning": "Able to be changed or modified after creation",
+    "genre": "software-dev",
+    "difficulty": 2,
+    "dateAdded": "2025-12-22",
+    "samplePhrase": "The mutable nature of the function makes it easier to maintain.",
+    "itContext": "Mutable is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "changeable",
+      "modifiable",
+      "variable",
+      "alterable"
+    ],
+    "pronunciation": "MYOO-tuh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      4
+    ]
+  },
+  {
+    "id": "dev-040",
+    "word": "Immutable",
+    "meaning": "Unable to be changed after creation; a value that never mutates",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2025-12-23",
+    "samplePhrase": "The immutable nature of the API makes it easier to maintain.",
+    "itContext": "Immutable is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "unchangeable",
+      "constant",
+      "fixed",
+      "frozen"
+    ],
+    "pronunciation": "ih-MYOO-tuh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      2
+    ]
+  },
+  {
+    "id": "dev-041",
+    "word": "Volatile",
+    "meaning": "Subject to rapid change; a value that may be modified unexpectedly",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2025-12-24",
+    "samplePhrase": "The volatile nature of the component makes it easier to maintain.",
+    "itContext": "Volatile is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "unstable",
+      "unpredictable",
+      "transient",
+      "fluctuating"
+    ],
+    "pronunciation": "VOL-uh-til",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "dev-042",
+    "word": "Coerce",
+    "meaning": "To force a value to change from one type to another automatically",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2025-12-25",
+    "samplePhrase": "We should coerce the library to improve code quality.",
+    "itContext": "Coerce is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "convert",
+      "cast",
+      "force",
+      "transform"
+    ],
+    "pronunciation": "koh-ERS",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      4
+    ]
+  },
+  {
+    "id": "dev-043",
+    "word": "Infer",
+    "meaning": "To deduce or determine something from evidence rather than explicit declaration",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2025-12-26",
+    "samplePhrase": "We should infer the codebase to improve code quality.",
+    "itContext": "Infer is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "deduce",
+      "derive",
+      "conclude",
+      "determine"
+    ],
+    "pronunciation": "in-FER",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "dev-044",
+    "word": "Annotate",
+    "meaning": "To add explanatory notes or metadata to code or data",
+    "genre": "software-dev",
+    "difficulty": 2,
+    "dateAdded": "2025-12-27",
+    "samplePhrase": "We should annotate the module to improve code quality.",
+    "itContext": "Annotate is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "comment",
+      "label",
+      "tag",
+      "mark up"
+    ],
+    "pronunciation": "AN-oh-tayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "dev-045",
+    "word": "Compose",
+    "meaning": "To create by combining simpler functions or components together",
+    "genre": "software-dev",
+    "difficulty": 2,
+    "dateAdded": "2025-12-28",
+    "samplePhrase": "We should compose the function to improve code quality.",
+    "itContext": "Compose is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "combine",
+      "assemble",
+      "build",
+      "construct"
+    ],
+    "pronunciation": "kum-POHZ",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "dev-046",
+    "word": "Decompose",
+    "meaning": "To break down a complex problem into smaller manageable parts",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2025-12-29",
+    "samplePhrase": "We should decompose the API to improve code quality.",
+    "itContext": "Decompose is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "break down",
+      "divide",
+      "simplify",
+      "factor"
+    ],
+    "pronunciation": "dee-kum-POHZ",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "dev-047",
+    "word": "Scaffold",
+    "meaning": "To generate a basic project structure as a starting point",
+    "genre": "software-dev",
+    "difficulty": 2,
+    "dateAdded": "2025-12-30",
+    "samplePhrase": "We should scaffold the component to improve code quality.",
+    "itContext": "Scaffold is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "generate",
+      "bootstrap",
+      "template",
+      "initialize"
+    ],
+    "pronunciation": "SKAF-old",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      4,
+      2
+    ]
+  },
+  {
+    "id": "dev-048",
+    "word": "Harness",
+    "meaning": "To make use of a resource or capability to achieve a purpose",
+    "genre": "software-dev",
+    "difficulty": 2,
+    "dateAdded": "2025-12-31",
+    "samplePhrase": "We should harness the library to improve code quality.",
+    "itContext": "Harness is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "utilize",
+      "leverage",
+      "employ",
+      "exploit"
+    ],
+    "pronunciation": "HAR-nes",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      2
+    ]
+  },
+  {
+    "id": "dev-049",
+    "word": "Couple",
+    "meaning": "To make components dependent on each other",
+    "genre": "software-dev",
+    "difficulty": 2,
+    "dateAdded": "2026-01-01",
+    "samplePhrase": "We should couple the codebase to improve code quality.",
+    "itContext": "Couple is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "connect",
+      "bind",
+      "link",
+      "tie"
+    ],
+    "pronunciation": "KUP-ul",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      4
+    ]
+  },
+  {
+    "id": "dev-050",
+    "word": "Decouple",
+    "meaning": "To remove dependencies between components so they work independently",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2026-01-02",
+    "samplePhrase": "We should decouple the module to improve code quality.",
+    "itContext": "Decouple is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "separate",
+      "detach",
+      "isolate",
+      "unbind"
+    ],
+    "pronunciation": "dee-KUP-ul",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "dev-051",
+    "word": "Idempotent",
+    "meaning": "An operation that has the same effect whether applied once or multiple times",
+    "genre": "software-dev",
+    "difficulty": 4,
+    "dateAdded": "2026-01-03",
+    "samplePhrase": "The idempotent nature of the function makes it easier to maintain.",
+    "itContext": "Idempotent is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "repeatable",
+      "safe-to-retry",
+      "deterministic",
+      "stable"
+    ],
+    "pronunciation": "eye-dem-PO-tent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      2
+    ]
+  },
+  {
+    "id": "dev-052",
+    "word": "Agnostic",
+    "meaning": "Not dependent on or committed to a specific technology or framework",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2026-01-04",
+    "samplePhrase": "The agnostic nature of the API makes it easier to maintain.",
+    "itContext": "Agnostic is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "neutral",
+      "independent",
+      "universal",
+      "platform-free"
+    ],
+    "pronunciation": "ag-NOS-tik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "dev-053",
+    "word": "Opaque",
+    "meaning": "Not transparent; hiding internal details from external observation",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2026-01-05",
+    "samplePhrase": "The opaque nature of the component makes it easier to maintain.",
+    "itContext": "Opaque is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "hidden",
+      "concealed",
+      "non-transparent",
+      "sealed"
+    ],
+    "pronunciation": "oh-PAYK",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "dev-054",
+    "word": "Transparent",
+    "meaning": "Open and visible; internal workings can be observed and understood",
+    "genre": "software-dev",
+    "difficulty": 2,
+    "dateAdded": "2026-01-06",
+    "samplePhrase": "The transparent nature of the library makes it easier to maintain.",
+    "itContext": "Transparent is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "visible",
+      "clear",
+      "open",
+      "accessible"
+    ],
+    "pronunciation": "trans-PAIR-ent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      2
+    ]
+  },
+  {
+    "id": "dev-055",
+    "word": "Canonical",
+    "meaning": "The standard, authoritative, or accepted version of something",
+    "genre": "software-dev",
+    "difficulty": 4,
+    "dateAdded": "2026-01-07",
+    "samplePhrase": "The canonical nature of the codebase makes it easier to maintain.",
+    "itContext": "Canonical is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "standard",
+      "official",
+      "authoritative",
+      "definitive"
+    ],
+    "pronunciation": "kuh-NON-ih-kul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "dev-056",
+    "word": "Ephemeral",
+    "meaning": "Short-lived; existing only for a brief period during execution",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2026-01-08",
+    "samplePhrase": "The ephemeral nature of the module makes it easier to maintain.",
+    "itContext": "Ephemeral is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "temporary",
+      "transient",
+      "fleeting",
+      "short-lived"
+    ],
+    "pronunciation": "ih-FEM-er-ul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "dev-057",
+    "word": "Granular",
+    "meaning": "Broken down into fine detail; highly specific and controllable",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2026-01-09",
+    "samplePhrase": "The granular nature of the function makes it easier to maintain.",
+    "itContext": "Granular is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "detailed",
+      "fine-grained",
+      "precise",
+      "specific"
+    ],
+    "pronunciation": "GRAN-yoo-ler",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "dev-058",
+    "word": "Atomic",
+    "meaning": "An indivisible operation that either completes entirely or not at all",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2026-01-10",
+    "samplePhrase": "The atomic nature of the API makes it easier to maintain.",
+    "itContext": "Atomic is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "indivisible",
+      "all-or-nothing",
+      "unbreakable",
+      "complete"
+    ],
+    "pronunciation": "uh-TOM-ik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      2
+    ]
+  },
+  {
+    "id": "dev-059",
+    "word": "Propagate",
+    "meaning": "To pass or spread changes through a system or chain of components",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2026-01-11",
+    "samplePhrase": "We should propagate the component to improve code quality.",
+    "itContext": "Propagate is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "spread",
+      "transmit",
+      "cascade",
+      "forward"
+    ],
+    "pronunciation": "PROP-uh-gayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "dev-060",
+    "word": "Coalesce",
+    "meaning": "To merge or combine multiple values into one",
+    "genre": "software-dev",
+    "difficulty": 4,
+    "dateAdded": "2026-01-12",
+    "samplePhrase": "We should coalesce the library to improve code quality.",
+    "itContext": "Coalesce is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "merge",
+      "combine",
+      "consolidate",
+      "fuse"
+    ],
+    "pronunciation": "koh-uh-LESS",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "dev-061",
+    "word": "Sanitize",
+    "meaning": "To clean input data by removing potentially harmful or invalid content",
+    "genre": "software-dev",
+    "difficulty": 2,
+    "dateAdded": "2026-01-13",
+    "samplePhrase": "We should sanitize the codebase to improve code quality.",
+    "itContext": "Sanitize is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "clean",
+      "filter",
+      "scrub",
+      "validate"
+    ],
+    "pronunciation": "SAN-ih-tize",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      5,
+      2
+    ]
+  },
+  {
+    "id": "dev-062",
+    "word": "Normalize",
+    "meaning": "To transform data into a consistent, standard format",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2026-01-14",
+    "samplePhrase": "We should normalize the module to improve code quality.",
+    "itContext": "Normalize is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "standardize",
+      "regularize",
+      "format",
+      "unify"
+    ],
+    "pronunciation": "NOR-muh-lize",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "id": "dev-063",
+    "word": "Truncate",
+    "meaning": "To shorten by cutting off a portion of data",
+    "genre": "software-dev",
+    "difficulty": 2,
+    "dateAdded": "2026-01-15",
+    "samplePhrase": "We should truncate the function to improve code quality.",
+    "itContext": "Truncate is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "shorten",
+      "cut",
+      "trim",
+      "clip"
+    ],
+    "pronunciation": "TRUNG-kayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "dev-064",
+    "word": "Interpolate",
+    "meaning": "To estimate or construct new data points within a known range",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2026-01-16",
+    "samplePhrase": "We should interpolate the API to improve code quality.",
+    "itContext": "Interpolate is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "estimate",
+      "insert",
+      "inject",
+      "fill in"
+    ],
+    "pronunciation": "in-TER-poh-layt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      2,
+      2
+    ]
+  },
+  {
+    "id": "dev-065",
+    "word": "Singleton",
+    "meaning": "A design pattern that restricts a class to a single instance",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2026-01-17",
+    "samplePhrase": "The singleton nature of the component makes it easier to maintain.",
+    "itContext": "Singleton is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "single instance",
+      "unique",
+      "sole",
+      "one-of"
+    ],
+    "pronunciation": "SING-ul-ton",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "dev-066",
+    "word": "Facade",
+    "meaning": "A simplified interface that hides the complexity of a larger system",
+    "genre": "software-dev",
+    "difficulty": 4,
+    "dateAdded": "2026-01-18",
+    "samplePhrase": "The facade nature of the library makes it easier to maintain.",
+    "itContext": "Facade is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "front",
+      "wrapper",
+      "interface",
+      "simplifier"
+    ],
+    "pronunciation": "fuh-SAHD",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3,
+      5
+    ]
+  },
+  {
+    "id": "dev-067",
+    "word": "Paradigm",
+    "meaning": "A fundamental model or pattern of thinking and problem-solving",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2026-01-19",
+    "samplePhrase": "The paradigm nature of the codebase makes it easier to maintain.",
+    "itContext": "Paradigm is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "model",
+      "pattern",
+      "framework",
+      "approach"
+    ],
+    "pronunciation": "PAIR-uh-dime",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "id": "dev-068",
+    "word": "Resilient",
+    "meaning": "Able to recover from errors and continue functioning properly",
+    "genre": "software-dev",
+    "difficulty": 2,
+    "dateAdded": "2026-01-20",
+    "samplePhrase": "The resilient nature of the module makes it easier to maintain.",
+    "itContext": "Resilient is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "robust",
+      "fault-tolerant",
+      "reliable",
+      "sturdy"
+    ],
+    "pronunciation": "rih-ZIL-yent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "dev-069",
+    "word": "Verbose",
+    "meaning": "Producing excessive output or using more code than necessary",
+    "genre": "software-dev",
+    "difficulty": 2,
+    "dateAdded": "2026-01-21",
+    "samplePhrase": "The verbose nature of the function makes it easier to maintain.",
+    "itContext": "Verbose is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "wordy",
+      "detailed",
+      "excessive",
+      "long-winded"
+    ],
+    "pronunciation": "ver-BOHS",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      2,
+      4
+    ]
+  },
+  {
+    "id": "dev-070",
+    "word": "Terse",
+    "meaning": "Using few words; code that is extremely concise",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2026-01-22",
+    "samplePhrase": "The terse nature of the API makes it easier to maintain.",
+    "itContext": "Terse is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "concise",
+      "brief",
+      "compact",
+      "laconic"
+    ],
+    "pronunciation": "TERS",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "dev-071",
+    "word": "Fluent",
+    "meaning": "Smoothly flowing interface design that reads naturally like prose",
+    "genre": "software-dev",
+    "difficulty": 2,
+    "dateAdded": "2026-01-23",
+    "samplePhrase": "The fluent nature of the component makes it easier to maintain.",
+    "itContext": "Fluent is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "smooth",
+      "natural",
+      "readable",
+      "flowing"
+    ],
+    "pronunciation": "FLOO-ent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "dev-072",
+    "word": "Introspect",
+    "meaning": "To examine the type or properties of an object at runtime",
+    "genre": "software-dev",
+    "difficulty": 4,
+    "dateAdded": "2026-01-24",
+    "samplePhrase": "We should introspect the library to improve code quality.",
+    "itContext": "Introspect is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "examine",
+      "inspect",
+      "reflect",
+      "analyze"
+    ],
+    "pronunciation": "in-troh-SPEKT",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "dev-073",
+    "word": "Optimize",
+    "meaning": "To improve code performance by reducing resource consumption",
+    "genre": "software-dev",
+    "difficulty": 2,
+    "dateAdded": "2026-01-25",
+    "samplePhrase": "We should optimize the codebase to improve code quality.",
+    "itContext": "Optimize is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "improve",
+      "tune",
+      "enhance",
+      "streamline"
+    ],
+    "pronunciation": "OP-tih-mize",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      2
+    ]
+  },
+  {
+    "id": "dev-074",
+    "word": "Obfuscate",
+    "meaning": "To make code deliberately difficult to understand",
+    "genre": "software-dev",
+    "difficulty": 4,
+    "dateAdded": "2026-01-26",
+    "samplePhrase": "We should obfuscate the module to improve code quality.",
+    "itContext": "Obfuscate is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "obscure",
+      "hide",
+      "disguise",
+      "scramble"
+    ],
+    "pronunciation": "OB-fuh-skayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "dev-075",
+    "word": "Bootstrap",
+    "meaning": "To initialize a system with the minimal code needed to get started",
+    "genre": "software-dev",
+    "difficulty": 2,
+    "dateAdded": "2026-01-27",
+    "samplePhrase": "We should bootstrap the function to improve code quality.",
+    "itContext": "Bootstrap is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "initialize",
+      "start",
+      "launch",
+      "kickstart"
+    ],
+    "pronunciation": "BOOT-strap",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "dev-076",
+    "word": "Throttle",
+    "meaning": "To limit the rate of execution to prevent resource exhaustion",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2026-01-28",
+    "samplePhrase": "We should throttle the API to improve code quality.",
+    "itContext": "Throttle is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "limit",
+      "rate-limit",
+      "restrict",
+      "control"
+    ],
+    "pronunciation": "THROT-ul",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "dev-077",
+    "word": "Debounce",
+    "meaning": "To delay processing until a burst of rapid events has settled",
+    "genre": "software-dev",
+    "difficulty": 4,
+    "dateAdded": "2026-01-29",
+    "samplePhrase": "We should debounce the component to improve code quality.",
+    "itContext": "Debounce is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "delay",
+      "batch",
+      "coalesce",
+      "settle"
+    ],
+    "pronunciation": "dee-BOWNS",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      2,
+      4
+    ]
+  },
+  {
+    "id": "dev-078",
+    "word": "Marshal",
+    "meaning": "To organize and transform data into a structured format for transmission",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2026-01-30",
+    "samplePhrase": "We should marshal the library to improve code quality.",
+    "itContext": "Marshal is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "serialize",
+      "organize",
+      "structure",
+      "format"
+    ],
+    "pronunciation": "MAR-shul",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4,
+      2
+    ]
+  },
+  {
+    "id": "dev-079",
+    "word": "Unmarshal",
+    "meaning": "To convert structured data back into an in-memory object representation",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2026-01-31",
+    "samplePhrase": "We should unmarshal the codebase to improve code quality.",
+    "itContext": "Unmarshal is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "deserialize",
+      "decode",
+      "parse",
+      "reconstruct"
+    ],
+    "pronunciation": "un-MAR-shul",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "dev-080",
+    "word": "Enumerate",
+    "meaning": "To list all possible values or iterate through a collection",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2026-02-01",
+    "samplePhrase": "We should enumerate the module to improve code quality.",
+    "itContext": "Enumerate is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "list",
+      "iterate",
+      "catalog",
+      "index"
+    ],
+    "pronunciation": "ee-NOO-meh-rayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      2
+    ]
+  },
+  {
+    "id": "dev-081",
+    "word": "Predicate",
+    "meaning": "A function that returns true or false used to filter or test conditions",
+    "genre": "software-dev",
+    "difficulty": 4,
+    "dateAdded": "2026-02-02",
+    "samplePhrase": "The predicate nature of the function makes it easier to maintain.",
+    "itContext": "Predicate is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "condition",
+      "test",
+      "filter",
+      "assertion"
+    ],
+    "pronunciation": "PRED-ih-kit",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "dev-082",
+    "word": "Interpolate",
+    "meaning": "To dynamically insert values into a template or string",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2026-02-03",
+    "samplePhrase": "We should interpolate the API to improve code quality.",
+    "itContext": "Interpolate is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "embed",
+      "substitute",
+      "inject",
+      "template"
+    ],
+    "pronunciation": "in-TER-poh-layt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "dev-083",
+    "word": "Overload",
+    "meaning": "To define multiple versions of a function with different parameter types",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2026-02-04",
+    "samplePhrase": "We should overload the component to improve code quality.",
+    "itContext": "Overload is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "redefine",
+      "extend",
+      "specialize",
+      "multi-define"
+    ],
+    "pronunciation": "OH-ver-lohd",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      5,
+      3
+    ]
+  },
+  {
+    "id": "dev-084",
+    "word": "Override",
+    "meaning": "To replace a method in a subclass with a new implementation",
+    "genre": "software-dev",
+    "difficulty": 2,
+    "dateAdded": "2026-02-05",
+    "samplePhrase": "We should override the library to improve code quality.",
+    "itContext": "Override is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "replace",
+      "redefine",
+      "supersede",
+      "supplant"
+    ],
+    "pronunciation": "OH-ver-ride",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "dev-085",
+    "word": "Concatenate",
+    "meaning": "To join strings or arrays end-to-end into a single sequence",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2026-02-06",
+    "samplePhrase": "We should concatenate the codebase to improve code quality.",
+    "itContext": "Concatenate is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "join",
+      "merge",
+      "append",
+      "combine"
+    ],
+    "pronunciation": "kon-KAT-eh-nayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "dev-086",
+    "word": "Nullify",
+    "meaning": "To make something null or void; to invalidate a reference",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2026-02-07",
+    "samplePhrase": "We should nullify the module to improve code quality.",
+    "itContext": "Nullify is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "invalidate",
+      "void",
+      "clear",
+      "reset"
+    ],
+    "pronunciation": "NUL-ih-fy",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "dev-087",
+    "word": "Parameterize",
+    "meaning": "To express a function or query in terms of adjustable parameters",
+    "genre": "software-dev",
+    "difficulty": 4,
+    "dateAdded": "2026-02-08",
+    "samplePhrase": "We should parameterize the function to improve code quality.",
+    "itContext": "Parameterize is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "configure",
+      "generalize",
+      "template",
+      "variabilize"
+    ],
+    "pronunciation": "puh-RAM-eh-ter-ize",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "dev-088",
+    "word": "Serialize",
+    "meaning": "To convert complex data structures into a linear format",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2026-02-09",
+    "samplePhrase": "We should serialize the API to improve code quality.",
+    "itContext": "Serialize is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "encode",
+      "flatten",
+      "stringify",
+      "marshal"
+    ],
+    "pronunciation": "SEER-ee-uh-lize",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5,
+      3
+    ]
+  },
+  {
+    "id": "dev-089",
+    "word": "Deserialize",
+    "meaning": "To reconstruct data structures from a serialized format",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2026-02-10",
+    "samplePhrase": "We should deserialize the component to improve code quality.",
+    "itContext": "Deserialize is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "decode",
+      "unmarshal",
+      "parse",
+      "reconstruct"
+    ],
+    "pronunciation": "dee-SEER-ee-uh-lize",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "dev-090",
+    "word": "Encapsulate",
+    "meaning": "To bundle data and behavior together while restricting direct access",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2026-02-11",
+    "samplePhrase": "We should encapsulate the library to improve code quality.",
+    "itContext": "Encapsulate is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "wrap",
+      "contain",
+      "hide",
+      "package"
+    ],
+    "pronunciation": "en-KAP-soo-layt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "dev-091",
+    "word": "Polymorphism",
+    "meaning": "The ability of different classes to respond to the same method call",
+    "genre": "software-dev",
+    "difficulty": 4,
+    "dateAdded": "2026-02-12",
+    "samplePhrase": "The polymorphism nature of the codebase makes it easier to maintain.",
+    "itContext": "Polymorphism is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "versatility",
+      "multiformity",
+      "adaptability",
+      "flexibility"
+    ],
+    "pronunciation": "pol-ee-MOR-fiz-um",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "dev-092",
+    "word": "Inheritance",
+    "meaning": "A mechanism where a class derives properties and behavior from a parent",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2026-02-13",
+    "samplePhrase": "The inheritance nature of the module makes it easier to maintain.",
+    "itContext": "Inheritance is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "derivation",
+      "extension",
+      "subclassing",
+      "hierarchy"
+    ],
+    "pronunciation": "in-HAIR-ih-tans",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "dev-093",
+    "word": "Encapsulation",
+    "meaning": "The bundling of data with methods that operate on that data",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2026-02-14",
+    "samplePhrase": "The encapsulation nature of the function makes it easier to maintain.",
+    "itContext": "Encapsulation is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "bundling",
+      "hiding",
+      "wrapping",
+      "containment"
+    ],
+    "pronunciation": "en-kap-soo-LAY-shun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "dev-094",
+    "word": "Abstraction",
+    "meaning": "The process of reducing complexity by exposing only essential features",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2026-02-15",
+    "samplePhrase": "The abstraction nature of the API makes it easier to maintain.",
+    "itContext": "Abstraction is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "simplification",
+      "generalization",
+      "layer",
+      "interface"
+    ],
+    "pronunciation": "ab-STRAK-shun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      4
+    ]
+  },
+  {
+    "id": "dev-095",
+    "word": "Composition",
+    "meaning": "Building complex functionality by combining simpler independent pieces",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2026-02-16",
+    "samplePhrase": "The composition nature of the component makes it easier to maintain.",
+    "itContext": "Composition is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "combination",
+      "assembly",
+      "aggregation",
+      "building"
+    ],
+    "pronunciation": "kom-poh-ZIH-shun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "dev-096",
+    "word": "Aggregation",
+    "meaning": "A relationship where objects are grouped but maintain independent lifecycles",
+    "genre": "software-dev",
+    "difficulty": 4,
+    "dateAdded": "2026-02-17",
+    "samplePhrase": "The aggregation nature of the library makes it easier to maintain.",
+    "itContext": "Aggregation is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "grouping",
+      "collection",
+      "clustering",
+      "gathering"
+    ],
+    "pronunciation": "ag-reh-GAY-shun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "dev-097",
+    "word": "Concurrency",
+    "meaning": "The ability to handle multiple tasks that overlap in time",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2026-02-18",
+    "samplePhrase": "The concurrency nature of the codebase makes it easier to maintain.",
+    "itContext": "Concurrency is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "parallelism",
+      "simultaneity",
+      "multitasking",
+      "multi-threading"
+    ],
+    "pronunciation": "kun-KUR-en-see",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "dev-098",
+    "word": "Immutability",
+    "meaning": "The state of being unable to be changed after creation",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2026-02-19",
+    "samplePhrase": "The immutability nature of the module makes it easier to maintain.",
+    "itContext": "Immutability is an important concept in software development for writing clean, maintainable code.",
+    "alternativeWords": [
+      "unchangeability",
+      "permanence",
+      "constancy",
+      "fixedness"
+    ],
+    "pronunciation": "ih-myoo-tuh-BIL-ih-tee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      2,
+      2
+    ]
+  },
+  {
+    "id": "dev-099",
+    "word": "Transpile",
+    "meaning": "To convert source code from one programming language to another at a similar level of abstraction",
+    "genre": "software-dev",
+    "difficulty": 4,
+    "dateAdded": "2026-02-20",
+    "samplePhrase": "Understanding transpile concepts helps our team deliver better software.",
+    "itContext": "Transpile is a valuable concept for IT professionals working in software dev.",
+    "alternativeWords": [
+      "cross-compile",
+      "translate",
+      "convert",
+      "transform"
+    ],
+    "pronunciation": "TRANS-pile",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "dev-100",
+    "word": "Scaffold",
+    "meaning": "To generate the basic project structure and boilerplate as a starting point",
+    "genre": "software-dev",
+    "difficulty": 2,
+    "dateAdded": "2026-02-21",
+    "samplePhrase": "Understanding scaffold concepts helps our team deliver better software.",
+    "itContext": "Scaffold is a valuable concept for IT professionals working in software dev.",
+    "alternativeWords": [
+      "generate",
+      "bootstrap",
+      "template",
+      "initialize"
+    ],
+    "pronunciation": "SKAF-old",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  }
+]

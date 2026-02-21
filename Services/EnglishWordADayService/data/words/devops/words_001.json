@@ -1,0 +1,2228 @@
+[
+  {
+    "id": "devops-001",
+    "word": "Automate",
+    "meaning": "To convert a manual, repetitive process into one that runs without human intervention.",
+    "genre": "devops",
+    "difficulty": 1,
+    "dateAdded": "2025-11-14",
+    "samplePhrase": "We should automate the database backup so it runs every night at midnight.",
+    "itContext": "Automation eliminates toil and reduces human error in repetitive operational tasks.",
+    "alternativeWords": [
+      "mechanize",
+      "streamline",
+      "script",
+      "systematize"
+    ],
+    "pronunciation": "AW-toh-mayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "devops-002",
+    "word": "Orchestrate",
+    "meaning": "To coordinate and manage multiple automated processes or services to work together.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2025-11-15",
+    "samplePhrase": "Kubernetes orchestrates container scheduling across the entire cluster automatically.",
+    "itContext": "Orchestration manages the lifecycle, scaling, and networking of containerized workloads.",
+    "alternativeWords": [
+      "coordinate",
+      "manage",
+      "direct",
+      "arrange"
+    ],
+    "pronunciation": "OR-keh-strayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "devops-003",
+    "word": "Provision",
+    "meaning": "To set up and make infrastructure resources available for use.",
+    "genre": "devops",
+    "difficulty": 2,
+    "dateAdded": "2025-11-16",
+    "samplePhrase": "Terraform provisions a complete staging environment in under ten minutes.",
+    "itContext": "Infrastructure provisioning through code ensures consistency and repeatability across environments.",
+    "alternativeWords": [
+      "allocate",
+      "deploy",
+      "set up",
+      "instantiate"
+    ],
+    "pronunciation": "pruh-VIZH-un",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "devops-004",
+    "word": "Deploy",
+    "meaning": "To release software or infrastructure changes into a target environment.",
+    "genre": "devops",
+    "difficulty": 1,
+    "dateAdded": "2025-11-17",
+    "samplePhrase": "We deploy to production every Tuesday after the staging verification window closes.",
+    "itContext": "Deployment strategies like blue-green and canary minimize downtime and risk.",
+    "alternativeWords": [
+      "release",
+      "ship",
+      "push",
+      "launch"
+    ],
+    "pronunciation": "deh-PLOY",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "devops-005",
+    "word": "Rollback",
+    "meaning": "To revert a system to a previous known-good state after a failed change.",
+    "genre": "devops",
+    "difficulty": 2,
+    "dateAdded": "2025-11-18",
+    "samplePhrase": "The health check failed within 30 seconds, so the system triggered an automatic rollback.",
+    "itContext": "Fast rollback capability is essential for maintaining high availability during deployments.",
+    "alternativeWords": [
+      "revert",
+      "undo",
+      "restore",
+      "regress"
+    ],
+    "pronunciation": "ROHL-bak",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "devops-006",
+    "word": "Containerize",
+    "meaning": "To package an application with its dependencies into a lightweight, portable container.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2025-11-19",
+    "samplePhrase": "We containerize every microservice with Docker to ensure consistent behavior across environments.",
+    "itContext": "Containerization enables reproducible builds and eliminates 'works on my machine' problems.",
+    "alternativeWords": [
+      "package",
+      "encapsulate",
+      "isolate",
+      "bundle"
+    ],
+    "pronunciation": "kun-TAY-ner-ryz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "devops-007",
+    "word": "Monitor",
+    "meaning": "To continuously observe system metrics, logs, and behavior to detect issues.",
+    "genre": "devops",
+    "difficulty": 1,
+    "dateAdded": "2025-11-20",
+    "samplePhrase": "We monitor CPU, memory, and request latency dashboards around the clock.",
+    "itContext": "Effective monitoring is the first pillar of observability in production systems.",
+    "alternativeWords": [
+      "observe",
+      "track",
+      "watch",
+      "surveil"
+    ],
+    "pronunciation": "MON-ih-ter",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "devops-008",
+    "word": "Alert",
+    "meaning": "A notification triggered when a metric crosses a predefined threshold.",
+    "genre": "devops",
+    "difficulty": 1,
+    "dateAdded": "2025-11-21",
+    "samplePhrase": "We received a PagerDuty alert at 3 AM because error rates exceeded 5%.",
+    "itContext": "Well-tuned alerts reduce noise and ensure on-call engineers focus on real incidents.",
+    "alternativeWords": [
+      "notification",
+      "alarm",
+      "warning",
+      "signal"
+    ],
+    "pronunciation": "uh-LURT",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "devops-009",
+    "word": "Scale",
+    "meaning": "To increase or decrease computing resources to match workload demand.",
+    "genre": "devops",
+    "difficulty": 2,
+    "dateAdded": "2025-11-22",
+    "samplePhrase": "The auto-scaler adds more pods when request volume exceeds the configured threshold.",
+    "itContext": "Horizontal scaling adds more instances while vertical scaling adds more resources to existing ones.",
+    "alternativeWords": [
+      "expand",
+      "grow",
+      "resize",
+      "adjust"
+    ],
+    "pronunciation": "skayl",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "devops-010",
+    "word": "Replicate",
+    "meaning": "To create identical copies of data or services for redundancy and availability.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2025-11-23",
+    "samplePhrase": "We replicate the primary database to two read replicas for fault tolerance.",
+    "itContext": "Replication ensures data durability and enables load distribution across instances.",
+    "alternativeWords": [
+      "duplicate",
+      "mirror",
+      "copy",
+      "clone"
+    ],
+    "pronunciation": "REP-lih-kayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "devops-011",
+    "word": "Resilient",
+    "meaning": "Able to recover quickly from failures and continue operating under adverse conditions.",
+    "genre": "devops",
+    "difficulty": 2,
+    "dateAdded": "2025-11-24",
+    "samplePhrase": "The system is resilient enough to survive the loss of an entire availability zone.",
+    "itContext": "Resilient architectures use redundancy, retries, and circuit breakers to handle failures gracefully.",
+    "alternativeWords": [
+      "robust",
+      "fault-tolerant",
+      "hardy",
+      "durable"
+    ],
+    "pronunciation": "rih-ZIL-yent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "devops-012",
+    "word": "Canary",
+    "meaning": "A deployment strategy that routes a small percentage of traffic to a new version first.",
+    "genre": "devops",
+    "difficulty": 4,
+    "dateAdded": "2025-11-25",
+    "samplePhrase": "Run a canary release on 5% of traffic to validate the change before full rollout.",
+    "itContext": "Canary deployments minimize blast radius by catching regressions with limited user exposure.",
+    "alternativeWords": [
+      "pilot",
+      "trial",
+      "phased rollout",
+      "gradual release"
+    ],
+    "pronunciation": "kuh-NAIR-ee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "devops-013",
+    "word": "Toil",
+    "meaning": "Manual, repetitive, automatable work that grows linearly with service size.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2025-11-26",
+    "samplePhrase": "Manually rotating certificates every quarter is pure toil that should be automated.",
+    "itContext": "SRE philosophy targets reducing toil below 50% of an engineer's working time.",
+    "alternativeWords": [
+      "drudgery",
+      "grunt work",
+      "busywork",
+      "tedium"
+    ],
+    "pronunciation": "toyl",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "devops-014",
+    "word": "Observable",
+    "meaning": "Having sufficient instrumentation to understand internal system state from external outputs.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2025-11-27",
+    "samplePhrase": "The new service isn't observable yet — we need to add structured logging and tracing.",
+    "itContext": "Observability combines metrics, logs, and traces to enable rapid debugging in distributed systems.",
+    "alternativeWords": [
+      "transparent",
+      "inspectable",
+      "monitorable",
+      "traceable"
+    ],
+    "pronunciation": "ub-ZUR-vuh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "devops-015",
+    "word": "Incident",
+    "meaning": "An unplanned event that disrupts or degrades a service's normal operation.",
+    "genre": "devops",
+    "difficulty": 2,
+    "dateAdded": "2025-11-28",
+    "samplePhrase": "We declared a Severity-1 incident when the payment gateway stopped responding.",
+    "itContext": "Structured incident management reduces mean time to recovery and improves communication.",
+    "alternativeWords": [
+      "outage",
+      "disruption",
+      "event",
+      "issue"
+    ],
+    "pronunciation": "IN-sih-dent",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "devops-016",
+    "word": "Postmortem",
+    "meaning": "A blameless analysis conducted after an incident to understand root causes and prevent recurrence.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2025-11-29",
+    "samplePhrase": "The postmortem revealed that a missing health check allowed the bad deploy to propagate.",
+    "itContext": "Blameless postmortems foster a learning culture and improve system reliability over time.",
+    "alternativeWords": [
+      "retrospective",
+      "debrief",
+      "root cause analysis",
+      "review"
+    ],
+    "pronunciation": "pohst-MOR-tem",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "devops-017",
+    "word": "Remediate",
+    "meaning": "To take corrective action to fix a problem or vulnerability.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2025-11-30",
+    "samplePhrase": "The security team has 48 hours to remediate any critical vulnerabilities found in the scan.",
+    "itContext": "Remediation workflows automate the process of patching known vulnerabilities at scale.",
+    "alternativeWords": [
+      "fix",
+      "correct",
+      "resolve",
+      "rectify"
+    ],
+    "pronunciation": "reh-MEE-dee-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "devops-018",
+    "word": "Throttle",
+    "meaning": "To intentionally limit the rate of requests or operations to prevent overload.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2025-12-01",
+    "samplePhrase": "We throttle API requests to 100 per second per client to protect downstream services.",
+    "itContext": "Rate throttling prevents cascading failures and ensures fair resource sharing among consumers.",
+    "alternativeWords": [
+      "rate-limit",
+      "restrict",
+      "curb",
+      "constrain"
+    ],
+    "pronunciation": "THROT-ul",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "devops-019",
+    "word": "Decouple",
+    "meaning": "To reduce direct dependencies between components so they can change independently.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2025-12-02",
+    "samplePhrase": "We decouple the order service from the notification service using an event queue.",
+    "itContext": "Decoupled architectures improve resilience by preventing failures from cascading across services.",
+    "alternativeWords": [
+      "separate",
+      "detach",
+      "isolate",
+      "disentangle"
+    ],
+    "pronunciation": "dee-KUP-ul",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "devops-020",
+    "word": "Pipeline",
+    "meaning": "An automated sequence of stages that build, test, and deploy software.",
+    "genre": "devops",
+    "difficulty": 2,
+    "dateAdded": "2025-12-03",
+    "samplePhrase": "The CI/CD pipeline runs unit tests, integration tests, and security scans before every deploy.",
+    "itContext": "Well-designed pipelines enforce quality gates and accelerate the path from code to production.",
+    "alternativeWords": [
+      "workflow",
+      "chain",
+      "process",
+      "sequence"
+    ],
+    "pronunciation": "PYP-lyn",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "devops-021",
+    "word": "Artifact",
+    "meaning": "A built output such as a binary, container image, or package produced by the build process.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2025-12-04",
+    "samplePhrase": "Every build produces a versioned artifact that is stored in our container registry.",
+    "itContext": "Immutable artifacts ensure that what was tested is exactly what gets deployed.",
+    "alternativeWords": [
+      "deliverable",
+      "output",
+      "binary",
+      "package"
+    ],
+    "pronunciation": "AR-tih-fakt",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "devops-022",
+    "word": "Immutable",
+    "meaning": "Unable to be changed after creation; replaced entirely rather than modified in place.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2025-12-05",
+    "samplePhrase": "We follow immutable infrastructure — servers are never patched, only replaced with new images.",
+    "itContext": "Immutable deployments eliminate configuration drift and simplify rollback procedures.",
+    "alternativeWords": [
+      "unchangeable",
+      "fixed",
+      "permanent",
+      "unalterable"
+    ],
+    "pronunciation": "ih-MYOO-tuh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "devops-023",
+    "word": "Idempotent",
+    "meaning": "Producing the same result regardless of how many times an operation is executed.",
+    "genre": "devops",
+    "difficulty": 4,
+    "dateAdded": "2025-12-06",
+    "samplePhrase": "All Terraform apply commands are idempotent — running them twice produces the same state.",
+    "itContext": "Idempotency is critical for safe retries in distributed systems and infrastructure automation.",
+    "alternativeWords": [
+      "repeatable",
+      "safe-to-retry",
+      "deterministic",
+      "consistent"
+    ],
+    "pronunciation": "eye-dem-PO-tent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "devops-024",
+    "word": "Declarative",
+    "meaning": "Describing the desired end state rather than the steps to achieve it.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2025-12-07",
+    "samplePhrase": "Kubernetes manifests are declarative — you state what you want, and the system figures out how.",
+    "itContext": "Declarative configurations are easier to audit, version, and reproduce than imperative scripts.",
+    "alternativeWords": [
+      "descriptive",
+      "state-based",
+      "outcome-oriented",
+      "specification-driven"
+    ],
+    "pronunciation": "deh-KLAIR-uh-tiv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "devops-025",
+    "word": "Ephemeral",
+    "meaning": "Lasting for a very short time; temporary resources that exist only during a task.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2025-12-08",
+    "samplePhrase": "CI jobs run on ephemeral runners that are destroyed after each build completes.",
+    "itContext": "Ephemeral resources reduce costs and prevent state accumulation between runs.",
+    "alternativeWords": [
+      "transient",
+      "temporary",
+      "short-lived",
+      "fleeting"
+    ],
+    "pronunciation": "ih-FEM-er-ul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "devops-026",
+    "word": "Sidecar",
+    "meaning": "A companion container that runs alongside a main application container to extend its functionality.",
+    "genre": "devops",
+    "difficulty": 4,
+    "dateAdded": "2025-12-09",
+    "samplePhrase": "The Envoy sidecar handles mTLS and traffic routing without changing application code.",
+    "itContext": "Sidecar patterns decouple cross-cutting concerns like logging, security, and service mesh from business logic.",
+    "alternativeWords": [
+      "companion",
+      "helper",
+      "proxy",
+      "auxiliary"
+    ],
+    "pronunciation": "SYD-kar",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "devops-027",
+    "word": "Mesh",
+    "meaning": "A dedicated infrastructure layer that controls service-to-service communication.",
+    "genre": "devops",
+    "difficulty": 4,
+    "dateAdded": "2025-12-10",
+    "samplePhrase": "Istio service mesh gives us traffic splitting, observability, and mTLS for free.",
+    "itContext": "Service meshes abstract networking complexity away from application developers.",
+    "alternativeWords": [
+      "network",
+      "fabric",
+      "grid",
+      "lattice"
+    ],
+    "pronunciation": "mesh",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "devops-028",
+    "word": "Bulkhead",
+    "meaning": "A pattern that isolates components so a failure in one doesn't cascade to others.",
+    "genre": "devops",
+    "difficulty": 5,
+    "dateAdded": "2025-12-11",
+    "samplePhrase": "The bulkhead pattern ensures the payment service can't exhaust the connection pool used by search.",
+    "itContext": "Bulkheads limit the blast radius of failures by partitioning shared resources.",
+    "alternativeWords": [
+      "partition",
+      "isolation barrier",
+      "compartment",
+      "firewall"
+    ],
+    "pronunciation": "BULK-hed",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "devops-029",
+    "word": "Chaos",
+    "meaning": "The deliberate injection of failures into a system to test its resilience.",
+    "genre": "devops",
+    "difficulty": 4,
+    "dateAdded": "2025-12-12",
+    "samplePhrase": "We run chaos experiments every Friday to verify our systems handle random pod termination.",
+    "itContext": "Chaos engineering proactively uncovers weaknesses before they cause real outages.",
+    "alternativeWords": [
+      "disruption",
+      "turbulence",
+      "instability",
+      "disorder"
+    ],
+    "pronunciation": "KAY-os",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "devops-030",
+    "word": "Triage",
+    "meaning": "To assess and prioritize issues based on severity and impact to determine response order.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2025-12-13",
+    "samplePhrase": "During an incident, the on-call engineer triages alerts to focus on the root cause first.",
+    "itContext": "Effective triage reduces mean time to recovery by directing attention to the most impactful issues.",
+    "alternativeWords": [
+      "prioritize",
+      "assess",
+      "categorize",
+      "sort"
+    ],
+    "pronunciation": "tree-AHJ",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "devops-031",
+    "word": "Failover",
+    "meaning": "The automatic switching to a standby system when the primary system fails.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2025-12-14",
+    "samplePhrase": "The database failover to the secondary region completed in under 30 seconds.",
+    "itContext": "Automated failover mechanisms are essential for meeting high-availability SLA requirements.",
+    "alternativeWords": [
+      "switchover",
+      "fallback",
+      "backup switch",
+      "redundancy switch"
+    ],
+    "pronunciation": "FAYL-oh-ver",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "devops-032",
+    "word": "Redundant",
+    "meaning": "Having duplicate components so that failure of one does not cause system failure.",
+    "genre": "devops",
+    "difficulty": 2,
+    "dateAdded": "2025-12-15",
+    "samplePhrase": "We maintain redundant load balancers in active-passive mode for high availability.",
+    "itContext": "Redundancy is the foundation of fault-tolerant architectures in production environments.",
+    "alternativeWords": [
+      "duplicate",
+      "backup",
+      "spare",
+      "reserve"
+    ],
+    "pronunciation": "reh-DUN-dunt",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "devops-033",
+    "word": "Latency",
+    "meaning": "The time delay between a request being sent and the response being received.",
+    "genre": "devops",
+    "difficulty": 2,
+    "dateAdded": "2025-12-16",
+    "samplePhrase": "The cross-region API calls add 150ms of latency compared to local calls.",
+    "itContext": "Latency optimization is critical for user experience and is tracked via P50, P95, and P99 metrics.",
+    "alternativeWords": [
+      "delay",
+      "lag",
+      "response time",
+      "wait time"
+    ],
+    "pronunciation": "LAY-ten-see",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "devops-034",
+    "word": "Throughput",
+    "meaning": "The amount of work or data a system processes in a given time period.",
+    "genre": "devops",
+    "difficulty": 2,
+    "dateAdded": "2025-12-17",
+    "samplePhrase": "After the optimization, message throughput increased from 5,000 to 20,000 events per second.",
+    "itContext": "Throughput and latency are the two fundamental performance metrics for any service.",
+    "alternativeWords": [
+      "capacity",
+      "bandwidth",
+      "output rate",
+      "processing rate"
+    ],
+    "pronunciation": "THROO-put",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "devops-035",
+    "word": "Baseline",
+    "meaning": "A reference measurement of normal system behavior used for comparison.",
+    "genre": "devops",
+    "difficulty": 2,
+    "dateAdded": "2025-12-18",
+    "samplePhrase": "Establish a performance baseline before making changes so we can measure the impact.",
+    "itContext": "Baselines enable anomaly detection by defining what 'normal' looks like for a system.",
+    "alternativeWords": [
+      "benchmark",
+      "reference point",
+      "standard",
+      "starting point"
+    ],
+    "pronunciation": "BAYS-lyn",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "devops-036",
+    "word": "Telemetry",
+    "meaning": "The automated collection and transmission of data about system performance and behavior.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2025-12-19",
+    "samplePhrase": "OpenTelemetry collects telemetry data — metrics, logs, and traces — from all our services.",
+    "itContext": "Telemetry is the data foundation that enables observability in modern distributed systems.",
+    "alternativeWords": [
+      "instrumentation",
+      "diagnostics",
+      "measurements",
+      "signals"
+    ],
+    "pronunciation": "teh-LEM-eh-tree",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "devops-037",
+    "word": "Instrument",
+    "meaning": "To add code that collects performance metrics, traces, or logs from an application.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2025-12-20",
+    "samplePhrase": "We instrument every HTTP handler with timing middleware to measure request duration.",
+    "itContext": "Instrumented applications produce the telemetry data needed for effective monitoring and debugging.",
+    "alternativeWords": [
+      "equip",
+      "embed",
+      "integrate",
+      "outfit"
+    ],
+    "pronunciation": "IN-stroo-ment",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "devops-038",
+    "word": "Harden",
+    "meaning": "To strengthen a system's security posture by reducing its attack surface.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2025-12-21",
+    "samplePhrase": "We harden production servers by disabling unused ports, removing default accounts, and enabling SELinux.",
+    "itContext": "System hardening is a key practice in defense-in-depth security strategies.",
+    "alternativeWords": [
+      "secure",
+      "fortify",
+      "tighten",
+      "strengthen"
+    ],
+    "pronunciation": "HAR-den",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "devops-039",
+    "word": "Patch",
+    "meaning": "To apply a fix or update to software to address bugs, vulnerabilities, or feature gaps.",
+    "genre": "devops",
+    "difficulty": 1,
+    "dateAdded": "2025-12-22",
+    "samplePhrase": "The security team requires all critical CVEs to be patched within 72 hours.",
+    "itContext": "Timely patching is one of the most effective defenses against known exploits.",
+    "alternativeWords": [
+      "update",
+      "fix",
+      "repair",
+      "mend"
+    ],
+    "pronunciation": "pach",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "devops-040",
+    "word": "Rotate",
+    "meaning": "To periodically replace secrets, keys, or credentials to limit exposure from compromise.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2025-12-23",
+    "samplePhrase": "AWS Secrets Manager rotates database passwords automatically every 30 days.",
+    "itContext": "Credential rotation limits the window of opportunity for attackers who obtain stolen secrets.",
+    "alternativeWords": [
+      "cycle",
+      "replace",
+      "renew",
+      "refresh"
+    ],
+    "pronunciation": "ROH-tayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "devops-041",
+    "word": "Encrypt",
+    "meaning": "To convert data into a coded format that can only be read with the proper decryption key.",
+    "genre": "devops",
+    "difficulty": 2,
+    "dateAdded": "2025-12-24",
+    "samplePhrase": "We encrypt all data at rest using AES-256 and in transit using TLS 1.3.",
+    "itContext": "Encryption is a foundational control for data protection and regulatory compliance.",
+    "alternativeWords": [
+      "encipher",
+      "encode",
+      "secure",
+      "protect"
+    ],
+    "pronunciation": "en-KRIPT",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "devops-042",
+    "word": "Isolate",
+    "meaning": "To separate a component, environment, or workload from others to prevent interference.",
+    "genre": "devops",
+    "difficulty": 2,
+    "dateAdded": "2025-12-25",
+    "samplePhrase": "We isolate each tenant's workload in a separate namespace to prevent noisy-neighbor issues.",
+    "itContext": "Resource isolation is essential for multi-tenant systems and secure CI/CD pipelines.",
+    "alternativeWords": [
+      "separate",
+      "segregate",
+      "quarantine",
+      "sandbox"
+    ],
+    "pronunciation": "EYE-soh-layt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "devops-043",
+    "word": "Quarantine",
+    "meaning": "To isolate a suspicious or compromised component to prevent further damage.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2025-12-26",
+    "samplePhrase": "The SIEM automatically quarantines any EC2 instance that shows signs of compromise.",
+    "itContext": "Quarantine capabilities enable rapid incident containment in automated security workflows.",
+    "alternativeWords": [
+      "isolate",
+      "contain",
+      "sequester",
+      "sandbox"
+    ],
+    "pronunciation": "KWOR-un-teen",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "devops-044",
+    "word": "Sanitize",
+    "meaning": "To clean or validate input data to prevent injection attacks and data corruption.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2025-12-27",
+    "samplePhrase": "Always sanitize user input before passing it to database queries or shell commands.",
+    "itContext": "Input sanitization is a first line of defense against SQL injection and XSS attacks.",
+    "alternativeWords": [
+      "cleanse",
+      "filter",
+      "validate",
+      "scrub"
+    ],
+    "pronunciation": "SAN-ih-tyz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "devops-045",
+    "word": "Validate",
+    "meaning": "To check that data, configurations, or deployments meet expected rules and constraints.",
+    "genre": "devops",
+    "difficulty": 2,
+    "dateAdded": "2025-12-28",
+    "samplePhrase": "The pipeline validates Kubernetes manifests with OPA policies before applying them.",
+    "itContext": "Pre-deployment validation catches misconfigurations before they reach production.",
+    "alternativeWords": [
+      "verify",
+      "check",
+      "confirm",
+      "audit"
+    ],
+    "pronunciation": "VAL-ih-dayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "devops-046",
+    "word": "Lint",
+    "meaning": "To analyze source code or configuration files for stylistic errors and potential bugs.",
+    "genre": "devops",
+    "difficulty": 2,
+    "dateAdded": "2025-12-29",
+    "samplePhrase": "We lint all Dockerfiles and Helm charts in the pre-commit hook to catch issues early.",
+    "itContext": "Linting enforces coding standards and prevents common mistakes from entering the codebase.",
+    "alternativeWords": [
+      "check",
+      "analyze",
+      "scan",
+      "inspect"
+    ],
+    "pronunciation": "lint",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "devops-047",
+    "word": "Compile",
+    "meaning": "To translate source code into executable machine code or bytecode.",
+    "genre": "devops",
+    "difficulty": 2,
+    "dateAdded": "2025-12-30",
+    "samplePhrase": "The Go compiler cross-compiles binaries for Linux, macOS, and Windows in one pipeline step.",
+    "itContext": "Compilation is a build stage that transforms human-readable code into deployable artifacts.",
+    "alternativeWords": [
+      "build",
+      "assemble",
+      "translate",
+      "generate"
+    ],
+    "pronunciation": "kum-PYL",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "devops-048",
+    "word": "Transpile",
+    "meaning": "To convert source code from one programming language or version to another of similar abstraction.",
+    "genre": "devops",
+    "difficulty": 4,
+    "dateAdded": "2025-12-31",
+    "samplePhrase": "Babel transpiles modern ES2024 JavaScript into ES5 for backward compatibility.",
+    "itContext": "Transpilation enables teams to use modern language features while supporting older runtimes.",
+    "alternativeWords": [
+      "transform",
+      "convert",
+      "translate",
+      "compile"
+    ],
+    "pronunciation": "trans-PYL",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "devops-049",
+    "word": "Cache",
+    "meaning": "To store frequently accessed data in a fast-access layer to reduce load and latency.",
+    "genre": "devops",
+    "difficulty": 2,
+    "dateAdded": "2026-01-01",
+    "samplePhrase": "We cache API responses in Redis with a 60-second TTL to reduce database load.",
+    "itContext": "Caching strategies significantly improve read performance but require careful invalidation logic.",
+    "alternativeWords": [
+      "store",
+      "buffer",
+      "memoize",
+      "preload"
+    ],
+    "pronunciation": "kash",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "devops-050",
+    "word": "Proxy",
+    "meaning": "An intermediary server that forwards requests between clients and backend services.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2026-01-02",
+    "samplePhrase": "The reverse proxy terminates TLS and routes traffic to the appropriate backend service.",
+    "itContext": "Proxies enable load balancing, SSL termination, and request filtering at the network edge.",
+    "alternativeWords": [
+      "intermediary",
+      "gateway",
+      "relay",
+      "broker"
+    ],
+    "pronunciation": "PROK-see",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "devops-051",
+    "word": "Queue",
+    "meaning": "A data structure or service that holds messages in order for asynchronous processing.",
+    "genre": "devops",
+    "difficulty": 2,
+    "dateAdded": "2026-01-03",
+    "samplePhrase": "Orders are placed on an SQS queue and processed by worker pods at their own pace.",
+    "itContext": "Message queues decouple producers from consumers and absorb traffic spikes gracefully.",
+    "alternativeWords": [
+      "buffer",
+      "backlog",
+      "pipeline",
+      "line"
+    ],
+    "pronunciation": "kyoo",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "devops-052",
+    "word": "Shard",
+    "meaning": "To partition data horizontally across multiple databases or nodes for scalability.",
+    "genre": "devops",
+    "difficulty": 4,
+    "dateAdded": "2026-01-04",
+    "samplePhrase": "We shard the user table by region so each database handles only its geographic subset.",
+    "itContext": "Sharding enables horizontal scaling but introduces complexity in cross-shard queries and joins.",
+    "alternativeWords": [
+      "partition",
+      "split",
+      "distribute",
+      "fragment"
+    ],
+    "pronunciation": "shard",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "devops-053",
+    "word": "Distribute",
+    "meaning": "To spread workloads, data, or services across multiple nodes or locations.",
+    "genre": "devops",
+    "difficulty": 2,
+    "dateAdded": "2026-01-05",
+    "samplePhrase": "We distribute static assets across a CDN to serve users from the nearest edge location.",
+    "itContext": "Distributed systems provide scalability and resilience but add complexity in consistency and coordination.",
+    "alternativeWords": [
+      "spread",
+      "disperse",
+      "scatter",
+      "allocate"
+    ],
+    "pronunciation": "dih-STRIB-yoot",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "devops-054",
+    "word": "Parallelize",
+    "meaning": "To execute multiple tasks simultaneously to reduce total processing time.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2026-01-06",
+    "samplePhrase": "We parallelize the test suite across 10 runners to cut CI time from 30 to 5 minutes.",
+    "itContext": "Parallelization accelerates builds and pipelines but requires managing shared state carefully.",
+    "alternativeWords": [
+      "concurrent",
+      "simultaneous",
+      "multi-thread",
+      "fan out"
+    ],
+    "pronunciation": "PAIR-uh-lel-lyz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "devops-055",
+    "word": "Bootstrap",
+    "meaning": "To initialize a system or environment from scratch with minimal manual intervention.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2026-01-07",
+    "samplePhrase": "A single bootstrap script provisions the entire dev environment including Docker, kubectl, and Helm.",
+    "itContext": "Bootstrap automation ensures new team members can start contributing within minutes.",
+    "alternativeWords": [
+      "initialize",
+      "set up",
+      "kickstart",
+      "seed"
+    ],
+    "pronunciation": "BOOT-strap",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "devops-056",
+    "word": "Scaffold",
+    "meaning": "To generate a project's initial structure and boilerplate files automatically.",
+    "genre": "devops",
+    "difficulty": 2,
+    "dateAdded": "2026-01-08",
+    "samplePhrase": "Our internal CLI scaffolds new microservices with standard logging, health checks, and Dockerfile.",
+    "itContext": "Scaffolding tools enforce organizational standards and reduce time-to-first-commit for new projects.",
+    "alternativeWords": [
+      "generate",
+      "template",
+      "stub out",
+      "create"
+    ],
+    "pronunciation": "SKAF-old",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "devops-057",
+    "word": "Configure",
+    "meaning": "To set up system parameters and options to achieve desired behavior.",
+    "genre": "devops",
+    "difficulty": 1,
+    "dateAdded": "2026-01-09",
+    "samplePhrase": "We configure resource limits and environment variables through Helm values files.",
+    "itContext": "Configuration management ensures environments are reproducible and drift-free.",
+    "alternativeWords": [
+      "set up",
+      "customize",
+      "adjust",
+      "parameterize"
+    ],
+    "pronunciation": "kun-FIG-yer",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "devops-058",
+    "word": "Deprecate",
+    "meaning": "To mark a feature, API, or tool as outdated, signaling it will be removed in the future.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2026-01-10",
+    "samplePhrase": "We deprecated the v1 API six months ago and will fully decommission it next quarter.",
+    "itContext": "Clear deprecation timelines give consumers time to migrate to newer alternatives.",
+    "alternativeWords": [
+      "phase out",
+      "sunset",
+      "retire",
+      "supersede"
+    ],
+    "pronunciation": "DEP-ruh-kayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "devops-059",
+    "word": "Snapshot",
+    "meaning": "A point-in-time copy of a system's state, data, or configuration.",
+    "genre": "devops",
+    "difficulty": 2,
+    "dateAdded": "2026-01-11",
+    "samplePhrase": "We take EBS snapshots every four hours and retain them for 30 days.",
+    "itContext": "Snapshots enable fast recovery and provide a known-good restore point for disaster recovery.",
+    "alternativeWords": [
+      "backup",
+      "copy",
+      "image",
+      "checkpoint"
+    ],
+    "pronunciation": "SNAP-shot",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "devops-060",
+    "word": "Checkpoint",
+    "meaning": "A saved state that allows a process to resume from that point instead of restarting.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2026-01-12",
+    "samplePhrase": "The data pipeline saves a checkpoint after each batch so it can resume after failures.",
+    "itContext": "Checkpointing prevents data loss and avoids reprocessing in long-running batch jobs.",
+    "alternativeWords": [
+      "save point",
+      "marker",
+      "milestone",
+      "restore point"
+    ],
+    "pronunciation": "CHEK-poynt",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "devops-061",
+    "word": "Prune",
+    "meaning": "To remove unused, outdated, or unnecessary resources to free up space and reduce clutter.",
+    "genre": "devops",
+    "difficulty": 2,
+    "dateAdded": "2026-01-13",
+    "samplePhrase": "We prune Docker images older than 90 days to reclaim disk space on build servers.",
+    "itContext": "Regular pruning of old artifacts, branches, and images reduces storage costs and attack surface.",
+    "alternativeWords": [
+      "clean up",
+      "trim",
+      "remove",
+      "cull"
+    ],
+    "pronunciation": "proon",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "devops-062",
+    "word": "Purge",
+    "meaning": "To completely remove data or resources, often permanently and irreversibly.",
+    "genre": "devops",
+    "difficulty": 2,
+    "dateAdded": "2026-01-14",
+    "samplePhrase": "After the retention period expires, we purge log data from S3 to comply with data governance policies.",
+    "itContext": "Data purging ensures compliance with retention policies and reduces long-term storage costs.",
+    "alternativeWords": [
+      "delete",
+      "erase",
+      "wipe",
+      "destroy"
+    ],
+    "pronunciation": "purj",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "devops-063",
+    "word": "Archive",
+    "meaning": "To move infrequently accessed data to a cheaper, long-term storage tier.",
+    "genre": "devops",
+    "difficulty": 2,
+    "dateAdded": "2026-01-15",
+    "samplePhrase": "We archive logs older than 90 days to S3 Glacier for cost-effective long-term retention.",
+    "itContext": "Archival strategies balance data retention requirements with storage cost optimization.",
+    "alternativeWords": [
+      "store",
+      "preserve",
+      "vault",
+      "shelve"
+    ],
+    "pronunciation": "AR-kyv",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "devops-064",
+    "word": "Restore",
+    "meaning": "To bring a system or data back to a previous working state from a backup.",
+    "genre": "devops",
+    "difficulty": 2,
+    "dateAdded": "2026-01-16",
+    "samplePhrase": "We restored the production database from last night's snapshot in under 15 minutes.",
+    "itContext": "Regular restore drills validate that backup procedures actually work when needed.",
+    "alternativeWords": [
+      "recover",
+      "retrieve",
+      "reinstate",
+      "rebuild"
+    ],
+    "pronunciation": "rih-STOR",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "devops-065",
+    "word": "Migrate",
+    "meaning": "To move data, applications, or infrastructure from one platform or version to another.",
+    "genre": "devops",
+    "difficulty": 2,
+    "dateAdded": "2026-01-17",
+    "samplePhrase": "We migrated 500 microservices from EC2 to EKS over a six-month phased rollout.",
+    "itContext": "Migration planning must account for data consistency, downtime windows, and rollback procedures.",
+    "alternativeWords": [
+      "move",
+      "transfer",
+      "transition",
+      "port"
+    ],
+    "pronunciation": "MY-grayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "devops-066",
+    "word": "Rebalance",
+    "meaning": "To redistribute workload or data across nodes to achieve more even utilization.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2026-01-18",
+    "samplePhrase": "Kafka automatically rebalances partitions when a new consumer joins the group.",
+    "itContext": "Rebalancing prevents hot spots and ensures resources are used efficiently across a cluster.",
+    "alternativeWords": [
+      "redistribute",
+      "equalize",
+      "reallocate",
+      "level"
+    ],
+    "pronunciation": "ree-BAL-unce",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "devops-067",
+    "word": "Optimize",
+    "meaning": "To improve the performance, efficiency, or cost-effectiveness of a system.",
+    "genre": "devops",
+    "difficulty": 2,
+    "dateAdded": "2026-01-19",
+    "samplePhrase": "We optimized the Docker build by using multi-stage builds and layer caching.",
+    "itContext": "Optimization should be guided by profiling data rather than assumptions about bottlenecks.",
+    "alternativeWords": [
+      "improve",
+      "tune",
+      "enhance",
+      "streamline"
+    ],
+    "pronunciation": "OP-tih-myz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "devops-068",
+    "word": "Profile",
+    "meaning": "To analyze a running system to identify performance bottlenecks and resource usage.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2026-01-20",
+    "samplePhrase": "We profiled the API service and found that JSON serialization consumed 40% of CPU time.",
+    "itContext": "Profiling tools like pprof and perf provide evidence-based insights for optimization.",
+    "alternativeWords": [
+      "analyze",
+      "benchmark",
+      "measure",
+      "diagnose"
+    ],
+    "pronunciation": "PROH-fyl",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "devops-069",
+    "word": "Trace",
+    "meaning": "To follow the path of a request through multiple services in a distributed system.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2026-01-21",
+    "samplePhrase": "Distributed tracing lets us trace a single user request across 12 microservices.",
+    "itContext": "Traces provide end-to-end visibility and are essential for debugging latency in microservices.",
+    "alternativeWords": [
+      "track",
+      "follow",
+      "monitor",
+      "map"
+    ],
+    "pronunciation": "trays",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "devops-070",
+    "word": "Diagnose",
+    "meaning": "To identify the root cause of a system problem through systematic investigation.",
+    "genre": "devops",
+    "difficulty": 2,
+    "dateAdded": "2026-01-22",
+    "samplePhrase": "We diagnosed the memory leak by comparing heap dumps before and after the traffic spike.",
+    "itContext": "Systematic diagnosis using observability data reduces mean time to resolution.",
+    "alternativeWords": [
+      "troubleshoot",
+      "investigate",
+      "debug",
+      "analyze"
+    ],
+    "pronunciation": "dy-ug-NOHS",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "devops-071",
+    "word": "Escalate",
+    "meaning": "To raise an issue to a higher level of authority or expertise for resolution.",
+    "genre": "devops",
+    "difficulty": 2,
+    "dateAdded": "2026-01-23",
+    "samplePhrase": "If the incident isn't resolved within 30 minutes, escalate to the senior on-call engineer.",
+    "itContext": "Clear escalation paths ensure critical incidents receive appropriate expertise and authority.",
+    "alternativeWords": [
+      "elevate",
+      "raise",
+      "refer",
+      "bump up"
+    ],
+    "pronunciation": "ES-kuh-layt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "devops-072",
+    "word": "Acknowledge",
+    "meaning": "To formally confirm receipt and ownership of an alert or incident.",
+    "genre": "devops",
+    "difficulty": 2,
+    "dateAdded": "2026-01-24",
+    "samplePhrase": "The on-call engineer must acknowledge the PagerDuty alert within 5 minutes.",
+    "itContext": "Alert acknowledgment prevents duplicate responses and signals that someone is actively working the issue.",
+    "alternativeWords": [
+      "confirm",
+      "accept",
+      "recognize",
+      "affirm"
+    ],
+    "pronunciation": "ak-NOL-ij",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "devops-073",
+    "word": "Resolve",
+    "meaning": "To bring an incident or problem to a satisfactory conclusion.",
+    "genre": "devops",
+    "difficulty": 1,
+    "dateAdded": "2026-01-25",
+    "samplePhrase": "The on-call team resolved the outage by reverting the faulty config change.",
+    "itContext": "Rapid resolution depends on clear runbooks, good observability, and practiced incident response.",
+    "alternativeWords": [
+      "fix",
+      "settle",
+      "address",
+      "close"
+    ],
+    "pronunciation": "reh-ZOLV",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "devops-074",
+    "word": "Decommission",
+    "meaning": "To formally retire a system, service, or resource from active use.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2026-01-26",
+    "samplePhrase": "We decommissioned the legacy Jenkins server after migrating all pipelines to GitHub Actions.",
+    "itContext": "Decommissioning unused infrastructure reduces attack surface, cost, and operational burden.",
+    "alternativeWords": [
+      "retire",
+      "sunset",
+      "dismantle",
+      "withdraw"
+    ],
+    "pronunciation": "dee-kuh-MISH-un",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "devops-075",
+    "word": "Terminate",
+    "meaning": "To end a running process, instance, or connection.",
+    "genre": "devops",
+    "difficulty": 1,
+    "dateAdded": "2026-01-27",
+    "samplePhrase": "The auto-scaler terminates idle instances after 15 minutes of inactivity.",
+    "itContext": "Graceful termination with drain periods prevents in-flight requests from being dropped.",
+    "alternativeWords": [
+      "stop",
+      "kill",
+      "end",
+      "shut down"
+    ],
+    "pronunciation": "TUR-mih-nayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "devops-076",
+    "word": "Invoke",
+    "meaning": "To trigger the execution of a function, API, or process.",
+    "genre": "devops",
+    "difficulty": 2,
+    "dateAdded": "2026-01-28",
+    "samplePhrase": "The S3 event invokes a Lambda function that processes the uploaded file.",
+    "itContext": "Event-driven invocation enables serverless architectures that scale automatically with demand.",
+    "alternativeWords": [
+      "call",
+      "trigger",
+      "execute",
+      "activate"
+    ],
+    "pronunciation": "in-VOHK",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "devops-077",
+    "word": "Emit",
+    "meaning": "To produce and send out events, metrics, or log entries from a system.",
+    "genre": "devops",
+    "difficulty": 2,
+    "dateAdded": "2026-01-29",
+    "samplePhrase": "The service emits a custom CloudWatch metric for every successful payment processed.",
+    "itContext": "Emitting structured events enables downstream systems to react and aggregate data.",
+    "alternativeWords": [
+      "send",
+      "produce",
+      "output",
+      "publish"
+    ],
+    "pronunciation": "ih-MIT",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "devops-078",
+    "word": "Propagate",
+    "meaning": "To spread a change, signal, or configuration across multiple nodes or services.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2026-01-30",
+    "samplePhrase": "DNS changes can take up to 48 hours to propagate across all resolvers worldwide.",
+    "itContext": "Understanding propagation delays is critical for planning configuration changes in distributed systems.",
+    "alternativeWords": [
+      "spread",
+      "distribute",
+      "disseminate",
+      "broadcast"
+    ],
+    "pronunciation": "PROP-uh-gayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "devops-079",
+    "word": "Converge",
+    "meaning": "To automatically move toward a desired state by reconciling current state with declared intent.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2026-01-31",
+    "samplePhrase": "The Kubernetes controller continuously converges the cluster toward the desired state in the manifests.",
+    "itContext": "Convergence loops are the foundation of self-healing infrastructure and GitOps workflows.",
+    "alternativeWords": [
+      "reconcile",
+      "align",
+      "synchronize",
+      "settle"
+    ],
+    "pronunciation": "kun-VURJ",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "devops-080",
+    "word": "Reconcile",
+    "meaning": "To compare actual system state with desired state and make corrections.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2026-02-01",
+    "samplePhrase": "ArgoCD reconciles the Git repository state with what's running in the cluster every 3 minutes.",
+    "itContext": "Reconciliation is the core mechanism of GitOps controllers and infrastructure-as-code tools.",
+    "alternativeWords": [
+      "synchronize",
+      "align",
+      "harmonize",
+      "correct"
+    ],
+    "pronunciation": "REK-un-syl",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "devops-081",
+    "word": "Saturate",
+    "meaning": "To reach the maximum capacity of a resource such as CPU, memory, or network bandwidth.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2026-02-02",
+    "samplePhrase": "The database connection pool saturates during peak hours, causing request queuing.",
+    "itContext": "Saturation is one of the four golden signals in the USE method for system monitoring.",
+    "alternativeWords": [
+      "exhaust",
+      "overload",
+      "max out",
+      "overwhelm"
+    ],
+    "pronunciation": "SACH-uh-rayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "devops-082",
+    "word": "Benchmark",
+    "meaning": "To measure system performance against a standard workload for comparison.",
+    "genre": "devops",
+    "difficulty": 2,
+    "dateAdded": "2026-02-03",
+    "samplePhrase": "We benchmark every release candidate against the previous version using a standardized load test.",
+    "itContext": "Benchmarking quantifies performance changes and validates optimization efforts.",
+    "alternativeWords": [
+      "measure",
+      "test",
+      "evaluate",
+      "assess"
+    ],
+    "pronunciation": "BENCH-mark",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "devops-083",
+    "word": "Curate",
+    "meaning": "To carefully select and maintain a collection of tools, templates, or configurations.",
+    "genre": "devops",
+    "difficulty": 2,
+    "dateAdded": "2026-02-04",
+    "samplePhrase": "The platform team curates a golden path of approved Helm charts for all service teams.",
+    "itContext": "Curated internal tools and templates accelerate development while enforcing best practices.",
+    "alternativeWords": [
+      "organize",
+      "maintain",
+      "select",
+      "manage"
+    ],
+    "pronunciation": "KYOOR-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "devops-084",
+    "word": "Govern",
+    "meaning": "To establish and enforce policies, standards, and controls across systems and teams.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2026-02-05",
+    "samplePhrase": "Cloud governance policies prevent teams from launching instances outside approved regions.",
+    "itContext": "Infrastructure governance balances developer freedom with organizational security and compliance.",
+    "alternativeWords": [
+      "regulate",
+      "control",
+      "oversee",
+      "administer"
+    ],
+    "pronunciation": "GUV-urn",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "devops-085",
+    "word": "Federate",
+    "meaning": "To unify multiple independent systems under a shared interface or governance model.",
+    "genre": "devops",
+    "difficulty": 4,
+    "dateAdded": "2026-02-06",
+    "samplePhrase": "We federate Prometheus instances across clusters into a single Thanos global view.",
+    "itContext": "Federation enables centralized visibility while allowing teams to own their local infrastructure.",
+    "alternativeWords": [
+      "unify",
+      "consolidate",
+      "integrate",
+      "aggregate"
+    ],
+    "pronunciation": "FED-er-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "devops-086",
+    "word": "Abstract",
+    "meaning": "To hide complex implementation details behind a simpler interface.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2026-02-07",
+    "samplePhrase": "The internal platform abstracts Kubernetes complexity so developers just push code.",
+    "itContext": "Good abstractions let application teams focus on business logic instead of infrastructure plumbing.",
+    "alternativeWords": [
+      "simplify",
+      "encapsulate",
+      "generalize",
+      "hide"
+    ],
+    "pronunciation": "ab-STRAKT",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "devops-087",
+    "word": "Encapsulate",
+    "meaning": "To bundle related functionality and hide internal details from external consumers.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2026-02-08",
+    "samplePhrase": "We encapsulate all database access logic in a shared library to prevent direct SQL in services.",
+    "itContext": "Encapsulation enables independent evolution of components without breaking consumers.",
+    "alternativeWords": [
+      "wrap",
+      "contain",
+      "bundle",
+      "package"
+    ],
+    "pronunciation": "en-KAP-soo-layt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "devops-088",
+    "word": "Serialize",
+    "meaning": "To convert a data structure or object into a format suitable for storage or transmission.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2026-02-09",
+    "samplePhrase": "We serialize events to Protobuf instead of JSON to reduce message size by 60%.",
+    "itContext": "Serialization format choices affect performance, compatibility, and debugging ease.",
+    "alternativeWords": [
+      "encode",
+      "marshal",
+      "flatten",
+      "convert"
+    ],
+    "pronunciation": "SEER-ee-uh-lyz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "devops-089",
+    "word": "Daemon",
+    "meaning": "A background process that runs continuously to handle system tasks or service requests.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2026-02-10",
+    "samplePhrase": "The logging daemon collects container stdout and ships it to the centralized logging backend.",
+    "itContext": "Daemons typically run as DaemonSets in Kubernetes to ensure one instance per node.",
+    "alternativeWords": [
+      "background process",
+      "service",
+      "agent",
+      "worker"
+    ],
+    "pronunciation": "DEE-mun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "devops-090",
+    "word": "Webhook",
+    "meaning": "An HTTP callback that delivers real-time notifications when a specific event occurs.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2026-02-11",
+    "samplePhrase": "GitHub fires a webhook to our CI server whenever a pull request is opened.",
+    "itContext": "Webhooks enable event-driven integrations between otherwise decoupled services.",
+    "alternativeWords": [
+      "callback",
+      "HTTP notification",
+      "event hook",
+      "push notification"
+    ],
+    "pronunciation": "WEB-hook",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "devops-091",
+    "word": "Cron",
+    "meaning": "A time-based job scheduler that runs tasks at predefined intervals.",
+    "genre": "devops",
+    "difficulty": 2,
+    "dateAdded": "2026-02-12",
+    "samplePhrase": "A Kubernetes CronJob runs the database cleanup task every night at midnight UTC.",
+    "itContext": "Cron scheduling automates routine maintenance tasks but requires monitoring for silent failures.",
+    "alternativeWords": [
+      "scheduler",
+      "timer",
+      "periodic job",
+      "scheduled task"
+    ],
+    "pronunciation": "kron",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "devops-092",
+    "word": "Manifest",
+    "meaning": "A declarative configuration file that describes the desired state of a resource.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2026-02-13",
+    "samplePhrase": "The Kubernetes manifest specifies three replicas, resource limits, and health check endpoints.",
+    "itContext": "Version-controlled manifests enable GitOps workflows and reproducible deployments.",
+    "alternativeWords": [
+      "specification",
+      "definition",
+      "descriptor",
+      "blueprint"
+    ],
+    "pronunciation": "MAN-ih-fest",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "devops-093",
+    "word": "Registry",
+    "meaning": "A centralized repository for storing and distributing container images or packages.",
+    "genre": "devops",
+    "difficulty": 2,
+    "dateAdded": "2026-02-14",
+    "samplePhrase": "Push the Docker image to our private ECR registry after the build pipeline succeeds.",
+    "itContext": "Container registries are critical infrastructure for CI/CD and need vulnerability scanning.",
+    "alternativeWords": [
+      "repository",
+      "catalog",
+      "store",
+      "hub"
+    ],
+    "pronunciation": "REJ-ih-stree",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "devops-094",
+    "word": "Namespace",
+    "meaning": "A logical boundary that groups and isolates resources within a shared system.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2026-02-15",
+    "samplePhrase": "Each team deploys to their own Kubernetes namespace with separate resource quotas.",
+    "itContext": "Namespaces provide soft multi-tenancy and resource isolation in shared clusters.",
+    "alternativeWords": [
+      "scope",
+      "partition",
+      "domain",
+      "context"
+    ],
+    "pronunciation": "NAYM-spays",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "devops-095",
+    "word": "Ingress",
+    "meaning": "The configuration that manages external access to services inside a cluster.",
+    "genre": "devops",
+    "difficulty": 4,
+    "dateAdded": "2026-02-16",
+    "samplePhrase": "The Ingress resource routes api.example.com traffic to the API service on port 8080.",
+    "itContext": "Ingress controllers handle TLS termination, path-based routing, and rate limiting at the edge.",
+    "alternativeWords": [
+      "entry point",
+      "gateway",
+      "access point",
+      "inbound route"
+    ],
+    "pronunciation": "IN-gres",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "devops-096",
+    "word": "Egress",
+    "meaning": "The outbound network traffic leaving a system, cluster, or network boundary.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2026-02-17",
+    "samplePhrase": "Egress network policies restrict which external endpoints our pods can communicate with.",
+    "itContext": "Controlling egress traffic is a security best practice to prevent data exfiltration.",
+    "alternativeWords": [
+      "outbound",
+      "exit",
+      "outflow",
+      "departure"
+    ],
+    "pronunciation": "EE-gres",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "devops-097",
+    "word": "Uptime",
+    "meaning": "The duration a system or service has been continuously operational and available.",
+    "genre": "devops",
+    "difficulty": 1,
+    "dateAdded": "2026-02-18",
+    "samplePhrase": "Our SLA guarantees 99.99% uptime, which allows only 4.3 minutes of downtime per month.",
+    "itContext": "Uptime is the primary measure of service reliability and a key SLA metric.",
+    "alternativeWords": [
+      "availability",
+      "operational time",
+      "running time",
+      "service time"
+    ],
+    "pronunciation": "UP-tym",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "devops-098",
+    "word": "Downtime",
+    "meaning": "A period when a system or service is unavailable or not functioning correctly.",
+    "genre": "devops",
+    "difficulty": 1,
+    "dateAdded": "2026-02-19",
+    "samplePhrase": "The scheduled maintenance window has a 2-hour planned downtime starting at midnight.",
+    "itContext": "Minimizing unplanned downtime is a primary goal of SRE and DevOps practices.",
+    "alternativeWords": [
+      "outage",
+      "unavailability",
+      "interruption",
+      "offline period"
+    ],
+    "pronunciation": "DOWN-tym",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "devops-099",
+    "word": "Runbook",
+    "meaning": "A documented set of procedures for handling specific operational tasks or incidents.",
+    "genre": "devops",
+    "difficulty": 3,
+    "dateAdded": "2026-02-20",
+    "samplePhrase": "The on-call engineer followed the runbook to restore the database within the recovery time objective.",
+    "itContext": "Runbooks codify tribal knowledge and enable consistent incident response across team members.",
+    "alternativeWords": [
+      "playbook",
+      "procedure guide",
+      "operations manual",
+      "standard operating procedure"
+    ],
+    "pronunciation": "RUN-book",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "devops-100",
+    "word": "Playbook",
+    "meaning": "A strategic guide outlining predefined responses and automations for common scenarios.",
+    "genre": "devops",
+    "difficulty": 2,
+    "dateAdded": "2026-02-21",
+    "samplePhrase": "The Ansible playbook configures the entire production stack with a single command.",
+    "itContext": "Playbooks automate complex multi-step operations and serve as living documentation.",
+    "alternativeWords": [
+      "guide",
+      "handbook",
+      "strategy document",
+      "automation script"
+    ],
+    "pronunciation": "PLAY-book",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  }
+]

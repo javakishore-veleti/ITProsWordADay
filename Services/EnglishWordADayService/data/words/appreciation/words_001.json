@@ -1,0 +1,2256 @@
+[
+  {
+    "id": "appr-001",
+    "word": "Commendable",
+    "meaning": "Deserving praise and recognition for effort or achievement.",
+    "genre": "appreciation",
+    "difficulty": 2,
+    "dateAdded": "2025-11-14",
+    "samplePhrase": "Your effort on the zero-downtime migration was truly commendable — the team relied on your expertise.",
+    "itContext": "Recognizing commendable work in stand-ups and retrospectives boosts team morale.",
+    "alternativeWords": [
+      "praiseworthy",
+      "admirable",
+      "laudable",
+      "meritorious"
+    ],
+    "pronunciation": "kuh-MEN-duh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "appr-002",
+    "word": "Exemplary",
+    "meaning": "Serving as a desirable model; representing the best of its kind.",
+    "genre": "appreciation",
+    "difficulty": 3,
+    "dateAdded": "2025-11-15",
+    "samplePhrase": "Your documentation for the API is exemplary — it's become our team's gold standard.",
+    "itContext": "Highlighting exemplary work during sprint reviews encourages best practices across the team.",
+    "alternativeWords": [
+      "outstanding",
+      "model",
+      "exceptional",
+      "stellar"
+    ],
+    "pronunciation": "ig-ZEM-pluh-ree",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "appr-003",
+    "word": "Invaluable",
+    "meaning": "Extremely useful; indispensable; of immeasurable worth to the team.",
+    "genre": "appreciation",
+    "difficulty": 2,
+    "dateAdded": "2025-11-16",
+    "samplePhrase": "Your cross-team debugging skills are invaluable — you saved us days of investigation.",
+    "itContext": "Calling someone's contributions invaluable shows deep appreciation for their unique skills.",
+    "alternativeWords": [
+      "indispensable",
+      "priceless",
+      "essential",
+      "irreplaceable"
+    ],
+    "pronunciation": "in-VAL-yoo-uh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "appr-004",
+    "word": "Diligent",
+    "meaning": "Having or showing care and conscientiousness in one's work or duties.",
+    "genre": "appreciation",
+    "difficulty": 2,
+    "dateAdded": "2025-11-17",
+    "samplePhrase": "Your diligent testing caught the edge case that would have caused data corruption in production.",
+    "itContext": "Diligent engineers who write thorough tests save their teams from costly production incidents.",
+    "alternativeWords": [
+      "thorough",
+      "meticulous",
+      "conscientious",
+      "assiduous"
+    ],
+    "pronunciation": "DIL-ih-jent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "appr-005",
+    "word": "Meticulous",
+    "meaning": "Showing great attention to detail; very careful and precise in execution.",
+    "genre": "appreciation",
+    "difficulty": 3,
+    "dateAdded": "2025-11-18",
+    "samplePhrase": "Her meticulous code reviews consistently catch subtle bugs that automated tools miss.",
+    "itContext": "Meticulous attention to detail in infrastructure configuration prevents security vulnerabilities.",
+    "alternativeWords": [
+      "thorough",
+      "precise",
+      "painstaking",
+      "scrupulous"
+    ],
+    "pronunciation": "muh-TIK-yoo-lus",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "appr-006",
+    "word": "Resourceful",
+    "meaning": "Having the ability to find quick and clever ways to overcome difficulties.",
+    "genre": "appreciation",
+    "difficulty": 2,
+    "dateAdded": "2025-11-19",
+    "samplePhrase": "Your resourceful workaround for the API limitation unblocked the entire frontend team.",
+    "itContext": "Resourceful engineers who find creative solutions under constraints are invaluable during crunch periods.",
+    "alternativeWords": [
+      "ingenious",
+      "inventive",
+      "creative",
+      "enterprising"
+    ],
+    "pronunciation": "rih-SORS-ful",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "appr-007",
+    "word": "Innovative",
+    "meaning": "Introducing new ideas, methods, or approaches; creative and forward-thinking.",
+    "genre": "appreciation",
+    "difficulty": 2,
+    "dateAdded": "2025-11-20",
+    "samplePhrase": "Your innovative approach to caching reduced our API response time by 80%.",
+    "itContext": "Innovative thinking during hackathons often produces features that become core product differentiators.",
+    "alternativeWords": [
+      "creative",
+      "inventive",
+      "groundbreaking",
+      "pioneering"
+    ],
+    "pronunciation": "IN-uh-vay-tiv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "appr-008",
+    "word": "Dedicated",
+    "meaning": "Devoted to a task or purpose; showing strong commitment and loyalty.",
+    "genre": "appreciation",
+    "difficulty": 1,
+    "dateAdded": "2025-11-21",
+    "samplePhrase": "Your dedicated support during the weekend outage kept our customers' trust intact.",
+    "itContext": "Dedicated team members who go the extra mile during incidents deserve recognition in retrospectives.",
+    "alternativeWords": [
+      "committed",
+      "devoted",
+      "loyal",
+      "steadfast"
+    ],
+    "pronunciation": "DED-ih-kay-tid",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "appr-009",
+    "word": "Proficient",
+    "meaning": "Competent or skilled in doing or using something; having a high degree of expertise.",
+    "genre": "appreciation",
+    "difficulty": 2,
+    "dateAdded": "2025-11-22",
+    "samplePhrase": "Your proficient handling of the Kubernetes migration showed deep infrastructure expertise.",
+    "itContext": "Proficient engineers raise the bar for the whole team through knowledge sharing and pair programming.",
+    "alternativeWords": [
+      "skilled",
+      "expert",
+      "adept",
+      "competent"
+    ],
+    "pronunciation": "pruh-FISH-ent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "appr-010",
+    "word": "Tenacious",
+    "meaning": "Tending to keep a firm hold of something; persistent and determined in the face of difficulty.",
+    "genre": "appreciation",
+    "difficulty": 3,
+    "dateAdded": "2025-11-23",
+    "samplePhrase": "Your tenacious debugging of the intermittent failure finally revealed the race condition nobody else could find.",
+    "itContext": "Tenacious problem-solvers who don't give up on hard bugs are essential to every engineering team.",
+    "alternativeWords": [
+      "persistent",
+      "determined",
+      "dogged",
+      "relentless"
+    ],
+    "pronunciation": "tuh-NAY-shus",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "appr-011",
+    "word": "Conscientious",
+    "meaning": "Wishing to do what is right; thorough and attentive to duty and responsibility.",
+    "genre": "appreciation",
+    "difficulty": 4,
+    "dateAdded": "2025-11-24",
+    "samplePhrase": "Your conscientious approach to security reviews ensures we ship safe code every sprint.",
+    "itContext": "Conscientious developers who follow coding standards reduce technical debt across the codebase.",
+    "alternativeWords": [
+      "thorough",
+      "diligent",
+      "careful",
+      "principled"
+    ],
+    "pronunciation": "kon-shee-EN-shus",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "appr-012",
+    "word": "Industrious",
+    "meaning": "Diligent and hard-working; consistently productive and energetic in one's work.",
+    "genre": "appreciation",
+    "difficulty": 3,
+    "dateAdded": "2025-11-25",
+    "samplePhrase": "The team's industrious effort during the sprint delivered all 12 user stories ahead of schedule.",
+    "itContext": "Industrious engineers who maintain high output without sacrificing quality set the pace for the team.",
+    "alternativeWords": [
+      "hard-working",
+      "productive",
+      "energetic",
+      "tireless"
+    ],
+    "pronunciation": "in-DUS-tree-us",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "appr-013",
+    "word": "Astute",
+    "meaning": "Having or showing an ability to accurately assess situations and respond with sharp insight.",
+    "genre": "appreciation",
+    "difficulty": 4,
+    "dateAdded": "2025-11-26",
+    "samplePhrase": "Your astute analysis of the competitor's API strategy informed our entire product roadmap.",
+    "itContext": "Astute technical leaders anticipate problems before they manifest and position teams for success.",
+    "alternativeWords": [
+      "shrewd",
+      "perceptive",
+      "sharp",
+      "keen"
+    ],
+    "pronunciation": "uh-STOOT",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "appr-014",
+    "word": "Perceptive",
+    "meaning": "Having or showing sensitive insight and keen awareness of things that others may miss.",
+    "genre": "appreciation",
+    "difficulty": 3,
+    "dateAdded": "2025-11-27",
+    "samplePhrase": "Your perceptive observation about the memory leak pattern saved us from a major production outage.",
+    "itContext": "Perceptive engineers notice subtle code smells and performance anomalies that escape casual review.",
+    "alternativeWords": [
+      "observant",
+      "insightful",
+      "discerning",
+      "intuitive"
+    ],
+    "pronunciation": "per-SEP-tiv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "appr-015",
+    "word": "Versatile",
+    "meaning": "Able to adapt or be adapted to many different functions or activities; multi-skilled.",
+    "genre": "appreciation",
+    "difficulty": 2,
+    "dateAdded": "2025-11-28",
+    "samplePhrase": "You're incredibly versatile — this sprint alone you contributed to backend, frontend, and DevOps tasks.",
+    "itContext": "Versatile full-stack engineers who can context-switch between domains accelerate small team delivery.",
+    "alternativeWords": [
+      "adaptable",
+      "flexible",
+      "multifaceted",
+      "all-around"
+    ],
+    "pronunciation": "VUR-suh-tul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "appr-016",
+    "word": "Adept",
+    "meaning": "Very skilled or proficient at something; having a natural talent for a particular task.",
+    "genre": "appreciation",
+    "difficulty": 2,
+    "dateAdded": "2025-11-29",
+    "samplePhrase": "She's particularly adept at translating complex technical concepts into language stakeholders understand.",
+    "itContext": "Adept communicators who bridge the gap between engineering and business drive better product outcomes.",
+    "alternativeWords": [
+      "skilled",
+      "proficient",
+      "expert",
+      "talented"
+    ],
+    "pronunciation": "uh-DEPT",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "appr-017",
+    "word": "Accomplished",
+    "meaning": "Highly trained or skilled; having achieved distinction through talent and effort.",
+    "genre": "appreciation",
+    "difficulty": 2,
+    "dateAdded": "2025-11-30",
+    "samplePhrase": "Your accomplished track record of delivering reliable systems earned you the principal engineer promotion.",
+    "itContext": "Accomplished engineers mentor others and raise the technical bar for the entire organization.",
+    "alternativeWords": [
+      "skilled",
+      "talented",
+      "experienced",
+      "masterful"
+    ],
+    "pronunciation": "uh-KOM-plisht",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "appr-018",
+    "word": "Exceptional",
+    "meaning": "Unusually good; outstanding and surpassing what is common or expected.",
+    "genre": "appreciation",
+    "difficulty": 2,
+    "dateAdded": "2025-12-01",
+    "samplePhrase": "Your exceptional performance during the Q4 launch earned you a well-deserved spot bonus.",
+    "itContext": "Exceptional contributions should be celebrated publicly to reinforce the behaviors teams value.",
+    "alternativeWords": [
+      "outstanding",
+      "remarkable",
+      "extraordinary",
+      "superb"
+    ],
+    "pronunciation": "ik-SEP-shun-ul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "appr-019",
+    "word": "Remarkable",
+    "meaning": "Worthy of attention; striking and extraordinary in a positive way.",
+    "genre": "appreciation",
+    "difficulty": 2,
+    "dateAdded": "2025-12-02",
+    "samplePhrase": "The team made remarkable progress this quarter — our deployment frequency increased fivefold.",
+    "itContext": "Documenting remarkable achievements in quarterly reviews provides evidence for promotion cases.",
+    "alternativeWords": [
+      "impressive",
+      "notable",
+      "extraordinary",
+      "striking"
+    ],
+    "pronunciation": "rih-MAR-kuh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "appr-020",
+    "word": "Stellar",
+    "meaning": "Exceptionally good; of the highest quality and performance.",
+    "genre": "appreciation",
+    "difficulty": 2,
+    "dateAdded": "2025-12-03",
+    "samplePhrase": "Your stellar presentation at the engineering all-hands inspired three new teams to adopt your framework.",
+    "itContext": "Stellar code quality and documentation make repositories a pleasure for new contributors to work with.",
+    "alternativeWords": [
+      "outstanding",
+      "superb",
+      "excellent",
+      "first-rate"
+    ],
+    "pronunciation": "STEL-er",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "appr-021",
+    "word": "Outstanding",
+    "meaning": "Exceptionally good; standing out from the rest in quality, ability, or achievement.",
+    "genre": "appreciation",
+    "difficulty": 1,
+    "dateAdded": "2025-12-04",
+    "samplePhrase": "Your outstanding leadership during the incident response kept the team focused and resolved the issue in record time.",
+    "itContext": "Outstanding engineers often receive peer nominations for internal recognition programs.",
+    "alternativeWords": [
+      "exceptional",
+      "excellent",
+      "remarkable",
+      "distinguished"
+    ],
+    "pronunciation": "owt-STAN-ding",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "appr-022",
+    "word": "Prodigious",
+    "meaning": "Remarkably great in extent, size, or degree; impressively large in output or ability.",
+    "genre": "appreciation",
+    "difficulty": 4,
+    "dateAdded": "2025-12-05",
+    "samplePhrase": "Her prodigious output of well-tested features this quarter has set a new team velocity record.",
+    "itContext": "Prodigious contributors who maintain quality alongside quantity are rare and should be celebrated.",
+    "alternativeWords": [
+      "enormous",
+      "immense",
+      "extraordinary",
+      "phenomenal"
+    ],
+    "pronunciation": "pruh-DIJ-us",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "appr-023",
+    "word": "Tireless",
+    "meaning": "Having or showing great effort or energy that doesn't diminish; seemingly inexhaustible.",
+    "genre": "appreciation",
+    "difficulty": 2,
+    "dateAdded": "2025-12-06",
+    "samplePhrase": "Thank you for your tireless effort in maintaining the CI pipeline — it's the backbone of our productivity.",
+    "itContext": "Tireless maintainers of open-source libraries deserve more recognition from the communities they serve.",
+    "alternativeWords": [
+      "untiring",
+      "indefatigable",
+      "relentless",
+      "unflagging"
+    ],
+    "pronunciation": "TYR-les",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "appr-024",
+    "word": "Steadfast",
+    "meaning": "Resolutely or dutifully firm and unwavering in purpose, loyalty, or commitment.",
+    "genre": "appreciation",
+    "difficulty": 3,
+    "dateAdded": "2025-12-07",
+    "samplePhrase": "Your steadfast commitment to code quality, even under deadline pressure, keeps our technical debt in check.",
+    "itContext": "Steadfast adherence to engineering principles protects the codebase during high-pressure releases.",
+    "alternativeWords": [
+      "unwavering",
+      "resolute",
+      "loyal",
+      "constant"
+    ],
+    "pronunciation": "STED-fast",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "appr-025",
+    "word": "Reliable",
+    "meaning": "Consistently good in quality or performance; able to be trusted and depended upon.",
+    "genre": "appreciation",
+    "difficulty": 1,
+    "dateAdded": "2025-12-08",
+    "samplePhrase": "You're the most reliable team member — whenever you say something will be done, it always is.",
+    "itContext": "Reliable engineers who consistently deliver on commitments earn the trust needed for critical projects.",
+    "alternativeWords": [
+      "dependable",
+      "trustworthy",
+      "consistent",
+      "faithful"
+    ],
+    "pronunciation": "rih-LY-uh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "appr-026",
+    "word": "Dependable",
+    "meaning": "Trustworthy and reliable; someone you can count on without worry.",
+    "genre": "appreciation",
+    "difficulty": 1,
+    "dateAdded": "2025-12-09",
+    "samplePhrase": "Having you as on-call makes everyone feel confident — you're the most dependable person on the rotation.",
+    "itContext": "Dependable team members reduce risk on critical projects and provide stability during transitions.",
+    "alternativeWords": [
+      "reliable",
+      "trustworthy",
+      "steady",
+      "faithful"
+    ],
+    "pronunciation": "dih-PEN-duh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "appr-027",
+    "word": "Thorough",
+    "meaning": "Complete with regard to every detail; not superficial or partial in execution.",
+    "genre": "appreciation",
+    "difficulty": 2,
+    "dateAdded": "2025-12-10",
+    "samplePhrase": "Your thorough investigation of the security vulnerability uncovered three additional attack vectors we hadn't considered.",
+    "itContext": "Thorough code reviews catch bugs, share knowledge, and establish team coding standards simultaneously.",
+    "alternativeWords": [
+      "comprehensive",
+      "exhaustive",
+      "meticulous",
+      "detailed"
+    ],
+    "pronunciation": "THUR-oh",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "appr-028",
+    "word": "Thoughtful",
+    "meaning": "Showing consideration for the needs and feelings of others; carefully considered and well-planned.",
+    "genre": "appreciation",
+    "difficulty": 1,
+    "dateAdded": "2025-12-11",
+    "samplePhrase": "Your thoughtful code comments explaining the 'why' behind design decisions help every future developer.",
+    "itContext": "Thoughtful engineers who consider downstream impact write code that's easier to maintain and extend.",
+    "alternativeWords": [
+      "considerate",
+      "caring",
+      "attentive",
+      "mindful"
+    ],
+    "pronunciation": "THAWT-ful",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "appr-029",
+    "word": "Generous",
+    "meaning": "Showing a readiness to give more of something than is expected; freely sharing time and knowledge.",
+    "genre": "appreciation",
+    "difficulty": 1,
+    "dateAdded": "2025-12-12",
+    "samplePhrase": "You've been so generous with your time mentoring our new hires — they've ramped up twice as fast because of you.",
+    "itContext": "Generous knowledge sharing through pair programming and documentation multiplies team capability.",
+    "alternativeWords": [
+      "giving",
+      "liberal",
+      "open-handed",
+      "magnanimous"
+    ],
+    "pronunciation": "JEN-er-us",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "appr-030",
+    "word": "Supportive",
+    "meaning": "Providing encouragement, emotional help, or practical assistance to others.",
+    "genre": "appreciation",
+    "difficulty": 1,
+    "dateAdded": "2025-12-13",
+    "samplePhrase": "Thank you for being so supportive when I struggled with the new framework — your patience made all the difference.",
+    "itContext": "Supportive team cultures where asking questions is welcomed produce better engineers over time.",
+    "alternativeWords": [
+      "encouraging",
+      "helpful",
+      "nurturing",
+      "reassuring"
+    ],
+    "pronunciation": "suh-POR-tiv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "appr-031",
+    "word": "Inspiring",
+    "meaning": "Having the effect of motivating or encouraging someone to do or feel something positive.",
+    "genre": "appreciation",
+    "difficulty": 2,
+    "dateAdded": "2025-12-14",
+    "samplePhrase": "Your inspiring tech talk on system design motivated three junior developers to start studying distributed systems.",
+    "itContext": "Inspiring engineers who share their passion for technology elevate the entire team's ambition.",
+    "alternativeWords": [
+      "motivating",
+      "uplifting",
+      "encouraging",
+      "invigorating"
+    ],
+    "pronunciation": "in-SPY-ring",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "appr-032",
+    "word": "Motivating",
+    "meaning": "Providing someone with a reason or incentive to act in a particular way; stimulating enthusiasm.",
+    "genre": "appreciation",
+    "difficulty": 1,
+    "dateAdded": "2025-12-15",
+    "samplePhrase": "Your motivating energy during sprint planning helps the team tackle even the most daunting user stories.",
+    "itContext": "Motivating stand-ups that celebrate small wins keep team momentum high through long projects.",
+    "alternativeWords": [
+      "inspiring",
+      "stimulating",
+      "encouraging",
+      "energizing"
+    ],
+    "pronunciation": "MOH-tih-vay-ting",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "appr-033",
+    "word": "Phenomenal",
+    "meaning": "Remarkably extraordinary; exceptionally impressive in quality or degree.",
+    "genre": "appreciation",
+    "difficulty": 3,
+    "dateAdded": "2025-12-16",
+    "samplePhrase": "The phenomenal response time improvement after your optimization went from 2 seconds to 50 milliseconds.",
+    "itContext": "Phenomenal engineering achievements should be documented as case studies for organizational learning.",
+    "alternativeWords": [
+      "extraordinary",
+      "incredible",
+      "amazing",
+      "remarkable"
+    ],
+    "pronunciation": "fih-NOM-ih-nul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "appr-034",
+    "word": "Admirable",
+    "meaning": "Arousing or deserving respect and warm approval; worthy of admiration.",
+    "genre": "appreciation",
+    "difficulty": 2,
+    "dateAdded": "2025-12-17",
+    "samplePhrase": "Your admirable patience in explaining complex concepts to non-technical stakeholders bridges the gap between teams.",
+    "itContext": "Admirable soft skills complement technical ability and are increasingly valued in engineering leadership.",
+    "alternativeWords": [
+      "praiseworthy",
+      "commendable",
+      "respectable",
+      "estimable"
+    ],
+    "pronunciation": "AD-mur-uh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "appr-035",
+    "word": "Praiseworthy",
+    "meaning": "Deserving approval and admiration; meriting commendation for achievement or quality.",
+    "genre": "appreciation",
+    "difficulty": 2,
+    "dateAdded": "2025-12-18",
+    "samplePhrase": "Your praiseworthy initiative to automate the release process saved the team 10 hours every sprint.",
+    "itContext": "Praiseworthy initiatives that reduce toil deserve visibility in team demos and all-hands meetings.",
+    "alternativeWords": [
+      "commendable",
+      "laudable",
+      "admirable",
+      "meritorious"
+    ],
+    "pronunciation": "PRAYZ-wur-thee",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "appr-036",
+    "word": "Laudable",
+    "meaning": "Deserving praise and commendation; worthy of high regard and approval.",
+    "genre": "appreciation",
+    "difficulty": 4,
+    "dateAdded": "2025-12-19",
+    "samplePhrase": "Your laudable decision to prioritize test coverage before adding features will pay dividends for years.",
+    "itContext": "Laudable engineering practices like comprehensive testing and documentation compound in value over time.",
+    "alternativeWords": [
+      "praiseworthy",
+      "commendable",
+      "admirable",
+      "creditable"
+    ],
+    "pronunciation": "LAW-duh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "appr-037",
+    "word": "Meritorious",
+    "meaning": "Deserving reward, praise, or recognition for outstanding quality or achievement.",
+    "genre": "appreciation",
+    "difficulty": 4,
+    "dateAdded": "2025-12-20",
+    "samplePhrase": "Your meritorious contribution to the open-source project brought positive attention to our engineering team.",
+    "itContext": "Meritorious work that goes above and beyond job requirements deserves formal recognition programs.",
+    "alternativeWords": [
+      "deserving",
+      "worthy",
+      "commendable",
+      "estimable"
+    ],
+    "pronunciation": "meh-rih-TOR-ee-us",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5,
+      3
+    ]
+  },
+  {
+    "id": "appr-038",
+    "word": "Distinguished",
+    "meaning": "Successful, authoritative, and commanding great respect; having an air of dignity and excellence.",
+    "genre": "appreciation",
+    "difficulty": 3,
+    "dateAdded": "2025-12-21",
+    "samplePhrase": "Your distinguished career in system architecture makes you the ideal mentor for our platform team.",
+    "itContext": "Distinguished engineers often shape company-wide technical strategy and set architectural direction.",
+    "alternativeWords": [
+      "eminent",
+      "renowned",
+      "esteemed",
+      "notable"
+    ],
+    "pronunciation": "dih-STING-gwisht",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "appr-039",
+    "word": "Eminent",
+    "meaning": "Famous and respected within a particular sphere or profession; prominent and authoritative.",
+    "genre": "appreciation",
+    "difficulty": 4,
+    "dateAdded": "2025-12-22",
+    "samplePhrase": "She's become an eminent voice in the DevOps community, frequently invited to speak at major conferences.",
+    "itContext": "Eminent engineers who share knowledge publicly strengthen both their teams and the broader tech community.",
+    "alternativeWords": [
+      "prominent",
+      "renowned",
+      "distinguished",
+      "notable"
+    ],
+    "pronunciation": "EM-ih-nent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "appr-040",
+    "word": "Illustrious",
+    "meaning": "Well known and admired for past achievements; having a distinguished and celebrated reputation.",
+    "genre": "appreciation",
+    "difficulty": 4,
+    "dateAdded": "2025-12-23",
+    "samplePhrase": "The platform team has an illustrious track record of delivering zero-downtime migrations.",
+    "itContext": "Illustrious team achievements documented in case studies attract top engineering talent.",
+    "alternativeWords": [
+      "renowned",
+      "celebrated",
+      "distinguished",
+      "acclaimed"
+    ],
+    "pronunciation": "ih-LUS-tree-us",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "appr-041",
+    "word": "Venerable",
+    "meaning": "Accorded a great deal of respect, especially because of age, wisdom, or character.",
+    "genre": "appreciation",
+    "difficulty": 4,
+    "dateAdded": "2025-12-24",
+    "samplePhrase": "The venerable lead architect's decades of experience guide the team through the most complex technical decisions.",
+    "itContext": "Venerable team members carry institutional knowledge that should be captured in documentation and mentoring.",
+    "alternativeWords": [
+      "respected",
+      "revered",
+      "esteemed",
+      "honored"
+    ],
+    "pronunciation": "VEN-er-uh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "appr-042",
+    "word": "Esteemed",
+    "meaning": "Respected and admired; held in high regard by colleagues and peers.",
+    "genre": "appreciation",
+    "difficulty": 3,
+    "dateAdded": "2025-12-25",
+    "samplePhrase": "Your esteemed opinion on database design carries significant weight in our architecture review board.",
+    "itContext": "Esteemed engineers build their reputation through consistent delivery and knowledge sharing.",
+    "alternativeWords": [
+      "respected",
+      "valued",
+      "regarded",
+      "admired"
+    ],
+    "pronunciation": "ih-STEEMD",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "appr-043",
+    "word": "Revered",
+    "meaning": "Regarded with deep respect, awe, and affection; deeply admired.",
+    "genre": "appreciation",
+    "difficulty": 4,
+    "dateAdded": "2025-12-26",
+    "samplePhrase": "The team's revered testing framework was originally designed by an engineer who truly understood developer experience.",
+    "itContext": "Revered internal tools and libraries earn their status by making developers' daily work easier.",
+    "alternativeWords": [
+      "venerated",
+      "honored",
+      "respected",
+      "idolized"
+    ],
+    "pronunciation": "rih-VEERD",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "appr-044",
+    "word": "Formidable",
+    "meaning": "Inspiring respect or awe through being impressively powerful, capable, or knowledgeable.",
+    "genre": "appreciation",
+    "difficulty": 3,
+    "dateAdded": "2025-12-27",
+    "samplePhrase": "Your formidable knowledge of distributed systems made you the go-to person for the microservices migration.",
+    "itContext": "Formidable engineers who master complex domains become force multipliers for their teams.",
+    "alternativeWords": [
+      "impressive",
+      "powerful",
+      "mighty",
+      "commanding"
+    ],
+    "pronunciation": "FOR-mih-duh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "appr-045",
+    "word": "Indomitable",
+    "meaning": "Impossible to subdue or defeat; having an unconquerable spirit and determination.",
+    "genre": "appreciation",
+    "difficulty": 5,
+    "dateAdded": "2025-12-28",
+    "samplePhrase": "Your indomitable spirit during the three-day production incident kept the entire team motivated to find the root cause.",
+    "itContext": "Indomitable engineers who persist through the hardest technical challenges become legends on their teams.",
+    "alternativeWords": [
+      "unconquerable",
+      "invincible",
+      "unyielding",
+      "unbreakable"
+    ],
+    "pronunciation": "in-DOM-ih-tuh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "appr-046",
+    "word": "Resilient",
+    "meaning": "Able to withstand or recover quickly from difficult conditions; tough and adaptable.",
+    "genre": "appreciation",
+    "difficulty": 2,
+    "dateAdded": "2025-12-29",
+    "samplePhrase": "The team has been incredibly resilient through three major reorgs — your adaptability is truly impressive.",
+    "itContext": "Resilient teams that bounce back from setbacks quickly are built on trust and psychological safety.",
+    "alternativeWords": [
+      "tough",
+      "strong",
+      "adaptable",
+      "hardy"
+    ],
+    "pronunciation": "rih-ZIL-yent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "appr-047",
+    "word": "Unwavering",
+    "meaning": "Steady and resolute; not changing or becoming weaker in determination or commitment.",
+    "genre": "appreciation",
+    "difficulty": 3,
+    "dateAdded": "2025-12-30",
+    "samplePhrase": "Your unwavering commitment to accessibility standards ensures our product works for every user.",
+    "itContext": "Unwavering dedication to engineering best practices pays off in long-term system reliability.",
+    "alternativeWords": [
+      "steadfast",
+      "resolute",
+      "firm",
+      "constant"
+    ],
+    "pronunciation": "un-WAY-ver-ing",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "appr-048",
+    "word": "Resolute",
+    "meaning": "Admirably purposeful, determined, and unwavering in one's convictions or actions.",
+    "genre": "appreciation",
+    "difficulty": 3,
+    "dateAdded": "2025-12-31",
+    "samplePhrase": "She was resolute in her stance that we should fix the performance regression before adding new features.",
+    "itContext": "Resolute engineers who defend code quality standards help prevent the erosion of technical excellence.",
+    "alternativeWords": [
+      "determined",
+      "firm",
+      "steadfast",
+      "purposeful"
+    ],
+    "pronunciation": "REZ-uh-loot",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "appr-049",
+    "word": "Perseverant",
+    "meaning": "Continuing steadfastly in a course of action in spite of difficulty or lack of success.",
+    "genre": "appreciation",
+    "difficulty": 3,
+    "dateAdded": "2026-01-01",
+    "samplePhrase": "Your perseverant effort on the legacy migration — despite setback after setback — finally paid off spectacularly.",
+    "itContext": "Perseverant engineers who see long-running projects through to completion earn deep organizational respect.",
+    "alternativeWords": [
+      "persistent",
+      "tenacious",
+      "steadfast",
+      "enduring"
+    ],
+    "pronunciation": "pur-suh-VEER-ent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "appr-050",
+    "word": "Assiduous",
+    "meaning": "Showing great care and perseverance; constant and attentive in application and effort.",
+    "genre": "appreciation",
+    "difficulty": 5,
+    "dateAdded": "2026-01-02",
+    "samplePhrase": "Her assiduous documentation of every architectural decision has become the team's most valuable knowledge base.",
+    "itContext": "Assiduous record-keeping in ADRs and runbooks saves hours during incident response.",
+    "alternativeWords": [
+      "diligent",
+      "industrious",
+      "sedulous",
+      "painstaking"
+    ],
+    "pronunciation": "uh-SIJ-oo-us",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "appr-051",
+    "word": "Scrupulous",
+    "meaning": "Diligent, thorough, and extremely attentive to details; having high moral standards.",
+    "genre": "appreciation",
+    "difficulty": 4,
+    "dateAdded": "2026-01-03",
+    "samplePhrase": "Your scrupulous handling of customer data demonstrates the security-first mindset our users trust us for.",
+    "itContext": "Scrupulous engineers who meticulously follow security protocols protect the company from breaches.",
+    "alternativeWords": [
+      "meticulous",
+      "careful",
+      "conscientious",
+      "punctilious"
+    ],
+    "pronunciation": "SKROO-pyoo-lus",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5,
+      3
+    ]
+  },
+  {
+    "id": "appr-052",
+    "word": "Impeccable",
+    "meaning": "In accordance with the highest standards of propriety; faultless and flawless.",
+    "genre": "appreciation",
+    "difficulty": 3,
+    "dateAdded": "2026-01-04",
+    "samplePhrase": "Your impeccable coding standards have become the template that our entire engineering org follows.",
+    "itContext": "Impeccable CI/CD pipelines with comprehensive testing give teams the confidence to deploy frequently.",
+    "alternativeWords": [
+      "flawless",
+      "faultless",
+      "perfect",
+      "exemplary"
+    ],
+    "pronunciation": "im-PEK-uh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "appr-053",
+    "word": "Consummate",
+    "meaning": "Showing a high degree of skill and flair; supremely accomplished and proficient.",
+    "genre": "appreciation",
+    "difficulty": 4,
+    "dateAdded": "2026-01-05",
+    "samplePhrase": "He's a consummate professional who delivers polished results whether it's a quick fix or a major feature.",
+    "itContext": "Consummate engineers produce high-quality work regardless of the scope or visibility of the task.",
+    "alternativeWords": [
+      "supreme",
+      "accomplished",
+      "masterful",
+      "ultimate"
+    ],
+    "pronunciation": "KON-suh-mit",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "appr-054",
+    "word": "Paragon",
+    "meaning": "A model of excellence or perfection; a person regarded as a perfect example of a quality.",
+    "genre": "appreciation",
+    "difficulty": 5,
+    "dateAdded": "2026-01-06",
+    "samplePhrase": "She's a paragon of engineering leadership — technical depth, empathy, and vision all in one.",
+    "itContext": "Paragons of clean code practices inspire entire teams to raise their standards.",
+    "alternativeWords": [
+      "epitome",
+      "model",
+      "exemplar",
+      "ideal"
+    ],
+    "pronunciation": "PAIR-uh-gon",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "appr-055",
+    "word": "Virtuoso",
+    "meaning": "A person highly skilled in a particular art or field; a master performer.",
+    "genre": "appreciation",
+    "difficulty": 4,
+    "dateAdded": "2026-01-07",
+    "samplePhrase": "He's a virtuoso with SQL — his query optimizations reduced our database costs by 60%.",
+    "itContext": "Virtuoso engineers in niche domains become the go-to experts teams rely on for the hardest problems.",
+    "alternativeWords": [
+      "master",
+      "expert",
+      "maestro",
+      "wizard"
+    ],
+    "pronunciation": "vur-choo-OH-so",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      5,
+      3
+    ]
+  },
+  {
+    "id": "appr-056",
+    "word": "Maven",
+    "meaning": "An expert or connoisseur; a person with special knowledge or experience in a domain.",
+    "genre": "appreciation",
+    "difficulty": 4,
+    "dateAdded": "2026-01-08",
+    "samplePhrase": "As our cloud infrastructure maven, your guidance on cost optimization saved us $50K annually.",
+    "itContext": "Domain mavens who share their expertise through brown bags and internal wikis scale their impact.",
+    "alternativeWords": [
+      "expert",
+      "authority",
+      "specialist",
+      "connoisseur"
+    ],
+    "pronunciation": "MAY-ven",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "appr-057",
+    "word": "Luminary",
+    "meaning": "A person who inspires or influences others, especially in a particular field or discipline.",
+    "genre": "appreciation",
+    "difficulty": 5,
+    "dateAdded": "2026-01-09",
+    "samplePhrase": "She's a luminary in the observability space — her monitoring framework is used by teams across the company.",
+    "itContext": "Engineering luminaries shape industry practices through open-source contributions and conference talks.",
+    "alternativeWords": [
+      "leader",
+      "visionary",
+      "guiding light",
+      "beacon"
+    ],
+    "pronunciation": "LOO-mih-nair-ee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "appr-058",
+    "word": "Trailblazer",
+    "meaning": "A person who is the first to do something; a pioneer who opens up new paths for others.",
+    "genre": "appreciation",
+    "difficulty": 2,
+    "dateAdded": "2026-01-10",
+    "samplePhrase": "You've been a trailblazer in adopting event-driven architecture — now every team wants to follow your pattern.",
+    "itContext": "Trailblazers who pilot new technologies and document their learnings de-risk adoption for the organization.",
+    "alternativeWords": [
+      "pioneer",
+      "innovator",
+      "pathfinder",
+      "groundbreaker"
+    ],
+    "pronunciation": "TRAYL-blay-zer",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "appr-059",
+    "word": "Pioneer",
+    "meaning": "A person who is among the first to explore or develop something new; an early innovator.",
+    "genre": "appreciation",
+    "difficulty": 2,
+    "dateAdded": "2026-01-11",
+    "samplePhrase": "You were a pioneer of our design system — the foundation you built is now used by all product teams.",
+    "itContext": "Pioneers who establish engineering best practices shape the culture for years to come.",
+    "alternativeWords": [
+      "innovator",
+      "trailblazer",
+      "forerunner",
+      "originator"
+    ],
+    "pronunciation": "py-uh-NEER",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "appr-060",
+    "word": "Visionary",
+    "meaning": "A person with original and creative ideas about the future; someone who sees possibilities others don't.",
+    "genre": "appreciation",
+    "difficulty": 3,
+    "dateAdded": "2026-01-12",
+    "samplePhrase": "Your visionary proposal for the platform strategy has positioned us two years ahead of competitors.",
+    "itContext": "Visionary engineers who anticipate future needs design systems that scale gracefully with growth.",
+    "alternativeWords": [
+      "forward-thinking",
+      "prophetic",
+      "imaginative",
+      "farsighted"
+    ],
+    "pronunciation": "VIZH-un-air-ee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "appr-061",
+    "word": "Catalyst",
+    "meaning": "A person or thing that precipitates a change or positive event; someone who sparks transformation.",
+    "genre": "appreciation",
+    "difficulty": 3,
+    "dateAdded": "2026-01-13",
+    "samplePhrase": "You've been the catalyst for our team's transformation — your energy and ideas changed how we work.",
+    "itContext": "Catalysts for engineering culture change often start by leading by example rather than mandating new practices.",
+    "alternativeWords": [
+      "spark",
+      "driving force",
+      "stimulus",
+      "trigger"
+    ],
+    "pronunciation": "KAT-uh-list",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "appr-062",
+    "word": "Dynamo",
+    "meaning": "An extremely energetic, enthusiastic, and productive person who drives activity around them.",
+    "genre": "appreciation",
+    "difficulty": 3,
+    "dateAdded": "2026-01-14",
+    "samplePhrase": "You're an absolute dynamo — your energy during the sprint was contagious and lifted the whole team.",
+    "itContext": "Dynamos on engineering teams generate momentum that carries projects through difficult phases.",
+    "alternativeWords": [
+      "powerhouse",
+      "force",
+      "go-getter",
+      "fireball"
+    ],
+    "pronunciation": "DY-nuh-moh",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "appr-063",
+    "word": "Proactive",
+    "meaning": "Creating or controlling a situation rather than just responding to it after it has happened.",
+    "genre": "appreciation",
+    "difficulty": 2,
+    "dateAdded": "2026-01-15",
+    "samplePhrase": "Your proactive monitoring alerts caught the memory leak before any customer was affected.",
+    "itContext": "Proactive engineers who address tech debt before it becomes urgent save the team from costly firefighting.",
+    "alternativeWords": [
+      "forward-thinking",
+      "anticipatory",
+      "preventive",
+      "enterprising"
+    ],
+    "pronunciation": "pro-AK-tiv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "appr-064",
+    "word": "Enterprising",
+    "meaning": "Having or showing initiative and resourcefulness; bold and inventive in finding solutions.",
+    "genre": "appreciation",
+    "difficulty": 3,
+    "dateAdded": "2026-01-16",
+    "samplePhrase": "Your enterprising initiative to build an internal tool for log analysis saved hours of manual work daily.",
+    "itContext": "Enterprising engineers who build productivity tools create leverage that benefits the entire organization.",
+    "alternativeWords": [
+      "resourceful",
+      "ambitious",
+      "innovative",
+      "bold"
+    ],
+    "pronunciation": "EN-ter-pry-zing",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "appr-065",
+    "word": "Intrepid",
+    "meaning": "Fearless and adventurous; willing to take on challenges that others shy away from.",
+    "genre": "appreciation",
+    "difficulty": 4,
+    "dateAdded": "2026-01-17",
+    "samplePhrase": "Your intrepid willingness to tackle the legacy payment system rewrite earned the respect of every team.",
+    "itContext": "Intrepid engineers who volunteer for the hardest migrations gain experience that accelerates their growth.",
+    "alternativeWords": [
+      "fearless",
+      "bold",
+      "courageous",
+      "daring"
+    ],
+    "pronunciation": "in-TREP-id",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5,
+      3
+    ]
+  },
+  {
+    "id": "appr-066",
+    "word": "Courageous",
+    "meaning": "Not deterred by danger or pain; brave and willing to face difficult situations head-on.",
+    "genre": "appreciation",
+    "difficulty": 2,
+    "dateAdded": "2026-01-18",
+    "samplePhrase": "It was courageous of you to flag the architectural risk to the VP — that honesty saved us from a costly mistake.",
+    "itContext": "Courageous engineers who speak truth to power help organizations avoid expensive technical missteps.",
+    "alternativeWords": [
+      "brave",
+      "bold",
+      "daring",
+      "valiant"
+    ],
+    "pronunciation": "kuh-RAY-jus",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "appr-067",
+    "word": "Gallant",
+    "meaning": "Brave and heroic; showing courtesy and noble bearing in one's actions.",
+    "genre": "appreciation",
+    "difficulty": 4,
+    "dateAdded": "2026-01-19",
+    "samplePhrase": "Your gallant effort to stay up through the night resolving the critical outage protected thousands of users.",
+    "itContext": "Gallant on-call responders who go above and beyond during incidents deserve team-wide recognition.",
+    "alternativeWords": [
+      "heroic",
+      "noble",
+      "chivalrous",
+      "valiant"
+    ],
+    "pronunciation": "GAL-unt",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "appr-068",
+    "word": "Valiant",
+    "meaning": "Possessing or showing courage and determination in the face of great adversity.",
+    "genre": "appreciation",
+    "difficulty": 3,
+    "dateAdded": "2026-01-20",
+    "samplePhrase": "The team made a valiant effort to deliver the feature on time despite losing two engineers to other projects.",
+    "itContext": "Valiant efforts by understaffed teams should be acknowledged and used to advocate for better resourcing.",
+    "alternativeWords": [
+      "courageous",
+      "brave",
+      "heroic",
+      "bold"
+    ],
+    "pronunciation": "VAL-yunt",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "appr-069",
+    "word": "Magnanimous",
+    "meaning": "Very generous or forgiving; noble in spirit and willing to give credit to others.",
+    "genre": "appreciation",
+    "difficulty": 4,
+    "dateAdded": "2026-01-21",
+    "samplePhrase": "He was magnanimous in sharing credit for the project's success with every team member who contributed.",
+    "itContext": "Magnanimous leaders who deflect praise to their teams build fiercely loyal engineering organizations.",
+    "alternativeWords": [
+      "generous",
+      "noble",
+      "big-hearted",
+      "benevolent"
+    ],
+    "pronunciation": "mag-NAN-ih-mus",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "appr-070",
+    "word": "Altruistic",
+    "meaning": "Showing a selfless concern for the well-being of others; unselfish and giving.",
+    "genre": "appreciation",
+    "difficulty": 4,
+    "dateAdded": "2026-01-22",
+    "samplePhrase": "Your altruistic decision to mentor the new team instead of working on a high-profile project speaks volumes about your character.",
+    "itContext": "Altruistic engineers who prioritize team growth over personal visibility build stronger organizations.",
+    "alternativeWords": [
+      "selfless",
+      "unselfish",
+      "philanthropic",
+      "humanitarian"
+    ],
+    "pronunciation": "al-troo-IS-tik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "appr-071",
+    "word": "Selfless",
+    "meaning": "Concerned more with the needs and wishes of others than with one's own; unselfish and giving.",
+    "genre": "appreciation",
+    "difficulty": 2,
+    "dateAdded": "2026-01-23",
+    "samplePhrase": "Your selfless willingness to review PRs for every team — not just your own — makes the whole org better.",
+    "itContext": "Selfless contributions to shared infrastructure and tooling multiply impact across teams.",
+    "alternativeWords": [
+      "unselfish",
+      "altruistic",
+      "generous",
+      "self-sacrificing"
+    ],
+    "pronunciation": "SELF-les",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "appr-072",
+    "word": "Gracious",
+    "meaning": "Courteous, kind, and pleasant; showing warmth and generosity of spirit.",
+    "genre": "appreciation",
+    "difficulty": 2,
+    "dateAdded": "2026-01-24",
+    "samplePhrase": "Your gracious response to the critical feedback during your design review showed remarkable maturity.",
+    "itContext": "Gracious engineers who welcome feedback create environments where everyone feels safe to contribute.",
+    "alternativeWords": [
+      "kind",
+      "courteous",
+      "benevolent",
+      "warm"
+    ],
+    "pronunciation": "GRAY-shus",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "appr-073",
+    "word": "Noble",
+    "meaning": "Having high moral qualities; showing fine personal qualities such as generosity and honor.",
+    "genre": "appreciation",
+    "difficulty": 2,
+    "dateAdded": "2026-01-25",
+    "samplePhrase": "It was noble of you to take responsibility for the team's miss rather than pointing fingers at individuals.",
+    "itContext": "Noble leadership that takes accountability for failures and shares credit for successes builds team trust.",
+    "alternativeWords": [
+      "honorable",
+      "virtuous",
+      "principled",
+      "dignified"
+    ],
+    "pronunciation": "NOH-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "appr-074",
+    "word": "Principled",
+    "meaning": "Acting in accordance with morality and one's beliefs; guided by strong ethical convictions.",
+    "genre": "appreciation",
+    "difficulty": 3,
+    "dateAdded": "2026-01-26",
+    "samplePhrase": "Your principled stance on user privacy influenced the entire company's approach to data handling.",
+    "itContext": "Principled engineers who advocate for ethical practices help companies avoid reputation-damaging decisions.",
+    "alternativeWords": [
+      "ethical",
+      "moral",
+      "upright",
+      "scrupulous"
+    ],
+    "pronunciation": "PRIN-sih-puld",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "appr-075",
+    "word": "Integral",
+    "meaning": "Essential and necessary as a part of a whole; fundamentally important to completeness.",
+    "genre": "appreciation",
+    "difficulty": 2,
+    "dateAdded": "2026-01-27",
+    "samplePhrase": "You've become an integral part of this team — your absence during the last sprint was deeply felt.",
+    "itContext": "Integral team members whose contributions touch every aspect of delivery are irreplaceable.",
+    "alternativeWords": [
+      "essential",
+      "vital",
+      "fundamental",
+      "indispensable"
+    ],
+    "pronunciation": "IN-teh-grul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "appr-076",
+    "word": "Pivotal",
+    "meaning": "Of crucial importance in relation to the development or success of something.",
+    "genre": "appreciation",
+    "difficulty": 3,
+    "dateAdded": "2026-01-28",
+    "samplePhrase": "Your pivotal contribution to the authentication redesign was the turning point for our security posture.",
+    "itContext": "Pivotal decisions made by key engineers at architectural inflection points shape products for years.",
+    "alternativeWords": [
+      "crucial",
+      "critical",
+      "key",
+      "decisive"
+    ],
+    "pronunciation": "PIV-uh-tul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "appr-077",
+    "word": "Indispensable",
+    "meaning": "Absolutely necessary; too important to do without.",
+    "genre": "appreciation",
+    "difficulty": 3,
+    "dateAdded": "2026-01-29",
+    "samplePhrase": "Your deep knowledge of the payment system makes you indispensable during our quarterly audits.",
+    "itContext": "While no individual should be a single point of failure, recognizing indispensable contributions boosts morale.",
+    "alternativeWords": [
+      "essential",
+      "vital",
+      "crucial",
+      "irreplaceable"
+    ],
+    "pronunciation": "in-dih-SPEN-suh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "appr-078",
+    "word": "Quintessential",
+    "meaning": "Representing the most perfect or typical example of a quality or class.",
+    "genre": "appreciation",
+    "difficulty": 5,
+    "dateAdded": "2026-01-30",
+    "samplePhrase": "You're the quintessential team player — always available to help, share knowledge, and unblock others.",
+    "itContext": "Quintessential engineering culture carriers embody the values that make teams thrive.",
+    "alternativeWords": [
+      "archetypal",
+      "classic",
+      "definitive",
+      "ideal"
+    ],
+    "pronunciation": "kwin-teh-SEN-shul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "appr-079",
+    "word": "Superlative",
+    "meaning": "Of the highest quality or degree; surpassing all others in excellence.",
+    "genre": "appreciation",
+    "difficulty": 4,
+    "dateAdded": "2026-01-31",
+    "samplePhrase": "Your superlative performance this quarter earned you the Engineering Excellence Award.",
+    "itContext": "Superlative work deserves recognition beyond a brief Slack message — formal awards matter.",
+    "alternativeWords": [
+      "supreme",
+      "unrivaled",
+      "peerless",
+      "matchless"
+    ],
+    "pronunciation": "soo-PUR-luh-tiv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "appr-080",
+    "word": "Transcendent",
+    "meaning": "Surpassing the ordinary; exceeding usual limits and going beyond normal expectations.",
+    "genre": "appreciation",
+    "difficulty": 5,
+    "dateAdded": "2026-02-01",
+    "samplePhrase": "Your transcendent ability to simplify complex distributed systems concepts makes you an extraordinary teacher.",
+    "itContext": "Transcendent technical skills combined with strong communication create the most impactful engineers.",
+    "alternativeWords": [
+      "extraordinary",
+      "supreme",
+      "superior",
+      "exceptional"
+    ],
+    "pronunciation": "tran-SEN-dent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "appr-081",
+    "word": "Unparalleled",
+    "meaning": "Having no parallel or equal; exceptional and without comparison.",
+    "genre": "appreciation",
+    "difficulty": 3,
+    "dateAdded": "2026-02-02",
+    "samplePhrase": "Your unparalleled expertise in performance optimization has made our app the fastest in the market.",
+    "itContext": "Unparalleled domain expertise in critical systems justifies investment in retention and knowledge transfer.",
+    "alternativeWords": [
+      "unmatched",
+      "incomparable",
+      "unrivaled",
+      "peerless"
+    ],
+    "pronunciation": "un-PAIR-uh-leld",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "appr-082",
+    "word": "Incomparable",
+    "meaning": "Without an equal in quality or extent; matchless and beyond comparison.",
+    "genre": "appreciation",
+    "difficulty": 3,
+    "dateAdded": "2026-02-03",
+    "samplePhrase": "Your incomparable attention to error handling has given us the most robust service in the entire fleet.",
+    "itContext": "Incomparable engineers set new standards that redefine what 'good' looks like for their organizations.",
+    "alternativeWords": [
+      "matchless",
+      "unrivaled",
+      "peerless",
+      "unequaled"
+    ],
+    "pronunciation": "in-KOM-per-uh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "appr-083",
+    "word": "Peerless",
+    "meaning": "Unequaled and unrivaled; better than all others of the same kind.",
+    "genre": "appreciation",
+    "difficulty": 4,
+    "dateAdded": "2026-02-04",
+    "samplePhrase": "Your peerless debugging skills have made you the first person everyone calls during production incidents.",
+    "itContext": "Peerless engineers in critical specialties should be actively supported in knowledge transfer.",
+    "alternativeWords": [
+      "unmatched",
+      "incomparable",
+      "supreme",
+      "unrivaled"
+    ],
+    "pronunciation": "PEER-les",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "appr-084",
+    "word": "Preeminent",
+    "meaning": "Surpassing all others; very distinguished and prominent in a particular area.",
+    "genre": "appreciation",
+    "difficulty": 5,
+    "dateAdded": "2026-02-05",
+    "samplePhrase": "You're the preeminent authority on our service mesh — your architecture decisions have stood the test of scale.",
+    "itContext": "Preeminent engineers often earn Staff or Principal titles reflecting their outsized technical influence.",
+    "alternativeWords": [
+      "foremost",
+      "leading",
+      "chief",
+      "paramount"
+    ],
+    "pronunciation": "pree-EM-ih-nent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "appr-085",
+    "word": "Paramount",
+    "meaning": "More important than anything else; of supreme significance and priority.",
+    "genre": "appreciation",
+    "difficulty": 3,
+    "dateAdded": "2026-02-06",
+    "samplePhrase": "Your paramount focus on reliability has given us 99.99% uptime for three consecutive quarters.",
+    "itContext": "Engineers who keep paramount concerns like security and reliability at the forefront protect the business.",
+    "alternativeWords": [
+      "supreme",
+      "chief",
+      "primary",
+      "foremost"
+    ],
+    "pronunciation": "PAIR-uh-mount",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "appr-086",
+    "word": "Exquisite",
+    "meaning": "Extremely beautiful and delicate; of outstanding quality and craftsmanship.",
+    "genre": "appreciation",
+    "difficulty": 3,
+    "dateAdded": "2026-02-07",
+    "samplePhrase": "The exquisite elegance of your API design makes it a joy for other developers to integrate with.",
+    "itContext": "Exquisite code that reads like prose reduces maintenance costs and delights fellow developers.",
+    "alternativeWords": [
+      "beautiful",
+      "elegant",
+      "refined",
+      "superb"
+    ],
+    "pronunciation": "ik-SKWIZ-it",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "appr-087",
+    "word": "Sublime",
+    "meaning": "Of such excellence, grandeur, or beauty as to inspire awe; of the highest quality.",
+    "genre": "appreciation",
+    "difficulty": 4,
+    "dateAdded": "2026-02-08",
+    "samplePhrase": "The sublime simplicity of your solution to the concurrency problem is a masterclass in elegant engineering.",
+    "itContext": "Sublime architectural solutions emerge when engineers deeply understand both the problem and the constraints.",
+    "alternativeWords": [
+      "magnificent",
+      "supreme",
+      "exalted",
+      "awe-inspiring"
+    ],
+    "pronunciation": "sub-LYM",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "appr-088",
+    "word": "Magnificent",
+    "meaning": "Impressively beautiful, elaborate, or extravagant; strikingly grand in quality.",
+    "genre": "appreciation",
+    "difficulty": 2,
+    "dateAdded": "2026-02-09",
+    "samplePhrase": "The magnificent dashboard you built gives leadership real-time visibility into system health for the first time.",
+    "itContext": "Magnificent internal tools that delight users demonstrate the same care we put into customer-facing products.",
+    "alternativeWords": [
+      "splendid",
+      "grand",
+      "superb",
+      "glorious"
+    ],
+    "pronunciation": "mag-NIF-ih-sent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "appr-089",
+    "word": "Splendid",
+    "meaning": "Magnificent, very impressive, and deserving of great admiration.",
+    "genre": "appreciation",
+    "difficulty": 2,
+    "dateAdded": "2026-02-10",
+    "samplePhrase": "You did a splendid job on the infrastructure migration — zero downtime and zero customer complaints.",
+    "itContext": "Splendid execution on high-risk projects demonstrates both technical skill and operational discipline.",
+    "alternativeWords": [
+      "magnificent",
+      "superb",
+      "excellent",
+      "wonderful"
+    ],
+    "pronunciation": "SPLEN-did",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "appr-090",
+    "word": "Triumphant",
+    "meaning": "Having won a great victory; feeling or expressing jubilation after an achievement.",
+    "genre": "appreciation",
+    "difficulty": 3,
+    "dateAdded": "2026-02-11",
+    "samplePhrase": "The team's triumphant delivery of the platform rewrite — on time and under budget — deserves celebration.",
+    "itContext": "Triumphant project completions should be celebrated with team retrospectives that capture what went right.",
+    "alternativeWords": [
+      "victorious",
+      "successful",
+      "winning",
+      "conquering"
+    ],
+    "pronunciation": "try-UM-funt",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "appr-091",
+    "word": "Flourishing",
+    "meaning": "Developing rapidly and successfully; thriving and growing in a healthy way.",
+    "genre": "appreciation",
+    "difficulty": 2,
+    "dateAdded": "2026-02-12",
+    "samplePhrase": "Under your technical mentorship, the junior developers are flourishing — two of them got promoted this cycle.",
+    "itContext": "Flourishing engineering teams are characterized by high psychological safety and continuous learning.",
+    "alternativeWords": [
+      "thriving",
+      "prospering",
+      "blooming",
+      "succeeding"
+    ],
+    "pronunciation": "FLUR-ish-ing",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "appr-092",
+    "word": "Thriving",
+    "meaning": "Prospering and growing strong; flourishing and making good progress.",
+    "genre": "appreciation",
+    "difficulty": 1,
+    "dateAdded": "2026-02-13",
+    "samplePhrase": "The open-source community around your project is thriving — over 500 contributors and counting.",
+    "itContext": "Thriving teams consistently deliver value and attract top talent through their reputation.",
+    "alternativeWords": [
+      "flourishing",
+      "prospering",
+      "booming",
+      "succeeding"
+    ],
+    "pronunciation": "THRY-ving",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "appr-093",
+    "word": "Radiant",
+    "meaning": "Clearly emanating joy, confidence, or positivity; shining brightly with enthusiasm.",
+    "genre": "appreciation",
+    "difficulty": 3,
+    "dateAdded": "2026-02-14",
+    "samplePhrase": "Your radiant enthusiasm during the team hackathon was infectious — everyone fed off your positive energy.",
+    "itContext": "Radiant team members who bring genuine positivity to daily stand-ups improve the entire team's mood.",
+    "alternativeWords": [
+      "glowing",
+      "beaming",
+      "brilliant",
+      "luminous"
+    ],
+    "pronunciation": "RAY-dee-ent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "appr-094",
+    "word": "Effervescent",
+    "meaning": "Vivacious and enthusiastic; having a bubbly, infectious energy that lifts those around them.",
+    "genre": "appreciation",
+    "difficulty": 5,
+    "dateAdded": "2026-02-15",
+    "samplePhrase": "Your effervescent personality during onboarding week made every new hire feel immediately welcome.",
+    "itContext": "Effervescent team members play an outsized role in creating positive engineering culture.",
+    "alternativeWords": [
+      "bubbly",
+      "vivacious",
+      "lively",
+      "exuberant"
+    ],
+    "pronunciation": "ef-er-VES-ent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "appr-095",
+    "word": "Ebullient",
+    "meaning": "Cheerful and full of energy; overflowing with enthusiasm and excitement.",
+    "genre": "appreciation",
+    "difficulty": 5,
+    "dateAdded": "2026-02-16",
+    "samplePhrase": "His ebullient celebration of the team's successful launch lifted everyone's spirits after a grueling quarter.",
+    "itContext": "Ebullient celebrations of engineering wins reinforce the behaviors and efforts teams want to repeat.",
+    "alternativeWords": [
+      "exuberant",
+      "enthusiastic",
+      "buoyant",
+      "elated"
+    ],
+    "pronunciation": "ih-BUL-yent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "appr-096",
+    "word": "Exuberant",
+    "meaning": "Filled with lively energy and excitement; abundantly enthusiastic and joyful.",
+    "genre": "appreciation",
+    "difficulty": 3,
+    "dateAdded": "2026-02-17",
+    "samplePhrase": "The team's exuberant response to your feature demo showed just how much your work was appreciated.",
+    "itContext": "Exuberant team dynamics during creative sessions like hackathons produce the most innovative ideas.",
+    "alternativeWords": [
+      "enthusiastic",
+      "lively",
+      "spirited",
+      "animated"
+    ],
+    "pronunciation": "ig-ZOO-ber-ent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "appr-097",
+    "word": "Indefatigable",
+    "meaning": "Persisting tirelessly; showing sustained effort and energy without signs of fatigue.",
+    "genre": "appreciation",
+    "difficulty": 5,
+    "dateAdded": "2026-02-18",
+    "samplePhrase": "Your indefatigable pursuit of the memory leak across three microservices finally uncovered the root cause.",
+    "itContext": "Indefatigable engineers who persist through the most complex debugging sessions are invaluable assets.",
+    "alternativeWords": [
+      "tireless",
+      "untiring",
+      "unflagging",
+      "inexhaustible"
+    ],
+    "pronunciation": "in-dih-FAT-ih-guh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "appr-098",
+    "word": "Stalwart",
+    "meaning": "Loyal, reliable, and hard-working; a strong and steadfast supporter or team member.",
+    "genre": "appreciation",
+    "difficulty": 4,
+    "dateAdded": "2026-02-19",
+    "samplePhrase": "As a stalwart of the platform team, your consistent contributions over five years have shaped our entire infrastructure.",
+    "itContext": "Stalwart engineers who stay committed through organizational changes provide critical continuity.",
+    "alternativeWords": [
+      "loyal",
+      "faithful",
+      "devoted",
+      "steadfast"
+    ],
+    "pronunciation": "STAWL-wurt",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "appr-099",
+    "word": "Sagacious",
+    "meaning": "Having or showing keen mental discernment and good judgment; wisely perceptive.",
+    "genre": "appreciation",
+    "difficulty": 5,
+    "dateAdded": "2026-02-20",
+    "samplePhrase": "Your sagacious advice to build the abstraction layer first saved us months when the vendor changed their API.",
+    "itContext": "Sagacious architects who foresee integration risks design systems that adapt gracefully to change.",
+    "alternativeWords": [
+      "wise",
+      "shrewd",
+      "astute",
+      "perceptive"
+    ],
+    "pronunciation": "suh-GAY-shus",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "appr-100",
+    "word": "Luminous",
+    "meaning": "Full of light; bright and shining. Figuratively, radiating intelligence, clarity, or goodness.",
+    "genre": "appreciation",
+    "difficulty": 3,
+    "dateAdded": "2026-02-21",
+    "samplePhrase": "Your luminous clarity in explaining our architecture to the board gave them the confidence to approve the investment.",
+    "itContext": "Luminous communicators who can translate technical depth into executive language are worth their weight in gold.",
+    "alternativeWords": [
+      "brilliant",
+      "radiant",
+      "glowing",
+      "shining"
+    ],
+    "pronunciation": "LOO-mih-nus",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
+  }
+]

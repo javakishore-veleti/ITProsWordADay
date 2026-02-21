@@ -1,0 +1,2252 @@
+[
+  {
+    "id": "comm-001",
+    "word": "Constructive",
+    "meaning": "Serving a useful purpose; tending to build up. Feedback that helps improve rather than criticize.",
+    "genre": "communication",
+    "difficulty": 2,
+    "dateAdded": "2025-11-14",
+    "samplePhrase": "Instead of saying 'this code is terrible', offer constructive feedback like 'this could be more efficient with memoization.'",
+    "itContext": "Constructive code review comments improve code quality while maintaining team morale.",
+    "alternativeWords": [
+      "helpful",
+      "productive",
+      "beneficial",
+      "positive"
+    ],
+    "pronunciation": "kun-STRUK-tiv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "comm-002",
+    "word": "Diplomatic",
+    "meaning": "Skilled in handling sensitive matters tactfully; able to communicate disagreement without causing offense.",
+    "genre": "communication",
+    "difficulty": 3,
+    "dateAdded": "2025-11-15",
+    "samplePhrase": "A diplomatic response to 'this feature is useless' would be: 'I appreciate the perspective — could you share which use cases concern you?'",
+    "itContext": "Being diplomatic in Slack threads and PR reviews prevents conflicts and builds trust.",
+    "alternativeWords": [
+      "tactful",
+      "politic",
+      "gracious",
+      "judicious"
+    ],
+    "pronunciation": "dip-luh-MAT-ik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "comm-003",
+    "word": "Articulate",
+    "meaning": "Expressing oneself clearly and effectively; able to convey complex ideas in an understandable way.",
+    "genre": "communication",
+    "difficulty": 3,
+    "dateAdded": "2025-11-16",
+    "samplePhrase": "She was able to articulate the trade-offs between microservices and monolith in a way everyone understood.",
+    "itContext": "Being articulate in technical discussions helps bridge the gap between engineering and business.",
+    "alternativeWords": [
+      "eloquent",
+      "clear",
+      "expressive",
+      "fluent"
+    ],
+    "pronunciation": "ar-TIK-yoo-lit",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "id": "comm-004",
+    "word": "Assertive",
+    "meaning": "Confident and forceful in expressing one's opinions while remaining respectful of others.",
+    "genre": "communication",
+    "difficulty": 3,
+    "dateAdded": "2025-11-17",
+    "samplePhrase": "Be assertive in the design review: 'I strongly recommend we reconsider this approach because of the scalability concerns.'",
+    "itContext": "Assertive communication helps push back on unrealistic timelines professionally.",
+    "alternativeWords": [
+      "confident",
+      "forthright",
+      "direct",
+      "self-assured"
+    ],
+    "pronunciation": "uh-SUR-tiv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "comm-005",
+    "word": "Candid",
+    "meaning": "Truthful and straightforward; frank without being harsh or offensive.",
+    "genre": "communication",
+    "difficulty": 2,
+    "dateAdded": "2025-11-18",
+    "samplePhrase": "To be candid, the current timeline is not achievable without reducing scope or adding resources.",
+    "itContext": "Candid communication during sprint retrospectives drives genuine improvement.",
+    "alternativeWords": [
+      "honest",
+      "forthcoming",
+      "transparent",
+      "open"
+    ],
+    "pronunciation": "KAN-did",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "comm-006",
+    "word": "Empathetic",
+    "meaning": "Showing the ability to understand and share the feelings of another person.",
+    "genre": "communication",
+    "difficulty": 2,
+    "dateAdded": "2025-11-19",
+    "samplePhrase": "An empathetic response to a missed deadline: 'I understand the scope was larger than expected — let's adjust the plan together.'",
+    "itContext": "Empathetic leaders create psychologically safe environments where teams innovate freely.",
+    "alternativeWords": [
+      "understanding",
+      "compassionate",
+      "sympathetic",
+      "sensitive"
+    ],
+    "pronunciation": "em-puh-THET-ik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "comm-007",
+    "word": "Persuasive",
+    "meaning": "Good at convincing someone to do or believe something through reasoning or argument.",
+    "genre": "communication",
+    "difficulty": 3,
+    "dateAdded": "2025-11-20",
+    "samplePhrase": "Her persuasive presentation on adopting TypeScript convinced even the most skeptical backend developers.",
+    "itContext": "Persuasive writing in RFCs and design docs helps align teams on architectural decisions.",
+    "alternativeWords": [
+      "compelling",
+      "convincing",
+      "influential",
+      "cogent"
+    ],
+    "pronunciation": "per-SWAY-siv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "comm-008",
+    "word": "Conciliatory",
+    "meaning": "Intended to placate or pacify; aimed at making peace after a disagreement.",
+    "genre": "communication",
+    "difficulty": 4,
+    "dateAdded": "2025-11-21",
+    "samplePhrase": "After the heated architecture debate, his conciliatory message helped the team move forward: 'Both approaches have merit — let's prototype each.'",
+    "itContext": "Conciliatory gestures after team disagreements prevent lingering resentment and foster collaboration.",
+    "alternativeWords": [
+      "placating",
+      "appeasing",
+      "pacifying",
+      "peacemaking"
+    ],
+    "pronunciation": "kun-SIL-ee-uh-tor-ee",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "comm-009",
+    "word": "Judicious",
+    "meaning": "Having, showing, or done with good judgment or sense; wisely discerning.",
+    "genre": "communication",
+    "difficulty": 3,
+    "dateAdded": "2025-11-22",
+    "samplePhrase": "A judicious use of words in code reviews avoids demoralizing junior developers while still addressing issues.",
+    "itContext": "Judicious feedback balances honesty with encouragement to maintain team momentum.",
+    "alternativeWords": [
+      "wise",
+      "prudent",
+      "sensible",
+      "shrewd"
+    ],
+    "pronunciation": "joo-DISH-us",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "comm-010",
+    "word": "Measured",
+    "meaning": "Carefully considered and restrained; not hasty or impulsive in speech or action.",
+    "genre": "communication",
+    "difficulty": 2,
+    "dateAdded": "2025-11-23",
+    "samplePhrase": "His measured response to the production outage kept the incident channel calm and focused on resolution.",
+    "itContext": "Measured communication during incidents prevents panic and keeps debugging efforts organized.",
+    "alternativeWords": [
+      "deliberate",
+      "careful",
+      "restrained",
+      "controlled"
+    ],
+    "pronunciation": "MEZH-erd",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "comm-011",
+    "word": "Tactful",
+    "meaning": "Having or showing a keen sense of what to say or do to avoid giving offense; skill in delicate situations.",
+    "genre": "communication",
+    "difficulty": 2,
+    "dateAdded": "2025-11-24",
+    "samplePhrase": "A tactful way to flag code smells: 'I wonder if we could simplify this section for readability.'",
+    "itContext": "Tactful communication in pull request comments encourages improvement without discouraging the author.",
+    "alternativeWords": [
+      "diplomatic",
+      "sensitive",
+      "discreet",
+      "considerate"
+    ],
+    "pronunciation": "TAKT-ful",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "comm-012",
+    "word": "Forthcoming",
+    "meaning": "Willing to divulge information; open and cooperative in sharing relevant details.",
+    "genre": "communication",
+    "difficulty": 3,
+    "dateAdded": "2025-11-25",
+    "samplePhrase": "Being forthcoming about technical debt during planning prevents surprises during the sprint.",
+    "itContext": "Forthcoming engineers who surface risks early help teams avoid costly last-minute firefighting.",
+    "alternativeWords": [
+      "open",
+      "candid",
+      "communicative",
+      "transparent"
+    ],
+    "pronunciation": "forth-KUM-ing",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "comm-013",
+    "word": "Transparent",
+    "meaning": "Open and honest; free from pretense or deceit in communication and decision-making.",
+    "genre": "communication",
+    "difficulty": 1,
+    "dateAdded": "2025-11-26",
+    "samplePhrase": "Our team lead is transparent about project risks, sharing weekly status updates with all stakeholders.",
+    "itContext": "Transparent communication about trade-offs builds trust between engineering and product teams.",
+    "alternativeWords": [
+      "open",
+      "honest",
+      "forthright",
+      "candid"
+    ],
+    "pronunciation": "trans-PAIR-ent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "comm-014",
+    "word": "Nuanced",
+    "meaning": "Characterized by subtle distinctions or variations; not simplistic or one-dimensional.",
+    "genre": "communication",
+    "difficulty": 3,
+    "dateAdded": "2025-11-27",
+    "samplePhrase": "The debate around monorepo vs. polyrepo requires a nuanced understanding of the team's workflow and tooling.",
+    "itContext": "Nuanced opinions in architecture discussions lead to solutions that address multiple constraints.",
+    "alternativeWords": [
+      "subtle",
+      "refined",
+      "sophisticated",
+      "complex"
+    ],
+    "pronunciation": "NOO-ahnst",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "comm-015",
+    "word": "Succinct",
+    "meaning": "Briefly and clearly expressed; conveying meaning effectively with minimal words.",
+    "genre": "communication",
+    "difficulty": 3,
+    "dateAdded": "2025-11-28",
+    "samplePhrase": "Keep JIRA comments succinct — instead of a paragraph, write: 'Blocked by API rate limit. Workaround in PR #342.'",
+    "itContext": "Succinct commit messages and ticket descriptions save time for everyone who reads them.",
+    "alternativeWords": [
+      "concise",
+      "brief",
+      "terse",
+      "pithy"
+    ],
+    "pronunciation": "suk-SINKT",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "comm-016",
+    "word": "Eloquent",
+    "meaning": "Fluent or persuasive in speaking or writing; vividly and movingly expressive.",
+    "genre": "communication",
+    "difficulty": 3,
+    "dateAdded": "2025-11-29",
+    "samplePhrase": "Her eloquent explanation of event-driven architecture in the tech talk earned a standing ovation.",
+    "itContext": "Eloquent technical writing in documentation reduces onboarding time for new team members.",
+    "alternativeWords": [
+      "articulate",
+      "expressive",
+      "fluent",
+      "silver-tongued"
+    ],
+    "pronunciation": "EL-oh-kwent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "comm-017",
+    "word": "Deferential",
+    "meaning": "Showing respect and courteous regard for another's wishes, experience, or seniority.",
+    "genre": "communication",
+    "difficulty": 4,
+    "dateAdded": "2025-11-30",
+    "samplePhrase": "While being deferential to the architect's experience, she still raised valid concerns about the database choice.",
+    "itContext": "Deferential communication shows respect for domain expertise while still allowing constructive challenge.",
+    "alternativeWords": [
+      "respectful",
+      "courteous",
+      "reverential",
+      "polite"
+    ],
+    "pronunciation": "def-er-EN-shul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "comm-018",
+    "word": "Amenable",
+    "meaning": "Open and responsive to suggestion; willing to comply or cooperate.",
+    "genre": "communication",
+    "difficulty": 3,
+    "dateAdded": "2025-12-01",
+    "samplePhrase": "The product owner was amenable to extending the sprint by two days to accommodate the unforeseen API changes.",
+    "itContext": "Being amenable to feedback during code reviews fosters a culture of continuous improvement.",
+    "alternativeWords": [
+      "agreeable",
+      "receptive",
+      "cooperative",
+      "willing"
+    ],
+    "pronunciation": "uh-MEE-nuh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "comm-019",
+    "word": "Receptive",
+    "meaning": "Willing to consider or accept new suggestions, ideas, or feedback from others.",
+    "genre": "communication",
+    "difficulty": 2,
+    "dateAdded": "2025-12-02",
+    "samplePhrase": "A receptive attitude during design critiques signals to the team that all perspectives are valued.",
+    "itContext": "Receptive team leads who listen to junior developer ideas unlock innovative solutions.",
+    "alternativeWords": [
+      "open-minded",
+      "approachable",
+      "responsive",
+      "accepting"
+    ],
+    "pronunciation": "rih-SEP-tiv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "comm-020",
+    "word": "Discerning",
+    "meaning": "Having or showing good judgment and keen perception; able to distinguish quality and importance.",
+    "genre": "communication",
+    "difficulty": 3,
+    "dateAdded": "2025-12-03",
+    "samplePhrase": "A discerning reviewer knows which PR comments are blockers and which are just style preferences.",
+    "itContext": "Discerning engineers prioritize critical feedback over cosmetic suggestions in code reviews.",
+    "alternativeWords": [
+      "perceptive",
+      "insightful",
+      "astute",
+      "discriminating"
+    ],
+    "pronunciation": "dih-SURN-ing",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "comm-021",
+    "word": "Circumspect",
+    "meaning": "Wary and unwilling to take risks; carefully considering all circumstances and consequences before acting or speaking.",
+    "genre": "communication",
+    "difficulty": 4,
+    "dateAdded": "2025-12-04",
+    "samplePhrase": "Be circumspect when emailing clients about delays — frame it as a commitment to quality, not as an excuse.",
+    "itContext": "Circumspect communication with external stakeholders protects both the team and the company reputation.",
+    "alternativeWords": [
+      "cautious",
+      "careful",
+      "wary",
+      "guarded"
+    ],
+    "pronunciation": "SUR-kum-spekt",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "comm-022",
+    "word": "Impartial",
+    "meaning": "Treating all rivals or disputants equally; fair and just, without favoritism or bias.",
+    "genre": "communication",
+    "difficulty": 2,
+    "dateAdded": "2025-12-05",
+    "samplePhrase": "As the code review moderator, remain impartial — evaluate the code, not who wrote it.",
+    "itContext": "Impartial evaluation of competing technical proposals leads to the best architectural decisions.",
+    "alternativeWords": [
+      "unbiased",
+      "neutral",
+      "objective",
+      "fair"
+    ],
+    "pronunciation": "im-PAR-shul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "comm-023",
+    "word": "Objective",
+    "meaning": "Based on facts rather than feelings or opinions; not influenced by personal prejudices.",
+    "genre": "communication",
+    "difficulty": 2,
+    "dateAdded": "2025-12-06",
+    "samplePhrase": "Keep sprint retrospective observations objective: 'Deployments took 40 minutes' rather than 'deployments are terrible.'",
+    "itContext": "Objective metrics in post-mortems replace blame with actionable improvement opportunities.",
+    "alternativeWords": [
+      "factual",
+      "unbiased",
+      "dispassionate",
+      "evidence-based"
+    ],
+    "pronunciation": "ub-JEK-tiv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "comm-024",
+    "word": "Collaborative",
+    "meaning": "Produced by or involving two or more parties working together toward a shared goal.",
+    "genre": "communication",
+    "difficulty": 1,
+    "dateAdded": "2025-12-07",
+    "samplePhrase": "Let's take a collaborative approach to this refactor — pair programming will help us share context.",
+    "itContext": "Collaborative communication in cross-functional teams reduces silos and accelerates delivery.",
+    "alternativeWords": [
+      "cooperative",
+      "joint",
+      "collective",
+      "team-oriented"
+    ],
+    "pronunciation": "kuh-LAB-or-uh-tiv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "comm-025",
+    "word": "Inclusive",
+    "meaning": "Ensuring that all people feel welcomed, respected, and valued regardless of background or role.",
+    "genre": "communication",
+    "difficulty": 2,
+    "dateAdded": "2025-12-08",
+    "samplePhrase": "Use inclusive language in docs — write 'allowlist/blocklist' instead of outdated exclusionary terms.",
+    "itContext": "Inclusive communication in stand-ups gives quieter team members space to share their updates.",
+    "alternativeWords": [
+      "welcoming",
+      "embracing",
+      "accessible",
+      "equitable"
+    ],
+    "pronunciation": "in-KLOO-siv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "comm-026",
+    "word": "Respectful",
+    "meaning": "Feeling or showing deference and regard for the feelings, wishes, and rights of others.",
+    "genre": "communication",
+    "difficulty": 1,
+    "dateAdded": "2025-12-09",
+    "samplePhrase": "Always keep Slack discussions respectful — disagree with the idea, never attack the person.",
+    "itContext": "Respectful code review culture attracts talent and reduces attrition in engineering teams.",
+    "alternativeWords": [
+      "courteous",
+      "polite",
+      "civil",
+      "considerate"
+    ],
+    "pronunciation": "rih-SPEKT-ful",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "comm-027",
+    "word": "Courteous",
+    "meaning": "Polite, gracious, and considerate in manner; showing good manners in professional interactions.",
+    "genre": "communication",
+    "difficulty": 2,
+    "dateAdded": "2025-12-10",
+    "samplePhrase": "A courteous reply to a stakeholder request: 'Thank you for raising this — I'll investigate and follow up by end of day.'",
+    "itContext": "Courteous email responses to cross-team requests foster strong interdepartmental relationships.",
+    "alternativeWords": [
+      "polite",
+      "gracious",
+      "well-mannered",
+      "civil"
+    ],
+    "pronunciation": "KUR-tee-us",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "comm-028",
+    "word": "Gracious",
+    "meaning": "Courteous, kind, and pleasant; especially towards someone considered to be of lower status or in a difficult position.",
+    "genre": "communication",
+    "difficulty": 2,
+    "dateAdded": "2025-12-11",
+    "samplePhrase": "Be gracious when receiving critical feedback on your PR — it's an opportunity to grow, not a personal attack.",
+    "itContext": "Gracious acceptance of feedback during retrospectives models healthy team dynamics.",
+    "alternativeWords": [
+      "kind",
+      "benevolent",
+      "generous",
+      "magnanimous"
+    ],
+    "pronunciation": "GRAY-shus",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "comm-029",
+    "word": "Magnanimous",
+    "meaning": "Very generous or forgiving, especially toward a rival or someone less powerful; noble in spirit.",
+    "genre": "communication",
+    "difficulty": 4,
+    "dateAdded": "2025-12-12",
+    "samplePhrase": "He was magnanimous about the rejected proposal, saying: 'The team chose the better solution — I'm glad we explored both options.'",
+    "itContext": "Magnanimous responses when your ideas are not chosen earn long-term respect from colleagues.",
+    "alternativeWords": [
+      "generous",
+      "noble",
+      "big-hearted",
+      "gracious"
+    ],
+    "pronunciation": "mag-NAN-ih-mus",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "comm-030",
+    "word": "Pragmatic",
+    "meaning": "Dealing with things sensibly and realistically; focused on practical outcomes rather than theory.",
+    "genre": "communication",
+    "difficulty": 2,
+    "dateAdded": "2025-12-13",
+    "samplePhrase": "Let's be pragmatic here — shipping with 90% test coverage now is better than 100% coverage next quarter.",
+    "itContext": "Pragmatic communication helps teams make progress without getting stuck in analysis paralysis.",
+    "alternativeWords": [
+      "practical",
+      "realistic",
+      "sensible",
+      "grounded"
+    ],
+    "pronunciation": "prag-MAT-ik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "comm-031",
+    "word": "Concise",
+    "meaning": "Giving a lot of information clearly in a few words; brief but comprehensive.",
+    "genre": "communication",
+    "difficulty": 2,
+    "dateAdded": "2025-12-14",
+    "samplePhrase": "Write concise JIRA tickets: 'As a user, I want password reset via email so I can regain access within 5 minutes.'",
+    "itContext": "Concise documentation reduces cognitive load and gets read more often than verbose alternatives.",
+    "alternativeWords": [
+      "brief",
+      "succinct",
+      "terse",
+      "compact"
+    ],
+    "pronunciation": "kun-SYSE",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "comm-032",
+    "word": "Deliberate",
+    "meaning": "Done consciously and intentionally; carefully thought out before being expressed.",
+    "genre": "communication",
+    "difficulty": 2,
+    "dateAdded": "2025-12-15",
+    "samplePhrase": "Her deliberate choice of words during the incident call kept the team focused instead of panicked.",
+    "itContext": "Deliberate communication in high-pressure situations prevents misunderstandings and wasted effort.",
+    "alternativeWords": [
+      "intentional",
+      "calculated",
+      "planned",
+      "considered"
+    ],
+    "pronunciation": "dih-LIB-er-it",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "comm-033",
+    "word": "Composed",
+    "meaning": "Calm and in control of one's feelings; collected and self-possessed even under pressure.",
+    "genre": "communication",
+    "difficulty": 2,
+    "dateAdded": "2025-12-16",
+    "samplePhrase": "Staying composed when the CEO asks why the site is down shows leadership under pressure.",
+    "itContext": "Composed engineers during outages inspire confidence and enable faster incident resolution.",
+    "alternativeWords": [
+      "calm",
+      "collected",
+      "unruffled",
+      "poised"
+    ],
+    "pronunciation": "kum-POZD",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "comm-034",
+    "word": "Discreet",
+    "meaning": "Careful and circumspect in speech or action to avoid causing offense or revealing private information.",
+    "genre": "communication",
+    "difficulty": 3,
+    "dateAdded": "2025-12-17",
+    "samplePhrase": "Be discreet when discussing someone's performance gaps — use a private DM, not the team channel.",
+    "itContext": "Discreet handling of security vulnerabilities prevents premature disclosure before patches are ready.",
+    "alternativeWords": [
+      "prudent",
+      "cautious",
+      "tactful",
+      "circumspect"
+    ],
+    "pronunciation": "dih-SKREET",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "comm-035",
+    "word": "Forthright",
+    "meaning": "Direct and outspoken; straightforward and honest without evasion.",
+    "genre": "communication",
+    "difficulty": 3,
+    "dateAdded": "2025-12-18",
+    "samplePhrase": "Be forthright with the team about why we're pivoting: 'The data shows users don't need this feature.'",
+    "itContext": "Forthright leaders who share the 'why' behind decisions earn deeper trust from their teams.",
+    "alternativeWords": [
+      "direct",
+      "candid",
+      "straightforward",
+      "frank"
+    ],
+    "pronunciation": "FORTH-ryt",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "comm-036",
+    "word": "Prudent",
+    "meaning": "Acting with or showing care and thought for the future; wise in practical affairs.",
+    "genre": "communication",
+    "difficulty": 3,
+    "dateAdded": "2025-12-19",
+    "samplePhrase": "It would be prudent to document our decision rationale now, so future teams understand why we chose DynamoDB.",
+    "itContext": "Prudent architectural decision records save weeks of investigation for future engineering teams.",
+    "alternativeWords": [
+      "wise",
+      "cautious",
+      "sensible",
+      "judicious"
+    ],
+    "pronunciation": "PROO-dent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "comm-037",
+    "word": "Temperate",
+    "meaning": "Showing moderation and self-restraint; not extreme in behavior, language, or reactions.",
+    "genre": "communication",
+    "difficulty": 4,
+    "dateAdded": "2025-12-20",
+    "samplePhrase": "Keep your tone temperate in email escalations — anger rarely achieves the outcome you want.",
+    "itContext": "Temperate responses in heated Slack debates prevent arguments from derailing the team.",
+    "alternativeWords": [
+      "moderate",
+      "restrained",
+      "mild",
+      "even-tempered"
+    ],
+    "pronunciation": "TEM-per-it",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "comm-038",
+    "word": "Considerate",
+    "meaning": "Careful not to cause inconvenience or hurt to others; thoughtful of other people's needs and feelings.",
+    "genre": "communication",
+    "difficulty": 1,
+    "dateAdded": "2025-12-21",
+    "samplePhrase": "Be considerate of different time zones when scheduling meetings — not everyone can join at 9 AM PST.",
+    "itContext": "Considerate asynchronous communication is essential for globally distributed engineering teams.",
+    "alternativeWords": [
+      "thoughtful",
+      "caring",
+      "attentive",
+      "mindful"
+    ],
+    "pronunciation": "kun-SID-er-it",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "comm-039",
+    "word": "Poised",
+    "meaning": "Having a composed and self-assured manner; calm and confident in demeanor.",
+    "genre": "communication",
+    "difficulty": 3,
+    "dateAdded": "2025-12-22",
+    "samplePhrase": "She remained poised while presenting the quarterly metrics, even when questioned aggressively by leadership.",
+    "itContext": "Poised presenters at tech talks command attention and convey credibility to their audience.",
+    "alternativeWords": [
+      "composed",
+      "self-assured",
+      "dignified",
+      "collected"
+    ],
+    "pronunciation": "poyzd",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "comm-040",
+    "word": "Amiable",
+    "meaning": "Having a friendly and pleasant manner; easy to get along with in professional settings.",
+    "genre": "communication",
+    "difficulty": 2,
+    "dateAdded": "2025-12-23",
+    "samplePhrase": "His amiable attitude in onboarding sessions makes new hires feel welcome from day one.",
+    "itContext": "Amiable team members improve collaboration and make pair programming sessions more effective.",
+    "alternativeWords": [
+      "friendly",
+      "pleasant",
+      "affable",
+      "genial"
+    ],
+    "pronunciation": "AY-mee-uh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "comm-041",
+    "word": "Cogent",
+    "meaning": "Clear, logical, and convincing; presenting an argument that is difficult to refute.",
+    "genre": "communication",
+    "difficulty": 4,
+    "dateAdded": "2025-12-24",
+    "samplePhrase": "Her cogent argument for adopting Kubernetes was backed by cost analysis and performance benchmarks.",
+    "itContext": "Cogent technical proposals with supporting data are more likely to get stakeholder approval.",
+    "alternativeWords": [
+      "compelling",
+      "convincing",
+      "persuasive",
+      "logical"
+    ],
+    "pronunciation": "KOH-jent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "comm-042",
+    "word": "Lucid",
+    "meaning": "Expressed clearly; easy to understand. Presenting complex topics in an accessible manner.",
+    "genre": "communication",
+    "difficulty": 3,
+    "dateAdded": "2025-12-25",
+    "samplePhrase": "His lucid explanation of the OAuth 2.0 flow made the security audit meeting productive for everyone.",
+    "itContext": "Lucid technical documentation reduces support tickets and accelerates developer onboarding.",
+    "alternativeWords": [
+      "clear",
+      "intelligible",
+      "transparent",
+      "coherent"
+    ],
+    "pronunciation": "LOO-sid",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "comm-043",
+    "word": "Cordial",
+    "meaning": "Warm, friendly, and sincere; pleasantly polite in professional interactions.",
+    "genre": "communication",
+    "difficulty": 2,
+    "dateAdded": "2025-12-26",
+    "samplePhrase": "Maintain a cordial tone even in disagreement: 'I see your point, and I'd like to offer an alternative perspective.'",
+    "itContext": "Cordial cross-team relationships make it easier to request help or escalate blockers.",
+    "alternativeWords": [
+      "warm",
+      "friendly",
+      "genial",
+      "hearty"
+    ],
+    "pronunciation": "KOR-jul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "comm-044",
+    "word": "Equitable",
+    "meaning": "Fair and impartial; treating everyone with equal consideration and fairness.",
+    "genre": "communication",
+    "difficulty": 3,
+    "dateAdded": "2025-12-27",
+    "samplePhrase": "Ensure equitable distribution of on-call duties — no one should bear the burden disproportionately.",
+    "itContext": "Equitable workload communication prevents burnout and improves team retention.",
+    "alternativeWords": [
+      "fair",
+      "just",
+      "impartial",
+      "balanced"
+    ],
+    "pronunciation": "EK-wih-tuh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "comm-045",
+    "word": "Benevolent",
+    "meaning": "Well-meaning and kindly; disposed to do good and show generosity of spirit.",
+    "genre": "communication",
+    "difficulty": 3,
+    "dateAdded": "2025-12-28",
+    "samplePhrase": "A benevolent approach to mentoring: 'Everyone struggles with distributed systems at first — let me walk you through it.'",
+    "itContext": "Benevolent senior engineers who invest in mentoring multiply the team's collective capability.",
+    "alternativeWords": [
+      "kind",
+      "charitable",
+      "generous",
+      "altruistic"
+    ],
+    "pronunciation": "buh-NEV-uh-lent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "comm-046",
+    "word": "Astute",
+    "meaning": "Having or showing an ability to accurately assess situations and turn them to one's advantage; shrewd.",
+    "genre": "communication",
+    "difficulty": 4,
+    "dateAdded": "2025-12-29",
+    "samplePhrase": "Her astute observation about the race condition in the PR saved us from a critical production bug.",
+    "itContext": "Astute communicators pick up on subtle cues in meetings that others miss.",
+    "alternativeWords": [
+      "shrewd",
+      "sharp",
+      "perceptive",
+      "keen"
+    ],
+    "pronunciation": "uh-STOOT",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "comm-047",
+    "word": "Adroit",
+    "meaning": "Clever or skillful in using the hands or mind; deft in handling situations.",
+    "genre": "communication",
+    "difficulty": 4,
+    "dateAdded": "2025-12-30",
+    "samplePhrase": "His adroit handling of the client's escalation turned a potential churn risk into a renewed contract.",
+    "itContext": "Adroit communicators navigate tense technical discussions without alienating any party.",
+    "alternativeWords": [
+      "skillful",
+      "deft",
+      "nimble",
+      "proficient"
+    ],
+    "pronunciation": "uh-DROYT",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "comm-048",
+    "word": "Affable",
+    "meaning": "Friendly, good-natured, and easy to talk to; approachable in demeanor.",
+    "genre": "communication",
+    "difficulty": 3,
+    "dateAdded": "2025-12-31",
+    "samplePhrase": "An affable engineering manager makes 1:1 meetings feel like conversations rather than interrogations.",
+    "itContext": "Affable tech leads create environments where team members feel safe to ask questions.",
+    "alternativeWords": [
+      "approachable",
+      "friendly",
+      "personable",
+      "warm"
+    ],
+    "pronunciation": "AF-uh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "comm-049",
+    "word": "Convivial",
+    "meaning": "Friendly, lively, and enjoyable in atmosphere; relating to socializing and good company.",
+    "genre": "communication",
+    "difficulty": 4,
+    "dateAdded": "2026-01-01",
+    "samplePhrase": "The convivial atmosphere at our team hackathon led to three innovative feature prototypes.",
+    "itContext": "Convivial team events build rapport that translates into better day-to-day collaboration.",
+    "alternativeWords": [
+      "sociable",
+      "jovial",
+      "festive",
+      "gregarious"
+    ],
+    "pronunciation": "kun-VIV-ee-ul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "comm-050",
+    "word": "Amicable",
+    "meaning": "Having a spirit of friendliness; done in a friendly way without quarrel or hostility.",
+    "genre": "communication",
+    "difficulty": 2,
+    "dateAdded": "2026-01-02",
+    "samplePhrase": "The teams reached an amicable agreement on API ownership after a structured discussion facilitated by the architect.",
+    "itContext": "Amicable resolution of technical disagreements preserves working relationships and team velocity.",
+    "alternativeWords": [
+      "friendly",
+      "harmonious",
+      "peaceable",
+      "agreeable"
+    ],
+    "pronunciation": "AM-ih-kuh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "comm-051",
+    "word": "Erudite",
+    "meaning": "Having or showing great knowledge or learning; deeply scholarly and well-read.",
+    "genre": "communication",
+    "difficulty": 5,
+    "dateAdded": "2026-01-03",
+    "samplePhrase": "His erudite blog posts on distributed consensus algorithms attract readers from across the industry.",
+    "itContext": "Erudite engineers who share knowledge through internal wikis elevate the entire team's expertise.",
+    "alternativeWords": [
+      "scholarly",
+      "learned",
+      "knowledgeable",
+      "intellectual"
+    ],
+    "pronunciation": "AIR-yoo-dyt",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "comm-052",
+    "word": "Sagacious",
+    "meaning": "Having or showing keen mental discernment and good judgment; wise and shrewd.",
+    "genre": "communication",
+    "difficulty": 5,
+    "dateAdded": "2026-01-04",
+    "samplePhrase": "The CTO's sagacious decision to invest in platform engineering two years ago is paying dividends now.",
+    "itContext": "Sagacious technical leaders anticipate industry trends and position their teams accordingly.",
+    "alternativeWords": [
+      "wise",
+      "astute",
+      "shrewd",
+      "perceptive"
+    ],
+    "pronunciation": "suh-GAY-shus",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      5
+    ]
+  },
+  {
+    "id": "comm-053",
+    "word": "Propitious",
+    "meaning": "Indicating a good chance of success; favorable and promising.",
+    "genre": "communication",
+    "difficulty": 5,
+    "dateAdded": "2026-01-05",
+    "samplePhrase": "Now is a propitious time to propose the migration to cloud-native — leadership just approved the infrastructure budget.",
+    "itContext": "Identifying propitious moments for change proposals increases their likelihood of approval.",
+    "alternativeWords": [
+      "favorable",
+      "auspicious",
+      "opportune",
+      "promising"
+    ],
+    "pronunciation": "pruh-PISH-us",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "comm-054",
+    "word": "Consummate",
+    "meaning": "Showing a high degree of skill and flair; supremely accomplished and proficient.",
+    "genre": "communication",
+    "difficulty": 4,
+    "dateAdded": "2026-01-06",
+    "samplePhrase": "She's a consummate facilitator who can guide even the most contentious design meetings to a clear outcome.",
+    "itContext": "Consummate communicators adapt their style to match their audience — technical or non-technical.",
+    "alternativeWords": [
+      "supreme",
+      "accomplished",
+      "masterful",
+      "polished"
+    ],
+    "pronunciation": "KON-suh-mit",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "comm-055",
+    "word": "Perceptive",
+    "meaning": "Having or showing sensitive insight; quick to understand and notice things that others miss.",
+    "genre": "communication",
+    "difficulty": 3,
+    "dateAdded": "2026-01-07",
+    "samplePhrase": "Her perceptive question about edge cases during the design review saved weeks of rework later.",
+    "itContext": "Perceptive listeners in stand-ups catch implicit blockers that the speaker hasn't fully recognized.",
+    "alternativeWords": [
+      "insightful",
+      "observant",
+      "sharp",
+      "intuitive"
+    ],
+    "pronunciation": "per-SEP-tiv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "comm-056",
+    "word": "Insightful",
+    "meaning": "Having or showing deep understanding and accurate perception of a situation or topic.",
+    "genre": "communication",
+    "difficulty": 2,
+    "dateAdded": "2026-01-08",
+    "samplePhrase": "That was an insightful observation — the latency issue is indeed caused by the N+1 query pattern.",
+    "itContext": "Insightful comments in code reviews teach the author and future readers simultaneously.",
+    "alternativeWords": [
+      "perceptive",
+      "penetrating",
+      "discerning",
+      "astute"
+    ],
+    "pronunciation": "IN-syt-ful",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "comm-057",
+    "word": "Substantive",
+    "meaning": "Having a firm basis in reality and therefore important, meaningful, or considerable.",
+    "genre": "communication",
+    "difficulty": 3,
+    "dateAdded": "2026-01-09",
+    "samplePhrase": "Please keep standup updates substantive — share blockers and decisions, not a list of completed tasks.",
+    "itContext": "Substantive meeting agendas with clear outcomes prevent 'meetings about meetings' syndrome.",
+    "alternativeWords": [
+      "meaningful",
+      "significant",
+      "material",
+      "weighty"
+    ],
+    "pronunciation": "SUB-stun-tiv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "comm-058",
+    "word": "Coherent",
+    "meaning": "Logical, consistent, and forming a unified whole; easy to follow and understand.",
+    "genre": "communication",
+    "difficulty": 2,
+    "dateAdded": "2026-01-10",
+    "samplePhrase": "Your design document should present a coherent narrative from problem statement through to proposed solution.",
+    "itContext": "Coherent architecture diagrams reduce misunderstandings and speed up cross-team alignment.",
+    "alternativeWords": [
+      "logical",
+      "consistent",
+      "orderly",
+      "systematic"
+    ],
+    "pronunciation": "ko-HEER-ent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "comm-059",
+    "word": "Methodical",
+    "meaning": "Done in a systematic and orderly way; characterized by method and careful planning.",
+    "genre": "communication",
+    "difficulty": 2,
+    "dateAdded": "2026-01-11",
+    "samplePhrase": "Take a methodical approach to the bug report: reproduce, isolate, identify root cause, then propose a fix.",
+    "itContext": "Methodical incident response communication keeps all parties informed without creating chaos.",
+    "alternativeWords": [
+      "systematic",
+      "organized",
+      "structured",
+      "orderly"
+    ],
+    "pronunciation": "muh-THOD-ih-kul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "comm-060",
+    "word": "Rational",
+    "meaning": "Based on or in accordance with reason or logic; thinking clearly without emotional bias.",
+    "genre": "communication",
+    "difficulty": 2,
+    "dateAdded": "2026-01-12",
+    "samplePhrase": "Let's have a rational discussion about the tech stack — here are the benchmarks for each option.",
+    "itContext": "Rational decision-making frameworks like ADRs prevent emotional biases from driving architecture choices.",
+    "alternativeWords": [
+      "logical",
+      "reasonable",
+      "sensible",
+      "sound"
+    ],
+    "pronunciation": "RASH-un-ul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "comm-061",
+    "word": "Unequivocal",
+    "meaning": "Leaving no doubt; unambiguous and clear in meaning or intent.",
+    "genre": "communication",
+    "difficulty": 4,
+    "dateAdded": "2026-01-13",
+    "samplePhrase": "The security team's recommendation was unequivocal: 'Rotate all API keys immediately and enable MFA.'",
+    "itContext": "Unequivocal communication during security incidents eliminates dangerous ambiguity.",
+    "alternativeWords": [
+      "definitive",
+      "absolute",
+      "categorical",
+      "unmistakable"
+    ],
+    "pronunciation": "un-ih-KWIV-uh-kul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "comm-062",
+    "word": "Tentative",
+    "meaning": "Not certain or fixed; provisional and subject to change based on further discussion or information.",
+    "genre": "communication",
+    "difficulty": 2,
+    "dateAdded": "2026-01-14",
+    "samplePhrase": "This is a tentative proposal — I'd love the team's input before we finalize the approach.",
+    "itContext": "Framing ideas as tentative invites collaboration and reduces defensiveness in technical discussions.",
+    "alternativeWords": [
+      "preliminary",
+      "provisional",
+      "exploratory",
+      "speculative"
+    ],
+    "pronunciation": "TEN-tuh-tiv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "comm-063",
+    "word": "Provisional",
+    "meaning": "Arranged or existing for the present, possibly to be changed later; temporary and conditional.",
+    "genre": "communication",
+    "difficulty": 3,
+    "dateAdded": "2026-01-15",
+    "samplePhrase": "Let's agree on a provisional API contract so frontend can start building while we finalize the backend.",
+    "itContext": "Provisional agreements unblock parallel workstreams while keeping the door open for refinement.",
+    "alternativeWords": [
+      "temporary",
+      "interim",
+      "tentative",
+      "conditional"
+    ],
+    "pronunciation": "pruh-VIZH-un-ul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "comm-064",
+    "word": "Accommodate",
+    "meaning": "To fit in with the wishes or needs of others; to make adjustments for different perspectives.",
+    "genre": "communication",
+    "difficulty": 2,
+    "dateAdded": "2026-01-16",
+    "samplePhrase": "We can accommodate the product team's request by adding the feature flag without delaying the release.",
+    "itContext": "Accommodating reasonable requests from stakeholders builds goodwill and strengthens partnerships.",
+    "alternativeWords": [
+      "adjust",
+      "adapt",
+      "oblige",
+      "cater to"
+    ],
+    "pronunciation": "uh-KOM-uh-dayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "comm-065",
+    "word": "Mediate",
+    "meaning": "To intervene between people in a dispute to bring about resolution or agreement.",
+    "genre": "communication",
+    "difficulty": 3,
+    "dateAdded": "2026-01-17",
+    "samplePhrase": "The engineering manager had to mediate between two teams that both claimed ownership of the shared library.",
+    "itContext": "Mediating technical disputes by focusing on data rather than opinions leads to better outcomes.",
+    "alternativeWords": [
+      "arbitrate",
+      "intercede",
+      "negotiate",
+      "reconcile"
+    ],
+    "pronunciation": "MEE-dee-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "comm-066",
+    "word": "Arbitrate",
+    "meaning": "To act as a judge in a dispute; to reach an authoritative judgment between competing positions.",
+    "genre": "communication",
+    "difficulty": 4,
+    "dateAdded": "2026-01-18",
+    "samplePhrase": "When two architects disagree on the approach, sometimes you need a principal engineer to arbitrate.",
+    "itContext": "Arbitrating technical decisions requires weighing trade-offs objectively and documenting rationale.",
+    "alternativeWords": [
+      "judge",
+      "adjudicate",
+      "decide",
+      "referee"
+    ],
+    "pronunciation": "AR-bih-trayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "comm-067",
+    "word": "Negotiate",
+    "meaning": "To discuss something in order to reach an agreement; to find common ground between differing positions.",
+    "genre": "communication",
+    "difficulty": 2,
+    "dateAdded": "2026-01-19",
+    "samplePhrase": "We need to negotiate the scope with product — delivering all 20 features in one sprint is unrealistic.",
+    "itContext": "Negotiating sprint scope professionally prevents overcommitment and team burnout.",
+    "alternativeWords": [
+      "discuss",
+      "bargain",
+      "confer",
+      "deliberate"
+    ],
+    "pronunciation": "nih-GOH-shee-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "comm-068",
+    "word": "Reconcile",
+    "meaning": "To restore friendly relations; to make compatible or consistent two things that are in conflict.",
+    "genre": "communication",
+    "difficulty": 3,
+    "dateAdded": "2026-01-20",
+    "samplePhrase": "We need to reconcile the product roadmap with engineering capacity before committing to Q2 goals.",
+    "itContext": "Reconciling conflicting requirements from different stakeholders is a key skill for tech leads.",
+    "alternativeWords": [
+      "resolve",
+      "harmonize",
+      "settle",
+      "align"
+    ],
+    "pronunciation": "REK-un-syl",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "comm-069",
+    "word": "Acquiesce",
+    "meaning": "To accept something reluctantly but without protest; to comply passively.",
+    "genre": "communication",
+    "difficulty": 5,
+    "dateAdded": "2026-01-21",
+    "samplePhrase": "Rather than acquiesce to an unrealistic deadline, propose an alternative: 'I can deliver the MVP by Friday and the full feature by next Wednesday.'",
+    "itContext": "Silently acquiescing to impossible timelines leads to burnout — professional pushback is healthier.",
+    "alternativeWords": [
+      "yield",
+      "comply",
+      "consent",
+      "concur"
+    ],
+    "pronunciation": "ak-wee-ESS",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "comm-070",
+    "word": "Concede",
+    "meaning": "To admit that something is true after first denying or resisting it; to yield a point gracefully.",
+    "genre": "communication",
+    "difficulty": 2,
+    "dateAdded": "2026-01-22",
+    "samplePhrase": "I concede that your approach to caching is cleaner — let's go with your implementation.",
+    "itContext": "Conceding gracefully in technical debates shows intellectual maturity and earns respect.",
+    "alternativeWords": [
+      "admit",
+      "acknowledge",
+      "yield",
+      "grant"
+    ],
+    "pronunciation": "kun-SEED",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "comm-071",
+    "word": "Compromise",
+    "meaning": "To settle a dispute by mutual concession; to find a middle ground that both parties can accept.",
+    "genre": "communication",
+    "difficulty": 1,
+    "dateAdded": "2026-01-23",
+    "samplePhrase": "Let's compromise: we'll use your preferred database but my suggested caching layer on top.",
+    "itContext": "Healthy compromise in technical decisions prevents analysis paralysis and keeps teams moving forward.",
+    "alternativeWords": [
+      "meet halfway",
+      "settle",
+      "agree",
+      "accommodate"
+    ],
+    "pronunciation": "KOM-pruh-myz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "comm-072",
+    "word": "Corroborate",
+    "meaning": "To confirm or give support to a statement, theory, or finding with additional evidence.",
+    "genre": "communication",
+    "difficulty": 4,
+    "dateAdded": "2026-01-24",
+    "samplePhrase": "The load test results corroborate what the monitoring data suggested — the bottleneck is in the database layer.",
+    "itContext": "Corroborating bug reports with logs and metrics strengthens your case for prioritizing fixes.",
+    "alternativeWords": [
+      "confirm",
+      "verify",
+      "substantiate",
+      "validate"
+    ],
+    "pronunciation": "kuh-ROB-uh-rayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "comm-073",
+    "word": "Substantiate",
+    "meaning": "To provide evidence to support or prove the truth of a claim or assertion.",
+    "genre": "communication",
+    "difficulty": 4,
+    "dateAdded": "2026-01-25",
+    "samplePhrase": "Can you substantiate the performance improvement claim with benchmark numbers before we merge this PR?",
+    "itContext": "Substantiating proposals with data transforms opinions into compelling arguments.",
+    "alternativeWords": [
+      "verify",
+      "prove",
+      "confirm",
+      "demonstrate"
+    ],
+    "pronunciation": "sub-STAN-shee-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "comm-074",
+    "word": "Validate",
+    "meaning": "To check or prove the accuracy or validity of something; to confirm an approach is correct.",
+    "genre": "communication",
+    "difficulty": 1,
+    "dateAdded": "2026-01-26",
+    "samplePhrase": "Let's validate this assumption with a spike before committing a full sprint to the implementation.",
+    "itContext": "Validating technical assumptions early prevents wasted effort on fundamentally flawed approaches.",
+    "alternativeWords": [
+      "confirm",
+      "verify",
+      "authenticate",
+      "corroborate"
+    ],
+    "pronunciation": "VAL-ih-dayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "comm-075",
+    "word": "Elucidate",
+    "meaning": "To make something clear or easy to understand; to shed light on a complex topic.",
+    "genre": "communication",
+    "difficulty": 5,
+    "dateAdded": "2026-01-27",
+    "samplePhrase": "Could you elucidate the failover strategy? The current documentation is unclear on edge cases.",
+    "itContext": "Elucidating complex systems through diagrams and examples accelerates team understanding.",
+    "alternativeWords": [
+      "clarify",
+      "explain",
+      "illuminate",
+      "expound"
+    ],
+    "pronunciation": "ih-LOO-sih-dayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "comm-076",
+    "word": "Clarify",
+    "meaning": "To make a statement or situation less confused and more clearly comprehensible.",
+    "genre": "communication",
+    "difficulty": 1,
+    "dateAdded": "2026-01-28",
+    "samplePhrase": "Let me clarify the acceptance criteria — do we need to support both OAuth and SAML, or just OAuth?",
+    "itContext": "Clarifying requirements before starting development prevents costly mid-sprint pivots.",
+    "alternativeWords": [
+      "explain",
+      "elucidate",
+      "simplify",
+      "illuminate"
+    ],
+    "pronunciation": "KLAIR-ih-fy",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "comm-077",
+    "word": "Explicate",
+    "meaning": "To analyze and develop an idea or principle in detail; to unfold the meaning of something complex.",
+    "genre": "communication",
+    "difficulty": 5,
+    "dateAdded": "2026-01-29",
+    "samplePhrase": "The RFC should explicate not just the proposed solution but also the alternatives we considered and rejected.",
+    "itContext": "Explicating design decisions in ADRs provides crucial context for future maintainers.",
+    "alternativeWords": [
+      "explain",
+      "interpret",
+      "elaborate",
+      "expound"
+    ],
+    "pronunciation": "EKS-plih-kayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "comm-078",
+    "word": "Stipulate",
+    "meaning": "To demand or specify a requirement as part of an agreement or condition.",
+    "genre": "communication",
+    "difficulty": 3,
+    "dateAdded": "2026-01-30",
+    "samplePhrase": "The SLA stipulates 99.9% uptime, so we need to design for redundancy across availability zones.",
+    "itContext": "Stipulating non-functional requirements upfront prevents scope disputes later in the project.",
+    "alternativeWords": [
+      "specify",
+      "require",
+      "mandate",
+      "prescribe"
+    ],
+    "pronunciation": "STIP-yoo-layt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "comm-079",
+    "word": "Posit",
+    "meaning": "To put forward as a basis for argument or discussion; to assume as fact for reasoning purposes.",
+    "genre": "communication",
+    "difficulty": 4,
+    "dateAdded": "2026-01-31",
+    "samplePhrase": "I'd like to posit that our current monolithic architecture will become a bottleneck within the next 18 months.",
+    "itContext": "Positing hypotheses in technical discussions frames debates productively around testable claims.",
+    "alternativeWords": [
+      "propose",
+      "suggest",
+      "hypothesize",
+      "postulate"
+    ],
+    "pronunciation": "POZ-it",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "comm-080",
+    "word": "Delineate",
+    "meaning": "To describe or portray something precisely; to indicate the exact position of a boundary.",
+    "genre": "communication",
+    "difficulty": 4,
+    "dateAdded": "2026-02-01",
+    "samplePhrase": "Let's delineate the responsibilities between the platform team and the product teams to avoid duplication.",
+    "itContext": "Delineating service boundaries clearly is essential for effective microservices architecture.",
+    "alternativeWords": [
+      "outline",
+      "define",
+      "describe",
+      "demarcate"
+    ],
+    "pronunciation": "dih-LIN-ee-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "comm-081",
+    "word": "Enumerate",
+    "meaning": "To mention a number of things one by one; to list items systematically.",
+    "genre": "communication",
+    "difficulty": 3,
+    "dateAdded": "2026-02-02",
+    "samplePhrase": "Let me enumerate the risks: (1) vendor lock-in, (2) cost overruns, (3) migration complexity.",
+    "itContext": "Enumerating action items at the end of meetings ensures nothing falls through the cracks.",
+    "alternativeWords": [
+      "list",
+      "itemize",
+      "catalog",
+      "detail"
+    ],
+    "pronunciation": "ih-NOO-muh-rayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "comm-082",
+    "word": "Contextualize",
+    "meaning": "To place something within its broader setting or circumstance for better understanding.",
+    "genre": "communication",
+    "difficulty": 3,
+    "dateAdded": "2026-02-03",
+    "samplePhrase": "Let me contextualize this bug: it only affects users on the free tier who signed up before our schema migration.",
+    "itContext": "Contextualizing metrics in dashboards helps non-technical stakeholders interpret data correctly.",
+    "alternativeWords": [
+      "frame",
+      "situate",
+      "ground",
+      "position"
+    ],
+    "pronunciation": "kon-TEKS-choo-uh-lyz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "comm-083",
+    "word": "Reiterate",
+    "meaning": "To say something again or a number of times for emphasis or clarity.",
+    "genre": "communication",
+    "difficulty": 2,
+    "dateAdded": "2026-02-04",
+    "samplePhrase": "I want to reiterate: no code changes should be deployed on Friday afternoons without a rollback plan.",
+    "itContext": "Reiterating key decisions in follow-up emails ensures alignment when verbal agreements are made.",
+    "alternativeWords": [
+      "repeat",
+      "restate",
+      "emphasize",
+      "underscore"
+    ],
+    "pronunciation": "ree-IT-uh-rayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "comm-084",
+    "word": "Paraphrase",
+    "meaning": "To express the meaning of something using different words to achieve greater clarity.",
+    "genre": "communication",
+    "difficulty": 2,
+    "dateAdded": "2026-02-05",
+    "samplePhrase": "Let me paraphrase to confirm I understand: you need the API to support batch operations by next sprint?",
+    "itContext": "Paraphrasing requirements back to stakeholders catches misunderstandings before they become bugs.",
+    "alternativeWords": [
+      "restate",
+      "rephrase",
+      "reword",
+      "summarize"
+    ],
+    "pronunciation": "PAIR-uh-frayz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "comm-085",
+    "word": "Synthesize",
+    "meaning": "To combine different ideas, elements, or information into a coherent whole.",
+    "genre": "communication",
+    "difficulty": 3,
+    "dateAdded": "2026-02-06",
+    "samplePhrase": "After interviewing five stakeholders, I synthesized their requirements into a single prioritized feature list.",
+    "itContext": "Synthesizing feedback from multiple code reviewers into actionable changes shows strong communication skills.",
+    "alternativeWords": [
+      "combine",
+      "integrate",
+      "merge",
+      "consolidate"
+    ],
+    "pronunciation": "SIN-thuh-syz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "comm-086",
+    "word": "Extrapolate",
+    "meaning": "To extend the application of a method or conclusion to an unknown situation by assuming existing trends continue.",
+    "genre": "communication",
+    "difficulty": 4,
+    "dateAdded": "2026-02-07",
+    "samplePhrase": "If we extrapolate from current growth rates, we'll exceed our database capacity by Q3.",
+    "itContext": "Extrapolating from performance metrics helps justify infrastructure investment proposals.",
+    "alternativeWords": [
+      "project",
+      "predict",
+      "infer",
+      "estimate"
+    ],
+    "pronunciation": "ik-STRAP-uh-layt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "comm-087",
+    "word": "Adjudicate",
+    "meaning": "To make a formal judgment or decision about a problem or dispute after careful deliberation.",
+    "genre": "communication",
+    "difficulty": 5,
+    "dateAdded": "2026-02-08",
+    "samplePhrase": "The architecture review board will adjudicate whether we adopt GraphQL or stick with REST for the new service.",
+    "itContext": "Adjudicating technology choices requires balancing technical merit with team capability and business constraints.",
+    "alternativeWords": [
+      "decide",
+      "judge",
+      "determine",
+      "rule on"
+    ],
+    "pronunciation": "uh-JOO-dih-kayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "comm-088",
+    "word": "Modulate",
+    "meaning": "To adjust or vary the tone, pitch, or level of something to achieve a desired effect.",
+    "genre": "communication",
+    "difficulty": 4,
+    "dateAdded": "2026-02-09",
+    "samplePhrase": "Modulate your tone in the escalation email — urgency without panic gets faster results.",
+    "itContext": "Modulating communication style based on the audience is crucial for cross-functional effectiveness.",
+    "alternativeWords": [
+      "adjust",
+      "regulate",
+      "temper",
+      "calibrate"
+    ],
+    "pronunciation": "MOJ-oo-layt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "comm-089",
+    "word": "Moderate",
+    "meaning": "To preside over a discussion to keep it balanced and productive; to reduce the intensity of something.",
+    "genre": "communication",
+    "difficulty": 2,
+    "dateAdded": "2026-02-10",
+    "samplePhrase": "Can you moderate the retrospective? We need someone neutral to keep the discussion focused and fair.",
+    "itContext": "Moderating sprint retrospectives ensures every voice is heard and action items are captured.",
+    "alternativeWords": [
+      "facilitate",
+      "chair",
+      "manage",
+      "oversee"
+    ],
+    "pronunciation": "MOD-uh-rayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "comm-090",
+    "word": "Facilitate",
+    "meaning": "To make an action or process easier; to help bring about a desired outcome through guidance.",
+    "genre": "communication",
+    "difficulty": 2,
+    "dateAdded": "2026-02-11",
+    "samplePhrase": "I'll facilitate the cross-team sync to ensure both backend and frontend teams align on the API contract.",
+    "itContext": "Facilitating productive meetings is an underrated skill that multiplies team output.",
+    "alternativeWords": [
+      "enable",
+      "assist",
+      "expedite",
+      "coordinate"
+    ],
+    "pronunciation": "fuh-SIL-ih-tayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "comm-091",
+    "word": "Disseminate",
+    "meaning": "To spread or disperse information widely so that it reaches the intended audience.",
+    "genre": "communication",
+    "difficulty": 4,
+    "dateAdded": "2026-02-12",
+    "samplePhrase": "We need to disseminate the post-mortem findings across all engineering teams to prevent similar incidents.",
+    "itContext": "Disseminating learnings from production incidents creates organizational resilience.",
+    "alternativeWords": [
+      "distribute",
+      "circulate",
+      "broadcast",
+      "propagate"
+    ],
+    "pronunciation": "dih-SEM-ih-nayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "comm-092",
+    "word": "Promulgate",
+    "meaning": "To make widely known; to promote or announce an idea, standard, or policy officially.",
+    "genre": "communication",
+    "difficulty": 5,
+    "dateAdded": "2026-02-13",
+    "samplePhrase": "The platform team will promulgate the new coding standards via an all-hands presentation and updated wiki.",
+    "itContext": "Promulgating engineering best practices through internal documentation scales knowledge across teams.",
+    "alternativeWords": [
+      "announce",
+      "proclaim",
+      "publicize",
+      "declare"
+    ],
+    "pronunciation": "PROM-ul-gayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "comm-093",
+    "word": "Advocate",
+    "meaning": "To publicly support or recommend a particular cause, policy, or approach.",
+    "genre": "communication",
+    "difficulty": 2,
+    "dateAdded": "2026-02-14",
+    "samplePhrase": "I strongly advocate for adding integration tests before we refactor the payment service.",
+    "itContext": "Advocating for engineering quality practices protects the team from technical debt accumulation.",
+    "alternativeWords": [
+      "champion",
+      "support",
+      "promote",
+      "endorse"
+    ],
+    "pronunciation": "AD-vuh-kayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "comm-094",
+    "word": "Endorse",
+    "meaning": "To declare one's public approval or support for something; to vouch for its quality or value.",
+    "genre": "communication",
+    "difficulty": 2,
+    "dateAdded": "2026-02-15",
+    "samplePhrase": "The security team endorsed the proposed authentication flow after reviewing the threat model.",
+    "itContext": "Having key stakeholders endorse your design doc before implementation prevents costly rework.",
+    "alternativeWords": [
+      "approve",
+      "support",
+      "sanction",
+      "ratify"
+    ],
+    "pronunciation": "en-DORS",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "comm-095",
+    "word": "Apprise",
+    "meaning": "To inform or notify someone of something; to keep others updated on relevant developments.",
+    "genre": "communication",
+    "difficulty": 4,
+    "dateAdded": "2026-02-16",
+    "samplePhrase": "Please apprise the stakeholders of any delays immediately — surprises erode trust faster than bad news.",
+    "itContext": "Apprising management of project risks early gives them time to adjust expectations and allocate resources.",
+    "alternativeWords": [
+      "inform",
+      "notify",
+      "advise",
+      "brief"
+    ],
+    "pronunciation": "uh-PRYZ",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "comm-096",
+    "word": "Commiserate",
+    "meaning": "To express or feel sympathy or pity for someone; to share in another's distress.",
+    "genre": "communication",
+    "difficulty": 4,
+    "dateAdded": "2026-02-17",
+    "samplePhrase": "After the failed deployment, the team lead commiserated with the on-call engineer before jumping into root cause analysis.",
+    "itContext": "Commiserating with teammates during tough sprints builds solidarity and prevents isolation.",
+    "alternativeWords": [
+      "sympathize",
+      "console",
+      "empathize",
+      "condole"
+    ],
+    "pronunciation": "kuh-MIZ-uh-rayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "comm-097",
+    "word": "Underscore",
+    "meaning": "To emphasize or draw attention to the importance of something; to highlight a key point.",
+    "genre": "communication",
+    "difficulty": 2,
+    "dateAdded": "2026-02-18",
+    "samplePhrase": "I want to underscore that this migration has zero tolerance for data loss — we need triple verification.",
+    "itContext": "Underscoring critical requirements in technical specs prevents them from being overlooked during implementation.",
+    "alternativeWords": [
+      "emphasize",
+      "highlight",
+      "stress",
+      "accentuate"
+    ],
+    "pronunciation": "UN-der-skor",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "comm-098",
+    "word": "Acknowledge",
+    "meaning": "To accept or recognize the existence, truth, or validity of something; to show appreciation for effort.",
+    "genre": "communication",
+    "difficulty": 1,
+    "dateAdded": "2026-02-19",
+    "samplePhrase": "Acknowledge the feedback in your PR response, even if you disagree: 'Great point — here's why I chose this approach.'",
+    "itContext": "Acknowledging contributions in stand-ups reinforces positive behaviors and team culture.",
+    "alternativeWords": [
+      "recognize",
+      "accept",
+      "concede",
+      "appreciate"
+    ],
+    "pronunciation": "ak-NOL-ij",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "comm-099",
+    "word": "Galvanize",
+    "meaning": "To shock or excite someone into taking action; to spur a group toward a common goal.",
+    "genre": "communication",
+    "difficulty": 4,
+    "dateAdded": "2026-02-20",
+    "samplePhrase": "The successful demo galvanized the entire engineering org to adopt the new CI/CD pipeline.",
+    "itContext": "Galvanizing a team around a technical vision requires compelling storytelling backed by evidence.",
+    "alternativeWords": [
+      "inspire",
+      "motivate",
+      "energize",
+      "catalyze"
+    ],
+    "pronunciation": "GAL-vuh-nyz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "comm-100",
+    "word": "Bolster",
+    "meaning": "To support or strengthen; to reinforce an argument, position, or someone's confidence.",
+    "genre": "communication",
+    "difficulty": 3,
+    "dateAdded": "2026-02-21",
+    "samplePhrase": "The A/B test results bolster our case for redesigning the onboarding flow.",
+    "itContext": "Bolstering proposals with quantitative data dramatically increases their chances of approval.",
+    "alternativeWords": [
+      "strengthen",
+      "reinforce",
+      "support",
+      "fortify"
+    ],
+    "pronunciation": "BOHL-ster",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  }
+]

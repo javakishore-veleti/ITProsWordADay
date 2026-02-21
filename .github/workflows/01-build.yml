@@ -1,0 +1,65 @@
+name: "01 - Build Application"
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build-frontend:
+    name: Build Next.js Frontend
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+          cache-dependency-path: Portals/EnglishWordADayPortal/package-lock.json
+
+      - name: Install dependencies
+        working-directory: Portals/EnglishWordADayPortal
+        run: npm ci
+
+      - name: Build static export
+        working-directory: Portals/EnglishWordADayPortal
+        run: npm run build
+
+      - name: Upload frontend artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: frontend-out
+          path: Portals/EnglishWordADayPortal/out
+          retention-days: 7
+
+  build-backend:
+    name: Build Go Backend
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: "1.21"
+
+      - name: Build binary
+        working-directory: Services/EnglishWordADayService
+        run: |
+          CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o server .
+
+      - name: Upload backend artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: backend-server
+          path: Services/EnglishWordADayService/server
+          retention-days: 7
+
+      - name: Upload backend data
+        uses: actions/upload-artifact@v4
+        with:
+          name: backend-data
+          path: Services/EnglishWordADayService/data
+          retention-days: 7

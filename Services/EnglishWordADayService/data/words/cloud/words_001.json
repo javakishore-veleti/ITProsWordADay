@@ -1,0 +1,2259 @@
+[
+  {
+    "id": "cloud-001",
+    "word": "Ephemeral",
+    "meaning": "Lasting for a very short time; temporary resources that exist only for the duration of a task",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2025-11-14",
+    "samplePhrase": "In our cloud infrastructure, we use ephemeral approaches for services to improve reliability and efficiency.",
+    "itContext": "Ephemeral is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "transient",
+      "temporary",
+      "short-lived",
+      "fleeting"
+    ],
+    "pronunciation": "ih-FEM-er-ul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "cloud-002",
+    "word": "Idempotent",
+    "meaning": "An operation that produces the same result no matter how many times it is executed",
+    "genre": "cloud",
+    "difficulty": 4,
+    "dateAdded": "2025-11-15",
+    "samplePhrase": "In our cloud infrastructure, we use idempotent approaches for workloads to improve reliability and efficiency.",
+    "itContext": "Idempotent is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "repeatable",
+      "safe-to-retry",
+      "deterministic"
+    ],
+    "pronunciation": "eye-dem-PO-tent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "cloud-003",
+    "word": "Resilient",
+    "meaning": "Able to withstand or recover quickly from difficult conditions; fault-tolerant",
+    "genre": "cloud",
+    "difficulty": 2,
+    "dateAdded": "2025-11-16",
+    "samplePhrase": "In our cloud infrastructure, we use resilient approaches for deployments to improve reliability and efficiency.",
+    "itContext": "Resilient is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "robust",
+      "fault-tolerant",
+      "durable",
+      "hardy"
+    ],
+    "pronunciation": "rih-ZIL-yent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "cloud-004",
+    "word": "Orchestrate",
+    "meaning": "To arrange or coordinate complex operations to work together harmoniously",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2025-11-17",
+    "samplePhrase": "In our cloud infrastructure, we orchestrate containers to improve reliability and efficiency.",
+    "itContext": "Orchestrate is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "coordinate",
+      "manage",
+      "automate",
+      "direct"
+    ],
+    "pronunciation": "OR-keh-strayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      2,
+      5
+    ]
+  },
+  {
+    "id": "cloud-005",
+    "word": "Provision",
+    "meaning": "To make available or supply resources needed for infrastructure",
+    "genre": "cloud",
+    "difficulty": 2,
+    "dateAdded": "2025-11-18",
+    "samplePhrase": "In our cloud infrastructure, we provision instances to improve reliability and efficiency.",
+    "itContext": "Provision is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "allocate",
+      "deploy",
+      "set up",
+      "instantiate"
+    ],
+    "pronunciation": "pruh-VIZH-un",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "cloud-006",
+    "word": "Scalable",
+    "meaning": "Able to handle increasing amounts of work by adding resources",
+    "genre": "cloud",
+    "difficulty": 2,
+    "dateAdded": "2025-11-19",
+    "samplePhrase": "In our cloud infrastructure, we use scalable approaches for clusters to improve reliability and efficiency.",
+    "itContext": "Scalable is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "expandable",
+      "extensible",
+      "growable",
+      "flexible"
+    ],
+    "pronunciation": "SKAY-luh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "cloud-007",
+    "word": "Elastic",
+    "meaning": "Able to automatically expand and contract resources based on demand",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2025-11-20",
+    "samplePhrase": "In our cloud infrastructure, we use elastic approaches for services to improve reliability and efficiency.",
+    "itContext": "Elastic is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "flexible",
+      "adaptive",
+      "dynamic",
+      "responsive"
+    ],
+    "pronunciation": "ee-LAS-tik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      2
+    ]
+  },
+  {
+    "id": "cloud-008",
+    "word": "Latency",
+    "meaning": "The delay before a transfer of data begins following an instruction",
+    "genre": "cloud",
+    "difficulty": 2,
+    "dateAdded": "2025-11-21",
+    "samplePhrase": "In our cloud infrastructure, we use latency approaches for workloads to improve reliability and efficiency.",
+    "itContext": "Latency is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "delay",
+      "lag",
+      "response time",
+      "wait time"
+    ],
+    "pronunciation": "LAY-ten-see",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      2,
+      2
+    ]
+  },
+  {
+    "id": "cloud-009",
+    "word": "Throughput",
+    "meaning": "The amount of data or work processed in a given period of time",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2025-11-22",
+    "samplePhrase": "In our cloud infrastructure, we use throughput approaches for deployments to improve reliability and efficiency.",
+    "itContext": "Throughput is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "bandwidth",
+      "capacity",
+      "output rate",
+      "data rate"
+    ],
+    "pronunciation": "THROO-put",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "cloud-010",
+    "word": "Stateless",
+    "meaning": "Designed so that each request is treated independently with no memory of prior interactions",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2025-11-23",
+    "samplePhrase": "In our cloud infrastructure, we use stateless approaches for containers to improve reliability and efficiency.",
+    "itContext": "Stateless is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "sessionless",
+      "memoryless",
+      "context-free",
+      "independent"
+    ],
+    "pronunciation": "STAYT-less",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      2
+    ]
+  },
+  {
+    "id": "cloud-011",
+    "word": "Distributed",
+    "meaning": "Spread across multiple machines or locations that work together as one system",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2025-11-24",
+    "samplePhrase": "In our cloud infrastructure, we use distributed approaches for instances to improve reliability and efficiency.",
+    "itContext": "Distributed is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "decentralized",
+      "spread",
+      "partitioned",
+      "dispersed"
+    ],
+    "pronunciation": "dih-STRIB-yoo-ted",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      5
+    ]
+  },
+  {
+    "id": "cloud-012",
+    "word": "Concurrent",
+    "meaning": "Occurring or running at the same time; parallel processing",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2025-11-25",
+    "samplePhrase": "In our cloud infrastructure, we use concurrent approaches for clusters to improve reliability and efficiency.",
+    "itContext": "Concurrent is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "simultaneous",
+      "parallel",
+      "synchronous",
+      "coexisting"
+    ],
+    "pronunciation": "kun-KUR-ent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "cloud-013",
+    "word": "Federated",
+    "meaning": "A system where multiple independent entities cooperate under a shared governance model",
+    "genre": "cloud",
+    "difficulty": 4,
+    "dateAdded": "2025-11-26",
+    "samplePhrase": "In our cloud infrastructure, we use federated approaches for services to improve reliability and efficiency.",
+    "itContext": "Federated is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "unified",
+      "allied",
+      "confederated",
+      "cooperative"
+    ],
+    "pronunciation": "FED-er-ay-ted",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5,
+      5
+    ]
+  },
+  {
+    "id": "cloud-014",
+    "word": "Redundant",
+    "meaning": "Included as a backup in case of failure; extra capacity for reliability",
+    "genre": "cloud",
+    "difficulty": 2,
+    "dateAdded": "2025-11-27",
+    "samplePhrase": "In our cloud infrastructure, we use redundant approaches for workloads to improve reliability and efficiency.",
+    "itContext": "Redundant is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "backup",
+      "duplicate",
+      "spare",
+      "failsafe"
+    ],
+    "pronunciation": "rih-DUN-dunt",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "cloud-015",
+    "word": "Volatile",
+    "meaning": "Liable to change rapidly and unpredictably; data lost when power is removed",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2025-11-28",
+    "samplePhrase": "In our cloud infrastructure, we use volatile approaches for deployments to improve reliability and efficiency.",
+    "itContext": "Volatile is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "unstable",
+      "transient",
+      "impermanent",
+      "fluctuating"
+    ],
+    "pronunciation": "VOL-uh-til",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "cloud-016",
+    "word": "Seamless",
+    "meaning": "Smooth and continuous with no apparent gaps or interruptions",
+    "genre": "cloud",
+    "difficulty": 2,
+    "dateAdded": "2025-11-29",
+    "samplePhrase": "In our cloud infrastructure, we use seamless approaches for containers to improve reliability and efficiency.",
+    "itContext": "Seamless is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "smooth",
+      "uninterrupted",
+      "frictionless",
+      "effortless"
+    ],
+    "pronunciation": "SEEM-less",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "cloud-017",
+    "word": "Heterogeneous",
+    "meaning": "Composed of diverse or dissimilar components working together",
+    "genre": "cloud",
+    "difficulty": 4,
+    "dateAdded": "2025-11-30",
+    "samplePhrase": "In our cloud infrastructure, we use heterogeneous approaches for instances to improve reliability and efficiency.",
+    "itContext": "Heterogeneous is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "diverse",
+      "mixed",
+      "varied",
+      "assorted"
+    ],
+    "pronunciation": "het-er-oh-JEE-nee-us",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "cloud-018",
+    "word": "Modular",
+    "meaning": "Composed of independent, interchangeable components that can be combined",
+    "genre": "cloud",
+    "difficulty": 2,
+    "dateAdded": "2025-12-01",
+    "samplePhrase": "In our cloud infrastructure, we use modular approaches for clusters to improve reliability and efficiency.",
+    "itContext": "Modular is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "component-based",
+      "pluggable",
+      "composable",
+      "interchangeable"
+    ],
+    "pronunciation": "MOJ-oo-ler",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      5,
+      2
+    ]
+  },
+  {
+    "id": "cloud-019",
+    "word": "Throttle",
+    "meaning": "To regulate the rate or speed of processing to prevent overload",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2025-12-02",
+    "samplePhrase": "In our cloud infrastructure, we throttle services to improve reliability and efficiency.",
+    "itContext": "Throttle is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "limit",
+      "restrict",
+      "regulate",
+      "control"
+    ],
+    "pronunciation": "THROT-ul",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      5
+    ]
+  },
+  {
+    "id": "cloud-020",
+    "word": "Persistent",
+    "meaning": "Continuing to exist after the process that created it has ended",
+    "genre": "cloud",
+    "difficulty": 2,
+    "dateAdded": "2025-12-03",
+    "samplePhrase": "In our cloud infrastructure, we use persistent approaches for workloads to improve reliability and efficiency.",
+    "itContext": "Persistent is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "durable",
+      "lasting",
+      "enduring",
+      "permanent"
+    ],
+    "pronunciation": "per-SIS-tent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      2
+    ]
+  },
+  {
+    "id": "cloud-021",
+    "word": "Decouple",
+    "meaning": "To separate components so they can operate independently",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2025-12-04",
+    "samplePhrase": "In our cloud infrastructure, we decouple deployments to improve reliability and efficiency.",
+    "itContext": "Decouple is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "separate",
+      "detach",
+      "isolate",
+      "disentangle"
+    ],
+    "pronunciation": "dee-KUP-ul",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      2,
+      4
+    ]
+  },
+  {
+    "id": "cloud-022",
+    "word": "Replicate",
+    "meaning": "To create exact copies of data or services across multiple locations",
+    "genre": "cloud",
+    "difficulty": 2,
+    "dateAdded": "2025-12-05",
+    "samplePhrase": "In our cloud infrastructure, we replicate containers to improve reliability and efficiency.",
+    "itContext": "Replicate is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "duplicate",
+      "copy",
+      "mirror",
+      "clone"
+    ],
+    "pronunciation": "REP-lih-kayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "cloud-023",
+    "word": "Migrate",
+    "meaning": "To move data, applications, or workloads from one environment to another",
+    "genre": "cloud",
+    "difficulty": 2,
+    "dateAdded": "2025-12-06",
+    "samplePhrase": "In our cloud infrastructure, we migrate instances to improve reliability and efficiency.",
+    "itContext": "Migrate is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "transfer",
+      "move",
+      "relocate",
+      "port"
+    ],
+    "pronunciation": "MY-grayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "cloud-024",
+    "word": "Partition",
+    "meaning": "To divide data or resources into distinct segments for better management",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2025-12-07",
+    "samplePhrase": "In our cloud infrastructure, we partition clusters to improve reliability and efficiency.",
+    "itContext": "Partition is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "divide",
+      "segment",
+      "split",
+      "shard"
+    ],
+    "pronunciation": "par-TIH-shun",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      2
+    ]
+  },
+  {
+    "id": "cloud-025",
+    "word": "Failover",
+    "meaning": "The automatic switching to a backup system when the primary system fails",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2025-12-08",
+    "samplePhrase": "In our cloud infrastructure, we use failover approaches for services to improve reliability and efficiency.",
+    "itContext": "Failover is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "backup switch",
+      "fallback",
+      "recovery",
+      "switchover"
+    ],
+    "pronunciation": "FAYL-oh-ver",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "cloud-026",
+    "word": "Immutable",
+    "meaning": "Cannot be changed after creation; ensuring data integrity",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2025-12-09",
+    "samplePhrase": "In our cloud infrastructure, we use immutable approaches for workloads to improve reliability and efficiency.",
+    "itContext": "Immutable is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "unchangeable",
+      "permanent",
+      "fixed",
+      "unalterable"
+    ],
+    "pronunciation": "ih-MYOO-tuh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "cloud-027",
+    "word": "Deterministic",
+    "meaning": "Always producing the same output given the same input",
+    "genre": "cloud",
+    "difficulty": 4,
+    "dateAdded": "2025-12-10",
+    "samplePhrase": "In our cloud infrastructure, we use deterministic approaches for deployments to improve reliability and efficiency.",
+    "itContext": "Deterministic is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "predictable",
+      "consistent",
+      "reproducible",
+      "reliable"
+    ],
+    "pronunciation": "dee-TER-min-IS-tik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      5
+    ]
+  },
+  {
+    "id": "cloud-028",
+    "word": "Containerize",
+    "meaning": "To package an application with its dependencies into a portable unit",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2025-12-11",
+    "samplePhrase": "In our cloud infrastructure, we containerize containers to improve reliability and efficiency.",
+    "itContext": "Containerize is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "package",
+      "encapsulate",
+      "bundle",
+      "isolate"
+    ],
+    "pronunciation": "kun-TAY-ner-ize",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      5
+    ]
+  },
+  {
+    "id": "cloud-029",
+    "word": "Ubiquitous",
+    "meaning": "Present or available everywhere; pervasive across all environments",
+    "genre": "cloud",
+    "difficulty": 4,
+    "dateAdded": "2025-12-12",
+    "samplePhrase": "In our cloud infrastructure, we use ubiquitous approaches for instances to improve reliability and efficiency.",
+    "itContext": "Ubiquitous is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "omnipresent",
+      "pervasive",
+      "universal",
+      "everywhere"
+    ],
+    "pronunciation": "yoo-BIK-wih-tus",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      4,
+      2
+    ]
+  },
+  {
+    "id": "cloud-030",
+    "word": "Agnostic",
+    "meaning": "Not tied to any specific technology, platform, or vendor",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2025-12-13",
+    "samplePhrase": "In our cloud infrastructure, we use agnostic approaches for clusters to improve reliability and efficiency.",
+    "itContext": "Agnostic is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "neutral",
+      "independent",
+      "universal",
+      "platform-independent"
+    ],
+    "pronunciation": "ag-NOS-tik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "cloud-031",
+    "word": "Interoperable",
+    "meaning": "Able to exchange and use information with different systems seamlessly",
+    "genre": "cloud",
+    "difficulty": 4,
+    "dateAdded": "2025-12-14",
+    "samplePhrase": "In our cloud infrastructure, we use interoperable approaches for services to improve reliability and efficiency.",
+    "itContext": "Interoperable is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "compatible",
+      "integrable",
+      "cross-platform",
+      "connectable"
+    ],
+    "pronunciation": "in-ter-OP-er-uh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3,
+      5
+    ]
+  },
+  {
+    "id": "cloud-032",
+    "word": "Optimize",
+    "meaning": "To make something as effective or functional as possible",
+    "genre": "cloud",
+    "difficulty": 2,
+    "dateAdded": "2025-12-15",
+    "samplePhrase": "In our cloud infrastructure, we optimize workloads to improve reliability and efficiency.",
+    "itContext": "Optimize is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "improve",
+      "enhance",
+      "refine",
+      "streamline"
+    ],
+    "pronunciation": "OP-tih-mize",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      5
+    ]
+  },
+  {
+    "id": "cloud-033",
+    "word": "Allocate",
+    "meaning": "To distribute resources or assign them for a specific purpose",
+    "genre": "cloud",
+    "difficulty": 2,
+    "dateAdded": "2025-12-16",
+    "samplePhrase": "In our cloud infrastructure, we allocate deployments to improve reliability and efficiency.",
+    "itContext": "Allocate is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "assign",
+      "distribute",
+      "apportion",
+      "designate"
+    ],
+    "pronunciation": "AL-oh-kayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "cloud-034",
+    "word": "Propagate",
+    "meaning": "To spread or transmit information across a system or network",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2025-12-17",
+    "samplePhrase": "In our cloud infrastructure, we propagate containers to improve reliability and efficiency.",
+    "itContext": "Propagate is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "spread",
+      "disseminate",
+      "distribute",
+      "broadcast"
+    ],
+    "pronunciation": "PROP-uh-gayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "cloud-035",
+    "word": "Terminate",
+    "meaning": "To bring a process or resource to an end; stop execution",
+    "genre": "cloud",
+    "difficulty": 2,
+    "dateAdded": "2025-12-18",
+    "samplePhrase": "In our cloud infrastructure, we terminate instances to improve reliability and efficiency.",
+    "itContext": "Terminate is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "end",
+      "stop",
+      "halt",
+      "kill"
+    ],
+    "pronunciation": "TER-mih-nayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "cloud-036",
+    "word": "Configure",
+    "meaning": "To set up or arrange system settings for a particular purpose",
+    "genre": "cloud",
+    "difficulty": 2,
+    "dateAdded": "2025-12-19",
+    "samplePhrase": "In our cloud infrastructure, we configure clusters to improve reliability and efficiency.",
+    "itContext": "Configure is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "set up",
+      "customize",
+      "tune",
+      "adjust"
+    ],
+    "pronunciation": "kun-FIG-yer",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5,
+      3
+    ]
+  },
+  {
+    "id": "cloud-037",
+    "word": "Compress",
+    "meaning": "To reduce the size of data for more efficient storage or transmission",
+    "genre": "cloud",
+    "difficulty": 2,
+    "dateAdded": "2025-12-20",
+    "samplePhrase": "In our cloud infrastructure, we compress services to improve reliability and efficiency.",
+    "itContext": "Compress is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "shrink",
+      "compact",
+      "condense",
+      "minify"
+    ],
+    "pronunciation": "kum-PRESS",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      4
+    ]
+  },
+  {
+    "id": "cloud-038",
+    "word": "Bootstrap",
+    "meaning": "To start a system or process with minimal initial resources",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2025-12-21",
+    "samplePhrase": "In our cloud infrastructure, we bootstrap workloads to improve reliability and efficiency.",
+    "itContext": "Bootstrap is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "initialize",
+      "start up",
+      "launch",
+      "kickstart"
+    ],
+    "pronunciation": "BOOT-strap",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      2,
+      4
+    ]
+  },
+  {
+    "id": "cloud-039",
+    "word": "Deploy",
+    "meaning": "To release and install software into a target environment",
+    "genre": "cloud",
+    "difficulty": 1,
+    "dateAdded": "2025-12-22",
+    "samplePhrase": "In our cloud infrastructure, we deploy deployments to improve reliability and efficiency.",
+    "itContext": "Deploy is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "release",
+      "launch",
+      "ship",
+      "publish"
+    ],
+    "pronunciation": "dee-PLOY",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "cloud-040",
+    "word": "Rollback",
+    "meaning": "To revert a system to a previous known-good state",
+    "genre": "cloud",
+    "difficulty": 2,
+    "dateAdded": "2025-12-23",
+    "samplePhrase": "In our cloud infrastructure, we use rollback approaches for containers to improve reliability and efficiency.",
+    "itContext": "Rollback is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "revert",
+      "undo",
+      "restore",
+      "fallback"
+    ],
+    "pronunciation": "ROHL-bak",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      5,
+      5
+    ]
+  },
+  {
+    "id": "cloud-041",
+    "word": "Monitor",
+    "meaning": "To continuously observe and track the performance of systems",
+    "genre": "cloud",
+    "difficulty": 1,
+    "dateAdded": "2025-12-24",
+    "samplePhrase": "In our cloud infrastructure, we monitor instances to improve reliability and efficiency.",
+    "itContext": "Monitor is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "observe",
+      "watch",
+      "track",
+      "survey"
+    ],
+    "pronunciation": "MON-ih-ter",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "cloud-042",
+    "word": "Remediate",
+    "meaning": "To fix or correct a problem, especially a security vulnerability",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2025-12-25",
+    "samplePhrase": "In our cloud infrastructure, we remediate clusters to improve reliability and efficiency.",
+    "itContext": "Remediate is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "fix",
+      "correct",
+      "resolve",
+      "repair"
+    ],
+    "pronunciation": "reh-MEE-dee-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      2,
+      2
+    ]
+  },
+  {
+    "id": "cloud-043",
+    "word": "Consolidate",
+    "meaning": "To combine multiple resources or systems into a single unified entity",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2025-12-26",
+    "samplePhrase": "In our cloud infrastructure, we consolidate services to improve reliability and efficiency.",
+    "itContext": "Consolidate is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "combine",
+      "merge",
+      "unify",
+      "centralize"
+    ],
+    "pronunciation": "kun-SOL-ih-dayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      4,
+      2
+    ]
+  },
+  {
+    "id": "cloud-044",
+    "word": "Isolate",
+    "meaning": "To separate a component or process from others to prevent interference",
+    "genre": "cloud",
+    "difficulty": 2,
+    "dateAdded": "2025-12-27",
+    "samplePhrase": "In our cloud infrastructure, we isolate workloads to improve reliability and efficiency.",
+    "itContext": "Isolate is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "separate",
+      "quarantine",
+      "sandbox",
+      "segregate"
+    ],
+    "pronunciation": "EYE-soh-layt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "cloud-045",
+    "word": "Emulate",
+    "meaning": "To imitate the function of one system using a different system",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2025-12-28",
+    "samplePhrase": "In our cloud infrastructure, we emulate deployments to improve reliability and efficiency.",
+    "itContext": "Emulate is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "imitate",
+      "simulate",
+      "mimic",
+      "replicate"
+    ],
+    "pronunciation": "EM-yoo-layt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "cloud-046",
+    "word": "Benchmark",
+    "meaning": "A standard point of reference for evaluating performance",
+    "genre": "cloud",
+    "difficulty": 2,
+    "dateAdded": "2025-12-29",
+    "samplePhrase": "In our cloud infrastructure, we use benchmark approaches for containers to improve reliability and efficiency.",
+    "itContext": "Benchmark is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "standard",
+      "baseline",
+      "reference",
+      "yardstick"
+    ],
+    "pronunciation": "BENCH-mark",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      5,
+      3
+    ]
+  },
+  {
+    "id": "cloud-047",
+    "word": "Calibrate",
+    "meaning": "To adjust and fine-tune a system to ensure accurate performance",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2025-12-30",
+    "samplePhrase": "In our cloud infrastructure, we calibrate instances to improve reliability and efficiency.",
+    "itContext": "Calibrate is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "adjust",
+      "tune",
+      "fine-tune",
+      "align"
+    ],
+    "pronunciation": "KAL-ih-brayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      2,
+      2
+    ]
+  },
+  {
+    "id": "cloud-048",
+    "word": "Serialize",
+    "meaning": "To convert data into a format suitable for storage or transmission",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2025-12-31",
+    "samplePhrase": "In our cloud infrastructure, we serialize clusters to improve reliability and efficiency.",
+    "itContext": "Serialize is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "encode",
+      "marshal",
+      "flatten",
+      "convert"
+    ],
+    "pronunciation": "SEER-ee-uh-lize",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "cloud-049",
+    "word": "Traverse",
+    "meaning": "To move through or examine a data structure systematically",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2026-01-01",
+    "samplePhrase": "In our cloud infrastructure, we traverse services to improve reliability and efficiency.",
+    "itContext": "Traverse is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "navigate",
+      "walk",
+      "scan",
+      "iterate"
+    ],
+    "pronunciation": "truh-VERS",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      2,
+      2
+    ]
+  },
+  {
+    "id": "cloud-050",
+    "word": "Invoke",
+    "meaning": "To call or trigger a function, service, or process",
+    "genre": "cloud",
+    "difficulty": 2,
+    "dateAdded": "2026-01-02",
+    "samplePhrase": "In our cloud infrastructure, we invoke workloads to improve reliability and efficiency.",
+    "itContext": "Invoke is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "call",
+      "trigger",
+      "execute",
+      "activate"
+    ],
+    "pronunciation": "in-VOHK",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "cloud-051",
+    "word": "Dispatch",
+    "meaning": "To send a request or message to a specific handler or destination",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2026-01-03",
+    "samplePhrase": "In our cloud infrastructure, we dispatch deployments to improve reliability and efficiency.",
+    "itContext": "Dispatch is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "send",
+      "route",
+      "direct",
+      "forward"
+    ],
+    "pronunciation": "dih-SPACH",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "cloud-052",
+    "word": "Ingest",
+    "meaning": "To absorb and process incoming data from external sources",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2026-01-04",
+    "samplePhrase": "In our cloud infrastructure, we ingest containers to improve reliability and efficiency.",
+    "itContext": "Ingest is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "import",
+      "absorb",
+      "consume",
+      "intake"
+    ],
+    "pronunciation": "in-JEST",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "cloud-053",
+    "word": "Transform",
+    "meaning": "To change the format, structure, or nature of data",
+    "genre": "cloud",
+    "difficulty": 2,
+    "dateAdded": "2026-01-05",
+    "samplePhrase": "In our cloud infrastructure, we transform instances to improve reliability and efficiency.",
+    "itContext": "Transform is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "convert",
+      "reshape",
+      "modify",
+      "translate"
+    ],
+    "pronunciation": "trans-FORM",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "cloud-054",
+    "word": "Validate",
+    "meaning": "To check that data or input meets required rules and constraints",
+    "genre": "cloud",
+    "difficulty": 2,
+    "dateAdded": "2026-01-06",
+    "samplePhrase": "In our cloud infrastructure, we validate clusters to improve reliability and efficiency.",
+    "itContext": "Validate is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "verify",
+      "check",
+      "confirm",
+      "authenticate"
+    ],
+    "pronunciation": "VAL-ih-dayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "cloud-055",
+    "word": "Harmonize",
+    "meaning": "To bring different systems or data into a consistent, compatible state",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2026-01-07",
+    "samplePhrase": "In our cloud infrastructure, we harmonize services to improve reliability and efficiency.",
+    "itContext": "Harmonize is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "unify",
+      "standardize",
+      "align",
+      "synchronize"
+    ],
+    "pronunciation": "HAR-moh-nize",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      2,
+      2
+    ]
+  },
+  {
+    "id": "cloud-056",
+    "word": "Reconcile",
+    "meaning": "To make two sets of data consistent and in agreement with each other",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2026-01-08",
+    "samplePhrase": "In our cloud infrastructure, we reconcile workloads to improve reliability and efficiency.",
+    "itContext": "Reconcile is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "align",
+      "match",
+      "resolve",
+      "sync"
+    ],
+    "pronunciation": "REK-un-sile",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      2,
+      5
+    ]
+  },
+  {
+    "id": "cloud-057",
+    "word": "Converge",
+    "meaning": "To come together from different directions toward a single point or standard",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2026-01-09",
+    "samplePhrase": "In our cloud infrastructure, we converge deployments to improve reliability and efficiency.",
+    "itContext": "Converge is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "merge",
+      "unite",
+      "combine",
+      "consolidate"
+    ],
+    "pronunciation": "kun-VERJ",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      2,
+      5
+    ]
+  },
+  {
+    "id": "cloud-058",
+    "word": "Diverge",
+    "meaning": "To move apart or differ from a common path or standard",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2026-01-10",
+    "samplePhrase": "In our cloud infrastructure, we diverge containers to improve reliability and efficiency.",
+    "itContext": "Diverge is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "separate",
+      "branch",
+      "deviate",
+      "split"
+    ],
+    "pronunciation": "dih-VERJ",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "cloud-059",
+    "word": "Coalesce",
+    "meaning": "To come together to form a single unified whole from separate parts",
+    "genre": "cloud",
+    "difficulty": 4,
+    "dateAdded": "2026-01-11",
+    "samplePhrase": "In our cloud infrastructure, we coalesce instances to improve reliability and efficiency.",
+    "itContext": "Coalesce is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "merge",
+      "combine",
+      "fuse",
+      "unite"
+    ],
+    "pronunciation": "koh-uh-LESS",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      5
+    ]
+  },
+  {
+    "id": "cloud-060",
+    "word": "Proliferate",
+    "meaning": "To increase rapidly in number; to spread or multiply",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2026-01-12",
+    "samplePhrase": "In our cloud infrastructure, we proliferate clusters to improve reliability and efficiency.",
+    "itContext": "Proliferate is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "multiply",
+      "expand",
+      "spread",
+      "grow"
+    ],
+    "pronunciation": "proh-LIF-er-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "cloud-061",
+    "word": "Attenuate",
+    "meaning": "To reduce the strength, effect, or magnitude of something",
+    "genre": "cloud",
+    "difficulty": 4,
+    "dateAdded": "2026-01-13",
+    "samplePhrase": "In our cloud infrastructure, we attenuate services to improve reliability and efficiency.",
+    "itContext": "Attenuate is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "reduce",
+      "weaken",
+      "diminish",
+      "lessen"
+    ],
+    "pronunciation": "uh-TEN-yoo-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "cloud-062",
+    "word": "Circumvent",
+    "meaning": "To find a way around an obstacle, restriction, or problem",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2026-01-14",
+    "samplePhrase": "In our cloud infrastructure, we circumvent workloads to improve reliability and efficiency.",
+    "itContext": "Circumvent is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "bypass",
+      "avoid",
+      "sidestep",
+      "workaround"
+    ],
+    "pronunciation": "SER-kum-vent",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "cloud-063",
+    "word": "Encapsulate",
+    "meaning": "To enclose functionality within a self-contained unit hiding internal details",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2026-01-15",
+    "samplePhrase": "In our cloud infrastructure, we encapsulate deployments to improve reliability and efficiency.",
+    "itContext": "Encapsulate is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "wrap",
+      "contain",
+      "abstract",
+      "bundle"
+    ],
+    "pronunciation": "en-KAP-soo-layt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "cloud-064",
+    "word": "Normalize",
+    "meaning": "To transform data into a standard format or consistent structure",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2026-01-16",
+    "samplePhrase": "In our cloud infrastructure, we normalize containers to improve reliability and efficiency.",
+    "itContext": "Normalize is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "standardize",
+      "regularize",
+      "unify",
+      "formalize"
+    ],
+    "pronunciation": "NOR-muh-lize",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      5,
+      5
+    ]
+  },
+  {
+    "id": "cloud-065",
+    "word": "Parameterize",
+    "meaning": "To define a process using variables that can be adjusted",
+    "genre": "cloud",
+    "difficulty": 4,
+    "dateAdded": "2026-01-17",
+    "samplePhrase": "In our cloud infrastructure, we parameterize instances to improve reliability and efficiency.",
+    "itContext": "Parameterize is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "configure",
+      "customize",
+      "template",
+      "variabilize"
+    ],
+    "pronunciation": "puh-RAM-eh-ter-ize",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5,
+      5
+    ]
+  },
+  {
+    "id": "cloud-066",
+    "word": "Enumerate",
+    "meaning": "To list or count items systematically and completely",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2026-01-18",
+    "samplePhrase": "In our cloud infrastructure, we enumerate clusters to improve reliability and efficiency.",
+    "itContext": "Enumerate is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "list",
+      "catalog",
+      "itemize",
+      "count"
+    ],
+    "pronunciation": "ee-NOO-meh-rayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      2
+    ]
+  },
+  {
+    "id": "cloud-067",
+    "word": "Instantiate",
+    "meaning": "To create a specific instance or occurrence from a template",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2026-01-19",
+    "samplePhrase": "In our cloud infrastructure, we instantiate services to improve reliability and efficiency.",
+    "itContext": "Instantiate is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "create",
+      "initialize",
+      "spawn",
+      "generate"
+    ],
+    "pronunciation": "in-STAN-shee-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "id": "cloud-068",
+    "word": "Aggregate",
+    "meaning": "To collect and combine data from multiple sources into a summary",
+    "genre": "cloud",
+    "difficulty": 2,
+    "dateAdded": "2026-01-20",
+    "samplePhrase": "In our cloud infrastructure, we aggregate workloads to improve reliability and efficiency.",
+    "itContext": "Aggregate is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "combine",
+      "collect",
+      "consolidate",
+      "compile"
+    ],
+    "pronunciation": "AG-rih-gayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "id": "cloud-069",
+    "word": "Synchronize",
+    "meaning": "To cause multiple systems to operate in coordination at the same time",
+    "genre": "cloud",
+    "difficulty": 2,
+    "dateAdded": "2026-01-21",
+    "samplePhrase": "In our cloud infrastructure, we synchronize deployments to improve reliability and efficiency.",
+    "itContext": "Synchronize is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "align",
+      "coordinate",
+      "sync",
+      "harmonize"
+    ],
+    "pronunciation": "SIN-kruh-nize",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "cloud-070",
+    "word": "Deplete",
+    "meaning": "To use up or exhaust the supply of a resource",
+    "genre": "cloud",
+    "difficulty": 2,
+    "dateAdded": "2026-01-22",
+    "samplePhrase": "In our cloud infrastructure, we deplete containers to improve reliability and efficiency.",
+    "itContext": "Deplete is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "exhaust",
+      "drain",
+      "consume",
+      "empty"
+    ],
+    "pronunciation": "dih-PLEET",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      5
+    ]
+  },
+  {
+    "id": "cloud-071",
+    "word": "Mitigate",
+    "meaning": "To make something less severe or reduce the impact of a risk",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2026-01-23",
+    "samplePhrase": "In our cloud infrastructure, we mitigate instances to improve reliability and efficiency.",
+    "itContext": "Mitigate is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "reduce",
+      "alleviate",
+      "lessen",
+      "minimize"
+    ],
+    "pronunciation": "MIT-ih-gayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3,
+      5
+    ]
+  },
+  {
+    "id": "cloud-072",
+    "word": "Augment",
+    "meaning": "To make something greater by adding to it; to enhance or extend",
+    "genre": "cloud",
+    "difficulty": 2,
+    "dateAdded": "2026-01-24",
+    "samplePhrase": "In our cloud infrastructure, we augment clusters to improve reliability and efficiency.",
+    "itContext": "Augment is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "enhance",
+      "supplement",
+      "amplify",
+      "extend"
+    ],
+    "pronunciation": "awg-MENT",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "cloud-073",
+    "word": "Diminish",
+    "meaning": "To make or become less in size, importance, or intensity",
+    "genre": "cloud",
+    "difficulty": 2,
+    "dateAdded": "2026-01-25",
+    "samplePhrase": "In our cloud infrastructure, we diminish services to improve reliability and efficiency.",
+    "itContext": "Diminish is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "reduce",
+      "decrease",
+      "shrink",
+      "lessen"
+    ],
+    "pronunciation": "dih-MIN-ish",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "cloud-074",
+    "word": "Fragment",
+    "meaning": "To break into smaller, separate pieces or components",
+    "genre": "cloud",
+    "difficulty": 2,
+    "dateAdded": "2026-01-26",
+    "samplePhrase": "In our cloud infrastructure, we fragment workloads to improve reliability and efficiency.",
+    "itContext": "Fragment is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "break up",
+      "split",
+      "divide",
+      "scatter"
+    ],
+    "pronunciation": "FRAG-ment",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "cloud-075",
+    "word": "Segment",
+    "meaning": "To divide something into separate parts or sections",
+    "genre": "cloud",
+    "difficulty": 2,
+    "dateAdded": "2026-01-27",
+    "samplePhrase": "In our cloud infrastructure, we segment deployments to improve reliability and efficiency.",
+    "itContext": "Segment is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "divide",
+      "partition",
+      "section",
+      "categorize"
+    ],
+    "pronunciation": "SEG-ment",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "cloud-076",
+    "word": "Sandbox",
+    "meaning": "An isolated testing environment that mimics production without risk",
+    "genre": "cloud",
+    "difficulty": 2,
+    "dateAdded": "2026-01-28",
+    "samplePhrase": "In our cloud infrastructure, we use sandbox approaches for containers to improve reliability and efficiency.",
+    "itContext": "Sandbox is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "test environment",
+      "staging",
+      "playground",
+      "isolated env"
+    ],
+    "pronunciation": "SAND-boks",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "cloud-077",
+    "word": "Simulate",
+    "meaning": "To imitate the behavior of a real system for testing purposes",
+    "genre": "cloud",
+    "difficulty": 2,
+    "dateAdded": "2026-01-29",
+    "samplePhrase": "In our cloud infrastructure, we simulate instances to improve reliability and efficiency.",
+    "itContext": "Simulate is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "model",
+      "mimic",
+      "replicate",
+      "emulate"
+    ],
+    "pronunciation": "SIM-yoo-layt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "cloud-078",
+    "word": "Profile",
+    "meaning": "To analyze the performance characteristics of a system or application",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2026-01-30",
+    "samplePhrase": "In our cloud infrastructure, we profile clusters to improve reliability and efficiency.",
+    "itContext": "Profile is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "analyze",
+      "measure",
+      "inspect",
+      "assess"
+    ],
+    "pronunciation": "PROH-file",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "cloud-079",
+    "word": "Mediate",
+    "meaning": "To act as an intermediary between two systems or services",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2026-01-31",
+    "samplePhrase": "In our cloud infrastructure, we mediate services to improve reliability and efficiency.",
+    "itContext": "Mediate is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "intermediate",
+      "broker",
+      "bridge",
+      "proxy"
+    ],
+    "pronunciation": "MEE-dee-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "cloud-080",
+    "word": "Cache",
+    "meaning": "To store frequently accessed data in a temporary high-speed storage layer",
+    "genre": "cloud",
+    "difficulty": 2,
+    "dateAdded": "2026-02-01",
+    "samplePhrase": "In our cloud infrastructure, we cache workloads to improve reliability and efficiency.",
+    "itContext": "Cache is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "store",
+      "buffer",
+      "retain",
+      "memoize"
+    ],
+    "pronunciation": "KASH",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      4
+    ]
+  },
+  {
+    "id": "cloud-081",
+    "word": "Proxy",
+    "meaning": "An intermediary server that forwards requests between client and server",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2026-02-02",
+    "samplePhrase": "In our cloud infrastructure, we use proxy approaches for deployments to improve reliability and efficiency.",
+    "itContext": "Proxy is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "intermediary",
+      "gateway",
+      "relay",
+      "delegate"
+    ],
+    "pronunciation": "PROK-see",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3,
+      5
+    ]
+  },
+  {
+    "id": "cloud-082",
+    "word": "Archive",
+    "meaning": "To move data to long-term storage for retention and compliance",
+    "genre": "cloud",
+    "difficulty": 2,
+    "dateAdded": "2026-02-03",
+    "samplePhrase": "In our cloud infrastructure, we archive containers to improve reliability and efficiency.",
+    "itContext": "Archive is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "store",
+      "preserve",
+      "backup",
+      "retain"
+    ],
+    "pronunciation": "AR-kive",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5,
+      3
+    ]
+  },
+  {
+    "id": "cloud-083",
+    "word": "Prune",
+    "meaning": "To remove unnecessary or outdated data, branches, or resources",
+    "genre": "cloud",
+    "difficulty": 2,
+    "dateAdded": "2026-02-04",
+    "samplePhrase": "In our cloud infrastructure, we prune instances to improve reliability and efficiency.",
+    "itContext": "Prune is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "trim",
+      "clean up",
+      "remove",
+      "purge"
+    ],
+    "pronunciation": "PROON",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "cloud-084",
+    "word": "Triage",
+    "meaning": "To prioritize and categorize issues or tasks by urgency and impact",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2026-02-05",
+    "samplePhrase": "In our cloud infrastructure, we triage clusters to improve reliability and efficiency.",
+    "itContext": "Triage is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "prioritize",
+      "classify",
+      "sort",
+      "assess"
+    ],
+    "pronunciation": "tree-AHJ",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      5,
+      3
+    ]
+  },
+  {
+    "id": "cloud-085",
+    "word": "Delegate",
+    "meaning": "To assign responsibility or processing to another component or service",
+    "genre": "cloud",
+    "difficulty": 2,
+    "dateAdded": "2026-02-06",
+    "samplePhrase": "In our cloud infrastructure, we delegate services to improve reliability and efficiency.",
+    "itContext": "Delegate is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "assign",
+      "hand off",
+      "entrust",
+      "defer"
+    ],
+    "pronunciation": "DEL-eh-gayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "cloud-086",
+    "word": "Telemetry",
+    "meaning": "The automatic collection and transmission of operational data from remote systems",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2026-02-07",
+    "samplePhrase": "In our cloud infrastructure, we use telemetry approaches for workloads to improve reliability and efficiency.",
+    "itContext": "Telemetry is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "metrics",
+      "monitoring data",
+      "diagnostics",
+      "instrumentation"
+    ],
+    "pronunciation": "teh-LEM-eh-tree",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      2,
+      2
+    ]
+  },
+  {
+    "id": "cloud-087",
+    "word": "Abstraction",
+    "meaning": "The process of hiding complexity behind a simpler interface or concept",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2026-02-08",
+    "samplePhrase": "In our cloud infrastructure, we use abstraction approaches for deployments to improve reliability and efficiency.",
+    "itContext": "Abstraction is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "simplification",
+      "generalization",
+      "encapsulation",
+      "layer"
+    ],
+    "pronunciation": "ab-STRAK-shun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "cloud-088",
+    "word": "Provision",
+    "meaning": "To automatically prepare and equip infrastructure for use",
+    "genre": "cloud",
+    "difficulty": 2,
+    "dateAdded": "2026-02-09",
+    "samplePhrase": "In our cloud infrastructure, we provision containers to improve reliability and efficiency.",
+    "itContext": "Provision is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "set up",
+      "allocate",
+      "configure",
+      "deploy"
+    ],
+    "pronunciation": "pruh-VIZH-un",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "cloud-089",
+    "word": "Deprecate",
+    "meaning": "To mark a feature as outdated, signaling future removal",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2026-02-10",
+    "samplePhrase": "In our cloud infrastructure, we deprecate instances to improve reliability and efficiency.",
+    "itContext": "Deprecate is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "phase out",
+      "sunset",
+      "retire",
+      "supersede"
+    ],
+    "pronunciation": "DEP-ruh-kayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      2,
+      4
+    ]
+  },
+  {
+    "id": "cloud-090",
+    "word": "Idempotent",
+    "meaning": "Producing the same result regardless of how many times an operation is performed",
+    "genre": "cloud",
+    "difficulty": 4,
+    "dateAdded": "2026-02-11",
+    "samplePhrase": "In our cloud infrastructure, we use idempotent approaches for clusters to improve reliability and efficiency.",
+    "itContext": "Idempotent is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "repeatable",
+      "deterministic",
+      "stable",
+      "consistent"
+    ],
+    "pronunciation": "eye-dem-PO-tent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      2
+    ]
+  },
+  {
+    "id": "cloud-091",
+    "word": "Autoscale",
+    "meaning": "To automatically adjust resource capacity based on current demand",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2026-02-12",
+    "samplePhrase": "In our cloud infrastructure, we autoscale services to improve reliability and efficiency.",
+    "itContext": "Autoscale is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "auto-adjust",
+      "self-scale",
+      "dynamic-scale",
+      "auto-resize"
+    ],
+    "pronunciation": "AW-toh-skayl",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "cloud-092",
+    "word": "Multitenancy",
+    "meaning": "Architecture where a single instance serves multiple separate customers",
+    "genre": "cloud",
+    "difficulty": 4,
+    "dateAdded": "2026-02-13",
+    "samplePhrase": "In our cloud infrastructure, we use multitenancy approaches for workloads to improve reliability and efficiency.",
+    "itContext": "Multitenancy is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "shared hosting",
+      "multi-customer",
+      "shared platform",
+      "co-tenancy"
+    ],
+    "pronunciation": "mul-tee-TEN-un-see",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "cloud-093",
+    "word": "Sharding",
+    "meaning": "Splitting a database horizontally so each partition holds a subset of data",
+    "genre": "cloud",
+    "difficulty": 4,
+    "dateAdded": "2026-02-14",
+    "samplePhrase": "In our cloud infrastructure, we use sharding approaches for deployments to improve reliability and efficiency.",
+    "itContext": "Sharding is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "horizontal partitioning",
+      "data splitting",
+      "distribution",
+      "fragmentation"
+    ],
+    "pronunciation": "SHAR-ding",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "cloud-094",
+    "word": "Serverless",
+    "meaning": "A cloud model where the provider manages infrastructure and auto-scales on demand",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2026-02-15",
+    "samplePhrase": "In our cloud infrastructure, we use serverless approaches for containers to improve reliability and efficiency.",
+    "itContext": "Serverless is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "managed",
+      "function-based",
+      "event-driven",
+      "on-demand"
+    ],
+    "pronunciation": "SER-ver-less",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "cloud-095",
+    "word": "Microservice",
+    "meaning": "A small, independently deployable service focused on a single business capability",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2026-02-16",
+    "samplePhrase": "In our cloud infrastructure, we use microservice approaches for instances to improve reliability and efficiency.",
+    "itContext": "Microservice is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "service",
+      "component",
+      "module",
+      "unit"
+    ],
+    "pronunciation": "MY-kroh-ser-vis",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "cloud-096",
+    "word": "Monolithic",
+    "meaning": "A single unified codebase where all components are tightly coupled together",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2026-02-17",
+    "samplePhrase": "In our cloud infrastructure, we use monolithic approaches for clusters to improve reliability and efficiency.",
+    "itContext": "Monolithic is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "unified",
+      "single-tier",
+      "all-in-one",
+      "tightly-coupled"
+    ],
+    "pronunciation": "mon-oh-LITH-ik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "cloud-097",
+    "word": "Ingress",
+    "meaning": "Incoming network traffic entering a system or cluster from external sources",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2026-02-18",
+    "samplePhrase": "In our cloud infrastructure, we use ingress approaches for services to improve reliability and efficiency.",
+    "itContext": "Ingress is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "incoming",
+      "inbound",
+      "entry point",
+      "gateway"
+    ],
+    "pronunciation": "IN-gress",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "cloud-098",
+    "word": "Egress",
+    "meaning": "Outgoing network traffic leaving a system or cluster to external destinations",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2026-02-19",
+    "samplePhrase": "In our cloud infrastructure, we use egress approaches for workloads to improve reliability and efficiency.",
+    "itContext": "Egress is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "outgoing",
+      "outbound",
+      "exit point",
+      "outflow"
+    ],
+    "pronunciation": "EE-gress",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "cloud-099",
+    "word": "Idempotency",
+    "meaning": "The property ensuring repeated operations yield the same result",
+    "genre": "cloud",
+    "difficulty": 4,
+    "dateAdded": "2026-02-20",
+    "samplePhrase": "In our cloud infrastructure, we use idempotency approaches for deployments to improve reliability and efficiency.",
+    "itContext": "Idempotency is a key concept in cloud computing for building reliable, scalable distributed systems.",
+    "alternativeWords": [
+      "repeatability",
+      "consistency",
+      "stability",
+      "determinism"
+    ],
+    "pronunciation": "eye-dem-PO-ten-see",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "cloud-100",
+    "word": "Telemetric",
+    "meaning": "Relating to the automatic measurement and wireless transmission of data from remote sources",
+    "genre": "cloud",
+    "difficulty": 4,
+    "dateAdded": "2026-02-21",
+    "samplePhrase": "Understanding telemetric concepts helps our team deliver better cloud solutions.",
+    "itContext": "Telemetric is a valuable concept for IT professionals working in cloud.",
+    "alternativeWords": [
+      "remote-sensing",
+      "measurement-based",
+      "data-collecting",
+      "instrumented"
+    ],
+    "pronunciation": "tel-eh-MET-rik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  }
+]

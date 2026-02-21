@@ -1,0 +1,2248 @@
+[
+  {
+    "id": "sec-001",
+    "word": "Authenticate",
+    "meaning": "To verify the identity of a user, process, or device, often as a prerequisite to granting access.",
+    "genre": "security",
+    "difficulty": 2,
+    "dateAdded": "2025-11-14",
+    "samplePhrase": "Users must authenticate via OAuth 2.0 before accessing any protected API endpoint.",
+    "itContext": "Authentication is the first line of defense ensuring only verified identities enter the system.",
+    "alternativeWords": [
+      "verify",
+      "validate",
+      "confirm",
+      "identify"
+    ],
+    "pronunciation": "aw-THEN-tih-kayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "sec-002",
+    "word": "Authorize",
+    "meaning": "To grant permission to a verified user to access specific resources or perform certain actions.",
+    "genre": "security",
+    "difficulty": 2,
+    "dateAdded": "2025-11-15",
+    "samplePhrase": "Even after login, the system must authorize each request against the user's role-based permissions.",
+    "itContext": "Authorization determines what an authenticated user is allowed to do within the system.",
+    "alternativeWords": [
+      "permit",
+      "approve",
+      "sanction",
+      "empower"
+    ],
+    "pronunciation": "AW-thuh-ryz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "sec-003",
+    "word": "Encrypt",
+    "meaning": "To convert information or data into a code to prevent unauthorized access.",
+    "genre": "security",
+    "difficulty": 2,
+    "dateAdded": "2025-11-16",
+    "samplePhrase": "All sensitive data must be encrypted at rest using AES-256 and in transit using TLS 1.3.",
+    "itContext": "Encryption protects data confidentiality even if storage or network traffic is compromised.",
+    "alternativeWords": [
+      "encode",
+      "cipher",
+      "scramble",
+      "encipher"
+    ],
+    "pronunciation": "en-KRIPT",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "sec-004",
+    "word": "Decrypt",
+    "meaning": "To convert encrypted data back into its original, readable form using a key or algorithm.",
+    "genre": "security",
+    "difficulty": 2,
+    "dateAdded": "2025-11-17",
+    "samplePhrase": "The application decrypts the JWT payload to extract the user's claims and permissions.",
+    "itContext": "Decryption keys must be stored securely in a secrets manager, never in source code.",
+    "alternativeWords": [
+      "decode",
+      "decipher",
+      "unscramble",
+      "unlock"
+    ],
+    "pronunciation": "dee-KRIPT",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "sec-005",
+    "word": "Vulnerability",
+    "meaning": "A weakness in a system that can be exploited by a threat actor to gain unauthorized access or cause harm.",
+    "genre": "security",
+    "difficulty": 3,
+    "dateAdded": "2025-11-18",
+    "samplePhrase": "The security scan detected a critical vulnerability in our dependency on an outdated XML parser.",
+    "itContext": "Vulnerability management involves continuous scanning, prioritization, and patching of weaknesses.",
+    "alternativeWords": [
+      "weakness",
+      "flaw",
+      "exposure",
+      "susceptibility"
+    ],
+    "pronunciation": "vul-ner-uh-BIL-ih-tee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "id": "sec-006",
+    "word": "Exploit",
+    "meaning": "A piece of software or technique that takes advantage of a vulnerability to compromise a system.",
+    "genre": "security",
+    "difficulty": 3,
+    "dateAdded": "2025-11-19",
+    "samplePhrase": "A proof-of-concept exploit was published within hours of the CVE disclosure.",
+    "itContext": "Zero-day exploits target vulnerabilities before patches are available, making rapid response critical.",
+    "alternativeWords": [
+      "attack",
+      "abuse",
+      "leverage",
+      "manipulate"
+    ],
+    "pronunciation": "EKS-ployt",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "sec-007",
+    "word": "Patch",
+    "meaning": "A software update designed to fix security vulnerabilities or bugs in existing code.",
+    "genre": "security",
+    "difficulty": 1,
+    "dateAdded": "2025-11-20",
+    "samplePhrase": "Apply the critical security patch to all production servers within the 24-hour SLA.",
+    "itContext": "Timely patching is one of the most effective defenses against known vulnerabilities.",
+    "alternativeWords": [
+      "update",
+      "fix",
+      "hotfix",
+      "remedy"
+    ],
+    "pronunciation": "pach",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "sec-008",
+    "word": "Audit",
+    "meaning": "A systematic examination of records, activities, and systems to verify compliance with policies.",
+    "genre": "security",
+    "difficulty": 2,
+    "dateAdded": "2025-11-21",
+    "samplePhrase": "The annual security audit revealed that three service accounts had excessive privileges.",
+    "itContext": "Regular audits ensure compliance with frameworks like SOC 2, HIPAA, and ISO 27001.",
+    "alternativeWords": [
+      "review",
+      "inspection",
+      "examination",
+      "assessment"
+    ],
+    "pronunciation": "AW-dit",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "sec-009",
+    "word": "Compliance",
+    "meaning": "The state of conforming to established guidelines, regulations, or specifications.",
+    "genre": "security",
+    "difficulty": 2,
+    "dateAdded": "2025-11-22",
+    "samplePhrase": "Our data handling practices must maintain compliance with GDPR for European users.",
+    "itContext": "Compliance requirements shape security architecture decisions and data retention policies.",
+    "alternativeWords": [
+      "adherence",
+      "conformity",
+      "observance",
+      "accordance"
+    ],
+    "pronunciation": "kum-PLY-ens",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "sec-010",
+    "word": "Forensic",
+    "meaning": "Relating to the application of scientific methods to the investigation of security incidents.",
+    "genre": "security",
+    "difficulty": 4,
+    "dateAdded": "2025-11-23",
+    "samplePhrase": "The forensic analysis of the compromised server revealed the attacker's initial entry point.",
+    "itContext": "Digital forensics preserves evidence chains that may be needed for legal proceedings.",
+    "alternativeWords": [
+      "investigative",
+      "analytical",
+      "evidentiary",
+      "diagnostic"
+    ],
+    "pronunciation": "foh-REN-sik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "sec-011",
+    "word": "Penetrate",
+    "meaning": "To break through a security barrier or defense; to gain unauthorized access to a system.",
+    "genre": "security",
+    "difficulty": 3,
+    "dateAdded": "2025-11-24",
+    "samplePhrase": "The red team was able to penetrate the staging environment through an unpatched VPN appliance.",
+    "itContext": "Penetration testing simulates real attacks to identify weaknesses before malicious actors do.",
+    "alternativeWords": [
+      "breach",
+      "infiltrate",
+      "compromise",
+      "intrude"
+    ],
+    "pronunciation": "PEN-eh-trayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "sec-012",
+    "word": "Obfuscate",
+    "meaning": "To make something unclear or unintelligible, deliberately hiding the true meaning of code or data.",
+    "genre": "security",
+    "difficulty": 4,
+    "dateAdded": "2025-11-25",
+    "samplePhrase": "We obfuscate the client-side JavaScript to deter reverse engineering of our proprietary algorithms.",
+    "itContext": "Code obfuscation adds a defense-in-depth layer against intellectual property theft.",
+    "alternativeWords": [
+      "obscure",
+      "disguise",
+      "conceal",
+      "muddle"
+    ],
+    "pronunciation": "OB-fuh-skayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "sec-013",
+    "word": "Quarantine",
+    "meaning": "To isolate a potentially harmful file, email, or system to prevent it from affecting others.",
+    "genre": "security",
+    "difficulty": 2,
+    "dateAdded": "2025-11-26",
+    "samplePhrase": "The antivirus quarantined the suspicious attachment before it could execute on the endpoint.",
+    "itContext": "Quarantining compromised hosts limits lateral movement during a security incident.",
+    "alternativeWords": [
+      "isolate",
+      "contain",
+      "sequester",
+      "segregate"
+    ],
+    "pronunciation": "KWOR-un-teen",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "sec-014",
+    "word": "Exfiltrate",
+    "meaning": "To secretly extract or steal data from a system, typically by an attacker or malicious insider.",
+    "genre": "security",
+    "difficulty": 5,
+    "dateAdded": "2025-11-27",
+    "samplePhrase": "The attacker used DNS tunneling to exfiltrate customer records without triggering DLP alerts.",
+    "itContext": "Data Loss Prevention systems are designed to detect and block exfiltration attempts.",
+    "alternativeWords": [
+      "extract",
+      "smuggle",
+      "siphon",
+      "steal"
+    ],
+    "pronunciation": "eks-FIL-trayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "sec-015",
+    "word": "Sanitize",
+    "meaning": "To clean input data by removing or neutralizing potentially dangerous characters or code.",
+    "genre": "security",
+    "difficulty": 3,
+    "dateAdded": "2025-11-28",
+    "samplePhrase": "Always sanitize user input to prevent cross-site scripting and SQL injection attacks.",
+    "itContext": "Input sanitization is a fundamental security practice that should be applied at every trust boundary.",
+    "alternativeWords": [
+      "cleanse",
+      "filter",
+      "purify",
+      "scrub"
+    ],
+    "pronunciation": "SAN-ih-tyz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "sec-016",
+    "word": "Credential",
+    "meaning": "A set of information used to verify the identity of a user, such as usernames, passwords, or tokens.",
+    "genre": "security",
+    "difficulty": 2,
+    "dateAdded": "2025-11-29",
+    "samplePhrase": "Never hardcode credentials in source code — use a secrets manager like AWS Secrets Manager.",
+    "itContext": "Credential rotation and least-privilege access are core tenets of zero-trust security.",
+    "alternativeWords": [
+      "authentication token",
+      "login",
+      "certificate",
+      "key"
+    ],
+    "pronunciation": "kreh-DEN-shul",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "sec-017",
+    "word": "Cipher",
+    "meaning": "An algorithm for encrypting and decrypting data; the method used to transform plaintext to ciphertext.",
+    "genre": "security",
+    "difficulty": 3,
+    "dateAdded": "2025-11-30",
+    "samplePhrase": "The TLS handshake negotiates which cipher suite to use for the encrypted connection.",
+    "itContext": "Choosing strong cipher suites and disabling weak ones is critical for transport security.",
+    "alternativeWords": [
+      "code",
+      "cryptogram",
+      "encryption method",
+      "algorithm"
+    ],
+    "pronunciation": "SY-fer",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "sec-018",
+    "word": "Breach",
+    "meaning": "An incident where unauthorized access to data, applications, or networks is achieved.",
+    "genre": "security",
+    "difficulty": 2,
+    "dateAdded": "2025-12-01",
+    "samplePhrase": "The data breach exposed 2 million user records and triggered mandatory regulatory notifications.",
+    "itContext": "Breach notification laws require organizations to disclose incidents within strict timelines.",
+    "alternativeWords": [
+      "violation",
+      "intrusion",
+      "compromise",
+      "infringement"
+    ],
+    "pronunciation": "breech",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "sec-019",
+    "word": "Phishing",
+    "meaning": "A social engineering attack that uses deceptive communications to trick users into revealing sensitive information.",
+    "genre": "security",
+    "difficulty": 2,
+    "dateAdded": "2025-12-02",
+    "samplePhrase": "The phishing email impersonated the CEO and tricked an employee into wiring funds overseas.",
+    "itContext": "Security awareness training and email filtering are primary defenses against phishing attacks.",
+    "alternativeWords": [
+      "scam",
+      "fraud",
+      "social engineering",
+      "deception"
+    ],
+    "pronunciation": "FISH-ing",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "sec-020",
+    "word": "Spoofing",
+    "meaning": "The act of disguising a communication from an unknown source as being from a known, trusted source.",
+    "genre": "security",
+    "difficulty": 3,
+    "dateAdded": "2025-12-03",
+    "samplePhrase": "IP spoofing was used to bypass the firewall rules that only allowed traffic from trusted addresses.",
+    "itContext": "DMARC, SPF, and DKIM records help prevent email spoofing and protect brand identity.",
+    "alternativeWords": [
+      "impersonation",
+      "forgery",
+      "masquerading",
+      "faking"
+    ],
+    "pronunciation": "SPOO-fing",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "sec-021",
+    "word": "Privilege",
+    "meaning": "A right or permission granted to a user or process to perform specific operations on a system.",
+    "genre": "security",
+    "difficulty": 2,
+    "dateAdded": "2025-12-04",
+    "samplePhrase": "The service account was given only the minimum privilege needed to read from the S3 bucket.",
+    "itContext": "The principle of least privilege reduces the blast radius of compromised accounts.",
+    "alternativeWords": [
+      "permission",
+      "right",
+      "access",
+      "entitlement"
+    ],
+    "pronunciation": "PRIV-uh-lij",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "sec-022",
+    "word": "Escalate",
+    "meaning": "To increase in intensity or scope; in security, to gain higher-level access than originally granted.",
+    "genre": "security",
+    "difficulty": 3,
+    "dateAdded": "2025-12-05",
+    "samplePhrase": "The attacker exploited a kernel bug to escalate from a regular user to root privileges.",
+    "itContext": "Privilege escalation attacks are a primary concern in multi-tenant cloud environments.",
+    "alternativeWords": [
+      "elevate",
+      "increase",
+      "amplify",
+      "advance"
+    ],
+    "pronunciation": "ES-kuh-layt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "sec-023",
+    "word": "Remediate",
+    "meaning": "To take corrective action to address a security vulnerability or compliance finding.",
+    "genre": "security",
+    "difficulty": 3,
+    "dateAdded": "2025-12-06",
+    "samplePhrase": "The security team gave us 48 hours to remediate the critical CVE in our web server.",
+    "itContext": "Remediation SLAs are typically based on vulnerability severity — critical bugs get the shortest window.",
+    "alternativeWords": [
+      "fix",
+      "resolve",
+      "correct",
+      "repair"
+    ],
+    "pronunciation": "rih-MEE-dee-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "sec-024",
+    "word": "Attenuate",
+    "meaning": "To reduce the force, effect, or severity of something; to weaken the impact of an attack.",
+    "genre": "security",
+    "difficulty": 4,
+    "dateAdded": "2025-12-07",
+    "samplePhrase": "The WAF rules attenuate the impact of automated bot attacks on our login endpoints.",
+    "itContext": "Defense-in-depth strategies attenuate threats at multiple layers of the technology stack.",
+    "alternativeWords": [
+      "weaken",
+      "diminish",
+      "reduce",
+      "dampen"
+    ],
+    "pronunciation": "uh-TEN-yoo-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "sec-025",
+    "word": "Circumscribe",
+    "meaning": "To limit or restrict the scope or range of something; to define boundaries for access.",
+    "genre": "security",
+    "difficulty": 4,
+    "dateAdded": "2025-12-08",
+    "samplePhrase": "Network segmentation circumscribes the blast radius so a breach in one zone cannot spread.",
+    "itContext": "Circumscribing permissions and network access is central to zero-trust architecture.",
+    "alternativeWords": [
+      "restrict",
+      "limit",
+      "confine",
+      "bound"
+    ],
+    "pronunciation": "SUR-kum-skryb",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "sec-026",
+    "word": "Immutable",
+    "meaning": "Unchangeable after creation; data or infrastructure that cannot be altered ensures integrity.",
+    "genre": "security",
+    "difficulty": 3,
+    "dateAdded": "2025-12-09",
+    "samplePhrase": "Audit logs are stored in immutable storage to guarantee they cannot be tampered with.",
+    "itContext": "Immutable infrastructure replaces servers instead of patching them, reducing configuration drift.",
+    "alternativeWords": [
+      "unchangeable",
+      "permanent",
+      "fixed",
+      "unalterable"
+    ],
+    "pronunciation": "ih-MYOO-tuh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "sec-027",
+    "word": "Repudiate",
+    "meaning": "To deny the truth or validity of something; in security, to deny having performed an action.",
+    "genre": "security",
+    "difficulty": 4,
+    "dateAdded": "2025-12-10",
+    "samplePhrase": "Digital signatures prevent a sender from repudiating a transaction after it has been submitted.",
+    "itContext": "Non-repudiation controls ensure that actions can be traced back to the responsible party.",
+    "alternativeWords": [
+      "deny",
+      "reject",
+      "disavow",
+      "disclaim"
+    ],
+    "pronunciation": "rih-PYOO-dee-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "sec-028",
+    "word": "Steganographic",
+    "meaning": "Relating to the practice of concealing messages or data within other non-secret data or objects.",
+    "genre": "security",
+    "difficulty": 5,
+    "dateAdded": "2025-12-11",
+    "samplePhrase": "The malware used steganographic techniques to embed command-and-control data inside image files.",
+    "itContext": "Steganographic channels can bypass traditional DLP solutions that only inspect text content.",
+    "alternativeWords": [
+      "concealed",
+      "hidden",
+      "covert",
+      "embedded"
+    ],
+    "pronunciation": "steg-uh-noh-GRAF-ik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      5
+    ]
+  },
+  {
+    "id": "sec-029",
+    "word": "Adversarial",
+    "meaning": "Involving or characterized by conflict or opposition; relating to deliberate attacks on systems.",
+    "genre": "security",
+    "difficulty": 3,
+    "dateAdded": "2025-12-12",
+    "samplePhrase": "We model adversarial scenarios in our threat analysis to understand potential attack vectors.",
+    "itContext": "Adversarial thinking helps security teams anticipate attacker behavior during design reviews.",
+    "alternativeWords": [
+      "hostile",
+      "antagonistic",
+      "opposing",
+      "combative"
+    ],
+    "pronunciation": "ad-ver-SAIR-ee-ul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "sec-030",
+    "word": "Mitigate",
+    "meaning": "To make less severe or reduce the impact of a security risk or vulnerability.",
+    "genre": "security",
+    "difficulty": 3,
+    "dateAdded": "2025-12-13",
+    "samplePhrase": "We can mitigate the SQL injection risk by using parameterized queries throughout the codebase.",
+    "itContext": "Risk mitigation involves implementing controls that reduce the likelihood or impact of threats.",
+    "alternativeWords": [
+      "reduce",
+      "alleviate",
+      "lessen",
+      "minimize"
+    ],
+    "pronunciation": "MIT-ih-gayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "sec-031",
+    "word": "Clandestine",
+    "meaning": "Kept secret or done secretively; covert activities designed to avoid detection.",
+    "genre": "security",
+    "difficulty": 4,
+    "dateAdded": "2025-12-14",
+    "samplePhrase": "The clandestine data exfiltration channel used DNS queries to bypass all network monitoring.",
+    "itContext": "Detecting clandestine activities requires behavioral analytics beyond simple signature matching.",
+    "alternativeWords": [
+      "covert",
+      "secret",
+      "surreptitious",
+      "furtive"
+    ],
+    "pronunciation": "klan-DES-tin",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "sec-032",
+    "word": "Resilient",
+    "meaning": "Able to recover quickly from security incidents; maintaining operations despite attacks.",
+    "genre": "security",
+    "difficulty": 2,
+    "dateAdded": "2025-12-15",
+    "samplePhrase": "A resilient security posture means the organization can withstand and recover from breaches quickly.",
+    "itContext": "Cyber resilience combines prevention, detection, response, and recovery capabilities.",
+    "alternativeWords": [
+      "robust",
+      "tough",
+      "durable",
+      "adaptive"
+    ],
+    "pronunciation": "rih-ZIL-yent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "sec-033",
+    "word": "Malicious",
+    "meaning": "Intending to do harm; software or actions designed to damage, disrupt, or gain unauthorized access.",
+    "genre": "security",
+    "difficulty": 2,
+    "dateAdded": "2025-12-16",
+    "samplePhrase": "The malicious npm package contained a backdoor that sent environment variables to a remote server.",
+    "itContext": "Supply chain attacks inject malicious code into trusted packages and repositories.",
+    "alternativeWords": [
+      "harmful",
+      "nefarious",
+      "hostile",
+      "pernicious"
+    ],
+    "pronunciation": "muh-LISH-us",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "sec-034",
+    "word": "Countermeasure",
+    "meaning": "An action or device designed to prevent or reduce the impact of an undesired event or attack.",
+    "genre": "security",
+    "difficulty": 3,
+    "dateAdded": "2025-12-17",
+    "samplePhrase": "Implementing rate limiting as a countermeasure reduced brute-force login attempts by 95%.",
+    "itContext": "Effective countermeasures address specific threat vectors identified in risk assessments.",
+    "alternativeWords": [
+      "defense",
+      "safeguard",
+      "protection",
+      "deterrent"
+    ],
+    "pronunciation": "KOWN-ter-mezh-er",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "sec-035",
+    "word": "Tokenize",
+    "meaning": "To replace sensitive data with a non-sensitive substitute called a token that maps back to the original.",
+    "genre": "security",
+    "difficulty": 3,
+    "dateAdded": "2025-12-18",
+    "samplePhrase": "We tokenize credit card numbers so the application never handles raw payment data directly.",
+    "itContext": "Tokenization reduces PCI DSS scope by removing sensitive data from application databases.",
+    "alternativeWords": [
+      "substitute",
+      "mask",
+      "replace",
+      "abstract"
+    ],
+    "pronunciation": "TOH-keh-nyz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "sec-036",
+    "word": "Cryptographic",
+    "meaning": "Relating to the art of writing or solving codes; pertaining to encryption and decryption techniques.",
+    "genre": "security",
+    "difficulty": 4,
+    "dateAdded": "2025-12-19",
+    "samplePhrase": "The cryptographic hash function ensures data integrity by producing a unique digest for each input.",
+    "itContext": "Cryptographic protocols underpin secure communication, authentication, and data protection.",
+    "alternativeWords": [
+      "encoded",
+      "encrypted",
+      "ciphered",
+      "coded"
+    ],
+    "pronunciation": "krip-toh-GRAF-ik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "sec-037",
+    "word": "Surreptitious",
+    "meaning": "Kept secret because it would not be approved of; done stealthily to avoid detection.",
+    "genre": "security",
+    "difficulty": 5,
+    "dateAdded": "2025-12-20",
+    "samplePhrase": "The surreptitious keylogger captured credentials for three months before being discovered.",
+    "itContext": "Endpoint detection and response tools identify surreptitious processes running on workstations.",
+    "alternativeWords": [
+      "stealthy",
+      "covert",
+      "clandestine",
+      "furtive"
+    ],
+    "pronunciation": "sur-ep-TISH-us",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "sec-038",
+    "word": "Enumerate",
+    "meaning": "To list or discover all available resources, users, or services on a target system.",
+    "genre": "security",
+    "difficulty": 3,
+    "dateAdded": "2025-12-21",
+    "samplePhrase": "The reconnaissance phase enumerated all open ports, services, and user accounts on the target.",
+    "itContext": "Network enumeration is a standard step in both penetration testing and real-world attacks.",
+    "alternativeWords": [
+      "list",
+      "discover",
+      "catalog",
+      "inventory"
+    ],
+    "pronunciation": "ih-NOO-meh-rayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "sec-039",
+    "word": "Ephemeral",
+    "meaning": "Lasting for a very short time; temporary resources or credentials that auto-expire for security.",
+    "genre": "security",
+    "difficulty": 3,
+    "dateAdded": "2025-12-22",
+    "samplePhrase": "We issue ephemeral access tokens that expire after 15 minutes to limit the window of exposure.",
+    "itContext": "Ephemeral credentials reduce risk because they automatically become invalid after a short period.",
+    "alternativeWords": [
+      "temporary",
+      "short-lived",
+      "transient",
+      "fleeting"
+    ],
+    "pronunciation": "ih-FEM-er-ul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "sec-040",
+    "word": "Harden",
+    "meaning": "To strengthen a system's security by reducing its attack surface and eliminating unnecessary features.",
+    "genre": "security",
+    "difficulty": 2,
+    "dateAdded": "2025-12-23",
+    "samplePhrase": "We hardened the production server by disabling unused ports, removing demo accounts, and updating TLS.",
+    "itContext": "System hardening checklists are baseline requirements before deploying to production.",
+    "alternativeWords": [
+      "fortify",
+      "strengthen",
+      "secure",
+      "reinforce"
+    ],
+    "pronunciation": "HAR-den",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "sec-041",
+    "word": "Extricate",
+    "meaning": "To free from a difficult or compromised situation; to safely remove assets from a breached environment.",
+    "genre": "security",
+    "difficulty": 4,
+    "dateAdded": "2025-12-24",
+    "samplePhrase": "We need to extricate the clean backups from the compromised network segment before restoring.",
+    "itContext": "Extricating critical systems during an active breach requires careful isolation procedures.",
+    "alternativeWords": [
+      "extract",
+      "liberate",
+      "release",
+      "disentangle"
+    ],
+    "pronunciation": "EKS-trih-kayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "sec-042",
+    "word": "Tamper",
+    "meaning": "To interfere with or make unauthorized alterations to data, hardware, or software.",
+    "genre": "security",
+    "difficulty": 2,
+    "dateAdded": "2025-12-25",
+    "samplePhrase": "Checksum verification ensures no one has tampered with the binary since it was built.",
+    "itContext": "Tamper-evident logging and code signing detect unauthorized modifications in the supply chain.",
+    "alternativeWords": [
+      "alter",
+      "modify",
+      "interfere",
+      "manipulate"
+    ],
+    "pronunciation": "TAM-per",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "sec-043",
+    "word": "Ciphertext",
+    "meaning": "The encrypted output produced by running plaintext through an encryption algorithm.",
+    "genre": "security",
+    "difficulty": 3,
+    "dateAdded": "2025-12-26",
+    "samplePhrase": "The ciphertext stored in the database is meaningless without the corresponding decryption key.",
+    "itContext": "Properly encrypted ciphertext should be computationally infeasible to reverse without the key.",
+    "alternativeWords": [
+      "encrypted text",
+      "encoded data",
+      "coded message",
+      "scrambled data"
+    ],
+    "pronunciation": "SY-fer-tekst",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "sec-044",
+    "word": "Ransomware",
+    "meaning": "Malware that encrypts victim files and demands payment for the decryption key.",
+    "genre": "security",
+    "difficulty": 3,
+    "dateAdded": "2025-12-27",
+    "samplePhrase": "The ransomware encrypted all shared drives and demanded two Bitcoin for the recovery key.",
+    "itContext": "Offline backups and network segmentation are key defenses against ransomware attacks.",
+    "alternativeWords": [
+      "extortion malware",
+      "crypto-malware",
+      "locker virus"
+    ],
+    "pronunciation": "RAN-sum-wair",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "sec-045",
+    "word": "Perimeter",
+    "meaning": "The boundary of a network or system that separates the internal trusted zone from external threats.",
+    "genre": "security",
+    "difficulty": 2,
+    "dateAdded": "2025-12-28",
+    "samplePhrase": "Traditional perimeter security is insufficient now that most employees work remotely.",
+    "itContext": "Zero-trust architecture assumes no implicit trust, even for traffic inside the network perimeter.",
+    "alternativeWords": [
+      "boundary",
+      "edge",
+      "border",
+      "frontier"
+    ],
+    "pronunciation": "puh-RIM-ih-ter",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "sec-046",
+    "word": "Intrusion",
+    "meaning": "An unauthorized entry or access into a system, network, or physical space.",
+    "genre": "security",
+    "difficulty": 2,
+    "dateAdded": "2025-12-29",
+    "samplePhrase": "The intrusion detection system flagged suspicious SSH connections from an unknown IP range.",
+    "itContext": "Intrusion detection and prevention systems monitor network traffic for malicious activity.",
+    "alternativeWords": [
+      "breach",
+      "incursion",
+      "trespass",
+      "infiltration"
+    ],
+    "pronunciation": "in-TROO-zhun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "sec-047",
+    "word": "Payload",
+    "meaning": "The component of malware that performs the malicious action, such as data theft or system damage.",
+    "genre": "security",
+    "difficulty": 3,
+    "dateAdded": "2025-12-30",
+    "samplePhrase": "The exploit delivered a payload that established a reverse shell to the attacker's command server.",
+    "itContext": "Sandboxing and behavioral analysis help identify malicious payloads that evade signature detection.",
+    "alternativeWords": [
+      "cargo",
+      "content",
+      "warhead",
+      "package"
+    ],
+    "pronunciation": "PAY-lohd",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "sec-048",
+    "word": "Proxy",
+    "meaning": "An intermediary server that acts on behalf of a client, often used for filtering or anonymizing traffic.",
+    "genre": "security",
+    "difficulty": 2,
+    "dateAdded": "2025-12-31",
+    "samplePhrase": "All outbound traffic routes through a forward proxy that inspects and logs every request.",
+    "itContext": "Reverse proxies protect backend servers by handling SSL termination and request filtering.",
+    "alternativeWords": [
+      "intermediary",
+      "gateway",
+      "relay",
+      "middleman"
+    ],
+    "pronunciation": "PROK-see",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "sec-049",
+    "word": "Clandestinely",
+    "meaning": "In a way that is kept secret or done covertly; performing actions to avoid detection.",
+    "genre": "security",
+    "difficulty": 4,
+    "dateAdded": "2026-01-01",
+    "samplePhrase": "The insider threat clandestinely copied sensitive files to a personal cloud storage account.",
+    "itContext": "User behavior analytics can detect when employees clandestinely access data outside their role.",
+    "alternativeWords": [
+      "secretly",
+      "covertly",
+      "stealthily",
+      "furtively"
+    ],
+    "pronunciation": "klan-DES-tin-lee",
+    "partOfSpeech": "adverb",
+    "ratings": [
+      5,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "sec-050",
+    "word": "Entropy",
+    "meaning": "A measure of randomness or unpredictability in data, critical for strong encryption keys.",
+    "genre": "security",
+    "difficulty": 4,
+    "dateAdded": "2026-01-02",
+    "samplePhrase": "The password generator uses high entropy from hardware random number generators for strong keys.",
+    "itContext": "Low-entropy passwords and keys are vulnerable to brute-force and dictionary attacks.",
+    "alternativeWords": [
+      "randomness",
+      "unpredictability",
+      "disorder",
+      "uncertainty"
+    ],
+    "pronunciation": "EN-truh-pee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "sec-051",
+    "word": "Provenance",
+    "meaning": "The origin or source of something; tracking where code or data came from and its chain of custody.",
+    "genre": "security",
+    "difficulty": 4,
+    "dateAdded": "2026-01-03",
+    "samplePhrase": "Software provenance tracking ensures every dependency is from a trusted, verified source.",
+    "itContext": "Supply chain security relies on provenance verification to prevent tampered artifacts.",
+    "alternativeWords": [
+      "origin",
+      "source",
+      "lineage",
+      "pedigree"
+    ],
+    "pronunciation": "PROV-uh-nuns",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "sec-052",
+    "word": "Segregate",
+    "meaning": "To separate or divide into distinct groups or zones to limit access and contain threats.",
+    "genre": "security",
+    "difficulty": 3,
+    "dateAdded": "2026-01-04",
+    "samplePhrase": "We segregate production and development environments to prevent accidental data exposure.",
+    "itContext": "Network segregation limits lateral movement so a compromise in one zone stays contained.",
+    "alternativeWords": [
+      "separate",
+      "isolate",
+      "partition",
+      "divide"
+    ],
+    "pronunciation": "SEG-reh-gayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "sec-053",
+    "word": "Vigilant",
+    "meaning": "Keeping careful watch for possible danger or difficulties; maintaining constant security awareness.",
+    "genre": "security",
+    "difficulty": 2,
+    "dateAdded": "2026-01-05",
+    "samplePhrase": "Security teams must remain vigilant during holiday periods when attack attempts often increase.",
+    "itContext": "A vigilant security operations center monitors alerts around the clock for potential threats.",
+    "alternativeWords": [
+      "watchful",
+      "alert",
+      "attentive",
+      "observant"
+    ],
+    "pronunciation": "VIJ-uh-lunt",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "sec-054",
+    "word": "Nefarious",
+    "meaning": "Wicked or criminal in nature; describing actions or actors with malicious intent.",
+    "genre": "security",
+    "difficulty": 4,
+    "dateAdded": "2026-01-06",
+    "samplePhrase": "The nefarious actor gained access through a compromised third-party vendor account.",
+    "itContext": "Threat modeling identifies nefarious actors and their likely attack paths against your system.",
+    "alternativeWords": [
+      "villainous",
+      "wicked",
+      "malevolent",
+      "sinister"
+    ],
+    "pronunciation": "neh-FAIR-ee-us",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "sec-055",
+    "word": "Impersonate",
+    "meaning": "To pretend to be another person or entity to gain unauthorized access or deceive others.",
+    "genre": "security",
+    "difficulty": 2,
+    "dateAdded": "2026-01-07",
+    "samplePhrase": "The attacker impersonated the system administrator by spoofing their email address.",
+    "itContext": "Multi-factor authentication makes it much harder for attackers to impersonate legitimate users.",
+    "alternativeWords": [
+      "imitate",
+      "masquerade",
+      "pose as",
+      "mimic"
+    ],
+    "pronunciation": "im-PER-suh-nayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "sec-056",
+    "word": "Revoke",
+    "meaning": "To officially cancel or withdraw a permission, certificate, or access right.",
+    "genre": "security",
+    "difficulty": 2,
+    "dateAdded": "2026-01-08",
+    "samplePhrase": "Immediately revoke the compromised API keys and rotate all associated credentials.",
+    "itContext": "Certificate revocation lists ensure that invalidated certificates are no longer trusted.",
+    "alternativeWords": [
+      "cancel",
+      "withdraw",
+      "rescind",
+      "invalidate"
+    ],
+    "pronunciation": "rih-VOHK",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "sec-057",
+    "word": "Reconnaissance",
+    "meaning": "The preliminary surveying or research of a target to gather information for planning an attack.",
+    "genre": "security",
+    "difficulty": 4,
+    "dateAdded": "2026-01-09",
+    "samplePhrase": "The attacker spent weeks in reconnaissance, mapping our public-facing infrastructure and employee profiles.",
+    "itContext": "Minimizing public information exposure reduces the effectiveness of adversary reconnaissance.",
+    "alternativeWords": [
+      "surveillance",
+      "scouting",
+      "intelligence gathering",
+      "probing"
+    ],
+    "pronunciation": "reh-KON-uh-sans",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "sec-058",
+    "word": "Oblivious",
+    "meaning": "Not aware of or concerned about what is happening; unaware of security threats.",
+    "genre": "security",
+    "difficulty": 2,
+    "dateAdded": "2026-01-10",
+    "samplePhrase": "Many employees remain oblivious to social engineering tactics until they complete security training.",
+    "itContext": "Security awareness programs aim to ensure no employee remains oblivious to common attack vectors.",
+    "alternativeWords": [
+      "unaware",
+      "ignorant",
+      "heedless",
+      "unconscious"
+    ],
+    "pronunciation": "oh-BLIV-ee-us",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "sec-059",
+    "word": "Propagate",
+    "meaning": "To spread or transmit widely; how malware or misconfigurations spread through a network.",
+    "genre": "security",
+    "difficulty": 3,
+    "dateAdded": "2026-01-11",
+    "samplePhrase": "The worm propagated through the network by exploiting an unpatched SMB vulnerability.",
+    "itContext": "Network segmentation prevents malware from propagating across the entire infrastructure.",
+    "alternativeWords": [
+      "spread",
+      "disseminate",
+      "transmit",
+      "proliferate"
+    ],
+    "pronunciation": "PROP-uh-gayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "id": "sec-060",
+    "word": "Deterrent",
+    "meaning": "Something that discourages or prevents someone from taking an unwanted action.",
+    "genre": "security",
+    "difficulty": 2,
+    "dateAdded": "2026-01-12",
+    "samplePhrase": "Visible security monitoring acts as a deterrent against casual insider threats.",
+    "itContext": "Security controls serve as both detection mechanisms and deterrents to potential attackers.",
+    "alternativeWords": [
+      "discouragement",
+      "disincentive",
+      "impediment",
+      "preventive"
+    ],
+    "pronunciation": "dih-TER-ent",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "sec-061",
+    "word": "Surreptitiously",
+    "meaning": "In a way that attempts to avoid notice or attention; performing actions secretly.",
+    "genre": "security",
+    "difficulty": 5,
+    "dateAdded": "2026-01-13",
+    "samplePhrase": "The rootkit surreptitiously intercepted system calls to hide its presence from security tools.",
+    "itContext": "Advanced persistent threats operate surreptitiously for months to maximize data collection.",
+    "alternativeWords": [
+      "secretly",
+      "covertly",
+      "stealthily",
+      "furtively"
+    ],
+    "pronunciation": "sur-ep-TISH-us-lee",
+    "partOfSpeech": "adverb",
+    "ratings": [
+      5,
+      5
+    ]
+  },
+  {
+    "id": "sec-062",
+    "word": "Diligence",
+    "meaning": "Careful and persistent work or effort; thorough investigation before trusting a system or vendor.",
+    "genre": "security",
+    "difficulty": 2,
+    "dateAdded": "2026-01-14",
+    "samplePhrase": "Due diligence on the SaaS vendor revealed they lacked SOC 2 compliance.",
+    "itContext": "Security due diligence during vendor selection prevents introducing third-party risk.",
+    "alternativeWords": [
+      "thoroughness",
+      "carefulness",
+      "attentiveness",
+      "conscientiousness"
+    ],
+    "pronunciation": "DIL-ih-jens",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "sec-063",
+    "word": "Compromised",
+    "meaning": "Having been breached or exposed to unauthorized access; a system that can no longer be trusted.",
+    "genre": "security",
+    "difficulty": 2,
+    "dateAdded": "2026-01-15",
+    "samplePhrase": "The compromised workstation was immediately isolated and reimaged from a clean baseline.",
+    "itContext": "Compromised systems must be assumed fully controlled by the attacker until proven otherwise.",
+    "alternativeWords": [
+      "breached",
+      "exposed",
+      "infiltrated",
+      "violated"
+    ],
+    "pronunciation": "KOM-pruh-myzd",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "sec-064",
+    "word": "Exacerbate",
+    "meaning": "To make a problem or negative situation worse; to increase the severity of a security incident.",
+    "genre": "security",
+    "difficulty": 4,
+    "dateAdded": "2026-01-16",
+    "samplePhrase": "Delaying the patch deployment will only exacerbate the risk of a widespread exploitation.",
+    "itContext": "Slow incident response exacerbates breaches by giving attackers more time to expand access.",
+    "alternativeWords": [
+      "worsen",
+      "aggravate",
+      "intensify",
+      "compound"
+    ],
+    "pronunciation": "ig-ZAS-er-bayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "sec-065",
+    "word": "Coerce",
+    "meaning": "To compel someone to act in a certain way through force, threats, or manipulation.",
+    "genre": "security",
+    "difficulty": 3,
+    "dateAdded": "2026-01-17",
+    "samplePhrase": "Social engineering attacks coerce employees into revealing credentials under false pretenses.",
+    "itContext": "Anti-coercion training teaches staff to recognize and resist social engineering pressure tactics.",
+    "alternativeWords": [
+      "compel",
+      "pressure",
+      "force",
+      "intimidate"
+    ],
+    "pronunciation": "koh-ERS",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "sec-066",
+    "word": "Subvert",
+    "meaning": "To undermine the power and authority of an established system; to corrupt from within.",
+    "genre": "security",
+    "difficulty": 4,
+    "dateAdded": "2026-01-18",
+    "samplePhrase": "The supply chain attack subverted the build pipeline by injecting malicious code into a dependency.",
+    "itContext": "Subverted CI/CD pipelines can deploy compromised code to every production environment.",
+    "alternativeWords": [
+      "undermine",
+      "sabotage",
+      "corrupt",
+      "destabilize"
+    ],
+    "pronunciation": "sub-VERT",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "sec-067",
+    "word": "Preemptive",
+    "meaning": "Taken as a measure against something possible or anticipated; acting before a threat materializes.",
+    "genre": "security",
+    "difficulty": 3,
+    "dateAdded": "2026-01-19",
+    "samplePhrase": "The preemptive blocking of known malicious IP ranges reduced phishing email delivery by 70%.",
+    "itContext": "Preemptive security measures like threat intelligence feeds stop attacks before they begin.",
+    "alternativeWords": [
+      "preventive",
+      "anticipatory",
+      "proactive",
+      "precautionary"
+    ],
+    "pronunciation": "pree-EMP-tiv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "sec-068",
+    "word": "Corroborate",
+    "meaning": "To confirm or support a finding with additional evidence from independent sources.",
+    "genre": "security",
+    "difficulty": 4,
+    "dateAdded": "2026-01-20",
+    "samplePhrase": "The firewall logs corroborate the IDS alert, confirming the unauthorized access attempt.",
+    "itContext": "Corroborating findings across multiple security tools reduces false positive rates.",
+    "alternativeWords": [
+      "confirm",
+      "verify",
+      "validate",
+      "substantiate"
+    ],
+    "pronunciation": "kuh-ROB-uh-rayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "sec-069",
+    "word": "Tenacious",
+    "meaning": "Holding firmly to a course of action; persistent and determined in pursuing security goals.",
+    "genre": "security",
+    "difficulty": 3,
+    "dateAdded": "2026-01-21",
+    "samplePhrase": "Advanced persistent threats are tenacious, maintaining access for months to achieve their objectives.",
+    "itContext": "Tenacious attackers require equally persistent defensive monitoring and threat hunting.",
+    "alternativeWords": [
+      "persistent",
+      "determined",
+      "resolute",
+      "relentless"
+    ],
+    "pronunciation": "teh-NAY-shus",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "sec-070",
+    "word": "Eradicate",
+    "meaning": "To completely destroy or eliminate; to remove all traces of malware from a compromised system.",
+    "genre": "security",
+    "difficulty": 3,
+    "dateAdded": "2026-01-22",
+    "samplePhrase": "The incident response team worked through the weekend to eradicate the malware from all endpoints.",
+    "itContext": "Incomplete eradication allows attackers to re-establish persistence through remaining backdoors.",
+    "alternativeWords": [
+      "eliminate",
+      "destroy",
+      "exterminate",
+      "abolish"
+    ],
+    "pronunciation": "ih-RAD-ih-kayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "sec-071",
+    "word": "Crypt",
+    "meaning": "To encrypt data; a prefix denoting something hidden or secret in cryptographic contexts.",
+    "genre": "security",
+    "difficulty": 3,
+    "dateAdded": "2026-01-23",
+    "samplePhrase": "The bcrypt library crypts passwords with a salt to protect against rainbow table attacks.",
+    "itContext": "Password hashing functions like bcrypt and Argon2 are designed to be computationally expensive.",
+    "alternativeWords": [
+      "encrypt",
+      "encode",
+      "hash",
+      "encipher"
+    ],
+    "pronunciation": "kript",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "sec-072",
+    "word": "Granular",
+    "meaning": "Broken down into fine detail; having precise, fine-grained control over access and permissions.",
+    "genre": "security",
+    "difficulty": 2,
+    "dateAdded": "2026-01-24",
+    "samplePhrase": "The IAM policy provides granular permissions so each microservice only accesses its own resources.",
+    "itContext": "Granular access controls enable the principle of least privilege at the resource level.",
+    "alternativeWords": [
+      "fine-grained",
+      "detailed",
+      "specific",
+      "precise"
+    ],
+    "pronunciation": "GRAN-yoo-ler",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "sec-073",
+    "word": "Intercept",
+    "meaning": "To catch or seize data in transit; to capture communications between two parties.",
+    "genre": "security",
+    "difficulty": 2,
+    "dateAdded": "2026-01-25",
+    "samplePhrase": "Without TLS, attackers on the same network can intercept credentials sent in plaintext.",
+    "itContext": "Man-in-the-middle attacks intercept and potentially modify data between client and server.",
+    "alternativeWords": [
+      "capture",
+      "seize",
+      "catch",
+      "block"
+    ],
+    "pronunciation": "in-ter-SEPT",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "sec-074",
+    "word": "Obdurate",
+    "meaning": "Stubbornly refusing to change; security policies that remain firm despite pressure to relax them.",
+    "genre": "security",
+    "difficulty": 5,
+    "dateAdded": "2026-01-26",
+    "samplePhrase": "The security team was obdurate about the password complexity requirements despite user complaints.",
+    "itContext": "Sometimes being obdurate about security standards prevents costly compromises later.",
+    "alternativeWords": [
+      "stubborn",
+      "inflexible",
+      "unyielding",
+      "resolute"
+    ],
+    "pronunciation": "OB-doo-rit",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "sec-075",
+    "word": "Paramount",
+    "meaning": "More important than anything else; supreme in rank or importance.",
+    "genre": "security",
+    "difficulty": 2,
+    "dateAdded": "2026-01-27",
+    "samplePhrase": "Data privacy is paramount when handling personally identifiable information in healthcare systems.",
+    "itContext": "Making security paramount in the development lifecycle prevents costly breaches.",
+    "alternativeWords": [
+      "supreme",
+      "foremost",
+      "primary",
+      "preeminent"
+    ],
+    "pronunciation": "PAR-uh-mount",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "sec-076",
+    "word": "Insidious",
+    "meaning": "Proceeding in a gradual, subtle way but with harmful effects; a slow-acting security threat.",
+    "genre": "security",
+    "difficulty": 4,
+    "dateAdded": "2026-01-28",
+    "samplePhrase": "The insidious backdoor remained undetected for months, slowly exfiltrating data in small batches.",
+    "itContext": "Insidious threats evade traditional detection and require advanced behavioral analytics.",
+    "alternativeWords": [
+      "subtle",
+      "stealthy",
+      "treacherous",
+      "deceptive"
+    ],
+    "pronunciation": "in-SID-ee-us",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "sec-077",
+    "word": "Abrogate",
+    "meaning": "To formally abolish or annul a law, right, or agreement; to revoke security policies.",
+    "genre": "security",
+    "difficulty": 5,
+    "dateAdded": "2026-01-29",
+    "samplePhrase": "The new CTO abrogated the outdated security exemptions that had accumulated over five years.",
+    "itContext": "Periodically reviewing and abrogating outdated policies keeps the security posture current.",
+    "alternativeWords": [
+      "abolish",
+      "annul",
+      "repeal",
+      "revoke"
+    ],
+    "pronunciation": "AB-roh-gayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "sec-078",
+    "word": "Disseminate",
+    "meaning": "To spread or distribute information widely; how threat intelligence is shared across teams.",
+    "genre": "security",
+    "difficulty": 3,
+    "dateAdded": "2026-01-30",
+    "samplePhrase": "The CISO disseminated the threat advisory to all engineering leads within an hour of discovery.",
+    "itContext": "Rapid dissemination of security advisories enables faster organizational response to threats.",
+    "alternativeWords": [
+      "distribute",
+      "spread",
+      "circulate",
+      "broadcast"
+    ],
+    "pronunciation": "dih-SEM-ih-nayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "sec-079",
+    "word": "Precarious",
+    "meaning": "Not securely held or in position; dangerously likely to fall or collapse; an unstable security state.",
+    "genre": "security",
+    "difficulty": 3,
+    "dateAdded": "2026-01-31",
+    "samplePhrase": "Running production on an unpatched server puts us in a precarious security position.",
+    "itContext": "Precarious security configurations often result from deferred maintenance and technical debt.",
+    "alternativeWords": [
+      "unstable",
+      "risky",
+      "insecure",
+      "vulnerable"
+    ],
+    "pronunciation": "prih-KAIR-ee-us",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "sec-080",
+    "word": "Ameliorate",
+    "meaning": "To make a bad or unsatisfactory situation better; to improve the security posture.",
+    "genre": "security",
+    "difficulty": 4,
+    "dateAdded": "2026-02-01",
+    "samplePhrase": "Implementing MFA ameliorated the account takeover problem we had been experiencing.",
+    "itContext": "Each security control added to the stack ameliorates overall organizational risk.",
+    "alternativeWords": [
+      "improve",
+      "enhance",
+      "better",
+      "remedy"
+    ],
+    "pronunciation": "uh-MEEL-yoh-rayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "sec-081",
+    "word": "Pernicious",
+    "meaning": "Having a harmful effect, especially in a gradual or subtle way that is difficult to notice.",
+    "genre": "security",
+    "difficulty": 5,
+    "dateAdded": "2026-02-02",
+    "samplePhrase": "The pernicious privilege creep over years left many users with far more access than needed.",
+    "itContext": "Pernicious security issues like permission drift require regular access reviews to address.",
+    "alternativeWords": [
+      "harmful",
+      "destructive",
+      "baneful",
+      "malignant"
+    ],
+    "pronunciation": "per-NISH-us",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "sec-082",
+    "word": "Astute",
+    "meaning": "Having an ability to accurately assess situations and turn them to one's advantage; shrewd.",
+    "genre": "security",
+    "difficulty": 3,
+    "dateAdded": "2026-02-03",
+    "samplePhrase": "An astute security analyst noticed the subtle anomaly in DNS queries that revealed the breach.",
+    "itContext": "Astute threat hunters look beyond automated alerts to find sophisticated intrusions.",
+    "alternativeWords": [
+      "shrewd",
+      "perceptive",
+      "sharp",
+      "discerning"
+    ],
+    "pronunciation": "uh-STOOT",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "sec-083",
+    "word": "Safeguard",
+    "meaning": "A measure taken to protect someone or something against harm; a defensive security control.",
+    "genre": "security",
+    "difficulty": 1,
+    "dateAdded": "2026-02-04",
+    "samplePhrase": "We implemented additional safeguards including WAF rules and rate limiting on the login page.",
+    "itContext": "Layered safeguards create defense-in-depth, where no single failure compromises the whole system.",
+    "alternativeWords": [
+      "protection",
+      "shield",
+      "defense",
+      "precaution"
+    ],
+    "pronunciation": "SAYF-gard",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "sec-084",
+    "word": "Oblivion",
+    "meaning": "The state of being forgotten or destroyed; complete loss of data or awareness.",
+    "genre": "security",
+    "difficulty": 3,
+    "dateAdded": "2026-02-05",
+    "samplePhrase": "Without proper backups, a ransomware attack could send our customer data into oblivion.",
+    "itContext": "Data protection strategies prevent critical information from falling into oblivion.",
+    "alternativeWords": [
+      "destruction",
+      "extinction",
+      "erasure",
+      "void"
+    ],
+    "pronunciation": "oh-BLIV-ee-un",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "sec-085",
+    "word": "Truncate",
+    "meaning": "To shorten by cutting off a part; attackers may truncate logs to cover their tracks.",
+    "genre": "security",
+    "difficulty": 2,
+    "dateAdded": "2026-02-06",
+    "samplePhrase": "The attacker truncated the access logs to remove evidence of their lateral movement.",
+    "itContext": "Immutable, append-only logging prevents attackers from truncating audit trails.",
+    "alternativeWords": [
+      "shorten",
+      "cut",
+      "trim",
+      "curtail"
+    ],
+    "pronunciation": "TRUNG-kayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "sec-086",
+    "word": "Egress",
+    "meaning": "The action of going out or leaving a place; outbound network traffic from a system.",
+    "genre": "security",
+    "difficulty": 3,
+    "dateAdded": "2026-02-07",
+    "samplePhrase": "Egress filtering blocks unauthorized outbound connections that could indicate data exfiltration.",
+    "itContext": "Monitoring egress traffic is critical for detecting command-and-control communications.",
+    "alternativeWords": [
+      "outflow",
+      "exit",
+      "departure",
+      "outbound"
+    ],
+    "pronunciation": "EE-gres",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "sec-087",
+    "word": "Ingress",
+    "meaning": "The action of entering; inbound traffic or access into a system or network.",
+    "genre": "security",
+    "difficulty": 3,
+    "dateAdded": "2026-02-08",
+    "samplePhrase": "The ingress controller validates all incoming requests before routing them to backend pods.",
+    "itContext": "Ingress filtering and WAF rules are the first line of defense against external attacks.",
+    "alternativeWords": [
+      "entry",
+      "inflow",
+      "access",
+      "inbound"
+    ],
+    "pronunciation": "IN-gres",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "sec-088",
+    "word": "Pivoting",
+    "meaning": "Using a compromised system as a launching point to attack other systems in the network.",
+    "genre": "security",
+    "difficulty": 4,
+    "dateAdded": "2026-02-09",
+    "samplePhrase": "After compromising the web server, the attacker used pivoting to reach the internal database.",
+    "itContext": "Network segmentation limits pivoting by restricting lateral movement between zones.",
+    "alternativeWords": [
+      "lateral movement",
+      "hopping",
+      "jumping",
+      "leveraging"
+    ],
+    "pronunciation": "PIV-ut-ing",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "sec-089",
+    "word": "Prudent",
+    "meaning": "Acting with or showing care and thought for the future; exercising good judgment in security.",
+    "genre": "security",
+    "difficulty": 2,
+    "dateAdded": "2026-02-10",
+    "samplePhrase": "It would be prudent to enable encryption at rest before storing any customer PII.",
+    "itContext": "Prudent security decisions today prevent expensive incident response tomorrow.",
+    "alternativeWords": [
+      "wise",
+      "cautious",
+      "judicious",
+      "sensible"
+    ],
+    "pronunciation": "PROO-dent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "sec-090",
+    "word": "Proliferate",
+    "meaning": "To increase rapidly in number; the spread of threats or unauthorized tools across a network.",
+    "genre": "security",
+    "difficulty": 3,
+    "dateAdded": "2026-02-11",
+    "samplePhrase": "Shadow IT tools proliferate when official solutions do not meet employee needs.",
+    "itContext": "Unchecked proliferation of unmanaged devices and software expands the attack surface.",
+    "alternativeWords": [
+      "multiply",
+      "spread",
+      "expand",
+      "escalate"
+    ],
+    "pronunciation": "proh-LIF-er-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "sec-091",
+    "word": "Stringent",
+    "meaning": "Strict, precise, and exacting; rigorous security requirements that allow no leniency.",
+    "genre": "security",
+    "difficulty": 3,
+    "dateAdded": "2026-02-12",
+    "samplePhrase": "Financial applications require stringent access controls and audit logging at every tier.",
+    "itContext": "Stringent compliance requirements like PCI DSS drive security architecture decisions.",
+    "alternativeWords": [
+      "strict",
+      "rigorous",
+      "demanding",
+      "exacting"
+    ],
+    "pronunciation": "STRIN-jent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "sec-092",
+    "word": "Clandestine",
+    "meaning": "Kept secret or done in a way that avoids notice; covert operations or data transfers.",
+    "genre": "security",
+    "difficulty": 4,
+    "dateAdded": "2026-02-13",
+    "samplePhrase": "The APT group maintained clandestine access to the network for over six months.",
+    "itContext": "Detecting clandestine persistence mechanisms requires deep forensic analysis and threat hunting.",
+    "alternativeWords": [
+      "secret",
+      "covert",
+      "hidden",
+      "underground"
+    ],
+    "pronunciation": "klan-DES-tin",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "sec-093",
+    "word": "Vet",
+    "meaning": "To make a careful and critical examination of something; to evaluate trustworthiness.",
+    "genre": "security",
+    "difficulty": 1,
+    "dateAdded": "2026-02-14",
+    "samplePhrase": "We thoroughly vet all third-party libraries before adding them to our dependency tree.",
+    "itContext": "Vetting vendors and open-source dependencies is essential for supply chain security.",
+    "alternativeWords": [
+      "evaluate",
+      "examine",
+      "scrutinize",
+      "assess"
+    ],
+    "pronunciation": "vet",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "sec-094",
+    "word": "Decipher",
+    "meaning": "To succeed in understanding or interpreting something obscure or encoded.",
+    "genre": "security",
+    "difficulty": 2,
+    "dateAdded": "2026-02-15",
+    "samplePhrase": "The forensic team was able to decipher the obfuscated malware configuration embedded in the image.",
+    "itContext": "Malware analysts decipher encoded payloads to understand attacker tactics and capabilities.",
+    "alternativeWords": [
+      "decode",
+      "interpret",
+      "crack",
+      "unravel"
+    ],
+    "pronunciation": "dih-SY-fer",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "sec-095",
+    "word": "Impervious",
+    "meaning": "Unable to be affected or penetrated by something; resistant to attack or compromise.",
+    "genre": "security",
+    "difficulty": 4,
+    "dateAdded": "2026-02-16",
+    "samplePhrase": "No system is impervious to attack — defense-in-depth assumes eventual breach and plans for it.",
+    "itContext": "Assuming systems are not impervious drives better security architecture through layered defenses.",
+    "alternativeWords": [
+      "invulnerable",
+      "resistant",
+      "immune",
+      "unaffected"
+    ],
+    "pronunciation": "im-PER-vee-us",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "sec-096",
+    "word": "Jurisprudence",
+    "meaning": "The theory or philosophy of law; the legal framework governing cybersecurity and data protection.",
+    "genre": "security",
+    "difficulty": 5,
+    "dateAdded": "2026-02-17",
+    "samplePhrase": "Cyber jurisprudence is still evolving as courts address novel questions about data privacy rights.",
+    "itContext": "Understanding cyber jurisprudence helps security teams navigate compliance across jurisdictions.",
+    "alternativeWords": [
+      "legal theory",
+      "law",
+      "legislation",
+      "legal framework"
+    ],
+    "pronunciation": "joor-is-PROO-dens",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      5,
+      3
+    ]
+  },
+  {
+    "id": "sec-097",
+    "word": "Innocuous",
+    "meaning": "Not harmful or offensive; appearing safe but potentially concealing a security threat.",
+    "genre": "security",
+    "difficulty": 3,
+    "dateAdded": "2026-02-18",
+    "samplePhrase": "The innocuous-looking PDF attachment actually contained an embedded macro that downloaded malware.",
+    "itContext": "Attackers disguise malicious payloads in innocuous file formats to bypass email filters.",
+    "alternativeWords": [
+      "harmless",
+      "benign",
+      "inoffensive",
+      "safe"
+    ],
+    "pronunciation": "ih-NOK-yoo-us",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "sec-098",
+    "word": "Expunge",
+    "meaning": "To completely erase or remove; to securely delete data so it cannot be recovered.",
+    "genre": "security",
+    "difficulty": 4,
+    "dateAdded": "2026-02-19",
+    "samplePhrase": "GDPR right-to-erasure requests require us to expunge all personal data within 30 days.",
+    "itContext": "Secure data expungement involves overwriting storage to prevent forensic recovery of deleted data.",
+    "alternativeWords": [
+      "erase",
+      "delete",
+      "obliterate",
+      "purge"
+    ],
+    "pronunciation": "ek-SPUNJ",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "sec-099",
+    "word": "Collude",
+    "meaning": "To cooperate secretly for a fraudulent or deceitful purpose; insider threats working together.",
+    "genre": "security",
+    "difficulty": 4,
+    "dateAdded": "2026-02-20",
+    "samplePhrase": "Separation of duties prevents any two employees from colluding to bypass financial controls.",
+    "itContext": "Dual-control mechanisms require multiple parties, making it harder for insiders to collude.",
+    "alternativeWords": [
+      "conspire",
+      "scheme",
+      "plot",
+      "connive"
+    ],
+    "pronunciation": "kuh-LOOD",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "sec-100",
+    "word": "Inviolable",
+    "meaning": "Never to be broken, infringed, or dishonored; data or rules that must remain sacred and untouched.",
+    "genre": "security",
+    "difficulty": 5,
+    "dateAdded": "2026-02-21",
+    "samplePhrase": "Customer data privacy must be treated as inviolable, regardless of business pressure to monetize it.",
+    "itContext": "Treating certain security principles as inviolable creates a strong organizational security culture.",
+    "alternativeWords": [
+      "sacrosanct",
+      "untouchable",
+      "indestructible",
+      "unbreakable"
+    ],
+    "pronunciation": "in-VY-oh-luh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      5,
+      5
+    ]
+  }
+]

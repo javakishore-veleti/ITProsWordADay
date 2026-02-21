@@ -1,0 +1,2246 @@
+[
+  {
+    "id": "debug-001",
+    "word": "Regression",
+    "meaning": "A previously fixed bug or working feature that breaks after a new change is introduced.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2025-11-14",
+    "samplePhrase": "The latest deploy caused a regression in the checkout flow.",
+    "itContext": "Regression testing catches unintended breakages before code reaches production.",
+    "alternativeWords": [
+      "relapse",
+      "reversion",
+      "setback",
+      "recurrence"
+    ],
+    "pronunciation": "rih-GRESH-un",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "debug-002",
+    "word": "Intermittent",
+    "meaning": "Occurring at irregular intervals; not constant or steady, describing bugs that appear and disappear unpredictably.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2025-11-15",
+    "samplePhrase": "We are tracking an intermittent timeout in the payment service that only happens under high load.",
+    "itContext": "Intermittent bugs are among the hardest to diagnose because they lack consistent reproducibility.",
+    "alternativeWords": [
+      "sporadic",
+      "erratic",
+      "occasional",
+      "irregular"
+    ],
+    "pronunciation": "in-ter-MIT-ent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "id": "debug-003",
+    "word": "Anomaly",
+    "meaning": "Something that deviates from the expected standard or pattern; an irregularity in system behavior.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2025-11-16",
+    "samplePhrase": "The monitoring dashboard flagged an anomaly in API latency around 3 AM UTC.",
+    "itContext": "Anomaly detection in production helps identify potential issues before they escalate to outages.",
+    "alternativeWords": [
+      "irregularity",
+      "deviation",
+      "outlier",
+      "aberration"
+    ],
+    "pronunciation": "uh-NOM-uh-lee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "debug-004",
+    "word": "Reproduce",
+    "meaning": "To recreate a bug or issue reliably so it can be studied, understood, and fixed.",
+    "genre": "debugging",
+    "difficulty": 2,
+    "dateAdded": "2025-11-17",
+    "samplePhrase": "Can you reproduce the crash with these exact steps so we can attach a debugger?",
+    "itContext": "A bug that cannot be reproduced is extremely difficult to fix with confidence.",
+    "alternativeWords": [
+      "replicate",
+      "recreate",
+      "duplicate",
+      "reenact"
+    ],
+    "pronunciation": "ree-proh-DOOS",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "debug-005",
+    "word": "Isolate",
+    "meaning": "To separate a component or variable from others to identify the source of a problem.",
+    "genre": "debugging",
+    "difficulty": 2,
+    "dateAdded": "2025-11-18",
+    "samplePhrase": "Let's isolate the database layer to determine if the latency originates there.",
+    "itContext": "Isolation narrows the debugging scope, making root cause analysis faster and more effective.",
+    "alternativeWords": [
+      "separate",
+      "detach",
+      "segregate",
+      "quarantine"
+    ],
+    "pronunciation": "EYE-soh-layt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "debug-006",
+    "word": "Diagnose",
+    "meaning": "To identify the nature and cause of a problem through careful examination and analysis.",
+    "genre": "debugging",
+    "difficulty": 2,
+    "dateAdded": "2025-11-19",
+    "samplePhrase": "We need to diagnose why the memory usage spikes every four hours.",
+    "itContext": "Diagnosing production issues requires combining logs, metrics, and traces for a complete picture.",
+    "alternativeWords": [
+      "identify",
+      "determine",
+      "detect",
+      "pinpoint"
+    ],
+    "pronunciation": "DY-ug-nohs",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "debug-007",
+    "word": "Correlate",
+    "meaning": "To establish a mutual relationship or connection between two or more events or data points.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2025-11-20",
+    "samplePhrase": "We can correlate the spike in error rates with the config change deployed at 2 PM.",
+    "itContext": "Correlating events across distributed services is essential for root cause analysis.",
+    "alternativeWords": [
+      "associate",
+      "connect",
+      "link",
+      "relate"
+    ],
+    "pronunciation": "KOR-uh-layt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "debug-008",
+    "word": "Deduce",
+    "meaning": "To arrive at a conclusion through logical reasoning from available evidence.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2025-11-21",
+    "samplePhrase": "From the stack trace, we can deduce that the null pointer originates in the serializer.",
+    "itContext": "Deductive reasoning transforms scattered log data into actionable debugging insights.",
+    "alternativeWords": [
+      "infer",
+      "conclude",
+      "reason",
+      "derive"
+    ],
+    "pronunciation": "dih-DOOS",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "debug-009",
+    "word": "Hypothesize",
+    "meaning": "To propose a tentative explanation for an observation that can be tested through further investigation.",
+    "genre": "debugging",
+    "difficulty": 4,
+    "dateAdded": "2025-11-22",
+    "samplePhrase": "I hypothesize that the race condition only surfaces when two requests hit the same shard simultaneously.",
+    "itContext": "Forming hypotheses before diving into code prevents aimless debugging sessions.",
+    "alternativeWords": [
+      "theorize",
+      "postulate",
+      "conjecture",
+      "speculate"
+    ],
+    "pronunciation": "hy-POTH-eh-syz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "debug-010",
+    "word": "Validate",
+    "meaning": "To confirm that something meets required specifications or that a hypothesis is correct.",
+    "genre": "debugging",
+    "difficulty": 2,
+    "dateAdded": "2025-11-23",
+    "samplePhrase": "Always validate user input on both the client and server side to prevent injection attacks.",
+    "itContext": "Validation layers are critical for catching malformed data before it corrupts downstream systems.",
+    "alternativeWords": [
+      "verify",
+      "confirm",
+      "authenticate",
+      "substantiate"
+    ],
+    "pronunciation": "VAL-ih-dayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "debug-011",
+    "word": "Trace",
+    "meaning": "To follow the execution path of a program or request to understand its behavior step by step.",
+    "genre": "debugging",
+    "difficulty": 2,
+    "dateAdded": "2025-11-24",
+    "samplePhrase": "Distributed tracing lets us trace a single request across all twelve microservices.",
+    "itContext": "Tracing tools like Jaeger and Zipkin provide visibility into complex distributed workflows.",
+    "alternativeWords": [
+      "track",
+      "follow",
+      "monitor",
+      "trail"
+    ],
+    "pronunciation": "trays",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "debug-012",
+    "word": "Profile",
+    "meaning": "To analyze a program's runtime behavior to identify performance bottlenecks and resource usage.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2025-11-25",
+    "samplePhrase": "We need to profile the API endpoint to find out why response times doubled after the release.",
+    "itContext": "Profiling CPU and memory usage reveals hidden inefficiencies that code review alone cannot catch.",
+    "alternativeWords": [
+      "analyze",
+      "benchmark",
+      "measure",
+      "examine"
+    ],
+    "pronunciation": "PROH-fyl",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "debug-013",
+    "word": "Benchmark",
+    "meaning": "A standard or point of reference against which performance or quality can be measured.",
+    "genre": "debugging",
+    "difficulty": 2,
+    "dateAdded": "2025-11-26",
+    "samplePhrase": "Run the benchmark suite before and after the optimization to quantify improvement.",
+    "itContext": "Benchmarking establishes a performance baseline critical for detecting regressions.",
+    "alternativeWords": [
+      "standard",
+      "baseline",
+      "yardstick",
+      "reference point"
+    ],
+    "pronunciation": "BENCH-mark",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "debug-014",
+    "word": "Sanitize",
+    "meaning": "To clean or filter input data to remove potentially harmful or unwanted content.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2025-11-27",
+    "samplePhrase": "Make sure you sanitize all form inputs before writing them to the database.",
+    "itContext": "Input sanitization prevents injection attacks and eliminates malformed data from polluting systems.",
+    "alternativeWords": [
+      "cleanse",
+      "filter",
+      "purify",
+      "scrub"
+    ],
+    "pronunciation": "SAN-ih-tyz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "debug-015",
+    "word": "Systematic",
+    "meaning": "Done according to a fixed plan or system; methodical and organized in approach.",
+    "genre": "debugging",
+    "difficulty": 2,
+    "dateAdded": "2025-11-28",
+    "samplePhrase": "A systematic approach to debugging saves time compared to randomly changing code.",
+    "itContext": "Systematic debugging follows a structured process of hypothesis, test, and elimination.",
+    "alternativeWords": [
+      "methodical",
+      "organized",
+      "structured",
+      "orderly"
+    ],
+    "pronunciation": "sis-teh-MAT-ik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "debug-016",
+    "word": "Methodical",
+    "meaning": "Characterized by a careful, step-by-step approach to solving a problem.",
+    "genre": "debugging",
+    "difficulty": 2,
+    "dateAdded": "2025-11-29",
+    "samplePhrase": "Her methodical review of the logs revealed the exact commit that introduced the bug.",
+    "itContext": "Methodical engineers keep detailed notes during debugging to avoid retracing their steps.",
+    "alternativeWords": [
+      "systematic",
+      "meticulous",
+      "deliberate",
+      "thorough"
+    ],
+    "pronunciation": "meh-THOD-ih-kul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "debug-017",
+    "word": "Deterministic",
+    "meaning": "Producing the same output for the same input every time, with no randomness involved.",
+    "genre": "debugging",
+    "difficulty": 4,
+    "dateAdded": "2025-11-30",
+    "samplePhrase": "Deterministic tests are easier to debug because they fail consistently.",
+    "itContext": "Non-deterministic behavior in tests leads to flaky CI pipelines that erode team confidence.",
+    "alternativeWords": [
+      "predictable",
+      "consistent",
+      "repeatable",
+      "reliable"
+    ],
+    "pronunciation": "deh-TER-min-IS-tik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "debug-018",
+    "word": "Symptomatic",
+    "meaning": "Serving as a sign or indication of an underlying condition or deeper problem.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2025-12-01",
+    "samplePhrase": "The timeout errors are symptomatic of a deeper connection pool exhaustion issue.",
+    "itContext": "Treating symptoms instead of root causes leads to recurring production incidents.",
+    "alternativeWords": [
+      "indicative",
+      "suggestive",
+      "characteristic",
+      "diagnostic"
+    ],
+    "pronunciation": "simp-toh-MAT-ik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "debug-019",
+    "word": "Catastrophic",
+    "meaning": "Involving or causing sudden great damage or suffering; a complete system failure.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2025-12-02",
+    "samplePhrase": "A catastrophic failure in the primary database triggered the disaster recovery plan.",
+    "itContext": "Catastrophic failures justify investment in redundancy, failover, and chaos engineering.",
+    "alternativeWords": [
+      "disastrous",
+      "devastating",
+      "calamitous",
+      "ruinous"
+    ],
+    "pronunciation": "kat-uh-STROF-ik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5,
+      3
+    ]
+  },
+  {
+    "id": "debug-020",
+    "word": "Graceful",
+    "meaning": "Handling errors or shutdowns in a smooth, controlled manner without data loss or abrupt termination.",
+    "genre": "debugging",
+    "difficulty": 2,
+    "dateAdded": "2025-12-03",
+    "samplePhrase": "The service performs a graceful shutdown, finishing in-flight requests before terminating.",
+    "itContext": "Graceful degradation keeps partial functionality available even when components fail.",
+    "alternativeWords": [
+      "elegant",
+      "smooth",
+      "controlled",
+      "orderly"
+    ],
+    "pronunciation": "GRAYS-ful",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "debug-021",
+    "word": "Truncate",
+    "meaning": "To shorten something by cutting off a part; to reduce data by removing trailing portions.",
+    "genre": "debugging",
+    "difficulty": 2,
+    "dateAdded": "2025-12-04",
+    "samplePhrase": "The log file was truncated, so we lost the error details from the initial crash.",
+    "itContext": "Truncated logs and payloads are a common source of lost debugging context.",
+    "alternativeWords": [
+      "shorten",
+      "curtail",
+      "abbreviate",
+      "clip"
+    ],
+    "pronunciation": "TRUNG-kayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "debug-022",
+    "word": "Circumvent",
+    "meaning": "To find a way around an obstacle or problem, often as a temporary workaround.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2025-12-05",
+    "samplePhrase": "We circumvented the cache invalidation bug by adding a manual flush endpoint.",
+    "itContext": "Circumventing issues with workarounds is acceptable short-term but requires a proper fix later.",
+    "alternativeWords": [
+      "bypass",
+      "sidestep",
+      "evade",
+      "work around"
+    ],
+    "pronunciation": "SUR-kum-vent",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "debug-023",
+    "word": "Triage",
+    "meaning": "The process of sorting and prioritizing issues based on severity and impact.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2025-12-06",
+    "samplePhrase": "During the outage, we triaged the incoming tickets and escalated the P0s immediately.",
+    "itContext": "Effective triage during incidents ensures the most critical issues get attention first.",
+    "alternativeWords": [
+      "prioritize",
+      "categorize",
+      "classify",
+      "sort"
+    ],
+    "pronunciation": "tree-AHJ",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "debug-024",
+    "word": "Remediate",
+    "meaning": "To take corrective action to fix a problem or address a deficiency.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2025-12-07",
+    "samplePhrase": "The security team asked us to remediate the vulnerable dependency within 48 hours.",
+    "itContext": "Remediation timelines are often tied to SLA commitments and risk severity levels.",
+    "alternativeWords": [
+      "fix",
+      "resolve",
+      "correct",
+      "repair"
+    ],
+    "pronunciation": "rih-MEE-dee-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "debug-025",
+    "word": "Rectify",
+    "meaning": "To put right; to correct an error or remove a defect from a system.",
+    "genre": "debugging",
+    "difficulty": 2,
+    "dateAdded": "2025-12-08",
+    "samplePhrase": "We need to rectify the data migration script before running it against production.",
+    "itContext": "Rectifying bugs promptly prevents them from compounding into larger system issues.",
+    "alternativeWords": [
+      "correct",
+      "amend",
+      "fix",
+      "resolve"
+    ],
+    "pronunciation": "REK-tih-fy",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "debug-026",
+    "word": "Extraneous",
+    "meaning": "Irrelevant or unrelated to the subject at hand; unnecessary noise in data or output.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2025-12-09",
+    "samplePhrase": "Remove the extraneous console.log statements before submitting the pull request.",
+    "itContext": "Extraneous logging clutters output and makes it harder to find meaningful debug information.",
+    "alternativeWords": [
+      "irrelevant",
+      "superfluous",
+      "unnecessary",
+      "redundant"
+    ],
+    "pronunciation": "ek-STRAY-nee-us",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "debug-027",
+    "word": "Spurious",
+    "meaning": "Not genuine or authentic; false or misleading, especially regarding error signals or data.",
+    "genre": "debugging",
+    "difficulty": 4,
+    "dateAdded": "2025-12-10",
+    "samplePhrase": "The alert turned out to be spurious — a monitoring misconfiguration, not an actual outage.",
+    "itContext": "Spurious alerts cause alert fatigue and can lead teams to ignore real incidents.",
+    "alternativeWords": [
+      "false",
+      "bogus",
+      "erroneous",
+      "misleading"
+    ],
+    "pronunciation": "SPUR-ee-us",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "debug-028",
+    "word": "Transient",
+    "meaning": "Lasting only a short time; temporary errors that resolve themselves without intervention.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2025-12-11",
+    "samplePhrase": "The transient network errors disappear after retrying, so we added exponential backoff.",
+    "itContext": "Transient failures in distributed systems are expected and should be handled with retry logic.",
+    "alternativeWords": [
+      "temporary",
+      "ephemeral",
+      "fleeting",
+      "momentary"
+    ],
+    "pronunciation": "TRAN-zee-ent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "debug-029",
+    "word": "Persistent",
+    "meaning": "Continuing to exist or endure over a prolonged period; bugs that remain until explicitly fixed.",
+    "genre": "debugging",
+    "difficulty": 2,
+    "dateAdded": "2025-12-12",
+    "samplePhrase": "The persistent memory leak has been growing steadily since the last major release.",
+    "itContext": "Persistent issues require root cause analysis rather than restarts or temporary patches.",
+    "alternativeWords": [
+      "enduring",
+      "lasting",
+      "chronic",
+      "ongoing"
+    ],
+    "pronunciation": "per-SIS-tent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      2,
+      4
+    ]
+  },
+  {
+    "id": "debug-030",
+    "word": "Heuristic",
+    "meaning": "A practical approach to problem-solving that uses experience-based techniques rather than guaranteed optimal methods.",
+    "genre": "debugging",
+    "difficulty": 4,
+    "dateAdded": "2025-12-13",
+    "samplePhrase": "We use a heuristic to detect likely memory leaks by watching allocation patterns over time.",
+    "itContext": "Heuristic-based debugging applies rules of thumb when exhaustive analysis is impractical.",
+    "alternativeWords": [
+      "rule of thumb",
+      "approximation",
+      "shortcut",
+      "guideline"
+    ],
+    "pronunciation": "hyoo-RIS-tik",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "debug-031",
+    "word": "Empirical",
+    "meaning": "Based on observation and experiment rather than theory or pure logic.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2025-12-14",
+    "samplePhrase": "Our empirical testing showed the bug only occurs with payloads larger than 2 MB.",
+    "itContext": "Empirical evidence from load tests trumps assumptions when diagnosing performance issues.",
+    "alternativeWords": [
+      "observational",
+      "experimental",
+      "practical",
+      "evidence-based"
+    ],
+    "pronunciation": "em-PIR-ih-kul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "debug-032",
+    "word": "Diagnostic",
+    "meaning": "Relating to the identification of the nature or cause of a problem through examination.",
+    "genre": "debugging",
+    "difficulty": 2,
+    "dateAdded": "2025-12-15",
+    "samplePhrase": "Run the diagnostic script first to collect thread dumps and heap snapshots.",
+    "itContext": "Diagnostic tooling embedded in applications accelerates incident response times.",
+    "alternativeWords": [
+      "analytical",
+      "investigative",
+      "exploratory",
+      "evaluative"
+    ],
+    "pronunciation": "dy-ug-NOS-tik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "debug-033",
+    "word": "Scrutinize",
+    "meaning": "To examine or inspect closely and thoroughly, paying attention to every detail.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2025-12-16",
+    "samplePhrase": "Scrutinize the diff carefully — the bug might be hiding in a single-character typo.",
+    "itContext": "Code reviews that scrutinize edge cases prevent subtle bugs from reaching production.",
+    "alternativeWords": [
+      "examine",
+      "inspect",
+      "analyze",
+      "investigate"
+    ],
+    "pronunciation": "SKROO-tih-nyz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "debug-034",
+    "word": "Enumerate",
+    "meaning": "To list or count items one by one; to iterate through all possible values systematically.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2025-12-17",
+    "samplePhrase": "Enumerate all the possible input combinations that could trigger the off-by-one error.",
+    "itContext": "Enumerating test cases ensures comprehensive coverage of boundary conditions.",
+    "alternativeWords": [
+      "list",
+      "catalog",
+      "itemize",
+      "tabulate"
+    ],
+    "pronunciation": "ih-NOO-meh-rayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "debug-035",
+    "word": "Pinpoint",
+    "meaning": "To locate or identify exactly; to find the precise source of a problem.",
+    "genre": "debugging",
+    "difficulty": 1,
+    "dateAdded": "2025-12-18",
+    "samplePhrase": "Using binary search on the git history, we pinpointed the breaking commit.",
+    "itContext": "Git bisect helps pinpoint regressions by narrowing down the commit range.",
+    "alternativeWords": [
+      "locate",
+      "identify",
+      "determine",
+      "zero in on"
+    ],
+    "pronunciation": "PIN-poynt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "debug-036",
+    "word": "Elucidate",
+    "meaning": "To make something clear by explaining it in detail; to shed light on a confusing issue.",
+    "genre": "debugging",
+    "difficulty": 4,
+    "dateAdded": "2025-12-19",
+    "samplePhrase": "The post-mortem document should elucidate the chain of events that led to the outage.",
+    "itContext": "Well-written incident reports elucidate root causes so the whole team can learn from them.",
+    "alternativeWords": [
+      "clarify",
+      "explain",
+      "illuminate",
+      "expound"
+    ],
+    "pronunciation": "ih-LOO-sih-dayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "debug-037",
+    "word": "Corroborate",
+    "meaning": "To confirm or give support to a finding by providing additional evidence.",
+    "genre": "debugging",
+    "difficulty": 4,
+    "dateAdded": "2025-12-20",
+    "samplePhrase": "The database slow query log corroborates our theory about the N+1 query problem.",
+    "itContext": "Cross-referencing multiple data sources to corroborate findings strengthens debugging conclusions.",
+    "alternativeWords": [
+      "confirm",
+      "verify",
+      "validate",
+      "substantiate"
+    ],
+    "pronunciation": "kuh-ROB-uh-rayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "debug-038",
+    "word": "Substantiate",
+    "meaning": "To provide evidence to support or prove the truth of a claim or finding.",
+    "genre": "debugging",
+    "difficulty": 4,
+    "dateAdded": "2025-12-21",
+    "samplePhrase": "We need metrics to substantiate the claim that the new algorithm reduces latency by 40%.",
+    "itContext": "Substantiating performance claims with benchmarks builds credibility in design reviews.",
+    "alternativeWords": [
+      "prove",
+      "demonstrate",
+      "support",
+      "corroborate"
+    ],
+    "pronunciation": "sub-STAN-shee-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "debug-039",
+    "word": "Discrepancy",
+    "meaning": "A lack of compatibility or similarity between two or more facts or expected values.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2025-12-22",
+    "samplePhrase": "There is a discrepancy between the API response and what the database actually stores.",
+    "itContext": "Data discrepancies often signal serialization bugs or race conditions in concurrent writes.",
+    "alternativeWords": [
+      "inconsistency",
+      "mismatch",
+      "divergence",
+      "variance"
+    ],
+    "pronunciation": "dis-KREP-un-see",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "debug-040",
+    "word": "Latent",
+    "meaning": "Existing but not yet visible or active; a hidden defect that has not yet manifested.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2025-12-23",
+    "samplePhrase": "The latent bug was dormant for months until a specific edge case finally triggered it.",
+    "itContext": "Static analysis tools can detect latent defects that dynamic testing misses.",
+    "alternativeWords": [
+      "dormant",
+      "hidden",
+      "concealed",
+      "inactive"
+    ],
+    "pronunciation": "LAY-tent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "debug-041",
+    "word": "Manifest",
+    "meaning": "To become apparent or visible; when a latent issue reveals itself through observable symptoms.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2025-12-24",
+    "samplePhrase": "The concurrency bug only manifests under heavy load with more than 500 concurrent users.",
+    "itContext": "Understanding when and how bugs manifest helps prioritize which environments to test.",
+    "alternativeWords": [
+      "appear",
+      "emerge",
+      "surface",
+      "materialize"
+    ],
+    "pronunciation": "MAN-ih-fest",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "debug-042",
+    "word": "Propagate",
+    "meaning": "To spread or transmit from one part of a system to another, often describing how errors cascade.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2025-12-25",
+    "samplePhrase": "The malformed config change propagated to all pods within seconds via the shared ConfigMap.",
+    "itContext": "Error propagation across microservices can turn a minor bug into a system-wide outage.",
+    "alternativeWords": [
+      "spread",
+      "transmit",
+      "disseminate",
+      "cascade"
+    ],
+    "pronunciation": "PROP-uh-gayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "id": "debug-043",
+    "word": "Cascade",
+    "meaning": "A process whereby something spreads rapidly in a chain reaction, each event triggering the next.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2025-12-26",
+    "samplePhrase": "The failed health check triggered a cascade of pod restarts across the entire cluster.",
+    "itContext": "Circuit breakers prevent cascading failures from overwhelming downstream services.",
+    "alternativeWords": [
+      "chain reaction",
+      "domino effect",
+      "snowball",
+      "ripple"
+    ],
+    "pronunciation": "kas-KAYD",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "debug-044",
+    "word": "Verbose",
+    "meaning": "Using more words or output than necessary; logging that produces excessive detail.",
+    "genre": "debugging",
+    "difficulty": 2,
+    "dateAdded": "2025-12-27",
+    "samplePhrase": "Enable verbose logging temporarily to capture the full request-response cycle.",
+    "itContext": "Verbose mode is useful during debugging but should be disabled in production to reduce noise.",
+    "alternativeWords": [
+      "detailed",
+      "wordy",
+      "exhaustive",
+      "long-winded"
+    ],
+    "pronunciation": "ver-BOHS",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "debug-045",
+    "word": "Granular",
+    "meaning": "Composed of fine detail; broken down into small, precise parts for thorough examination.",
+    "genre": "debugging",
+    "difficulty": 2,
+    "dateAdded": "2025-12-28",
+    "samplePhrase": "We need more granular logging to see exactly which middleware is adding the delay.",
+    "itContext": "Granular metrics enable precise identification of bottlenecks in complex request pipelines.",
+    "alternativeWords": [
+      "fine-grained",
+      "detailed",
+      "specific",
+      "precise"
+    ],
+    "pronunciation": "GRAN-yoo-ler",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "debug-046",
+    "word": "Meticulous",
+    "meaning": "Showing great attention to detail; very careful and precise in examination or work.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2025-12-29",
+    "samplePhrase": "Her meticulous code review caught a subtle race condition that all automated tests missed.",
+    "itContext": "Meticulous testing of edge cases prevents subtle production bugs.",
+    "alternativeWords": [
+      "thorough",
+      "painstaking",
+      "scrupulous",
+      "diligent"
+    ],
+    "pronunciation": "meh-TIK-yoo-lus",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "debug-047",
+    "word": "Exhaustive",
+    "meaning": "Including all possibilities; thorough and complete in coverage or examination.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2025-12-30",
+    "samplePhrase": "We ran an exhaustive set of integration tests covering every API endpoint and error code.",
+    "itContext": "Exhaustive testing is ideal but often impractical, so risk-based prioritization is used.",
+    "alternativeWords": [
+      "comprehensive",
+      "thorough",
+      "complete",
+      "all-encompassing"
+    ],
+    "pronunciation": "ig-ZOS-tiv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "debug-048",
+    "word": "Iterative",
+    "meaning": "Involving repetition of a process, each cycle building on the results of the previous one.",
+    "genre": "debugging",
+    "difficulty": 2,
+    "dateAdded": "2025-12-31",
+    "samplePhrase": "Debugging is an iterative process — each failed hypothesis narrows down the root cause.",
+    "itContext": "Iterative debugging refines understanding with each cycle of testing and observation.",
+    "alternativeWords": [
+      "repetitive",
+      "cyclical",
+      "progressive",
+      "incremental"
+    ],
+    "pronunciation": "IT-er-uh-tiv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "debug-049",
+    "word": "Incremental",
+    "meaning": "Occurring in small, successive additions or improvements rather than all at once.",
+    "genre": "debugging",
+    "difficulty": 2,
+    "dateAdded": "2026-01-01",
+    "samplePhrase": "Apply the fix incrementally — patch one service at a time to limit blast radius.",
+    "itContext": "Incremental rollouts reduce the risk of widespread failures during deployments.",
+    "alternativeWords": [
+      "gradual",
+      "step-by-step",
+      "progressive",
+      "phased"
+    ],
+    "pronunciation": "in-kreh-MEN-tul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "debug-050",
+    "word": "Ameliorate",
+    "meaning": "To make something bad or unsatisfactory better; to improve a problematic situation.",
+    "genre": "debugging",
+    "difficulty": 4,
+    "dateAdded": "2026-01-02",
+    "samplePhrase": "Adding connection pooling ameliorated the database timeout issues we were experiencing.",
+    "itContext": "Targeted optimizations can ameliorate performance degradation without full refactoring.",
+    "alternativeWords": [
+      "improve",
+      "enhance",
+      "alleviate",
+      "remedy"
+    ],
+    "pronunciation": "uh-MEEL-yoh-rayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "debug-051",
+    "word": "Obviate",
+    "meaning": "To remove a need or difficulty; to prevent a problem by taking anticipatory action.",
+    "genre": "debugging",
+    "difficulty": 4,
+    "dateAdded": "2026-01-03",
+    "samplePhrase": "Using immutable data structures obviates an entire class of concurrency bugs.",
+    "itContext": "Architectural decisions that obviate common failure modes are more effective than patching.",
+    "alternativeWords": [
+      "prevent",
+      "preclude",
+      "eliminate",
+      "avert"
+    ],
+    "pronunciation": "OB-vee-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "debug-052",
+    "word": "Preclude",
+    "meaning": "To prevent something from happening; to make impossible in advance.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2026-01-04",
+    "samplePhrase": "Strong typing in TypeScript precludes many null reference errors at compile time.",
+    "itContext": "Type systems and compile-time checks preclude entire categories of runtime bugs.",
+    "alternativeWords": [
+      "prevent",
+      "forestall",
+      "prohibit",
+      "rule out"
+    ],
+    "pronunciation": "prih-KLOOD",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "debug-053",
+    "word": "Alleviate",
+    "meaning": "To make suffering, a problem, or a deficiency less severe without completely eliminating it.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2026-01-05",
+    "samplePhrase": "Increasing the thread pool size will alleviate the request queuing but not fix the root cause.",
+    "itContext": "Alleviating symptoms buys time for a proper fix but should not replace root cause analysis.",
+    "alternativeWords": [
+      "ease",
+      "relieve",
+      "lessen",
+      "mitigate"
+    ],
+    "pronunciation": "uh-LEE-vee-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "debug-054",
+    "word": "Attenuate",
+    "meaning": "To reduce the force, effect, or value of something; to weaken the severity of an issue.",
+    "genre": "debugging",
+    "difficulty": 4,
+    "dateAdded": "2026-01-06",
+    "samplePhrase": "Rate limiting attenuates the impact of a traffic spike on downstream services.",
+    "itContext": "Attenuation strategies like throttling protect critical systems during unexpected load.",
+    "alternativeWords": [
+      "weaken",
+      "diminish",
+      "reduce",
+      "dampen"
+    ],
+    "pronunciation": "uh-TEN-yoo-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "debug-055",
+    "word": "Aberrant",
+    "meaning": "Departing from an accepted standard or normal state; unexpected or deviant behavior.",
+    "genre": "debugging",
+    "difficulty": 4,
+    "dateAdded": "2026-01-07",
+    "samplePhrase": "The aberrant memory allocation pattern suggests a buffer overflow in the parser.",
+    "itContext": "Monitoring for aberrant system behavior is a proactive approach to incident prevention.",
+    "alternativeWords": [
+      "abnormal",
+      "deviant",
+      "atypical",
+      "anomalous"
+    ],
+    "pronunciation": "AB-er-unt",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "debug-056",
+    "word": "Erratic",
+    "meaning": "Not even or regular in pattern; unpredictable behavior that varies without apparent reason.",
+    "genre": "debugging",
+    "difficulty": 2,
+    "dateAdded": "2026-01-08",
+    "samplePhrase": "The service is exhibiting erratic response times, ranging from 10ms to 30 seconds.",
+    "itContext": "Erratic behavior in production often points to resource contention or garbage collection pauses.",
+    "alternativeWords": [
+      "unpredictable",
+      "inconsistent",
+      "irregular",
+      "volatile"
+    ],
+    "pronunciation": "ih-RAT-ik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "debug-057",
+    "word": "Idempotent",
+    "meaning": "An operation that produces the same result whether executed once or multiple times.",
+    "genre": "debugging",
+    "difficulty": 4,
+    "dateAdded": "2026-01-09",
+    "samplePhrase": "Ensure the retry handler calls an idempotent endpoint to avoid duplicate transactions.",
+    "itContext": "Idempotent APIs are essential for safely handling retries in unreliable networks.",
+    "alternativeWords": [
+      "repeatable",
+      "safe-to-retry",
+      "stable",
+      "consistent"
+    ],
+    "pronunciation": "eye-dem-POH-tent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "debug-058",
+    "word": "Mitigate",
+    "meaning": "To make something less severe, dangerous, or painful; to reduce the impact of a known issue.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2026-01-10",
+    "samplePhrase": "We deployed a hotfix to mitigate the data corruption issue while working on a permanent solution.",
+    "itContext": "Mitigation is often the first step in incident response, buying time for a proper fix.",
+    "alternativeWords": [
+      "lessen",
+      "reduce",
+      "diminish",
+      "alleviate"
+    ],
+    "pronunciation": "MIT-ih-gayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "debug-059",
+    "word": "Delineate",
+    "meaning": "To describe or portray precisely; to define the boundaries of a problem clearly.",
+    "genre": "debugging",
+    "difficulty": 4,
+    "dateAdded": "2026-01-11",
+    "samplePhrase": "The bug report should delineate the exact steps, environment, and expected versus actual behavior.",
+    "itContext": "Well-delineated bug reports dramatically reduce the time engineers spend reproducing issues.",
+    "alternativeWords": [
+      "outline",
+      "define",
+      "describe",
+      "demarcate"
+    ],
+    "pronunciation": "dih-LIN-ee-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "debug-060",
+    "word": "Reconcile",
+    "meaning": "To bring two conflicting things into agreement; to resolve differences between expected and actual states.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2026-01-12",
+    "samplePhrase": "We need to reconcile the ledger entries with the actual transaction records in the database.",
+    "itContext": "Data reconciliation jobs detect drift between systems that should be in sync.",
+    "alternativeWords": [
+      "harmonize",
+      "resolve",
+      "align",
+      "settle"
+    ],
+    "pronunciation": "REK-un-syl",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "debug-061",
+    "word": "Ascertain",
+    "meaning": "To find out something for certain through examination or investigation.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2026-01-13",
+    "samplePhrase": "We need to ascertain whether the data loss occurred during ingestion or during the export.",
+    "itContext": "Ascertaining the exact failure point is the first step in effective incident resolution.",
+    "alternativeWords": [
+      "determine",
+      "establish",
+      "discover",
+      "verify"
+    ],
+    "pronunciation": "as-er-TAYN",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "debug-062",
+    "word": "Permutation",
+    "meaning": "Each of the possible arrangements or orderings of a set of things; a variation of inputs.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2026-01-14",
+    "samplePhrase": "We tested every permutation of feature flags that could explain the rendering glitch.",
+    "itContext": "Combinatorial testing covers multiple permutations of inputs to find interaction bugs.",
+    "alternativeWords": [
+      "combination",
+      "arrangement",
+      "variation",
+      "configuration"
+    ],
+    "pronunciation": "per-myoo-TAY-shun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "debug-063",
+    "word": "Contiguous",
+    "meaning": "Sharing a common boundary; next to each other without interruption, as in memory allocation.",
+    "genre": "debugging",
+    "difficulty": 4,
+    "dateAdded": "2026-01-15",
+    "samplePhrase": "The array requires contiguous memory, so fragmentation caused the allocation to fail.",
+    "itContext": "Contiguous memory requirements can cause failures in long-running processes with fragmented heaps.",
+    "alternativeWords": [
+      "adjacent",
+      "consecutive",
+      "continuous",
+      "unbroken"
+    ],
+    "pronunciation": "kun-TIG-yoo-us",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "debug-064",
+    "word": "Deprecated",
+    "meaning": "Marked as outdated and no longer recommended for use, typically scheduled for removal.",
+    "genre": "debugging",
+    "difficulty": 2,
+    "dateAdded": "2026-01-16",
+    "samplePhrase": "The crash was caused by calling a deprecated API that was silently removed in the latest SDK.",
+    "itContext": "Using deprecated methods risks breakage during upgrades when they are finally removed.",
+    "alternativeWords": [
+      "obsolete",
+      "outdated",
+      "superseded",
+      "retired"
+    ],
+    "pronunciation": "DEP-reh-kay-ted",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "debug-065",
+    "word": "Brittle",
+    "meaning": "Easily broken or damaged; code or tests that fail under minor, seemingly unrelated changes.",
+    "genre": "debugging",
+    "difficulty": 2,
+    "dateAdded": "2026-01-17",
+    "samplePhrase": "The UI tests are brittle — they break whenever the design team changes a button label.",
+    "itContext": "Brittle tests undermine CI confidence and slow down the development process.",
+    "alternativeWords": [
+      "fragile",
+      "delicate",
+      "unstable",
+      "flimsy"
+    ],
+    "pronunciation": "BRIT-ul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "debug-066",
+    "word": "Resilient",
+    "meaning": "Able to withstand or recover quickly from difficult conditions or failures.",
+    "genre": "debugging",
+    "difficulty": 2,
+    "dateAdded": "2026-01-18",
+    "samplePhrase": "Our error handling makes the pipeline resilient to occasional upstream timeouts.",
+    "itContext": "Resilient systems degrade gracefully rather than failing completely under stress.",
+    "alternativeWords": [
+      "robust",
+      "tough",
+      "durable",
+      "fault-tolerant"
+    ],
+    "pronunciation": "rih-ZIL-yent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "debug-067",
+    "word": "Volatile",
+    "meaning": "Liable to change rapidly and unpredictably; data that can be lost when power is removed.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2026-01-19",
+    "samplePhrase": "The cache is volatile, so any data stored there will be lost if the pod restarts.",
+    "itContext": "Volatile state must be persisted externally or rebuilt to survive process restarts.",
+    "alternativeWords": [
+      "unstable",
+      "unpredictable",
+      "transient",
+      "impermanent"
+    ],
+    "pronunciation": "VOL-uh-tul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "debug-068",
+    "word": "Immutable",
+    "meaning": "Unable to be changed after creation; a value or object that cannot be modified once constructed.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2026-01-20",
+    "samplePhrase": "Switching to immutable data structures eliminated the entire class of mutation-related bugs.",
+    "itContext": "Immutability simplifies debugging by guaranteeing state cannot change unexpectedly.",
+    "alternativeWords": [
+      "unchangeable",
+      "fixed",
+      "constant",
+      "permanent"
+    ],
+    "pronunciation": "ih-MYOO-tuh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "debug-069",
+    "word": "Idiosyncratic",
+    "meaning": "Peculiar or individual; behavior unique to a specific system, environment, or configuration.",
+    "genre": "debugging",
+    "difficulty": 5,
+    "dateAdded": "2026-01-21",
+    "samplePhrase": "The bug is idiosyncratic to the Safari browser due to its unique handling of date parsing.",
+    "itContext": "Idiosyncratic bugs tied to specific environments require targeted testing matrices.",
+    "alternativeWords": [
+      "peculiar",
+      "distinctive",
+      "unique",
+      "quirky"
+    ],
+    "pronunciation": "id-ee-oh-sin-KRAT-ik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "debug-070",
+    "word": "Nondeterministic",
+    "meaning": "Having outcomes that cannot be precisely predicted; producing different results from the same inputs.",
+    "genre": "debugging",
+    "difficulty": 5,
+    "dateAdded": "2026-01-22",
+    "samplePhrase": "Nondeterministic test failures are often caused by shared state or timing dependencies.",
+    "itContext": "Nondeterministic tests (flaky tests) waste engineering time and erode trust in CI pipelines.",
+    "alternativeWords": [
+      "unpredictable",
+      "random",
+      "inconsistent",
+      "variable"
+    ],
+    "pronunciation": "non-deh-TER-min-IS-tik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "debug-071",
+    "word": "Reproducible",
+    "meaning": "Able to be recreated or duplicated consistently under the same conditions.",
+    "genre": "debugging",
+    "difficulty": 2,
+    "dateAdded": "2026-01-23",
+    "samplePhrase": "The bug is now reproducible with a minimal test case using only three API calls.",
+    "itContext": "Reproducible bugs are dramatically easier to fix than intermittent ones.",
+    "alternativeWords": [
+      "replicable",
+      "repeatable",
+      "consistent",
+      "duplicable"
+    ],
+    "pronunciation": "ree-proh-DOO-sih-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "debug-072",
+    "word": "Observable",
+    "meaning": "Capable of being watched or measured; the ability to understand internal state from external outputs.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2026-01-24",
+    "samplePhrase": "The new service is fully observable with structured logs, metrics, and distributed traces.",
+    "itContext": "Observability enables teams to debug production issues without redeploying instrumented code.",
+    "alternativeWords": [
+      "monitorable",
+      "measurable",
+      "transparent",
+      "inspectable"
+    ],
+    "pronunciation": "ob-ZUR-vuh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "debug-073",
+    "word": "Convoluted",
+    "meaning": "Extremely complex and difficult to follow; tangled logic that is hard to understand.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2026-01-25",
+    "samplePhrase": "The control flow is so convoluted that nobody can trace how the error handler gets invoked.",
+    "itContext": "Convoluted code increases the likelihood of bugs and makes them harder to find.",
+    "alternativeWords": [
+      "complex",
+      "tangled",
+      "intricate",
+      "labyrinthine"
+    ],
+    "pronunciation": "KON-vuh-loo-ted",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "debug-074",
+    "word": "Obtrusive",
+    "meaning": "Noticeable in an unwelcome or intrusive way; debug output that interferes with normal operation.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2026-01-26",
+    "samplePhrase": "The debug popups are too obtrusive for the demo — switch to console logging instead.",
+    "itContext": "Non-obtrusive logging frameworks capture information without impacting user experience.",
+    "alternativeWords": [
+      "intrusive",
+      "conspicuous",
+      "disruptive",
+      "prominent"
+    ],
+    "pronunciation": "ob-TROO-siv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "debug-075",
+    "word": "Insidious",
+    "meaning": "Proceeding in a gradual, subtle way but with harmful effects; a slowly worsening hidden bug.",
+    "genre": "debugging",
+    "difficulty": 4,
+    "dateAdded": "2026-01-27",
+    "samplePhrase": "The memory leak was insidious — only detectable after several weeks of continuous uptime.",
+    "itContext": "Insidious bugs evade detection in short test cycles and only surface in long-running production.",
+    "alternativeWords": [
+      "subtle",
+      "stealthy",
+      "treacherous",
+      "surreptitious"
+    ],
+    "pronunciation": "in-SID-ee-us",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "debug-076",
+    "word": "Tangential",
+    "meaning": "Only marginally related to the main issue; a side concern that distracts from the core problem.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2026-01-28",
+    "samplePhrase": "The CSS rendering issue is tangential to the data corruption bug — let's stay focused.",
+    "itContext": "Ignoring tangential issues during incident response keeps the team focused on resolution.",
+    "alternativeWords": [
+      "peripheral",
+      "incidental",
+      "ancillary",
+      "secondary"
+    ],
+    "pronunciation": "tan-JEN-shul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "debug-077",
+    "word": "Superfluous",
+    "meaning": "More than what is needed or useful; unnecessary code or data that adds complexity.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2026-01-29",
+    "samplePhrase": "Remove the superfluous null checks — the upstream service already validates these fields.",
+    "itContext": "Superfluous code paths increase the surface area for bugs and complicate testing.",
+    "alternativeWords": [
+      "unnecessary",
+      "excess",
+      "redundant",
+      "extraneous"
+    ],
+    "pronunciation": "soo-PER-floo-us",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "debug-078",
+    "word": "Redundant",
+    "meaning": "No longer needed or useful; duplicate code or processes that serve no additional purpose.",
+    "genre": "debugging",
+    "difficulty": 2,
+    "dateAdded": "2026-01-30",
+    "samplePhrase": "The redundant validation logic in both the controller and service layer causes maintenance headaches.",
+    "itContext": "Redundant code increases maintenance burden and creates opportunities for inconsistency bugs.",
+    "alternativeWords": [
+      "duplicate",
+      "unnecessary",
+      "superfluous",
+      "surplus"
+    ],
+    "pronunciation": "rih-DUN-dunt",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "debug-079",
+    "word": "Expedient",
+    "meaning": "Convenient and practical although possibly improper or immoral; a quick fix over a proper solution.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2026-01-31",
+    "samplePhrase": "The expedient fix was to restart the service hourly, but we need a real solution.",
+    "itContext": "Expedient workarounds accumulate as technical debt if not followed up with proper fixes.",
+    "alternativeWords": [
+      "convenient",
+      "pragmatic",
+      "practical",
+      "opportune"
+    ],
+    "pronunciation": "ik-SPEE-dee-ent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "debug-080",
+    "word": "Cogent",
+    "meaning": "Clear, logical, and convincing; an argument or explanation that is compelling and well-reasoned.",
+    "genre": "debugging",
+    "difficulty": 4,
+    "dateAdded": "2026-02-01",
+    "samplePhrase": "She presented a cogent analysis of the root cause, backed by trace data and reproduction steps.",
+    "itContext": "Cogent post-mortem reports drive meaningful process improvements across the organization.",
+    "alternativeWords": [
+      "compelling",
+      "persuasive",
+      "convincing",
+      "lucid"
+    ],
+    "pronunciation": "KOH-jent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "debug-081",
+    "word": "Rigorous",
+    "meaning": "Extremely thorough, exhaustive, or accurate; demanding strict attention to detail.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2026-02-02",
+    "samplePhrase": "The release requires rigorous QA testing because it touches the payment processing pipeline.",
+    "itContext": "Rigorous testing processes catch critical defects before they impact end users.",
+    "alternativeWords": [
+      "thorough",
+      "stringent",
+      "meticulous",
+      "exacting"
+    ],
+    "pronunciation": "RIG-er-us",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "debug-082",
+    "word": "Tenuous",
+    "meaning": "Very weak or slight; a fragile connection or theory that could easily break down.",
+    "genre": "debugging",
+    "difficulty": 4,
+    "dateAdded": "2026-02-03",
+    "samplePhrase": "The link between the deploy and the crash is tenuous — we need more data to confirm it.",
+    "itContext": "Tenuous correlations should not be treated as root causes without additional evidence.",
+    "alternativeWords": [
+      "weak",
+      "flimsy",
+      "fragile",
+      "insubstantial"
+    ],
+    "pronunciation": "TEN-yoo-us",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "debug-083",
+    "word": "Pervasive",
+    "meaning": "Spreading widely throughout an area or system; affecting all or most parts.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2026-02-04",
+    "samplePhrase": "The encoding bug is pervasive — it affects every endpoint that handles unicode characters.",
+    "itContext": "Pervasive defects often indicate a systemic problem in a shared library or utility function.",
+    "alternativeWords": [
+      "widespread",
+      "prevalent",
+      "ubiquitous",
+      "extensive"
+    ],
+    "pronunciation": "per-VAY-siv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "debug-084",
+    "word": "Ubiquitous",
+    "meaning": "Present, appearing, or found everywhere; a pattern or issue that exists across the entire codebase.",
+    "genre": "debugging",
+    "difficulty": 4,
+    "dateAdded": "2026-02-05",
+    "samplePhrase": "The anti-pattern is ubiquitous in the legacy code, making a one-shot fix impractical.",
+    "itContext": "Ubiquitous code smells warrant automated linting rules rather than manual correction.",
+    "alternativeWords": [
+      "omnipresent",
+      "universal",
+      "pervasive",
+      "everywhere"
+    ],
+    "pronunciation": "yoo-BIK-wih-tus",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "debug-085",
+    "word": "Congruent",
+    "meaning": "In agreement or harmony; values or behaviors that match expected specifications.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2026-02-06",
+    "samplePhrase": "The test assertions verify that actual output is congruent with the expected schema.",
+    "itContext": "Congruence checks between expected and actual results are the backbone of automated testing.",
+    "alternativeWords": [
+      "consistent",
+      "compatible",
+      "aligned",
+      "harmonious"
+    ],
+    "pronunciation": "KONG-groo-ent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "debug-086",
+    "word": "Disparate",
+    "meaning": "Essentially different in kind; not able to be compared because they are so fundamentally different.",
+    "genre": "debugging",
+    "difficulty": 4,
+    "dateAdded": "2026-02-07",
+    "samplePhrase": "The error manifests in disparate parts of the system — the auth module and the billing service.",
+    "itContext": "Bugs appearing in disparate modules may share a common upstream dependency.",
+    "alternativeWords": [
+      "different",
+      "dissimilar",
+      "distinct",
+      "unrelated"
+    ],
+    "pronunciation": "DIS-puh-rit",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "debug-087",
+    "word": "Coherent",
+    "meaning": "Logical and consistent; forming a unified whole that makes sense as a complete explanation.",
+    "genre": "debugging",
+    "difficulty": 2,
+    "dateAdded": "2026-02-08",
+    "samplePhrase": "We need a coherent theory that explains all three failure modes, not separate explanations.",
+    "itContext": "A coherent root cause analysis ties together disparate symptoms into a single narrative.",
+    "alternativeWords": [
+      "logical",
+      "consistent",
+      "rational",
+      "unified"
+    ],
+    "pronunciation": "koh-HEER-ent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "debug-088",
+    "word": "Salient",
+    "meaning": "Most noticeable or important; the key points that stand out in an investigation.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2026-02-09",
+    "samplePhrase": "The most salient finding is that the error only occurs when the cache TTL expires.",
+    "itContext": "Highlighting salient details in bug reports helps other engineers quickly grasp the issue.",
+    "alternativeWords": [
+      "prominent",
+      "notable",
+      "conspicuous",
+      "striking"
+    ],
+    "pronunciation": "SAY-lee-ent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "debug-089",
+    "word": "Pernicious",
+    "meaning": "Having a harmful effect, especially in a gradual or subtle way that is not easily noticed.",
+    "genre": "debugging",
+    "difficulty": 5,
+    "dateAdded": "2026-02-10",
+    "samplePhrase": "The pernicious data corruption went undetected for weeks, silently degrading search results.",
+    "itContext": "Pernicious bugs require proactive data integrity checks and continuous monitoring.",
+    "alternativeWords": [
+      "harmful",
+      "destructive",
+      "detrimental",
+      "malicious"
+    ],
+    "pronunciation": "per-NISH-us",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "debug-090",
+    "word": "Innocuous",
+    "meaning": "Not harmful or offensive; a change that appears safe but may have hidden consequences.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2026-02-11",
+    "samplePhrase": "The seemingly innocuous config change actually disabled all rate limiting in production.",
+    "itContext": "Even innocuous-looking changes should go through code review and automated testing.",
+    "alternativeWords": [
+      "harmless",
+      "benign",
+      "inoffensive",
+      "safe"
+    ],
+    "pronunciation": "ih-NOK-yoo-us",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "debug-091",
+    "word": "Circumscribe",
+    "meaning": "To restrict or limit the scope of something; to define boundaries around an investigation.",
+    "genre": "debugging",
+    "difficulty": 4,
+    "dateAdded": "2026-02-12",
+    "samplePhrase": "Let's circumscribe the investigation to the services that were deployed in the last 24 hours.",
+    "itContext": "Circumscribing the debugging scope prevents wasted effort on unrelated subsystems.",
+    "alternativeWords": [
+      "limit",
+      "restrict",
+      "confine",
+      "bound"
+    ],
+    "pronunciation": "SUR-kum-skryb",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "debug-092",
+    "word": "Concurrency",
+    "meaning": "The ability of different parts of a program to be executed simultaneously or out of order.",
+    "genre": "debugging",
+    "difficulty": 4,
+    "dateAdded": "2026-02-13",
+    "samplePhrase": "The concurrency bug only appears when two goroutines write to the shared map simultaneously.",
+    "itContext": "Concurrency bugs are notoriously difficult to reproduce because they depend on precise timing.",
+    "alternativeWords": [
+      "parallelism",
+      "simultaneity",
+      "multithreading",
+      "coexistence"
+    ],
+    "pronunciation": "kun-KUR-en-see",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "debug-093",
+    "word": "Deadlock",
+    "meaning": "A situation where two or more processes are unable to proceed because each is waiting for the other.",
+    "genre": "debugging",
+    "difficulty": 4,
+    "dateAdded": "2026-02-14",
+    "samplePhrase": "The application froze due to a deadlock between the database connection pool and the file lock.",
+    "itContext": "Deadlock detection tools and lock ordering conventions help prevent mutual blocking in concurrent systems.",
+    "alternativeWords": [
+      "standstill",
+      "impasse",
+      "stalemate",
+      "gridlock"
+    ],
+    "pronunciation": "DED-lok",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "debug-094",
+    "word": "Bottleneck",
+    "meaning": "A point of congestion or blockage that limits throughput and overall system performance.",
+    "genre": "debugging",
+    "difficulty": 2,
+    "dateAdded": "2026-02-15",
+    "samplePhrase": "Profiling revealed the database query is the bottleneck causing the entire page to load slowly.",
+    "itContext": "Identifying and removing bottlenecks is the most effective way to improve system performance.",
+    "alternativeWords": [
+      "chokepoint",
+      "constraint",
+      "obstruction",
+      "limitation"
+    ],
+    "pronunciation": "BOT-ul-nek",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "debug-095",
+    "word": "Throughput",
+    "meaning": "The amount of data or work processed by a system in a given amount of time.",
+    "genre": "debugging",
+    "difficulty": 2,
+    "dateAdded": "2026-02-16",
+    "samplePhrase": "After the optimization, message throughput increased from 1,000 to 10,000 events per second.",
+    "itContext": "Throughput metrics help teams understand system capacity and plan for scaling.",
+    "alternativeWords": [
+      "capacity",
+      "output",
+      "bandwidth",
+      "processing rate"
+    ],
+    "pronunciation": "THROO-put",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "debug-096",
+    "word": "Telemetry",
+    "meaning": "The automated measurement and wireless transmission of data from remote sources for monitoring.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2026-02-17",
+    "samplePhrase": "Our telemetry pipeline collects metrics, logs, and traces from every service in the fleet.",
+    "itContext": "Rich telemetry data is the foundation of effective observability and debugging in production.",
+    "alternativeWords": [
+      "instrumentation",
+      "monitoring data",
+      "diagnostics",
+      "metrics"
+    ],
+    "pronunciation": "teh-LEM-eh-tree",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "id": "debug-097",
+    "word": "Quiescent",
+    "meaning": "In a state of inactivity or dormancy; a system at rest with no active processing.",
+    "genre": "debugging",
+    "difficulty": 5,
+    "dateAdded": "2026-02-18",
+    "samplePhrase": "The bug only triggers during the transition from quiescent to active state on the first request.",
+    "itContext": "Quiescent systems can exhibit cold-start bugs when they resume processing after idle periods.",
+    "alternativeWords": [
+      "dormant",
+      "inactive",
+      "idle",
+      "still"
+    ],
+    "pronunciation": "kwee-ES-ent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "debug-098",
+    "word": "Coalesce",
+    "meaning": "To come together and form one whole; to merge multiple elements or events into a unified result.",
+    "genre": "debugging",
+    "difficulty": 4,
+    "dateAdded": "2026-02-19",
+    "samplePhrase": "The function coalesces multiple error messages into a single structured response for the client.",
+    "itContext": "Coalescing related log entries reduces noise and makes pattern detection easier.",
+    "alternativeWords": [
+      "merge",
+      "combine",
+      "consolidate",
+      "fuse"
+    ],
+    "pronunciation": "koh-uh-LES",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "debug-099",
+    "word": "Remedial",
+    "meaning": "Intended to correct or improve a deficient condition; providing a solution to a known problem.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2026-02-20",
+    "samplePhrase": "The remedial patch fixes the integer overflow but a comprehensive refactor is still planned.",
+    "itContext": "Remedial actions taken during incidents should be documented for future reference.",
+    "alternativeWords": [
+      "corrective",
+      "restorative",
+      "curative",
+      "reparative"
+    ],
+    "pronunciation": "rih-MEE-dee-ul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "debug-100",
+    "word": "Exculpate",
+    "meaning": "To show or declare that someone or something is not guilty of wrongdoing or fault.",
+    "genre": "debugging",
+    "difficulty": 5,
+    "dateAdded": "2026-02-21",
+    "samplePhrase": "The blameless post-mortem exculpated the on-call engineer and focused on systemic process gaps.",
+    "itContext": "Blameless culture exculpates individuals and focuses on improving systems and processes.",
+    "alternativeWords": [
+      "absolve",
+      "exonerate",
+      "vindicate",
+      "acquit"
+    ],
+    "pronunciation": "EKS-kul-payt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      5,
+      4
+    ]
+  }
+]

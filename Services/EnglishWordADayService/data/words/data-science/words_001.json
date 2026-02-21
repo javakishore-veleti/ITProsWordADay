@@ -1,0 +1,2233 @@
+[
+  {
+    "id": "data-001",
+    "word": "Granular",
+    "meaning": "Composed of small details; finely detailed or broken down into small parts.",
+    "genre": "data-science",
+    "difficulty": 2,
+    "dateAdded": "2025-11-14",
+    "samplePhrase": "We need more granular logging to understand where the bottleneck occurs.",
+    "itContext": "Granular data enables deeper analysis but may increase storage and processing costs.",
+    "alternativeWords": [
+      "detailed",
+      "fine-grained",
+      "specific",
+      "precise"
+    ],
+    "pronunciation": "GRAN-yoo-ler",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "data-002",
+    "word": "Correlate",
+    "meaning": "To establish a mutual relationship or connection between two or more variables.",
+    "genre": "data-science",
+    "difficulty": 3,
+    "dateAdded": "2025-11-15",
+    "samplePhrase": "We need to correlate CPU usage spikes with the deployment timestamps.",
+    "itContext": "Correlation analysis helps identify relationships between metrics in monitoring dashboards.",
+    "alternativeWords": [
+      "associate",
+      "relate",
+      "connect",
+      "link"
+    ],
+    "pronunciation": "KOR-uh-layt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "data-003",
+    "word": "Interpolate",
+    "meaning": "To estimate unknown values that fall between known data points.",
+    "genre": "data-science",
+    "difficulty": 4,
+    "dateAdded": "2025-11-16",
+    "samplePhrase": "The monitoring tool interpolates missing data points so the time-series chart looks continuous.",
+    "itContext": "Interpolation fills gaps in time-series data to maintain continuity for visualization and analysis.",
+    "alternativeWords": [
+      "estimate",
+      "approximate",
+      "infer",
+      "fill in"
+    ],
+    "pronunciation": "in-TUR-puh-layt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "data-004",
+    "word": "Extrapolate",
+    "meaning": "To extend known data or trends into an unknown area to make predictions.",
+    "genre": "data-science",
+    "difficulty": 3,
+    "dateAdded": "2025-11-17",
+    "samplePhrase": "Based on current growth, we can extrapolate that storage costs will double by Q3.",
+    "itContext": "Extrapolation forecasts future resource needs but becomes unreliable over long time horizons.",
+    "alternativeWords": [
+      "project",
+      "predict",
+      "forecast",
+      "extend"
+    ],
+    "pronunciation": "ek-STRAP-uh-layt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "id": "data-005",
+    "word": "Stratify",
+    "meaning": "To divide data into distinct layers or groups based on shared characteristics.",
+    "genre": "data-science",
+    "difficulty": 4,
+    "dateAdded": "2025-11-18",
+    "samplePhrase": "We stratify users by subscription tier to analyze churn rates per segment.",
+    "itContext": "Stratified sampling ensures each subgroup is proportionally represented in the dataset.",
+    "alternativeWords": [
+      "segment",
+      "layer",
+      "categorize",
+      "subdivide"
+    ],
+    "pronunciation": "STRAT-ih-fy",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "data-006",
+    "word": "Cluster",
+    "meaning": "To group similar data points together based on shared attributes without predefined labels.",
+    "genre": "data-science",
+    "difficulty": 3,
+    "dateAdded": "2025-11-19",
+    "samplePhrase": "K-means will cluster our customer base into segments based on purchasing behavior.",
+    "itContext": "Clustering is an unsupervised learning technique used for customer segmentation and anomaly detection.",
+    "alternativeWords": [
+      "group",
+      "segment",
+      "bunch",
+      "aggregate"
+    ],
+    "pronunciation": "KLUS-ter",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "data-007",
+    "word": "Regress",
+    "meaning": "To model the relationship between a dependent variable and one or more independent variables.",
+    "genre": "data-science",
+    "difficulty": 4,
+    "dateAdded": "2025-11-20",
+    "samplePhrase": "We regress sales figures against marketing spend to quantify campaign effectiveness.",
+    "itContext": "Regression models are foundational for predicting continuous outcomes from feature variables.",
+    "alternativeWords": [
+      "model",
+      "predict",
+      "fit",
+      "estimate"
+    ],
+    "pronunciation": "rih-GRES",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "data-008",
+    "word": "Classify",
+    "meaning": "To assign data points to predefined categories based on their features.",
+    "genre": "data-science",
+    "difficulty": 2,
+    "dateAdded": "2025-11-21",
+    "samplePhrase": "The model classifies support tickets as critical, high, medium, or low priority.",
+    "itContext": "Classification algorithms power spam filters, sentiment analysis, and incident categorization.",
+    "alternativeWords": [
+      "categorize",
+      "label",
+      "sort",
+      "tag"
+    ],
+    "pronunciation": "KLAS-ih-fy",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "data-009",
+    "word": "Impute",
+    "meaning": "To replace missing data with substituted values using statistical methods.",
+    "genre": "data-science",
+    "difficulty": 4,
+    "dateAdded": "2025-11-22",
+    "samplePhrase": "We impute missing salary fields with the median value for each job title category.",
+    "itContext": "Imputation prevents data loss from incomplete records and preserves dataset size for training.",
+    "alternativeWords": [
+      "fill",
+      "substitute",
+      "replace",
+      "estimate"
+    ],
+    "pronunciation": "im-PYOOT",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "data-010",
+    "word": "Aggregate",
+    "meaning": "To collect and combine data from multiple sources into a summarized form.",
+    "genre": "data-science",
+    "difficulty": 2,
+    "dateAdded": "2025-11-23",
+    "samplePhrase": "We aggregate daily metrics into weekly summaries for the executive dashboard.",
+    "itContext": "Data aggregation reduces volume while preserving trends for high-level decision-making.",
+    "alternativeWords": [
+      "combine",
+      "consolidate",
+      "summarize",
+      "compile"
+    ],
+    "pronunciation": "AG-rih-gayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "data-011",
+    "word": "Normalize",
+    "meaning": "To adjust data values to a common scale without distorting differences in ranges.",
+    "genre": "data-science",
+    "difficulty": 3,
+    "dateAdded": "2025-11-24",
+    "samplePhrase": "We normalize all feature columns to a 0-1 range before feeding them into the neural network.",
+    "itContext": "Normalization ensures no single feature dominates the model due to its numerical scale.",
+    "alternativeWords": [
+      "scale",
+      "standardize",
+      "calibrate",
+      "regularize"
+    ],
+    "pronunciation": "NOR-muh-lyz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "data-012",
+    "word": "Standardize",
+    "meaning": "To transform data to have a mean of zero and a standard deviation of one.",
+    "genre": "data-science",
+    "difficulty": 3,
+    "dateAdded": "2025-11-25",
+    "samplePhrase": "Standardize the input features so the gradient descent converges faster during training.",
+    "itContext": "Standardization is preferred over normalization when the data follows a Gaussian distribution.",
+    "alternativeWords": [
+      "normalize",
+      "regularize",
+      "unify",
+      "homogenize"
+    ],
+    "pronunciation": "STAN-der-dyz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "data-013",
+    "word": "Discretize",
+    "meaning": "To convert continuous data into discrete categories or bins.",
+    "genre": "data-science",
+    "difficulty": 4,
+    "dateAdded": "2025-11-26",
+    "samplePhrase": "We discretize age into buckets like 18-25, 26-35, 36-50 for the demographic analysis.",
+    "itContext": "Discretization simplifies continuous variables for decision-tree models and frequency analysis.",
+    "alternativeWords": [
+      "bin",
+      "bucket",
+      "quantize",
+      "categorize"
+    ],
+    "pronunciation": "dih-SKREE-tyz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "data-014",
+    "word": "Visualize",
+    "meaning": "To represent data graphically to reveal patterns, trends, and outliers.",
+    "genre": "data-science",
+    "difficulty": 1,
+    "dateAdded": "2025-11-27",
+    "samplePhrase": "Let's visualize the error rate over time to see if the latest deployment improved stability.",
+    "itContext": "Data visualization transforms raw numbers into actionable insights for stakeholders.",
+    "alternativeWords": [
+      "chart",
+      "graph",
+      "plot",
+      "illustrate"
+    ],
+    "pronunciation": "VIZH-oo-uh-lyz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "data-015",
+    "word": "Curate",
+    "meaning": "To carefully select, organize, and maintain a collection of data for a specific purpose.",
+    "genre": "data-science",
+    "difficulty": 2,
+    "dateAdded": "2025-11-28",
+    "samplePhrase": "The ML team curates a labeled dataset of 50,000 images for the object detection model.",
+    "itContext": "Curated datasets reduce noise and bias, leading to more reliable model outcomes.",
+    "alternativeWords": [
+      "organize",
+      "select",
+      "compile",
+      "assemble"
+    ],
+    "pronunciation": "KYOOR-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "data-016",
+    "word": "Annotate",
+    "meaning": "To add explanatory labels or metadata to data, especially for supervised learning.",
+    "genre": "data-science",
+    "difficulty": 3,
+    "dateAdded": "2025-11-29",
+    "samplePhrase": "We hired annotators to annotate 10,000 customer reviews with sentiment labels.",
+    "itContext": "Data annotation is a bottleneck in ML pipelines and often requires domain expertise.",
+    "alternativeWords": [
+      "label",
+      "tag",
+      "mark up",
+      "classify"
+    ],
+    "pronunciation": "AN-oh-tayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "data-017",
+    "word": "Partition",
+    "meaning": "To divide a dataset into separate, non-overlapping subsets for training and evaluation.",
+    "genre": "data-science",
+    "difficulty": 3,
+    "dateAdded": "2025-11-30",
+    "samplePhrase": "We partition the data into 80% training, 10% validation, and 10% test sets.",
+    "itContext": "Proper data partitioning prevents data leakage and ensures fair model evaluation.",
+    "alternativeWords": [
+      "split",
+      "divide",
+      "segment",
+      "separate"
+    ],
+    "pronunciation": "par-TISH-un",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "data-018",
+    "word": "Sample",
+    "meaning": "To select a representative subset from a larger population for analysis.",
+    "genre": "data-science",
+    "difficulty": 1,
+    "dateAdded": "2025-12-01",
+    "samplePhrase": "We sample 1% of production traffic to run A/B test analysis without overloading the pipeline.",
+    "itContext": "Sampling strategies affect the validity and generalizability of analytical conclusions.",
+    "alternativeWords": [
+      "subset",
+      "extract",
+      "draw",
+      "select"
+    ],
+    "pronunciation": "SAM-pul",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "data-019",
+    "word": "Bias",
+    "meaning": "A systematic error that produces results skewed in a particular direction.",
+    "genre": "data-science",
+    "difficulty": 3,
+    "dateAdded": "2025-12-02",
+    "samplePhrase": "Selection bias in the training data caused the model to underperform on minority demographics.",
+    "itContext": "Detecting and mitigating bias is essential for building fair and ethical AI systems.",
+    "alternativeWords": [
+      "prejudice",
+      "distortion",
+      "partiality",
+      "inclination"
+    ],
+    "pronunciation": "BY-us",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "data-020",
+    "word": "Skew",
+    "meaning": "The asymmetry in a data distribution where values lean toward one tail.",
+    "genre": "data-science",
+    "difficulty": 3,
+    "dateAdded": "2025-12-03",
+    "samplePhrase": "The response-time distribution shows a right skew because of occasional timeout spikes.",
+    "itContext": "Skewed data can mislead averages and requires median or log transforms for accurate analysis.",
+    "alternativeWords": [
+      "asymmetry",
+      "tilt",
+      "distortion",
+      "imbalance"
+    ],
+    "pronunciation": "skyoo",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "data-021",
+    "word": "Outlier",
+    "meaning": "A data point that differs significantly from the rest of the observations.",
+    "genre": "data-science",
+    "difficulty": 2,
+    "dateAdded": "2025-12-04",
+    "samplePhrase": "That 50-second response time is an outlier — the 99th percentile is under 200ms.",
+    "itContext": "Outlier detection is critical for fraud prevention and infrastructure anomaly monitoring.",
+    "alternativeWords": [
+      "anomaly",
+      "aberration",
+      "deviation",
+      "exception"
+    ],
+    "pronunciation": "OWT-ly-er",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "data-022",
+    "word": "Variance",
+    "meaning": "A measure of how far data points spread out from their average value.",
+    "genre": "data-science",
+    "difficulty": 3,
+    "dateAdded": "2025-12-05",
+    "samplePhrase": "High variance in model predictions suggests overfitting to training noise.",
+    "itContext": "The bias-variance tradeoff is a core concept in building generalizable machine learning models.",
+    "alternativeWords": [
+      "spread",
+      "dispersion",
+      "variability",
+      "fluctuation"
+    ],
+    "pronunciation": "VAIR-ee-unce",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "data-023",
+    "word": "Distribution",
+    "meaning": "The way in which values of a variable are spread or arranged across a range.",
+    "genre": "data-science",
+    "difficulty": 2,
+    "dateAdded": "2025-12-06",
+    "samplePhrase": "The latency distribution follows a log-normal pattern with a long right tail.",
+    "itContext": "Understanding data distributions guides the choice of statistical tests and ML algorithms.",
+    "alternativeWords": [
+      "spread",
+      "arrangement",
+      "allocation",
+      "pattern"
+    ],
+    "pronunciation": "dis-trih-BYOO-shun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "data-024",
+    "word": "Hypothesis",
+    "meaning": "A proposed explanation or testable prediction about a phenomenon in the data.",
+    "genre": "data-science",
+    "difficulty": 3,
+    "dateAdded": "2025-12-07",
+    "samplePhrase": "Our hypothesis is that adding caching will reduce P95 latency by at least 30%.",
+    "itContext": "Hypothesis-driven development uses data experiments to validate product and engineering decisions.",
+    "alternativeWords": [
+      "theory",
+      "conjecture",
+      "proposition",
+      "assumption"
+    ],
+    "pronunciation": "hy-POTH-eh-sis",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "data-025",
+    "word": "Empirical",
+    "meaning": "Based on observation or experiment rather than theory or pure logic.",
+    "genre": "data-science",
+    "difficulty": 3,
+    "dateAdded": "2025-12-08",
+    "samplePhrase": "Empirical testing showed that the new algorithm handles edge cases 40% faster.",
+    "itContext": "Empirical evidence from production metrics trumps theoretical performance estimates.",
+    "alternativeWords": [
+      "observational",
+      "experimental",
+      "evidence-based",
+      "practical"
+    ],
+    "pronunciation": "em-PEER-ih-kul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "data-026",
+    "word": "Categorical",
+    "meaning": "Relating to data that represents distinct groups or categories rather than continuous values.",
+    "genre": "data-science",
+    "difficulty": 3,
+    "dateAdded": "2025-12-09",
+    "samplePhrase": "Region and subscription tier are categorical variables that need one-hot encoding.",
+    "itContext": "Categorical features require special encoding before being fed into most ML algorithms.",
+    "alternativeWords": [
+      "discrete",
+      "nominal",
+      "qualitative",
+      "classificatory"
+    ],
+    "pronunciation": "kat-eh-GOR-ih-kul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "data-027",
+    "word": "Continuous",
+    "meaning": "Relating to data that can take any value within a range, without gaps.",
+    "genre": "data-science",
+    "difficulty": 2,
+    "dateAdded": "2025-12-10",
+    "samplePhrase": "Temperature and response time are continuous variables suitable for regression analysis.",
+    "itContext": "Continuous features can be directly used in mathematical models without encoding.",
+    "alternativeWords": [
+      "unbroken",
+      "seamless",
+      "uninterrupted",
+      "flowing"
+    ],
+    "pronunciation": "kun-TIN-yoo-us",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "data-028",
+    "word": "Longitudinal",
+    "meaning": "Involving repeated observations of the same subjects over an extended period.",
+    "genre": "data-science",
+    "difficulty": 4,
+    "dateAdded": "2025-12-11",
+    "samplePhrase": "A longitudinal study of user engagement revealed that feature adoption peaks at week three.",
+    "itContext": "Longitudinal data analysis tracks behavioral changes and trends over time.",
+    "alternativeWords": [
+      "long-term",
+      "temporal",
+      "sequential",
+      "chronological"
+    ],
+    "pronunciation": "lon-jih-TOO-dih-nul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "data-029",
+    "word": "Observational",
+    "meaning": "Based on watching and recording phenomena without manipulating variables.",
+    "genre": "data-science",
+    "difficulty": 3,
+    "dateAdded": "2025-12-12",
+    "samplePhrase": "We conducted an observational study of user navigation patterns before redesigning the UI.",
+    "itContext": "Observational studies are useful when controlled experiments are impractical or unethical.",
+    "alternativeWords": [
+      "descriptive",
+      "naturalistic",
+      "non-experimental",
+      "passive"
+    ],
+    "pronunciation": "ob-zer-VAY-shun-ul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "data-030",
+    "word": "Descriptive",
+    "meaning": "Serving to summarize and characterize the main features of a dataset.",
+    "genre": "data-science",
+    "difficulty": 2,
+    "dateAdded": "2025-12-13",
+    "samplePhrase": "Start with descriptive statistics — mean, median, and standard deviation — before modeling.",
+    "itContext": "Descriptive analytics answers 'what happened' and forms the foundation of data exploration.",
+    "alternativeWords": [
+      "summarizing",
+      "characterizing",
+      "illustrative",
+      "explanatory"
+    ],
+    "pronunciation": "deh-SKRIP-tiv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "data-031",
+    "word": "Inferential",
+    "meaning": "Drawing conclusions about a population based on analysis of a sample.",
+    "genre": "data-science",
+    "difficulty": 4,
+    "dateAdded": "2025-12-14",
+    "samplePhrase": "Inferential statistics let us conclude that the new checkout flow significantly improved conversions.",
+    "itContext": "Inferential analysis enables data-driven decisions by quantifying confidence in sample-based conclusions.",
+    "alternativeWords": [
+      "deductive",
+      "analytical",
+      "conclusive",
+      "interpretive"
+    ],
+    "pronunciation": "in-fer-EN-shul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "data-032",
+    "word": "Quantify",
+    "meaning": "To express or measure something in numerical terms.",
+    "genre": "data-science",
+    "difficulty": 2,
+    "dateAdded": "2025-12-15",
+    "samplePhrase": "We need to quantify the impact of downtime on monthly recurring revenue.",
+    "itContext": "Quantifying technical debt helps justify refactoring efforts to business stakeholders.",
+    "alternativeWords": [
+      "measure",
+      "calculate",
+      "enumerate",
+      "assess"
+    ],
+    "pronunciation": "KWON-tih-fy",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "data-033",
+    "word": "Anomalous",
+    "meaning": "Deviating from what is standard, normal, or expected in the data.",
+    "genre": "data-science",
+    "difficulty": 3,
+    "dateAdded": "2025-12-16",
+    "samplePhrase": "The anomalous traffic spike at 2 AM turned out to be a bot scraping our API.",
+    "itContext": "Anomalous pattern detection is central to security monitoring and fraud prevention systems.",
+    "alternativeWords": [
+      "irregular",
+      "unusual",
+      "atypical",
+      "aberrant"
+    ],
+    "pronunciation": "uh-NOM-uh-lus",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "data-034",
+    "word": "Perturbation",
+    "meaning": "A small change or disturbance introduced to test the stability of a system or model.",
+    "genre": "data-science",
+    "difficulty": 5,
+    "dateAdded": "2025-12-17",
+    "samplePhrase": "We apply perturbations to input features to test model robustness against adversarial attacks.",
+    "itContext": "Perturbation analysis reveals how sensitive a model is to small changes in input data.",
+    "alternativeWords": [
+      "disturbance",
+      "variation",
+      "fluctuation",
+      "alteration"
+    ],
+    "pronunciation": "per-ter-BAY-shun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "data-035",
+    "word": "Attrition",
+    "meaning": "The gradual loss of participants or data points over the course of a study.",
+    "genre": "data-science",
+    "difficulty": 3,
+    "dateAdded": "2025-12-18",
+    "samplePhrase": "High attrition in the cohort study biased the survival analysis results.",
+    "itContext": "Attrition bias in user studies can make retention metrics appear artificially favorable.",
+    "alternativeWords": [
+      "dropout",
+      "loss",
+      "erosion",
+      "depletion"
+    ],
+    "pronunciation": "uh-TRISH-un",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "data-036",
+    "word": "Cohort",
+    "meaning": "A group of subjects sharing a common characteristic, studied over time.",
+    "genre": "data-science",
+    "difficulty": 3,
+    "dateAdded": "2025-12-19",
+    "samplePhrase": "The January signup cohort shows 20% better retention than the December cohort.",
+    "itContext": "Cohort analysis tracks user groups over time to reveal lifecycle patterns and trends.",
+    "alternativeWords": [
+      "group",
+      "segment",
+      "class",
+      "batch"
+    ],
+    "pronunciation": "KO-hort",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "data-037",
+    "word": "Benchmark",
+    "meaning": "A standard or reference point against which performance or quality is measured.",
+    "genre": "data-science",
+    "difficulty": 2,
+    "dateAdded": "2025-12-20",
+    "samplePhrase": "Our model's F1 score exceeds the industry benchmark by 8 percentage points.",
+    "itContext": "Benchmarking models against standardized datasets enables fair comparison across approaches.",
+    "alternativeWords": [
+      "baseline",
+      "standard",
+      "reference",
+      "yardstick"
+    ],
+    "pronunciation": "BENCH-mark",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "data-038",
+    "word": "Calibrate",
+    "meaning": "To adjust a model so its predicted probabilities accurately reflect true likelihoods.",
+    "genre": "data-science",
+    "difficulty": 4,
+    "dateAdded": "2025-12-21",
+    "samplePhrase": "We calibrate the fraud detection model so a 90% confidence score truly means 90% probability.",
+    "itContext": "Calibrated models are essential when predicted probabilities drive business decisions.",
+    "alternativeWords": [
+      "adjust",
+      "tune",
+      "fine-tune",
+      "align"
+    ],
+    "pronunciation": "KAL-ih-brayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "data-039",
+    "word": "Converge",
+    "meaning": "To approach a fixed value or state as iterations of an algorithm progress.",
+    "genre": "data-science",
+    "difficulty": 3,
+    "dateAdded": "2025-12-22",
+    "samplePhrase": "The loss function converges after roughly 200 epochs of training.",
+    "itContext": "Monitoring convergence helps determine when to stop training and avoid wasted compute.",
+    "alternativeWords": [
+      "approach",
+      "stabilize",
+      "settle",
+      "narrow"
+    ],
+    "pronunciation": "kun-VURJ",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "data-040",
+    "word": "Diverge",
+    "meaning": "To move apart or deviate increasingly from a reference point or expected path.",
+    "genre": "data-science",
+    "difficulty": 3,
+    "dateAdded": "2025-12-23",
+    "samplePhrase": "If the learning rate is too high, the training loss will diverge instead of decreasing.",
+    "itContext": "Diverging metrics often indicate misconfigured hyperparameters or data quality issues.",
+    "alternativeWords": [
+      "deviate",
+      "separate",
+      "differ",
+      "stray"
+    ],
+    "pronunciation": "dy-VURJ",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "data-041",
+    "word": "Enumerate",
+    "meaning": "To list or count items systematically, one by one.",
+    "genre": "data-science",
+    "difficulty": 2,
+    "dateAdded": "2025-12-24",
+    "samplePhrase": "First enumerate all unique error codes before grouping them by severity.",
+    "itContext": "Enumerating categories and unique values is a standard first step in exploratory data analysis.",
+    "alternativeWords": [
+      "list",
+      "count",
+      "catalog",
+      "itemize"
+    ],
+    "pronunciation": "ih-NOO-muh-rayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "data-042",
+    "word": "Heuristic",
+    "meaning": "A practical approach or rule of thumb used to find a good-enough solution quickly.",
+    "genre": "data-science",
+    "difficulty": 4,
+    "dateAdded": "2025-12-25",
+    "samplePhrase": "We use a simple heuristic to flag transactions over $10,000 while the ML model trains.",
+    "itContext": "Heuristics provide fast, interpretable baselines before deploying complex ML models.",
+    "alternativeWords": [
+      "rule of thumb",
+      "shortcut",
+      "guideline",
+      "approximation"
+    ],
+    "pronunciation": "hyoo-RIS-tik",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      5,
+      3
+    ]
+  },
+  {
+    "id": "data-043",
+    "word": "Latent",
+    "meaning": "Present but not directly observable; hidden factors underlying observed data.",
+    "genre": "data-science",
+    "difficulty": 4,
+    "dateAdded": "2025-12-26",
+    "samplePhrase": "The recommendation engine captures latent user preferences that aren't explicitly stated.",
+    "itContext": "Latent features extracted by dimensionality reduction reveal hidden structure in high-dimensional data.",
+    "alternativeWords": [
+      "hidden",
+      "underlying",
+      "implicit",
+      "dormant"
+    ],
+    "pronunciation": "LAY-tent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "data-044",
+    "word": "Multivariate",
+    "meaning": "Involving two or more variables simultaneously in analysis.",
+    "genre": "data-science",
+    "difficulty": 4,
+    "dateAdded": "2025-12-27",
+    "samplePhrase": "A multivariate regression reveals how CPU, memory, and disk I/O jointly affect response time.",
+    "itContext": "Multivariate analysis captures complex interactions that univariate methods miss.",
+    "alternativeWords": [
+      "multidimensional",
+      "multi-factor",
+      "complex",
+      "multi-variable"
+    ],
+    "pronunciation": "mul-tee-VAIR-ee-ut",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "data-045",
+    "word": "Ordinal",
+    "meaning": "Relating to data with a meaningful order but without consistent intervals between values.",
+    "genre": "data-science",
+    "difficulty": 4,
+    "dateAdded": "2025-12-28",
+    "samplePhrase": "Customer satisfaction ratings are ordinal data — 'satisfied' is above 'neutral' but the gap isn't uniform.",
+    "itContext": "Ordinal encoding preserves rank order, which is lost with one-hot encoding.",
+    "alternativeWords": [
+      "ranked",
+      "ordered",
+      "sequential",
+      "graded"
+    ],
+    "pronunciation": "OR-dih-nul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5,
+      3
+    ]
+  },
+  {
+    "id": "data-046",
+    "word": "Permutation",
+    "meaning": "A rearrangement of elements in a specific order; used in statistical significance testing.",
+    "genre": "data-science",
+    "difficulty": 4,
+    "dateAdded": "2025-12-29",
+    "samplePhrase": "Permutation importance shows which features the model relies on most.",
+    "itContext": "Permutation tests provide distribution-free significance testing without parametric assumptions.",
+    "alternativeWords": [
+      "arrangement",
+      "reordering",
+      "combination",
+      "variation"
+    ],
+    "pronunciation": "per-myoo-TAY-shun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "data-047",
+    "word": "Posterior",
+    "meaning": "The updated probability of an event after incorporating new evidence or data.",
+    "genre": "data-science",
+    "difficulty": 5,
+    "dateAdded": "2025-12-30",
+    "samplePhrase": "The posterior distribution shifts significantly after we observe the first week of user behavior.",
+    "itContext": "Bayesian posterior updates are used in adaptive A/B testing and online learning systems.",
+    "alternativeWords": [
+      "updated",
+      "revised",
+      "conditional",
+      "resultant"
+    ],
+    "pronunciation": "pos-TEER-ee-or",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      5
+    ]
+  },
+  {
+    "id": "data-048",
+    "word": "Probabilistic",
+    "meaning": "Based on or involving probability and uncertainty rather than certainty.",
+    "genre": "data-science",
+    "difficulty": 3,
+    "dateAdded": "2025-12-31",
+    "samplePhrase": "Our probabilistic forecast gives a confidence interval, not just a single point estimate.",
+    "itContext": "Probabilistic models communicate uncertainty, which is vital for risk-sensitive decisions.",
+    "alternativeWords": [
+      "stochastic",
+      "uncertain",
+      "likelihood-based",
+      "chance-based"
+    ],
+    "pronunciation": "prob-uh-bih-LIS-tik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "data-049",
+    "word": "Stochastic",
+    "meaning": "Randomly determined; having a pattern that can be analyzed statistically but not predicted precisely.",
+    "genre": "data-science",
+    "difficulty": 5,
+    "dateAdded": "2026-01-01",
+    "samplePhrase": "Stochastic gradient descent introduces randomness to escape local minima during optimization.",
+    "itContext": "Stochastic processes model real-world systems where randomness plays a significant role.",
+    "alternativeWords": [
+      "random",
+      "probabilistic",
+      "nondeterministic",
+      "variable"
+    ],
+    "pronunciation": "stoh-KAS-tik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "data-050",
+    "word": "Deterministic",
+    "meaning": "Producing the same output given the same input, with no randomness involved.",
+    "genre": "data-science",
+    "difficulty": 3,
+    "dateAdded": "2026-01-02",
+    "samplePhrase": "Set a random seed to make the experiment deterministic and reproducible.",
+    "itContext": "Deterministic pipelines ensure reproducibility, which is essential for regulated ML systems.",
+    "alternativeWords": [
+      "predictable",
+      "repeatable",
+      "fixed",
+      "consistent"
+    ],
+    "pronunciation": "deh-ter-min-IS-tik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "data-051",
+    "word": "Dimensionality",
+    "meaning": "The number of features or variables in a dataset.",
+    "genre": "data-science",
+    "difficulty": 4,
+    "dateAdded": "2026-01-03",
+    "samplePhrase": "High dimensionality causes the curse of dimensionality — we need PCA to reduce feature count.",
+    "itContext": "Dimensionality reduction techniques like PCA and t-SNE make high-dimensional data manageable.",
+    "alternativeWords": [
+      "feature count",
+      "complexity",
+      "variable space",
+      "breadth"
+    ],
+    "pronunciation": "dy-men-shun-AL-ih-tee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "data-052",
+    "word": "Overfitting",
+    "meaning": "When a model learns noise in the training data instead of the underlying pattern.",
+    "genre": "data-science",
+    "difficulty": 3,
+    "dateAdded": "2026-01-04",
+    "samplePhrase": "The model scores 99% on training data but only 72% on test data — classic overfitting.",
+    "itContext": "Overfitting produces models that perform well on training data but fail in production.",
+    "alternativeWords": [
+      "memorization",
+      "over-training",
+      "over-learning",
+      "over-optimization"
+    ],
+    "pronunciation": "OH-ver-fit-ing",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "id": "data-053",
+    "word": "Underfitting",
+    "meaning": "When a model is too simple to capture the underlying structure of the data.",
+    "genre": "data-science",
+    "difficulty": 3,
+    "dateAdded": "2026-01-05",
+    "samplePhrase": "A linear model underfits this nonlinear relationship — we need polynomial features.",
+    "itContext": "Underfitting indicates the model lacks sufficient complexity or training time.",
+    "alternativeWords": [
+      "oversimplification",
+      "under-learning",
+      "insufficient modeling",
+      "poor fit"
+    ],
+    "pronunciation": "UN-der-fit-ing",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "data-054",
+    "word": "Regularize",
+    "meaning": "To add a penalty term to a model's loss function to prevent overfitting.",
+    "genre": "data-science",
+    "difficulty": 4,
+    "dateAdded": "2026-01-06",
+    "samplePhrase": "We regularize the neural network with L2 penalty to prevent weights from growing too large.",
+    "itContext": "Regularization balances model complexity with generalization performance.",
+    "alternativeWords": [
+      "constrain",
+      "penalize",
+      "smooth",
+      "simplify"
+    ],
+    "pronunciation": "REG-yoo-luh-ryz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "data-055",
+    "word": "Sparse",
+    "meaning": "Having mostly zero or missing values; thinly distributed across a feature space.",
+    "genre": "data-science",
+    "difficulty": 3,
+    "dateAdded": "2026-01-07",
+    "samplePhrase": "The user-item matrix is extremely sparse because most users rate only a handful of products.",
+    "itContext": "Sparse data requires specialized algorithms and storage formats for efficiency.",
+    "alternativeWords": [
+      "thin",
+      "scattered",
+      "empty",
+      "minimal"
+    ],
+    "pronunciation": "spars",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "data-056",
+    "word": "Dense",
+    "meaning": "Having most values filled or populated; closely packed with information.",
+    "genre": "data-science",
+    "difficulty": 2,
+    "dateAdded": "2026-01-08",
+    "samplePhrase": "Word embeddings produce dense vector representations that capture semantic meaning.",
+    "itContext": "Dense representations enable efficient computation and similarity searches in ML pipelines.",
+    "alternativeWords": [
+      "packed",
+      "populated",
+      "compact",
+      "rich"
+    ],
+    "pronunciation": "dens",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "data-057",
+    "word": "Truncate",
+    "meaning": "To shorten data by cutting off values beyond a specified limit.",
+    "genre": "data-science",
+    "difficulty": 2,
+    "dateAdded": "2026-01-09",
+    "samplePhrase": "We truncate text inputs to 512 tokens to fit within the transformer's context window.",
+    "itContext": "Truncation manages resource limits but risks losing relevant information at boundaries.",
+    "alternativeWords": [
+      "shorten",
+      "clip",
+      "cut off",
+      "trim"
+    ],
+    "pronunciation": "TRUNG-kayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "data-058",
+    "word": "Transform",
+    "meaning": "To convert data from one format, structure, or value range into another.",
+    "genre": "data-science",
+    "difficulty": 2,
+    "dateAdded": "2026-01-10",
+    "samplePhrase": "We transform timestamps into day-of-week features to capture weekly usage patterns.",
+    "itContext": "Feature transformation is a key step in ETL pipelines and machine learning preprocessing.",
+    "alternativeWords": [
+      "convert",
+      "reshape",
+      "modify",
+      "translate"
+    ],
+    "pronunciation": "trans-FORM",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "data-059",
+    "word": "Wrangle",
+    "meaning": "To clean, restructure, and enrich raw data into a usable format for analysis.",
+    "genre": "data-science",
+    "difficulty": 2,
+    "dateAdded": "2026-01-11",
+    "samplePhrase": "Data engineers spend 60% of their time wrangling messy CSV exports into clean tables.",
+    "itContext": "Data wrangling is often the most time-consuming step in any analytics or ML project.",
+    "alternativeWords": [
+      "munge",
+      "clean",
+      "prepare",
+      "tidy"
+    ],
+    "pronunciation": "RANG-ul",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "data-060",
+    "word": "Cleanse",
+    "meaning": "To detect and correct corrupt, inaccurate, or irrelevant records in a dataset.",
+    "genre": "data-science",
+    "difficulty": 2,
+    "dateAdded": "2026-01-12",
+    "samplePhrase": "We cleanse the customer database quarterly to remove duplicates and fix formatting errors.",
+    "itContext": "Data cleansing directly impacts model accuracy and downstream analytics quality.",
+    "alternativeWords": [
+      "purify",
+      "scrub",
+      "sanitize",
+      "filter"
+    ],
+    "pronunciation": "klenz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "data-061",
+    "word": "Deduplicate",
+    "meaning": "To identify and remove duplicate records from a dataset.",
+    "genre": "data-science",
+    "difficulty": 3,
+    "dateAdded": "2026-01-13",
+    "samplePhrase": "We deduplicate event logs before analysis to avoid inflating click-through metrics.",
+    "itContext": "Deduplication saves storage costs and prevents skewed analytics from repeated entries.",
+    "alternativeWords": [
+      "de-dupe",
+      "remove duplicates",
+      "merge",
+      "consolidate"
+    ],
+    "pronunciation": "dee-DOO-plih-kayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "data-062",
+    "word": "Segment",
+    "meaning": "To divide data or users into distinct groups based on shared properties.",
+    "genre": "data-science",
+    "difficulty": 2,
+    "dateAdded": "2026-01-14",
+    "samplePhrase": "We segment users by geographic region to personalize content recommendations.",
+    "itContext": "User segmentation powers targeted marketing, personalization, and A/B test design.",
+    "alternativeWords": [
+      "partition",
+      "divide",
+      "group",
+      "classify"
+    ],
+    "pronunciation": "SEG-ment",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "data-063",
+    "word": "Synthesize",
+    "meaning": "To generate artificial data that mimics the statistical properties of real data.",
+    "genre": "data-science",
+    "difficulty": 3,
+    "dateAdded": "2026-01-15",
+    "samplePhrase": "We synthesize training data using GANs to address class imbalance in rare-event detection.",
+    "itContext": "Synthetic data generation enables model training when real data is scarce or sensitive.",
+    "alternativeWords": [
+      "generate",
+      "fabricate",
+      "simulate",
+      "create"
+    ],
+    "pronunciation": "SIN-theh-syz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "data-064",
+    "word": "Tabulate",
+    "meaning": "To arrange data systematically in rows and columns for easy reference.",
+    "genre": "data-science",
+    "difficulty": 2,
+    "dateAdded": "2026-01-16",
+    "samplePhrase": "Tabulate the survey responses by department to spot differences in satisfaction scores.",
+    "itContext": "Tabulated data in structured formats accelerates SQL queries and report generation.",
+    "alternativeWords": [
+      "organize",
+      "chart",
+      "list",
+      "arrange"
+    ],
+    "pronunciation": "TAB-yoo-layt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "data-065",
+    "word": "Vectorize",
+    "meaning": "To convert data into numerical vector representations for mathematical processing.",
+    "genre": "data-science",
+    "difficulty": 4,
+    "dateAdded": "2026-01-17",
+    "samplePhrase": "We vectorize product descriptions using TF-IDF to power the similarity search engine.",
+    "itContext": "Vectorization is essential for NLP pipelines and recommendation systems.",
+    "alternativeWords": [
+      "embed",
+      "encode",
+      "numerify",
+      "transform"
+    ],
+    "pronunciation": "VEK-tor-ryz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "data-066",
+    "word": "Tokenize",
+    "meaning": "To split text into individual units such as words, subwords, or characters.",
+    "genre": "data-science",
+    "difficulty": 3,
+    "dateAdded": "2026-01-18",
+    "samplePhrase": "The NLP pipeline tokenizes each document before computing word frequency distributions.",
+    "itContext": "Tokenization quality directly affects downstream NLP model performance and accuracy.",
+    "alternativeWords": [
+      "segment",
+      "split",
+      "parse",
+      "decompose"
+    ],
+    "pronunciation": "TOH-ken-nyz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "data-067",
+    "word": "Encode",
+    "meaning": "To convert information from one form to another, especially into a numerical representation.",
+    "genre": "data-science",
+    "difficulty": 2,
+    "dateAdded": "2026-01-19",
+    "samplePhrase": "We one-hot encode the country field so the model can process it as numeric input.",
+    "itContext": "Proper encoding of categorical variables is critical for model training accuracy.",
+    "alternativeWords": [
+      "convert",
+      "transform",
+      "represent",
+      "translate"
+    ],
+    "pronunciation": "en-KOHD",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "data-068",
+    "word": "Iterate",
+    "meaning": "To repeat a process of analysis and refinement to progressively improve results.",
+    "genre": "data-science",
+    "difficulty": 2,
+    "dateAdded": "2026-01-20",
+    "samplePhrase": "We iterate on the feature engineering until the validation accuracy plateaus.",
+    "itContext": "Iterative experimentation is fundamental to the data science workflow.",
+    "alternativeWords": [
+      "repeat",
+      "refine",
+      "cycle",
+      "loop"
+    ],
+    "pronunciation": "IT-er-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "data-069",
+    "word": "Optimize",
+    "meaning": "To find the best possible configuration or parameters to maximize or minimize an objective.",
+    "genre": "data-science",
+    "difficulty": 2,
+    "dateAdded": "2026-01-21",
+    "samplePhrase": "We optimize hyperparameters using Bayesian search to minimize validation loss.",
+    "itContext": "Optimization algorithms are the engine behind model training and resource allocation.",
+    "alternativeWords": [
+      "tune",
+      "improve",
+      "maximize",
+      "refine"
+    ],
+    "pronunciation": "OP-tih-myz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "data-070",
+    "word": "Parameterize",
+    "meaning": "To define a model or process in terms of adjustable parameters.",
+    "genre": "data-science",
+    "difficulty": 4,
+    "dateAdded": "2026-01-22",
+    "samplePhrase": "We parameterize the distribution so the model can learn the optimal shape from data.",
+    "itContext": "Parameterized models are flexible and can adapt to different datasets through training.",
+    "alternativeWords": [
+      "configure",
+      "define",
+      "specify",
+      "customize"
+    ],
+    "pronunciation": "puh-RAM-eh-ter-ryz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "data-071",
+    "word": "Validate",
+    "meaning": "To verify that a model or dataset meets expected quality standards and performs correctly.",
+    "genre": "data-science",
+    "difficulty": 2,
+    "dateAdded": "2026-01-23",
+    "samplePhrase": "Always validate your model on held-out data before promoting it to production.",
+    "itContext": "Validation prevents deploying models that appear accurate but fail on real-world data.",
+    "alternativeWords": [
+      "verify",
+      "confirm",
+      "check",
+      "test"
+    ],
+    "pronunciation": "VAL-ih-dayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "data-072",
+    "word": "Bootstrap",
+    "meaning": "To estimate statistics by repeatedly resampling with replacement from the observed data.",
+    "genre": "data-science",
+    "difficulty": 4,
+    "dateAdded": "2026-01-24",
+    "samplePhrase": "We bootstrap confidence intervals around the mean conversion rate from 10,000 resamples.",
+    "itContext": "Bootstrapping provides robust uncertainty estimates without distributional assumptions.",
+    "alternativeWords": [
+      "resample",
+      "simulate",
+      "replicate",
+      "draw"
+    ],
+    "pronunciation": "BOOT-strap",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "data-073",
+    "word": "Ensemble",
+    "meaning": "A combination of multiple models whose predictions are merged for improved accuracy.",
+    "genre": "data-science",
+    "difficulty": 4,
+    "dateAdded": "2026-01-25",
+    "samplePhrase": "An ensemble of random forest, XGBoost, and logistic regression outperforms any single model.",
+    "itContext": "Ensemble methods reduce variance and often win competitive machine learning benchmarks.",
+    "alternativeWords": [
+      "combination",
+      "aggregate",
+      "composite",
+      "blend"
+    ],
+    "pronunciation": "on-SOM-bul",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "data-074",
+    "word": "Augment",
+    "meaning": "To increase the size or diversity of a dataset by creating modified copies of existing data.",
+    "genre": "data-science",
+    "difficulty": 2,
+    "dateAdded": "2026-01-26",
+    "samplePhrase": "We augment the image dataset with rotations and flips to improve model generalization.",
+    "itContext": "Data augmentation is a cost-effective alternative to collecting more labeled training data.",
+    "alternativeWords": [
+      "expand",
+      "enhance",
+      "supplement",
+      "enrich"
+    ],
+    "pronunciation": "awg-MENT",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "data-075",
+    "word": "Ingest",
+    "meaning": "To collect and import data from external sources into a processing system.",
+    "genre": "data-science",
+    "difficulty": 2,
+    "dateAdded": "2026-01-27",
+    "samplePhrase": "The pipeline ingests streaming events from Kafka and writes them to the data lake.",
+    "itContext": "Data ingestion is the entry point of every ETL pipeline and must handle schema evolution.",
+    "alternativeWords": [
+      "import",
+      "consume",
+      "absorb",
+      "load"
+    ],
+    "pronunciation": "in-JEST",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "data-076",
+    "word": "Preprocess",
+    "meaning": "To clean and transform raw data into a format suitable for analysis or model training.",
+    "genre": "data-science",
+    "difficulty": 2,
+    "dateAdded": "2026-01-28",
+    "samplePhrase": "We preprocess text by lowercasing, removing stop words, and stemming before vectorization.",
+    "itContext": "Preprocessing quality directly determines the upper bound of model performance.",
+    "alternativeWords": [
+      "prepare",
+      "clean",
+      "format",
+      "condition"
+    ],
+    "pronunciation": "pree-PROS-es",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "data-077",
+    "word": "Derive",
+    "meaning": "To create new data features by computing them from existing raw data.",
+    "genre": "data-science",
+    "difficulty": 2,
+    "dateAdded": "2026-01-29",
+    "samplePhrase": "We derive a 'days since last login' feature from the raw timestamp column.",
+    "itContext": "Derived features often carry more predictive signal than the raw columns they come from.",
+    "alternativeWords": [
+      "compute",
+      "calculate",
+      "extract",
+      "generate"
+    ],
+    "pronunciation": "dih-RYV",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "data-078",
+    "word": "Confound",
+    "meaning": "A hidden variable that influences both the independent and dependent variables, creating a spurious relationship.",
+    "genre": "data-science",
+    "difficulty": 5,
+    "dateAdded": "2026-01-30",
+    "samplePhrase": "Seasonality is a confound — ice cream sales and drowning incidents both rise in summer.",
+    "itContext": "Identifying confounds is critical to drawing valid causal conclusions from observational data.",
+    "alternativeWords": [
+      "confounder",
+      "lurking variable",
+      "extraneous factor",
+      "hidden cause"
+    ],
+    "pronunciation": "kun-FOWND",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "data-079",
+    "word": "Covariate",
+    "meaning": "An independent variable that may influence the outcome being studied.",
+    "genre": "data-science",
+    "difficulty": 5,
+    "dateAdded": "2026-01-31",
+    "samplePhrase": "We control for the covariate of team size when comparing deployment frequency across squads.",
+    "itContext": "Including relevant covariates in regression models reduces omitted variable bias.",
+    "alternativeWords": [
+      "predictor",
+      "feature",
+      "explanatory variable",
+      "factor"
+    ],
+    "pronunciation": "ko-VAIR-ee-ut",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      5
+    ]
+  },
+  {
+    "id": "data-080",
+    "word": "Residual",
+    "meaning": "The difference between an observed value and the value predicted by a model.",
+    "genre": "data-science",
+    "difficulty": 3,
+    "dateAdded": "2026-02-01",
+    "samplePhrase": "Large residuals in the regression plot indicate the model struggles with extreme values.",
+    "itContext": "Analyzing residual patterns reveals whether the model's assumptions are violated.",
+    "alternativeWords": [
+      "error",
+      "remainder",
+      "deviation",
+      "discrepancy"
+    ],
+    "pronunciation": "reh-ZID-yoo-ul",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "data-081",
+    "word": "Precision",
+    "meaning": "The proportion of positive predictions that are actually correct.",
+    "genre": "data-science",
+    "difficulty": 3,
+    "dateAdded": "2026-02-02",
+    "samplePhrase": "High precision means the spam filter rarely marks legitimate emails as spam.",
+    "itContext": "Precision is critical when false positives carry a high cost, such as blocking valid transactions.",
+    "alternativeWords": [
+      "accuracy",
+      "exactness",
+      "correctness",
+      "specificity"
+    ],
+    "pronunciation": "preh-SIZH-un",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "data-082",
+    "word": "Robust",
+    "meaning": "Able to maintain performance despite noisy data, outliers, or changing conditions.",
+    "genre": "data-science",
+    "difficulty": 2,
+    "dateAdded": "2026-02-03",
+    "samplePhrase": "We need a robust model that doesn't break when the input distribution shifts slightly.",
+    "itContext": "Robust models generalize well across environments and resist overfitting to training noise.",
+    "alternativeWords": [
+      "resilient",
+      "sturdy",
+      "reliable",
+      "durable"
+    ],
+    "pronunciation": "roh-BUST",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "data-083",
+    "word": "Scalable",
+    "meaning": "Able to handle increasing volumes of data or computation without degrading performance.",
+    "genre": "data-science",
+    "difficulty": 2,
+    "dateAdded": "2026-02-04",
+    "samplePhrase": "The pipeline must be scalable enough to process ten billion events per day.",
+    "itContext": "Scalable data architectures use distributed computing to grow with organizational needs.",
+    "alternativeWords": [
+      "expandable",
+      "extensible",
+      "elastic",
+      "growable"
+    ],
+    "pronunciation": "SKAY-luh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "data-084",
+    "word": "Reproducible",
+    "meaning": "Capable of being repeated with the same results by anyone following the same procedure.",
+    "genre": "data-science",
+    "difficulty": 3,
+    "dateAdded": "2026-02-05",
+    "samplePhrase": "Pin all library versions and set random seeds to make the experiment reproducible.",
+    "itContext": "Reproducibility is a cornerstone of scientific rigor and regulatory compliance in ML.",
+    "alternativeWords": [
+      "replicable",
+      "repeatable",
+      "consistent",
+      "verifiable"
+    ],
+    "pronunciation": "ree-proh-DOO-sih-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "data-085",
+    "word": "Heterogeneous",
+    "meaning": "Composed of diverse, dissimilar elements or data types.",
+    "genre": "data-science",
+    "difficulty": 4,
+    "dateAdded": "2026-02-06",
+    "samplePhrase": "Our data lake is heterogeneous, containing JSON, CSV, Parquet, and image files.",
+    "itContext": "Heterogeneous data sources require flexible schemas and unified processing frameworks.",
+    "alternativeWords": [
+      "diverse",
+      "varied",
+      "mixed",
+      "assorted"
+    ],
+    "pronunciation": "het-er-oh-JEE-nee-us",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "data-086",
+    "word": "Homogeneous",
+    "meaning": "Consisting of parts that are all of the same kind; uniform in structure.",
+    "genre": "data-science",
+    "difficulty": 3,
+    "dateAdded": "2026-02-07",
+    "samplePhrase": "A homogeneous dataset with only one demographic group won't generalize to the full population.",
+    "itContext": "Homogeneous data can introduce selection bias and limit model applicability.",
+    "alternativeWords": [
+      "uniform",
+      "consistent",
+      "similar",
+      "alike"
+    ],
+    "pronunciation": "hoh-moh-JEE-nee-us",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "data-087",
+    "word": "Salient",
+    "meaning": "Most noticeable or important; standing out prominently from the surrounding data.",
+    "genre": "data-science",
+    "difficulty": 3,
+    "dateAdded": "2026-02-08",
+    "samplePhrase": "The most salient finding was a 40% drop in engagement after the UI redesign.",
+    "itContext": "Highlighting salient features in data presentations helps stakeholders focus on what matters.",
+    "alternativeWords": [
+      "prominent",
+      "notable",
+      "significant",
+      "conspicuous"
+    ],
+    "pronunciation": "SAY-lee-ent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "data-088",
+    "word": "Temporal",
+    "meaning": "Relating to time; describing data that is indexed or ordered by time.",
+    "genre": "data-science",
+    "difficulty": 3,
+    "dateAdded": "2026-02-09",
+    "samplePhrase": "Temporal features like hour-of-day and day-of-week significantly improve the demand forecast.",
+    "itContext": "Temporal analysis powers time-series forecasting, trend detection, and seasonality modeling.",
+    "alternativeWords": [
+      "time-based",
+      "chronological",
+      "sequential",
+      "time-related"
+    ],
+    "pronunciation": "TEM-puh-rul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "data-089",
+    "word": "Spatial",
+    "meaning": "Relating to physical space or geographic location within data.",
+    "genre": "data-science",
+    "difficulty": 3,
+    "dateAdded": "2026-02-10",
+    "samplePhrase": "Spatial analysis of delivery data reveals underserved neighborhoods for route optimization.",
+    "itContext": "Spatial data processing powers location-based services, mapping, and geospatial analytics.",
+    "alternativeWords": [
+      "geographic",
+      "locational",
+      "positional",
+      "area-based"
+    ],
+    "pronunciation": "SPAY-shul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "data-090",
+    "word": "Semantic",
+    "meaning": "Relating to meaning in language or data, beyond surface-level syntax.",
+    "genre": "data-science",
+    "difficulty": 4,
+    "dateAdded": "2026-02-11",
+    "samplePhrase": "Semantic search finds relevant documents even when query terms don't exactly match the text.",
+    "itContext": "Semantic understanding enables context-aware NLP applications and knowledge graphs.",
+    "alternativeWords": [
+      "meaningful",
+      "contextual",
+      "interpretive",
+      "conceptual"
+    ],
+    "pronunciation": "seh-MAN-tik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "data-091",
+    "word": "Nominal",
+    "meaning": "Relating to data categories that have no inherent order or ranking.",
+    "genre": "data-science",
+    "difficulty": 3,
+    "dateAdded": "2026-02-12",
+    "samplePhrase": "Color and country are nominal variables — there's no natural ranking among them.",
+    "itContext": "Nominal variables require one-hot or target encoding since label encoding implies false order.",
+    "alternativeWords": [
+      "categorical",
+      "unordered",
+      "classificatory",
+      "named"
+    ],
+    "pronunciation": "NOM-ih-nul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "data-092",
+    "word": "Median",
+    "meaning": "The middle value of a sorted dataset, less sensitive to extreme values than the mean.",
+    "genre": "data-science",
+    "difficulty": 1,
+    "dateAdded": "2026-02-13",
+    "samplePhrase": "Use the median response time instead of the mean to avoid skewing by timeout outliers.",
+    "itContext": "Median is preferred for skewed distributions common in latency and salary datasets.",
+    "alternativeWords": [
+      "midpoint",
+      "middle value",
+      "central value",
+      "center"
+    ],
+    "pronunciation": "MEE-dee-un",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "data-093",
+    "word": "Percentile",
+    "meaning": "The value below which a given percentage of observations fall.",
+    "genre": "data-science",
+    "difficulty": 2,
+    "dateAdded": "2026-02-14",
+    "samplePhrase": "Our P99 latency — the 99th percentile — is 450ms, which exceeds the SLA threshold.",
+    "itContext": "Percentile metrics like P50, P95, and P99 are standard for monitoring service performance.",
+    "alternativeWords": [
+      "quantile",
+      "rank",
+      "threshold",
+      "cutoff"
+    ],
+    "pronunciation": "per-SEN-tyl",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "data-094",
+    "word": "Quartile",
+    "meaning": "Any of three values that divide a sorted dataset into four equal parts.",
+    "genre": "data-science",
+    "difficulty": 3,
+    "dateAdded": "2026-02-15",
+    "samplePhrase": "Users in the top quartile of engagement generate 60% of total revenue.",
+    "itContext": "Quartile analysis segments users or metrics into four performance tiers for comparison.",
+    "alternativeWords": [
+      "quarter",
+      "fourth",
+      "segment",
+      "division"
+    ],
+    "pronunciation": "KWOR-tyl",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "data-095",
+    "word": "Binomial",
+    "meaning": "Relating to experiments with exactly two possible outcomes, such as success or failure.",
+    "genre": "data-science",
+    "difficulty": 4,
+    "dateAdded": "2026-02-16",
+    "samplePhrase": "Click-through rate follows a binomial distribution — each impression either converts or not.",
+    "itContext": "Binomial tests are used to evaluate A/B experiments with binary outcome variables.",
+    "alternativeWords": [
+      "two-outcome",
+      "binary",
+      "dichotomous",
+      "dual-state"
+    ],
+    "pronunciation": "by-NOH-mee-ul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "data-096",
+    "word": "Exponential",
+    "meaning": "Growing or decaying at a rate proportional to its current value; rapidly increasing.",
+    "genre": "data-science",
+    "difficulty": 3,
+    "dateAdded": "2026-02-17",
+    "samplePhrase": "The data volume is growing at an exponential rate, doubling every six months.",
+    "itContext": "Exponential distributions model time between events in queuing systems and failure analysis.",
+    "alternativeWords": [
+      "rapid",
+      "geometric",
+      "accelerating",
+      "compounding"
+    ],
+    "pronunciation": "ek-spoh-NEN-shul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "data-097",
+    "word": "Logarithmic",
+    "meaning": "Increasing by progressively smaller increments; the inverse of exponential growth.",
+    "genre": "data-science",
+    "difficulty": 4,
+    "dateAdded": "2026-02-18",
+    "samplePhrase": "Apply a logarithmic transformation to compress the wide range of income values.",
+    "itContext": "Log transforms tame skewed distributions and make multiplicative relationships linear.",
+    "alternativeWords": [
+      "log-scale",
+      "compressed",
+      "diminishing",
+      "gradual"
+    ],
+    "pronunciation": "log-uh-RITH-mik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "data-098",
+    "word": "Asymptotic",
+    "meaning": "Approaching a value or limit increasingly closely but never quite reaching it.",
+    "genre": "data-science",
+    "difficulty": 5,
+    "dateAdded": "2026-02-19",
+    "samplePhrase": "Model accuracy shows asymptotic behavior — adding more data yields diminishing returns.",
+    "itContext": "Asymptotic analysis helps determine when collecting more data stops being cost-effective.",
+    "alternativeWords": [
+      "limiting",
+      "approaching",
+      "converging",
+      "bounding"
+    ],
+    "pronunciation": "as-im-TOT-ik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "data-099",
+    "word": "Monotonic",
+    "meaning": "Consistently increasing or consistently decreasing, never changing direction.",
+    "genre": "data-science",
+    "difficulty": 4,
+    "dateAdded": "2026-02-20",
+    "samplePhrase": "We enforce a monotonic constraint so predicted risk never decreases as debt increases.",
+    "itContext": "Monotonic constraints ensure model predictions align with known domain relationships.",
+    "alternativeWords": [
+      "unidirectional",
+      "consistent",
+      "steady",
+      "uniform"
+    ],
+    "pronunciation": "mon-oh-TON-ik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "data-100",
+    "word": "Parsimonious",
+    "meaning": "Achieving a desired level of explanation or prediction with the fewest possible parameters.",
+    "genre": "data-science",
+    "difficulty": 5,
+    "dateAdded": "2026-02-21",
+    "samplePhrase": "A parsimonious model with five features outperforms the bloated model with fifty.",
+    "itContext": "Parsimony favors simpler models that generalize better and are easier to maintain in production.",
+    "alternativeWords": [
+      "economical",
+      "minimal",
+      "concise",
+      "streamlined"
+    ],
+    "pronunciation": "par-sih-MOH-nee-us",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      5,
+      4
+    ]
+  }
+]

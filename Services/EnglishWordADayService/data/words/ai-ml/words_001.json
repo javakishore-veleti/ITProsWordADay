@@ -1,0 +1,2249 @@
+[
+  {
+    "id": "ai-001",
+    "word": "Inference",
+    "meaning": "The process of using a trained model to make predictions or decisions on new, unseen data.",
+    "genre": "ai-ml",
+    "difficulty": 3,
+    "dateAdded": "2025-11-14",
+    "samplePhrase": "The inference latency for our image classifier is under 50ms per request in production.",
+    "itContext": "Optimizing inference speed is critical for real-time AI-powered applications and APIs.",
+    "alternativeWords": [
+      "prediction",
+      "deduction",
+      "estimation",
+      "evaluation"
+    ],
+    "pronunciation": "IN-fer-ens",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "ai-002",
+    "word": "Hallucinate",
+    "meaning": "When an AI model generates plausible-sounding but factually incorrect or fabricated information.",
+    "genre": "ai-ml",
+    "difficulty": 3,
+    "dateAdded": "2025-11-15",
+    "samplePhrase": "The LLM hallucinated a nonexistent API method, so we must validate all AI-generated code.",
+    "itContext": "AI hallucinations are a key challenge in production LLM applications requiring fact-checking.",
+    "alternativeWords": [
+      "fabricate",
+      "confabulate",
+      "invent",
+      "misgenerate"
+    ],
+    "pronunciation": "hah-LOO-sih-nayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "ai-003",
+    "word": "Augment",
+    "meaning": "To enhance or increase the capabilities of something by adding to it.",
+    "genre": "ai-ml",
+    "difficulty": 2,
+    "dateAdded": "2025-11-16",
+    "samplePhrase": "We augment the training dataset with synthetic examples to improve model generalization.",
+    "itContext": "Data augmentation expands training data and reduces overfitting in computer vision models.",
+    "alternativeWords": [
+      "enhance",
+      "supplement",
+      "amplify",
+      "enrich"
+    ],
+    "pronunciation": "awg-MENT",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "ai-004",
+    "word": "Extrapolate",
+    "meaning": "To extend known data or trends into an unknown area to make predictions beyond observed values.",
+    "genre": "ai-ml",
+    "difficulty": 4,
+    "dateAdded": "2025-11-17",
+    "samplePhrase": "The model can extrapolate future demand based on historical seasonality patterns.",
+    "itContext": "Extrapolation beyond training data distribution often leads to unreliable model predictions.",
+    "alternativeWords": [
+      "project",
+      "estimate",
+      "forecast",
+      "predict"
+    ],
+    "pronunciation": "ek-STRAP-oh-layt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "ai-005",
+    "word": "Interpolate",
+    "meaning": "To estimate values between two known data points; to fill in missing data within a range.",
+    "genre": "ai-ml",
+    "difficulty": 4,
+    "dateAdded": "2025-11-18",
+    "samplePhrase": "The model interpolates missing sensor readings to maintain a continuous time series.",
+    "itContext": "Interpolation works well within the training distribution but fails outside it.",
+    "alternativeWords": [
+      "estimate",
+      "approximate",
+      "infer",
+      "fill in"
+    ],
+    "pronunciation": "in-TER-poh-layt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "ai-006",
+    "word": "Calibrate",
+    "meaning": "To adjust the accuracy of a model so its predicted probabilities match actual observed frequencies.",
+    "genre": "ai-ml",
+    "difficulty": 3,
+    "dateAdded": "2025-11-19",
+    "samplePhrase": "After calibrating the model, a 90% confidence prediction is correct roughly 90% of the time.",
+    "itContext": "Well-calibrated models are essential for applications where prediction confidence drives decisions.",
+    "alternativeWords": [
+      "adjust",
+      "tune",
+      "standardize",
+      "fine-tune"
+    ],
+    "pronunciation": "KAL-ih-brayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "ai-007",
+    "word": "Converge",
+    "meaning": "To approach a limit or final value; when a training process reaches a stable, optimal state.",
+    "genre": "ai-ml",
+    "difficulty": 3,
+    "dateAdded": "2025-11-20",
+    "samplePhrase": "The loss function converged after 50 epochs, indicating the model has learned the pattern.",
+    "itContext": "Monitoring convergence curves helps determine when to stop training and avoid overfitting.",
+    "alternativeWords": [
+      "stabilize",
+      "settle",
+      "approach",
+      "reach equilibrium"
+    ],
+    "pronunciation": "kun-VERJ",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "id": "ai-008",
+    "word": "Diverge",
+    "meaning": "To separate and go in different directions; when a training process becomes unstable and worsens.",
+    "genre": "ai-ml",
+    "difficulty": 3,
+    "dateAdded": "2025-11-21",
+    "samplePhrase": "The training loss started to diverge after we increased the learning rate too aggressively.",
+    "itContext": "Diverging loss indicates the learning rate is too high or the data has quality issues.",
+    "alternativeWords": [
+      "deviate",
+      "separate",
+      "branch",
+      "depart"
+    ],
+    "pronunciation": "dy-VERJ",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "ai-009",
+    "word": "Stochastic",
+    "meaning": "Randomly determined; involving a random probability distribution that can be statistically analyzed.",
+    "genre": "ai-ml",
+    "difficulty": 5,
+    "dateAdded": "2025-11-22",
+    "samplePhrase": "Stochastic gradient descent updates model weights using random mini-batches instead of the full dataset.",
+    "itContext": "Stochastic methods introduce beneficial randomness that helps models escape local minima.",
+    "alternativeWords": [
+      "random",
+      "probabilistic",
+      "nondeterministic",
+      "aleatory"
+    ],
+    "pronunciation": "stoh-KAS-tik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "ai-010",
+    "word": "Deterministic",
+    "meaning": "Producing the same output for the same input every time, with no randomness involved.",
+    "genre": "ai-ml",
+    "difficulty": 4,
+    "dateAdded": "2025-11-23",
+    "samplePhrase": "Setting a random seed makes the training process deterministic for reproducible experiments.",
+    "itContext": "Deterministic reproducibility is crucial for debugging ML pipelines and validating results.",
+    "alternativeWords": [
+      "predictable",
+      "consistent",
+      "repeatable",
+      "fixed"
+    ],
+    "pronunciation": "deh-TER-min-IS-tik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "ai-011",
+    "word": "Supervised",
+    "meaning": "A type of learning where the model is trained on labeled data with known correct outputs.",
+    "genre": "ai-ml",
+    "difficulty": 2,
+    "dateAdded": "2025-11-24",
+    "samplePhrase": "Our spam classifier uses supervised learning trained on millions of manually labeled emails.",
+    "itContext": "Supervised learning requires labeled datasets, which can be expensive and time-consuming to create.",
+    "alternativeWords": [
+      "guided",
+      "directed",
+      "instructed",
+      "labeled"
+    ],
+    "pronunciation": "SOO-per-vyzd",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "ai-012",
+    "word": "Unsupervised",
+    "meaning": "A type of learning where the model finds patterns in data without labeled examples or guidance.",
+    "genre": "ai-ml",
+    "difficulty": 3,
+    "dateAdded": "2025-11-25",
+    "samplePhrase": "Unsupervised clustering revealed three distinct user segments we had not previously identified.",
+    "itContext": "Unsupervised learning excels at discovering hidden patterns and groupings in unlabeled data.",
+    "alternativeWords": [
+      "unguided",
+      "self-directed",
+      "autonomous",
+      "undirected"
+    ],
+    "pronunciation": "un-SOO-per-vyzd",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "ai-013",
+    "word": "Generative",
+    "meaning": "Capable of producing or creating new content; models that generate text, images, or other outputs.",
+    "genre": "ai-ml",
+    "difficulty": 3,
+    "dateAdded": "2025-11-26",
+    "samplePhrase": "The generative model can create realistic product descriptions from just a few keywords.",
+    "itContext": "Generative AI transforms content creation but requires guardrails for quality and safety.",
+    "alternativeWords": [
+      "creative",
+      "productive",
+      "constructive",
+      "originative"
+    ],
+    "pronunciation": "JEN-er-uh-tiv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "ai-014",
+    "word": "Discriminative",
+    "meaning": "A model that learns the boundary between classes to classify inputs rather than generating new data.",
+    "genre": "ai-ml",
+    "difficulty": 4,
+    "dateAdded": "2025-11-27",
+    "samplePhrase": "The discriminative classifier achieves 98% accuracy distinguishing fraudulent from legitimate transactions.",
+    "itContext": "Discriminative models focus on decision boundaries, making them efficient for classification tasks.",
+    "alternativeWords": [
+      "classifying",
+      "distinguishing",
+      "differentiating",
+      "separating"
+    ],
+    "pronunciation": "dis-KRIM-in-uh-tiv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "ai-015",
+    "word": "Adversarial",
+    "meaning": "Designed to deceive or attack; inputs crafted to fool machine learning models into making errors.",
+    "genre": "ai-ml",
+    "difficulty": 4,
+    "dateAdded": "2025-11-28",
+    "samplePhrase": "Adversarial examples with imperceptible pixel changes caused the image classifier to misidentify a stop sign.",
+    "itContext": "Adversarial robustness testing is essential before deploying ML models in safety-critical systems.",
+    "alternativeWords": [
+      "hostile",
+      "antagonistic",
+      "opposing",
+      "deceptive"
+    ],
+    "pronunciation": "ad-ver-SAIR-ee-ul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "ai-016",
+    "word": "Overfit",
+    "meaning": "When a model learns the training data too well, including noise, and fails to generalize to new data.",
+    "genre": "ai-ml",
+    "difficulty": 3,
+    "dateAdded": "2025-11-29",
+    "samplePhrase": "The model overfit to the training set, achieving 99% accuracy in training but only 60% in production.",
+    "itContext": "Overfitting is detected when training metrics are significantly better than validation metrics.",
+    "alternativeWords": [
+      "memorize",
+      "over-train",
+      "over-learn",
+      "over-specialize"
+    ],
+    "pronunciation": "OH-ver-fit",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "ai-017",
+    "word": "Underfit",
+    "meaning": "When a model is too simple to capture the underlying patterns in the data.",
+    "genre": "ai-ml",
+    "difficulty": 3,
+    "dateAdded": "2025-11-30",
+    "samplePhrase": "The linear model underfits the data — we need a more complex architecture to capture the non-linear relationships.",
+    "itContext": "Underfitting indicates the model lacks capacity, requiring more parameters or better features.",
+    "alternativeWords": [
+      "oversimplify",
+      "under-train",
+      "under-learn"
+    ],
+    "pronunciation": "UN-der-fit",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "ai-018",
+    "word": "Regularize",
+    "meaning": "To add constraints or penalties to a model to prevent overfitting and improve generalization.",
+    "genre": "ai-ml",
+    "difficulty": 4,
+    "dateAdded": "2025-12-01",
+    "samplePhrase": "We regularize the neural network with dropout and L2 penalties to prevent memorizing the training data.",
+    "itContext": "Regularization techniques like dropout, L1, and L2 are standard tools for combating overfitting.",
+    "alternativeWords": [
+      "constrain",
+      "penalize",
+      "normalize",
+      "restrict"
+    ],
+    "pronunciation": "REG-yoo-luh-ryz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "ai-019",
+    "word": "Tokenize",
+    "meaning": "To break text into smaller units called tokens, such as words, subwords, or characters.",
+    "genre": "ai-ml",
+    "difficulty": 3,
+    "dateAdded": "2025-12-02",
+    "samplePhrase": "The tokenizer splits the sentence into subword tokens that the transformer model can process.",
+    "itContext": "Tokenization strategy directly impacts model vocabulary size, training speed, and output quality.",
+    "alternativeWords": [
+      "segment",
+      "split",
+      "decompose",
+      "parse"
+    ],
+    "pronunciation": "TOH-keh-nyz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "ai-020",
+    "word": "Vectorize",
+    "meaning": "To convert data into numerical vector representations that machine learning models can process.",
+    "genre": "ai-ml",
+    "difficulty": 3,
+    "dateAdded": "2025-12-03",
+    "samplePhrase": "We vectorize the product descriptions so the recommendation engine can compute similarity scores.",
+    "itContext": "Vectorization transforms unstructured data into a format suitable for mathematical operations.",
+    "alternativeWords": [
+      "embed",
+      "encode",
+      "digitize",
+      "numeralize"
+    ],
+    "pronunciation": "VEK-tuh-ryz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "ai-021",
+    "word": "Semantic",
+    "meaning": "Relating to meaning in language; understanding the intent and context behind words or data.",
+    "genre": "ai-ml",
+    "difficulty": 3,
+    "dateAdded": "2025-12-04",
+    "samplePhrase": "Semantic search finds results based on meaning rather than exact keyword matching.",
+    "itContext": "Semantic understanding enables AI to process queries like a human would interpret them.",
+    "alternativeWords": [
+      "meaningful",
+      "contextual",
+      "interpretive",
+      "conceptual"
+    ],
+    "pronunciation": "seh-MAN-tik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "ai-022",
+    "word": "Syntactic",
+    "meaning": "Relating to the arrangement and structure of words or code; grammatical form rather than meaning.",
+    "genre": "ai-ml",
+    "difficulty": 4,
+    "dateAdded": "2025-12-05",
+    "samplePhrase": "The parser performs syntactic analysis to understand the grammatical structure before semantic processing.",
+    "itContext": "NLP models must handle both syntactic structure and semantic meaning for accurate understanding.",
+    "alternativeWords": [
+      "structural",
+      "grammatical",
+      "formal",
+      "compositional"
+    ],
+    "pronunciation": "sin-TAK-tik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "ai-023",
+    "word": "Embedding",
+    "meaning": "A dense vector representation that captures the meaning and relationships of data in continuous space.",
+    "genre": "ai-ml",
+    "difficulty": 4,
+    "dateAdded": "2025-12-06",
+    "samplePhrase": "Word embeddings place semantically similar words close together in the vector space.",
+    "itContext": "Embeddings power semantic search, recommendation systems, and transfer learning in modern AI.",
+    "alternativeWords": [
+      "representation",
+      "encoding",
+      "vector",
+      "projection"
+    ],
+    "pronunciation": "em-BED-ing",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "ai-024",
+    "word": "Propagate",
+    "meaning": "To transmit signals through layers of a neural network during forward or backward passes.",
+    "genre": "ai-ml",
+    "difficulty": 3,
+    "dateAdded": "2025-12-07",
+    "samplePhrase": "Errors propagate backward through the network layers during backpropagation to update weights.",
+    "itContext": "Backpropagation is the fundamental algorithm that enables neural networks to learn from errors.",
+    "alternativeWords": [
+      "transmit",
+      "pass",
+      "spread",
+      "cascade"
+    ],
+    "pronunciation": "PROP-uh-gayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "ai-025",
+    "word": "Optimize",
+    "meaning": "To make something as effective as possible; to find the best parameters that minimize loss.",
+    "genre": "ai-ml",
+    "difficulty": 2,
+    "dateAdded": "2025-12-08",
+    "samplePhrase": "We use the Adam optimizer to efficiently optimize the loss function during training.",
+    "itContext": "Choosing the right optimization algorithm significantly impacts training speed and model quality.",
+    "alternativeWords": [
+      "improve",
+      "refine",
+      "enhance",
+      "fine-tune"
+    ],
+    "pronunciation": "OP-tih-myz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "ai-026",
+    "word": "Gradient",
+    "meaning": "The rate of change of a function; the direction and magnitude of steepest ascent used to update model weights.",
+    "genre": "ai-ml",
+    "difficulty": 4,
+    "dateAdded": "2025-12-09",
+    "samplePhrase": "The gradient indicates which direction to adjust the weights to reduce the prediction error.",
+    "itContext": "Vanishing and exploding gradients are common challenges in training deep neural networks.",
+    "alternativeWords": [
+      "slope",
+      "derivative",
+      "rate of change",
+      "differential"
+    ],
+    "pronunciation": "GRAY-dee-ent",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "ai-027",
+    "word": "Heuristic",
+    "meaning": "A practical approach to problem-solving that uses shortcuts to find good-enough solutions quickly.",
+    "genre": "ai-ml",
+    "difficulty": 4,
+    "dateAdded": "2025-12-10",
+    "samplePhrase": "Before training a full model, we use heuristic rules to establish a performance baseline.",
+    "itContext": "Heuristic baselines help teams assess whether complex ML models add meaningful value.",
+    "alternativeWords": [
+      "rule of thumb",
+      "guideline",
+      "approximation",
+      "shortcut"
+    ],
+    "pronunciation": "hyoo-RIS-tik",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "ai-028",
+    "word": "Autonomous",
+    "meaning": "Acting independently without human intervention; self-governing AI systems that make decisions alone.",
+    "genre": "ai-ml",
+    "difficulty": 2,
+    "dateAdded": "2025-12-11",
+    "samplePhrase": "The autonomous deployment pipeline decides whether to promote or roll back based on metric thresholds.",
+    "itContext": "Autonomous AI systems require robust safety boundaries and human oversight mechanisms.",
+    "alternativeWords": [
+      "self-governing",
+      "independent",
+      "self-directed",
+      "automated"
+    ],
+    "pronunciation": "aw-TON-oh-mus",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "ai-029",
+    "word": "Cognitive",
+    "meaning": "Relating to the mental processes of perception, memory, judgment, and reasoning.",
+    "genre": "ai-ml",
+    "difficulty": 3,
+    "dateAdded": "2025-12-12",
+    "samplePhrase": "Cognitive computing systems attempt to simulate human thought processes for complex decision-making.",
+    "itContext": "Cognitive AI services from cloud providers offer ready-made vision, speech, and language APIs.",
+    "alternativeWords": [
+      "mental",
+      "intellectual",
+      "thinking",
+      "reasoning"
+    ],
+    "pronunciation": "KOG-nih-tiv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "ai-030",
+    "word": "Probabilistic",
+    "meaning": "Based on or subject to probability; dealing with outcomes that have degrees of likelihood.",
+    "genre": "ai-ml",
+    "difficulty": 4,
+    "dateAdded": "2025-12-13",
+    "samplePhrase": "The probabilistic model outputs a confidence score rather than a hard yes-or-no classification.",
+    "itContext": "Probabilistic reasoning enables AI systems to handle uncertainty and express confidence levels.",
+    "alternativeWords": [
+      "statistical",
+      "stochastic",
+      "likelihood-based",
+      "chance-based"
+    ],
+    "pronunciation": "prob-uh-bih-LIS-tik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "ai-031",
+    "word": "Latent",
+    "meaning": "Hidden or not directly observable; underlying features or representations learned by a model.",
+    "genre": "ai-ml",
+    "difficulty": 3,
+    "dateAdded": "2025-12-14",
+    "samplePhrase": "The autoencoder learns a latent representation that captures the essential features of the input.",
+    "itContext": "Latent space representations enable generative models to create novel but coherent outputs.",
+    "alternativeWords": [
+      "hidden",
+      "underlying",
+      "implicit",
+      "concealed"
+    ],
+    "pronunciation": "LAY-tent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "ai-032",
+    "word": "Epoch",
+    "meaning": "One complete pass through the entire training dataset during model training.",
+    "genre": "ai-ml",
+    "difficulty": 2,
+    "dateAdded": "2025-12-15",
+    "samplePhrase": "The model achieves best validation accuracy after training for 30 epochs with early stopping.",
+    "itContext": "Too many epochs cause overfitting while too few lead to underfitting — finding the balance is key.",
+    "alternativeWords": [
+      "iteration",
+      "cycle",
+      "pass",
+      "round"
+    ],
+    "pronunciation": "EP-ok",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "ai-033",
+    "word": "Perceptron",
+    "meaning": "The simplest form of a neural network, consisting of a single neuron that makes binary decisions.",
+    "genre": "ai-ml",
+    "difficulty": 3,
+    "dateAdded": "2025-12-16",
+    "samplePhrase": "A multi-layer perceptron can approximate any continuous function given enough hidden neurons.",
+    "itContext": "The perceptron is the historical building block that evolved into modern deep learning architectures.",
+    "alternativeWords": [
+      "neuron",
+      "unit",
+      "node",
+      "classifier"
+    ],
+    "pronunciation": "per-SEP-tron",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "ai-034",
+    "word": "Transformer",
+    "meaning": "A neural network architecture based on self-attention mechanisms that processes sequences in parallel.",
+    "genre": "ai-ml",
+    "difficulty": 4,
+    "dateAdded": "2025-12-17",
+    "samplePhrase": "The transformer architecture revolutionized NLP by enabling efficient parallel processing of sequences.",
+    "itContext": "Transformers power GPT, BERT, and most modern language models used in production today.",
+    "alternativeWords": [
+      "attention model",
+      "sequence processor",
+      "encoder-decoder"
+    ],
+    "pronunciation": "trans-FOR-mer",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "ai-035",
+    "word": "Corpus",
+    "meaning": "A large and structured set of texts or data used for training and evaluating language models.",
+    "genre": "ai-ml",
+    "difficulty": 3,
+    "dateAdded": "2025-12-18",
+    "samplePhrase": "The model was pretrained on a diverse corpus of web text, books, and academic papers.",
+    "itContext": "Corpus quality and diversity directly determine the capabilities and biases of trained models.",
+    "alternativeWords": [
+      "dataset",
+      "collection",
+      "repository",
+      "body of text"
+    ],
+    "pronunciation": "KOR-pus",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "ai-036",
+    "word": "Salient",
+    "meaning": "Most noticeable or important; the features that a model pays the most attention to.",
+    "genre": "ai-ml",
+    "difficulty": 3,
+    "dateAdded": "2025-12-19",
+    "samplePhrase": "The attention map highlights the salient regions of the image that influenced the classification.",
+    "itContext": "Saliency maps provide visual explanations of which input features drive model predictions.",
+    "alternativeWords": [
+      "prominent",
+      "notable",
+      "conspicuous",
+      "key"
+    ],
+    "pronunciation": "SAY-lee-ent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "ai-037",
+    "word": "Ablation",
+    "meaning": "The systematic removal of model components to understand their individual contribution to performance.",
+    "genre": "ai-ml",
+    "difficulty": 5,
+    "dateAdded": "2025-12-20",
+    "samplePhrase": "The ablation study revealed that removing the attention layer decreased accuracy by 12%.",
+    "itContext": "Ablation studies are standard practice in ML research to justify architectural decisions.",
+    "alternativeWords": [
+      "removal study",
+      "component analysis",
+      "elimination test"
+    ],
+    "pronunciation": "ab-LAY-shun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "ai-038",
+    "word": "Perturbation",
+    "meaning": "A small change or disturbance applied to data to test model robustness or generate adversarial examples.",
+    "genre": "ai-ml",
+    "difficulty": 4,
+    "dateAdded": "2025-12-21",
+    "samplePhrase": "Adding small perturbations to the input image caused the model to misclassify it completely.",
+    "itContext": "Perturbation testing reveals how sensitive models are to small changes in input data.",
+    "alternativeWords": [
+      "disturbance",
+      "alteration",
+      "modification",
+      "variation"
+    ],
+    "pronunciation": "per-ter-BAY-shun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "ai-039",
+    "word": "Annotation",
+    "meaning": "The process of labeling data with relevant tags or categories to create training datasets.",
+    "genre": "ai-ml",
+    "difficulty": 2,
+    "dateAdded": "2025-12-22",
+    "samplePhrase": "We hired a team of annotators to label 100,000 images for the object detection dataset.",
+    "itContext": "High-quality annotations are essential for supervised learning but can be a major cost center.",
+    "alternativeWords": [
+      "labeling",
+      "tagging",
+      "marking",
+      "categorizing"
+    ],
+    "pronunciation": "an-oh-TAY-shun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "ai-040",
+    "word": "Benchmark",
+    "meaning": "A standardized test or dataset used to evaluate and compare model performance.",
+    "genre": "ai-ml",
+    "difficulty": 2,
+    "dateAdded": "2025-12-23",
+    "samplePhrase": "Our model outperforms the current state-of-the-art on the GLUE benchmark by 2.3 points.",
+    "itContext": "Standard benchmarks like ImageNet and GLUE enable fair comparison between competing approaches.",
+    "alternativeWords": [
+      "standard",
+      "baseline",
+      "reference",
+      "yardstick"
+    ],
+    "pronunciation": "BENCH-mark",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "ai-041",
+    "word": "Convolutional",
+    "meaning": "Relating to the mathematical operation of convolution; a neural network layer that detects spatial patterns.",
+    "genre": "ai-ml",
+    "difficulty": 5,
+    "dateAdded": "2025-12-24",
+    "samplePhrase": "The convolutional layers extract edges, textures, and shapes before the classifier makes a decision.",
+    "itContext": "Convolutional neural networks dominate image recognition, video analysis, and spatial data processing.",
+    "alternativeWords": [
+      "spatial filtering",
+      "feature-extracting",
+      "pattern-detecting"
+    ],
+    "pronunciation": "kon-voh-LOO-shun-ul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "ai-042",
+    "word": "Recurrent",
+    "meaning": "Occurring repeatedly; a neural network that processes sequential data by maintaining internal state.",
+    "genre": "ai-ml",
+    "difficulty": 4,
+    "dateAdded": "2025-12-25",
+    "samplePhrase": "Recurrent neural networks maintain a hidden state that captures context from previous time steps.",
+    "itContext": "RNNs and LSTMs were the standard for sequence modeling before transformers became dominant.",
+    "alternativeWords": [
+      "repeating",
+      "cyclical",
+      "sequential",
+      "iterative"
+    ],
+    "pronunciation": "rih-KUR-ent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "ai-043",
+    "word": "Hyperparameter",
+    "meaning": "A configuration value set before training that controls the learning process rather than being learned from data.",
+    "genre": "ai-ml",
+    "difficulty": 3,
+    "dateAdded": "2025-12-26",
+    "samplePhrase": "Tuning hyperparameters like learning rate, batch size, and dropout rate improved accuracy by 5%.",
+    "itContext": "Automated hyperparameter tuning tools like Optuna and Ray Tune reduce manual experimentation.",
+    "alternativeWords": [
+      "configuration",
+      "setting",
+      "tuning parameter",
+      "meta-parameter"
+    ],
+    "pronunciation": "HY-per-puh-RAM-eh-ter",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "ai-044",
+    "word": "Distillation",
+    "meaning": "The process of training a smaller model to reproduce the behavior of a larger, more complex model.",
+    "genre": "ai-ml",
+    "difficulty": 4,
+    "dateAdded": "2025-12-27",
+    "samplePhrase": "Knowledge distillation compressed our 13B parameter model into a 1B model with only 3% accuracy loss.",
+    "itContext": "Model distillation enables deploying AI on edge devices with limited compute resources.",
+    "alternativeWords": [
+      "compression",
+      "simplification",
+      "condensation",
+      "reduction"
+    ],
+    "pronunciation": "dis-tih-LAY-shun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "ai-045",
+    "word": "Quantize",
+    "meaning": "To reduce the precision of model weights from floating point to lower-bit representations.",
+    "genre": "ai-ml",
+    "difficulty": 4,
+    "dateAdded": "2025-12-28",
+    "samplePhrase": "Quantizing the model from 32-bit to 8-bit reduced memory usage by 75% with minimal accuracy loss.",
+    "itContext": "Quantization is essential for deploying large language models on consumer hardware.",
+    "alternativeWords": [
+      "compress",
+      "reduce",
+      "discretize",
+      "approximate"
+    ],
+    "pronunciation": "KWON-tyz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "ai-046",
+    "word": "Finetune",
+    "meaning": "To further train a pretrained model on a specific dataset to adapt it for a particular task.",
+    "genre": "ai-ml",
+    "difficulty": 2,
+    "dateAdded": "2025-12-29",
+    "samplePhrase": "We finetuned the base language model on our customer support transcripts for better domain accuracy.",
+    "itContext": "Finetuning is more cost-effective than training from scratch and leverages existing knowledge.",
+    "alternativeWords": [
+      "adapt",
+      "customize",
+      "specialize",
+      "refine"
+    ],
+    "pronunciation": "FYN-toon",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "ai-047",
+    "word": "Pretrained",
+    "meaning": "A model that has already been trained on a large general dataset before being adapted for specific tasks.",
+    "genre": "ai-ml",
+    "difficulty": 2,
+    "dateAdded": "2025-12-30",
+    "samplePhrase": "Using a pretrained model as a starting point saved us weeks of training time and compute costs.",
+    "itContext": "Pretrained foundation models have democratized access to powerful AI capabilities.",
+    "alternativeWords": [
+      "pre-learned",
+      "pre-built",
+      "foundational",
+      "base"
+    ],
+    "pronunciation": "pree-TRAYND",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "ai-048",
+    "word": "Bias",
+    "meaning": "Systematic error in model predictions caused by flawed assumptions or unrepresentative training data.",
+    "genre": "ai-ml",
+    "difficulty": 2,
+    "dateAdded": "2025-12-31",
+    "samplePhrase": "The hiring model showed bias against certain demographics because the training data reflected historical inequities.",
+    "itContext": "Detecting and mitigating AI bias is an ethical imperative for fair and responsible deployment.",
+    "alternativeWords": [
+      "prejudice",
+      "skew",
+      "partiality",
+      "tendency"
+    ],
+    "pronunciation": "BY-us",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "ai-049",
+    "word": "Variance",
+    "meaning": "The sensitivity of a model to fluctuations in the training data; high variance indicates overfitting.",
+    "genre": "ai-ml",
+    "difficulty": 3,
+    "dateAdded": "2026-01-01",
+    "samplePhrase": "The model shows high variance — performance changes dramatically with different training splits.",
+    "itContext": "The bias-variance tradeoff is a fundamental concept in understanding model generalization.",
+    "alternativeWords": [
+      "variability",
+      "fluctuation",
+      "instability",
+      "sensitivity"
+    ],
+    "pronunciation": "VAIR-ee-ens",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "ai-050",
+    "word": "Ensemble",
+    "meaning": "A technique that combines predictions from multiple models to achieve better overall performance.",
+    "genre": "ai-ml",
+    "difficulty": 3,
+    "dateAdded": "2026-01-02",
+    "samplePhrase": "The ensemble of five different models reduced the prediction error by 15% compared to any single model.",
+    "itContext": "Ensemble methods trade compute cost for accuracy, common in competitive ML applications.",
+    "alternativeWords": [
+      "combination",
+      "aggregate",
+      "committee",
+      "collective"
+    ],
+    "pronunciation": "on-SOM-bul",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "ai-051",
+    "word": "Impute",
+    "meaning": "To fill in missing data values using statistical methods or model predictions.",
+    "genre": "ai-ml",
+    "difficulty": 4,
+    "dateAdded": "2026-01-03",
+    "samplePhrase": "We impute missing age values using the median of the corresponding demographic group.",
+    "itContext": "Data imputation strategy significantly affects model performance on incomplete real-world datasets.",
+    "alternativeWords": [
+      "estimate",
+      "fill in",
+      "infer",
+      "substitute"
+    ],
+    "pronunciation": "im-PYOOT",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "ai-052",
+    "word": "Normalization",
+    "meaning": "Scaling input features to a standard range so no single feature dominates the learning process.",
+    "genre": "ai-ml",
+    "difficulty": 3,
+    "dateAdded": "2026-01-04",
+    "samplePhrase": "Batch normalization stabilizes training by normalizing layer outputs within each mini-batch.",
+    "itContext": "Normalization is a preprocessing step that improves convergence speed and model stability.",
+    "alternativeWords": [
+      "scaling",
+      "standardization",
+      "calibration",
+      "adjustment"
+    ],
+    "pronunciation": "nor-muh-lih-ZAY-shun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "ai-053",
+    "word": "Dimensionality",
+    "meaning": "The number of features or variables in a dataset; the size of the vector space representing data.",
+    "genre": "ai-ml",
+    "difficulty": 4,
+    "dateAdded": "2026-01-05",
+    "samplePhrase": "PCA reduces dimensionality from 10,000 features to 100 while retaining 95% of the variance.",
+    "itContext": "High dimensionality causes the curse of dimensionality, making models less effective with sparse data.",
+    "alternativeWords": [
+      "feature count",
+      "complexity",
+      "degrees of freedom",
+      "feature space"
+    ],
+    "pronunciation": "dih-men-shun-AL-ih-tee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "ai-054",
+    "word": "Nuance",
+    "meaning": "A subtle difference in meaning, expression, or response that requires sophisticated understanding.",
+    "genre": "ai-ml",
+    "difficulty": 2,
+    "dateAdded": "2026-01-06",
+    "samplePhrase": "The sentiment model struggles with nuance, often missing sarcasm and subtle emotional cues.",
+    "itContext": "Capturing linguistic nuance remains one of the hardest challenges in natural language processing.",
+    "alternativeWords": [
+      "subtlety",
+      "distinction",
+      "shade",
+      "refinement"
+    ],
+    "pronunciation": "NOO-ahns",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "ai-055",
+    "word": "Elucidate",
+    "meaning": "To make something clear by explaining it in detail; to interpret model decisions for humans.",
+    "genre": "ai-ml",
+    "difficulty": 4,
+    "dateAdded": "2026-01-07",
+    "samplePhrase": "SHAP values elucidate which input features contributed most to each individual prediction.",
+    "itContext": "Explainable AI techniques elucidate black-box model decisions for regulatory compliance.",
+    "alternativeWords": [
+      "clarify",
+      "explain",
+      "illuminate",
+      "interpret"
+    ],
+    "pronunciation": "ih-LOO-sih-dayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "ai-056",
+    "word": "Paradigm",
+    "meaning": "A typical example or pattern; a fundamental model or framework that shapes an approach.",
+    "genre": "ai-ml",
+    "difficulty": 3,
+    "dateAdded": "2026-01-08",
+    "samplePhrase": "The paradigm shift from rule-based systems to learned models transformed the entire NLP field.",
+    "itContext": "Each new AI paradigm—from expert systems to deep learning—reshapes industry practices.",
+    "alternativeWords": [
+      "model",
+      "framework",
+      "archetype",
+      "template"
+    ],
+    "pronunciation": "PAR-uh-dym",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "ai-057",
+    "word": "Entropy",
+    "meaning": "A measure of uncertainty or disorder in a probability distribution or information system.",
+    "genre": "ai-ml",
+    "difficulty": 4,
+    "dateAdded": "2026-01-09",
+    "samplePhrase": "Cross-entropy loss measures how well the predicted probability distribution matches the true labels.",
+    "itContext": "Information entropy is fundamental to decision trees, compression, and language modeling.",
+    "alternativeWords": [
+      "uncertainty",
+      "disorder",
+      "randomness",
+      "information content"
+    ],
+    "pronunciation": "EN-truh-pee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "ai-058",
+    "word": "Agnostic",
+    "meaning": "Not committed to a particular technology, framework, or approach; flexible and adaptable.",
+    "genre": "ai-ml",
+    "difficulty": 2,
+    "dateAdded": "2026-01-10",
+    "samplePhrase": "Our ML pipeline is framework-agnostic, supporting PyTorch, TensorFlow, and JAX models.",
+    "itContext": "Model-agnostic interpretability methods work regardless of the underlying architecture.",
+    "alternativeWords": [
+      "neutral",
+      "impartial",
+      "unbiased",
+      "flexible"
+    ],
+    "pronunciation": "ag-NOS-tik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "ai-059",
+    "word": "Spurious",
+    "meaning": "Not genuine or authentic; a false correlation that a model learns but has no real causal basis.",
+    "genre": "ai-ml",
+    "difficulty": 4,
+    "dateAdded": "2026-01-11",
+    "samplePhrase": "The model learned a spurious correlation between image backgrounds and labels instead of the actual objects.",
+    "itContext": "Spurious correlations in training data cause models to fail on distribution-shifted test data.",
+    "alternativeWords": [
+      "false",
+      "misleading",
+      "illusory",
+      "deceptive"
+    ],
+    "pronunciation": "SPUR-ee-us",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "ai-060",
+    "word": "Nascent",
+    "meaning": "Just beginning to develop; in an early stage of growth or existence.",
+    "genre": "ai-ml",
+    "difficulty": 3,
+    "dateAdded": "2026-01-12",
+    "samplePhrase": "Multimodal AI is still a nascent field, but progress in combining vision and language is accelerating.",
+    "itContext": "Nascent AI capabilities require careful evaluation before deployment in production systems.",
+    "alternativeWords": [
+      "emerging",
+      "budding",
+      "incipient",
+      "fledgling"
+    ],
+    "pronunciation": "NAY-sent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "ai-061",
+    "word": "Pragmatic",
+    "meaning": "Dealing with things sensibly and realistically; focused on practical AI applications over theory.",
+    "genre": "ai-ml",
+    "difficulty": 2,
+    "dateAdded": "2026-01-13",
+    "samplePhrase": "A pragmatic approach starts with simple baselines before reaching for complex deep learning models.",
+    "itContext": "Pragmatic ML engineering prioritizes business impact over model complexity.",
+    "alternativeWords": [
+      "practical",
+      "realistic",
+      "sensible",
+      "grounded"
+    ],
+    "pronunciation": "prag-MAT-ik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "ai-062",
+    "word": "Omniscient",
+    "meaning": "Knowing everything; an idealized model that has perfect knowledge of all relevant information.",
+    "genre": "ai-ml",
+    "difficulty": 4,
+    "dateAdded": "2026-01-14",
+    "samplePhrase": "No model is omniscient — all AI systems operate with incomplete information and uncertainty.",
+    "itContext": "The gap between omniscient and practical knowledge defines the theoretical limit of model accuracy.",
+    "alternativeWords": [
+      "all-knowing",
+      "all-seeing",
+      "infinite knowledge",
+      "prescient"
+    ],
+    "pronunciation": "om-NISH-ent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5,
+      3
+    ]
+  },
+  {
+    "id": "ai-063",
+    "word": "Proliferate",
+    "meaning": "To increase rapidly in number; the rapid expansion of AI models and applications.",
+    "genre": "ai-ml",
+    "difficulty": 3,
+    "dateAdded": "2026-01-15",
+    "samplePhrase": "Open-source foundation models are proliferating, making advanced AI accessible to smaller teams.",
+    "itContext": "As AI tools proliferate, governance frameworks become essential for responsible deployment.",
+    "alternativeWords": [
+      "multiply",
+      "spread",
+      "expand",
+      "escalate"
+    ],
+    "pronunciation": "proh-LIF-er-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "ai-064",
+    "word": "Efficacy",
+    "meaning": "The ability to produce a desired or intended result; how well a model performs its intended task.",
+    "genre": "ai-ml",
+    "difficulty": 3,
+    "dateAdded": "2026-01-16",
+    "samplePhrase": "We measure the efficacy of the recommendation engine by tracking click-through and conversion rates.",
+    "itContext": "Model efficacy must be evaluated against real-world business metrics, not just academic benchmarks.",
+    "alternativeWords": [
+      "effectiveness",
+      "potency",
+      "capability",
+      "performance"
+    ],
+    "pronunciation": "EF-ih-kuh-see",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "ai-065",
+    "word": "Amalgamate",
+    "meaning": "To combine or unite multiple things into one; merging datasets or model outputs together.",
+    "genre": "ai-ml",
+    "difficulty": 4,
+    "dateAdded": "2026-01-17",
+    "samplePhrase": "We amalgamate data from five different sources to create a comprehensive training dataset.",
+    "itContext": "Amalgamating heterogeneous data sources requires careful alignment and deduplication.",
+    "alternativeWords": [
+      "merge",
+      "combine",
+      "consolidate",
+      "fuse"
+    ],
+    "pronunciation": "uh-MAL-guh-mayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "ai-066",
+    "word": "Attenuation",
+    "meaning": "The reduction of signal strength or importance; in attention mechanisms, the weighting of relevance.",
+    "genre": "ai-ml",
+    "difficulty": 4,
+    "dateAdded": "2026-01-18",
+    "samplePhrase": "The attention mechanism applies attenuation to irrelevant tokens, focusing compute on what matters.",
+    "itContext": "Selective attenuation enables transformers to process long sequences efficiently.",
+    "alternativeWords": [
+      "reduction",
+      "weakening",
+      "diminishing",
+      "dampening"
+    ],
+    "pronunciation": "uh-ten-yoo-AY-shun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "ai-067",
+    "word": "Confabulate",
+    "meaning": "To fabricate or fill in gaps with invented information; what LLMs do when they produce false but plausible text.",
+    "genre": "ai-ml",
+    "difficulty": 5,
+    "dateAdded": "2026-01-19",
+    "samplePhrase": "The chatbot confabulated a detailed but entirely fictional company history when asked about its training.",
+    "itContext": "Confabulation in AI is a polite term for hallucination, emphasizing the confident delivery of falsehoods.",
+    "alternativeWords": [
+      "fabricate",
+      "invent",
+      "hallucinate",
+      "misremember"
+    ],
+    "pronunciation": "kun-FAB-yoo-layt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      5
+    ]
+  },
+  {
+    "id": "ai-068",
+    "word": "Covariate",
+    "meaning": "An independent variable that can influence the outcome being modeled or predicted.",
+    "genre": "ai-ml",
+    "difficulty": 5,
+    "dateAdded": "2026-01-20",
+    "samplePhrase": "Adding weather as a covariate significantly improved the demand forecasting model's accuracy.",
+    "itContext": "Covariate shift between training and production data is a common cause of model degradation.",
+    "alternativeWords": [
+      "variable",
+      "factor",
+      "predictor",
+      "feature"
+    ],
+    "pronunciation": "koh-VAIR-ee-it",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "ai-069",
+    "word": "Recapitulate",
+    "meaning": "To summarize and state again the main points; how models condense information into representations.",
+    "genre": "ai-ml",
+    "difficulty": 4,
+    "dateAdded": "2026-01-21",
+    "samplePhrase": "The summarization model recapitulates a 10-page report into three concise bullet points.",
+    "itContext": "Text summarization models recapitulate key information, saving hours of manual reading.",
+    "alternativeWords": [
+      "summarize",
+      "restate",
+      "recap",
+      "condense"
+    ],
+    "pronunciation": "ree-kuh-PICH-oo-layt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "ai-070",
+    "word": "Idiosyncratic",
+    "meaning": "Peculiar to an individual case; unique model behaviors or data patterns specific to certain inputs.",
+    "genre": "ai-ml",
+    "difficulty": 5,
+    "dateAdded": "2026-01-22",
+    "samplePhrase": "The model has idiosyncratic failure modes on medical text due to rare terminology in training data.",
+    "itContext": "Idiosyncratic model failures require domain-specific evaluation datasets to uncover.",
+    "alternativeWords": [
+      "peculiar",
+      "unique",
+      "distinctive",
+      "individualistic"
+    ],
+    "pronunciation": "id-ee-oh-sin-KRAT-ik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "ai-071",
+    "word": "Interpolation",
+    "meaning": "Making predictions within the range of the training data; the safe zone for model reliability.",
+    "genre": "ai-ml",
+    "difficulty": 3,
+    "dateAdded": "2026-01-23",
+    "samplePhrase": "Model predictions are reliable through interpolation but become uncertain in extrapolation regions.",
+    "itContext": "Understanding the interpolation boundaries of a model is key to knowing when to trust its output.",
+    "alternativeWords": [
+      "estimation",
+      "approximation",
+      "in-range prediction"
+    ],
+    "pronunciation": "in-ter-poh-LAY-shun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "ai-072",
+    "word": "Multimodal",
+    "meaning": "Involving or relating to multiple modes of input, such as text, images, audio, and video.",
+    "genre": "ai-ml",
+    "difficulty": 3,
+    "dateAdded": "2026-01-24",
+    "samplePhrase": "The multimodal model can answer questions about images by processing both visual and textual inputs.",
+    "itContext": "Multimodal AI enables richer interactions by understanding and generating across different data types.",
+    "alternativeWords": [
+      "multi-input",
+      "cross-modal",
+      "multi-sensory",
+      "hybrid"
+    ],
+    "pronunciation": "mul-tee-MOH-dul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "ai-073",
+    "word": "Scalable",
+    "meaning": "Capable of handling growing amounts of work or data by adding resources proportionally.",
+    "genre": "ai-ml",
+    "difficulty": 2,
+    "dateAdded": "2026-01-25",
+    "samplePhrase": "The training pipeline is scalable across hundreds of GPUs using distributed data parallelism.",
+    "itContext": "Scalable ML infrastructure enables models to grow with increasing data and compute demands.",
+    "alternativeWords": [
+      "expandable",
+      "extensible",
+      "adaptable",
+      "flexible"
+    ],
+    "pronunciation": "SKAY-luh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "ai-074",
+    "word": "Ephemeral",
+    "meaning": "Lasting for a very short time; temporary compute resources spun up for training and then terminated.",
+    "genre": "ai-ml",
+    "difficulty": 3,
+    "dateAdded": "2026-01-26",
+    "samplePhrase": "We use ephemeral GPU instances that automatically terminate after training completes to save costs.",
+    "itContext": "Ephemeral compute for ML training optimizes cloud spending by paying only for active work.",
+    "alternativeWords": [
+      "temporary",
+      "transient",
+      "short-lived",
+      "fleeting"
+    ],
+    "pronunciation": "ih-FEM-er-ul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "ai-075",
+    "word": "Truncation",
+    "meaning": "Cutting off input sequences at a maximum length to fit within model context window constraints.",
+    "genre": "ai-ml",
+    "difficulty": 3,
+    "dateAdded": "2026-01-27",
+    "samplePhrase": "Input truncation at 4096 tokens means the model cannot see the full document for very long articles.",
+    "itContext": "Truncation strategies affect how much context a model receives and can impact output quality.",
+    "alternativeWords": [
+      "shortening",
+      "clipping",
+      "trimming",
+      "cutting"
+    ],
+    "pronunciation": "trung-KAY-shun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "ai-076",
+    "word": "Heterogeneous",
+    "meaning": "Diverse in character or content; data or systems composed of varied and dissimilar elements.",
+    "genre": "ai-ml",
+    "difficulty": 4,
+    "dateAdded": "2026-01-28",
+    "samplePhrase": "The model handles heterogeneous input types including structured tables, free text, and images.",
+    "itContext": "Heterogeneous data integration is a major challenge in building comprehensive ML pipelines.",
+    "alternativeWords": [
+      "diverse",
+      "mixed",
+      "varied",
+      "assorted"
+    ],
+    "pronunciation": "het-er-oh-JEE-nee-us",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "ai-077",
+    "word": "Homogeneous",
+    "meaning": "Of the same kind; data or systems that are uniform and consistent in their composition.",
+    "genre": "ai-ml",
+    "difficulty": 3,
+    "dateAdded": "2026-01-29",
+    "samplePhrase": "Training on a homogeneous dataset produced a model that failed to generalize across demographics.",
+    "itContext": "Homogeneous training data creates biased models that perform poorly on diverse real-world inputs.",
+    "alternativeWords": [
+      "uniform",
+      "consistent",
+      "alike",
+      "similar"
+    ],
+    "pronunciation": "hoh-moh-JEE-nee-us",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "ai-078",
+    "word": "Proliferation",
+    "meaning": "Rapid increase in number; the explosive growth of AI models, tools, and applications.",
+    "genre": "ai-ml",
+    "difficulty": 3,
+    "dateAdded": "2026-01-30",
+    "samplePhrase": "The proliferation of open-source AI models has democratized access to cutting-edge capabilities.",
+    "itContext": "Rapid AI proliferation creates both opportunities and governance challenges for organizations.",
+    "alternativeWords": [
+      "expansion",
+      "growth",
+      "spread",
+      "multiplication"
+    ],
+    "pronunciation": "proh-lif-er-AY-shun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "ai-079",
+    "word": "Atrophy",
+    "meaning": "To waste away or decline from disuse; model performance degrading over time without retraining.",
+    "genre": "ai-ml",
+    "difficulty": 3,
+    "dateAdded": "2026-01-31",
+    "samplePhrase": "Without periodic retraining, the recommendation model will atrophy as user preferences evolve.",
+    "itContext": "Model atrophy from data drift requires continuous monitoring and scheduled retraining pipelines.",
+    "alternativeWords": [
+      "decay",
+      "deteriorate",
+      "degrade",
+      "wither"
+    ],
+    "pronunciation": "AT-roh-fee",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "ai-080",
+    "word": "Ameliorate",
+    "meaning": "To make something better; to improve model performance or data quality through targeted effort.",
+    "genre": "ai-ml",
+    "difficulty": 4,
+    "dateAdded": "2026-02-01",
+    "samplePhrase": "Adding domain-specific training data ameliorated the model's poor performance on medical queries.",
+    "itContext": "Targeted data curation can ameliorate model weaknesses more effectively than architecture changes.",
+    "alternativeWords": [
+      "improve",
+      "enhance",
+      "better",
+      "remedy"
+    ],
+    "pronunciation": "uh-MEEL-yoh-rayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "ai-081",
+    "word": "Corroborate",
+    "meaning": "To confirm or support findings with additional evidence; cross-validating model predictions.",
+    "genre": "ai-ml",
+    "difficulty": 4,
+    "dateAdded": "2026-02-02",
+    "samplePhrase": "We corroborate model predictions with domain expert review before making clinical recommendations.",
+    "itContext": "Human-in-the-loop systems corroborate AI outputs to ensure safety in high-stakes applications.",
+    "alternativeWords": [
+      "confirm",
+      "validate",
+      "verify",
+      "substantiate"
+    ],
+    "pronunciation": "kuh-ROB-uh-rayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5,
+      3
+    ]
+  },
+  {
+    "id": "ai-082",
+    "word": "Ubiquitous",
+    "meaning": "Present everywhere; AI becoming an integral part of all software and business processes.",
+    "genre": "ai-ml",
+    "difficulty": 4,
+    "dateAdded": "2026-02-03",
+    "samplePhrase": "AI-powered features are becoming ubiquitous in modern software, from search to code completion.",
+    "itContext": "The ubiquitous adoption of AI raises important questions about responsible use and governance.",
+    "alternativeWords": [
+      "omnipresent",
+      "pervasive",
+      "universal",
+      "widespread"
+    ],
+    "pronunciation": "yoo-BIK-wih-tus",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "ai-083",
+    "word": "Delineate",
+    "meaning": "To describe precisely; to clearly define the boundaries or scope of a model's capabilities.",
+    "genre": "ai-ml",
+    "difficulty": 4,
+    "dateAdded": "2026-02-04",
+    "samplePhrase": "The model card delineates the intended use cases, known limitations, and ethical considerations.",
+    "itContext": "Clear model documentation delineates capabilities to prevent misuse and set expectations.",
+    "alternativeWords": [
+      "outline",
+      "define",
+      "describe",
+      "demarcate"
+    ],
+    "pronunciation": "dih-LIN-ee-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "ai-084",
+    "word": "Reciprocal",
+    "meaning": "Given or felt by each toward the other; mutual benefits in human-AI collaboration.",
+    "genre": "ai-ml",
+    "difficulty": 3,
+    "dateAdded": "2026-02-05",
+    "samplePhrase": "The reciprocal feedback loop between user corrections and model updates improves accuracy over time.",
+    "itContext": "Reciprocal learning systems get better as users interact, creating a virtuous improvement cycle.",
+    "alternativeWords": [
+      "mutual",
+      "shared",
+      "bidirectional",
+      "complementary"
+    ],
+    "pronunciation": "rih-SIP-roh-kul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "ai-085",
+    "word": "Esoteric",
+    "meaning": "Intended for or understood by only a small number of people with specialized knowledge.",
+    "genre": "ai-ml",
+    "difficulty": 4,
+    "dateAdded": "2026-02-06",
+    "samplePhrase": "The esoteric details of attention head pruning are relevant only to model optimization researchers.",
+    "itContext": "Making esoteric ML concepts accessible to stakeholders is key to getting buy-in for AI projects.",
+    "alternativeWords": [
+      "arcane",
+      "obscure",
+      "specialized",
+      "niche"
+    ],
+    "pronunciation": "es-oh-TER-ik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "ai-086",
+    "word": "Empirical",
+    "meaning": "Based on observation and experimentation rather than theory alone.",
+    "genre": "ai-ml",
+    "difficulty": 3,
+    "dateAdded": "2026-02-07",
+    "samplePhrase": "Our empirical results show that larger batch sizes improve throughput but decrease final accuracy.",
+    "itContext": "ML research is heavily empirical, relying on experimental results over theoretical proofs.",
+    "alternativeWords": [
+      "experimental",
+      "observational",
+      "practical",
+      "evidence-based"
+    ],
+    "pronunciation": "em-PIR-ih-kul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "ai-087",
+    "word": "Panacea",
+    "meaning": "A solution or remedy for all difficulties; the mistaken belief that AI can solve every problem.",
+    "genre": "ai-ml",
+    "difficulty": 4,
+    "dateAdded": "2026-02-08",
+    "samplePhrase": "AI is not a panacea — many business problems are better solved with simpler rule-based approaches.",
+    "itContext": "Treating AI as a panacea leads to misapplied technology and wasted resources.",
+    "alternativeWords": [
+      "cure-all",
+      "universal remedy",
+      "silver bullet",
+      "magic solution"
+    ],
+    "pronunciation": "pan-uh-SEE-uh",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      5,
+      3
+    ]
+  },
+  {
+    "id": "ai-088",
+    "word": "Sentinel",
+    "meaning": "A guard or watcher; an AI system deployed to monitor and detect anomalies or threats.",
+    "genre": "ai-ml",
+    "difficulty": 2,
+    "dateAdded": "2026-02-09",
+    "samplePhrase": "The ML sentinel model monitors production traffic and alerts on anomalous request patterns.",
+    "itContext": "AI sentinel systems provide continuous monitoring at scales impossible for human operators.",
+    "alternativeWords": [
+      "guardian",
+      "watchdog",
+      "monitor",
+      "lookout"
+    ],
+    "pronunciation": "SEN-tih-nel",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "ai-089",
+    "word": "Exogenous",
+    "meaning": "Originating from outside the system; external factors that influence model predictions.",
+    "genre": "ai-ml",
+    "difficulty": 5,
+    "dateAdded": "2026-02-10",
+    "samplePhrase": "Exogenous variables like economic indicators improved the sales forecasting model significantly.",
+    "itContext": "Identifying relevant exogenous factors is crucial for building accurate predictive models.",
+    "alternativeWords": [
+      "external",
+      "outside",
+      "extrinsic",
+      "foreign"
+    ],
+    "pronunciation": "ek-SOJ-eh-nus",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "ai-090",
+    "word": "Endogenous",
+    "meaning": "Originating from within the system; internal factors or features derived from the data itself.",
+    "genre": "ai-ml",
+    "difficulty": 5,
+    "dateAdded": "2026-02-11",
+    "samplePhrase": "The endogenous features like purchase frequency and session duration are strong predictors of churn.",
+    "itContext": "Combining endogenous and exogenous features typically yields the most accurate predictions.",
+    "alternativeWords": [
+      "internal",
+      "intrinsic",
+      "inherent",
+      "innate"
+    ],
+    "pronunciation": "en-DOJ-eh-nus",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "ai-091",
+    "word": "Conflate",
+    "meaning": "To combine two or more ideas or things into one, sometimes incorrectly blurring important distinctions.",
+    "genre": "ai-ml",
+    "difficulty": 3,
+    "dateAdded": "2026-02-12",
+    "samplePhrase": "Stakeholders often conflate accuracy with precision, leading to miscommunication about model performance.",
+    "itContext": "Conflating correlation with causation is a common pitfall in interpreting ML model outputs.",
+    "alternativeWords": [
+      "merge",
+      "combine",
+      "confuse",
+      "blend"
+    ],
+    "pronunciation": "kun-FLAYT",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "ai-092",
+    "word": "Parameterize",
+    "meaning": "To define something in terms of adjustable parameters that can be tuned or learned.",
+    "genre": "ai-ml",
+    "difficulty": 4,
+    "dateAdded": "2026-02-13",
+    "samplePhrase": "We parameterize the neural network with 7 billion trainable weights across 32 transformer layers.",
+    "itContext": "How you parameterize a model determines its capacity, training cost, and inference speed.",
+    "alternativeWords": [
+      "configure",
+      "define",
+      "specify",
+      "characterize"
+    ],
+    "pronunciation": "puh-RAM-eh-tuh-ryz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "ai-093",
+    "word": "Curate",
+    "meaning": "To carefully select, organize, and maintain a collection of data for a specific purpose.",
+    "genre": "ai-ml",
+    "difficulty": 2,
+    "dateAdded": "2026-02-14",
+    "samplePhrase": "We curate a high-quality evaluation dataset of 10,000 expert-labeled examples for model validation.",
+    "itContext": "Data curation quality has a larger impact on model performance than architecture choices.",
+    "alternativeWords": [
+      "select",
+      "organize",
+      "collect",
+      "assemble"
+    ],
+    "pronunciation": "KYOOR-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "ai-094",
+    "word": "Iterate",
+    "meaning": "To repeat a process with the aim of improving results; refining models through successive cycles.",
+    "genre": "ai-ml",
+    "difficulty": 2,
+    "dateAdded": "2026-02-15",
+    "samplePhrase": "We iterate on the prompt template based on evaluation results until the output quality meets our bar.",
+    "itContext": "Rapid iteration cycles with clear evaluation metrics are the key to successful ML development.",
+    "alternativeWords": [
+      "refine",
+      "repeat",
+      "cycle",
+      "revise"
+    ],
+    "pronunciation": "IT-er-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "ai-095",
+    "word": "Obviate",
+    "meaning": "To remove the need for something; when one approach eliminates the necessity of another.",
+    "genre": "ai-ml",
+    "difficulty": 4,
+    "dateAdded": "2026-02-16",
+    "samplePhrase": "Transfer learning obviates the need for massive domain-specific training datasets.",
+    "itContext": "Foundation models obviate much of the traditional feature engineering work in ML pipelines.",
+    "alternativeWords": [
+      "eliminate",
+      "prevent",
+      "preclude",
+      "avert"
+    ],
+    "pronunciation": "OB-vee-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "ai-096",
+    "word": "Extrapolation",
+    "meaning": "The action of predicting beyond the range of observed data, often with decreasing reliability.",
+    "genre": "ai-ml",
+    "difficulty": 4,
+    "dateAdded": "2026-02-17",
+    "samplePhrase": "Model extrapolation to unseen market conditions led to wildly inaccurate demand forecasts.",
+    "itContext": "Monitoring for extrapolation warnings helps prevent unreliable predictions from reaching users.",
+    "alternativeWords": [
+      "projection",
+      "extension",
+      "estimation",
+      "prediction"
+    ],
+    "pronunciation": "ek-strap-oh-LAY-shun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "ai-097",
+    "word": "Verisimilitude",
+    "meaning": "The appearance of being true or real; how convincingly AI-generated content mimics authentic data.",
+    "genre": "ai-ml",
+    "difficulty": 5,
+    "dateAdded": "2026-02-18",
+    "samplePhrase": "The deepfake achieved such verisimilitude that expert reviewers could not distinguish it from real footage.",
+    "itContext": "Increasing verisimilitude of AI-generated content raises urgent concerns about misinformation.",
+    "alternativeWords": [
+      "realism",
+      "authenticity",
+      "plausibility",
+      "believability"
+    ],
+    "pronunciation": "ver-ih-sih-MIL-ih-tood",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      5,
+      5
+    ]
+  },
+  {
+    "id": "ai-098",
+    "word": "Synergy",
+    "meaning": "The interaction of elements that produces a combined effect greater than the sum of their individual effects.",
+    "genre": "ai-ml",
+    "difficulty": 2,
+    "dateAdded": "2026-02-19",
+    "samplePhrase": "The synergy between the vision and language models creates a multimodal system more powerful than either alone.",
+    "itContext": "AI synergy with human expertise produces better outcomes than either working independently.",
+    "alternativeWords": [
+      "collaboration",
+      "cooperation",
+      "combined effect",
+      "complementarity"
+    ],
+    "pronunciation": "SIN-er-jee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "ai-099",
+    "word": "Prescient",
+    "meaning": "Having or showing knowledge of events before they take place; seemingly predictive capability.",
+    "genre": "ai-ml",
+    "difficulty": 4,
+    "dateAdded": "2026-02-20",
+    "samplePhrase": "The demand forecasting model appears almost prescient, predicting sales spikes days in advance.",
+    "itContext": "While AI can appear prescient, it works by identifying patterns, not by truly seeing the future.",
+    "alternativeWords": [
+      "foreseeing",
+      "prophetic",
+      "anticipatory",
+      "clairvoyant"
+    ],
+    "pronunciation": "PRESH-ent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "ai-100",
+    "word": "Culminate",
+    "meaning": "To reach the highest point or final stage; the convergence of training toward optimal performance.",
+    "genre": "ai-ml",
+    "difficulty": 3,
+    "dateAdded": "2026-02-21",
+    "samplePhrase": "Months of data collection, training, and evaluation culminated in a production-ready model launch.",
+    "itContext": "Successful ML projects culminate in deployed models that deliver measurable business impact.",
+    "alternativeWords": [
+      "peak",
+      "climax",
+      "conclude",
+      "finalize"
+    ],
+    "pronunciation": "KUL-mih-nayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      4,
+      5
+    ]
+  }
+]

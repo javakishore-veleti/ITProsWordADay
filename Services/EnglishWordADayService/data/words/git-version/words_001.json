@@ -1,0 +1,2251 @@
+[
+  {
+    "id": "git-001",
+    "word": "Squash",
+    "meaning": "To combine multiple commits into a single commit, creating a cleaner and more readable project history.",
+    "genre": "git-version",
+    "difficulty": 3,
+    "dateAdded": "2025-11-14",
+    "samplePhrase": "Please squash your 15 WIP commits into a single clean commit before merging to main.",
+    "itContext": "Squashing commits keeps the git log readable and makes reverting changes easier.",
+    "alternativeWords": [
+      "consolidate",
+      "compress",
+      "combine",
+      "flatten"
+    ],
+    "pronunciation": "skwosh",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "git-002",
+    "word": "Rebase",
+    "meaning": "To reapply commits on top of another base branch, creating a linear project history without merge commits.",
+    "genre": "git-version",
+    "difficulty": 4,
+    "dateAdded": "2025-11-15",
+    "samplePhrase": "Rebase your feature branch onto main to pick up the latest security patches before your PR.",
+    "itContext": "Interactive rebase lets you edit, reorder, and clean up commits before sharing them.",
+    "alternativeWords": [
+      "replay",
+      "transplant",
+      "re-root",
+      "linearize"
+    ],
+    "pronunciation": "ree-BAYS",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "git-003",
+    "word": "Merge",
+    "meaning": "To combine the contents and history of two branches into one unified branch.",
+    "genre": "git-version",
+    "difficulty": 2,
+    "dateAdded": "2025-11-16",
+    "samplePhrase": "After all reviews are approved, merge the feature branch into main using a merge commit for traceability.",
+    "itContext": "Merge strategies like fast-forward, recursive, and octopus serve different collaboration workflows.",
+    "alternativeWords": [
+      "combine",
+      "unify",
+      "join",
+      "integrate"
+    ],
+    "pronunciation": "murj",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "git-004",
+    "word": "Branch",
+    "meaning": "A divergent line of development that allows isolated work without affecting the main codebase.",
+    "genre": "git-version",
+    "difficulty": 1,
+    "dateAdded": "2025-11-17",
+    "samplePhrase": "Create a feature branch from main so you can experiment without risking the production code.",
+    "itContext": "Branching strategies like GitFlow and trunk-based development define how teams collaborate on code.",
+    "alternativeWords": [
+      "fork",
+      "diverge",
+      "offshoot",
+      "spur"
+    ],
+    "pronunciation": "branch",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "git-005",
+    "word": "Commit",
+    "meaning": "To record changes to the repository as a permanent snapshot with an associated message.",
+    "genre": "git-version",
+    "difficulty": 1,
+    "dateAdded": "2025-11-18",
+    "samplePhrase": "Commit early and often with descriptive messages: 'fix(auth): handle expired JWT tokens gracefully'.",
+    "itContext": "Each commit creates an immutable record in the project history that can be referenced or reverted.",
+    "alternativeWords": [
+      "record",
+      "save",
+      "checkpoint",
+      "register"
+    ],
+    "pronunciation": "kuh-MIT",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "git-006",
+    "word": "Checkout",
+    "meaning": "To switch between branches or restore working tree files to a specific version.",
+    "genre": "git-version",
+    "difficulty": 2,
+    "dateAdded": "2025-11-19",
+    "samplePhrase": "Checkout the release branch to verify the hotfix before deploying to production.",
+    "itContext": "Checking out a specific commit lets you inspect the codebase at any historical point in time.",
+    "alternativeWords": [
+      "switch",
+      "restore",
+      "retrieve",
+      "select"
+    ],
+    "pronunciation": "CHEK-owt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "git-007",
+    "word": "Stash",
+    "meaning": "To temporarily store modified tracked files in order to switch context without committing incomplete work.",
+    "genre": "git-version",
+    "difficulty": 3,
+    "dateAdded": "2025-11-20",
+    "samplePhrase": "Stash your changes before switching to the hotfix branch — you can apply them later with stash pop.",
+    "itContext": "Git stash acts like a clipboard for work-in-progress changes across branch switches.",
+    "alternativeWords": [
+      "shelve",
+      "store",
+      "cache",
+      "set aside"
+    ],
+    "pronunciation": "stash",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "git-008",
+    "word": "Cherrypick",
+    "meaning": "To select and apply specific commits from one branch to another without merging the entire branch.",
+    "genre": "git-version",
+    "difficulty": 4,
+    "dateAdded": "2025-11-21",
+    "samplePhrase": "Cherrypick the security fix commit from the feature branch into the release branch for an emergency patch.",
+    "itContext": "Cherry-picking is useful for backporting fixes but can create duplicate commits if misused.",
+    "alternativeWords": [
+      "select",
+      "extract",
+      "pluck",
+      "handpick"
+    ],
+    "pronunciation": "CHER-ee-pik",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "git-009",
+    "word": "Amend",
+    "meaning": "To modify the most recent commit by adding changes or updating the commit message.",
+    "genre": "git-version",
+    "difficulty": 3,
+    "dateAdded": "2025-11-22",
+    "samplePhrase": "Amend your last commit to include the forgotten test file before pushing to the remote.",
+    "itContext": "Amending rewrites history and should only be used on commits that haven't been shared with others.",
+    "alternativeWords": [
+      "revise",
+      "modify",
+      "correct",
+      "update"
+    ],
+    "pronunciation": "uh-MEND",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "git-010",
+    "word": "Bisect",
+    "meaning": "To use binary search across commit history to find the exact commit that introduced a bug.",
+    "genre": "git-version",
+    "difficulty": 4,
+    "dateAdded": "2025-11-23",
+    "samplePhrase": "Use git bisect to narrow down which of the 200 commits between releases introduced the regression.",
+    "itContext": "Bisect automates the process of identifying the problematic commit in logarithmic time.",
+    "alternativeWords": [
+      "halve",
+      "divide",
+      "partition",
+      "narrow down"
+    ],
+    "pronunciation": "by-SEKT",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "git-011",
+    "word": "Revert",
+    "meaning": "To create a new commit that undoes the changes made by a previous commit while preserving history.",
+    "genre": "git-version",
+    "difficulty": 2,
+    "dateAdded": "2025-11-24",
+    "samplePhrase": "Revert the broken deploy commit immediately — we can investigate the root cause after production is stable.",
+    "itContext": "Unlike reset, revert is safe for shared branches because it doesn't rewrite history.",
+    "alternativeWords": [
+      "undo",
+      "rollback",
+      "reverse",
+      "countermand"
+    ],
+    "pronunciation": "rih-VURT",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "git-012",
+    "word": "Diverge",
+    "meaning": "To separate from a common point and develop in different directions; branches moving apart.",
+    "genre": "git-version",
+    "difficulty": 2,
+    "dateAdded": "2025-11-25",
+    "samplePhrase": "If your branch diverges too far from main, you'll face painful merge conflicts later.",
+    "itContext": "Long-lived branches that diverge significantly increase integration risk and conflict probability.",
+    "alternativeWords": [
+      "separate",
+      "branch off",
+      "deviate",
+      "split"
+    ],
+    "pronunciation": "dy-VURJ",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "git-013",
+    "word": "Converge",
+    "meaning": "To come together from different directions toward a common point; branches merging back together.",
+    "genre": "git-version",
+    "difficulty": 2,
+    "dateAdded": "2025-11-26",
+    "samplePhrase": "Feature branches should converge back to main frequently to minimize integration surprises.",
+    "itContext": "Continuous integration encourages branches to converge daily, reducing merge complexity.",
+    "alternativeWords": [
+      "unite",
+      "join",
+      "meet",
+      "consolidate"
+    ],
+    "pronunciation": "kun-VURJ",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "git-014",
+    "word": "Bifurcate",
+    "meaning": "To divide into two branches or forks; to split a single path into two distinct directions.",
+    "genre": "git-version",
+    "difficulty": 5,
+    "dateAdded": "2025-11-27",
+    "samplePhrase": "The project bifurcated when the community fork pursued a different architectural philosophy.",
+    "itContext": "Repository bifurcation often happens when maintainers disagree on project direction.",
+    "alternativeWords": [
+      "split",
+      "fork",
+      "divide",
+      "separate"
+    ],
+    "pronunciation": "BY-fur-kayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "git-015",
+    "word": "Consolidate",
+    "meaning": "To combine multiple items into a single, more effective or coherent whole.",
+    "genre": "git-version",
+    "difficulty": 2,
+    "dateAdded": "2025-11-28",
+    "samplePhrase": "Consolidate the three hotfix branches into one PR so the reviewer has complete context.",
+    "itContext": "Consolidating scattered commits into logical units makes code review more efficient.",
+    "alternativeWords": [
+      "unify",
+      "merge",
+      "combine",
+      "integrate"
+    ],
+    "pronunciation": "kun-SOL-ih-dayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "git-016",
+    "word": "Synchronize",
+    "meaning": "To cause multiple things to operate at the same rate or in alignment; to bring into consistent state.",
+    "genre": "git-version",
+    "difficulty": 2,
+    "dateAdded": "2025-11-29",
+    "samplePhrase": "Synchronize your local repository with the remote before starting new work to avoid conflicts.",
+    "itContext": "Git fetch and pull synchronize local branches with their remote tracking branches.",
+    "alternativeWords": [
+      "align",
+      "sync",
+      "harmonize",
+      "coordinate"
+    ],
+    "pronunciation": "SIN-kruh-nyz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "git-017",
+    "word": "Propagate",
+    "meaning": "To spread or transmit changes from one location to others; to pass information forward.",
+    "genre": "git-version",
+    "difficulty": 3,
+    "dateAdded": "2025-11-30",
+    "samplePhrase": "Once merged to main, the dependency update will propagate to all downstream services via CI.",
+    "itContext": "Changes propagate through the repository network when forks and mirrors pull from upstream.",
+    "alternativeWords": [
+      "spread",
+      "transmit",
+      "distribute",
+      "disseminate"
+    ],
+    "pronunciation": "PROP-uh-gayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "git-018",
+    "word": "Chronicle",
+    "meaning": "A factual written account of important events in the order of their occurrence; a detailed record.",
+    "genre": "git-version",
+    "difficulty": 3,
+    "dateAdded": "2025-12-01",
+    "samplePhrase": "The git log is a chronicle of every change made to the project since its inception.",
+    "itContext": "Well-written commit messages create a valuable chronicle for debugging and understanding decisions.",
+    "alternativeWords": [
+      "record",
+      "history",
+      "log",
+      "account"
+    ],
+    "pronunciation": "KRON-ih-kul",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "git-019",
+    "word": "Annotate",
+    "meaning": "To add explanatory notes or comments to something; to enrich with contextual information.",
+    "genre": "git-version",
+    "difficulty": 2,
+    "dateAdded": "2025-12-02",
+    "samplePhrase": "Annotate the release tag with detailed notes about what changed and any migration steps required.",
+    "itContext": "Git annotated tags store author, date, and message — lightweight tags store only a pointer.",
+    "alternativeWords": [
+      "label",
+      "mark",
+      "document",
+      "comment"
+    ],
+    "pronunciation": "AN-oh-tayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "git-020",
+    "word": "Attribute",
+    "meaning": "To regard something as being caused by or belonging to someone; to assign credit or responsibility.",
+    "genre": "git-version",
+    "difficulty": 2,
+    "dateAdded": "2025-12-03",
+    "samplePhrase": "Git blame lets you attribute each line of code to the commit and author who last modified it.",
+    "itContext": "Proper attribution through commit authorship maintains accountability and intellectual property tracking.",
+    "alternativeWords": [
+      "credit",
+      "ascribe",
+      "assign",
+      "accredit"
+    ],
+    "pronunciation": "uh-TRIB-yoot",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "git-021",
+    "word": "Supersede",
+    "meaning": "To take the place of something previously in effect; to replace with something newer or superior.",
+    "genre": "git-version",
+    "difficulty": 4,
+    "dateAdded": "2025-12-04",
+    "samplePhrase": "The v2 API supersedes v1 — all new integrations should target the latest version.",
+    "itContext": "New commits supersede previous states of the codebase while preserving full history.",
+    "alternativeWords": [
+      "replace",
+      "supplant",
+      "succeed",
+      "override"
+    ],
+    "pronunciation": "soo-per-SEED",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "git-022",
+    "word": "Coalesce",
+    "meaning": "To come together and form one mass or whole; to unite separate elements into a single entity.",
+    "genre": "git-version",
+    "difficulty": 5,
+    "dateAdded": "2025-12-05",
+    "samplePhrase": "The three feature branches will coalesce into a single release branch by end of sprint.",
+    "itContext": "Squash merging causes multiple commits to coalesce into one atomic change on the target branch.",
+    "alternativeWords": [
+      "merge",
+      "fuse",
+      "blend",
+      "amalgamate"
+    ],
+    "pronunciation": "koh-uh-LESS",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "git-023",
+    "word": "Archive",
+    "meaning": "To store something in a place for long-term preservation; to move to inactive storage.",
+    "genre": "git-version",
+    "difficulty": 2,
+    "dateAdded": "2025-12-06",
+    "samplePhrase": "Archive the deprecated repository instead of deleting it — we may need to reference the code later.",
+    "itContext": "Git archive exports a snapshot of the repository without the .git history for distribution.",
+    "alternativeWords": [
+      "store",
+      "preserve",
+      "file away",
+      "shelve"
+    ],
+    "pronunciation": "AR-kyv",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "git-024",
+    "word": "Prune",
+    "meaning": "To trim or remove unwanted or unnecessary items to maintain cleanliness and efficiency.",
+    "genre": "git-version",
+    "difficulty": 3,
+    "dateAdded": "2025-12-07",
+    "samplePhrase": "Prune stale remote-tracking branches that no longer exist on the origin.",
+    "itContext": "Regular pruning of merged branches keeps the repository clean and navigation simple.",
+    "alternativeWords": [
+      "trim",
+      "remove",
+      "clean up",
+      "cull"
+    ],
+    "pronunciation": "proon",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "git-025",
+    "word": "Purge",
+    "meaning": "To remove completely and thoroughly; to rid of unwanted elements or content.",
+    "genre": "git-version",
+    "difficulty": 3,
+    "dateAdded": "2025-12-08",
+    "samplePhrase": "Use BFG Repo-Cleaner to purge accidentally committed secrets from the entire git history.",
+    "itContext": "Purging sensitive data from git history requires rewriting commits across all branches.",
+    "alternativeWords": [
+      "expunge",
+      "eliminate",
+      "eradicate",
+      "cleanse"
+    ],
+    "pronunciation": "purj",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "git-026",
+    "word": "Traverse",
+    "meaning": "To travel across or through; to move systematically through a structure or history.",
+    "genre": "git-version",
+    "difficulty": 3,
+    "dateAdded": "2025-12-09",
+    "samplePhrase": "Git log traverses the commit DAG from HEAD backwards, following parent pointers.",
+    "itContext": "Understanding how git traverses the commit graph helps debug complex merge histories.",
+    "alternativeWords": [
+      "navigate",
+      "walk",
+      "cross",
+      "explore"
+    ],
+    "pronunciation": "truh-VURS",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "git-027",
+    "word": "Snapshot",
+    "meaning": "A complete capture of a system's state at a specific point in time.",
+    "genre": "git-version",
+    "difficulty": 2,
+    "dateAdded": "2025-12-10",
+    "samplePhrase": "Each git commit is a snapshot of the entire repository, not a diff from the previous state.",
+    "itContext": "Git stores snapshots via content-addressable blobs, using deduplication for efficiency.",
+    "alternativeWords": [
+      "capture",
+      "checkpoint",
+      "image",
+      "freeze"
+    ],
+    "pronunciation": "SNAP-shot",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "git-028",
+    "word": "Canonical",
+    "meaning": "Accepted as being the standard or authoritative version; the single source of truth.",
+    "genre": "git-version",
+    "difficulty": 4,
+    "dateAdded": "2025-12-11",
+    "samplePhrase": "The main branch is the canonical source of truth — all releases are cut from it.",
+    "itContext": "Establishing a canonical repository URL prevents confusion in organizations with many forks.",
+    "alternativeWords": [
+      "authoritative",
+      "standard",
+      "official",
+      "definitive"
+    ],
+    "pronunciation": "kuh-NON-ih-kul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "git-029",
+    "word": "Pristine",
+    "meaning": "In its original condition; unspoiled and clean, without any modifications.",
+    "genre": "git-version",
+    "difficulty": 2,
+    "dateAdded": "2025-12-12",
+    "samplePhrase": "After a hard reset, your working directory returns to a pristine state matching the target commit.",
+    "itContext": "Starting from a pristine clone ensures reproducible builds without local configuration artifacts.",
+    "alternativeWords": [
+      "clean",
+      "untouched",
+      "immaculate",
+      "original"
+    ],
+    "pronunciation": "PRIS-teen",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "git-030",
+    "word": "Volatile",
+    "meaning": "Liable to change rapidly and unpredictably; unstable and subject to frequent modification.",
+    "genre": "git-version",
+    "difficulty": 3,
+    "dateAdded": "2025-12-13",
+    "samplePhrase": "Avoid depending on the volatile develop branch for production builds — use tagged releases instead.",
+    "itContext": "Volatile branches with frequent force-pushes are risky for collaboration and CI pipelines.",
+    "alternativeWords": [
+      "unstable",
+      "fluctuating",
+      "changeable",
+      "unpredictable"
+    ],
+    "pronunciation": "VOL-uh-tul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "git-031",
+    "word": "Atomic",
+    "meaning": "Occurring as a single, indivisible operation that either completes entirely or not at all.",
+    "genre": "git-version",
+    "difficulty": 3,
+    "dateAdded": "2025-12-14",
+    "samplePhrase": "Git commits are atomic — the entire set of changes is recorded as one logical unit.",
+    "itContext": "Atomic commits that each represent one logical change make bisecting and reverting straightforward.",
+    "alternativeWords": [
+      "indivisible",
+      "all-or-nothing",
+      "unitary",
+      "discrete"
+    ],
+    "pronunciation": "uh-TOM-ik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "git-032",
+    "word": "Incremental",
+    "meaning": "Relating to or denoting an increase by a series of small, regular amounts or steps.",
+    "genre": "git-version",
+    "difficulty": 2,
+    "dateAdded": "2025-12-15",
+    "samplePhrase": "Make incremental commits as you work so the git history tells a clear story of how the feature evolved.",
+    "itContext": "Incremental development with frequent commits enables better code review and easier conflict resolution.",
+    "alternativeWords": [
+      "gradual",
+      "step-by-step",
+      "progressive",
+      "phased"
+    ],
+    "pronunciation": "in-kruh-MEN-tul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "git-033",
+    "word": "Sequential",
+    "meaning": "Following in a logical order or sequence; forming a continuous series without gaps.",
+    "genre": "git-version",
+    "difficulty": 2,
+    "dateAdded": "2025-12-16",
+    "samplePhrase": "Rebase produces sequential commits on a linear timeline, while merge preserves parallel history.",
+    "itContext": "Sequential version numbering in tags helps teams quickly identify the latest stable release.",
+    "alternativeWords": [
+      "consecutive",
+      "successive",
+      "ordered",
+      "serial"
+    ],
+    "pronunciation": "sih-KWEN-shul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "git-034",
+    "word": "Concurrent",
+    "meaning": "Existing, happening, or done at the same time; parallel operations on shared resources.",
+    "genre": "git-version",
+    "difficulty": 3,
+    "dateAdded": "2025-12-17",
+    "samplePhrase": "Concurrent edits to the same file by different developers will require manual conflict resolution.",
+    "itContext": "Git handles concurrent development through branching and three-way merge algorithms.",
+    "alternativeWords": [
+      "simultaneous",
+      "parallel",
+      "synchronous",
+      "coexisting"
+    ],
+    "pronunciation": "kun-KUR-ent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "git-035",
+    "word": "Transient",
+    "meaning": "Lasting only for a short time; not permanent or enduring.",
+    "genre": "git-version",
+    "difficulty": 3,
+    "dateAdded": "2025-12-18",
+    "samplePhrase": "Feature branches are transient — they should be deleted promptly after merging.",
+    "itContext": "Transient branches reduce clutter and signal that completed work has been integrated.",
+    "alternativeWords": [
+      "temporary",
+      "ephemeral",
+      "short-lived",
+      "fleeting"
+    ],
+    "pronunciation": "TRAN-zee-ent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "git-036",
+    "word": "Persistent",
+    "meaning": "Continuing to exist or endure over a prolonged period; not temporary.",
+    "genre": "git-version",
+    "difficulty": 2,
+    "dateAdded": "2025-12-19",
+    "samplePhrase": "The main and develop branches are persistent — unlike feature branches, they live for the project's lifetime.",
+    "itContext": "Git objects are persistent by design, stored as content-addressed files in the .git directory.",
+    "alternativeWords": [
+      "enduring",
+      "lasting",
+      "permanent",
+      "durable"
+    ],
+    "pronunciation": "per-SIS-tent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "git-037",
+    "word": "Upstream",
+    "meaning": "Relating to the original or source repository from which a fork or clone was derived.",
+    "genre": "git-version",
+    "difficulty": 3,
+    "dateAdded": "2025-12-20",
+    "samplePhrase": "Configure the upstream remote so you can pull the latest changes from the original repository.",
+    "itContext": "Tracking upstream changes is essential for keeping forks in sync with the source project.",
+    "alternativeWords": [
+      "source",
+      "origin",
+      "parent",
+      "root"
+    ],
+    "pronunciation": "UP-streem",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "git-038",
+    "word": "Downstream",
+    "meaning": "Relating to the recipients or consumers of changes that flow from an upstream source.",
+    "genre": "git-version",
+    "difficulty": 3,
+    "dateAdded": "2025-12-21",
+    "samplePhrase": "Breaking changes in the shared library will affect all downstream services that depend on it.",
+    "itContext": "Downstream consumers need clear changelogs and migration guides when upstream APIs change.",
+    "alternativeWords": [
+      "consumer",
+      "dependent",
+      "recipient",
+      "derivative"
+    ],
+    "pronunciation": "DOWN-streem",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "git-039",
+    "word": "Manifest",
+    "meaning": "A comprehensive list of items, files, or components included in a package or release.",
+    "genre": "git-version",
+    "difficulty": 3,
+    "dateAdded": "2025-12-22",
+    "samplePhrase": "Check the release manifest to verify all expected files are included in the deployment artifact.",
+    "itContext": "Package manifests like package.json and go.mod track dependencies and their version constraints.",
+    "alternativeWords": [
+      "inventory",
+      "catalog",
+      "listing",
+      "register"
+    ],
+    "pronunciation": "MAN-ih-fest",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "git-040",
+    "word": "Artifact",
+    "meaning": "A tangible byproduct produced during the development process; a built or compiled output.",
+    "genre": "git-version",
+    "difficulty": 2,
+    "dateAdded": "2025-12-23",
+    "samplePhrase": "CI pipelines produce build artifacts that are versioned and stored for deployment.",
+    "itContext": "Artifact registries store tagged versions of binaries, container images, and packages.",
+    "alternativeWords": [
+      "output",
+      "product",
+      "deliverable",
+      "build"
+    ],
+    "pronunciation": "AR-tih-fakt",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "git-041",
+    "word": "Provenance",
+    "meaning": "The place of origin or earliest known history of something; the chain of custody or creation.",
+    "genre": "git-version",
+    "difficulty": 5,
+    "dateAdded": "2025-12-24",
+    "samplePhrase": "Supply chain security requires tracking the provenance of every dependency in your lock file.",
+    "itContext": "Git commit hashes provide cryptographic provenance for every change in the codebase.",
+    "alternativeWords": [
+      "origin",
+      "lineage",
+      "pedigree",
+      "source"
+    ],
+    "pronunciation": "PROV-uh-nuns",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "git-042",
+    "word": "Lineage",
+    "meaning": "A line of descent or ancestry; the sequence of predecessors leading to the current state.",
+    "genre": "git-version",
+    "difficulty": 3,
+    "dateAdded": "2025-12-25",
+    "samplePhrase": "Tracing the lineage of a commit through its parent chain reveals how the current code evolved.",
+    "itContext": "Commit lineage in a DAG enables powerful operations like merge-base detection and reachability queries.",
+    "alternativeWords": [
+      "ancestry",
+      "heritage",
+      "descent",
+      "pedigree"
+    ],
+    "pronunciation": "LIN-ee-ij",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "git-043",
+    "word": "Nomenclature",
+    "meaning": "A system of names or terms used in a particular field or discipline; naming conventions.",
+    "genre": "git-version",
+    "difficulty": 4,
+    "dateAdded": "2025-12-26",
+    "samplePhrase": "Establish a branch nomenclature like 'feature/', 'bugfix/', 'hotfix/' so the team can find branches easily.",
+    "itContext": "Consistent nomenclature for branches, tags, and commits enables automation and filtering.",
+    "alternativeWords": [
+      "naming convention",
+      "terminology",
+      "taxonomy",
+      "classification"
+    ],
+    "pronunciation": "NOH-men-klay-chur",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "git-044",
+    "word": "Taxonomy",
+    "meaning": "A scheme of classification; an orderly arrangement of items into groups or categories.",
+    "genre": "git-version",
+    "difficulty": 4,
+    "dateAdded": "2025-12-27",
+    "samplePhrase": "Our commit taxonomy uses conventional commits: feat, fix, docs, style, refactor, test, chore.",
+    "itContext": "A clear taxonomy of commit types enables automated changelog generation and semantic versioning.",
+    "alternativeWords": [
+      "classification",
+      "categorization",
+      "hierarchy",
+      "system"
+    ],
+    "pronunciation": "tak-SON-uh-mee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      5,
+      3
+    ]
+  },
+  {
+    "id": "git-045",
+    "word": "Hierarchy",
+    "meaning": "A system in which items are ranked according to levels of importance, authority, or inclusion.",
+    "genre": "git-version",
+    "difficulty": 2,
+    "dateAdded": "2025-12-28",
+    "samplePhrase": "The branch hierarchy flows from main to develop to feature branches, each with decreasing stability.",
+    "itContext": "Repository hierarchy in monorepos organizes code into packages with clear ownership boundaries.",
+    "alternativeWords": [
+      "structure",
+      "ranking",
+      "order",
+      "chain"
+    ],
+    "pronunciation": "HY-uh-rar-kee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "git-046",
+    "word": "Scaffold",
+    "meaning": "A temporary supporting framework used during construction; a foundational structure to build upon.",
+    "genre": "git-version",
+    "difficulty": 3,
+    "dateAdded": "2025-12-29",
+    "samplePhrase": "Use the project scaffold template to initialize a new repository with our standard structure and CI config.",
+    "itContext": "Scaffolding tools generate boilerplate repository structure including git hooks and CI pipelines.",
+    "alternativeWords": [
+      "framework",
+      "template",
+      "skeleton",
+      "foundation"
+    ],
+    "pronunciation": "SKAF-old",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "git-047",
+    "word": "Bootstrap",
+    "meaning": "To start or initialize a process or system using minimal initial resources; to set up from scratch.",
+    "genre": "git-version",
+    "difficulty": 3,
+    "dateAdded": "2025-12-30",
+    "samplePhrase": "Bootstrap the new microservice repo using our internal CLI that sets up git hooks, CI, and linting.",
+    "itContext": "Bootstrapping a repository with pre-configured git hooks ensures code quality from the first commit.",
+    "alternativeWords": [
+      "initialize",
+      "set up",
+      "kickstart",
+      "launch"
+    ],
+    "pronunciation": "BOOT-strap",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "git-048",
+    "word": "Initiate",
+    "meaning": "To cause a process or action to begin; to set something in motion for the first time.",
+    "genre": "git-version",
+    "difficulty": 1,
+    "dateAdded": "2025-12-31",
+    "samplePhrase": "Initiate the repository with git init and make a meaningful first commit that includes the project README.",
+    "itContext": "Initiating a git repository creates the .git directory that tracks all version control metadata.",
+    "alternativeWords": [
+      "begin",
+      "start",
+      "launch",
+      "commence"
+    ],
+    "pronunciation": "ih-NISH-ee-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "git-049",
+    "word": "Integrate",
+    "meaning": "To combine one thing with another so they become a unified whole; to incorporate changes together.",
+    "genre": "git-version",
+    "difficulty": 2,
+    "dateAdded": "2026-01-01",
+    "samplePhrase": "Integrate your feature branch daily to catch conflicts early and keep the merge manageable.",
+    "itContext": "Continuous integration pipelines automatically integrate and validate code changes on every push.",
+    "alternativeWords": [
+      "incorporate",
+      "combine",
+      "unify",
+      "assimilate"
+    ],
+    "pronunciation": "IN-tuh-grayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "git-050",
+    "word": "Segregate",
+    "meaning": "To set apart from the rest; to separate into distinct groups or sections.",
+    "genre": "git-version",
+    "difficulty": 3,
+    "dateAdded": "2026-01-02",
+    "samplePhrase": "Segregate experimental code into its own branch so it doesn't destabilize the release candidate.",
+    "itContext": "Branching strategies segregate stable code from work-in-progress to protect production deployments.",
+    "alternativeWords": [
+      "separate",
+      "isolate",
+      "partition",
+      "divide"
+    ],
+    "pronunciation": "SEG-rih-gayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "git-051",
+    "word": "Partition",
+    "meaning": "To divide into parts or sections; to separate a whole into distinct, manageable segments.",
+    "genre": "git-version",
+    "difficulty": 2,
+    "dateAdded": "2026-01-03",
+    "samplePhrase": "Partition the monorepo into logical packages so teams can manage their own release cycles.",
+    "itContext": "Git sparse checkout partitions a large repo into only the directories each developer needs.",
+    "alternativeWords": [
+      "divide",
+      "split",
+      "section",
+      "segment"
+    ],
+    "pronunciation": "par-TISH-un",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "git-052",
+    "word": "Fragment",
+    "meaning": "To break into smaller pieces; a small part broken off or detached from the whole.",
+    "genre": "git-version",
+    "difficulty": 2,
+    "dateAdded": "2026-01-04",
+    "samplePhrase": "Don't fragment the refactor across 20 tiny PRs — group related changes so reviewers have context.",
+    "itContext": "Fragmented commit history makes it difficult to understand the purpose of related changes.",
+    "alternativeWords": [
+      "break up",
+      "scatter",
+      "splinter",
+      "shatter"
+    ],
+    "pronunciation": "FRAG-ment",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "git-053",
+    "word": "Amalgamate",
+    "meaning": "To combine or unite to form one organization or structure; to blend distinct elements into a whole.",
+    "genre": "git-version",
+    "difficulty": 5,
+    "dateAdded": "2026-01-05",
+    "samplePhrase": "We plan to amalgamate the three microservice repos into a single monorepo for better code sharing.",
+    "itContext": "Amalgamating repositories requires careful history preservation and tooling migration.",
+    "alternativeWords": [
+      "merge",
+      "combine",
+      "blend",
+      "fuse"
+    ],
+    "pronunciation": "uh-MAL-guh-mayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "git-054",
+    "word": "Splice",
+    "meaning": "To join or connect by interweaving strands; to combine two things at a specific point.",
+    "genre": "git-version",
+    "difficulty": 4,
+    "dateAdded": "2026-01-06",
+    "samplePhrase": "You can splice in a series of patches from the mailing list using git am to apply them to your branch.",
+    "itContext": "Splicing commits from one branch into another requires careful attention to merge order.",
+    "alternativeWords": [
+      "join",
+      "connect",
+      "interweave",
+      "graft"
+    ],
+    "pronunciation": "splys",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "git-055",
+    "word": "Graft",
+    "meaning": "To attach or transplant a piece onto an existing structure; to join disparate parts into one.",
+    "genre": "git-version",
+    "difficulty": 4,
+    "dateAdded": "2026-01-07",
+    "samplePhrase": "Git replace grafts allow you to stitch together separate repository histories as if they were one.",
+    "itContext": "Grafting is used to connect disconnected histories when repositories are merged retroactively.",
+    "alternativeWords": [
+      "attach",
+      "transplant",
+      "implant",
+      "join"
+    ],
+    "pronunciation": "graft",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "git-056",
+    "word": "Transplant",
+    "meaning": "To move something from one place and establish it in another; to relocate with care.",
+    "genre": "git-version",
+    "difficulty": 3,
+    "dateAdded": "2026-01-08",
+    "samplePhrase": "We need to transplant the utility module from the legacy repo to the new monorepo while preserving git history.",
+    "itContext": "Transplanting code between repositories with git filter-branch preserves commit history and authorship.",
+    "alternativeWords": [
+      "relocate",
+      "transfer",
+      "move",
+      "migrate"
+    ],
+    "pronunciation": "trans-PLANT",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "git-057",
+    "word": "Migrate",
+    "meaning": "To move from one system, platform, or location to another; to transition data or processes.",
+    "genre": "git-version",
+    "difficulty": 2,
+    "dateAdded": "2026-01-09",
+    "samplePhrase": "Migrate the repository from SVN to Git using git-svn to preserve the full commit history.",
+    "itContext": "Migrating version control systems requires mapping users, branches, and tags between formats.",
+    "alternativeWords": [
+      "transfer",
+      "transition",
+      "move",
+      "convert"
+    ],
+    "pronunciation": "MY-grayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "git-058",
+    "word": "Derive",
+    "meaning": "To obtain something from a source or origin; to develop from an existing base.",
+    "genre": "git-version",
+    "difficulty": 3,
+    "dateAdded": "2026-01-10",
+    "samplePhrase": "This library was derived from the original open-source project with modifications for our use case.",
+    "itContext": "Derived branches inherit the full commit history of their parent branch at the point of creation.",
+    "alternativeWords": [
+      "obtain",
+      "originate",
+      "extract",
+      "develop"
+    ],
+    "pronunciation": "dih-RYV",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "git-059",
+    "word": "Inherit",
+    "meaning": "To receive or take on properties, characteristics, or history from a predecessor or parent.",
+    "genre": "git-version",
+    "difficulty": 2,
+    "dateAdded": "2026-01-11",
+    "samplePhrase": "When you create a branch from main, it inherits the entire commit history up to that point.",
+    "itContext": "Child branches inherit all parent commits, enabling shared history and efficient merge operations.",
+    "alternativeWords": [
+      "receive",
+      "acquire",
+      "succeed to",
+      "take on"
+    ],
+    "pronunciation": "in-HAIR-it",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "git-060",
+    "word": "Obsolete",
+    "meaning": "No longer produced or used; outmoded and replaced by something newer or more effective.",
+    "genre": "git-version",
+    "difficulty": 2,
+    "dateAdded": "2026-01-12",
+    "samplePhrase": "Delete obsolete branches that were merged months ago — they clutter the remote and confuse newcomers.",
+    "itContext": "Marking code as obsolete in comments before removal gives other teams time to adapt.",
+    "alternativeWords": [
+      "outdated",
+      "deprecated",
+      "antiquated",
+      "superseded"
+    ],
+    "pronunciation": "OB-suh-leet",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "git-061",
+    "word": "Vestige",
+    "meaning": "A trace or remnant of something that is disappearing or no longer exists.",
+    "genre": "git-version",
+    "difficulty": 5,
+    "dateAdded": "2026-01-13",
+    "samplePhrase": "The orphaned config file is a vestige of the old deployment system that was replaced last quarter.",
+    "itContext": "Vestiges of removed features often linger in codebases, creating confusion and maintenance burden.",
+    "alternativeWords": [
+      "remnant",
+      "trace",
+      "relic",
+      "residue"
+    ],
+    "pronunciation": "VES-tij",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "git-062",
+    "word": "Legacy",
+    "meaning": "Something handed down from an earlier time; older systems or code still in use but not actively developed.",
+    "genre": "git-version",
+    "difficulty": 2,
+    "dateAdded": "2026-01-14",
+    "samplePhrase": "The legacy codebase predates our current git workflow, so its history is harder to navigate.",
+    "itContext": "Legacy repositories often need modernization of branching strategies and CI/CD integration.",
+    "alternativeWords": [
+      "inherited",
+      "historical",
+      "old",
+      "pre-existing"
+    ],
+    "pronunciation": "LEG-uh-see",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "git-063",
+    "word": "Restore",
+    "meaning": "To bring back to a former condition, position, or state; to recover a previous version.",
+    "genre": "git-version",
+    "difficulty": 1,
+    "dateAdded": "2026-01-15",
+    "samplePhrase": "Use git restore to discard working directory changes and return a file to its last committed state.",
+    "itContext": "Git restore replaced the overloaded checkout command for file-level operations in newer git versions.",
+    "alternativeWords": [
+      "recover",
+      "reinstate",
+      "reestablish",
+      "reclaim"
+    ],
+    "pronunciation": "rih-STOR",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "git-064",
+    "word": "Salvage",
+    "meaning": "To rescue something from loss or destruction; to recover usable parts from a damaged whole.",
+    "genre": "git-version",
+    "difficulty": 3,
+    "dateAdded": "2026-01-16",
+    "samplePhrase": "We can salvage the useful commits from the abandoned branch by cherry-picking them into a new one.",
+    "itContext": "Git reflog can salvage seemingly lost commits after a mistaken reset or branch deletion.",
+    "alternativeWords": [
+      "recover",
+      "rescue",
+      "retrieve",
+      "reclaim"
+    ],
+    "pronunciation": "SAL-vij",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "git-065",
+    "word": "Reclaim",
+    "meaning": "To retrieve or recover something previously lost, given away, or discarded.",
+    "genre": "git-version",
+    "difficulty": 2,
+    "dateAdded": "2026-01-17",
+    "samplePhrase": "Git gc reclaims disk space by cleaning up dangling objects and compressing loose objects.",
+    "itContext": "Garbage collection reclaims storage from unreachable objects that are no longer referenced by any branch.",
+    "alternativeWords": [
+      "recover",
+      "retrieve",
+      "regain",
+      "restore"
+    ],
+    "pronunciation": "rih-KLAYM",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "git-066",
+    "word": "Expunge",
+    "meaning": "To erase or remove completely; to obliterate all traces of something from a record.",
+    "genre": "git-version",
+    "difficulty": 5,
+    "dateAdded": "2026-01-18",
+    "samplePhrase": "We must expunge the API key from git history — it's not enough to just delete it in the latest commit.",
+    "itContext": "Expunging sensitive data from git requires force-pushing rewritten history to all remotes.",
+    "alternativeWords": [
+      "erase",
+      "delete",
+      "obliterate",
+      "remove"
+    ],
+    "pronunciation": "ik-SPUNJ",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "git-067",
+    "word": "Truncate",
+    "meaning": "To shorten by cutting off the top or end; to reduce to a shorter form.",
+    "genre": "git-version",
+    "difficulty": 3,
+    "dateAdded": "2026-01-19",
+    "samplePhrase": "Shallow clones truncate the repository history to a specified depth for faster CI checkout times.",
+    "itContext": "Truncating git history with shallow clones trades offline capability for clone speed.",
+    "alternativeWords": [
+      "shorten",
+      "abbreviate",
+      "curtail",
+      "trim"
+    ],
+    "pronunciation": "TRUNG-kayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "git-068",
+    "word": "Append",
+    "meaning": "To add something to the end of an existing item or document; to extend by attachment.",
+    "genre": "git-version",
+    "difficulty": 1,
+    "dateAdded": "2026-01-20",
+    "samplePhrase": "Each new commit appends to the branch's history, building an ever-growing chain of changes.",
+    "itContext": "Append-only data structures like git's object store ensure history integrity and immutability.",
+    "alternativeWords": [
+      "add",
+      "attach",
+      "supplement",
+      "extend"
+    ],
+    "pronunciation": "uh-PEND",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "git-069",
+    "word": "Collate",
+    "meaning": "To collect and combine texts, information, or data; to assemble in proper order.",
+    "genre": "git-version",
+    "difficulty": 4,
+    "dateAdded": "2026-01-21",
+    "samplePhrase": "Collate all the release notes from individual PRs to create a comprehensive changelog.",
+    "itContext": "Automated tools collate commit messages matching conventional commit format into structured changelogs.",
+    "alternativeWords": [
+      "compile",
+      "assemble",
+      "gather",
+      "organize"
+    ],
+    "pronunciation": "kuh-LAYT",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "git-070",
+    "word": "Curate",
+    "meaning": "To select, organize, and present items with care and expertise; to maintain a collection thoughtfully.",
+    "genre": "git-version",
+    "difficulty": 3,
+    "dateAdded": "2026-01-22",
+    "samplePhrase": "Curate your commit history with interactive rebase before submitting the PR for review.",
+    "itContext": "Well-curated commit histories tell a story that helps reviewers and future maintainers.",
+    "alternativeWords": [
+      "organize",
+      "select",
+      "arrange",
+      "manage"
+    ],
+    "pronunciation": "KYOOR-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "git-071",
+    "word": "Interleave",
+    "meaning": "To insert between or among existing items; to alternate elements from two or more sources.",
+    "genre": "git-version",
+    "difficulty": 4,
+    "dateAdded": "2026-01-23",
+    "samplePhrase": "Git log with --all interleaves commits from all branches sorted by timestamp.",
+    "itContext": "Interleaved commit histories from multiple branches show the true chronological development timeline.",
+    "alternativeWords": [
+      "alternate",
+      "intersperse",
+      "intermix",
+      "weave"
+    ],
+    "pronunciation": "in-ter-LEEV",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "git-072",
+    "word": "Triage",
+    "meaning": "To assess and prioritize items for attention based on severity, urgency, or importance.",
+    "genre": "git-version",
+    "difficulty": 3,
+    "dateAdded": "2026-01-24",
+    "samplePhrase": "Triage the merge conflicts by severity — resolve the build-breaking ones first.",
+    "itContext": "Bug triage in issue trackers determines which problems get fixed in which release branch.",
+    "alternativeWords": [
+      "prioritize",
+      "categorize",
+      "sort",
+      "classify"
+    ],
+    "pronunciation": "tree-AHJ",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "git-073",
+    "word": "Catalog",
+    "meaning": "To make a systematic list of items with details; to record and organize for easy retrieval.",
+    "genre": "git-version",
+    "difficulty": 2,
+    "dateAdded": "2026-01-25",
+    "samplePhrase": "Catalog all breaking changes in the CHANGELOG.md so downstream consumers can plan their upgrades.",
+    "itContext": "Automated changelog tools catalog commits by type, linking PRs and issues for traceability.",
+    "alternativeWords": [
+      "list",
+      "index",
+      "register",
+      "document"
+    ],
+    "pronunciation": "KAT-uh-log",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "git-074",
+    "word": "Index",
+    "meaning": "An organized reference that enables rapid lookup; a staging area for tracking changes.",
+    "genre": "git-version",
+    "difficulty": 2,
+    "dateAdded": "2026-01-26",
+    "samplePhrase": "Files must be added to the git index before they can be included in a commit.",
+    "itContext": "The git index (staging area) is an intermediate layer between the working directory and repository.",
+    "alternativeWords": [
+      "staging area",
+      "reference",
+      "directory",
+      "register"
+    ],
+    "pronunciation": "IN-deks",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "git-075",
+    "word": "Tag",
+    "meaning": "A reference that points to a specific commit, typically used to mark release points.",
+    "genre": "git-version",
+    "difficulty": 1,
+    "dateAdded": "2026-01-27",
+    "samplePhrase": "Tag the release commit with v2.1.0 so the CI pipeline knows to build and publish the production artifact.",
+    "itContext": "Semantic version tags enable automated release workflows and dependency resolution.",
+    "alternativeWords": [
+      "label",
+      "mark",
+      "flag",
+      "designate"
+    ],
+    "pronunciation": "tag",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      2
+    ]
+  },
+  {
+    "id": "git-076",
+    "word": "Demarcate",
+    "meaning": "To set the boundaries of something; to mark the limits or distinctions between areas.",
+    "genre": "git-version",
+    "difficulty": 4,
+    "dateAdded": "2026-01-28",
+    "samplePhrase": "Use git tags to demarcate stable release points from ongoing development in the branch history.",
+    "itContext": "Clear demarcation between release and development branches prevents accidental production deployments.",
+    "alternativeWords": [
+      "delimit",
+      "delineate",
+      "separate",
+      "distinguish"
+    ],
+    "pronunciation": "DEE-mar-kayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "git-077",
+    "word": "Delimit",
+    "meaning": "To determine the limits or boundaries of something; to fix or define the extent of.",
+    "genre": "git-version",
+    "difficulty": 4,
+    "dateAdded": "2026-01-29",
+    "samplePhrase": "The merge commit delimiters in git log help you identify where feature branches were integrated.",
+    "itContext": "Delimiting changes with clear commit boundaries makes code archaeology more productive.",
+    "alternativeWords": [
+      "bound",
+      "define",
+      "mark off",
+      "circumscribe"
+    ],
+    "pronunciation": "dih-LIM-it",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "git-078",
+    "word": "Encapsulate",
+    "meaning": "To enclose in or as if in a capsule; to express the essential features of something succinctly.",
+    "genre": "git-version",
+    "difficulty": 3,
+    "dateAdded": "2026-01-30",
+    "samplePhrase": "Each commit should encapsulate a single logical change with a descriptive message explaining why.",
+    "itContext": "Well-encapsulated commits are self-contained and can be independently cherry-picked or reverted.",
+    "alternativeWords": [
+      "contain",
+      "package",
+      "wrap",
+      "enclose"
+    ],
+    "pronunciation": "en-KAP-suh-layt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "git-079",
+    "word": "Modularize",
+    "meaning": "To divide a system into independent, interchangeable modules with well-defined interfaces.",
+    "genre": "git-version",
+    "difficulty": 3,
+    "dateAdded": "2026-01-31",
+    "samplePhrase": "Modularize the monorepo using git submodules so each team can manage releases independently.",
+    "itContext": "Modular repository structures enable independent versioning and selective checkout of components.",
+    "alternativeWords": [
+      "compartmentalize",
+      "segment",
+      "decompose",
+      "partition"
+    ],
+    "pronunciation": "MOJ-oo-luh-ryz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "git-080",
+    "word": "Overwrite",
+    "meaning": "To replace existing data or content with new data; to write on top of something previously stored.",
+    "genre": "git-version",
+    "difficulty": 2,
+    "dateAdded": "2026-02-01",
+    "samplePhrase": "Force-pushing will overwrite the remote branch history — only do this on personal feature branches.",
+    "itContext": "Overwriting shared branch history with force push can destroy teammates' work and cause data loss.",
+    "alternativeWords": [
+      "replace",
+      "supersede",
+      "clobber",
+      "supplant"
+    ],
+    "pronunciation": "OH-ver-ryt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "git-081",
+    "word": "Embargo",
+    "meaning": "An official ban or restriction on activity; a hold placed on releases or information.",
+    "genre": "git-version",
+    "difficulty": 4,
+    "dateAdded": "2026-02-02",
+    "samplePhrase": "Place an embargo on merges to main during the release stabilization period.",
+    "itContext": "Code freeze embargoes protect release branches from destabilizing changes before deployment.",
+    "alternativeWords": [
+      "ban",
+      "freeze",
+      "moratorium",
+      "restriction"
+    ],
+    "pronunciation": "em-BAR-go",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "git-082",
+    "word": "Quarantine",
+    "meaning": "To isolate something to prevent the spread of problems; to hold in a restricted state for review.",
+    "genre": "git-version",
+    "difficulty": 3,
+    "dateAdded": "2026-02-03",
+    "samplePhrase": "Quarantine the suspicious commit in a separate branch while we investigate the test failures it caused.",
+    "itContext": "Quarantining flaky tests in a separate suite prevents them from blocking other merges.",
+    "alternativeWords": [
+      "isolate",
+      "segregate",
+      "contain",
+      "sequester"
+    ],
+    "pronunciation": "KWOR-un-teen",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "git-083",
+    "word": "Sandbox",
+    "meaning": "An isolated environment for testing or experimentation that doesn't affect production systems.",
+    "genre": "git-version",
+    "difficulty": 2,
+    "dateAdded": "2026-02-04",
+    "samplePhrase": "Create a sandbox branch to experiment with the new build system without disrupting the team.",
+    "itContext": "Feature branches serve as sandboxes where developers can experiment safely before merging.",
+    "alternativeWords": [
+      "testbed",
+      "playground",
+      "lab",
+      "staging"
+    ],
+    "pronunciation": "SAND-boks",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "git-084",
+    "word": "Isolate",
+    "meaning": "To set apart from others; to identify and separate a specific element for focused examination.",
+    "genre": "git-version",
+    "difficulty": 2,
+    "dateAdded": "2026-02-05",
+    "samplePhrase": "Isolate the failing commit by checking out each parent until you find where the bug was introduced.",
+    "itContext": "Git bisect isolates the exact commit that introduced a regression through binary search.",
+    "alternativeWords": [
+      "separate",
+      "detach",
+      "segregate",
+      "quarantine"
+    ],
+    "pronunciation": "EYE-suh-layt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "git-085",
+    "word": "Pinpoint",
+    "meaning": "To locate or identify with great precision and accuracy; to find the exact source.",
+    "genre": "git-version",
+    "difficulty": 2,
+    "dateAdded": "2026-02-06",
+    "samplePhrase": "Using git blame and bisect together lets you pinpoint not just which line broke, but exactly when.",
+    "itContext": "Pinpointing regressions in version history is dramatically easier with atomic, well-described commits.",
+    "alternativeWords": [
+      "identify",
+      "locate",
+      "determine",
+      "zero in on"
+    ],
+    "pronunciation": "PIN-point",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "git-086",
+    "word": "Iterate",
+    "meaning": "To perform a process repeatedly, each time improving or refining the result.",
+    "genre": "git-version",
+    "difficulty": 2,
+    "dateAdded": "2026-02-07",
+    "samplePhrase": "Iterate on the PR based on reviewer feedback — push follow-up commits addressing each comment.",
+    "itContext": "Iterative development with version control lets teams refine features through multiple review cycles.",
+    "alternativeWords": [
+      "repeat",
+      "refine",
+      "cycle through",
+      "evolve"
+    ],
+    "pronunciation": "IT-uh-rayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "git-087",
+    "word": "Tombstone",
+    "meaning": "A marker indicating that a record or entity has been deleted; a placeholder for removed data.",
+    "genre": "git-version",
+    "difficulty": 4,
+    "dateAdded": "2026-02-08",
+    "samplePhrase": "Add a tombstone file explaining why the module was removed so future developers don't recreate it.",
+    "itContext": "Tombstone records in distributed systems and repositories signal that deletion is intentional, not accidental.",
+    "alternativeWords": [
+      "marker",
+      "placeholder",
+      "deletion flag",
+      "epitaph"
+    ],
+    "pronunciation": "TOOM-stohn",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "git-088",
+    "word": "Sunset",
+    "meaning": "To phase out or discontinue a product, feature, or process gradually and intentionally.",
+    "genre": "git-version",
+    "difficulty": 3,
+    "dateAdded": "2026-02-09",
+    "samplePhrase": "We'll sunset the v1 API branch next quarter — begin migrating consumers to v2 now.",
+    "itContext": "Sunsetting deprecated branches with advance notice gives dependents time to adjust their workflows.",
+    "alternativeWords": [
+      "retire",
+      "phase out",
+      "discontinue",
+      "decommission"
+    ],
+    "pronunciation": "SUN-set",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "git-089",
+    "word": "Milestone",
+    "meaning": "A significant stage or event in the development of something; a key checkpoint in a project.",
+    "genre": "git-version",
+    "difficulty": 1,
+    "dateAdded": "2026-02-10",
+    "samplePhrase": "Tag the commit as v1.0 — it marks the milestone of our first production-ready release.",
+    "itContext": "Git milestones tied to tagged commits create traceable checkpoints in the project timeline.",
+    "alternativeWords": [
+      "landmark",
+      "checkpoint",
+      "benchmark",
+      "waypoint"
+    ],
+    "pronunciation": "MYL-stohn",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "git-090",
+    "word": "Baseline",
+    "meaning": "A starting point used for comparisons; a reference standard against which changes are measured.",
+    "genre": "git-version",
+    "difficulty": 2,
+    "dateAdded": "2026-02-11",
+    "samplePhrase": "Use the last release tag as your baseline to generate a diff of all changes going into this release.",
+    "itContext": "Performance baselines from tagged commits let you measure the impact of optimization changes.",
+    "alternativeWords": [
+      "reference",
+      "benchmark",
+      "foundation",
+      "standard"
+    ],
+    "pronunciation": "BAYS-lyn",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "git-091",
+    "word": "Benchmark",
+    "meaning": "A standard or point of reference against which things may be compared or assessed.",
+    "genre": "git-version",
+    "difficulty": 2,
+    "dateAdded": "2026-02-12",
+    "samplePhrase": "Run benchmarks against the main branch before and after your changes to quantify the improvement.",
+    "itContext": "Automated benchmarks in CI prevent performance regressions from being merged unnoticed.",
+    "alternativeWords": [
+      "standard",
+      "yardstick",
+      "criterion",
+      "reference point"
+    ],
+    "pronunciation": "BENCH-mark",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "git-092",
+    "word": "Reconcile",
+    "meaning": "To make two conflicting things consistent or compatible; to resolve differences between versions.",
+    "genre": "git-version",
+    "difficulty": 3,
+    "dateAdded": "2026-02-13",
+    "samplePhrase": "Reconcile the merge conflicts by examining both versions and choosing the correct resolution for each hunk.",
+    "itContext": "Three-way merge algorithms reconcile conflicts by comparing the common ancestor with both branch tips.",
+    "alternativeWords": [
+      "resolve",
+      "harmonize",
+      "settle",
+      "align"
+    ],
+    "pronunciation": "REK-un-syl",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "git-093",
+    "word": "Ratify",
+    "meaning": "To give formal consent to or approve of something; to make officially valid.",
+    "genre": "git-version",
+    "difficulty": 4,
+    "dateAdded": "2026-02-14",
+    "samplePhrase": "Two approving reviews are required to ratify a PR before it can be merged to the protected main branch.",
+    "itContext": "Branch protection rules ratify changes through mandatory review approvals before integration.",
+    "alternativeWords": [
+      "approve",
+      "confirm",
+      "endorse",
+      "validate"
+    ],
+    "pronunciation": "RAT-ih-fy",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "git-094",
+    "word": "Audit",
+    "meaning": "To conduct a systematic examination and review; to inspect records for accuracy and compliance.",
+    "genre": "git-version",
+    "difficulty": 2,
+    "dateAdded": "2026-02-15",
+    "samplePhrase": "Audit the git log for any commits that bypassed the required review process.",
+    "itContext": "Git's immutable history provides a complete audit trail of every change and its author.",
+    "alternativeWords": [
+      "inspect",
+      "review",
+      "examine",
+      "scrutinize"
+    ],
+    "pronunciation": "AW-dit",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "git-095",
+    "word": "Certify",
+    "meaning": "To attest or confirm formally that something meets required standards or criteria.",
+    "genre": "git-version",
+    "difficulty": 3,
+    "dateAdded": "2026-02-16",
+    "samplePhrase": "GPG-signed commits certify that the code was authored by who it claims, preventing impersonation.",
+    "itContext": "Commit signing certifies authorship through cryptographic verification in the git log.",
+    "alternativeWords": [
+      "verify",
+      "authenticate",
+      "validate",
+      "attest"
+    ],
+    "pronunciation": "SUR-tih-fy",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "git-096",
+    "word": "Verify",
+    "meaning": "To make sure or demonstrate that something is true, accurate, or justified by examination.",
+    "genre": "git-version",
+    "difficulty": 1,
+    "dateAdded": "2026-02-17",
+    "samplePhrase": "Verify the commit signature before deploying to ensure the code hasn't been tampered with.",
+    "itContext": "Git verify-tag and verify-commit commands check GPG signatures for authenticity.",
+    "alternativeWords": [
+      "confirm",
+      "check",
+      "validate",
+      "authenticate"
+    ],
+    "pronunciation": "VAIR-ih-fy",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "git-097",
+    "word": "Authenticate",
+    "meaning": "To prove or confirm the identity or origin of something as genuine and authoritative.",
+    "genre": "git-version",
+    "difficulty": 3,
+    "dateAdded": "2026-02-18",
+    "samplePhrase": "Authenticate with the remote using SSH keys rather than personal access tokens for better security.",
+    "itContext": "SSH and GPG key authentication ensures only authorized developers can push to protected branches.",
+    "alternativeWords": [
+      "verify",
+      "confirm",
+      "validate",
+      "certify"
+    ],
+    "pronunciation": "aw-THEN-tih-kayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "git-098",
+    "word": "Authorize",
+    "meaning": "To give official permission or approval for an action; to grant access rights.",
+    "genre": "git-version",
+    "difficulty": 2,
+    "dateAdded": "2026-02-19",
+    "samplePhrase": "Only repository maintainers are authorized to push directly to the main branch.",
+    "itContext": "Branch protection rules authorize merges only after CI passes and required reviewers approve.",
+    "alternativeWords": [
+      "permit",
+      "allow",
+      "sanction",
+      "empower"
+    ],
+    "pronunciation": "AW-thuh-ryz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "git-099",
+    "word": "Federate",
+    "meaning": "To form a union of entities that retain autonomy while cooperating under a shared framework.",
+    "genre": "git-version",
+    "difficulty": 5,
+    "dateAdded": "2026-02-20",
+    "samplePhrase": "We federate our repositories across GitHub and GitLab, syncing via mirroring for redundancy.",
+    "itContext": "Federated git hosting distributes risk and lets teams choose their preferred collaboration platform.",
+    "alternativeWords": [
+      "unite",
+      "ally",
+      "confederate",
+      "associate"
+    ],
+    "pronunciation": "FED-uh-rayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "git-100",
+    "word": "Proliferate",
+    "meaning": "To increase rapidly in number or spread widely; to reproduce or multiply at a fast rate.",
+    "genre": "git-version",
+    "difficulty": 4,
+    "dateAdded": "2026-02-21",
+    "samplePhrase": "Without branch naming conventions, stale branches proliferate and make the repository harder to navigate.",
+    "itContext": "Unmanaged branches proliferate in organizations without clear git hygiene policies.",
+    "alternativeWords": [
+      "multiply",
+      "spread",
+      "expand",
+      "mushroom"
+    ],
+    "pronunciation": "pruh-LIF-uh-rayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3,
+      4
+    ]
+  }
+]

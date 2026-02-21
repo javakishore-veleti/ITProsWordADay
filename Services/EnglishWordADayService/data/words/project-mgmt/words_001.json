@@ -1,0 +1,2227 @@
+[
+  {
+    "id": "pm-001",
+    "word": "Prioritize",
+    "meaning": "To arrange tasks or requirements in order of importance or urgency.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2025-11-14",
+    "samplePhrase": "We need to prioritize the security fixes over the UI enhancements for this sprint.",
+    "itContext": "Effective prioritization ensures the team delivers the highest-value work first.",
+    "alternativeWords": [
+      "rank",
+      "order",
+      "triage",
+      "weight"
+    ],
+    "pronunciation": "pry-OR-ih-tyz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "pm-002",
+    "word": "Delegate",
+    "meaning": "To assign responsibility or authority for a task to another person.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2025-11-15",
+    "samplePhrase": "I'll delegate the API documentation to the backend team since they own the endpoints.",
+    "itContext": "Delegation empowers team members and prevents bottlenecks on a single person.",
+    "alternativeWords": [
+      "assign",
+      "entrust",
+      "hand off",
+      "transfer"
+    ],
+    "pronunciation": "DEL-eh-gayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "pm-003",
+    "word": "Facilitate",
+    "meaning": "To guide a group process or meeting to help participants achieve their objectives.",
+    "genre": "project-mgmt",
+    "difficulty": 3,
+    "dateAdded": "2025-11-16",
+    "samplePhrase": "The Scrum Master will facilitate the retrospective to ensure everyone's voice is heard.",
+    "itContext": "Skilled facilitation keeps meetings focused, inclusive, and productive.",
+    "alternativeWords": [
+      "guide",
+      "moderate",
+      "lead",
+      "coordinate"
+    ],
+    "pronunciation": "fuh-SIL-ih-tayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "pm-004",
+    "word": "Escalate",
+    "meaning": "To raise an issue to a higher level of management or authority for resolution.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2025-11-17",
+    "samplePhrase": "If the vendor doesn't respond by Friday, we'll escalate the blocker to the VP of Engineering.",
+    "itContext": "Timely escalation prevents small blockers from derailing entire project timelines.",
+    "alternativeWords": [
+      "elevate",
+      "raise",
+      "refer upward",
+      "bump up"
+    ],
+    "pronunciation": "ES-kuh-layt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "pm-005",
+    "word": "Milestone",
+    "meaning": "A significant checkpoint or event that marks progress toward a project's completion.",
+    "genre": "project-mgmt",
+    "difficulty": 1,
+    "dateAdded": "2025-11-18",
+    "samplePhrase": "Reaching the beta launch milestone means all critical features are code-complete.",
+    "itContext": "Milestones provide visibility into project progress for stakeholders and leadership.",
+    "alternativeWords": [
+      "checkpoint",
+      "landmark",
+      "marker",
+      "target"
+    ],
+    "pronunciation": "MYL-stohn",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "pm-006",
+    "word": "Deliverable",
+    "meaning": "A tangible or intangible product or result that must be produced to complete a project.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2025-11-19",
+    "samplePhrase": "The sprint deliverables include the user dashboard, API documentation, and load test results.",
+    "itContext": "Clear deliverable definitions prevent scope ambiguity and set measurable completion criteria.",
+    "alternativeWords": [
+      "output",
+      "artifact",
+      "work product",
+      "result"
+    ],
+    "pronunciation": "deh-LIV-er-uh-bul",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "pm-007",
+    "word": "Retrospective",
+    "meaning": "A team meeting held after a sprint or project to reflect on what went well and what to improve.",
+    "genre": "project-mgmt",
+    "difficulty": 3,
+    "dateAdded": "2025-11-20",
+    "samplePhrase": "In the retrospective, the team agreed that better testing earlier would have prevented the late bugs.",
+    "itContext": "Retrospectives drive continuous improvement by turning team reflections into actionable changes.",
+    "alternativeWords": [
+      "review",
+      "post-mortem",
+      "debrief",
+      "reflection"
+    ],
+    "pronunciation": "ret-roh-SPEK-tiv",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "pm-008",
+    "word": "Velocity",
+    "meaning": "The rate at which a team delivers work, measured in story points per sprint.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2025-11-21",
+    "samplePhrase": "Our average velocity is 42 points per sprint, so committing to 60 is unrealistic.",
+    "itContext": "Velocity trends help teams plan capacity and forecast delivery dates accurately.",
+    "alternativeWords": [
+      "throughput",
+      "pace",
+      "output rate",
+      "productivity"
+    ],
+    "pronunciation": "vuh-LOS-ih-tee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "pm-009",
+    "word": "Impediment",
+    "meaning": "Any obstacle that blocks or slows down the team's progress toward their goal.",
+    "genre": "project-mgmt",
+    "difficulty": 3,
+    "dateAdded": "2025-11-22",
+    "samplePhrase": "The missing staging environment is an impediment that's blocking QA testing.",
+    "itContext": "Scrum Masters actively remove impediments to keep the team's delivery velocity stable.",
+    "alternativeWords": [
+      "blocker",
+      "obstacle",
+      "hindrance",
+      "barrier"
+    ],
+    "pronunciation": "im-PED-ih-ment",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "pm-010",
+    "word": "Stakeholder",
+    "meaning": "A person or group with an interest, concern, or influence over a project's outcome.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2025-11-23",
+    "samplePhrase": "We need stakeholder approval from product, engineering, and legal before launching.",
+    "itContext": "Stakeholder alignment early in the project prevents costly rework and scope changes later.",
+    "alternativeWords": [
+      "interested party",
+      "decision-maker",
+      "sponsor",
+      "participant"
+    ],
+    "pronunciation": "STAYK-hol-der",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "pm-011",
+    "word": "Iterate",
+    "meaning": "To repeat a cycle of planning, building, and reviewing to progressively improve a product.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2025-11-24",
+    "samplePhrase": "We'll iterate on the design based on user testing feedback each sprint.",
+    "itContext": "Iterative development delivers value incrementally and adapts to changing requirements.",
+    "alternativeWords": [
+      "refine",
+      "repeat",
+      "cycle",
+      "evolve"
+    ],
+    "pronunciation": "IT-er-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "pm-012",
+    "word": "Scope",
+    "meaning": "The defined boundaries of what a project will and will not include.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2025-11-25",
+    "samplePhrase": "Adding real-time notifications is out of scope for the MVP release.",
+    "itContext": "Scope creep is one of the leading causes of project delays and budget overruns.",
+    "alternativeWords": [
+      "extent",
+      "boundaries",
+      "range",
+      "parameters"
+    ],
+    "pronunciation": "skohp",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "pm-013",
+    "word": "Backlog",
+    "meaning": "An ordered list of pending work items that the team will address in future iterations.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2025-11-26",
+    "samplePhrase": "The product owner grooms the backlog every Wednesday to keep the top items ready for sprint planning.",
+    "itContext": "A well-maintained backlog ensures the team always has clearly defined work ready to start.",
+    "alternativeWords": [
+      "queue",
+      "task list",
+      "work queue",
+      "to-do list"
+    ],
+    "pronunciation": "BAK-log",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "pm-014",
+    "word": "Burndown",
+    "meaning": "A chart showing the amount of work remaining versus time in a sprint or project.",
+    "genre": "project-mgmt",
+    "difficulty": 3,
+    "dateAdded": "2025-11-27",
+    "samplePhrase": "The burndown chart shows we're behind the ideal line — we may need to drop a story.",
+    "itContext": "Burndown charts provide real-time visibility into sprint progress and potential delivery risks.",
+    "alternativeWords": [
+      "progress chart",
+      "work-remaining graph",
+      "completion tracker",
+      "trend line"
+    ],
+    "pronunciation": "BURN-down",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "pm-015",
+    "word": "Sprint",
+    "meaning": "A fixed time period, typically one to four weeks, during which a set of work is completed.",
+    "genre": "project-mgmt",
+    "difficulty": 1,
+    "dateAdded": "2025-11-28",
+    "samplePhrase": "We run two-week sprints with planning on Monday and a demo every other Friday.",
+    "itContext": "Sprints create a regular cadence of delivery that drives team rhythm and predictability.",
+    "alternativeWords": [
+      "iteration",
+      "cycle",
+      "time box",
+      "increment"
+    ],
+    "pronunciation": "sprint",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "pm-016",
+    "word": "Standup",
+    "meaning": "A brief daily meeting where team members share progress, plans, and blockers.",
+    "genre": "project-mgmt",
+    "difficulty": 1,
+    "dateAdded": "2025-11-29",
+    "samplePhrase": "Keep the standup under 15 minutes — each person shares yesterday, today, and blockers.",
+    "itContext": "Standups synchronize the team and surface blockers before they become major issues.",
+    "alternativeWords": [
+      "daily sync",
+      "check-in",
+      "huddle",
+      "scrum"
+    ],
+    "pronunciation": "STAND-up",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "pm-017",
+    "word": "Ceremony",
+    "meaning": "A recurring structured meeting in Agile frameworks such as planning, review, or retro.",
+    "genre": "project-mgmt",
+    "difficulty": 3,
+    "dateAdded": "2025-11-30",
+    "samplePhrase": "Sprint planning, daily standup, review, and retrospective are the four Scrum ceremonies.",
+    "itContext": "Agile ceremonies provide regular touchpoints for alignment, feedback, and continuous improvement.",
+    "alternativeWords": [
+      "ritual",
+      "event",
+      "meeting",
+      "practice"
+    ],
+    "pronunciation": "SER-eh-moh-nee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "pm-018",
+    "word": "Cadence",
+    "meaning": "The regular rhythm or frequency at which recurring activities happen.",
+    "genre": "project-mgmt",
+    "difficulty": 3,
+    "dateAdded": "2025-12-01",
+    "samplePhrase": "We've established a two-week release cadence to ship features predictably.",
+    "itContext": "A consistent cadence builds team habits and makes delivery timelines predictable for stakeholders.",
+    "alternativeWords": [
+      "rhythm",
+      "tempo",
+      "frequency",
+      "pace"
+    ],
+    "pronunciation": "KAY-dunce",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "pm-019",
+    "word": "Capacity",
+    "meaning": "The total amount of work a team can handle within a given time period.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2025-12-02",
+    "samplePhrase": "With two team members on vacation, our sprint capacity is reduced by 30%.",
+    "itContext": "Capacity planning accounts for holidays, meetings, and support rotations to set realistic sprint goals.",
+    "alternativeWords": [
+      "bandwidth",
+      "availability",
+      "throughput",
+      "capability"
+    ],
+    "pronunciation": "kuh-PAS-ih-tee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "pm-020",
+    "word": "Estimate",
+    "meaning": "An informed approximation of the effort, time, or cost required for a task.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2025-12-03",
+    "samplePhrase": "The team estimates this feature at 8 story points using planning poker.",
+    "itContext": "Accurate estimation improves sprint planning reliability and stakeholder trust in forecasts.",
+    "alternativeWords": [
+      "approximate",
+      "assess",
+      "gauge",
+      "project"
+    ],
+    "pronunciation": "ES-tih-mayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "pm-021",
+    "word": "Decompose",
+    "meaning": "To break a large task or feature into smaller, manageable sub-tasks.",
+    "genre": "project-mgmt",
+    "difficulty": 3,
+    "dateAdded": "2025-12-04",
+    "samplePhrase": "Decompose the epic into user stories that can each be completed within a single sprint.",
+    "itContext": "Work decomposition enables parallel execution and more accurate effort estimation.",
+    "alternativeWords": [
+      "break down",
+      "split",
+      "subdivide",
+      "dissect"
+    ],
+    "pronunciation": "dee-kum-POHZ",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "pm-022",
+    "word": "Forecast",
+    "meaning": "To predict future project outcomes based on current data, trends, and velocity.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2025-12-05",
+    "samplePhrase": "Based on current velocity, we forecast the feature will be complete by mid-March.",
+    "itContext": "Data-driven forecasting provides leadership with realistic delivery expectations.",
+    "alternativeWords": [
+      "predict",
+      "project",
+      "extrapolate",
+      "anticipate"
+    ],
+    "pronunciation": "FOR-kast",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "pm-023",
+    "word": "Allocate",
+    "meaning": "To distribute resources, time, or budget to specific tasks or projects.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2025-12-06",
+    "samplePhrase": "We allocate 20% of each sprint to technical debt reduction.",
+    "itContext": "Resource allocation decisions directly impact what the team can deliver each iteration.",
+    "alternativeWords": [
+      "assign",
+      "distribute",
+      "apportion",
+      "dedicate"
+    ],
+    "pronunciation": "AL-oh-kayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "pm-024",
+    "word": "Negotiate",
+    "meaning": "To discuss and reach an agreement on scope, timelines, or resources with stakeholders.",
+    "genre": "project-mgmt",
+    "difficulty": 3,
+    "dateAdded": "2025-12-07",
+    "samplePhrase": "We negotiated a one-week extension in exchange for dropping the export feature from this release.",
+    "itContext": "Negotiation skills help project managers balance competing demands from multiple stakeholders.",
+    "alternativeWords": [
+      "bargain",
+      "discuss",
+      "mediate",
+      "compromise"
+    ],
+    "pronunciation": "neh-GOH-shee-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "pm-025",
+    "word": "Consensus",
+    "meaning": "General agreement among a group, reached through discussion and collaboration.",
+    "genre": "project-mgmt",
+    "difficulty": 3,
+    "dateAdded": "2025-12-08",
+    "samplePhrase": "We reached consensus on the architecture after a thorough RFC review process.",
+    "itContext": "Building consensus ensures buy-in from all team members and reduces resistance to decisions.",
+    "alternativeWords": [
+      "agreement",
+      "accord",
+      "alignment",
+      "harmony"
+    ],
+    "pronunciation": "kun-SEN-sus",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "pm-026",
+    "word": "Accountable",
+    "meaning": "Being ultimately answerable for a task's outcome and the decisions made.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2025-12-09",
+    "samplePhrase": "In the RACI matrix, the tech lead is accountable for the system design decisions.",
+    "itContext": "Clear accountability prevents diffusion of responsibility in cross-functional teams.",
+    "alternativeWords": [
+      "answerable",
+      "responsible",
+      "liable",
+      "obligated"
+    ],
+    "pronunciation": "uh-KOWN-tuh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "pm-027",
+    "word": "Responsible",
+    "meaning": "Being the person who performs the actual work to complete a task.",
+    "genre": "project-mgmt",
+    "difficulty": 1,
+    "dateAdded": "2025-12-10",
+    "samplePhrase": "The frontend engineer is responsible for implementing the new dashboard components.",
+    "itContext": "Distinguishing responsible from accountable in RACI matrices clarifies roles and expectations.",
+    "alternativeWords": [
+      "in charge",
+      "tasked",
+      "assigned",
+      "duty-bound"
+    ],
+    "pronunciation": "rih-SPON-sih-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "pm-028",
+    "word": "Triage",
+    "meaning": "To assess and categorize incoming work or issues by priority and severity.",
+    "genre": "project-mgmt",
+    "difficulty": 3,
+    "dateAdded": "2025-12-11",
+    "samplePhrase": "The team triages new bug reports every morning to decide what needs immediate attention.",
+    "itContext": "Bug triage ensures the most impactful issues are addressed first with limited resources.",
+    "alternativeWords": [
+      "prioritize",
+      "sort",
+      "classify",
+      "assess"
+    ],
+    "pronunciation": "tree-AHJ",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "pm-029",
+    "word": "Contingency",
+    "meaning": "A backup plan or reserved resources to handle unexpected events or risks.",
+    "genre": "project-mgmt",
+    "difficulty": 3,
+    "dateAdded": "2025-12-12",
+    "samplePhrase": "We added a two-week contingency buffer to the timeline for unforeseen integration issues.",
+    "itContext": "Contingency planning prevents minor setbacks from derailing entire project schedules.",
+    "alternativeWords": [
+      "backup plan",
+      "fallback",
+      "reserve",
+      "safeguard"
+    ],
+    "pronunciation": "kun-TIN-jen-see",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "pm-030",
+    "word": "Dependency",
+    "meaning": "A relationship where one task or component requires another to be completed first.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2025-12-13",
+    "samplePhrase": "The frontend work has a dependency on the API team finishing the auth endpoints.",
+    "itContext": "Unresolved dependencies are a top cause of sprint goal failures in cross-team projects.",
+    "alternativeWords": [
+      "prerequisite",
+      "requirement",
+      "blocker",
+      "reliance"
+    ],
+    "pronunciation": "deh-PEN-den-see",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "pm-031",
+    "word": "Bottleneck",
+    "meaning": "A point of congestion that limits the overall throughput of a process.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2025-12-14",
+    "samplePhrase": "Code review is our bottleneck — PRs wait three days on average before getting reviewed.",
+    "itContext": "Identifying bottlenecks allows teams to focus improvement efforts where they matter most.",
+    "alternativeWords": [
+      "chokepoint",
+      "constraint",
+      "limitation",
+      "slowdown"
+    ],
+    "pronunciation": "BOT-ul-nek",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "pm-032",
+    "word": "Bandwidth",
+    "meaning": "The available time and attention a person or team has for additional work.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2025-12-15",
+    "samplePhrase": "I don't have the bandwidth to take on another project this quarter.",
+    "itContext": "Respecting bandwidth limits prevents burnout and maintains sustainable delivery pace.",
+    "alternativeWords": [
+      "capacity",
+      "availability",
+      "time",
+      "resources"
+    ],
+    "pronunciation": "BAND-width",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "pm-033",
+    "word": "Leverage",
+    "meaning": "To use existing resources, tools, or relationships to maximum advantage.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2025-12-16",
+    "samplePhrase": "We can leverage the existing authentication library instead of building our own.",
+    "itContext": "Leveraging shared services and libraries reduces duplication and accelerates delivery.",
+    "alternativeWords": [
+      "utilize",
+      "exploit",
+      "capitalize on",
+      "harness"
+    ],
+    "pronunciation": "LEV-er-ij",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "pm-034",
+    "word": "Synergy",
+    "meaning": "The combined effect of teamwork that produces a result greater than individual efforts.",
+    "genre": "project-mgmt",
+    "difficulty": 3,
+    "dateAdded": "2025-12-17",
+    "samplePhrase": "The synergy between the design and engineering teams resulted in a seamless user experience.",
+    "itContext": "Cross-functional synergy accelerates innovation by combining diverse expertise and perspectives.",
+    "alternativeWords": [
+      "collaboration",
+      "cooperation",
+      "combined effort",
+      "teamwork"
+    ],
+    "pronunciation": "SIN-er-jee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "pm-035",
+    "word": "Alignment",
+    "meaning": "The state where all team members and stakeholders share a common understanding and direction.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2025-12-18",
+    "samplePhrase": "We need alignment between product and engineering on the Q2 roadmap priorities.",
+    "itContext": "Strategic alignment prevents wasted effort on work that doesn't serve organizational goals.",
+    "alternativeWords": [
+      "agreement",
+      "harmony",
+      "synchronization",
+      "unity"
+    ],
+    "pronunciation": "uh-LYN-ment",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "pm-036",
+    "word": "Transparency",
+    "meaning": "Openness in sharing information, progress, and challenges with the team and stakeholders.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2025-12-19",
+    "samplePhrase": "Transparency about the delay gave stakeholders time to adjust their downstream plans.",
+    "itContext": "Transparent communication builds trust and enables faster problem-solving across teams.",
+    "alternativeWords": [
+      "openness",
+      "visibility",
+      "candor",
+      "clarity"
+    ],
+    "pronunciation": "trans-PAIR-en-see",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "pm-037",
+    "word": "Autonomy",
+    "meaning": "The freedom and authority for a team to make decisions about how they do their work.",
+    "genre": "project-mgmt",
+    "difficulty": 3,
+    "dateAdded": "2025-12-20",
+    "samplePhrase": "Giving teams autonomy over their tech stack choices increased innovation and ownership.",
+    "itContext": "Team autonomy is a key driver of motivation and productivity in high-performing engineering organizations.",
+    "alternativeWords": [
+      "independence",
+      "self-governance",
+      "freedom",
+      "self-direction"
+    ],
+    "pronunciation": "aw-TON-oh-mee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "pm-038",
+    "word": "Ownership",
+    "meaning": "Taking full responsibility for a piece of work, including its quality and outcomes.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2025-12-21",
+    "samplePhrase": "Each team takes ownership of their microservices, including on-call and incident response.",
+    "itContext": "Clear ownership prevents the bystander effect and ensures every component has someone accountable.",
+    "alternativeWords": [
+      "responsibility",
+      "stewardship",
+      "charge",
+      "custody"
+    ],
+    "pronunciation": "OH-ner-ship",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "pm-039",
+    "word": "Accountability",
+    "meaning": "The obligation to accept responsibility for outcomes and be transparent about results.",
+    "genre": "project-mgmt",
+    "difficulty": 3,
+    "dateAdded": "2025-12-22",
+    "samplePhrase": "Accountability doesn't mean blame — it means being transparent about what happened and why.",
+    "itContext": "A culture of accountability drives reliability and continuous improvement in engineering teams.",
+    "alternativeWords": [
+      "responsibility",
+      "answerability",
+      "obligation",
+      "duty"
+    ],
+    "pronunciation": "uh-kown-tuh-BIL-ih-tee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "pm-040",
+    "word": "Collaborate",
+    "meaning": "To work jointly with others toward a shared goal or deliverable.",
+    "genre": "project-mgmt",
+    "difficulty": 1,
+    "dateAdded": "2025-12-23",
+    "samplePhrase": "Frontend and backend engineers collaborate closely during API contract design.",
+    "itContext": "Cross-functional collaboration reduces handoff delays and produces more cohesive solutions.",
+    "alternativeWords": [
+      "cooperate",
+      "partner",
+      "team up",
+      "work together"
+    ],
+    "pronunciation": "kuh-LAB-oh-rayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "pm-041",
+    "word": "Coordinate",
+    "meaning": "To organize activities between multiple people or teams so they work together effectively.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2025-12-24",
+    "samplePhrase": "We coordinate release windows across three teams to avoid conflicting deploys.",
+    "itContext": "Coordination overhead increases with team size, making clear processes essential at scale.",
+    "alternativeWords": [
+      "synchronize",
+      "organize",
+      "harmonize",
+      "arrange"
+    ],
+    "pronunciation": "koh-OR-dih-nayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "pm-042",
+    "word": "Integrate",
+    "meaning": "To combine separate components, teams, or workstreams into a unified whole.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2025-12-25",
+    "samplePhrase": "We integrate the third-party payment gateway during the second sprint of the project.",
+    "itContext": "Early integration testing catches incompatibilities before they become expensive to fix.",
+    "alternativeWords": [
+      "combine",
+      "merge",
+      "unify",
+      "incorporate"
+    ],
+    "pronunciation": "IN-teh-grayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "pm-043",
+    "word": "Streamline",
+    "meaning": "To simplify or improve the efficiency of a process by removing unnecessary steps.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2025-12-26",
+    "samplePhrase": "We streamlined the approval process from five sign-offs down to two.",
+    "itContext": "Streamlining workflows reduces cycle time and eliminates waste in delivery pipelines.",
+    "alternativeWords": [
+      "simplify",
+      "optimize",
+      "improve",
+      "rationalize"
+    ],
+    "pronunciation": "STREEM-lyn",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "pm-044",
+    "word": "Optimize",
+    "meaning": "To make the best use of resources, time, or processes for maximum effectiveness.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2025-12-27",
+    "samplePhrase": "We optimized the sprint planning process by pre-grooming stories the week before.",
+    "itContext": "Process optimization is a continuous effort informed by retrospective action items.",
+    "alternativeWords": [
+      "improve",
+      "enhance",
+      "refine",
+      "maximize"
+    ],
+    "pronunciation": "OP-tih-myz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "pm-045",
+    "word": "Refine",
+    "meaning": "To improve the clarity, detail, or quality of work items through iterative review.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2025-12-28",
+    "samplePhrase": "The product owner refines user stories by adding acceptance criteria before sprint planning.",
+    "itContext": "Backlog refinement sessions ensure stories are ready for estimation and development.",
+    "alternativeWords": [
+      "improve",
+      "polish",
+      "clarify",
+      "elaborate"
+    ],
+    "pronunciation": "reh-FYN",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "pm-046",
+    "word": "Calibrate",
+    "meaning": "To align team expectations on effort estimation or quality standards through discussion.",
+    "genre": "project-mgmt",
+    "difficulty": 3,
+    "dateAdded": "2025-12-29",
+    "samplePhrase": "We calibrate our story point estimates by reviewing completed stories as reference examples.",
+    "itContext": "Estimation calibration reduces variance and improves sprint planning accuracy over time.",
+    "alternativeWords": [
+      "align",
+      "standardize",
+      "adjust",
+      "harmonize"
+    ],
+    "pronunciation": "KAL-ih-brayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "pm-047",
+    "word": "Validate",
+    "meaning": "To confirm that a deliverable meets the agreed requirements and acceptance criteria.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2025-12-30",
+    "samplePhrase": "The product owner validates each user story against its acceptance criteria before marking it done.",
+    "itContext": "Validation ensures delivered work actually solves the intended business problem.",
+    "alternativeWords": [
+      "verify",
+      "confirm",
+      "approve",
+      "check"
+    ],
+    "pronunciation": "VAL-ih-dayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "pm-048",
+    "word": "Audit",
+    "meaning": "To systematically examine processes, decisions, or deliverables for compliance and quality.",
+    "genre": "project-mgmt",
+    "difficulty": 3,
+    "dateAdded": "2025-12-31",
+    "samplePhrase": "We audit our sprint commitments versus actuals quarterly to improve planning accuracy.",
+    "itContext": "Process audits identify systemic inefficiencies and ensure adherence to organizational standards.",
+    "alternativeWords": [
+      "review",
+      "inspect",
+      "examine",
+      "assess"
+    ],
+    "pronunciation": "AW-dit",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "pm-049",
+    "word": "Evaluate",
+    "meaning": "To assess the quality, value, or effectiveness of work, tools, or processes.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2026-01-01",
+    "samplePhrase": "We evaluate vendor proposals against our technical requirements and budget constraints.",
+    "itContext": "Objective evaluation criteria prevent bias in technology and vendor selection decisions.",
+    "alternativeWords": [
+      "assess",
+      "appraise",
+      "judge",
+      "review"
+    ],
+    "pronunciation": "ih-VAL-yoo-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "pm-050",
+    "word": "Assess",
+    "meaning": "To evaluate the nature, quality, or risk level of something in order to make a decision.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2026-01-02",
+    "samplePhrase": "We assess the risk of each dependency before committing to the sprint goal.",
+    "itContext": "Risk assessment during planning helps teams prepare mitigation strategies proactively.",
+    "alternativeWords": [
+      "evaluate",
+      "gauge",
+      "measure",
+      "appraise"
+    ],
+    "pronunciation": "uh-SES",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "pm-051",
+    "word": "Articulate",
+    "meaning": "To express ideas, requirements, or concerns clearly and effectively.",
+    "genre": "project-mgmt",
+    "difficulty": 3,
+    "dateAdded": "2026-01-03",
+    "samplePhrase": "The PM articulated the project risks so clearly that leadership approved the contingency budget.",
+    "itContext": "Articulating technical constraints in business terms bridges the gap between engineering and executives.",
+    "alternativeWords": [
+      "express",
+      "convey",
+      "communicate",
+      "explain"
+    ],
+    "pronunciation": "ar-TIK-yoo-layt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "pm-052",
+    "word": "Communicate",
+    "meaning": "To share information, updates, and decisions effectively with relevant parties.",
+    "genre": "project-mgmt",
+    "difficulty": 1,
+    "dateAdded": "2026-01-04",
+    "samplePhrase": "Communicate status updates weekly so stakeholders are never surprised by delays.",
+    "itContext": "Proactive communication is the most important skill for successful project management.",
+    "alternativeWords": [
+      "inform",
+      "convey",
+      "share",
+      "relay"
+    ],
+    "pronunciation": "kuh-MYOO-nih-kayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "pm-053",
+    "word": "Formalize",
+    "meaning": "To give something official status by documenting it with clear structure and approval.",
+    "genre": "project-mgmt",
+    "difficulty": 3,
+    "dateAdded": "2026-01-05",
+    "samplePhrase": "We formalized the definition of done so every team applies the same completion criteria.",
+    "itContext": "Formalizing agreements and processes eliminates ambiguity and creates shared accountability.",
+    "alternativeWords": [
+      "document",
+      "officialize",
+      "codify",
+      "standardize"
+    ],
+    "pronunciation": "FOR-muh-lyz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "pm-054",
+    "word": "Ratify",
+    "meaning": "To formally approve or confirm a decision, plan, or agreement.",
+    "genre": "project-mgmt",
+    "difficulty": 4,
+    "dateAdded": "2026-01-06",
+    "samplePhrase": "The steering committee ratified the revised project timeline at yesterday's governance meeting.",
+    "itContext": "Ratified decisions carry organizational authority and commit resources officially.",
+    "alternativeWords": [
+      "approve",
+      "endorse",
+      "confirm",
+      "sanction"
+    ],
+    "pronunciation": "RAT-ih-fy",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "pm-055",
+    "word": "Endorse",
+    "meaning": "To publicly express support or approval for a proposal, decision, or person.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2026-01-07",
+    "samplePhrase": "The CTO endorsed the microservices migration plan, giving the team organizational backing.",
+    "itContext": "Executive endorsement provides political cover and resource commitment for ambitious initiatives.",
+    "alternativeWords": [
+      "support",
+      "back",
+      "approve",
+      "champion"
+    ],
+    "pronunciation": "en-DORS",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "pm-056",
+    "word": "Champion",
+    "meaning": "To actively advocate for and promote a project, idea, or initiative.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2026-01-08",
+    "samplePhrase": "She championed the observability initiative until it received funding in the annual budget.",
+    "itContext": "Every successful technical initiative needs a visible champion to drive adoption and secure resources.",
+    "alternativeWords": [
+      "advocate",
+      "promote",
+      "support",
+      "spearhead"
+    ],
+    "pronunciation": "CHAM-pee-un",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "pm-057",
+    "word": "Advocate",
+    "meaning": "To speak in favor of a position, approach, or person's needs within the organization.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2026-01-09",
+    "samplePhrase": "As Scrum Master, I advocate for the team's need for uninterrupted focus time.",
+    "itContext": "Advocating for engineering needs helps leadership understand trade-offs in technical decisions.",
+    "alternativeWords": [
+      "support",
+      "promote",
+      "recommend",
+      "push for"
+    ],
+    "pronunciation": "AD-voh-kayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "pm-058",
+    "word": "Spearhead",
+    "meaning": "To lead or initiate a new effort, project, or initiative.",
+    "genre": "project-mgmt",
+    "difficulty": 3,
+    "dateAdded": "2026-01-10",
+    "samplePhrase": "She spearheaded the migration to trunk-based development across all engineering teams.",
+    "itContext": "Spearheading cross-cutting initiatives requires technical vision and organizational influence.",
+    "alternativeWords": [
+      "lead",
+      "pioneer",
+      "drive",
+      "initiate"
+    ],
+    "pronunciation": "SPEER-hed",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "pm-059",
+    "word": "Galvanize",
+    "meaning": "To shock or excite a group into taking action or rallying around a cause.",
+    "genre": "project-mgmt",
+    "difficulty": 4,
+    "dateAdded": "2026-01-11",
+    "samplePhrase": "The production outage galvanized the team into finally prioritizing the reliability improvements.",
+    "itContext": "Galvanizing moments can be channeled to drive lasting cultural and process improvements.",
+    "alternativeWords": [
+      "energize",
+      "inspire",
+      "motivate",
+      "catalyze"
+    ],
+    "pronunciation": "GAL-vuh-nyz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "pm-060",
+    "word": "Motivate",
+    "meaning": "To provide someone with a reason or incentive to act or work toward a goal.",
+    "genre": "project-mgmt",
+    "difficulty": 1,
+    "dateAdded": "2026-01-12",
+    "samplePhrase": "Recognizing individual contributions in sprint reviews motivates the team to maintain high quality.",
+    "itContext": "Intrinsic motivation through autonomy, mastery, and purpose drives sustainable team performance.",
+    "alternativeWords": [
+      "inspire",
+      "encourage",
+      "drive",
+      "stimulate"
+    ],
+    "pronunciation": "MOH-tih-vayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "pm-061",
+    "word": "Incentivize",
+    "meaning": "To encourage a desired behavior by offering rewards or benefits.",
+    "genre": "project-mgmt",
+    "difficulty": 3,
+    "dateAdded": "2026-01-13",
+    "samplePhrase": "We incentivize knowledge sharing by recognizing engineers who write internal documentation.",
+    "itContext": "Aligning incentives with organizational goals drives behaviors that improve team outcomes.",
+    "alternativeWords": [
+      "reward",
+      "encourage",
+      "motivate",
+      "stimulate"
+    ],
+    "pronunciation": "in-SEN-tih-vyz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "pm-062",
+    "word": "Mentor",
+    "meaning": "To guide and advise a less experienced colleague through knowledge sharing and support.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2026-01-14",
+    "samplePhrase": "Senior engineers mentor new hires through their first quarter to accelerate onboarding.",
+    "itContext": "Mentorship programs reduce ramp-up time and improve retention in engineering organizations.",
+    "alternativeWords": [
+      "guide",
+      "coach",
+      "advise",
+      "tutor"
+    ],
+    "pronunciation": "MEN-tor",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "pm-063",
+    "word": "Onboard",
+    "meaning": "To integrate a new team member into the project, team, and organizational culture.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2026-01-15",
+    "samplePhrase": "Our onboarding program gets new engineers shipping code within their first week.",
+    "itContext": "Effective onboarding reduces time-to-productivity and improves new hire retention rates.",
+    "alternativeWords": [
+      "induct",
+      "orient",
+      "introduce",
+      "integrate"
+    ],
+    "pronunciation": "ON-bord",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "pm-064",
+    "word": "Transition",
+    "meaning": "To move from one state, phase, or responsibility to another in a planned manner.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2026-01-16",
+    "samplePhrase": "We're transitioning from monolith to microservices in three planned phases.",
+    "itContext": "Smooth transitions require documentation, knowledge transfer, and overlap periods.",
+    "alternativeWords": [
+      "shift",
+      "migrate",
+      "move",
+      "change over"
+    ],
+    "pronunciation": "tran-ZISH-un",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "pm-065",
+    "word": "Handoff",
+    "meaning": "The transfer of work, knowledge, or responsibility from one person or team to another.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2026-01-17",
+    "samplePhrase": "The handoff between the US and India teams happens every day at 9 AM EST.",
+    "itContext": "Clean handoffs prevent knowledge loss and reduce rework in distributed and shift-based teams.",
+    "alternativeWords": [
+      "transfer",
+      "relay",
+      "pass-off",
+      "turnover"
+    ],
+    "pronunciation": "HAND-off",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "pm-066",
+    "word": "Succession",
+    "meaning": "The planned process of preparing replacements for key roles to ensure continuity.",
+    "genre": "project-mgmt",
+    "difficulty": 4,
+    "dateAdded": "2026-01-18",
+    "samplePhrase": "We have a succession plan so the project can continue even if the lead engineer leaves.",
+    "itContext": "Succession planning reduces bus factor risk and ensures organizational knowledge is preserved.",
+    "alternativeWords": [
+      "replacement planning",
+      "continuity plan",
+      "handover preparation",
+      "backup plan"
+    ],
+    "pronunciation": "suk-SESH-un",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "pm-067",
+    "word": "Reprioritize",
+    "meaning": "To change the order of importance of tasks based on new information or shifting goals.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2026-01-19",
+    "samplePhrase": "The critical security vulnerability forced us to reprioritize the sprint mid-flight.",
+    "itContext": "The ability to reprioritize quickly is a hallmark of agile teams responding to change.",
+    "alternativeWords": [
+      "reorder",
+      "reshuffle",
+      "rerank",
+      "readjust"
+    ],
+    "pronunciation": "ree-pry-OR-ih-tyz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "pm-068",
+    "word": "Rescope",
+    "meaning": "To redefine the boundaries and requirements of a project based on new constraints.",
+    "genre": "project-mgmt",
+    "difficulty": 3,
+    "dateAdded": "2026-01-20",
+    "samplePhrase": "With the budget cut, we need to rescope the project to focus on core features only.",
+    "itContext": "Rescoping is a pragmatic response when resources, timelines, or priorities shift significantly.",
+    "alternativeWords": [
+      "redefine",
+      "narrow",
+      "adjust",
+      "restructure"
+    ],
+    "pronunciation": "ree-SKOHP",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "pm-069",
+    "word": "Pivot",
+    "meaning": "To make a fundamental change in project direction or strategy based on new insights.",
+    "genre": "project-mgmt",
+    "difficulty": 3,
+    "dateAdded": "2026-01-21",
+    "samplePhrase": "User research showed low demand, so we pivoted from a mobile app to a browser extension.",
+    "itContext": "The ability to pivot quickly based on data is a competitive advantage in product development.",
+    "alternativeWords": [
+      "shift",
+      "redirect",
+      "change course",
+      "reorient"
+    ],
+    "pronunciation": "PIV-ut",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "pm-070",
+    "word": "Recalibrate",
+    "meaning": "To adjust expectations, estimates, or plans based on new data or changed conditions.",
+    "genre": "project-mgmt",
+    "difficulty": 3,
+    "dateAdded": "2026-01-22",
+    "samplePhrase": "After three sprints of actuals, we recalibrated our velocity estimate downward.",
+    "itContext": "Regular recalibration of estimates and forecasts improves planning accuracy over time.",
+    "alternativeWords": [
+      "readjust",
+      "revise",
+      "reset",
+      "realign"
+    ],
+    "pronunciation": "ree-KAL-ih-brayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "pm-071",
+    "word": "Amend",
+    "meaning": "To make minor changes to a document, plan, or agreement to correct or improve it.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2026-01-23",
+    "samplePhrase": "We amended the project charter to include the newly discovered compliance requirements.",
+    "itContext": "Amending project documents maintains accuracy and ensures all stakeholders have current information.",
+    "alternativeWords": [
+      "revise",
+      "modify",
+      "update",
+      "correct"
+    ],
+    "pronunciation": "uh-MEND",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "pm-072",
+    "word": "Consolidate",
+    "meaning": "To combine multiple items, efforts, or resources into a single, more effective unit.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2026-01-24",
+    "samplePhrase": "We consolidated three separate tracking spreadsheets into one JIRA board for visibility.",
+    "itContext": "Consolidating tools and processes reduces context-switching and improves team efficiency.",
+    "alternativeWords": [
+      "combine",
+      "merge",
+      "unify",
+      "centralize"
+    ],
+    "pronunciation": "kun-SOL-ih-dayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "pm-073",
+    "word": "Synthesize",
+    "meaning": "To combine information from multiple sources into a coherent understanding or decision.",
+    "genre": "project-mgmt",
+    "difficulty": 4,
+    "dateAdded": "2026-01-25",
+    "samplePhrase": "The PM synthesized feedback from five stakeholder interviews into a clear set of requirements.",
+    "itContext": "Synthesizing diverse inputs into actionable plans is a core project management competency.",
+    "alternativeWords": [
+      "combine",
+      "integrate",
+      "merge",
+      "fuse"
+    ],
+    "pronunciation": "SIN-theh-syz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "pm-074",
+    "word": "Distill",
+    "meaning": "To extract the essential meaning from complex information, removing unnecessary detail.",
+    "genre": "project-mgmt",
+    "difficulty": 3,
+    "dateAdded": "2026-01-26",
+    "samplePhrase": "Distill the 50-page requirements document into a one-page executive summary.",
+    "itContext": "Distilling complex technical details for executive audiences enables faster decision-making.",
+    "alternativeWords": [
+      "summarize",
+      "condense",
+      "extract",
+      "simplify"
+    ],
+    "pronunciation": "dih-STIL",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "pm-075",
+    "word": "Summarize",
+    "meaning": "To present the main points of something concisely, omitting less important details.",
+    "genre": "project-mgmt",
+    "difficulty": 1,
+    "dateAdded": "2026-01-27",
+    "samplePhrase": "Summarize the sprint outcomes in three bullet points for the leadership update.",
+    "itContext": "Concise summaries respect stakeholders' time while keeping them informed on progress.",
+    "alternativeWords": [
+      "recap",
+      "condense",
+      "outline",
+      "brief"
+    ],
+    "pronunciation": "SUM-uh-ryz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "pm-076",
+    "word": "Prototype",
+    "meaning": "To build an early, simplified version of a product to test concepts and gather feedback.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2026-01-28",
+    "samplePhrase": "We prototyped the dashboard in Figma before writing any code to validate the UX.",
+    "itContext": "Prototyping reduces wasted development effort by validating ideas before full implementation.",
+    "alternativeWords": [
+      "mock up",
+      "draft",
+      "pilot",
+      "model"
+    ],
+    "pronunciation": "PROH-toh-typ",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "pm-077",
+    "word": "Roadmap",
+    "meaning": "A strategic document outlining planned features, milestones, and timelines for a project.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2026-01-29",
+    "samplePhrase": "The product roadmap shows three major releases planned between now and Q4.",
+    "itContext": "Roadmaps align teams on long-term direction while remaining flexible to change.",
+    "alternativeWords": [
+      "plan",
+      "strategy",
+      "timeline",
+      "blueprint"
+    ],
+    "pronunciation": "ROHD-map",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "pm-078",
+    "word": "Charter",
+    "meaning": "A formal document that authorizes a project and defines its objectives, scope, and stakeholders.",
+    "genre": "project-mgmt",
+    "difficulty": 3,
+    "dateAdded": "2026-01-30",
+    "samplePhrase": "The project charter was signed by the sponsor, officially kicking off the initiative.",
+    "itContext": "A well-written charter prevents scope ambiguity and provides a reference point throughout the project.",
+    "alternativeWords": [
+      "mandate",
+      "authorization",
+      "constitution",
+      "founding document"
+    ],
+    "pronunciation": "CHAR-ter",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "pm-079",
+    "word": "Empower",
+    "meaning": "To give someone the authority, confidence, and resources to take action independently.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2026-01-31",
+    "samplePhrase": "We empower engineers to make architectural decisions without waiting for committee approval.",
+    "itContext": "Empowered teams make faster decisions and feel greater ownership of their work.",
+    "alternativeWords": [
+      "enable",
+      "authorize",
+      "equip",
+      "entrust"
+    ],
+    "pronunciation": "em-POW-er",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "pm-080",
+    "word": "Mitigate",
+    "meaning": "To take action to reduce the severity or likelihood of a project risk.",
+    "genre": "project-mgmt",
+    "difficulty": 3,
+    "dateAdded": "2026-02-01",
+    "samplePhrase": "We mitigate the vendor lock-in risk by abstracting the storage layer behind an interface.",
+    "itContext": "Risk mitigation planning is a core activity in project management and architecture design.",
+    "alternativeWords": [
+      "reduce",
+      "lessen",
+      "alleviate",
+      "minimize"
+    ],
+    "pronunciation": "MIT-ih-gayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "pm-081",
+    "word": "Delineate",
+    "meaning": "To describe or mark the exact boundaries or limits of something precisely.",
+    "genre": "project-mgmt",
+    "difficulty": 4,
+    "dateAdded": "2026-02-02",
+    "samplePhrase": "The SOW clearly delineates which features are in scope and which are out of scope.",
+    "itContext": "Delineating responsibilities between teams prevents overlap and ownership disputes.",
+    "alternativeWords": [
+      "define",
+      "outline",
+      "demarcate",
+      "specify"
+    ],
+    "pronunciation": "deh-LIN-ee-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "pm-082",
+    "word": "Granularity",
+    "meaning": "The level of detail or specificity at which information is examined or reported.",
+    "genre": "project-mgmt",
+    "difficulty": 3,
+    "dateAdded": "2026-02-03",
+    "samplePhrase": "Leadership wants weekly updates, but the team tracks progress at daily granularity.",
+    "itContext": "Choosing the right granularity for tracking balances visibility with overhead.",
+    "alternativeWords": [
+      "detail level",
+      "specificity",
+      "resolution",
+      "precision"
+    ],
+    "pronunciation": "gran-yoo-LAIR-ih-tee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "pm-083",
+    "word": "Feasibility",
+    "meaning": "The degree to which a proposed plan or approach is practical and achievable.",
+    "genre": "project-mgmt",
+    "difficulty": 3,
+    "dateAdded": "2026-02-04",
+    "samplePhrase": "We conducted a feasibility study before committing to the real-time analytics feature.",
+    "itContext": "Feasibility assessments prevent teams from committing to technically or financially impractical goals.",
+    "alternativeWords": [
+      "viability",
+      "practicality",
+      "achievability",
+      "workability"
+    ],
+    "pronunciation": "fee-zih-BIL-ih-tee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "pm-084",
+    "word": "Procurement",
+    "meaning": "The process of obtaining tools, services, or resources needed for a project.",
+    "genre": "project-mgmt",
+    "difficulty": 3,
+    "dateAdded": "2026-02-05",
+    "samplePhrase": "The procurement process for the new CI/CD tooling took six weeks through vendor evaluation.",
+    "itContext": "Procurement timelines must be factored into project schedules to avoid unexpected delays.",
+    "alternativeWords": [
+      "acquisition",
+      "purchasing",
+      "sourcing",
+      "obtaining"
+    ],
+    "pronunciation": "proh-KYOOR-ment",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "pm-085",
+    "word": "Requisition",
+    "meaning": "A formal request for resources, equipment, or services needed for project work.",
+    "genre": "project-mgmt",
+    "difficulty": 4,
+    "dateAdded": "2026-02-06",
+    "samplePhrase": "Submit a requisition for additional cloud compute resources before the load testing phase.",
+    "itContext": "Requisition workflows ensure proper approvals and budget tracking for project expenses.",
+    "alternativeWords": [
+      "request",
+      "order",
+      "demand",
+      "application"
+    ],
+    "pronunciation": "rek-wih-ZISH-un",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "pm-086",
+    "word": "Sanction",
+    "meaning": "To give official permission or approval for an action or project to proceed.",
+    "genre": "project-mgmt",
+    "difficulty": 4,
+    "dateAdded": "2026-02-07",
+    "samplePhrase": "The governance board sanctioned the use of open-source components in the production system.",
+    "itContext": "Organizational sanctions provide legal and policy cover for teams making consequential decisions.",
+    "alternativeWords": [
+      "authorize",
+      "approve",
+      "endorse",
+      "permit"
+    ],
+    "pronunciation": "SANK-shun",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "pm-087",
+    "word": "Stipulate",
+    "meaning": "To specify a required condition or detail as part of an agreement or plan.",
+    "genre": "project-mgmt",
+    "difficulty": 4,
+    "dateAdded": "2026-02-08",
+    "samplePhrase": "The contract stipulates a maximum response time of 4 hours for critical support tickets.",
+    "itContext": "Stipulated requirements in SLAs and contracts create enforceable commitments between parties.",
+    "alternativeWords": [
+      "specify",
+      "require",
+      "mandate",
+      "dictate"
+    ],
+    "pronunciation": "STIP-yoo-layt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "pm-088",
+    "word": "Expedite",
+    "meaning": "To speed up or accelerate the progress of a task or process.",
+    "genre": "project-mgmt",
+    "difficulty": 3,
+    "dateAdded": "2026-02-09",
+    "samplePhrase": "We expedited the security review to unblock the production deployment timeline.",
+    "itContext": "Expediting critical-path items prevents downstream schedule compression and crunch time.",
+    "alternativeWords": [
+      "accelerate",
+      "hasten",
+      "fast-track",
+      "rush"
+    ],
+    "pronunciation": "EK-speh-dyt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "pm-089",
+    "word": "Defer",
+    "meaning": "To postpone a task or decision to a later time, often the next iteration.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2026-02-10",
+    "samplePhrase": "We deferred the performance optimization work to next sprint to focus on feature completion.",
+    "itContext": "Strategic deferral keeps the team focused on the highest-priority work in the current iteration.",
+    "alternativeWords": [
+      "postpone",
+      "delay",
+      "table",
+      "shelve"
+    ],
+    "pronunciation": "deh-FUR",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "pm-090",
+    "word": "Postpone",
+    "meaning": "To move a planned activity to a later date or time.",
+    "genre": "project-mgmt",
+    "difficulty": 1,
+    "dateAdded": "2026-02-11",
+    "samplePhrase": "We postponed the launch by one week to address the critical accessibility findings.",
+    "itContext": "Postponing a release for quality reasons is almost always preferable to shipping known defects.",
+    "alternativeWords": [
+      "delay",
+      "reschedule",
+      "push back",
+      "defer"
+    ],
+    "pronunciation": "pohst-POHN",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "pm-091",
+    "word": "Accelerate",
+    "meaning": "To increase the speed or pace of project delivery or a specific process.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2026-02-12",
+    "samplePhrase": "Pair programming helped accelerate the onboarding of three new team members.",
+    "itContext": "Acceleration techniques include parallelizing work, reducing approvals, and eliminating waste.",
+    "alternativeWords": [
+      "speed up",
+      "hasten",
+      "expedite",
+      "quicken"
+    ],
+    "pronunciation": "ak-SEL-er-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "pm-092",
+    "word": "Culminate",
+    "meaning": "To reach the highest point or final stage of development or achievement.",
+    "genre": "project-mgmt",
+    "difficulty": 3,
+    "dateAdded": "2026-02-13",
+    "samplePhrase": "Six months of engineering effort culminated in a successful product launch this week.",
+    "itContext": "Project milestones that culminate in launches or releases deserve recognition and celebration.",
+    "alternativeWords": [
+      "conclude",
+      "climax",
+      "peak",
+      "finish"
+    ],
+    "pronunciation": "KUL-mih-nayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "pm-093",
+    "word": "Finalize",
+    "meaning": "To complete the last details of a plan, design, or deliverable and mark it as done.",
+    "genre": "project-mgmt",
+    "difficulty": 1,
+    "dateAdded": "2026-02-14",
+    "samplePhrase": "We finalize the sprint scope during planning and avoid mid-sprint additions.",
+    "itContext": "Finalizing decisions at defined gates prevents the endless iteration that causes delays.",
+    "alternativeWords": [
+      "complete",
+      "conclude",
+      "wrap up",
+      "close out"
+    ],
+    "pronunciation": "FY-nuh-lyz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "pm-094",
+    "word": "Conclude",
+    "meaning": "To bring something to an end or reach a decision after consideration.",
+    "genre": "project-mgmt",
+    "difficulty": 1,
+    "dateAdded": "2026-02-15",
+    "samplePhrase": "We concluded the evaluation and selected PostgreSQL as the primary database.",
+    "itContext": "Concluding evaluation phases with clear decisions prevents analysis paralysis.",
+    "alternativeWords": [
+      "finish",
+      "determine",
+      "decide",
+      "resolve"
+    ],
+    "pronunciation": "kun-KLOOD",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "pm-095",
+    "word": "Retrospect",
+    "meaning": "To look back on and review past events to draw lessons for the future.",
+    "genre": "project-mgmt",
+    "difficulty": 3,
+    "dateAdded": "2026-02-16",
+    "samplePhrase": "In retrospect, we should have invested in automated testing from the very first sprint.",
+    "itContext": "The practice of retrospection drives the continuous improvement cycle in Agile methodologies.",
+    "alternativeWords": [
+      "review",
+      "reflect",
+      "reconsider",
+      "look back"
+    ],
+    "pronunciation": "RET-roh-spekt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "pm-096",
+    "word": "Benchmark",
+    "meaning": "A standard of performance used for comparison when evaluating processes or outcomes.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2026-02-17",
+    "samplePhrase": "We benchmark our release frequency against industry leaders to identify improvement opportunities.",
+    "itContext": "Benchmarking against peers provides context for whether team metrics indicate success or concern.",
+    "alternativeWords": [
+      "standard",
+      "reference",
+      "baseline",
+      "yardstick"
+    ],
+    "pronunciation": "BENCH-mark",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "pm-097",
+    "word": "Criterion",
+    "meaning": "A standard or principle by which something is judged or decided.",
+    "genre": "project-mgmt",
+    "difficulty": 3,
+    "dateAdded": "2026-02-18",
+    "samplePhrase": "Test coverage above 80% is one criterion in our definition of done.",
+    "itContext": "Well-defined criteria remove subjectivity from acceptance decisions and quality gates.",
+    "alternativeWords": [
+      "standard",
+      "measure",
+      "benchmark",
+      "requirement"
+    ],
+    "pronunciation": "kry-TEER-ee-un",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "pm-098",
+    "word": "Paradigm",
+    "meaning": "A fundamental model or framework that shapes how a team approaches their work.",
+    "genre": "project-mgmt",
+    "difficulty": 4,
+    "dateAdded": "2026-02-19",
+    "samplePhrase": "Shifting from waterfall to agile was a paradigm change for the entire organization.",
+    "itContext": "Paradigm shifts in engineering require cultural change alongside process and tooling updates.",
+    "alternativeWords": [
+      "model",
+      "framework",
+      "approach",
+      "pattern"
+    ],
+    "pronunciation": "PAIR-uh-dym",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "pm-099",
+    "word": "Framework",
+    "meaning": "A structured set of guidelines, principles, or tools that provides a foundation for work.",
+    "genre": "project-mgmt",
+    "difficulty": 2,
+    "dateAdded": "2026-02-20",
+    "samplePhrase": "We adopted the SAFe framework to coordinate agile practices across multiple teams.",
+    "itContext": "Frameworks provide guardrails but must be adapted to fit each organization's unique context.",
+    "alternativeWords": [
+      "structure",
+      "system",
+      "methodology",
+      "scaffold"
+    ],
+    "pronunciation": "FRAYM-wurk",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "pm-100",
+    "word": "Methodology",
+    "meaning": "A systematic approach or set of practices used to manage and deliver a project.",
+    "genre": "project-mgmt",
+    "difficulty": 3,
+    "dateAdded": "2026-02-21",
+    "samplePhrase": "Our methodology combines Scrum sprints with Kanban flow for operational support work.",
+    "itContext": "Choosing the right methodology depends on team size, project type, and organizational maturity.",
+    "alternativeWords": [
+      "approach",
+      "process",
+      "system",
+      "discipline"
+    ],
+    "pronunciation": "meth-uh-DOL-oh-jee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3,
+      4
+    ]
+  }
+]

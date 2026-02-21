@@ -1,0 +1,2246 @@
+[
+  {
+    "id": "design-001",
+    "word": "Intuitive",
+    "meaning": "Easy to understand or use without explicit instruction",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2025-11-14",
+    "samplePhrase": "The intuitive quality of the interface greatly improves the user experience.",
+    "itContext": "Intuitive is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "user-friendly",
+      "self-explanatory",
+      "natural",
+      "instinctive"
+    ],
+    "pronunciation": "in-TOO-ih-tiv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      2,
+      5
+    ]
+  },
+  {
+    "id": "design-002",
+    "word": "Affordance",
+    "meaning": "A visual cue that suggests how an element should be used",
+    "genre": "design",
+    "difficulty": 4,
+    "dateAdded": "2025-11-15",
+    "samplePhrase": "The affordance quality of the layout greatly improves the user experience.",
+    "itContext": "Affordance is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "cue",
+      "hint",
+      "signal",
+      "indicator"
+    ],
+    "pronunciation": "uh-FOR-dunce",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "id": "design-003",
+    "word": "Iterate",
+    "meaning": "To repeat a process with the aim of improving with each cycle",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2025-11-16",
+    "samplePhrase": "The iterate approach helps us create component better user experiences.",
+    "itContext": "Iterate is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "refine",
+      "evolve",
+      "improve",
+      "revise"
+    ],
+    "pronunciation": "IT-er-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      2
+    ]
+  },
+  {
+    "id": "design-004",
+    "word": "Cohesive",
+    "meaning": "Forming a unified whole; elements that work well together",
+    "genre": "design",
+    "difficulty": 3,
+    "dateAdded": "2025-11-17",
+    "samplePhrase": "The cohesive quality of the design system greatly improves the user experience.",
+    "itContext": "Cohesive is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "unified",
+      "consistent",
+      "harmonious",
+      "integrated"
+    ],
+    "pronunciation": "koh-HEE-siv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "design-005",
+    "word": "Aesthetic",
+    "meaning": "Concerned with beauty or the appreciation of visual appeal",
+    "genre": "design",
+    "difficulty": 3,
+    "dateAdded": "2025-11-18",
+    "samplePhrase": "The aesthetic quality of the user flow greatly improves the user experience.",
+    "itContext": "Aesthetic is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "beautiful",
+      "visual",
+      "artistic",
+      "pleasing"
+    ],
+    "pronunciation": "es-THET-ik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "design-006",
+    "word": "Ergonomic",
+    "meaning": "Designed for efficiency and comfort in the user's environment",
+    "genre": "design",
+    "difficulty": 3,
+    "dateAdded": "2025-11-19",
+    "samplePhrase": "The ergonomic quality of the navigation greatly improves the user experience.",
+    "itContext": "Ergonomic is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "comfortable",
+      "efficient",
+      "user-centered",
+      "optimized"
+    ],
+    "pronunciation": "er-goh-NOM-ik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "design-007",
+    "word": "Heuristic",
+    "meaning": "A practical evaluation method based on rules of thumb rather than theory",
+    "genre": "design",
+    "difficulty": 4,
+    "dateAdded": "2025-11-20",
+    "samplePhrase": "The heuristic quality of the interface greatly improves the user experience.",
+    "itContext": "Heuristic is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "guideline",
+      "rule of thumb",
+      "shortcut",
+      "evaluation"
+    ],
+    "pronunciation": "hyoo-RIS-tik",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "design-008",
+    "word": "Visceral",
+    "meaning": "Relating to deep instinctive feelings rather than intellectual response",
+    "genre": "design",
+    "difficulty": 4,
+    "dateAdded": "2025-11-21",
+    "samplePhrase": "The visceral quality of the layout greatly improves the user experience.",
+    "itContext": "Visceral is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "instinctive",
+      "gut-level",
+      "primal",
+      "emotional"
+    ],
+    "pronunciation": "VIS-er-ul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "design-009",
+    "word": "Empathize",
+    "meaning": "To understand and share the feelings and perspective of users",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2025-11-22",
+    "samplePhrase": "The empathize approach helps us create component better user experiences.",
+    "itContext": "Empathize is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "understand",
+      "relate",
+      "connect",
+      "identify with"
+    ],
+    "pronunciation": "EM-puh-thize",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "design-010",
+    "word": "Hierarchy",
+    "meaning": "An arrangement of elements according to their importance or level",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2025-11-23",
+    "samplePhrase": "The hierarchy quality of the design system greatly improves the user experience.",
+    "itContext": "Hierarchy is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "ranking",
+      "structure",
+      "order",
+      "classification"
+    ],
+    "pronunciation": "HY-er-ar-kee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      2
+    ]
+  },
+  {
+    "id": "design-011",
+    "word": "Proximity",
+    "meaning": "The closeness of elements to each other implying a relationship",
+    "genre": "design",
+    "difficulty": 3,
+    "dateAdded": "2025-11-24",
+    "samplePhrase": "The proximity quality of the user flow greatly improves the user experience.",
+    "itContext": "Proximity is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "nearness",
+      "closeness",
+      "adjacency",
+      "association"
+    ],
+    "pronunciation": "prok-SIM-ih-tee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      5
+    ]
+  },
+  {
+    "id": "design-012",
+    "word": "Alignment",
+    "meaning": "The arrangement of elements along a common edge or axis",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2025-11-25",
+    "samplePhrase": "The alignment quality of the navigation greatly improves the user experience.",
+    "itContext": "Alignment is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "arrangement",
+      "positioning",
+      "ordering",
+      "coordination"
+    ],
+    "pronunciation": "uh-LINE-ment",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "design-013",
+    "word": "Contrast",
+    "meaning": "The degree of difference between elements that makes them distinguishable",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2025-11-26",
+    "samplePhrase": "The contrast quality of the interface greatly improves the user experience.",
+    "itContext": "Contrast is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "difference",
+      "distinction",
+      "variation",
+      "opposition"
+    ],
+    "pronunciation": "KON-trast",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3,
+      5
+    ]
+  },
+  {
+    "id": "design-014",
+    "word": "Modality",
+    "meaning": "A particular mode of interaction or sensory channel in a design",
+    "genre": "design",
+    "difficulty": 4,
+    "dateAdded": "2025-11-27",
+    "samplePhrase": "The modality quality of the layout greatly improves the user experience.",
+    "itContext": "Modality is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "mode",
+      "channel",
+      "method",
+      "interaction type"
+    ],
+    "pronunciation": "moh-DAL-ih-tee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      2
+    ]
+  },
+  {
+    "id": "design-015",
+    "word": "Fidelity",
+    "meaning": "The degree of detail and realism in a prototype or mockup",
+    "genre": "design",
+    "difficulty": 3,
+    "dateAdded": "2025-11-28",
+    "samplePhrase": "The fidelity quality of the component greatly improves the user experience.",
+    "itContext": "Fidelity is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "detail level",
+      "accuracy",
+      "realism",
+      "resolution"
+    ],
+    "pronunciation": "fih-DEL-ih-tee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "design-016",
+    "word": "Persona",
+    "meaning": "A fictional character representing a key user group for design decisions",
+    "genre": "design",
+    "difficulty": 3,
+    "dateAdded": "2025-11-29",
+    "samplePhrase": "The persona quality of the design system greatly improves the user experience.",
+    "itContext": "Persona is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "user archetype",
+      "profile",
+      "character",
+      "representative"
+    ],
+    "pronunciation": "per-SOH-nuh",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "design-017",
+    "word": "Typography",
+    "meaning": "The art and technique of arranging text for readability and visual appeal",
+    "genre": "design",
+    "difficulty": 3,
+    "dateAdded": "2025-11-30",
+    "samplePhrase": "The typography quality of the user flow greatly improves the user experience.",
+    "itContext": "Typography is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "typeface design",
+      "font styling",
+      "text layout",
+      "lettering"
+    ],
+    "pronunciation": "ty-POG-ruh-fee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "design-018",
+    "word": "Responsive",
+    "meaning": "A design that automatically adapts its layout to different screen sizes",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2025-12-01",
+    "samplePhrase": "The responsive quality of the navigation greatly improves the user experience.",
+    "itContext": "Responsive is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "adaptive",
+      "flexible",
+      "fluid",
+      "device-aware"
+    ],
+    "pronunciation": "rih-SPON-siv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "design-019",
+    "word": "Adaptive",
+    "meaning": "A design that detects the device and loads a specific layout for it",
+    "genre": "design",
+    "difficulty": 3,
+    "dateAdded": "2025-12-02",
+    "samplePhrase": "The adaptive quality of the interface greatly improves the user experience.",
+    "itContext": "Adaptive is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "responsive",
+      "flexible",
+      "adjustable",
+      "context-aware"
+    ],
+    "pronunciation": "uh-DAP-tiv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      2
+    ]
+  },
+  {
+    "id": "design-020",
+    "word": "Minimalist",
+    "meaning": "Using the fewest possible elements to achieve maximum clarity",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2025-12-03",
+    "samplePhrase": "The minimalist quality of the layout greatly improves the user experience.",
+    "itContext": "Minimalist is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "simple",
+      "clean",
+      "sparse",
+      "uncluttered"
+    ],
+    "pronunciation": "MIN-ih-muh-list",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "design-021",
+    "word": "Accessible",
+    "meaning": "Designed to be usable by people of all abilities and disabilities",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2025-12-04",
+    "samplePhrase": "The accessible quality of the component greatly improves the user experience.",
+    "itContext": "Accessible is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "inclusive",
+      "universal",
+      "barrier-free",
+      "usable"
+    ],
+    "pronunciation": "ak-SES-ih-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      5
+    ]
+  },
+  {
+    "id": "design-022",
+    "word": "Legible",
+    "meaning": "Clear enough to read easily; text that is visually distinct",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2025-12-05",
+    "samplePhrase": "The legible quality of the design system greatly improves the user experience.",
+    "itContext": "Legible is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "readable",
+      "clear",
+      "distinct",
+      "decipherable"
+    ],
+    "pronunciation": "LEJ-ih-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "design-023",
+    "word": "Navigable",
+    "meaning": "Easy to find one's way through; a clear information structure",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2025-12-06",
+    "samplePhrase": "The navigable quality of the user flow greatly improves the user experience.",
+    "itContext": "Navigable is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "traversable",
+      "browsable",
+      "structured",
+      "organized"
+    ],
+    "pronunciation": "NAV-ih-guh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "id": "design-024",
+    "word": "Scannable",
+    "meaning": "Content structured so users can quickly find what they need",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2025-12-07",
+    "samplePhrase": "The scannable quality of the navigation greatly improves the user experience.",
+    "itContext": "Scannable is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "skimmable",
+      "browsable",
+      "structured",
+      "digestible"
+    ],
+    "pronunciation": "SKAN-uh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      5
+    ]
+  },
+  {
+    "id": "design-025",
+    "word": "Delightful",
+    "meaning": "Producing positive surprise and joy in the user experience",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2025-12-08",
+    "samplePhrase": "The delightful quality of the interface greatly improves the user experience.",
+    "itContext": "Delightful is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "enjoyable",
+      "pleasing",
+      "charming",
+      "satisfying"
+    ],
+    "pronunciation": "dih-LITE-ful",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "design-026",
+    "word": "Consistent",
+    "meaning": "Uniform behavior and appearance throughout the entire interface",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2025-12-09",
+    "samplePhrase": "The consistent quality of the layout greatly improves the user experience.",
+    "itContext": "Consistent is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "uniform",
+      "standardized",
+      "regular",
+      "predictable"
+    ],
+    "pronunciation": "kun-SIS-tent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "design-027",
+    "word": "Harmonious",
+    "meaning": "Forming a pleasing and balanced whole; visually agreeable",
+    "genre": "design",
+    "difficulty": 3,
+    "dateAdded": "2025-12-10",
+    "samplePhrase": "The harmonious quality of the component greatly improves the user experience.",
+    "itContext": "Harmonious is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "balanced",
+      "unified",
+      "complementary",
+      "coordinated"
+    ],
+    "pronunciation": "har-MOH-nee-us",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      2,
+      2
+    ]
+  },
+  {
+    "id": "design-028",
+    "word": "Elegant",
+    "meaning": "Pleasingly graceful and stylish; simple yet effective design",
+    "genre": "design",
+    "difficulty": 3,
+    "dateAdded": "2025-12-11",
+    "samplePhrase": "The elegant quality of the design system greatly improves the user experience.",
+    "itContext": "Elegant is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "graceful",
+      "refined",
+      "sophisticated",
+      "tasteful"
+    ],
+    "pronunciation": "EL-eh-gunt",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "design-029",
+    "word": "Proportional",
+    "meaning": "Having dimensions that are in correct relative size to each other",
+    "genre": "design",
+    "difficulty": 3,
+    "dateAdded": "2025-12-12",
+    "samplePhrase": "The proportional quality of the user flow greatly improves the user experience.",
+    "itContext": "Proportional is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "balanced",
+      "scaled",
+      "relative",
+      "symmetrical"
+    ],
+    "pronunciation": "pruh-POR-shun-ul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      2
+    ]
+  },
+  {
+    "id": "design-030",
+    "word": "Symmetrical",
+    "meaning": "Having balanced and identical forms on both sides of a center line",
+    "genre": "design",
+    "difficulty": 3,
+    "dateAdded": "2025-12-13",
+    "samplePhrase": "The symmetrical quality of the navigation greatly improves the user experience.",
+    "itContext": "Symmetrical is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "balanced",
+      "even",
+      "mirrored",
+      "uniform"
+    ],
+    "pronunciation": "sih-MET-rih-kul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      2,
+      2
+    ]
+  },
+  {
+    "id": "design-031",
+    "word": "Asymmetrical",
+    "meaning": "Having unequal parts that create dynamic visual tension and interest",
+    "genre": "design",
+    "difficulty": 3,
+    "dateAdded": "2025-12-14",
+    "samplePhrase": "The asymmetrical quality of the interface greatly improves the user experience.",
+    "itContext": "Asymmetrical is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "uneven",
+      "dynamic",
+      "off-center",
+      "irregular"
+    ],
+    "pronunciation": "ay-sih-MET-rih-kul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "design-032",
+    "word": "Dynamic",
+    "meaning": "Characterized by continuous change, activity, or progress in a design",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2025-12-15",
+    "samplePhrase": "The dynamic quality of the layout greatly improves the user experience.",
+    "itContext": "Dynamic is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "active",
+      "animated",
+      "interactive",
+      "lively"
+    ],
+    "pronunciation": "dy-NAM-ik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      2
+    ]
+  },
+  {
+    "id": "design-033",
+    "word": "Fluid",
+    "meaning": "Smoothly flowing and adapting gracefully to different contexts",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2025-12-16",
+    "samplePhrase": "The fluid quality of the component greatly improves the user experience.",
+    "itContext": "Fluid is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "flowing",
+      "smooth",
+      "flexible",
+      "adaptive"
+    ],
+    "pronunciation": "FLOO-id",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "design-034",
+    "word": "Modular",
+    "meaning": "Composed of interchangeable units that can be rearranged freely",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2025-12-17",
+    "samplePhrase": "The modular quality of the design system greatly improves the user experience.",
+    "itContext": "Modular is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "component-based",
+      "reusable",
+      "interchangeable",
+      "pluggable"
+    ],
+    "pronunciation": "MOJ-oo-ler",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      5
+    ]
+  },
+  {
+    "id": "design-035",
+    "word": "Atomic",
+    "meaning": "The smallest indivisible unit of a design system",
+    "genre": "design",
+    "difficulty": 3,
+    "dateAdded": "2025-12-18",
+    "samplePhrase": "The atomic quality of the user flow greatly improves the user experience.",
+    "itContext": "Atomic is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "fundamental",
+      "elemental",
+      "basic",
+      "irreducible"
+    ],
+    "pronunciation": "uh-TOM-ik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "design-036",
+    "word": "Composable",
+    "meaning": "Able to be combined with other elements to create larger designs",
+    "genre": "design",
+    "difficulty": 3,
+    "dateAdded": "2025-12-19",
+    "samplePhrase": "The composable quality of the navigation greatly improves the user experience.",
+    "itContext": "Composable is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "combinable",
+      "mixable",
+      "buildable",
+      "stackable"
+    ],
+    "pronunciation": "kum-POH-zuh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      2,
+      2
+    ]
+  },
+  {
+    "id": "design-037",
+    "word": "Reusable",
+    "meaning": "Designed to be used multiple times across different contexts",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2025-12-20",
+    "samplePhrase": "The reusable quality of the interface greatly improves the user experience.",
+    "itContext": "Reusable is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "recyclable",
+      "repurposable",
+      "transferable",
+      "versatile"
+    ],
+    "pronunciation": "ree-YOO-zuh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5,
+      2
+    ]
+  },
+  {
+    "id": "design-038",
+    "word": "Scalable",
+    "meaning": "Able to maintain quality and usability across different sizes",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2025-12-21",
+    "samplePhrase": "The scalable quality of the layout greatly improves the user experience.",
+    "itContext": "Scalable is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "expandable",
+      "flexible",
+      "adaptable",
+      "resizable"
+    ],
+    "pronunciation": "SKAY-luh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      5,
+      2
+    ]
+  },
+  {
+    "id": "design-039",
+    "word": "Versatile",
+    "meaning": "Able to adapt to many different functions or applications",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2025-12-22",
+    "samplePhrase": "The versatile quality of the component greatly improves the user experience.",
+    "itContext": "Versatile is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "adaptable",
+      "flexible",
+      "multipurpose",
+      "all-purpose"
+    ],
+    "pronunciation": "VER-suh-til",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "design-040",
+    "word": "Immersive",
+    "meaning": "Creating a complete, absorbing experience that engages all senses",
+    "genre": "design",
+    "difficulty": 3,
+    "dateAdded": "2025-12-23",
+    "samplePhrase": "The immersive quality of the design system greatly improves the user experience.",
+    "itContext": "Immersive is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "engaging",
+      "absorbing",
+      "enveloping",
+      "captivating"
+    ],
+    "pronunciation": "ih-MER-siv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "design-041",
+    "word": "Ambient",
+    "meaning": "Relating to the immediate surrounding environment of an experience",
+    "genre": "design",
+    "difficulty": 3,
+    "dateAdded": "2025-12-24",
+    "samplePhrase": "The ambient quality of the user flow greatly improves the user experience.",
+    "itContext": "Ambient is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "surrounding",
+      "environmental",
+      "contextual",
+      "atmospheric"
+    ],
+    "pronunciation": "AM-bee-ent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5,
+      2
+    ]
+  },
+  {
+    "id": "design-042",
+    "word": "Tactile",
+    "meaning": "Relating to the sense of touch; physical interaction feedback",
+    "genre": "design",
+    "difficulty": 3,
+    "dateAdded": "2025-12-25",
+    "samplePhrase": "The tactile quality of the navigation greatly improves the user experience.",
+    "itContext": "Tactile is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "touchable",
+      "tangible",
+      "physical",
+      "sensory"
+    ],
+    "pronunciation": "TAK-tile",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "design-043",
+    "word": "Perceptible",
+    "meaning": "Noticeable or observable by the user; detectable change",
+    "genre": "design",
+    "difficulty": 3,
+    "dateAdded": "2025-12-26",
+    "samplePhrase": "The perceptible quality of the interface greatly improves the user experience.",
+    "itContext": "Perceptible is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "noticeable",
+      "detectable",
+      "visible",
+      "observable"
+    ],
+    "pronunciation": "per-SEP-tih-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "design-044",
+    "word": "Discernible",
+    "meaning": "Able to be recognized or distinguished clearly by the user",
+    "genre": "design",
+    "difficulty": 3,
+    "dateAdded": "2025-12-27",
+    "samplePhrase": "The discernible quality of the layout greatly improves the user experience.",
+    "itContext": "Discernible is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "distinguishable",
+      "recognizable",
+      "identifiable",
+      "apparent"
+    ],
+    "pronunciation": "dih-SERN-ih-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      2,
+      4
+    ]
+  },
+  {
+    "id": "design-045",
+    "word": "Prominent",
+    "meaning": "Standing out so as to be easily seen; visually important",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2025-12-28",
+    "samplePhrase": "The prominent quality of the component greatly improves the user experience.",
+    "itContext": "Prominent is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "conspicuous",
+      "noticeable",
+      "dominant",
+      "bold"
+    ],
+    "pronunciation": "PROM-ih-nent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "design-046",
+    "word": "Subtle",
+    "meaning": "Delicate and understated; not immediately obvious but effective",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2025-12-29",
+    "samplePhrase": "The subtle quality of the design system greatly improves the user experience.",
+    "itContext": "Subtle is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "understated",
+      "nuanced",
+      "delicate",
+      "restrained"
+    ],
+    "pronunciation": "SUT-ul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "design-047",
+    "word": "Whitespace",
+    "meaning": "The empty space between design elements that provides visual breathing room",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2025-12-30",
+    "samplePhrase": "The whitespace quality of the user flow greatly improves the user experience.",
+    "itContext": "Whitespace is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "negative space",
+      "blank space",
+      "margin",
+      "padding"
+    ],
+    "pronunciation": "WITE-spays",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "design-048",
+    "word": "Wireframe",
+    "meaning": "A basic structural blueprint of a page layout without visual design",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2025-12-31",
+    "samplePhrase": "The wireframe quality of the navigation greatly improves the user experience.",
+    "itContext": "Wireframe is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "skeleton",
+      "blueprint",
+      "layout",
+      "schematic"
+    ],
+    "pronunciation": "WIRE-fraym",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      4
+    ]
+  },
+  {
+    "id": "design-049",
+    "word": "Prototype",
+    "meaning": "An early model of a product used to test and validate design concepts",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2026-01-01",
+    "samplePhrase": "The prototype quality of the interface greatly improves the user experience.",
+    "itContext": "Prototype is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "mockup",
+      "model",
+      "demo",
+      "proof of concept"
+    ],
+    "pronunciation": "PROH-toh-type",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "design-050",
+    "word": "Microinteraction",
+    "meaning": "A small, contained animation or response to a single user action",
+    "genre": "design",
+    "difficulty": 4,
+    "dateAdded": "2026-01-02",
+    "samplePhrase": "The microinteraction quality of the layout greatly improves the user experience.",
+    "itContext": "Microinteraction is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "subtle feedback",
+      "mini-animation",
+      "detail interaction",
+      "UI response"
+    ],
+    "pronunciation": "MY-kroh-in-ter-AK-shun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      2
+    ]
+  },
+  {
+    "id": "design-051",
+    "word": "Onboarding",
+    "meaning": "The process of guiding new users to understand and use a product",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2026-01-03",
+    "samplePhrase": "The onboarding quality of the component greatly improves the user experience.",
+    "itContext": "Onboarding is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "orientation",
+      "introduction",
+      "walkthrough",
+      "tutorial"
+    ],
+    "pronunciation": "ON-bor-ding",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "design-052",
+    "word": "Breadcrumb",
+    "meaning": "A navigation trail showing the user's current location in a hierarchy",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2026-01-04",
+    "samplePhrase": "The breadcrumb quality of the design system greatly improves the user experience.",
+    "itContext": "Breadcrumb is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "trail",
+      "path indicator",
+      "navigation aid",
+      "location marker"
+    ],
+    "pronunciation": "BRED-krum",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      2,
+      5
+    ]
+  },
+  {
+    "id": "design-053",
+    "word": "Pagination",
+    "meaning": "Dividing content into discrete pages for easier consumption",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2026-01-05",
+    "samplePhrase": "The pagination quality of the user flow greatly improves the user experience.",
+    "itContext": "Pagination is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "page splitting",
+      "content division",
+      "paging",
+      "segmentation"
+    ],
+    "pronunciation": "paj-ih-NAY-shun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "design-054",
+    "word": "Tooltip",
+    "meaning": "A small informational pop-up that appears when hovering over an element",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2026-01-06",
+    "samplePhrase": "The tooltip quality of the navigation greatly improves the user experience.",
+    "itContext": "Tooltip is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "hint",
+      "info bubble",
+      "hover text",
+      "pop-up help"
+    ],
+    "pronunciation": "TOOL-tip",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "design-055",
+    "word": "Modal",
+    "meaning": "A dialog box that requires user interaction before returning to the main content",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2026-01-07",
+    "samplePhrase": "The modal quality of the interface greatly improves the user experience.",
+    "itContext": "Modal is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "dialog",
+      "overlay",
+      "popup",
+      "lightbox"
+    ],
+    "pronunciation": "MOH-dul",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "id": "design-056",
+    "word": "Carousel",
+    "meaning": "A rotating set of content items that users can browse through",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2026-01-08",
+    "samplePhrase": "The carousel quality of the layout greatly improves the user experience.",
+    "itContext": "Carousel is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "slider",
+      "rotator",
+      "gallery",
+      "slideshow"
+    ],
+    "pronunciation": "KAIR-uh-sel",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "design-057",
+    "word": "Skeuomorphic",
+    "meaning": "Design elements that mimic their real-world counterparts",
+    "genre": "design",
+    "difficulty": 5,
+    "dateAdded": "2026-01-09",
+    "samplePhrase": "The skeuomorphic quality of the component greatly improves the user experience.",
+    "itContext": "Skeuomorphic is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "realistic",
+      "imitative",
+      "physical-looking",
+      "mimetic"
+    ],
+    "pronunciation": "skyoo-oh-MOR-fik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "design-058",
+    "word": "Parallax",
+    "meaning": "A visual effect where background elements move slower than foreground",
+    "genre": "design",
+    "difficulty": 4,
+    "dateAdded": "2026-01-10",
+    "samplePhrase": "The parallax quality of the design system greatly improves the user experience.",
+    "itContext": "Parallax is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "depth effect",
+      "layered motion",
+      "scrolling effect",
+      "perspective shift"
+    ],
+    "pronunciation": "PAIR-uh-laks",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      5,
+      5
+    ]
+  },
+  {
+    "id": "design-059",
+    "word": "Gradient",
+    "meaning": "A gradual transition between two or more colors or values",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2026-01-11",
+    "samplePhrase": "The gradient quality of the user flow greatly improves the user experience.",
+    "itContext": "Gradient is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "color transition",
+      "blend",
+      "fade",
+      "spectrum"
+    ],
+    "pronunciation": "GRAY-dee-ent",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      2
+    ]
+  },
+  {
+    "id": "design-060",
+    "word": "Opacity",
+    "meaning": "The degree to which an element is transparent or see-through",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2026-01-12",
+    "samplePhrase": "The opacity quality of the navigation greatly improves the user experience.",
+    "itContext": "Opacity is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "transparency",
+      "translucency",
+      "visibility",
+      "alpha"
+    ],
+    "pronunciation": "oh-PAS-ih-tee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "design-061",
+    "word": "Saturation",
+    "meaning": "The intensity or vividness of a color",
+    "genre": "design",
+    "difficulty": 3,
+    "dateAdded": "2026-01-13",
+    "samplePhrase": "The saturation quality of the interface greatly improves the user experience.",
+    "itContext": "Saturation is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "color intensity",
+      "vividness",
+      "richness",
+      "vibrancy"
+    ],
+    "pronunciation": "sat-yoo-RAY-shun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "design-062",
+    "word": "Luminance",
+    "meaning": "The brightness of a color as perceived by the human eye",
+    "genre": "design",
+    "difficulty": 4,
+    "dateAdded": "2026-01-14",
+    "samplePhrase": "The luminance quality of the layout greatly improves the user experience.",
+    "itContext": "Luminance is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "brightness",
+      "lightness",
+      "illumination",
+      "radiance"
+    ],
+    "pronunciation": "LOO-mih-nuns",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "design-063",
+    "word": "Kerning",
+    "meaning": "The adjustment of space between individual letter pairs",
+    "genre": "design",
+    "difficulty": 4,
+    "dateAdded": "2026-01-15",
+    "samplePhrase": "The kerning quality of the component greatly improves the user experience.",
+    "itContext": "Kerning is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "letter spacing",
+      "character spacing",
+      "type adjustment",
+      "glyph spacing"
+    ],
+    "pronunciation": "KER-ning",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      5
+    ]
+  },
+  {
+    "id": "design-064",
+    "word": "Leading",
+    "meaning": "The vertical space between lines of text",
+    "genre": "design",
+    "difficulty": 3,
+    "dateAdded": "2026-01-16",
+    "samplePhrase": "The leading quality of the design system greatly improves the user experience.",
+    "itContext": "Leading is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "line spacing",
+      "line height",
+      "interline spacing",
+      "vertical rhythm"
+    ],
+    "pronunciation": "LED-ing",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      5
+    ]
+  },
+  {
+    "id": "design-065",
+    "word": "Viewport",
+    "meaning": "The visible area of a web page within the browser window",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2026-01-17",
+    "samplePhrase": "The viewport quality of the user flow greatly improves the user experience.",
+    "itContext": "Viewport is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "visible area",
+      "screen area",
+      "display window",
+      "viewing area"
+    ],
+    "pronunciation": "VYOO-port",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "design-066",
+    "word": "Breakpoint",
+    "meaning": "A specific screen width at which a responsive layout changes",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2026-01-18",
+    "samplePhrase": "The breakpoint quality of the navigation greatly improves the user experience.",
+    "itContext": "Breakpoint is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "threshold",
+      "trigger width",
+      "layout switch",
+      "media query point"
+    ],
+    "pronunciation": "BRAYK-poynt",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      5
+    ]
+  },
+  {
+    "id": "design-067",
+    "word": "Thumbnail",
+    "meaning": "A small reduced-size version of a larger image for quick preview",
+    "genre": "design",
+    "difficulty": 1,
+    "dateAdded": "2026-01-19",
+    "samplePhrase": "The thumbnail quality of the interface greatly improves the user experience.",
+    "itContext": "Thumbnail is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "preview",
+      "miniature",
+      "small version",
+      "icon"
+    ],
+    "pronunciation": "THUM-nayl",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      3,
+      5
+    ]
+  },
+  {
+    "id": "design-068",
+    "word": "Iconography",
+    "meaning": "The visual language of icons used throughout an interface",
+    "genre": "design",
+    "difficulty": 4,
+    "dateAdded": "2026-01-20",
+    "samplePhrase": "The iconography quality of the layout greatly improves the user experience.",
+    "itContext": "Iconography is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "icon system",
+      "symbol set",
+      "visual language",
+      "pictography"
+    ],
+    "pronunciation": "eye-kuh-NOG-ruh-fee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      5
+    ]
+  },
+  {
+    "id": "design-069",
+    "word": "Gestalt",
+    "meaning": "The perception of a whole that is different from the sum of its parts",
+    "genre": "design",
+    "difficulty": 5,
+    "dateAdded": "2026-01-21",
+    "samplePhrase": "The gestalt quality of the component greatly improves the user experience.",
+    "itContext": "Gestalt is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "wholeness",
+      "unified form",
+      "totality",
+      "pattern"
+    ],
+    "pronunciation": "geh-SHTALT",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      2
+    ]
+  },
+  {
+    "id": "design-070",
+    "word": "Cognitive",
+    "meaning": "Relating to mental processes of perception, memory, and judgment",
+    "genre": "design",
+    "difficulty": 3,
+    "dateAdded": "2026-01-22",
+    "samplePhrase": "The cognitive quality of the design system greatly improves the user experience.",
+    "itContext": "Cognitive is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "mental",
+      "intellectual",
+      "perceptual",
+      "thinking"
+    ],
+    "pronunciation": "KOG-nih-tiv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "design-071",
+    "word": "Heuristic",
+    "meaning": "A practical evaluation guideline rather than a rigid formula",
+    "genre": "design",
+    "difficulty": 4,
+    "dateAdded": "2026-01-23",
+    "samplePhrase": "The heuristic quality of the user flow greatly improves the user experience.",
+    "itContext": "Heuristic is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "practical",
+      "approximate",
+      "intuitive",
+      "experience-based"
+    ],
+    "pronunciation": "hyoo-RIS-tik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "design-072",
+    "word": "Empathy",
+    "meaning": "The ability to understand and share the feelings of your users",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2026-01-24",
+    "samplePhrase": "The empathy quality of the navigation greatly improves the user experience.",
+    "itContext": "Empathy is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "understanding",
+      "compassion",
+      "identification",
+      "connection"
+    ],
+    "pronunciation": "EM-puh-thee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      5,
+      5
+    ]
+  },
+  {
+    "id": "design-073",
+    "word": "Friction",
+    "meaning": "Any obstacle or difficulty that slows down or prevents user progress",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2026-01-25",
+    "samplePhrase": "The friction quality of the interface greatly improves the user experience.",
+    "itContext": "Friction is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "resistance",
+      "obstacle",
+      "barrier",
+      "impediment"
+    ],
+    "pronunciation": "FRIK-shun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4,
+      2
+    ]
+  },
+  {
+    "id": "design-074",
+    "word": "Affordance",
+    "meaning": "A quality of an object that suggests its possible use or function",
+    "genre": "design",
+    "difficulty": 4,
+    "dateAdded": "2026-01-26",
+    "samplePhrase": "The affordance quality of the layout greatly improves the user experience.",
+    "itContext": "Affordance is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "suggestion",
+      "cue",
+      "hint",
+      "usability signal"
+    ],
+    "pronunciation": "uh-FOR-dunce",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "design-075",
+    "word": "Constraint",
+    "meaning": "A limitation that actually helps guide better design decisions",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2026-01-27",
+    "samplePhrase": "The constraint quality of the component greatly improves the user experience.",
+    "itContext": "Constraint is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "limitation",
+      "restriction",
+      "boundary",
+      "parameter"
+    ],
+    "pronunciation": "kun-STRAYNT",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      5,
+      5
+    ]
+  },
+  {
+    "id": "design-076",
+    "word": "Iteration",
+    "meaning": "A single cycle of designing, testing, and refining a product",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2026-01-28",
+    "samplePhrase": "The iteration quality of the design system greatly improves the user experience.",
+    "itContext": "Iteration is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "cycle",
+      "revision",
+      "version",
+      "pass"
+    ],
+    "pronunciation": "it-er-AY-shun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "design-077",
+    "word": "Annotation",
+    "meaning": "A note or comment added to a design to explain intent or behavior",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2026-01-29",
+    "samplePhrase": "The annotation quality of the user flow greatly improves the user experience.",
+    "itContext": "Annotation is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "note",
+      "comment",
+      "label",
+      "explanation"
+    ],
+    "pronunciation": "an-oh-TAY-shun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "design-078",
+    "word": "Benchmark",
+    "meaning": "A standard used to evaluate the quality or performance of a design",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2026-01-30",
+    "samplePhrase": "The benchmark quality of the navigation greatly improves the user experience.",
+    "itContext": "Benchmark is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "standard",
+      "reference",
+      "baseline",
+      "comparison"
+    ],
+    "pronunciation": "BENCH-mark",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "design-079",
+    "word": "Cadence",
+    "meaning": "The rhythm or pace at which design updates and releases occur",
+    "genre": "design",
+    "difficulty": 3,
+    "dateAdded": "2026-01-31",
+    "samplePhrase": "The cadence quality of the interface greatly improves the user experience.",
+    "itContext": "Cadence is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "rhythm",
+      "pace",
+      "tempo",
+      "frequency"
+    ],
+    "pronunciation": "KAY-dens",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "design-080",
+    "word": "Curate",
+    "meaning": "To carefully select and organize content for the best user experience",
+    "genre": "design",
+    "difficulty": 3,
+    "dateAdded": "2026-02-01",
+    "samplePhrase": "The curate approach helps us create layout better user experiences.",
+    "itContext": "Curate is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "select",
+      "organize",
+      "arrange",
+      "handpick"
+    ],
+    "pronunciation": "KYOO-rayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      2,
+      4
+    ]
+  },
+  {
+    "id": "design-081",
+    "word": "Distill",
+    "meaning": "To extract the essential elements from complex information",
+    "genre": "design",
+    "difficulty": 3,
+    "dateAdded": "2026-02-02",
+    "samplePhrase": "The distill approach helps us create component better user experiences.",
+    "itContext": "Distill is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "simplify",
+      "extract",
+      "condense",
+      "refine"
+    ],
+    "pronunciation": "dih-STIL",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "design-082",
+    "word": "Evoke",
+    "meaning": "To bring a feeling or memory to mind through design elements",
+    "genre": "design",
+    "difficulty": 3,
+    "dateAdded": "2026-02-03",
+    "samplePhrase": "The evoke approach helps us create design system better user experiences.",
+    "itContext": "Evoke is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "elicit",
+      "inspire",
+      "trigger",
+      "conjure"
+    ],
+    "pronunciation": "ih-VOHK",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "design-083",
+    "word": "Finesse",
+    "meaning": "Skillful and subtle handling of design details",
+    "genre": "design",
+    "difficulty": 3,
+    "dateAdded": "2026-02-04",
+    "samplePhrase": "The finesse quality of the user flow greatly improves the user experience.",
+    "itContext": "Finesse is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "skill",
+      "subtlety",
+      "refinement",
+      "polish"
+    ],
+    "pronunciation": "fih-NESS",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      5,
+      2
+    ]
+  },
+  {
+    "id": "design-084",
+    "word": "Gravitas",
+    "meaning": "A quality of seriousness and importance conveyed through design",
+    "genre": "design",
+    "difficulty": 4,
+    "dateAdded": "2026-02-05",
+    "samplePhrase": "The gravitas quality of the navigation greatly improves the user experience.",
+    "itContext": "Gravitas is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "weight",
+      "authority",
+      "seriousness",
+      "dignity"
+    ],
+    "pronunciation": "GRAV-ih-tahs",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "design-085",
+    "word": "Juxtapose",
+    "meaning": "To place elements side by side to highlight differences or create contrast",
+    "genre": "design",
+    "difficulty": 3,
+    "dateAdded": "2026-02-06",
+    "samplePhrase": "The juxtapose approach helps us create interface better user experiences.",
+    "itContext": "Juxtapose is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "contrast",
+      "compare",
+      "place beside",
+      "set against"
+    ],
+    "pronunciation": "JUK-stuh-pohz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      2
+    ]
+  },
+  {
+    "id": "design-086",
+    "word": "Kinetic",
+    "meaning": "Relating to or produced by motion; animated design elements",
+    "genre": "design",
+    "difficulty": 3,
+    "dateAdded": "2026-02-07",
+    "samplePhrase": "The kinetic quality of the layout greatly improves the user experience.",
+    "itContext": "Kinetic is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "moving",
+      "animated",
+      "dynamic",
+      "motion-based"
+    ],
+    "pronunciation": "kih-NET-ik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      2
+    ]
+  },
+  {
+    "id": "design-087",
+    "word": "Latent",
+    "meaning": "Present but not yet visible or active; hidden design potential",
+    "genre": "design",
+    "difficulty": 3,
+    "dateAdded": "2026-02-08",
+    "samplePhrase": "The latent quality of the component greatly improves the user experience.",
+    "itContext": "Latent is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "hidden",
+      "dormant",
+      "potential",
+      "underlying"
+    ],
+    "pronunciation": "LAY-tent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "design-088",
+    "word": "Nuance",
+    "meaning": "A subtle difference in meaning, expression, or visual quality",
+    "genre": "design",
+    "difficulty": 3,
+    "dateAdded": "2026-02-09",
+    "samplePhrase": "The nuance quality of the design system greatly improves the user experience.",
+    "itContext": "Nuance is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "subtlety",
+      "fine detail",
+      "shade",
+      "refinement"
+    ],
+    "pronunciation": "NOO-ahns",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "design-089",
+    "word": "Paradigm",
+    "meaning": "A dominant model or approach to design thinking and methodology",
+    "genre": "design",
+    "difficulty": 3,
+    "dateAdded": "2026-02-10",
+    "samplePhrase": "The paradigm quality of the user flow greatly improves the user experience.",
+    "itContext": "Paradigm is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "model",
+      "framework",
+      "approach",
+      "standard"
+    ],
+    "pronunciation": "PAIR-uh-dime",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      4,
+      2
+    ]
+  },
+  {
+    "id": "design-090",
+    "word": "Refine",
+    "meaning": "To improve something by making small, precise changes",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2026-02-11",
+    "samplePhrase": "The refine approach helps us create navigation better user experiences.",
+    "itContext": "Refine is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "improve",
+      "polish",
+      "perfect",
+      "enhance"
+    ],
+    "pronunciation": "rih-FINE",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "id": "design-091",
+    "word": "Salient",
+    "meaning": "Most noticeable or important; the key element that stands out",
+    "genre": "design",
+    "difficulty": 3,
+    "dateAdded": "2026-02-12",
+    "samplePhrase": "The salient quality of the interface greatly improves the user experience.",
+    "itContext": "Salient is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "prominent",
+      "notable",
+      "striking",
+      "key"
+    ],
+    "pronunciation": "SAY-lee-ent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      2
+    ]
+  },
+  {
+    "id": "design-092",
+    "word": "Tangible",
+    "meaning": "Clear and concrete enough that users can easily grasp the concept",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2026-02-13",
+    "samplePhrase": "The tangible quality of the layout greatly improves the user experience.",
+    "itContext": "Tangible is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "concrete",
+      "real",
+      "palpable",
+      "touchable"
+    ],
+    "pronunciation": "TAN-jih-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      2
+    ]
+  },
+  {
+    "id": "design-093",
+    "word": "Utilitarian",
+    "meaning": "Designed to be useful and practical rather than decorative",
+    "genre": "design",
+    "difficulty": 3,
+    "dateAdded": "2026-02-14",
+    "samplePhrase": "The utilitarian quality of the component greatly improves the user experience.",
+    "itContext": "Utilitarian is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "practical",
+      "functional",
+      "useful",
+      "no-frills"
+    ],
+    "pronunciation": "yoo-til-ih-TAIR-ee-un",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      2
+    ]
+  },
+  {
+    "id": "design-094",
+    "word": "Vernacular",
+    "meaning": "The common visual language familiar to a specific user group",
+    "genre": "design",
+    "difficulty": 4,
+    "dateAdded": "2026-02-15",
+    "samplePhrase": "The vernacular quality of the design system greatly improves the user experience.",
+    "itContext": "Vernacular is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "common language",
+      "everyday style",
+      "native design",
+      "local convention"
+    ],
+    "pronunciation": "ver-NAK-yoo-ler",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      5
+    ]
+  },
+  {
+    "id": "design-095",
+    "word": "Zenith",
+    "meaning": "The highest point of quality or achievement in a design",
+    "genre": "design",
+    "difficulty": 4,
+    "dateAdded": "2026-02-16",
+    "samplePhrase": "The zenith quality of the user flow greatly improves the user experience.",
+    "itContext": "Zenith is an essential concept in UX design for creating effective, user-centered digital products.",
+    "alternativeWords": [
+      "peak",
+      "pinnacle",
+      "apex",
+      "summit"
+    ],
+    "pronunciation": "ZEE-nith",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "design-096",
+    "word": "Polychromatic",
+    "meaning": "Using multiple colors to create visual richness and variety",
+    "genre": "design",
+    "difficulty": 4,
+    "dateAdded": "2026-02-17",
+    "samplePhrase": "Understanding polychromatic concepts helps our team deliver better user experiences.",
+    "itContext": "Polychromatic is a valuable concept for IT professionals working in design.",
+    "alternativeWords": [
+      "multicolored",
+      "colorful",
+      "variegated",
+      "vibrant"
+    ],
+    "pronunciation": "pol-ee-kroh-MAT-ik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "design-097",
+    "word": "Monochromatic",
+    "meaning": "Using variations of a single color for a unified elegant look",
+    "genre": "design",
+    "difficulty": 3,
+    "dateAdded": "2026-02-18",
+    "samplePhrase": "Understanding monochromatic concepts helps our team deliver better user experiences.",
+    "itContext": "Monochromatic is a valuable concept for IT professionals working in design.",
+    "alternativeWords": [
+      "single-hued",
+      "tonal",
+      "one-color",
+      "uniform"
+    ],
+    "pronunciation": "mon-oh-kroh-MAT-ik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "design-098",
+    "word": "Ornamental",
+    "meaning": "Serving a decorative purpose rather than a functional one",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2026-02-19",
+    "samplePhrase": "Understanding ornamental concepts helps our team deliver better user experiences.",
+    "itContext": "Ornamental is a valuable concept for IT professionals working in design.",
+    "alternativeWords": [
+      "decorative",
+      "embellishing",
+      "aesthetic",
+      "ornate"
+    ],
+    "pronunciation": "or-nuh-MEN-tul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "design-099",
+    "word": "Panoramic",
+    "meaning": "Showing a wide unobstructed view; a comprehensive visual experience",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2026-02-20",
+    "samplePhrase": "Understanding panoramic concepts helps our team deliver better user experiences.",
+    "itContext": "Panoramic is a valuable concept for IT professionals working in design.",
+    "alternativeWords": [
+      "wide-angle",
+      "sweeping",
+      "expansive",
+      "all-encompassing"
+    ],
+    "pronunciation": "pan-oh-RAM-ik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "design-100",
+    "word": "Pixelated",
+    "meaning": "Displayed with visible individual pixels causing a blocky appearance",
+    "genre": "design",
+    "difficulty": 2,
+    "dateAdded": "2026-02-21",
+    "samplePhrase": "Understanding pixelated concepts helps our team deliver better user experiences.",
+    "itContext": "Pixelated is a valuable concept for IT professionals working in design.",
+    "alternativeWords": [
+      "blocky",
+      "low-resolution",
+      "jaggy",
+      "aliased"
+    ],
+    "pronunciation": "PIK-sel-ay-ted",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  }
+]
