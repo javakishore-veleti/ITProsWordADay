@@ -161,6 +161,22 @@ jobs:
           container-name: itpros-wordaday
           image: ${{ needs.build-push.outputs.image }}
 
+      - name: Ensure service desired count is at least 1
+        run: |
+          CURRENT=$(aws ecs describe-services \
+            --cluster "${{ env.ECS_CLUSTER }}" \
+            --services "${{ env.ECS_SERVICE }}" \
+            --query 'services[0].desiredCount' --output text 2>/dev/null || echo "0")
+          if [ "$CURRENT" = "0" ]; then
+            echo "Service has 0 desired tasks — setting to 1"
+            aws ecs update-service \
+              --cluster "${{ env.ECS_CLUSTER }}" \
+              --service "${{ env.ECS_SERVICE }}" \
+              --desired-count 1 > /dev/null
+          else
+            echo "Service already has desired count: $CURRENT"
+          fi
+
       - name: Deploy to ECS
         uses: aws-actions/amazon-ecs-deploy-task-definition@v2
         with:

@@ -7,7 +7,8 @@ Parameters:
     Default: 8080
   DesiredCount:
     Type: Number
-    Default: 1
+    Default: 0
+    Description: Set to 0 initially; deploy job sets to 1 after pushing image
   VpcCidr:
     Type: String
     Default: "10.1.0.0/16"
