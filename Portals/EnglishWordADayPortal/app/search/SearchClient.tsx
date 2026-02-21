@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { GENRES } from "@/lib/data";
@@ -17,12 +17,11 @@ export default function SearchClient() {
   const [hasSearched, setHasSearched] = useState(false);
   const [loading, setLoading] = useState(false);
 
-  async function handleSearch(e: React.FormEvent) {
-    e.preventDefault();
+  const runSearch = useCallback(async (q: string, g?: string, d?: string) => {
     setLoading(true);
     setHasSearched(true);
     try {
-      const res = await apiSearch(query, genre || undefined, date || undefined);
+      const res = await apiSearch(q, g || undefined, d || undefined);
       setResults(res.words);
       setTotal(res.total);
     } catch {
@@ -30,6 +29,16 @@ export default function SearchClient() {
       setTotal(0);
     }
     setLoading(false);
+  }, []);
+
+  useEffect(() => {
+    const q = params.get("q");
+    if (q) runSearch(q);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+
+  function handleSearch(e: React.FormEvent) {
+    e.preventDefault();
+    runSearch(query, genre, date);
   }
 
   return (
