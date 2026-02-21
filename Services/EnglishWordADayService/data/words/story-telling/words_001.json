@@ -2023,5 +2023,28 @@
       2,
       2
     ]
+  },
+  {
+    "id": "story-091",
+    "word": "Hilarity",
+    "meaning": "Extreme amusement or boisterous merriment, especially when shared among a group",
+    "genre": "story-telling",
+    "difficulty": 2,
+    "dateAdded": "2026-02-21",
+    "samplePhrase": "The demo failure caused unexpected hilarity in the sprint review, reminding everyone that humor can defuse even the most stressful releases.",
+    "itContext": "In storytelling and tech talks, hilarity is a powerful tool — a well-placed moment of humor makes your narrative memorable, keeps the audience engaged, and humanizes complex technical content.",
+    "alternativeWords": [
+      "amusement",
+      "mirth",
+      "laughter",
+      "merriment",
+      "comedy"
+    ],
+    "pronunciation": "hih-LAIR-ih-tee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      5
+    ]
   }
 ]

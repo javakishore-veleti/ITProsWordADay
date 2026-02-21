@@ -36,8 +36,15 @@ export default function Dashboard() {
   return <DashboardContent allWords={allWords} genreWords={genreWords} />;
 }
 
+function getTodaysWord(words: Word[]): Word {
+  const today = new Date().toISOString().split("T")[0];
+  const todayWord = words.find((w) => w.dateAdded === today);
+  if (todayWord) return todayWord;
+  return words[Math.floor((new Date().getTime() / 86400000) % words.length)] || words[0];
+}
+
 function DashboardContent({ allWords, genreWords }: { allWords: Word[]; genreWords: Record<string, Word[]> }) {
-  const initialWord = allWords[Math.floor((new Date().getTime() / 86400000) % allWords.length)] || allWords[0];
+  const initialWord = getTodaysWord(allWords);
   const { currentWord, nextWord } = useWordRotation(initialWord, allWords);
 
   return (

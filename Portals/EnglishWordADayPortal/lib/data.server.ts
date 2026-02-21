@@ -46,6 +46,9 @@ export function getWordById(id: string): Word | undefined {
 
 export function getWordOfTheDay(): Word {
   const all = loadAllWords();
+  const todayStr = new Date().toISOString().split("T")[0];
+  const todayWord = all.find((w) => w.dateAdded === todayStr);
+  if (todayWord) return todayWord;
   const today = new Date();
   const dayOfYear = Math.floor(
     (today.getTime() - new Date(today.getFullYear(), 0, 0).getTime()) /
