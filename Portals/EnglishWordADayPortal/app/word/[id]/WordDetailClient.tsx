@@ -24,7 +24,8 @@ export default function WordDetailClient({ word }: Props) {
 
   useEffect(() => {
     if (displayWord.id !== word.id) {
-      window.history.replaceState(null, "", `/word/${displayWord.id}`);
+      const base = process.env.NEXT_PUBLIC_BASE_PATH || "";
+      window.history.replaceState(null, "", `${base}/word/${displayWord.id}`);
     }
   }, [displayWord.id, word.id]);
 
