@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { useState, useRef, useEffect } from "react";
 import { GENRES } from "@/lib/data";
 
@@ -9,6 +9,7 @@ const MAX_VISIBLE = 10;
 
 export default function Header() {
   const pathname = usePathname();
+  const router = useRouter();
   const [searchQuery, setSearchQuery] = useState("");
   const [showOthers, setShowOthers] = useState(false);
   const [showMobileSearch, setShowMobileSearch] = useState(false);
@@ -27,7 +28,7 @@ export default function Header() {
 
   const handleSearch = () => {
     if (searchQuery.trim()) {
-      window.location.href = `/search?q=${encodeURIComponent(searchQuery)}`;
+      router.push(`/search?q=${encodeURIComponent(searchQuery)}`);
       setShowMobileSearch(false);
     }
   };
