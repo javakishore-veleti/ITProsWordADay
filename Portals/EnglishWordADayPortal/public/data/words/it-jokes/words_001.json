@@ -1,0 +1,2118 @@
+[
+  {
+    "id": "joke-001",
+    "word": "Debugging",
+    "meaning": "The art of removing bugs you put in while removing bugs you found",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2025-12-01",
+    "samplePhrase": "The debugging aspect of the project helps us achieve professional excellence.",
+    "itContext": "Debugging is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "troubleshooting",
+      "bug-hunting",
+      "fixing",
+      "detective work"
+    ],
+    "pronunciation": "dee-BUG-ing",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "joke-002",
+    "word": "Legacy",
+    "meaning": "Code that works but nobody dares to touch",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2025-12-02",
+    "samplePhrase": "The legacy aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Legacy is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "heritage",
+      "inherited",
+      "ancient",
+      "untouchable"
+    ],
+    "pronunciation": "LEG-uh-see",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "joke-003",
+    "word": "Spaghetti",
+    "meaning": "Code so tangled that touching one part breaks everything else",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2025-12-03",
+    "samplePhrase": "The spaghetti aspect of our team helps us achieve professional excellence.",
+    "itContext": "Spaghetti is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "tangled",
+      "messy",
+      "convoluted",
+      "intertwined"
+    ],
+    "pronunciation": "spuh-GET-ee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      5,
+      2
+    ]
+  },
+  {
+    "id": "joke-004",
+    "word": "Rubber-duck",
+    "meaning": "Explaining code to an inanimate object to find the bug",
+    "genre": "it-jokes",
+    "difficulty": 3,
+    "dateAdded": "2025-12-04",
+    "samplePhrase": "The rubber-duck aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Rubber-duck is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "confessional debugging",
+      "talk-through",
+      "explain-to-understand",
+      "narrate"
+    ],
+    "pronunciation": "RUB-er-duk",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      2
+    ]
+  },
+  {
+    "id": "joke-005",
+    "word": "Yak-shaving",
+    "meaning": "Doing a series of seemingly pointless tasks to solve a problem",
+    "genre": "it-jokes",
+    "difficulty": 4,
+    "dateAdded": "2025-12-05",
+    "samplePhrase": "The yak-shaving aspect of the review helps us achieve professional excellence.",
+    "itContext": "Yak-shaving is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "side-questing",
+      "rabbit-holing",
+      "tangent-chasing",
+      "prerequisite-chain"
+    ],
+    "pronunciation": "YAK-shay-ving",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      5
+    ]
+  },
+  {
+    "id": "joke-006",
+    "word": "Bikeshedding",
+    "meaning": "Spending excessive time on trivial decisions while ignoring big ones",
+    "genre": "it-jokes",
+    "difficulty": 4,
+    "dateAdded": "2025-12-06",
+    "samplePhrase": "The bikeshedding aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Bikeshedding is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "nitpicking",
+      "trivia-debating",
+      "color-choosing",
+      "minor-obsessing"
+    ],
+    "pronunciation": "BIKE-shed-ing",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3,
+      5
+    ]
+  },
+  {
+    "id": "joke-007",
+    "word": "Heisenbug",
+    "meaning": "A bug that disappears or changes when you try to observe it",
+    "genre": "it-jokes",
+    "difficulty": 4,
+    "dateAdded": "2025-12-07",
+    "samplePhrase": "The heisenbug aspect of the project helps us achieve professional excellence.",
+    "itContext": "Heisenbug is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "phantom bug",
+      "observer-affected",
+      "disappearing bug",
+      "quantum bug"
+    ],
+    "pronunciation": "HY-zen-bug",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "joke-008",
+    "word": "Refuctoring",
+    "meaning": "Refactoring that accidentally makes code worse",
+    "genre": "it-jokes",
+    "difficulty": 4,
+    "dateAdded": "2025-12-08",
+    "samplePhrase": "The refuctoring aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Refuctoring is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "deprovement",
+      "destructive refactor",
+      "code worsening",
+      "anti-improvement"
+    ],
+    "pronunciation": "ree-FUK-tor-ing",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "joke-009",
+    "word": "Googling",
+    "meaning": "The primary skill required for software engineering",
+    "genre": "it-jokes",
+    "difficulty": 1,
+    "dateAdded": "2025-12-09",
+    "samplePhrase": "We should googling our team to drive better outcomes.",
+    "itContext": "Googling is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "searching",
+      "researching",
+      "stack-overflowing",
+      "answer-hunting"
+    ],
+    "pronunciation": "GOO-gling",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "joke-010",
+    "word": "Copypasta",
+    "meaning": "Code copied and pasted without understanding how it works",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2025-12-10",
+    "samplePhrase": "The copypasta aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Copypasta is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "borrowed code",
+      "cargo-culted",
+      "cloned snippet",
+      "blind copy"
+    ],
+    "pronunciation": "KOP-ee-pah-stuh",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "joke-011",
+    "word": "Nerdsnipe",
+    "meaning": "To distract someone with an interesting but irrelevant problem",
+    "genre": "it-jokes",
+    "difficulty": 3,
+    "dateAdded": "2025-12-11",
+    "samplePhrase": "We should nerdsnipe the review to drive better outcomes.",
+    "itContext": "Nerdsnipe is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "distract",
+      "lure",
+      "puzzle-trap",
+      "curiosity-bait"
+    ],
+    "pronunciation": "NERD-snipe",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "joke-012",
+    "word": "Technobabble",
+    "meaning": "Complex-sounding but meaningless technical jargon",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2025-12-12",
+    "samplePhrase": "The technobabble aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Technobabble is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "jargon",
+      "buzzwords",
+      "gobbledygook",
+      "nonsense"
+    ],
+    "pronunciation": "TEK-noh-bab-ul",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "joke-013",
+    "word": "Percussive",
+    "meaning": "The maintenance technique of hitting hardware until it works",
+    "genre": "it-jokes",
+    "difficulty": 3,
+    "dateAdded": "2025-12-13",
+    "samplePhrase": "The percussive aspect of the project helps us achieve professional excellence.",
+    "itContext": "Percussive is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "physical",
+      "tap-based",
+      "impact",
+      "forceful"
+    ],
+    "pronunciation": "per-KUS-iv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "joke-014",
+    "word": "Bloatware",
+    "meaning": "Software that uses excessive resources for minimal functionality",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2025-12-14",
+    "samplePhrase": "The bloatware aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Bloatware is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "resource hog",
+      "oversized",
+      "heavyweight",
+      "bulky software"
+    ],
+    "pronunciation": "BLOHT-wair",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      2,
+      5
+    ]
+  },
+  {
+    "id": "joke-015",
+    "word": "Shippable",
+    "meaning": "Good enough to deploy, probably not good enough to brag about",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2025-12-15",
+    "samplePhrase": "The shippable aspect of our team helps us achieve professional excellence.",
+    "itContext": "Shippable is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "deployable",
+      "passable",
+      "acceptable",
+      "barely-ready"
+    ],
+    "pronunciation": "SHIP-uh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "id": "joke-016",
+    "word": "Workaround",
+    "meaning": "A creative solution that ignores the actual problem entirely",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2025-12-16",
+    "samplePhrase": "The workaround aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Workaround is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "hack",
+      "kludge",
+      "temporary fix",
+      "band-aid"
+    ],
+    "pronunciation": "WERK-uh-rownd",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "joke-017",
+    "word": "Deprecated",
+    "meaning": "Still works but makes everyone judge you for using it",
+    "genre": "it-jokes",
+    "difficulty": 3,
+    "dateAdded": "2025-12-17",
+    "samplePhrase": "The deprecated aspect of the review helps us achieve professional excellence.",
+    "itContext": "Deprecated is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "outdated",
+      "sunset",
+      "legacy",
+      "frowned-upon"
+    ],
+    "pronunciation": "DEP-ruh-kay-ted",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      5
+    ]
+  },
+  {
+    "id": "joke-018",
+    "word": "Hotfix",
+    "meaning": "Code written in panic to fix production at 3 AM",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2025-12-18",
+    "samplePhrase": "The hotfix aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Hotfix is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "emergency patch",
+      "panic fix",
+      "urgent repair",
+      "midnight code"
+    ],
+    "pronunciation": "HOT-fiks",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "joke-019",
+    "word": "Scope-creep",
+    "meaning": "When a simple task grows into rebuilding the entire system",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2025-12-19",
+    "samplePhrase": "The scope-creep aspect of the project helps us achieve professional excellence.",
+    "itContext": "Scope-creep is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "feature inflation",
+      "mission drift",
+      "expansion",
+      "overreach"
+    ],
+    "pronunciation": "SKOHP-kreep",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "joke-020",
+    "word": "Cache",
+    "meaning": "Where bugs hide until the customer finds them",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2025-12-20",
+    "samplePhrase": "The cache aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Cache is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "hiding spot",
+      "storage",
+      "memory",
+      "secret stash"
+    ],
+    "pronunciation": "KASH",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      5
+    ]
+  },
+  {
+    "id": "joke-021",
+    "word": "Docker",
+    "meaning": "A way to make it work on your machine AND everyone else's",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2025-12-21",
+    "samplePhrase": "The docker aspect of our team helps us achieve professional excellence.",
+    "itContext": "Docker is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "container",
+      "virtualizer",
+      "packager",
+      "environment"
+    ],
+    "pronunciation": "DOK-er",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      5,
+      5
+    ]
+  },
+  {
+    "id": "joke-022",
+    "word": "Sprint",
+    "meaning": "A two-week period for doing three weeks of work in one",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2025-12-22",
+    "samplePhrase": "The sprint aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Sprint is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "iteration",
+      "cycle",
+      "race",
+      "time-box"
+    ],
+    "pronunciation": "SPRINT",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      5,
+      5
+    ]
+  },
+  {
+    "id": "joke-023",
+    "word": "Standup",
+    "meaning": "A meeting where everyone stands to keep it short but it never is",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2025-12-23",
+    "samplePhrase": "The standup aspect of the review helps us achieve professional excellence.",
+    "itContext": "Standup is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "daily scrum",
+      "sync",
+      "check-in",
+      "status meeting"
+    ],
+    "pronunciation": "STAND-up",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      2
+    ]
+  },
+  {
+    "id": "joke-024",
+    "word": "Kubernetes",
+    "meaning": "A system for orchestrating containers that itself needs orchestrating",
+    "genre": "it-jokes",
+    "difficulty": 4,
+    "dateAdded": "2025-12-24",
+    "samplePhrase": "The kubernetes aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Kubernetes is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "k8s",
+      "orchestrator",
+      "container manager",
+      "complexity engine"
+    ],
+    "pronunciation": "koo-ber-NET-eez",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "joke-025",
+    "word": "Microservice",
+    "meaning": "A tiny service that does one thing, created by splitting a monolith into 200 problems",
+    "genre": "it-jokes",
+    "difficulty": 3,
+    "dateAdded": "2025-12-25",
+    "samplePhrase": "The microservice aspect of the project helps us achieve professional excellence.",
+    "itContext": "Microservice is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "small service",
+      "distributed unit",
+      "independent module",
+      "complexity multiplier"
+    ],
+    "pronunciation": "MY-kroh-ser-vis",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "joke-026",
+    "word": "Regex",
+    "meaning": "Write-only code that matches patterns, including existential dread",
+    "genre": "it-jokes",
+    "difficulty": 3,
+    "dateAdded": "2025-12-26",
+    "samplePhrase": "The regex aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Regex is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "pattern matcher",
+      "string sorcery",
+      "line noise",
+      "magic"
+    ],
+    "pronunciation": "REJ-eks",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      5
+    ]
+  },
+  {
+    "id": "joke-027",
+    "word": "Recursion",
+    "meaning": "See: recursion",
+    "genre": "it-jokes",
+    "difficulty": 3,
+    "dateAdded": "2025-12-27",
+    "samplePhrase": "The recursion aspect of our team helps us achieve professional excellence.",
+    "itContext": "Recursion is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "self-reference",
+      "infinite loop",
+      "turtles all the way down",
+      "meta"
+    ],
+    "pronunciation": "ree-KUR-zhun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      5,
+      3
+    ]
+  },
+  {
+    "id": "joke-028",
+    "word": "Segfault",
+    "meaning": "Your program's way of saying goodbye without explanation",
+    "genre": "it-jokes",
+    "difficulty": 3,
+    "dateAdded": "2025-12-28",
+    "samplePhrase": "The segfault aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Segfault is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "crash",
+      "memory error",
+      "core dump",
+      "surprise exit"
+    ],
+    "pronunciation": "SEG-fawlt",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      2,
+      4
+    ]
+  },
+  {
+    "id": "joke-029",
+    "word": "Stackoverflow",
+    "meaning": "Where developers go to copy code they don't understand",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2025-12-29",
+    "samplePhrase": "The stackoverflow aspect of the review helps us achieve professional excellence.",
+    "itContext": "Stackoverflow is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "oracle",
+      "answer repository",
+      "code library",
+      "developer bible"
+    ],
+    "pronunciation": "STAK-oh-ver-floh",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "joke-030",
+    "word": "Git-blame",
+    "meaning": "The tool for finding who to blame, then realizing it was you",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2025-12-30",
+    "samplePhrase": "The git-blame aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Git-blame is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "author finder",
+      "responsibility tracker",
+      "self-discovery tool",
+      "history viewer"
+    ],
+    "pronunciation": "GIT-blaym",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "joke-031",
+    "word": "LGTM",
+    "meaning": "Looks Good To Me — may or may not have actually read the code",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2025-12-31",
+    "samplePhrase": "The lgtm aspect of the project helps us achieve professional excellence.",
+    "itContext": "LGTM is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "approved",
+      "rubber-stamped",
+      "speed-reviewed",
+      "auto-approved"
+    ],
+    "pronunciation": "el-jee-tee-em",
+    "partOfSpeech": "abbreviation",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "joke-032",
+    "word": "Refactor",
+    "meaning": "To break working code into differently-structured working code",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2026-01-01",
+    "samplePhrase": "We should refactor this quarter to drive better outcomes.",
+    "itContext": "Refactor is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "restructure",
+      "reorganize",
+      "improve",
+      "beautify"
+    ],
+    "pronunciation": "ree-FAK-tor",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "joke-033",
+    "word": "Monolith",
+    "meaning": "An application that does everything, slowly and all at once",
+    "genre": "it-jokes",
+    "difficulty": 3,
+    "dateAdded": "2026-01-02",
+    "samplePhrase": "The monolith aspect of our team helps us achieve professional excellence.",
+    "itContext": "Monolith is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "big ball of mud",
+      "single service",
+      "all-in-one",
+      "megalith"
+    ],
+    "pronunciation": "MON-oh-lith",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "joke-034",
+    "word": "Agile",
+    "meaning": "A methodology for having more meetings about having fewer meetings",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2026-01-03",
+    "samplePhrase": "The agile aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Agile is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "flexible",
+      "iterative",
+      "adaptive",
+      "meeting-driven"
+    ],
+    "pronunciation": "AJ-ile",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      5
+    ]
+  },
+  {
+    "id": "joke-035",
+    "word": "Scrum",
+    "meaning": "A rugby metaphor applied to people who avoid physical activity",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2026-01-04",
+    "samplePhrase": "The scrum aspect of the review helps us achieve professional excellence.",
+    "itContext": "Scrum is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "framework",
+      "ritual",
+      "ceremony",
+      "process"
+    ],
+    "pronunciation": "SKRUM",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      2,
+      4
+    ]
+  },
+  {
+    "id": "joke-036",
+    "word": "Bandwidth",
+    "meaning": "The excuse given when declining yet another meeting",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2026-01-05",
+    "samplePhrase": "The bandwidth aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Bandwidth is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "capacity",
+      "availability",
+      "time",
+      "resources"
+    ],
+    "pronunciation": "BAND-width",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      4
+    ]
+  },
+  {
+    "id": "joke-037",
+    "word": "Ping",
+    "meaning": "To message someone and then immediately forget what you needed",
+    "genre": "it-jokes",
+    "difficulty": 1,
+    "dateAdded": "2026-01-06",
+    "samplePhrase": "We should ping the project to drive better outcomes.",
+    "itContext": "Ping is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "message",
+      "contact",
+      "nudge",
+      "reach out"
+    ],
+    "pronunciation": "PING",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "joke-038",
+    "word": "Cloud",
+    "meaning": "Someone else's computer that you pay monthly to worry about",
+    "genre": "it-jokes",
+    "difficulty": 1,
+    "dateAdded": "2026-01-07",
+    "samplePhrase": "The cloud aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Cloud is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "remote server",
+      "hosted service",
+      "shared infra",
+      "not your problem"
+    ],
+    "pronunciation": "KLOWD",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "joke-039",
+    "word": "DevOps",
+    "meaning": "A person who does development AND operations AND never sleeps",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2026-01-08",
+    "samplePhrase": "The devops aspect of our team helps us achieve professional excellence.",
+    "itContext": "DevOps is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "multi-hat",
+      "do-everything",
+      "full-lifecycle",
+      "unicorn"
+    ],
+    "pronunciation": "DEV-ops",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "joke-040",
+    "word": "Sudo",
+    "meaning": "Magical prefix that makes everything work including disasters",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2026-01-09",
+    "samplePhrase": "The sudo aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Sudo is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "superpower",
+      "god mode",
+      "admin access",
+      "override"
+    ],
+    "pronunciation": "SOO-doh",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      4
+    ]
+  },
+  {
+    "id": "joke-041",
+    "word": "Boolean",
+    "meaning": "A data type with only two values but somehow still confusing",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2026-01-10",
+    "samplePhrase": "The boolean aspect of the review helps us achieve professional excellence.",
+    "itContext": "Boolean is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "true-false",
+      "binary",
+      "flag",
+      "toggle"
+    ],
+    "pronunciation": "BOO-lee-un",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "joke-042",
+    "word": "Semicolon",
+    "meaning": "The character that decides if your program runs or ruins your day",
+    "genre": "it-jokes",
+    "difficulty": 1,
+    "dateAdded": "2026-01-11",
+    "samplePhrase": "The semicolon aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Semicolon is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "punctuation",
+      "delimiter",
+      "typo magnet",
+      "mood setter"
+    ],
+    "pronunciation": "SEM-ee-koh-lon",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      5
+    ]
+  },
+  {
+    "id": "joke-043",
+    "word": "Localhost",
+    "meaning": "The one server that always works until you need to show someone",
+    "genre": "it-jokes",
+    "difficulty": 1,
+    "dateAdded": "2026-01-12",
+    "samplePhrase": "The localhost aspect of the project helps us achieve professional excellence.",
+    "itContext": "Localhost is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "home",
+      "my machine",
+      "safe space",
+      "demo killer"
+    ],
+    "pronunciation": "LOH-kul-hohst",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      2,
+      2
+    ]
+  },
+  {
+    "id": "joke-044",
+    "word": "Firewall",
+    "meaning": "A digital bouncer that blocks everything including legitimate traffic",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2026-01-13",
+    "samplePhrase": "The firewall aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Firewall is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "guardian",
+      "blocker",
+      "protector",
+      "traffic cop"
+    ],
+    "pronunciation": "FY-er-wawl",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      2
+    ]
+  },
+  {
+    "id": "joke-045",
+    "word": "Encryption",
+    "meaning": "Making data unreadable, sometimes even to yourself",
+    "genre": "it-jokes",
+    "difficulty": 3,
+    "dateAdded": "2026-01-14",
+    "samplePhrase": "The encryption aspect of our team helps us achieve professional excellence.",
+    "itContext": "Encryption is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "scrambling",
+      "encoding",
+      "securing",
+      "obfuscating"
+    ],
+    "pronunciation": "en-KRIP-shun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      2
+    ]
+  },
+  {
+    "id": "joke-046",
+    "word": "Blockchain",
+    "meaning": "A distributed ledger for solving problems nobody has",
+    "genre": "it-jokes",
+    "difficulty": 3,
+    "dateAdded": "2026-01-15",
+    "samplePhrase": "The blockchain aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Blockchain is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "distributed ledger",
+      "hype chain",
+      "buzzword",
+      "decentralized database"
+    ],
+    "pronunciation": "BLOK-chayn",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "id": "joke-047",
+    "word": "AI",
+    "meaning": "Fancy if-else statements with better marketing",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2026-01-16",
+    "samplePhrase": "The ai aspect of the review helps us achieve professional excellence.",
+    "itContext": "AI is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "machine learning",
+      "neural network",
+      "smart algorithm",
+      "pattern matcher"
+    ],
+    "pronunciation": "AY-EYE",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      2,
+      2
+    ]
+  },
+  {
+    "id": "joke-048",
+    "word": "Framework",
+    "meaning": "Someone else's opinions about how you should write code",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2026-01-17",
+    "samplePhrase": "The framework aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Framework is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "opinionated library",
+      "scaffold",
+      "convention",
+      "structured opinion"
+    ],
+    "pronunciation": "FRAYM-werk",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "joke-049",
+    "word": "Callback",
+    "meaning": "A function that calls you back when it's ready, like no one else does",
+    "genre": "it-jokes",
+    "difficulty": 3,
+    "dateAdded": "2026-01-18",
+    "samplePhrase": "The callback aspect of the project helps us achieve professional excellence.",
+    "itContext": "Callback is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "async handler",
+      "continuation",
+      "promise",
+      "deferred execution"
+    ],
+    "pronunciation": "KAL-bak",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "joke-050",
+    "word": "Null",
+    "meaning": "The billion-dollar mistake that keeps on giving",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2026-01-19",
+    "samplePhrase": "The null aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Null is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "nothing",
+      "void",
+      "empty",
+      "undefined"
+    ],
+    "pronunciation": "NUL",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "joke-051",
+    "word": "Merge-conflict",
+    "meaning": "Git's way of asking two developers to argue about whitespace",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2026-01-20",
+    "samplePhrase": "The merge-conflict aspect of our team helps us achieve professional excellence.",
+    "itContext": "Merge-conflict is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "collision",
+      "disagreement",
+      "code fight",
+      "resolution needed"
+    ],
+    "pronunciation": "MERJ-KON-flikt",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "joke-052",
+    "word": "DNS",
+    "meaning": "The phonebook of the internet that nobody understands",
+    "genre": "it-jokes",
+    "difficulty": 3,
+    "dateAdded": "2026-01-21",
+    "samplePhrase": "The dns aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "DNS is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "name resolver",
+      "address book",
+      "magic",
+      "it's always DNS"
+    ],
+    "pronunciation": "dee-en-es",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "joke-053",
+    "word": "Timeout",
+    "meaning": "What happens right before your code would have worked",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2026-01-22",
+    "samplePhrase": "The timeout aspect of the review helps us achieve professional excellence.",
+    "itContext": "Timeout is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "expiration",
+      "patience limit",
+      "deadline",
+      "cutoff"
+    ],
+    "pronunciation": "TIME-owt",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      5
+    ]
+  },
+  {
+    "id": "joke-054",
+    "word": "404",
+    "meaning": "The server's polite way of saying it has no idea what you want",
+    "genre": "it-jokes",
+    "difficulty": 1,
+    "dateAdded": "2026-01-23",
+    "samplePhrase": "The 404 aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "404 is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "not found",
+      "missing",
+      "lost",
+      "gone"
+    ],
+    "pronunciation": "for-oh-for",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "joke-055",
+    "word": "RTFM",
+    "meaning": "Read The Fine Manual — advice universally given, rarely followed",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2026-01-24",
+    "samplePhrase": "The rtfm aspect of the project helps us achieve professional excellence.",
+    "itContext": "RTFM is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "read docs",
+      "self-help",
+      "documentation",
+      "manual check"
+    ],
+    "pronunciation": "ar-tee-ef-em",
+    "partOfSpeech": "abbreviation",
+    "ratings": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "joke-056",
+    "word": "Infinite-loop",
+    "meaning": "A bug that gives your CPU something to do all weekend",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2026-01-25",
+    "samplePhrase": "The infinite-loop aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Infinite-loop is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "endless cycle",
+      "eternal recursion",
+      "CPU warmer",
+      "hangup"
+    ],
+    "pronunciation": "IN-fih-nit-loop",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "id": "joke-057",
+    "word": "Polymorphism",
+    "meaning": "The art of making things look the same while being completely different",
+    "genre": "it-jokes",
+    "difficulty": 4,
+    "dateAdded": "2026-01-26",
+    "samplePhrase": "The polymorphism aspect of our team helps us achieve professional excellence.",
+    "itContext": "Polymorphism is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "shape-shifting",
+      "multi-form",
+      "overloading",
+      "abstraction"
+    ],
+    "pronunciation": "pol-ee-MOR-fiz-um",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "joke-058",
+    "word": "Variable",
+    "meaning": "A name for data that you'll rename seventeen times before committing",
+    "genre": "it-jokes",
+    "difficulty": 1,
+    "dateAdded": "2026-01-27",
+    "samplePhrase": "The variable aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Variable is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "binding",
+      "reference",
+      "container",
+      "identity crisis"
+    ],
+    "pronunciation": "VAIR-ee-uh-bul",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "joke-059",
+    "word": "Compiler",
+    "meaning": "The friend who points out every single one of your mistakes",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2026-01-28",
+    "samplePhrase": "The compiler aspect of the review helps us achieve professional excellence.",
+    "itContext": "Compiler is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "translator",
+      "error finder",
+      "code judge",
+      "nit picker"
+    ],
+    "pronunciation": "kum-PY-ler",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "joke-060",
+    "word": "Production",
+    "meaning": "The environment where bugs go to become features",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2026-01-29",
+    "samplePhrase": "The production aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Production is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "live",
+      "real-world",
+      "customer-facing",
+      "danger zone"
+    ],
+    "pronunciation": "proh-DUK-shun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      2
+    ]
+  },
+  {
+    "id": "joke-061",
+    "word": "Documentation",
+    "meaning": "The mythical writings that everyone needs but nobody writes",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2026-01-30",
+    "samplePhrase": "The documentation aspect of the project helps us achieve professional excellence.",
+    "itContext": "Documentation is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "fiction",
+      "wishful thinking",
+      "legends",
+      "ancient texts"
+    ],
+    "pronunciation": "dok-yoo-men-TAY-shun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "joke-062",
+    "word": "Deadline",
+    "meaning": "A date that approaches faster the more you plan around it",
+    "genre": "it-jokes",
+    "difficulty": 1,
+    "dateAdded": "2026-01-31",
+    "samplePhrase": "The deadline aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Deadline is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "due date",
+      "crunch time",
+      "panic trigger",
+      "countdown"
+    ],
+    "pronunciation": "DED-line",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "joke-063",
+    "word": "Backlog",
+    "meaning": "An infinite list of things that will never all get done",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2026-02-01",
+    "samplePhrase": "The backlog aspect of our team helps us achieve professional excellence.",
+    "itContext": "Backlog is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "wish list",
+      "task graveyard",
+      "feature cemetery",
+      "growing list"
+    ],
+    "pronunciation": "BAK-log",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      5,
+      2
+    ]
+  },
+  {
+    "id": "joke-064",
+    "word": "Technical-debt",
+    "meaning": "Tomorrow's problem caused by today's shortcut",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2026-02-02",
+    "samplePhrase": "The technical-debt aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Technical-debt is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "code loan",
+      "shortcut bill",
+      "future pain",
+      "accumulated mess"
+    ],
+    "pronunciation": "tek-nih-kul-DET",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "joke-065",
+    "word": "Meeting",
+    "meaning": "An event where minutes are taken and hours are wasted",
+    "genre": "it-jokes",
+    "difficulty": 1,
+    "dateAdded": "2026-02-03",
+    "samplePhrase": "The meeting aspect of the review helps us achieve professional excellence.",
+    "itContext": "Meeting is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "gathering",
+      "sync",
+      "discussion",
+      "productivity pause"
+    ],
+    "pronunciation": "MEE-ting",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "joke-066",
+    "word": "Estimation",
+    "meaning": "The art of guessing confidently enough that nobody questions you",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2026-02-04",
+    "samplePhrase": "The estimation aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Estimation is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "guess",
+      "prediction",
+      "finger-in-wind",
+      "fortune telling"
+    ],
+    "pronunciation": "es-tih-MAY-shun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      2,
+      5
+    ]
+  },
+  {
+    "id": "joke-067",
+    "word": "WiFi",
+    "meaning": "The invisible force that controls developer morale",
+    "genre": "it-jokes",
+    "difficulty": 1,
+    "dateAdded": "2026-02-05",
+    "samplePhrase": "The wifi aspect of the project helps us achieve professional excellence.",
+    "itContext": "WiFi is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "internet",
+      "connection",
+      "lifeline",
+      "dependency"
+    ],
+    "pronunciation": "WY-fy",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      5
+    ]
+  },
+  {
+    "id": "joke-068",
+    "word": "Update",
+    "meaning": "A change that fixes one bug and introduces three new ones",
+    "genre": "it-jokes",
+    "difficulty": 1,
+    "dateAdded": "2026-02-06",
+    "samplePhrase": "The update aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Update is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "patch",
+      "improvement",
+      "regression vector",
+      "change"
+    ],
+    "pronunciation": "UP-dayt",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "joke-069",
+    "word": "Stakeholder",
+    "meaning": "A person who has opinions about code they've never seen",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2026-02-07",
+    "samplePhrase": "The stakeholder aspect of our team helps us achieve professional excellence.",
+    "itContext": "Stakeholder is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "opinion-holder",
+      "requirement source",
+      "feature requester",
+      "non-coder"
+    ],
+    "pronunciation": "STAYK-hohl-der",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      2
+    ]
+  },
+  {
+    "id": "joke-070",
+    "word": "MVP",
+    "meaning": "Minimum Viable Product — maximum viable excuses for missing features",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2026-02-08",
+    "samplePhrase": "The mvp aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "MVP is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "prototype",
+      "bare minimum",
+      "v0.1",
+      "good enough"
+    ],
+    "pronunciation": "em-vee-pee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      5,
+      2
+    ]
+  },
+  {
+    "id": "joke-071",
+    "word": "Cron",
+    "meaning": "A scheduler that runs perfectly until the one time it really matters",
+    "genre": "it-jokes",
+    "difficulty": 3,
+    "dateAdded": "2026-02-09",
+    "samplePhrase": "The cron aspect of the review helps us achieve professional excellence.",
+    "itContext": "Cron is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "scheduler",
+      "timer",
+      "automated job",
+      "silent worker"
+    ],
+    "pronunciation": "KRON",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "joke-072",
+    "word": "Middleware",
+    "meaning": "Code that sits between other code doing nobody-knows-what",
+    "genre": "it-jokes",
+    "difficulty": 3,
+    "dateAdded": "2026-02-10",
+    "samplePhrase": "The middleware aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Middleware is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "intermediary",
+      "glue code",
+      "bridge",
+      "proxy"
+    ],
+    "pronunciation": "MID-ul-wair",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      2
+    ]
+  },
+  {
+    "id": "joke-073",
+    "word": "SSH",
+    "meaning": "Secure Shell — or Stressful Server Hunting",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2026-02-11",
+    "samplePhrase": "The ssh aspect of the project helps us achieve professional excellence.",
+    "itContext": "SSH is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "remote access",
+      "terminal",
+      "secure connection",
+      "server door"
+    ],
+    "pronunciation": "es-es-aych",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "joke-074",
+    "word": "JSON",
+    "meaning": "JavaScript Object Notation, loved by everyone except XML fans",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2026-02-12",
+    "samplePhrase": "The json aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "JSON is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "data format",
+      "config",
+      "payload",
+      "serialization"
+    ],
+    "pronunciation": "JAY-son",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "joke-075",
+    "word": "Verbose",
+    "meaning": "Using 200 lines of code where 20 would suffice",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2026-02-13",
+    "samplePhrase": "The verbose aspect of our team helps us achieve professional excellence.",
+    "itContext": "Verbose is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "wordy",
+      "long-winded",
+      "excessive",
+      "over-detailed"
+    ],
+    "pronunciation": "ver-BOHS",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      5
+    ]
+  },
+  {
+    "id": "joke-076",
+    "word": "Container",
+    "meaning": "A box that keeps your code reproducible and your problems portable",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2026-02-14",
+    "samplePhrase": "The container aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Container is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "docker",
+      "sandbox",
+      "isolation unit",
+      "portable package"
+    ],
+    "pronunciation": "kun-TAY-ner",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "joke-077",
+    "word": "Whitespace",
+    "meaning": "The character that starts wars between developers",
+    "genre": "it-jokes",
+    "difficulty": 1,
+    "dateAdded": "2026-02-15",
+    "samplePhrase": "The whitespace aspect of the review helps us achieve professional excellence.",
+    "itContext": "Whitespace is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "spaces",
+      "tabs",
+      "indentation",
+      "holy war"
+    ],
+    "pronunciation": "WITE-spays",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      2
+    ]
+  },
+  {
+    "id": "joke-078",
+    "word": "Backspace",
+    "meaning": "The most-used key in any developer's keyboard",
+    "genre": "it-jokes",
+    "difficulty": 1,
+    "dateAdded": "2026-02-16",
+    "samplePhrase": "The backspace aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Backspace is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "delete",
+      "undo",
+      "erase",
+      "regret"
+    ],
+    "pronunciation": "BAK-spays",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      4
+    ]
+  },
+  {
+    "id": "joke-079",
+    "word": "Rubber-banding",
+    "meaning": "When the UI catches up to reality all at once",
+    "genre": "it-jokes",
+    "difficulty": 3,
+    "dateAdded": "2026-02-17",
+    "samplePhrase": "The rubber-banding aspect of the project helps us achieve professional excellence.",
+    "itContext": "Rubber-banding is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "snap-back",
+      "catch-up",
+      "lag recovery",
+      "delayed render"
+    ],
+    "pronunciation": "RUB-er-band-ing",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "joke-080",
+    "word": "Easter-egg",
+    "meaning": "Hidden features that developers add when they should be fixing bugs",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2026-02-18",
+    "samplePhrase": "The easter-egg aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Easter-egg is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "hidden feature",
+      "secret",
+      "surprise",
+      "undocumented"
+    ],
+    "pronunciation": "EES-ter-eg",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "joke-081",
+    "word": "Tab",
+    "meaning": "The indentation character that has destroyed more friendships than Monopoly",
+    "genre": "it-jokes",
+    "difficulty": 1,
+    "dateAdded": "2026-02-19",
+    "samplePhrase": "The tab aspect of our team helps us achieve professional excellence.",
+    "itContext": "Tab is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "indent",
+      "whitespace",
+      "controversy",
+      "space-war"
+    ],
+    "pronunciation": "TAB",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3,
+      5
+    ]
+  },
+  {
+    "id": "joke-082",
+    "word": "Dependency",
+    "meaning": "Code you didn't write that can break your code at any time",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2026-02-20",
+    "samplePhrase": "The dependency aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Dependency is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "library",
+      "package",
+      "external code",
+      "trust issue"
+    ],
+    "pronunciation": "dee-PEN-den-see",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "joke-083",
+    "word": "Versioning",
+    "meaning": "Naming things badly but with numbers",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2026-02-21",
+    "samplePhrase": "The versioning aspect of the review helps us achieve professional excellence.",
+    "itContext": "Versioning is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "numbering",
+      "labeling",
+      "tracking",
+      "incrementing"
+    ],
+    "pronunciation": "VER-zhun-ing",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "joke-084",
+    "word": "Rollback",
+    "meaning": "Admitting that the deploy was a mistake, professionally",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2026-02-22",
+    "samplePhrase": "The rollback aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Rollback is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "undo",
+      "revert",
+      "retreat",
+      "tactical withdrawal"
+    ],
+    "pronunciation": "ROHL-bak",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      5,
+      2
+    ]
+  },
+  {
+    "id": "joke-085",
+    "word": "Refactoring",
+    "meaning": "Changing code that works into code that works differently",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2026-02-23",
+    "samplePhrase": "The refactoring aspect of the project helps us achieve professional excellence.",
+    "itContext": "Refactoring is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "restructuring",
+      "cleanup",
+      "reorganization",
+      "productive procrastination"
+    ],
+    "pronunciation": "ree-FAK-tor-ing",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "joke-086",
+    "word": "Syntax",
+    "meaning": "The grammar rules that turn typos into compile errors",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2026-02-24",
+    "samplePhrase": "The syntax aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Syntax is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "grammar",
+      "rules",
+      "structure",
+      "formatting"
+    ],
+    "pronunciation": "SIN-taks",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "joke-087",
+    "word": "Binary",
+    "meaning": "A number system where there are only 10 types of people",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2026-02-25",
+    "samplePhrase": "The binary aspect of our team helps us achieve professional excellence.",
+    "itContext": "Binary is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "base-2",
+      "zeros and ones",
+      "machine code",
+      "digital"
+    ],
+    "pronunciation": "BY-nuh-ree",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "joke-088",
+    "word": "Algorithm",
+    "meaning": "A fancy word for a recipe that a computer follows",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2026-02-26",
+    "samplePhrase": "The algorithm aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Algorithm is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "recipe",
+      "procedure",
+      "process",
+      "step-by-step"
+    ],
+    "pronunciation": "AL-goh-rith-um",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "joke-089",
+    "word": "Hack",
+    "meaning": "A brilliant solution that everyone agrees should be temporary forever",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2026-02-27",
+    "samplePhrase": "The hack aspect of the review helps us achieve professional excellence.",
+    "itContext": "Hack is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "workaround",
+      "kludge",
+      "clever fix",
+      "creative solution"
+    ],
+    "pronunciation": "HAK",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "joke-090",
+    "word": "Abstraction",
+    "meaning": "Hiding complexity so well that you forget it exists until it breaks",
+    "genre": "it-jokes",
+    "difficulty": 3,
+    "dateAdded": "2026-02-28",
+    "samplePhrase": "The abstraction aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Abstraction is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "hiding",
+      "simplification",
+      "layer",
+      "black box"
+    ],
+    "pronunciation": "ab-STRAK-shun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "joke-091",
+    "word": "Ping-pong",
+    "meaning": "When a bug gets reassigned between teams indefinitely",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2026-03-01",
+    "samplePhrase": "The ping-pong aspect of the project helps us achieve professional excellence.",
+    "itContext": "Ping-pong is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "bouncing",
+      "hot potato",
+      "blame game",
+      "circular assignment"
+    ],
+    "pronunciation": "PING-pong",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      5
+    ]
+  },
+  {
+    "id": "joke-092",
+    "word": "Latency",
+    "meaning": "The time between clicking a button and questioning your career",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2026-03-02",
+    "samplePhrase": "The latency aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Latency is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "delay",
+      "wait time",
+      "frustration interval",
+      "loading screen"
+    ],
+    "pronunciation": "LAY-ten-see",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3,
+      5
+    ]
+  },
+  {
+    "id": "joke-093",
+    "word": "Scalable",
+    "meaning": "Works for 10 users now, theoretically works for 10 million later",
+    "genre": "it-jokes",
+    "difficulty": 2,
+    "dateAdded": "2026-03-03",
+    "samplePhrase": "The scalable aspect of our team helps us achieve professional excellence.",
+    "itContext": "Scalable is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "growable",
+      "expandable",
+      "theoretical",
+      "aspirational"
+    ],
+    "pronunciation": "SKAY-luh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      3,
+      5
+    ]
+  },
+  {
+    "id": "joke-094",
+    "word": "Serverless",
+    "meaning": "Still has servers, but now they're someone else's headache",
+    "genre": "it-jokes",
+    "difficulty": 3,
+    "dateAdded": "2026-03-04",
+    "samplePhrase": "The serverless aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Serverless is valuable vocabulary for IT professionals in it jokes contexts.",
+    "alternativeWords": [
+      "managed",
+      "abstracted",
+      "magical",
+      "cloud-native"
+    ],
+    "pronunciation": "SER-ver-less",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      4,
+      5
+    ]
+  }
+]

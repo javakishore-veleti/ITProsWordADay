@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ITProsWordADay/Services/EnglishWordADayService/internal/models"
+	"itpros-wordaday-service/internal/models"
 )
 
 type MemoryCache struct {

@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/ITProsWordADay/Services/EnglishWordADayService/internal/cache"
-	"github.com/ITProsWordADay/Services/EnglishWordADayService/internal/models"
+	"itpros-wordaday-service/internal/cache"
+	"itpros-wordaday-service/internal/models"
 )
 
 type FileDB struct {

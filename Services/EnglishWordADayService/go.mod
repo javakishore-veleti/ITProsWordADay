@@ -1,3 +1,3 @@
-module github.com/ITProsWordADay/Services/EnglishWordADayService
+module itpros-wordaday-service
 
 go 1.21

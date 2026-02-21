@@ -36,6 +36,11 @@ export const GENRES: Genre[] = [
   { slug: "communication", name: "Professional Communication", icon: "💬", description: "Express opinions and feelings professionally", color: "#14B8A6" },
   { slug: "git-version", name: "Git & Version Control", icon: "🔀", description: "Git workflows and commit conventions", color: "#A855F7" },
   { slug: "appreciation", name: "Team Appreciation", icon: "🌟", description: "Words for recognizing and appreciating colleagues", color: "#F472B6" },
+  { slug: "annual-reviews", name: "Annual Reviews", icon: "📝", description: "Vocabulary for performance reviews and self-assessments", color: "#D97706" },
+  { slug: "one-on-one", name: "Monthly One on One", icon: "🤝", description: "Words for effective 1:1 conversations with managers", color: "#7C3AED" },
+  { slug: "story-telling", name: "Story Telling", icon: "📖", description: "Narrative and presentation vocabulary for tech talks", color: "#0D9488" },
+  { slug: "data-engineering", name: "Data Engineering", icon: "🔧", description: "ETL, pipelines, and data infrastructure terminology", color: "#2563EB" },
+  { slug: "it-jokes", name: "IT Jokes", icon: "😂", description: "Witty words and phrases from the lighter side of IT", color: "#E11D48" },
 ];
 
 export function getGenreBySlug(slug: string): Genre | undefined {

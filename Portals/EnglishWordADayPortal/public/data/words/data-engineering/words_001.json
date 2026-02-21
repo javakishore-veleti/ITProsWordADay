@@ -1,0 +1,2163 @@
+[
+  {
+    "id": "deng-001",
+    "word": "Pipeline",
+    "meaning": "A series of data processing steps connected in sequence",
+    "genre": "data-engineering",
+    "difficulty": 2,
+    "dateAdded": "2025-12-01",
+    "samplePhrase": "The pipeline aspect of the project helps us achieve professional excellence.",
+    "itContext": "Pipeline is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "workflow",
+      "chain",
+      "sequence",
+      "process"
+    ],
+    "pronunciation": "PIPE-line",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      5
+    ]
+  },
+  {
+    "id": "deng-002",
+    "word": "Ingest",
+    "meaning": "To absorb and process incoming data from external sources",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2025-12-02",
+    "samplePhrase": "We should ingest this quarter to drive better outcomes.",
+    "itContext": "Ingest is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "import",
+      "absorb",
+      "consume",
+      "intake"
+    ],
+    "pronunciation": "in-JEST",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "deng-003",
+    "word": "Transform",
+    "meaning": "To change the format, structure, or values of data",
+    "genre": "data-engineering",
+    "difficulty": 2,
+    "dateAdded": "2025-12-03",
+    "samplePhrase": "We should transform our team to drive better outcomes.",
+    "itContext": "Transform is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "convert",
+      "reshape",
+      "modify",
+      "process"
+    ],
+    "pronunciation": "trans-FORM",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "deng-004",
+    "word": "Schema",
+    "meaning": "The structure that defines the organization of a database",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2025-12-04",
+    "samplePhrase": "The schema aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Schema is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "structure",
+      "blueprint",
+      "model",
+      "definition"
+    ],
+    "pronunciation": "SKEE-muh",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      5
+    ]
+  },
+  {
+    "id": "deng-005",
+    "word": "Partition",
+    "meaning": "To divide data into distinct segments for parallel processing",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2025-12-05",
+    "samplePhrase": "We should partition the review to drive better outcomes.",
+    "itContext": "Partition is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "divide",
+      "segment",
+      "split",
+      "shard"
+    ],
+    "pronunciation": "par-TIH-shun",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      4
+    ]
+  },
+  {
+    "id": "deng-006",
+    "word": "Idempotent",
+    "meaning": "Producing the same result regardless of how many times executed",
+    "genre": "data-engineering",
+    "difficulty": 4,
+    "dateAdded": "2025-12-06",
+    "samplePhrase": "The idempotent aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Idempotent is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "repeatable",
+      "safe-to-retry",
+      "deterministic",
+      "stable"
+    ],
+    "pronunciation": "eye-dem-PO-tent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5,
+      3
+    ]
+  },
+  {
+    "id": "deng-007",
+    "word": "Backfill",
+    "meaning": "To retroactively populate data for a previous time period",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2025-12-07",
+    "samplePhrase": "We should backfill the project to drive better outcomes.",
+    "itContext": "Backfill is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "reprocess",
+      "repopulate",
+      "retrospectively load",
+      "re-run"
+    ],
+    "pronunciation": "BAK-fil",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "deng-008",
+    "word": "Throughput",
+    "meaning": "The rate at which data is processed through a system",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2025-12-08",
+    "samplePhrase": "The throughput aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Throughput is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "data rate",
+      "processing speed",
+      "bandwidth",
+      "volume"
+    ],
+    "pronunciation": "THROO-put",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "deng-009",
+    "word": "Latency",
+    "meaning": "The time delay between data input and output",
+    "genre": "data-engineering",
+    "difficulty": 2,
+    "dateAdded": "2025-12-09",
+    "samplePhrase": "The latency aspect of our team helps us achieve professional excellence.",
+    "itContext": "Latency is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "delay",
+      "lag",
+      "response time",
+      "wait"
+    ],
+    "pronunciation": "LAY-ten-see",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      2
+    ]
+  },
+  {
+    "id": "deng-010",
+    "word": "Orchestrate",
+    "meaning": "To coordinate and manage complex data workflows",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2025-12-10",
+    "samplePhrase": "We should orchestrate the discussion to drive better outcomes.",
+    "itContext": "Orchestrate is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "coordinate",
+      "manage",
+      "schedule",
+      "direct"
+    ],
+    "pronunciation": "OR-keh-strayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      5
+    ]
+  },
+  {
+    "id": "deng-011",
+    "word": "Normalize",
+    "meaning": "To organize data to reduce redundancy and improve integrity",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2025-12-11",
+    "samplePhrase": "We should normalize the review to drive better outcomes.",
+    "itContext": "Normalize is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "standardize",
+      "structure",
+      "organize",
+      "regularize"
+    ],
+    "pronunciation": "NOR-muh-lize",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "deng-012",
+    "word": "Denormalize",
+    "meaning": "To add redundancy to data for improved read performance",
+    "genre": "data-engineering",
+    "difficulty": 4,
+    "dateAdded": "2025-12-12",
+    "samplePhrase": "We should denormalize this initiative to drive better outcomes.",
+    "itContext": "Denormalize is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "flatten",
+      "materialize",
+      "pre-compute",
+      "duplicate"
+    ],
+    "pronunciation": "dee-NOR-muh-lize",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "deng-013",
+    "word": "Sharding",
+    "meaning": "Splitting data horizontally across multiple storage instances",
+    "genre": "data-engineering",
+    "difficulty": 4,
+    "dateAdded": "2025-12-13",
+    "samplePhrase": "The sharding aspect of the project helps us achieve professional excellence.",
+    "itContext": "Sharding is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "partitioning",
+      "splitting",
+      "distributing",
+      "segmenting"
+    ],
+    "pronunciation": "SHAR-ding",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "deng-014",
+    "word": "Lineage",
+    "meaning": "The complete history of data from origin through transformations",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2025-12-14",
+    "samplePhrase": "The lineage aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Lineage is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "provenance",
+      "history",
+      "trace",
+      "origin"
+    ],
+    "pronunciation": "LIN-ee-ij",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      2,
+      2
+    ]
+  },
+  {
+    "id": "deng-015",
+    "word": "Catalog",
+    "meaning": "A managed inventory of data assets and their metadata",
+    "genre": "data-engineering",
+    "difficulty": 2,
+    "dateAdded": "2025-12-15",
+    "samplePhrase": "The catalog aspect of our team helps us achieve professional excellence.",
+    "itContext": "Catalog is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "inventory",
+      "registry",
+      "directory",
+      "index"
+    ],
+    "pronunciation": "KAT-uh-log",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      2,
+      2
+    ]
+  },
+  {
+    "id": "deng-016",
+    "word": "Aggregate",
+    "meaning": "To collect and combine data from multiple sources",
+    "genre": "data-engineering",
+    "difficulty": 2,
+    "dateAdded": "2025-12-16",
+    "samplePhrase": "We should aggregate the discussion to drive better outcomes.",
+    "itContext": "Aggregate is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "combine",
+      "sum",
+      "consolidate",
+      "compile"
+    ],
+    "pronunciation": "AG-rih-gayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "id": "deng-017",
+    "word": "Deduplicate",
+    "meaning": "To remove duplicate copies of data",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2025-12-17",
+    "samplePhrase": "We should deduplicate the review to drive better outcomes.",
+    "itContext": "Deduplicate is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "de-dup",
+      "remove duplicates",
+      "consolidate",
+      "unique-ify"
+    ],
+    "pronunciation": "dee-DOO-plih-kayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      2
+    ]
+  },
+  {
+    "id": "deng-018",
+    "word": "Serialize",
+    "meaning": "To convert data into a format suitable for transmission",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2025-12-18",
+    "samplePhrase": "We should serialize this initiative to drive better outcomes.",
+    "itContext": "Serialize is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "encode",
+      "marshal",
+      "flatten",
+      "format"
+    ],
+    "pronunciation": "SEER-ee-uh-lize",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      5
+    ]
+  },
+  {
+    "id": "deng-019",
+    "word": "Checkpoint",
+    "meaning": "A saved state that allows resuming a process from that point",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2025-12-19",
+    "samplePhrase": "The checkpoint aspect of the project helps us achieve professional excellence.",
+    "itContext": "Checkpoint is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "snapshot",
+      "save point",
+      "marker",
+      "recovery point"
+    ],
+    "pronunciation": "CHEK-poynt",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "deng-020",
+    "word": "Watermark",
+    "meaning": "A marker indicating the progress of data processing",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2025-12-20",
+    "samplePhrase": "The watermark aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Watermark is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "marker",
+      "tracker",
+      "progress indicator",
+      "boundary"
+    ],
+    "pronunciation": "WAW-ter-mark",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      4
+    ]
+  },
+  {
+    "id": "deng-021",
+    "word": "Ephemeral",
+    "meaning": "Existing only briefly; temporary data or resources",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2025-12-21",
+    "samplePhrase": "The ephemeral aspect of our team helps us achieve professional excellence.",
+    "itContext": "Ephemeral is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "temporary",
+      "transient",
+      "short-lived",
+      "fleeting"
+    ],
+    "pronunciation": "ih-FEM-er-ul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      2,
+      5
+    ]
+  },
+  {
+    "id": "deng-022",
+    "word": "Idempotency",
+    "meaning": "The property of operations that can be applied multiple times safely",
+    "genre": "data-engineering",
+    "difficulty": 4,
+    "dateAdded": "2025-12-22",
+    "samplePhrase": "The idempotency aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Idempotency is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "repeatability",
+      "safety",
+      "consistency",
+      "determinism"
+    ],
+    "pronunciation": "eye-dem-PO-ten-see",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      2
+    ]
+  },
+  {
+    "id": "deng-023",
+    "word": "Medallion",
+    "meaning": "A tiered architecture pattern (bronze, silver, gold) for data lakes",
+    "genre": "data-engineering",
+    "difficulty": 4,
+    "dateAdded": "2025-12-23",
+    "samplePhrase": "The medallion aspect of the review helps us achieve professional excellence.",
+    "itContext": "Medallion is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "tier",
+      "layer",
+      "level",
+      "stage"
+    ],
+    "pronunciation": "meh-DAL-yun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      5
+    ]
+  },
+  {
+    "id": "deng-024",
+    "word": "Curate",
+    "meaning": "To carefully select, organize, and maintain data collections",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2025-12-24",
+    "samplePhrase": "We should curate this initiative to drive better outcomes.",
+    "itContext": "Curate is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "organize",
+      "maintain",
+      "manage",
+      "select"
+    ],
+    "pronunciation": "KYOO-rayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "id": "deng-025",
+    "word": "Reconcile",
+    "meaning": "To make two datasets consistent and in agreement",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2025-12-25",
+    "samplePhrase": "We should reconcile the project to drive better outcomes.",
+    "itContext": "Reconcile is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "match",
+      "align",
+      "resolve",
+      "verify"
+    ],
+    "pronunciation": "REK-un-sile",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5,
+      5
+    ]
+  },
+  {
+    "id": "deng-026",
+    "word": "Materialize",
+    "meaning": "To create a physical copy of computed data for faster access",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2025-12-26",
+    "samplePhrase": "We should materialize this quarter to drive better outcomes.",
+    "itContext": "Materialize is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "pre-compute",
+      "cache",
+      "store",
+      "persist"
+    ],
+    "pronunciation": "muh-TEER-ee-uh-lize",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "id": "deng-027",
+    "word": "Compaction",
+    "meaning": "The process of merging small files into larger ones",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2025-12-27",
+    "samplePhrase": "The compaction aspect of our team helps us achieve professional excellence.",
+    "itContext": "Compaction is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "merging",
+      "consolidation",
+      "optimization",
+      "cleanup"
+    ],
+    "pronunciation": "kum-PAK-shun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      2,
+      2
+    ]
+  },
+  {
+    "id": "deng-028",
+    "word": "Governance",
+    "meaning": "The management of data availability, usability, and security",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2025-12-28",
+    "samplePhrase": "The governance aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Governance is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "management",
+      "oversight",
+      "stewardship",
+      "policy"
+    ],
+    "pronunciation": "GUV-er-nans",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      2
+    ]
+  },
+  {
+    "id": "deng-029",
+    "word": "Provenance",
+    "meaning": "The origin and history of data throughout its lifecycle",
+    "genre": "data-engineering",
+    "difficulty": 4,
+    "dateAdded": "2025-12-29",
+    "samplePhrase": "The provenance aspect of the review helps us achieve professional excellence.",
+    "itContext": "Provenance is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "origin",
+      "lineage",
+      "history",
+      "source"
+    ],
+    "pronunciation": "PROV-eh-nans",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "deng-030",
+    "word": "Immutable",
+    "meaning": "Data that cannot be changed once written",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2025-12-30",
+    "samplePhrase": "The immutable aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Immutable is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "unchangeable",
+      "permanent",
+      "fixed",
+      "append-only"
+    ],
+    "pronunciation": "ih-MYOO-tuh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      2
+    ]
+  },
+  {
+    "id": "deng-031",
+    "word": "Incremental",
+    "meaning": "Processing only new or changed data since the last run",
+    "genre": "data-engineering",
+    "difficulty": 2,
+    "dateAdded": "2025-12-31",
+    "samplePhrase": "The incremental aspect of the project helps us achieve professional excellence.",
+    "itContext": "Incremental is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "partial",
+      "delta",
+      "additive",
+      "progressive"
+    ],
+    "pronunciation": "in-kreh-MEN-tul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "deng-032",
+    "word": "Snapshot",
+    "meaning": "A point-in-time copy of data for backup or analysis",
+    "genre": "data-engineering",
+    "difficulty": 2,
+    "dateAdded": "2026-01-01",
+    "samplePhrase": "The snapshot aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Snapshot is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "copy",
+      "capture",
+      "backup",
+      "image"
+    ],
+    "pronunciation": "SNAP-shot",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "deng-033",
+    "word": "Dimensionality",
+    "meaning": "The number of attributes or features in a dataset",
+    "genre": "data-engineering",
+    "difficulty": 4,
+    "dateAdded": "2026-01-02",
+    "samplePhrase": "The dimensionality aspect of our team helps us achieve professional excellence.",
+    "itContext": "Dimensionality is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "complexity",
+      "feature count",
+      "attribute space",
+      "breadth"
+    ],
+    "pronunciation": "dih-men-shun-AL-ih-tee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "deng-034",
+    "word": "Upsert",
+    "meaning": "To insert or update a record depending on whether it exists",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2026-01-03",
+    "samplePhrase": "We should upsert the discussion to drive better outcomes.",
+    "itContext": "Upsert is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "merge",
+      "insert-or-update",
+      "sync",
+      "reconcile"
+    ],
+    "pronunciation": "UP-sert",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      2
+    ]
+  },
+  {
+    "id": "deng-035",
+    "word": "Windowing",
+    "meaning": "Grouping data by time intervals for stream processing",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2026-01-04",
+    "samplePhrase": "The windowing aspect of the review helps us achieve professional excellence.",
+    "itContext": "Windowing is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "time-grouping",
+      "batching",
+      "interval",
+      "segmenting"
+    ],
+    "pronunciation": "WIN-doh-ing",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "deng-036",
+    "word": "Tombstone",
+    "meaning": "A marker indicating that a record has been deleted",
+    "genre": "data-engineering",
+    "difficulty": 4,
+    "dateAdded": "2026-01-05",
+    "samplePhrase": "The tombstone aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Tombstone is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "deletion marker",
+      "soft delete",
+      "removal flag",
+      "death record"
+    ],
+    "pronunciation": "TOOM-stohn",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "deng-037",
+    "word": "Fanout",
+    "meaning": "Distributing data from one source to multiple destinations",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2026-01-06",
+    "samplePhrase": "The fanout aspect of the project helps us achieve professional excellence.",
+    "itContext": "Fanout is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "distribution",
+      "broadcast",
+      "multicast",
+      "spreading"
+    ],
+    "pronunciation": "FAN-owt",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      2,
+      4
+    ]
+  },
+  {
+    "id": "deng-038",
+    "word": "Throttle",
+    "meaning": "To limit the rate of data processing to prevent overload",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2026-01-07",
+    "samplePhrase": "We should throttle this quarter to drive better outcomes.",
+    "itContext": "Throttle is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "limit",
+      "restrict",
+      "control",
+      "regulate"
+    ],
+    "pronunciation": "THROT-ul",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      2,
+      5
+    ]
+  },
+  {
+    "id": "deng-039",
+    "word": "Backpressure",
+    "meaning": "Resistance in a pipeline when downstream can't keep up",
+    "genre": "data-engineering",
+    "difficulty": 4,
+    "dateAdded": "2026-01-08",
+    "samplePhrase": "The backpressure aspect of our team helps us achieve professional excellence.",
+    "itContext": "Backpressure is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "flow control",
+      "throttling",
+      "rate limiting",
+      "congestion"
+    ],
+    "pronunciation": "BAK-presh-er",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "deng-040",
+    "word": "Replayable",
+    "meaning": "Capable of being processed again from the original source",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2026-01-09",
+    "samplePhrase": "The replayable aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Replayable is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "reproducible",
+      "re-runnable",
+      "recoverable",
+      "repeatable"
+    ],
+    "pronunciation": "ree-PLAY-uh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "deng-041",
+    "word": "Confluent",
+    "meaning": "Coming together from different sources into a unified stream",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2026-01-10",
+    "samplePhrase": "The confluent aspect of the review helps us achieve professional excellence.",
+    "itContext": "Confluent is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "merging",
+      "converging",
+      "combining",
+      "unifying"
+    ],
+    "pronunciation": "KON-floo-ent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "deng-042",
+    "word": "Decouple",
+    "meaning": "To separate tightly connected components for independence",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2026-01-11",
+    "samplePhrase": "We should decouple this initiative to drive better outcomes.",
+    "itContext": "Decouple is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "separate",
+      "detach",
+      "isolate",
+      "unbind"
+    ],
+    "pronunciation": "dee-KUP-ul",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "deng-043",
+    "word": "Enrich",
+    "meaning": "To enhance data by adding additional context or attributes",
+    "genre": "data-engineering",
+    "difficulty": 2,
+    "dateAdded": "2026-01-12",
+    "samplePhrase": "We should enrich the project to drive better outcomes.",
+    "itContext": "Enrich is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "augment",
+      "enhance",
+      "supplement",
+      "annotate"
+    ],
+    "pronunciation": "en-RICH",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "deng-044",
+    "word": "Federate",
+    "meaning": "To combine data from multiple autonomous sources",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2026-01-13",
+    "samplePhrase": "We should federate this quarter to drive better outcomes.",
+    "itContext": "Federate is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "unify",
+      "combine",
+      "integrate",
+      "merge"
+    ],
+    "pronunciation": "FED-er-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      2
+    ]
+  },
+  {
+    "id": "deng-045",
+    "word": "Granularity",
+    "meaning": "The level of detail or precision in data",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2026-01-14",
+    "samplePhrase": "The granularity aspect of our team helps us achieve professional excellence.",
+    "itContext": "Granularity is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "detail level",
+      "precision",
+      "resolution",
+      "specificity"
+    ],
+    "pronunciation": "gran-yoo-LAR-ih-tee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "deng-046",
+    "word": "Hydrate",
+    "meaning": "To populate an object or cache with data from storage",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2026-01-15",
+    "samplePhrase": "We should hydrate the discussion to drive better outcomes.",
+    "itContext": "Hydrate is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "populate",
+      "fill",
+      "load",
+      "initialize"
+    ],
+    "pronunciation": "HY-drayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "id": "deng-047",
+    "word": "Interleave",
+    "meaning": "To alternate data from multiple sources in a merged output",
+    "genre": "data-engineering",
+    "difficulty": 4,
+    "dateAdded": "2026-01-16",
+    "samplePhrase": "We should interleave the review to drive better outcomes.",
+    "itContext": "Interleave is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "alternate",
+      "mix",
+      "weave",
+      "intersperse"
+    ],
+    "pronunciation": "in-ter-LEEV",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "deng-048",
+    "word": "Jitter",
+    "meaning": "Random variation in data processing timing or delivery",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2026-01-17",
+    "samplePhrase": "The jitter aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Jitter is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "variation",
+      "noise",
+      "fluctuation",
+      "irregularity"
+    ],
+    "pronunciation": "JIT-er",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "deng-049",
+    "word": "Kinesis",
+    "meaning": "The movement or flow of data through streaming systems",
+    "genre": "data-engineering",
+    "difficulty": 4,
+    "dateAdded": "2026-01-18",
+    "samplePhrase": "The kinesis aspect of the project helps us achieve professional excellence.",
+    "itContext": "Kinesis is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "flow",
+      "streaming",
+      "movement",
+      "transfer"
+    ],
+    "pronunciation": "kih-NEE-sis",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "deng-050",
+    "word": "Lakehouse",
+    "meaning": "An architecture combining data lake and data warehouse features",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2026-01-19",
+    "samplePhrase": "The lakehouse aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Lakehouse is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "unified platform",
+      "hybrid storage",
+      "converged architecture",
+      "data platform"
+    ],
+    "pronunciation": "LAYK-hows",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "deng-051",
+    "word": "Monorepo",
+    "meaning": "A single repository containing multiple related data projects",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2026-01-20",
+    "samplePhrase": "The monorepo aspect of our team helps us achieve professional excellence.",
+    "itContext": "Monorepo is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "unified repository",
+      "single repo",
+      "central codebase",
+      "mono-repository"
+    ],
+    "pronunciation": "MON-oh-ree-poh",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      5
+    ]
+  },
+  {
+    "id": "deng-052",
+    "word": "Namespace",
+    "meaning": "A container that holds a set of identifiers for data isolation",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2026-01-21",
+    "samplePhrase": "The namespace aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Namespace is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "scope",
+      "domain",
+      "container",
+      "boundary"
+    ],
+    "pronunciation": "NAYM-spays",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      5,
+      3
+    ]
+  },
+  {
+    "id": "deng-053",
+    "word": "Observability",
+    "meaning": "The ability to measure internal states from external outputs",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2026-01-22",
+    "samplePhrase": "The observability aspect of the review helps us achieve professional excellence.",
+    "itContext": "Observability is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "monitoring",
+      "visibility",
+      "insight",
+      "instrumentation"
+    ],
+    "pronunciation": "ob-zer-vuh-BIL-ih-tee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "deng-054",
+    "word": "Predicate",
+    "meaning": "A condition used to filter or select specific data rows",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2026-01-23",
+    "samplePhrase": "The predicate aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Predicate is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "condition",
+      "filter",
+      "clause",
+      "criterion"
+    ],
+    "pronunciation": "PRED-ih-kit",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      5
+    ]
+  },
+  {
+    "id": "deng-055",
+    "word": "Quiesce",
+    "meaning": "To bring a system to a temporarily inactive but stable state",
+    "genre": "data-engineering",
+    "difficulty": 5,
+    "dateAdded": "2026-01-24",
+    "samplePhrase": "We should quiesce the project to drive better outcomes.",
+    "itContext": "Quiesce is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "pause",
+      "stabilize",
+      "drain",
+      "quiet"
+    ],
+    "pronunciation": "kwee-ES",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      5
+    ]
+  },
+  {
+    "id": "deng-056",
+    "word": "Rebalance",
+    "meaning": "To redistribute data evenly across partitions or nodes",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2026-01-25",
+    "samplePhrase": "We should rebalance this quarter to drive better outcomes.",
+    "itContext": "Rebalance is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "redistribute",
+      "reallocate",
+      "reshuffle",
+      "repartition"
+    ],
+    "pronunciation": "ree-BAL-uns",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5,
+      2
+    ]
+  },
+  {
+    "id": "deng-057",
+    "word": "Stale",
+    "meaning": "Data that is no longer current or up to date",
+    "genre": "data-engineering",
+    "difficulty": 2,
+    "dateAdded": "2026-01-26",
+    "samplePhrase": "The stale aspect of our team helps us achieve professional excellence.",
+    "itContext": "Stale is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "outdated",
+      "expired",
+      "old",
+      "obsolete"
+    ],
+    "pronunciation": "STAYL",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "deng-058",
+    "word": "Telemetry",
+    "meaning": "Automatic collection and transmission of operational data",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2026-01-27",
+    "samplePhrase": "The telemetry aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Telemetry is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "metrics",
+      "monitoring data",
+      "instrumentation",
+      "diagnostics"
+    ],
+    "pronunciation": "teh-LEM-eh-tree",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "deng-059",
+    "word": "Upstream",
+    "meaning": "The source or origin direction in a data pipeline",
+    "genre": "data-engineering",
+    "difficulty": 2,
+    "dateAdded": "2026-01-28",
+    "samplePhrase": "The upstream aspect of the review helps us achieve professional excellence.",
+    "itContext": "Upstream is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "source",
+      "origin",
+      "input",
+      "producer"
+    ],
+    "pronunciation": "UP-streem",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      4
+    ]
+  },
+  {
+    "id": "deng-060",
+    "word": "Vectorize",
+    "meaning": "To convert operations to work on arrays of data at once",
+    "genre": "data-engineering",
+    "difficulty": 4,
+    "dateAdded": "2026-01-29",
+    "samplePhrase": "We should vectorize this initiative to drive better outcomes.",
+    "itContext": "Vectorize is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "batch",
+      "parallelize",
+      "bulk-process",
+      "SIMD"
+    ],
+    "pronunciation": "VEK-tor-ize",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "deng-061",
+    "word": "Wrangling",
+    "meaning": "The process of cleaning and transforming raw data",
+    "genre": "data-engineering",
+    "difficulty": 2,
+    "dateAdded": "2026-01-30",
+    "samplePhrase": "The wrangling aspect of the project helps us achieve professional excellence.",
+    "itContext": "Wrangling is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "cleaning",
+      "munging",
+      "preprocessing",
+      "tidying"
+    ],
+    "pronunciation": "RANG-gling",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      5,
+      2
+    ]
+  },
+  {
+    "id": "deng-062",
+    "word": "Extract",
+    "meaning": "To pull data from a source system for processing",
+    "genre": "data-engineering",
+    "difficulty": 2,
+    "dateAdded": "2026-01-31",
+    "samplePhrase": "We should extract this quarter to drive better outcomes.",
+    "itContext": "Extract is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "pull",
+      "retrieve",
+      "fetch",
+      "obtain"
+    ],
+    "pronunciation": "ek-STRAKT",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      2
+    ]
+  },
+  {
+    "id": "deng-063",
+    "word": "Yield",
+    "meaning": "To produce processed data as output from a pipeline stage",
+    "genre": "data-engineering",
+    "difficulty": 2,
+    "dateAdded": "2026-02-01",
+    "samplePhrase": "We should yield our team to drive better outcomes.",
+    "itContext": "Yield is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "produce",
+      "output",
+      "emit",
+      "return"
+    ],
+    "pronunciation": "YEELD",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      5,
+      2
+    ]
+  },
+  {
+    "id": "deng-064",
+    "word": "Zombie",
+    "meaning": "A process or resource that is no longer needed but still exists",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2026-02-02",
+    "samplePhrase": "The zombie aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Zombie is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "orphan",
+      "stale process",
+      "dead resource",
+      "lingering"
+    ],
+    "pronunciation": "ZOM-bee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "deng-065",
+    "word": "Archival",
+    "meaning": "Relating to long-term data storage and preservation",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2026-02-03",
+    "samplePhrase": "The archival aspect of the review helps us achieve professional excellence.",
+    "itContext": "Archival is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "long-term",
+      "preservation",
+      "cold storage",
+      "retention"
+    ],
+    "pronunciation": "ar-KY-vul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "deng-066",
+    "word": "Batch",
+    "meaning": "A collection of data processed together as a single unit",
+    "genre": "data-engineering",
+    "difficulty": 2,
+    "dateAdded": "2026-02-04",
+    "samplePhrase": "The batch aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Batch is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "group",
+      "bundle",
+      "set",
+      "collection"
+    ],
+    "pronunciation": "BACH",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      4,
+      2
+    ]
+  },
+  {
+    "id": "deng-067",
+    "word": "Codec",
+    "meaning": "A device or program that compresses and decompresses data",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2026-02-05",
+    "samplePhrase": "The codec aspect of the project helps us achieve professional excellence.",
+    "itContext": "Codec is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "encoder",
+      "compressor",
+      "format",
+      "converter"
+    ],
+    "pronunciation": "KOH-dek",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      2
+    ]
+  },
+  {
+    "id": "deng-068",
+    "word": "Delta",
+    "meaning": "The difference or change between two versions of data",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2026-02-06",
+    "samplePhrase": "The delta aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Delta is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "difference",
+      "change",
+      "increment",
+      "diff"
+    ],
+    "pronunciation": "DEL-tuh",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "deng-069",
+    "word": "Emit",
+    "meaning": "To send out data events or records from a processing stage",
+    "genre": "data-engineering",
+    "difficulty": 2,
+    "dateAdded": "2026-02-07",
+    "samplePhrase": "We should emit our team to drive better outcomes.",
+    "itContext": "Emit is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "send",
+      "output",
+      "produce",
+      "publish"
+    ],
+    "pronunciation": "ee-MIT",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "deng-070",
+    "word": "Failover",
+    "meaning": "Automatic switching to a backup system on primary failure",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2026-02-08",
+    "samplePhrase": "The failover aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Failover is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "backup switch",
+      "fallback",
+      "recovery",
+      "switchover"
+    ],
+    "pronunciation": "FAYL-oh-ver",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      2,
+      4
+    ]
+  },
+  {
+    "id": "deng-071",
+    "word": "Gauge",
+    "meaning": "A metric that can go up or down, representing a current value",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2026-02-09",
+    "samplePhrase": "The gauge aspect of the review helps us achieve professional excellence.",
+    "itContext": "Gauge is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "metric",
+      "measurement",
+      "indicator",
+      "reading"
+    ],
+    "pronunciation": "GAYJ",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      5,
+      3
+    ]
+  },
+  {
+    "id": "deng-072",
+    "word": "Hotspot",
+    "meaning": "A partition or node receiving disproportionately high traffic",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2026-02-10",
+    "samplePhrase": "The hotspot aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Hotspot is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "bottleneck",
+      "overloaded node",
+      "skewed partition",
+      "concentration"
+    ],
+    "pronunciation": "HOT-spot",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      2,
+      4
+    ]
+  },
+  {
+    "id": "deng-073",
+    "word": "Index",
+    "meaning": "A data structure that improves the speed of data retrieval",
+    "genre": "data-engineering",
+    "difficulty": 2,
+    "dateAdded": "2026-02-11",
+    "samplePhrase": "The index aspect of the project helps us achieve professional excellence.",
+    "itContext": "Index is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "lookup",
+      "key",
+      "pointer",
+      "catalog"
+    ],
+    "pronunciation": "IN-deks",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "deng-074",
+    "word": "Join",
+    "meaning": "To combine data from two or more tables based on related columns",
+    "genre": "data-engineering",
+    "difficulty": 2,
+    "dateAdded": "2026-02-12",
+    "samplePhrase": "We should join this quarter to drive better outcomes.",
+    "itContext": "Join is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "merge",
+      "combine",
+      "link",
+      "relate"
+    ],
+    "pronunciation": "JOYN",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "deng-075",
+    "word": "Kafka",
+    "meaning": "A distributed event streaming platform for high-throughput data",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2026-02-13",
+    "samplePhrase": "The kafka aspect of our team helps us achieve professional excellence.",
+    "itContext": "Kafka is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "event bus",
+      "message broker",
+      "streaming platform",
+      "queue"
+    ],
+    "pronunciation": "KAF-kuh",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      2
+    ]
+  },
+  {
+    "id": "deng-076",
+    "word": "Load",
+    "meaning": "To insert processed data into a target database or warehouse",
+    "genre": "data-engineering",
+    "difficulty": 2,
+    "dateAdded": "2026-02-14",
+    "samplePhrase": "We should load the discussion to drive better outcomes.",
+    "itContext": "Load is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "insert",
+      "populate",
+      "import",
+      "store"
+    ],
+    "pronunciation": "LOHD",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "deng-077",
+    "word": "Migrate",
+    "meaning": "To move data from one system or format to another",
+    "genre": "data-engineering",
+    "difficulty": 2,
+    "dateAdded": "2026-02-15",
+    "samplePhrase": "We should migrate the review to drive better outcomes.",
+    "itContext": "Migrate is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "transfer",
+      "move",
+      "port",
+      "relocate"
+    ],
+    "pronunciation": "MY-grayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      5
+    ]
+  },
+  {
+    "id": "deng-078",
+    "word": "Nullability",
+    "meaning": "Whether a data field is allowed to contain null values",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2026-02-16",
+    "samplePhrase": "The nullability aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Nullability is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "optionality",
+      "presence",
+      "requirement",
+      "constraint"
+    ],
+    "pronunciation": "nul-uh-BIL-ih-tee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      2,
+      2
+    ]
+  },
+  {
+    "id": "deng-079",
+    "word": "Optimize",
+    "meaning": "To improve data processing efficiency and performance",
+    "genre": "data-engineering",
+    "difficulty": 2,
+    "dateAdded": "2026-02-17",
+    "samplePhrase": "We should optimize the project to drive better outcomes.",
+    "itContext": "Optimize is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "tune",
+      "improve",
+      "enhance",
+      "streamline"
+    ],
+    "pronunciation": "OP-tih-mize",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "deng-080",
+    "word": "Parquet",
+    "meaning": "A columnar storage format optimized for analytics",
+    "genre": "data-engineering",
+    "difficulty": 4,
+    "dateAdded": "2026-02-18",
+    "samplePhrase": "The parquet aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Parquet is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "columnar format",
+      "file format",
+      "storage format",
+      "data format"
+    ],
+    "pronunciation": "par-KAY",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      5
+    ]
+  },
+  {
+    "id": "deng-081",
+    "word": "Quarantine",
+    "meaning": "To isolate problematic data for separate handling",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2026-02-19",
+    "samplePhrase": "We should quarantine our team to drive better outcomes.",
+    "itContext": "Quarantine is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "isolate",
+      "separate",
+      "flag",
+      "sideline"
+    ],
+    "pronunciation": "KWOR-un-teen",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "deng-082",
+    "word": "Rollback",
+    "meaning": "To revert data to a previous known-good state",
+    "genre": "data-engineering",
+    "difficulty": 2,
+    "dateAdded": "2026-02-20",
+    "samplePhrase": "The rollback aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Rollback is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "revert",
+      "undo",
+      "restore",
+      "recovery"
+    ],
+    "pronunciation": "ROHL-bak",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "deng-083",
+    "word": "Sinkhole",
+    "meaning": "A destination that absorbs data without further propagation",
+    "genre": "data-engineering",
+    "difficulty": 4,
+    "dateAdded": "2026-02-21",
+    "samplePhrase": "The sinkhole aspect of the review helps us achieve professional excellence.",
+    "itContext": "Sinkhole is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "dead end",
+      "terminator",
+      "absorber",
+      "dump"
+    ],
+    "pronunciation": "SINK-hohl",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "deng-084",
+    "word": "Truncate",
+    "meaning": "To remove all data from a table while keeping its structure",
+    "genre": "data-engineering",
+    "difficulty": 2,
+    "dateAdded": "2026-02-22",
+    "samplePhrase": "We should truncate this initiative to drive better outcomes.",
+    "itContext": "Truncate is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "clear",
+      "empty",
+      "wipe",
+      "purge"
+    ],
+    "pronunciation": "TRUNG-kayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "deng-085",
+    "word": "Upstream",
+    "meaning": "The preceding stage or source in a data processing chain",
+    "genre": "data-engineering",
+    "difficulty": 2,
+    "dateAdded": "2026-02-23",
+    "samplePhrase": "The upstream aspect of the project helps us achieve professional excellence.",
+    "itContext": "Upstream is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "source",
+      "predecessor",
+      "origin",
+      "input"
+    ],
+    "pronunciation": "UP-streem",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      5
+    ]
+  },
+  {
+    "id": "deng-086",
+    "word": "Validate",
+    "meaning": "To verify that data conforms to expected rules and formats",
+    "genre": "data-engineering",
+    "difficulty": 2,
+    "dateAdded": "2026-02-24",
+    "samplePhrase": "We should validate this quarter to drive better outcomes.",
+    "itContext": "Validate is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "verify",
+      "check",
+      "confirm",
+      "test"
+    ],
+    "pronunciation": "VAL-ih-dayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      2
+    ]
+  },
+  {
+    "id": "deng-087",
+    "word": "Warehouse",
+    "meaning": "A central repository of integrated data from multiple sources",
+    "genre": "data-engineering",
+    "difficulty": 2,
+    "dateAdded": "2026-02-25",
+    "samplePhrase": "The warehouse aspect of our team helps us achieve professional excellence.",
+    "itContext": "Warehouse is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "repository",
+      "store",
+      "hub",
+      "central database"
+    ],
+    "pronunciation": "WAIR-hows",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "deng-088",
+    "word": "Exabyte",
+    "meaning": "A unit of data equal to one quintillion bytes",
+    "genre": "data-engineering",
+    "difficulty": 4,
+    "dateAdded": "2026-02-26",
+    "samplePhrase": "The exabyte aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Exabyte is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "huge volume",
+      "massive scale",
+      "petabyte-plus",
+      "data unit"
+    ],
+    "pronunciation": "EK-suh-byte",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      4
+    ]
+  },
+  {
+    "id": "deng-089",
+    "word": "YAML",
+    "meaning": "A human-readable data serialization format for configuration",
+    "genre": "data-engineering",
+    "difficulty": 2,
+    "dateAdded": "2026-02-27",
+    "samplePhrase": "The yaml aspect of the review helps us achieve professional excellence.",
+    "itContext": "YAML is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "config format",
+      "markup",
+      "data format",
+      "serialization"
+    ],
+    "pronunciation": "YAM-ul",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      2,
+      2
+    ]
+  },
+  {
+    "id": "deng-090",
+    "word": "Zeppelin",
+    "meaning": "A notebook-based tool for interactive data analytics",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2026-02-28",
+    "samplePhrase": "The zeppelin aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Zeppelin is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "notebook",
+      "analytics tool",
+      "interactive platform",
+      "exploration tool"
+    ],
+    "pronunciation": "ZEP-uh-lin",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "deng-091",
+    "word": "Avro",
+    "meaning": "A row-based data serialization system for efficient storage",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2026-03-01",
+    "samplePhrase": "The avro aspect of the project helps us achieve professional excellence.",
+    "itContext": "Avro is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "data format",
+      "serialization",
+      "encoding",
+      "schema format"
+    ],
+    "pronunciation": "AV-roh",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "deng-092",
+    "word": "Bloom",
+    "meaning": "A probabilistic data structure for set membership testing",
+    "genre": "data-engineering",
+    "difficulty": 4,
+    "dateAdded": "2026-03-02",
+    "samplePhrase": "The bloom aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Bloom is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "filter",
+      "probabilistic set",
+      "hash structure",
+      "membership test"
+    ],
+    "pronunciation": "BLOOM",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      4,
+      2
+    ]
+  },
+  {
+    "id": "deng-093",
+    "word": "Cardinality",
+    "meaning": "The number of unique values in a data column",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2026-03-03",
+    "samplePhrase": "The cardinality aspect of our team helps us achieve professional excellence.",
+    "itContext": "Cardinality is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "uniqueness",
+      "distinct count",
+      "diversity",
+      "variability"
+    ],
+    "pronunciation": "kar-dih-NAL-ih-tee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      2
+    ]
+  },
+  {
+    "id": "deng-094",
+    "word": "Dagster",
+    "meaning": "An orchestration platform for data pipelines and assets",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2026-03-04",
+    "samplePhrase": "The dagster aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Dagster is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "orchestrator",
+      "pipeline tool",
+      "scheduler",
+      "workflow manager"
+    ],
+    "pronunciation": "DAG-ster",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "deng-095",
+    "word": "Eventual",
+    "meaning": "Achieving consistency over time rather than immediately",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2026-03-05",
+    "samplePhrase": "The eventual aspect of the review helps us achieve professional excellence.",
+    "itContext": "Eventual is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "delayed",
+      "asynchronous",
+      "lazy",
+      "deferred"
+    ],
+    "pronunciation": "ee-VEN-choo-ul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "deng-096",
+    "word": "Funnel",
+    "meaning": "A pipeline stage that narrows data flow through filtering",
+    "genre": "data-engineering",
+    "difficulty": 2,
+    "dateAdded": "2026-03-06",
+    "samplePhrase": "The funnel aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Funnel is valuable vocabulary for IT professionals in data engineering contexts.",
+    "alternativeWords": [
+      "filter",
+      "reducer",
+      "narrower",
+      "selector"
+    ],
+    "pronunciation": "FUN-ul",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      5,
+      2
+    ]
+  }
+]

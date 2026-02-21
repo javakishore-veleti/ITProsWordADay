@@ -1,0 +1,2249 @@
+[
+  {
+    "id": "review-001",
+    "word": "Exemplary",
+    "meaning": "Serving as a desirable model; representing the best of a kind",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2025-12-01",
+    "samplePhrase": "The exemplary aspect of the project helps us achieve professional excellence.",
+    "itContext": "Exemplary is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "outstanding",
+      "model",
+      "commendable",
+      "stellar"
+    ],
+    "pronunciation": "eg-ZEM-pluh-ree",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "review-002",
+    "word": "Proficient",
+    "meaning": "Competent and skilled in doing or using something",
+    "genre": "annual-reviews",
+    "difficulty": 2,
+    "dateAdded": "2025-12-02",
+    "samplePhrase": "The proficient aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Proficient is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "skilled",
+      "competent",
+      "adept",
+      "capable"
+    ],
+    "pronunciation": "proh-FISH-ent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      2
+    ]
+  },
+  {
+    "id": "review-003",
+    "word": "Exceeds",
+    "meaning": "Goes beyond what is required or expected",
+    "genre": "annual-reviews",
+    "difficulty": 2,
+    "dateAdded": "2025-12-03",
+    "samplePhrase": "We should exceeds our team to drive better outcomes.",
+    "itContext": "Exceeds is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "surpasses",
+      "outperforms",
+      "transcends",
+      "outshines"
+    ],
+    "pronunciation": "ek-SEEDZ",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "review-004",
+    "word": "Benchmark",
+    "meaning": "A standard against which performance is measured",
+    "genre": "annual-reviews",
+    "difficulty": 2,
+    "dateAdded": "2025-12-04",
+    "samplePhrase": "The benchmark aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Benchmark is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "standard",
+      "baseline",
+      "yardstick",
+      "reference"
+    ],
+    "pronunciation": "BENCH-mark",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      2,
+      4
+    ]
+  },
+  {
+    "id": "review-005",
+    "word": "Initiative",
+    "meaning": "The ability to assess and act on opportunities independently",
+    "genre": "annual-reviews",
+    "difficulty": 2,
+    "dateAdded": "2025-12-05",
+    "samplePhrase": "The initiative aspect of the review helps us achieve professional excellence.",
+    "itContext": "Initiative is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "proactiveness",
+      "self-direction",
+      "enterprise",
+      "drive"
+    ],
+    "pronunciation": "ih-NISH-uh-tiv",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      2
+    ]
+  },
+  {
+    "id": "review-006",
+    "word": "Accountable",
+    "meaning": "Required or expected to justify actions and decisions",
+    "genre": "annual-reviews",
+    "difficulty": 2,
+    "dateAdded": "2025-12-06",
+    "samplePhrase": "The accountable aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Accountable is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "responsible",
+      "answerable",
+      "liable",
+      "obligated"
+    ],
+    "pronunciation": "uh-KOWN-tuh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "review-007",
+    "word": "Collaborative",
+    "meaning": "Produced by or involving two or more parties working together",
+    "genre": "annual-reviews",
+    "difficulty": 2,
+    "dateAdded": "2025-12-07",
+    "samplePhrase": "The collaborative aspect of the project helps us achieve professional excellence.",
+    "itContext": "Collaborative is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "cooperative",
+      "joint",
+      "team-oriented",
+      "synergistic"
+    ],
+    "pronunciation": "koh-LAB-or-uh-tiv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      2,
+      4
+    ]
+  },
+  {
+    "id": "review-008",
+    "word": "Articulate",
+    "meaning": "Able to express thoughts clearly and effectively",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2025-12-08",
+    "samplePhrase": "The articulate aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Articulate is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "eloquent",
+      "expressive",
+      "fluent",
+      "coherent"
+    ],
+    "pronunciation": "ar-TIK-yoo-lit",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "review-009",
+    "word": "Demonstrate",
+    "meaning": "To clearly show the existence or truth of something through evidence",
+    "genre": "annual-reviews",
+    "difficulty": 2,
+    "dateAdded": "2025-12-09",
+    "samplePhrase": "We should demonstrate our team to drive better outcomes.",
+    "itContext": "Demonstrate is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "show",
+      "prove",
+      "exhibit",
+      "illustrate"
+    ],
+    "pronunciation": "DEM-on-strayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      2,
+      4
+    ]
+  },
+  {
+    "id": "review-010",
+    "word": "Quantifiable",
+    "meaning": "Able to be expressed as a measurable quantity",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2025-12-10",
+    "samplePhrase": "The quantifiable aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Quantifiable is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "measurable",
+      "calculable",
+      "assessable",
+      "countable"
+    ],
+    "pronunciation": "KWON-tih-fy-uh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "review-011",
+    "word": "Meticulous",
+    "meaning": "Showing great attention to detail; very careful and precise",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2025-12-11",
+    "samplePhrase": "The meticulous aspect of the review helps us achieve professional excellence.",
+    "itContext": "Meticulous is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "thorough",
+      "precise",
+      "careful",
+      "painstaking"
+    ],
+    "pronunciation": "meh-TIK-yoo-lus",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5,
+      3
+    ]
+  },
+  {
+    "id": "review-012",
+    "word": "Diligent",
+    "meaning": "Having or showing care and conscientiousness in one's work",
+    "genre": "annual-reviews",
+    "difficulty": 2,
+    "dateAdded": "2025-12-12",
+    "samplePhrase": "The diligent aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Diligent is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "hardworking",
+      "conscientious",
+      "industrious",
+      "assiduous"
+    ],
+    "pronunciation": "DIL-ih-jent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      2,
+      4
+    ]
+  },
+  {
+    "id": "review-013",
+    "word": "Proactive",
+    "meaning": "Creating or controlling a situation rather than just responding to it",
+    "genre": "annual-reviews",
+    "difficulty": 2,
+    "dateAdded": "2025-12-13",
+    "samplePhrase": "The proactive aspect of the project helps us achieve professional excellence.",
+    "itContext": "Proactive is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "anticipatory",
+      "forward-thinking",
+      "preventive",
+      "initiative-taking"
+    ],
+    "pronunciation": "proh-AK-tiv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "review-014",
+    "word": "Leverage",
+    "meaning": "To use something to maximum advantage",
+    "genre": "annual-reviews",
+    "difficulty": 2,
+    "dateAdded": "2025-12-14",
+    "samplePhrase": "We should leverage this quarter to drive better outcomes.",
+    "itContext": "Leverage is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "utilize",
+      "capitalize on",
+      "exploit",
+      "harness"
+    ],
+    "pronunciation": "LEV-er-ij",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "review-015",
+    "word": "Accomplish",
+    "meaning": "To achieve or complete successfully",
+    "genre": "annual-reviews",
+    "difficulty": 2,
+    "dateAdded": "2025-12-15",
+    "samplePhrase": "We should accomplish our team to drive better outcomes.",
+    "itContext": "Accomplish is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "achieve",
+      "complete",
+      "fulfill",
+      "execute"
+    ],
+    "pronunciation": "uh-KOM-plish",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "review-016",
+    "word": "Objective",
+    "meaning": "A specific result that a person aims to achieve within a time frame",
+    "genre": "annual-reviews",
+    "difficulty": 2,
+    "dateAdded": "2025-12-16",
+    "samplePhrase": "The objective aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Objective is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "goal",
+      "target",
+      "aim",
+      "milestone"
+    ],
+    "pronunciation": "ob-JEK-tiv",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      2,
+      5
+    ]
+  },
+  {
+    "id": "review-017",
+    "word": "Trajectory",
+    "meaning": "The path of development or progress over time",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2025-12-17",
+    "samplePhrase": "The trajectory aspect of the review helps us achieve professional excellence.",
+    "itContext": "Trajectory is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "path",
+      "course",
+      "direction",
+      "progression"
+    ],
+    "pronunciation": "truh-JEK-toh-ree",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      4
+    ]
+  },
+  {
+    "id": "review-018",
+    "word": "Calibrate",
+    "meaning": "To adjust performance expectations to align with standards",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2025-12-18",
+    "samplePhrase": "We should calibrate this initiative to drive better outcomes.",
+    "itContext": "Calibrate is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "adjust",
+      "align",
+      "tune",
+      "standardize"
+    ],
+    "pronunciation": "KAL-ih-brayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "review-019",
+    "word": "Competency",
+    "meaning": "The ability to do something successfully and efficiently",
+    "genre": "annual-reviews",
+    "difficulty": 2,
+    "dateAdded": "2025-12-19",
+    "samplePhrase": "The competency aspect of the project helps us achieve professional excellence.",
+    "itContext": "Competency is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "skill",
+      "capability",
+      "proficiency",
+      "expertise"
+    ],
+    "pronunciation": "KOM-peh-ten-see",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "review-020",
+    "word": "Aspire",
+    "meaning": "To direct one's hopes or ambitions toward achieving something",
+    "genre": "annual-reviews",
+    "difficulty": 2,
+    "dateAdded": "2025-12-20",
+    "samplePhrase": "We should aspire this quarter to drive better outcomes.",
+    "itContext": "Aspire is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "aim",
+      "strive",
+      "endeavor",
+      "seek"
+    ],
+    "pronunciation": "uh-SPY-er",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "id": "review-021",
+    "word": "Constructive",
+    "meaning": "Serving a useful purpose; intended to be helpful",
+    "genre": "annual-reviews",
+    "difficulty": 2,
+    "dateAdded": "2025-12-21",
+    "samplePhrase": "The constructive aspect of our team helps us achieve professional excellence.",
+    "itContext": "Constructive is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "helpful",
+      "positive",
+      "productive",
+      "useful"
+    ],
+    "pronunciation": "kun-STRUK-tiv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "review-022",
+    "word": "Resilience",
+    "meaning": "The capacity to recover quickly from difficulties",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2025-12-22",
+    "samplePhrase": "The resilience aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Resilience is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "toughness",
+      "adaptability",
+      "fortitude",
+      "grit"
+    ],
+    "pronunciation": "reh-ZIL-yens",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "review-023",
+    "word": "Adaptable",
+    "meaning": "Able to adjust to new conditions or situations effectively",
+    "genre": "annual-reviews",
+    "difficulty": 2,
+    "dateAdded": "2025-12-23",
+    "samplePhrase": "The adaptable aspect of the review helps us achieve professional excellence.",
+    "itContext": "Adaptable is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "flexible",
+      "versatile",
+      "adjustable",
+      "malleable"
+    ],
+    "pronunciation": "uh-DAP-tuh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "review-024",
+    "word": "Resourceful",
+    "meaning": "Having the ability to find quick and clever ways to overcome difficulties",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2025-12-24",
+    "samplePhrase": "The resourceful aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Resourceful is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "inventive",
+      "creative",
+      "ingenious",
+      "capable"
+    ],
+    "pronunciation": "rih-SORS-ful",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "review-025",
+    "word": "Autonomous",
+    "meaning": "Acting independently and with the freedom to govern oneself",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2025-12-25",
+    "samplePhrase": "The autonomous aspect of the project helps us achieve professional excellence.",
+    "itContext": "Autonomous is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "independent",
+      "self-directed",
+      "self-governing",
+      "self-reliant"
+    ],
+    "pronunciation": "aw-TON-oh-mus",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "review-026",
+    "word": "Consistent",
+    "meaning": "Acting or done in the same way over time",
+    "genre": "annual-reviews",
+    "difficulty": 2,
+    "dateAdded": "2025-12-26",
+    "samplePhrase": "The consistent aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Consistent is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "steady",
+      "reliable",
+      "uniform",
+      "dependable"
+    ],
+    "pronunciation": "kun-SIS-tent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "review-027",
+    "word": "Strategic",
+    "meaning": "Relating to a plan of action designed to achieve a long-term goal",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2025-12-27",
+    "samplePhrase": "The strategic aspect of our team helps us achieve professional excellence.",
+    "itContext": "Strategic is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "planned",
+      "calculated",
+      "deliberate",
+      "tactical"
+    ],
+    "pronunciation": "struh-TEE-jik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "review-028",
+    "word": "Stakeholder",
+    "meaning": "A person with an interest or concern in the outcome",
+    "genre": "annual-reviews",
+    "difficulty": 2,
+    "dateAdded": "2025-12-28",
+    "samplePhrase": "The stakeholder aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Stakeholder is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "participant",
+      "investor",
+      "contributor",
+      "interested party"
+    ],
+    "pronunciation": "STAYK-hohl-der",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      2,
+      5
+    ]
+  },
+  {
+    "id": "review-029",
+    "word": "Deliverable",
+    "meaning": "A tangible or intangible output produced as a result of work",
+    "genre": "annual-reviews",
+    "difficulty": 2,
+    "dateAdded": "2025-12-29",
+    "samplePhrase": "The deliverable aspect of the review helps us achieve professional excellence.",
+    "itContext": "Deliverable is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "output",
+      "product",
+      "result",
+      "artifact"
+    ],
+    "pronunciation": "deh-LIV-er-uh-bul",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "review-030",
+    "word": "Prioritize",
+    "meaning": "To determine the order of importance of items or tasks",
+    "genre": "annual-reviews",
+    "difficulty": 2,
+    "dateAdded": "2025-12-30",
+    "samplePhrase": "We should prioritize this initiative to drive better outcomes.",
+    "itContext": "Prioritize is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "rank",
+      "order",
+      "triage",
+      "categorize"
+    ],
+    "pronunciation": "pry-OR-ih-tize",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "review-031",
+    "word": "Impactful",
+    "meaning": "Having a major effect or influence on outcomes",
+    "genre": "annual-reviews",
+    "difficulty": 2,
+    "dateAdded": "2025-12-31",
+    "samplePhrase": "The impactful aspect of the project helps us achieve professional excellence.",
+    "itContext": "Impactful is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "influential",
+      "significant",
+      "meaningful",
+      "consequential"
+    ],
+    "pronunciation": "im-PAKT-ful",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      4,
+      2
+    ]
+  },
+  {
+    "id": "review-032",
+    "word": "Dependable",
+    "meaning": "Trustworthy and reliable in meeting commitments",
+    "genre": "annual-reviews",
+    "difficulty": 2,
+    "dateAdded": "2026-01-01",
+    "samplePhrase": "The dependable aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Dependable is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "reliable",
+      "trustworthy",
+      "faithful",
+      "steady"
+    ],
+    "pronunciation": "dih-PEN-duh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "review-033",
+    "word": "Conscientious",
+    "meaning": "Wishing to do what is right; thorough and attentive",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2026-01-02",
+    "samplePhrase": "The conscientious aspect of our team helps us achieve professional excellence.",
+    "itContext": "Conscientious is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "thorough",
+      "careful",
+      "diligent",
+      "scrupulous"
+    ],
+    "pronunciation": "kon-shee-EN-shus",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "review-034",
+    "word": "Innovative",
+    "meaning": "Featuring new methods; advanced and original",
+    "genre": "annual-reviews",
+    "difficulty": 2,
+    "dateAdded": "2026-01-03",
+    "samplePhrase": "The innovative aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Innovative is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "creative",
+      "original",
+      "inventive",
+      "groundbreaking"
+    ],
+    "pronunciation": "IN-oh-vay-tiv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      2,
+      2
+    ]
+  },
+  {
+    "id": "review-035",
+    "word": "Empowerment",
+    "meaning": "The process of becoming stronger and more confident",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2026-01-04",
+    "samplePhrase": "The empowerment aspect of the review helps us achieve professional excellence.",
+    "itContext": "Empowerment is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "enablement",
+      "authorization",
+      "delegation",
+      "autonomy"
+    ],
+    "pronunciation": "em-POW-er-ment",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      4
+    ]
+  },
+  {
+    "id": "review-036",
+    "word": "Candid",
+    "meaning": "Truthful and straightforward; frank",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2026-01-05",
+    "samplePhrase": "The candid aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Candid is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "honest",
+      "frank",
+      "direct",
+      "forthright"
+    ],
+    "pronunciation": "KAN-did",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      4
+    ]
+  },
+  {
+    "id": "review-037",
+    "word": "Tangible",
+    "meaning": "Clear and definite; able to be shown or touched",
+    "genre": "annual-reviews",
+    "difficulty": 2,
+    "dateAdded": "2026-01-06",
+    "samplePhrase": "The tangible aspect of the project helps us achieve professional excellence.",
+    "itContext": "Tangible is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "concrete",
+      "real",
+      "measurable",
+      "definite"
+    ],
+    "pronunciation": "TAN-jih-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "review-038",
+    "word": "Substantive",
+    "meaning": "Having a firm basis in reality; meaningful",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2026-01-07",
+    "samplePhrase": "The substantive aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Substantive is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "meaningful",
+      "significant",
+      "substantial",
+      "material"
+    ],
+    "pronunciation": "sub-STAN-tiv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      4
+    ]
+  },
+  {
+    "id": "review-039",
+    "word": "Commensurate",
+    "meaning": "Corresponding in size, extent, or degree",
+    "genre": "annual-reviews",
+    "difficulty": 4,
+    "dateAdded": "2026-01-08",
+    "samplePhrase": "The commensurate aspect of our team helps us achieve professional excellence.",
+    "itContext": "Commensurate is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "proportional",
+      "corresponding",
+      "equivalent",
+      "matching"
+    ],
+    "pronunciation": "koh-MEN-ser-it",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "review-040",
+    "word": "Acumen",
+    "meaning": "The ability to make good judgments and quick decisions",
+    "genre": "annual-reviews",
+    "difficulty": 4,
+    "dateAdded": "2026-01-09",
+    "samplePhrase": "The acumen aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Acumen is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "insight",
+      "shrewdness",
+      "discernment",
+      "sagacity"
+    ],
+    "pronunciation": "AK-yoo-men",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      2,
+      4
+    ]
+  },
+  {
+    "id": "review-041",
+    "word": "Enumerate",
+    "meaning": "To mention or list items one by one in detail",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2026-01-10",
+    "samplePhrase": "We should enumerate the review to drive better outcomes.",
+    "itContext": "Enumerate is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "list",
+      "itemize",
+      "catalog",
+      "detail"
+    ],
+    "pronunciation": "ee-NOO-meh-rayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      4,
+      2
+    ]
+  },
+  {
+    "id": "review-042",
+    "word": "Corroborate",
+    "meaning": "To confirm or give support to a statement with evidence",
+    "genre": "annual-reviews",
+    "difficulty": 4,
+    "dateAdded": "2026-01-11",
+    "samplePhrase": "We should corroborate this initiative to drive better outcomes.",
+    "itContext": "Corroborate is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "confirm",
+      "verify",
+      "validate",
+      "substantiate"
+    ],
+    "pronunciation": "koh-ROB-oh-rayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "review-043",
+    "word": "Exemplify",
+    "meaning": "To be a typical example of something; to illustrate",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2026-01-12",
+    "samplePhrase": "We should exemplify the project to drive better outcomes.",
+    "itContext": "Exemplify is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "illustrate",
+      "demonstrate",
+      "typify",
+      "embody"
+    ],
+    "pronunciation": "eg-ZEM-plih-fy",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      5
+    ]
+  },
+  {
+    "id": "review-044",
+    "word": "Facilitate",
+    "meaning": "To make an action or process easy or easier",
+    "genre": "annual-reviews",
+    "difficulty": 2,
+    "dateAdded": "2026-01-13",
+    "samplePhrase": "We should facilitate this quarter to drive better outcomes.",
+    "itContext": "Facilitate is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "enable",
+      "ease",
+      "assist",
+      "streamline"
+    ],
+    "pronunciation": "fuh-SIL-ih-tayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "review-045",
+    "word": "Holistic",
+    "meaning": "Characterized by the treatment of the whole rather than parts",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2026-01-14",
+    "samplePhrase": "The holistic aspect of our team helps us achieve professional excellence.",
+    "itContext": "Holistic is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "comprehensive",
+      "integrated",
+      "complete",
+      "all-encompassing"
+    ],
+    "pronunciation": "hoh-LIS-tik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "review-046",
+    "word": "Intrinsic",
+    "meaning": "Belonging naturally; essential to something",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2026-01-15",
+    "samplePhrase": "The intrinsic aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Intrinsic is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "inherent",
+      "innate",
+      "fundamental",
+      "core"
+    ],
+    "pronunciation": "in-TRIN-sik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "review-047",
+    "word": "Judiciously",
+    "meaning": "With good judgment or sense",
+    "genre": "annual-reviews",
+    "difficulty": 4,
+    "dateAdded": "2026-01-16",
+    "samplePhrase": "The judiciously aspect of the review helps us achieve professional excellence.",
+    "itContext": "Judiciously is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "wisely",
+      "prudently",
+      "sensibly",
+      "thoughtfully"
+    ],
+    "pronunciation": "joo-DISH-us-lee",
+    "partOfSpeech": "adverb",
+    "ratings": [
+      4,
+      2
+    ]
+  },
+  {
+    "id": "review-048",
+    "word": "Magnify",
+    "meaning": "To increase the significance or visibility of achievements",
+    "genre": "annual-reviews",
+    "difficulty": 2,
+    "dateAdded": "2026-01-17",
+    "samplePhrase": "We should magnify this initiative to drive better outcomes.",
+    "itContext": "Magnify is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "amplify",
+      "enhance",
+      "highlight",
+      "elevate"
+    ],
+    "pronunciation": "MAG-nih-fy",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "review-049",
+    "word": "Navigate",
+    "meaning": "To find one's way through complex situations successfully",
+    "genre": "annual-reviews",
+    "difficulty": 2,
+    "dateAdded": "2026-01-18",
+    "samplePhrase": "We should navigate the project to drive better outcomes.",
+    "itContext": "Navigate is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "steer",
+      "guide",
+      "maneuver",
+      "traverse"
+    ],
+    "pronunciation": "NAV-ih-gayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "review-050",
+    "word": "Optimize",
+    "meaning": "To make the best or most effective use of resources",
+    "genre": "annual-reviews",
+    "difficulty": 2,
+    "dateAdded": "2026-01-19",
+    "samplePhrase": "We should optimize this quarter to drive better outcomes.",
+    "itContext": "Optimize is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "improve",
+      "enhance",
+      "refine",
+      "maximize"
+    ],
+    "pronunciation": "OP-tih-mize",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      5
+    ]
+  },
+  {
+    "id": "review-051",
+    "word": "Perpetuate",
+    "meaning": "To make something continue indefinitely; to sustain",
+    "genre": "annual-reviews",
+    "difficulty": 4,
+    "dateAdded": "2026-01-20",
+    "samplePhrase": "We should perpetuate our team to drive better outcomes.",
+    "itContext": "Perpetuate is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "maintain",
+      "sustain",
+      "continue",
+      "preserve"
+    ],
+    "pronunciation": "per-PECH-oo-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "review-052",
+    "word": "Quintessential",
+    "meaning": "Representing the most perfect example of a quality",
+    "genre": "annual-reviews",
+    "difficulty": 4,
+    "dateAdded": "2026-01-21",
+    "samplePhrase": "The quintessential aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Quintessential is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "ideal",
+      "definitive",
+      "classic",
+      "archetypal"
+    ],
+    "pronunciation": "kwin-teh-SEN-shul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      5
+    ]
+  },
+  {
+    "id": "review-053",
+    "word": "Reciprocate",
+    "meaning": "To respond to a gesture or action with a corresponding one",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2026-01-22",
+    "samplePhrase": "We should reciprocate the review to drive better outcomes.",
+    "itContext": "Reciprocate is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "return",
+      "repay",
+      "exchange",
+      "match"
+    ],
+    "pronunciation": "rih-SIP-roh-kayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      4
+    ]
+  },
+  {
+    "id": "review-054",
+    "word": "Substantiate",
+    "meaning": "To provide evidence to support or prove the truth of something",
+    "genre": "annual-reviews",
+    "difficulty": 4,
+    "dateAdded": "2026-01-23",
+    "samplePhrase": "We should substantiate this initiative to drive better outcomes.",
+    "itContext": "Substantiate is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "prove",
+      "verify",
+      "confirm",
+      "validate"
+    ],
+    "pronunciation": "sub-STAN-shee-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "review-055",
+    "word": "Tenacious",
+    "meaning": "Tending to keep a firm hold; persistent and determined",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2026-01-24",
+    "samplePhrase": "The tenacious aspect of the project helps us achieve professional excellence.",
+    "itContext": "Tenacious is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "persistent",
+      "determined",
+      "resolute",
+      "dogged"
+    ],
+    "pronunciation": "teh-NAY-shus",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "review-056",
+    "word": "Underscore",
+    "meaning": "To emphasize the importance or significance of something",
+    "genre": "annual-reviews",
+    "difficulty": 2,
+    "dateAdded": "2026-01-25",
+    "samplePhrase": "We should underscore this quarter to drive better outcomes.",
+    "itContext": "Underscore is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "emphasize",
+      "highlight",
+      "stress",
+      "accentuate"
+    ],
+    "pronunciation": "UN-der-skor",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5,
+      2
+    ]
+  },
+  {
+    "id": "review-057",
+    "word": "Validate",
+    "meaning": "To check or prove the accuracy or worth of something",
+    "genre": "annual-reviews",
+    "difficulty": 2,
+    "dateAdded": "2026-01-26",
+    "samplePhrase": "We should validate our team to drive better outcomes.",
+    "itContext": "Validate is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "confirm",
+      "verify",
+      "authenticate",
+      "corroborate"
+    ],
+    "pronunciation": "VAL-ih-dayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "review-058",
+    "word": "Watershed",
+    "meaning": "A turning point or event marking a significant change",
+    "genre": "annual-reviews",
+    "difficulty": 4,
+    "dateAdded": "2026-01-27",
+    "samplePhrase": "The watershed aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Watershed is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "milestone",
+      "turning point",
+      "landmark",
+      "pivotal moment"
+    ],
+    "pronunciation": "WAW-ter-shed",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      5,
+      3
+    ]
+  },
+  {
+    "id": "review-059",
+    "word": "Expedient",
+    "meaning": "Suitable for achieving a particular end in a given circumstance",
+    "genre": "annual-reviews",
+    "difficulty": 4,
+    "dateAdded": "2026-01-28",
+    "samplePhrase": "The expedient aspect of the review helps us achieve professional excellence.",
+    "itContext": "Expedient is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "practical",
+      "advantageous",
+      "convenient",
+      "pragmatic"
+    ],
+    "pronunciation": "ek-SPEE-dee-ent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "review-060",
+    "word": "Yield",
+    "meaning": "To produce or generate results from effort",
+    "genre": "annual-reviews",
+    "difficulty": 2,
+    "dateAdded": "2026-01-29",
+    "samplePhrase": "We should yield this initiative to drive better outcomes.",
+    "itContext": "Yield is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "produce",
+      "generate",
+      "deliver",
+      "return"
+    ],
+    "pronunciation": "YEELD",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "review-061",
+    "word": "Appraise",
+    "meaning": "To assess the value or quality of someone's work",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2026-01-30",
+    "samplePhrase": "We should appraise the project to drive better outcomes.",
+    "itContext": "Appraise is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "evaluate",
+      "assess",
+      "judge",
+      "rate"
+    ],
+    "pronunciation": "uh-PRAYZ",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "review-062",
+    "word": "Bilateral",
+    "meaning": "Involving two parties or sides in discussion",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2026-01-31",
+    "samplePhrase": "The bilateral aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Bilateral is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "two-sided",
+      "mutual",
+      "reciprocal",
+      "joint"
+    ],
+    "pronunciation": "by-LAT-er-ul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "review-063",
+    "word": "Convene",
+    "meaning": "To come together for a meeting or activity",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2026-02-01",
+    "samplePhrase": "We should convene our team to drive better outcomes.",
+    "itContext": "Convene is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "assemble",
+      "gather",
+      "meet",
+      "congregate"
+    ],
+    "pronunciation": "kun-VEEN",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "review-064",
+    "word": "Deliberate",
+    "meaning": "Done consciously and intentionally; careful and thorough",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2026-02-02",
+    "samplePhrase": "The deliberate aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Deliberate is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "intentional",
+      "conscious",
+      "thoughtful",
+      "calculated"
+    ],
+    "pronunciation": "deh-LIB-er-it",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "review-065",
+    "word": "Efficacy",
+    "meaning": "The ability to produce a desired or intended result",
+    "genre": "annual-reviews",
+    "difficulty": 4,
+    "dateAdded": "2026-02-03",
+    "samplePhrase": "The efficacy aspect of the review helps us achieve professional excellence.",
+    "itContext": "Efficacy is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "effectiveness",
+      "potency",
+      "efficiency",
+      "capability"
+    ],
+    "pronunciation": "EF-ih-kuh-see",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "review-066",
+    "word": "Fortify",
+    "meaning": "To strengthen something against challenges or setbacks",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2026-02-04",
+    "samplePhrase": "We should fortify this initiative to drive better outcomes.",
+    "itContext": "Fortify is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "strengthen",
+      "reinforce",
+      "bolster",
+      "shore up"
+    ],
+    "pronunciation": "FOR-tih-fy",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "review-067",
+    "word": "Galvanize",
+    "meaning": "To shock or excite someone into taking action",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2026-02-05",
+    "samplePhrase": "We should galvanize the project to drive better outcomes.",
+    "itContext": "Galvanize is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "motivate",
+      "inspire",
+      "energize",
+      "spur"
+    ],
+    "pronunciation": "GAL-vuh-nize",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      5
+    ]
+  },
+  {
+    "id": "review-068",
+    "word": "Harmonize",
+    "meaning": "To bring different elements into a consistent whole",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2026-02-06",
+    "samplePhrase": "We should harmonize this quarter to drive better outcomes.",
+    "itContext": "Harmonize is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "align",
+      "synchronize",
+      "unify",
+      "coordinate"
+    ],
+    "pronunciation": "HAR-moh-nize",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      2,
+      5
+    ]
+  },
+  {
+    "id": "review-069",
+    "word": "Incrementally",
+    "meaning": "In a way that increases or develops by small amounts",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2026-02-07",
+    "samplePhrase": "The incrementally aspect of our team helps us achieve professional excellence.",
+    "itContext": "Incrementally is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "gradually",
+      "progressively",
+      "step-by-step",
+      "steadily"
+    ],
+    "pronunciation": "in-kreh-MEN-tul-ee",
+    "partOfSpeech": "adverb",
+    "ratings": [
+      3,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "review-070",
+    "word": "Juxtapose",
+    "meaning": "To place things side by side for comparison",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2026-02-08",
+    "samplePhrase": "We should juxtapose the discussion to drive better outcomes.",
+    "itContext": "Juxtapose is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "compare",
+      "contrast",
+      "set alongside",
+      "place beside"
+    ],
+    "pronunciation": "JUK-stuh-pohz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      5
+    ]
+  },
+  {
+    "id": "review-071",
+    "word": "Kinetic",
+    "meaning": "Relating to or resulting from motion and energy",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2026-02-09",
+    "samplePhrase": "The kinetic aspect of the review helps us achieve professional excellence.",
+    "itContext": "Kinetic is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "dynamic",
+      "active",
+      "energetic",
+      "moving"
+    ],
+    "pronunciation": "kih-NET-ik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "review-072",
+    "word": "Laudable",
+    "meaning": "Deserving praise and commendation",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2026-02-10",
+    "samplePhrase": "The laudable aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Laudable is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "praiseworthy",
+      "commendable",
+      "admirable",
+      "meritorious"
+    ],
+    "pronunciation": "LAW-duh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "review-073",
+    "word": "Mitigate",
+    "meaning": "To make less severe, serious, or painful",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2026-02-11",
+    "samplePhrase": "We should mitigate the project to drive better outcomes.",
+    "itContext": "Mitigate is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "reduce",
+      "lessen",
+      "alleviate",
+      "minimize"
+    ],
+    "pronunciation": "MIT-ih-gayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      2,
+      2
+    ]
+  },
+  {
+    "id": "review-074",
+    "word": "Nuanced",
+    "meaning": "Characterized by subtle shades of meaning or expression",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2026-02-12",
+    "samplePhrase": "The nuanced aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Nuanced is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "subtle",
+      "refined",
+      "detailed",
+      "sophisticated"
+    ],
+    "pronunciation": "NOO-ahnst",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "review-075",
+    "word": "Orchestrate",
+    "meaning": "To arrange or direct elements for a harmonious outcome",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2026-02-13",
+    "samplePhrase": "We should orchestrate our team to drive better outcomes.",
+    "itContext": "Orchestrate is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "coordinate",
+      "organize",
+      "arrange",
+      "manage"
+    ],
+    "pronunciation": "OR-keh-strayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "review-076",
+    "word": "Precipitate",
+    "meaning": "To cause something to happen suddenly or sooner than expected",
+    "genre": "annual-reviews",
+    "difficulty": 4,
+    "dateAdded": "2026-02-14",
+    "samplePhrase": "We should precipitate the discussion to drive better outcomes.",
+    "itContext": "Precipitate is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "trigger",
+      "cause",
+      "prompt",
+      "accelerate"
+    ],
+    "pronunciation": "preh-SIP-ih-tayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "review-077",
+    "word": "Rationale",
+    "meaning": "A set of reasons or logical basis for an action",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2026-02-15",
+    "samplePhrase": "The rationale aspect of the review helps us achieve professional excellence.",
+    "itContext": "Rationale is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "reasoning",
+      "logic",
+      "justification",
+      "basis"
+    ],
+    "pronunciation": "RASH-uh-nal",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "review-078",
+    "word": "Synthesize",
+    "meaning": "To combine different ideas into a coherent whole",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2026-02-16",
+    "samplePhrase": "We should synthesize this initiative to drive better outcomes.",
+    "itContext": "Synthesize is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "combine",
+      "merge",
+      "integrate",
+      "unify"
+    ],
+    "pronunciation": "SIN-theh-size",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "review-079",
+    "word": "Trajectory",
+    "meaning": "The course of development or progress over time",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2026-02-17",
+    "samplePhrase": "The trajectory aspect of the project helps us achieve professional excellence.",
+    "itContext": "Trajectory is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "path",
+      "direction",
+      "course",
+      "progression"
+    ],
+    "pronunciation": "truh-JEK-toh-ree",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      5,
+      2
+    ]
+  },
+  {
+    "id": "review-080",
+    "word": "Upskill",
+    "meaning": "To teach or learn additional skills to improve capability",
+    "genre": "annual-reviews",
+    "difficulty": 2,
+    "dateAdded": "2026-02-18",
+    "samplePhrase": "We should upskill this quarter to drive better outcomes.",
+    "itContext": "Upskill is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "train",
+      "develop",
+      "advance",
+      "enhance"
+    ],
+    "pronunciation": "UP-skil",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      4
+    ]
+  },
+  {
+    "id": "review-081",
+    "word": "Versatile",
+    "meaning": "Able to adapt or be adapted to many different functions",
+    "genre": "annual-reviews",
+    "difficulty": 2,
+    "dateAdded": "2026-02-19",
+    "samplePhrase": "The versatile aspect of our team helps us achieve professional excellence.",
+    "itContext": "Versatile is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "adaptable",
+      "flexible",
+      "multifaceted",
+      "all-around"
+    ],
+    "pronunciation": "VER-suh-til",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "review-082",
+    "word": "Wherewithal",
+    "meaning": "The means or resources needed to accomplish something",
+    "genre": "annual-reviews",
+    "difficulty": 4,
+    "dateAdded": "2026-02-20",
+    "samplePhrase": "The wherewithal aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Wherewithal is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "resources",
+      "means",
+      "capability",
+      "capacity"
+    ],
+    "pronunciation": "WAIR-with-awl",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      5,
+      3
+    ]
+  },
+  {
+    "id": "review-083",
+    "word": "Catalyze",
+    "meaning": "To cause or accelerate a process or change",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2026-02-21",
+    "samplePhrase": "We should catalyze the review to drive better outcomes.",
+    "itContext": "Catalyze is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "spark",
+      "trigger",
+      "accelerate",
+      "stimulate"
+    ],
+    "pronunciation": "KAT-uh-lize",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "review-084",
+    "word": "Discerning",
+    "meaning": "Having or showing good judgment; perceptive",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2026-02-22",
+    "samplePhrase": "The discerning aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Discerning is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "perceptive",
+      "astute",
+      "insightful",
+      "judicious"
+    ],
+    "pronunciation": "dih-SER-ning",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "review-085",
+    "word": "Efficacious",
+    "meaning": "Successful in producing a desired result",
+    "genre": "annual-reviews",
+    "difficulty": 4,
+    "dateAdded": "2026-02-23",
+    "samplePhrase": "The efficacious aspect of the project helps us achieve professional excellence.",
+    "itContext": "Efficacious is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "effective",
+      "productive",
+      "successful",
+      "potent"
+    ],
+    "pronunciation": "ef-ih-KAY-shus",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      2,
+      5
+    ]
+  },
+  {
+    "id": "review-086",
+    "word": "Formidable",
+    "meaning": "Inspiring respect through being impressively capable",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2026-02-24",
+    "samplePhrase": "The formidable aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Formidable is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "impressive",
+      "powerful",
+      "remarkable",
+      "commanding"
+    ],
+    "pronunciation": "FOR-mih-duh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "review-087",
+    "word": "Granular",
+    "meaning": "Characterized by a fine level of detail",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2026-02-25",
+    "samplePhrase": "The granular aspect of our team helps us achieve professional excellence.",
+    "itContext": "Granular is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "detailed",
+      "specific",
+      "fine-grained",
+      "precise"
+    ],
+    "pronunciation": "GRAN-yoo-ler",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "review-088",
+    "word": "Holistically",
+    "meaning": "In a way that considers the whole rather than individual parts",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2026-02-26",
+    "samplePhrase": "The holistically aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Holistically is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "comprehensively",
+      "completely",
+      "entirely",
+      "integrally"
+    ],
+    "pronunciation": "hoh-LIS-tik-lee",
+    "partOfSpeech": "adverb",
+    "ratings": [
+      5,
+      5
+    ]
+  },
+  {
+    "id": "review-089",
+    "word": "Inaugurate",
+    "meaning": "To begin or introduce something new formally",
+    "genre": "annual-reviews",
+    "difficulty": 4,
+    "dateAdded": "2026-02-27",
+    "samplePhrase": "We should inaugurate the review to drive better outcomes.",
+    "itContext": "Inaugurate is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "launch",
+      "commence",
+      "initiate",
+      "establish"
+    ],
+    "pronunciation": "in-AW-gyoo-rayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      5
+    ]
+  },
+  {
+    "id": "review-090",
+    "word": "Judiciously",
+    "meaning": "In a way that shows good judgment and sense",
+    "genre": "annual-reviews",
+    "difficulty": 4,
+    "dateAdded": "2026-02-28",
+    "samplePhrase": "The judiciously aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Judiciously is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "wisely",
+      "prudently",
+      "carefully",
+      "thoughtfully"
+    ],
+    "pronunciation": "joo-DISH-us-lee",
+    "partOfSpeech": "adverb",
+    "ratings": [
+      4,
+      5,
+      5
+    ]
+  },
+  {
+    "id": "review-091",
+    "word": "Kinesthetically",
+    "meaning": "Through physical movement and hands-on experience",
+    "genre": "annual-reviews",
+    "difficulty": 5,
+    "dateAdded": "2026-03-01",
+    "samplePhrase": "The kinesthetically aspect of the project helps us achieve professional excellence.",
+    "itContext": "Kinesthetically is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "physically",
+      "hands-on",
+      "tactilely",
+      "experientially"
+    ],
+    "pronunciation": "kin-es-THET-ik-lee",
+    "partOfSpeech": "adverb",
+    "ratings": [
+      5,
+      5
+    ]
+  },
+  {
+    "id": "review-092",
+    "word": "Longitudinal",
+    "meaning": "Observed over a long period of time",
+    "genre": "annual-reviews",
+    "difficulty": 4,
+    "dateAdded": "2026-03-02",
+    "samplePhrase": "The longitudinal aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Longitudinal is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "long-term",
+      "extended",
+      "sustained",
+      "ongoing"
+    ],
+    "pronunciation": "lon-jih-TOO-dih-nul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      2,
+      4
+    ]
+  },
+  {
+    "id": "review-093",
+    "word": "Measurable",
+    "meaning": "Able to be assessed in quantifiable terms",
+    "genre": "annual-reviews",
+    "difficulty": 2,
+    "dateAdded": "2026-03-03",
+    "samplePhrase": "The measurable aspect of our team helps us achieve professional excellence.",
+    "itContext": "Measurable is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "quantifiable",
+      "assessable",
+      "calculable",
+      "trackable"
+    ],
+    "pronunciation": "MEH-zhur-uh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "review-094",
+    "word": "Notable",
+    "meaning": "Worthy of attention or remark; significant",
+    "genre": "annual-reviews",
+    "difficulty": 2,
+    "dateAdded": "2026-03-04",
+    "samplePhrase": "The notable aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Notable is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "remarkable",
+      "significant",
+      "distinguished",
+      "noteworthy"
+    ],
+    "pronunciation": "NOH-tuh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "review-095",
+    "word": "Overarching",
+    "meaning": "Comprehensive; all-embracing in scope",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2026-03-05",
+    "samplePhrase": "The overarching aspect of the review helps us achieve professional excellence.",
+    "itContext": "Overarching is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "comprehensive",
+      "broad",
+      "encompassing",
+      "all-inclusive"
+    ],
+    "pronunciation": "OH-ver-ar-ching",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "review-096",
+    "word": "Pinnacle",
+    "meaning": "The highest point of achievement or development",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2026-03-06",
+    "samplePhrase": "The pinnacle aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Pinnacle is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "peak",
+      "summit",
+      "zenith",
+      "apex"
+    ],
+    "pronunciation": "PIN-uh-kul",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "review-097",
+    "word": "Quintessence",
+    "meaning": "The most perfect embodiment of something",
+    "genre": "annual-reviews",
+    "difficulty": 4,
+    "dateAdded": "2026-03-07",
+    "samplePhrase": "The quintessence aspect of the project helps us achieve professional excellence.",
+    "itContext": "Quintessence is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "epitome",
+      "essence",
+      "ideal",
+      "embodiment"
+    ],
+    "pronunciation": "kwin-TES-ens",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "review-098",
+    "word": "Robust",
+    "meaning": "Strong and effective in all or most situations",
+    "genre": "annual-reviews",
+    "difficulty": 2,
+    "dateAdded": "2026-03-08",
+    "samplePhrase": "The robust aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Robust is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "strong",
+      "solid",
+      "vigorous",
+      "powerful"
+    ],
+    "pronunciation": "roh-BUST",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      5
+    ]
+  },
+  {
+    "id": "review-099",
+    "word": "Stakeholder",
+    "meaning": "Someone with a vested interest in a project's success",
+    "genre": "annual-reviews",
+    "difficulty": 2,
+    "dateAdded": "2026-03-08",
+    "samplePhrase": "The stakeholder aspect of our team helps us achieve professional excellence.",
+    "itContext": "Stakeholder is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "participant",
+      "collaborator",
+      "contributor",
+      "partner"
+    ],
+    "pronunciation": "STAYK-hohl-der",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "review-100",
+    "word": "Trajectory",
+    "meaning": "A path followed during professional development",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2026-03-09",
+    "samplePhrase": "The trajectory aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Trajectory is valuable vocabulary for IT professionals in annual reviews contexts.",
+    "alternativeWords": [
+      "career path",
+      "growth arc",
+      "progression",
+      "direction"
+    ],
+    "pronunciation": "truh-JEK-toh-ree",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      5
+    ]
+  }
+]

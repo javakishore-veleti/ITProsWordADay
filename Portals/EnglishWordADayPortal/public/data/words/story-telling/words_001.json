@@ -1,0 +1,2027 @@
+[
+  {
+    "id": "story-001",
+    "word": "Narrative",
+    "meaning": "A spoken or written account of connected events",
+    "genre": "story-telling",
+    "difficulty": 2,
+    "dateAdded": "2025-12-01",
+    "samplePhrase": "The narrative aspect of the project helps us achieve professional excellence.",
+    "itContext": "Narrative is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "story",
+      "account",
+      "tale",
+      "chronicle"
+    ],
+    "pronunciation": "NAR-uh-tiv",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      5,
+      3
+    ]
+  },
+  {
+    "id": "story-002",
+    "word": "Compelling",
+    "meaning": "Evoking interest or attention in an irresistible way",
+    "genre": "story-telling",
+    "difficulty": 2,
+    "dateAdded": "2025-12-02",
+    "samplePhrase": "The compelling aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Compelling is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "captivating",
+      "gripping",
+      "engaging",
+      "riveting"
+    ],
+    "pronunciation": "kum-PEL-ing",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "story-003",
+    "word": "Anecdote",
+    "meaning": "A short amusing or interesting story about a real incident",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2025-12-03",
+    "samplePhrase": "The anecdote aspect of our team helps us achieve professional excellence.",
+    "itContext": "Anecdote is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "story",
+      "tale",
+      "vignette",
+      "account"
+    ],
+    "pronunciation": "AN-ek-doht",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      2
+    ]
+  },
+  {
+    "id": "story-004",
+    "word": "Metaphor",
+    "meaning": "A figure of speech applied to something not literally applicable",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2025-12-04",
+    "samplePhrase": "The metaphor aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Metaphor is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "comparison",
+      "analogy",
+      "symbol",
+      "figure of speech"
+    ],
+    "pronunciation": "MET-uh-for",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      2,
+      5
+    ]
+  },
+  {
+    "id": "story-005",
+    "word": "Cadence",
+    "meaning": "The rise and fall of the voice in speaking; rhythmic flow",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2025-12-05",
+    "samplePhrase": "The cadence aspect of the review helps us achieve professional excellence.",
+    "itContext": "Cadence is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "rhythm",
+      "tempo",
+      "beat",
+      "flow"
+    ],
+    "pronunciation": "KAY-dens",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "story-006",
+    "word": "Protagonist",
+    "meaning": "The leading character or hero in a story or presentation",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2025-12-06",
+    "samplePhrase": "The protagonist aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Protagonist is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "hero",
+      "main character",
+      "lead",
+      "central figure"
+    ],
+    "pronunciation": "proh-TAG-oh-nist",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      4
+    ]
+  },
+  {
+    "id": "story-007",
+    "word": "Denouement",
+    "meaning": "The final outcome or resolution of a story",
+    "genre": "story-telling",
+    "difficulty": 5,
+    "dateAdded": "2025-12-07",
+    "samplePhrase": "The denouement aspect of the project helps us achieve professional excellence.",
+    "itContext": "Denouement is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "resolution",
+      "conclusion",
+      "outcome",
+      "finale"
+    ],
+    "pronunciation": "day-noo-MAH",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      2
+    ]
+  },
+  {
+    "id": "story-008",
+    "word": "Allegory",
+    "meaning": "A story with a hidden meaning, typically a moral or political one",
+    "genre": "story-telling",
+    "difficulty": 4,
+    "dateAdded": "2025-12-08",
+    "samplePhrase": "The allegory aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Allegory is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "parable",
+      "fable",
+      "symbol",
+      "metaphorical tale"
+    ],
+    "pronunciation": "AL-eh-gor-ee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      4,
+      2
+    ]
+  },
+  {
+    "id": "story-009",
+    "word": "Eloquent",
+    "meaning": "Fluent or persuasive in speaking or writing",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2025-12-09",
+    "samplePhrase": "The eloquent aspect of our team helps us achieve professional excellence.",
+    "itContext": "Eloquent is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "articulate",
+      "expressive",
+      "fluent",
+      "persuasive"
+    ],
+    "pronunciation": "EL-oh-kwent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "story-010",
+    "word": "Evocative",
+    "meaning": "Bringing strong images, memories, or feelings to mind",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2025-12-10",
+    "samplePhrase": "The evocative aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Evocative is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "suggestive",
+      "resonant",
+      "vivid",
+      "expressive"
+    ],
+    "pronunciation": "ih-VOK-uh-tiv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      2
+    ]
+  },
+  {
+    "id": "story-011",
+    "word": "Exposition",
+    "meaning": "The introductory part that provides background information",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2025-12-11",
+    "samplePhrase": "The exposition aspect of the review helps us achieve professional excellence.",
+    "itContext": "Exposition is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "introduction",
+      "background",
+      "setup",
+      "preamble"
+    ],
+    "pronunciation": "ek-spoh-ZIH-shun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "story-012",
+    "word": "Foreshadow",
+    "meaning": "To be a warning or indication of a future event",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2025-12-12",
+    "samplePhrase": "We should foreshadow this initiative to drive better outcomes.",
+    "itContext": "Foreshadow is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "hint at",
+      "prefigure",
+      "suggest",
+      "presage"
+    ],
+    "pronunciation": "for-SHAD-oh",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "story-013",
+    "word": "Gravitas",
+    "meaning": "Seriousness and dignity of manner that commands respect",
+    "genre": "story-telling",
+    "difficulty": 4,
+    "dateAdded": "2025-12-13",
+    "samplePhrase": "The gravitas aspect of the project helps us achieve professional excellence.",
+    "itContext": "Gravitas is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "weight",
+      "dignity",
+      "seriousness",
+      "authority"
+    ],
+    "pronunciation": "GRAV-ih-tahs",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      5
+    ]
+  },
+  {
+    "id": "story-014",
+    "word": "Hyperbole",
+    "meaning": "Exaggerated statements not meant to be taken literally",
+    "genre": "story-telling",
+    "difficulty": 4,
+    "dateAdded": "2025-12-14",
+    "samplePhrase": "The hyperbole aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Hyperbole is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "exaggeration",
+      "overstatement",
+      "amplification",
+      "embellishment"
+    ],
+    "pronunciation": "hy-PER-boh-lee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "story-015",
+    "word": "Intrigue",
+    "meaning": "To arouse the curiosity or interest of the audience",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2025-12-15",
+    "samplePhrase": "We should intrigue our team to drive better outcomes.",
+    "itContext": "Intrigue is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "fascinate",
+      "captivate",
+      "entice",
+      "allure"
+    ],
+    "pronunciation": "in-TREEG",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      2,
+      5
+    ]
+  },
+  {
+    "id": "story-016",
+    "word": "Juxtapose",
+    "meaning": "To place contrasting elements side by side for dramatic effect",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2025-12-16",
+    "samplePhrase": "We should juxtapose the discussion to drive better outcomes.",
+    "itContext": "Juxtapose is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "contrast",
+      "compare",
+      "pair",
+      "position together"
+    ],
+    "pronunciation": "JUK-stuh-pohz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "story-017",
+    "word": "Kinetic",
+    "meaning": "Full of energy and movement; dynamic in delivery",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2025-12-17",
+    "samplePhrase": "The kinetic aspect of the review helps us achieve professional excellence.",
+    "itContext": "Kinetic is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "dynamic",
+      "energetic",
+      "lively",
+      "animated"
+    ],
+    "pronunciation": "kih-NET-ik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "story-018",
+    "word": "Lore",
+    "meaning": "A body of traditions and knowledge passed down",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2025-12-18",
+    "samplePhrase": "The lore aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Lore is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "knowledge",
+      "tradition",
+      "legend",
+      "folklore"
+    ],
+    "pronunciation": "LOR",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "story-019",
+    "word": "Motif",
+    "meaning": "A recurring element that has symbolic significance",
+    "genre": "story-telling",
+    "difficulty": 4,
+    "dateAdded": "2025-12-19",
+    "samplePhrase": "The motif aspect of the project helps us achieve professional excellence.",
+    "itContext": "Motif is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "theme",
+      "pattern",
+      "element",
+      "symbol"
+    ],
+    "pronunciation": "moh-TEEF",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "story-020",
+    "word": "Nuance",
+    "meaning": "A subtle distinction in meaning, tone, or expression",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2025-12-20",
+    "samplePhrase": "The nuance aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Nuance is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "subtlety",
+      "shade",
+      "distinction",
+      "refinement"
+    ],
+    "pronunciation": "NOO-ahns",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "story-021",
+    "word": "Odyssey",
+    "meaning": "A long and eventful journey of discovery or adventure",
+    "genre": "story-telling",
+    "difficulty": 4,
+    "dateAdded": "2025-12-21",
+    "samplePhrase": "The odyssey aspect of our team helps us achieve professional excellence.",
+    "itContext": "Odyssey is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "journey",
+      "adventure",
+      "expedition",
+      "quest"
+    ],
+    "pronunciation": "OD-ih-see",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      5,
+      3
+    ]
+  },
+  {
+    "id": "story-022",
+    "word": "Parable",
+    "meaning": "A simple story used to illustrate a moral or lesson",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2025-12-22",
+    "samplePhrase": "The parable aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Parable is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "fable",
+      "allegory",
+      "tale",
+      "moral story"
+    ],
+    "pronunciation": "PAIR-uh-bul",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "story-023",
+    "word": "Quintessential",
+    "meaning": "Representing the most perfect example of something",
+    "genre": "story-telling",
+    "difficulty": 4,
+    "dateAdded": "2025-12-23",
+    "samplePhrase": "The quintessential aspect of the review helps us achieve professional excellence.",
+    "itContext": "Quintessential is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "ideal",
+      "perfect",
+      "definitive",
+      "classic"
+    ],
+    "pronunciation": "kwin-teh-SEN-shul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5,
+      3
+    ]
+  },
+  {
+    "id": "story-024",
+    "word": "Resonance",
+    "meaning": "The quality of evoking images, memories, and emotions",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2025-12-24",
+    "samplePhrase": "The resonance aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Resonance is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "impact",
+      "echo",
+      "significance",
+      "depth"
+    ],
+    "pronunciation": "REZ-oh-nans",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      2,
+      5
+    ]
+  },
+  {
+    "id": "story-025",
+    "word": "Suspense",
+    "meaning": "A state of excited uncertainty about what will happen",
+    "genre": "story-telling",
+    "difficulty": 2,
+    "dateAdded": "2025-12-25",
+    "samplePhrase": "The suspense aspect of the project helps us achieve professional excellence.",
+    "itContext": "Suspense is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "tension",
+      "anticipation",
+      "uncertainty",
+      "drama"
+    ],
+    "pronunciation": "suh-SPENS",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "id": "story-026",
+    "word": "Thematic",
+    "meaning": "Relating to or based on a particular subject or theme",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2025-12-26",
+    "samplePhrase": "The thematic aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Thematic is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "topical",
+      "subject-based",
+      "conceptual",
+      "themed"
+    ],
+    "pronunciation": "theh-MAT-ik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "story-027",
+    "word": "Underscore",
+    "meaning": "To emphasize a point by drawing special attention to it",
+    "genre": "story-telling",
+    "difficulty": 2,
+    "dateAdded": "2025-12-27",
+    "samplePhrase": "We should underscore our team to drive better outcomes.",
+    "itContext": "Underscore is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "emphasize",
+      "highlight",
+      "stress",
+      "accentuate"
+    ],
+    "pronunciation": "UN-der-skor",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "story-028",
+    "word": "Vignette",
+    "meaning": "A brief evocative description, account, or episode",
+    "genre": "story-telling",
+    "difficulty": 4,
+    "dateAdded": "2025-12-28",
+    "samplePhrase": "The vignette aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Vignette is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "sketch",
+      "snapshot",
+      "scene",
+      "portrait"
+    ],
+    "pronunciation": "vin-YET",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "story-029",
+    "word": "Watershed",
+    "meaning": "A pivotal moment that changes the direction of events",
+    "genre": "story-telling",
+    "difficulty": 4,
+    "dateAdded": "2025-12-29",
+    "samplePhrase": "The watershed aspect of the review helps us achieve professional excellence.",
+    "itContext": "Watershed is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "turning point",
+      "milestone",
+      "defining moment",
+      "landmark"
+    ],
+    "pronunciation": "WAW-ter-shed",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "story-030",
+    "word": "Xenial",
+    "meaning": "Relating to hospitality between host and guest",
+    "genre": "story-telling",
+    "difficulty": 5,
+    "dateAdded": "2025-12-30",
+    "samplePhrase": "The xenial aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Xenial is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "hospitable",
+      "welcoming",
+      "friendly",
+      "generous"
+    ],
+    "pronunciation": "ZEE-nee-ul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "story-031",
+    "word": "Yearn",
+    "meaning": "To have an intense feeling of longing for something",
+    "genre": "story-telling",
+    "difficulty": 2,
+    "dateAdded": "2025-12-31",
+    "samplePhrase": "We should yearn the project to drive better outcomes.",
+    "itContext": "Yearn is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "desire",
+      "crave",
+      "long for",
+      "wish"
+    ],
+    "pronunciation": "YERN",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "story-032",
+    "word": "Zeitgeist",
+    "meaning": "The defining spirit or mood of a particular period",
+    "genre": "story-telling",
+    "difficulty": 5,
+    "dateAdded": "2026-01-01",
+    "samplePhrase": "The zeitgeist aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Zeitgeist is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "spirit of the times",
+      "cultural climate",
+      "era",
+      "mood"
+    ],
+    "pronunciation": "ZITE-gyst",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      2
+    ]
+  },
+  {
+    "id": "story-033",
+    "word": "Articulate",
+    "meaning": "To express an idea clearly and effectively",
+    "genre": "story-telling",
+    "difficulty": 2,
+    "dateAdded": "2026-01-02",
+    "samplePhrase": "We should articulate our team to drive better outcomes.",
+    "itContext": "Articulate is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "express",
+      "communicate",
+      "convey",
+      "verbalize"
+    ],
+    "pronunciation": "ar-TIK-yoo-layt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      5
+    ]
+  },
+  {
+    "id": "story-034",
+    "word": "Brevity",
+    "meaning": "Concise and exact use of words in speaking or writing",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2026-01-03",
+    "samplePhrase": "The brevity aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Brevity is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "conciseness",
+      "succinctness",
+      "terseness",
+      "economy"
+    ],
+    "pronunciation": "BREV-ih-tee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      2
+    ]
+  },
+  {
+    "id": "story-035",
+    "word": "Climax",
+    "meaning": "The most intense or important point of a narrative",
+    "genre": "story-telling",
+    "difficulty": 2,
+    "dateAdded": "2026-01-04",
+    "samplePhrase": "The climax aspect of the review helps us achieve professional excellence.",
+    "itContext": "Climax is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "peak",
+      "pinnacle",
+      "high point",
+      "culmination"
+    ],
+    "pronunciation": "KLY-maks",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "story-036",
+    "word": "Dialogue",
+    "meaning": "A conversation between two or more people in a story",
+    "genre": "story-telling",
+    "difficulty": 2,
+    "dateAdded": "2026-01-05",
+    "samplePhrase": "The dialogue aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Dialogue is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "conversation",
+      "exchange",
+      "discussion",
+      "discourse"
+    ],
+    "pronunciation": "DY-uh-log",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "story-037",
+    "word": "Empathize",
+    "meaning": "To understand and share the feelings of a character",
+    "genre": "story-telling",
+    "difficulty": 2,
+    "dateAdded": "2026-01-06",
+    "samplePhrase": "We should empathize the project to drive better outcomes.",
+    "itContext": "Empathize is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "relate",
+      "connect",
+      "identify",
+      "understand"
+    ],
+    "pronunciation": "EM-puh-thize",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      5,
+      5
+    ]
+  },
+  {
+    "id": "story-038",
+    "word": "Flashback",
+    "meaning": "A scene set earlier than the main story's timeline",
+    "genre": "story-telling",
+    "difficulty": 2,
+    "dateAdded": "2026-01-07",
+    "samplePhrase": "The flashback aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Flashback is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "retrospect",
+      "memory",
+      "recall",
+      "throwback"
+    ],
+    "pronunciation": "FLASH-bak",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "story-039",
+    "word": "Genre",
+    "meaning": "A category of artistic composition with specific conventions",
+    "genre": "story-telling",
+    "difficulty": 2,
+    "dateAdded": "2026-01-08",
+    "samplePhrase": "The genre aspect of our team helps us achieve professional excellence.",
+    "itContext": "Genre is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "category",
+      "type",
+      "class",
+      "style"
+    ],
+    "pronunciation": "ZHON-ruh",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "story-040",
+    "word": "Hook",
+    "meaning": "An opening that grabs the audience's attention immediately",
+    "genre": "story-telling",
+    "difficulty": 2,
+    "dateAdded": "2026-01-09",
+    "samplePhrase": "The hook aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Hook is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "opener",
+      "grabber",
+      "attention-getter",
+      "lead"
+    ],
+    "pronunciation": "HUK",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      2
+    ]
+  },
+  {
+    "id": "story-041",
+    "word": "Imagery",
+    "meaning": "Visually descriptive language that appeals to the senses",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2026-01-10",
+    "samplePhrase": "The imagery aspect of the review helps us achieve professional excellence.",
+    "itContext": "Imagery is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "visualization",
+      "description",
+      "word pictures",
+      "depiction"
+    ],
+    "pronunciation": "IM-ij-ree",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "story-042",
+    "word": "Juxtaposition",
+    "meaning": "Placing contrasting elements together to create effect",
+    "genre": "story-telling",
+    "difficulty": 4,
+    "dateAdded": "2026-01-11",
+    "samplePhrase": "The juxtaposition aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Juxtaposition is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "contrast",
+      "comparison",
+      "counterpoint",
+      "opposition"
+    ],
+    "pronunciation": "juk-stuh-poh-ZIH-shun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "story-043",
+    "word": "Keynote",
+    "meaning": "The central theme or message of a presentation",
+    "genre": "story-telling",
+    "difficulty": 2,
+    "dateAdded": "2026-01-12",
+    "samplePhrase": "The keynote aspect of the project helps us achieve professional excellence.",
+    "itContext": "Keynote is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "theme",
+      "main point",
+      "central idea",
+      "core message"
+    ],
+    "pronunciation": "KEE-noht",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "story-044",
+    "word": "Lucid",
+    "meaning": "Expressed clearly and easy to understand",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2026-01-13",
+    "samplePhrase": "The lucid aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Lucid is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "clear",
+      "coherent",
+      "intelligible",
+      "transparent"
+    ],
+    "pronunciation": "LOO-sid",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "story-045",
+    "word": "Monologue",
+    "meaning": "A long speech by one person in a conversation or performance",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2026-01-14",
+    "samplePhrase": "The monologue aspect of our team helps us achieve professional excellence.",
+    "itContext": "Monologue is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "soliloquy",
+      "speech",
+      "address",
+      "discourse"
+    ],
+    "pronunciation": "MON-oh-log",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "story-046",
+    "word": "Nonfiction",
+    "meaning": "Writing based on facts rather than imagination",
+    "genre": "story-telling",
+    "difficulty": 2,
+    "dateAdded": "2026-01-15",
+    "samplePhrase": "The nonfiction aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Nonfiction is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "factual",
+      "real",
+      "documentary",
+      "truthful"
+    ],
+    "pronunciation": "non-FIK-shun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "story-047",
+    "word": "Oratory",
+    "meaning": "The art of public speaking, especially eloquently",
+    "genre": "story-telling",
+    "difficulty": 4,
+    "dateAdded": "2026-01-16",
+    "samplePhrase": "The oratory aspect of the review helps us achieve professional excellence.",
+    "itContext": "Oratory is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "public speaking",
+      "rhetoric",
+      "eloquence",
+      "speechmaking"
+    ],
+    "pronunciation": "OR-uh-tor-ee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      4
+    ]
+  },
+  {
+    "id": "story-048",
+    "word": "Prologue",
+    "meaning": "An introductory section that sets the scene",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2026-01-17",
+    "samplePhrase": "The prologue aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Prologue is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "introduction",
+      "preface",
+      "preamble",
+      "foreword"
+    ],
+    "pronunciation": "PROH-log",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      2
+    ]
+  },
+  {
+    "id": "story-049",
+    "word": "Query",
+    "meaning": "A question or inquiry raised by the audience",
+    "genre": "story-telling",
+    "difficulty": 2,
+    "dateAdded": "2026-01-18",
+    "samplePhrase": "The query aspect of the project helps us achieve professional excellence.",
+    "itContext": "Query is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "question",
+      "inquiry",
+      "request",
+      "doubt"
+    ],
+    "pronunciation": "KWEER-ee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "story-050",
+    "word": "Rhetoric",
+    "meaning": "The art of effective or persuasive speaking or writing",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2026-01-19",
+    "samplePhrase": "The rhetoric aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Rhetoric is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "persuasion",
+      "eloquence",
+      "oratory",
+      "discourse"
+    ],
+    "pronunciation": "RET-or-ik",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "story-051",
+    "word": "Segue",
+    "meaning": "A smooth transition from one topic or scene to another",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2026-01-20",
+    "samplePhrase": "The segue aspect of our team helps us achieve professional excellence.",
+    "itContext": "Segue is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "transition",
+      "bridge",
+      "shift",
+      "connection"
+    ],
+    "pronunciation": "SEG-way",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      5,
+      2
+    ]
+  },
+  {
+    "id": "story-052",
+    "word": "Thesis",
+    "meaning": "The central argument or claim in a presentation",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2026-01-21",
+    "samplePhrase": "The thesis aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Thesis is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "argument",
+      "proposition",
+      "premise",
+      "claim"
+    ],
+    "pronunciation": "THEE-sis",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      2
+    ]
+  },
+  {
+    "id": "story-053",
+    "word": "Undertone",
+    "meaning": "An underlying quality or feeling beneath the surface",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2026-01-22",
+    "samplePhrase": "The undertone aspect of the review helps us achieve professional excellence.",
+    "itContext": "Undertone is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "implication",
+      "subtext",
+      "hint",
+      "suggestion"
+    ],
+    "pronunciation": "UN-der-tohn",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "story-054",
+    "word": "Vivid",
+    "meaning": "Producing powerful feelings or clear images in the mind",
+    "genre": "story-telling",
+    "difficulty": 2,
+    "dateAdded": "2026-01-23",
+    "samplePhrase": "The vivid aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Vivid is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "striking",
+      "graphic",
+      "powerful",
+      "colorful"
+    ],
+    "pronunciation": "VIV-id",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "story-055",
+    "word": "Whimsical",
+    "meaning": "Playfully creative or imaginative in style",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2026-01-24",
+    "samplePhrase": "The whimsical aspect of the project helps us achieve professional excellence.",
+    "itContext": "Whimsical is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "playful",
+      "fanciful",
+      "quirky",
+      "imaginative"
+    ],
+    "pronunciation": "WIM-zih-kul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      5
+    ]
+  },
+  {
+    "id": "story-056",
+    "word": "Analogy",
+    "meaning": "A comparison between things for clarification",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2026-01-25",
+    "samplePhrase": "The analogy aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Analogy is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "comparison",
+      "parallel",
+      "similarity",
+      "likeness"
+    ],
+    "pronunciation": "uh-NAL-oh-jee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "story-057",
+    "word": "Ballad",
+    "meaning": "A narrative song or poem telling a popular story",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2026-01-26",
+    "samplePhrase": "The ballad aspect of our team helps us achieve professional excellence.",
+    "itContext": "Ballad is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "song",
+      "poem",
+      "tale",
+      "lyric"
+    ],
+    "pronunciation": "BAL-ud",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "story-058",
+    "word": "Catharsis",
+    "meaning": "The release of strong emotions through storytelling",
+    "genre": "story-telling",
+    "difficulty": 4,
+    "dateAdded": "2026-01-27",
+    "samplePhrase": "The catharsis aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Catharsis is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "release",
+      "purging",
+      "cleansing",
+      "relief"
+    ],
+    "pronunciation": "kuh-THAR-sis",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "id": "story-059",
+    "word": "Diction",
+    "meaning": "The choice and use of words in speech or writing",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2026-01-28",
+    "samplePhrase": "The diction aspect of the review helps us achieve professional excellence.",
+    "itContext": "Diction is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "word choice",
+      "phrasing",
+      "language",
+      "vocabulary"
+    ],
+    "pronunciation": "DIK-shun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "story-060",
+    "word": "Epilogue",
+    "meaning": "A section at the end that comments on what has happened",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2026-01-29",
+    "samplePhrase": "The epilogue aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Epilogue is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "conclusion",
+      "afterword",
+      "postscript",
+      "closing"
+    ],
+    "pronunciation": "EP-ih-log",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "story-061",
+    "word": "Figurative",
+    "meaning": "Not literal; using figures of speech or metaphors",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2026-01-30",
+    "samplePhrase": "The figurative aspect of the project helps us achieve professional excellence.",
+    "itContext": "Figurative is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "metaphorical",
+      "symbolic",
+      "allegorical",
+      "representative"
+    ],
+    "pronunciation": "FIG-yoo-ruh-tiv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      5,
+      3
+    ]
+  },
+  {
+    "id": "story-062",
+    "word": "Gesticulate",
+    "meaning": "To use gestures to emphasize or express while speaking",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2026-01-31",
+    "samplePhrase": "We should gesticulate this quarter to drive better outcomes.",
+    "itContext": "Gesticulate is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "gesture",
+      "motion",
+      "signal",
+      "wave"
+    ],
+    "pronunciation": "jes-TIK-yoo-layt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      5,
+      5
+    ]
+  },
+  {
+    "id": "story-063",
+    "word": "Hyperbolic",
+    "meaning": "Using exaggeration for emphasis or dramatic effect",
+    "genre": "story-telling",
+    "difficulty": 4,
+    "dateAdded": "2026-02-01",
+    "samplePhrase": "The hyperbolic aspect of our team helps us achieve professional excellence.",
+    "itContext": "Hyperbolic is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "exaggerated",
+      "overstated",
+      "amplified",
+      "inflated"
+    ],
+    "pronunciation": "hy-per-BOL-ik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      5
+    ]
+  },
+  {
+    "id": "story-064",
+    "word": "Impromptu",
+    "meaning": "Done without preparation; spontaneous delivery",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2026-02-02",
+    "samplePhrase": "The impromptu aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Impromptu is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "spontaneous",
+      "unscripted",
+      "unprepared",
+      "off-the-cuff"
+    ],
+    "pronunciation": "im-PROMP-too",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      5
+    ]
+  },
+  {
+    "id": "story-065",
+    "word": "Jargon",
+    "meaning": "Special words used by a particular profession or group",
+    "genre": "story-telling",
+    "difficulty": 2,
+    "dateAdded": "2026-02-03",
+    "samplePhrase": "The jargon aspect of the review helps us achieve professional excellence.",
+    "itContext": "Jargon is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "terminology",
+      "lingo",
+      "slang",
+      "technical language"
+    ],
+    "pronunciation": "JAR-gun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "story-066",
+    "word": "Kinesthetic",
+    "meaning": "Relating to a person's awareness of body movement",
+    "genre": "story-telling",
+    "difficulty": 4,
+    "dateAdded": "2026-02-04",
+    "samplePhrase": "The kinesthetic aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Kinesthetic is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "physical",
+      "movement-based",
+      "tactile",
+      "bodily"
+    ],
+    "pronunciation": "kin-es-THET-ik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "story-067",
+    "word": "Lyrical",
+    "meaning": "Expressing feelings in a beautiful, imaginative way",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2026-02-05",
+    "samplePhrase": "The lyrical aspect of the project helps us achieve professional excellence.",
+    "itContext": "Lyrical is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "poetic",
+      "expressive",
+      "melodic",
+      "musical"
+    ],
+    "pronunciation": "LEER-ih-kul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      2,
+      4
+    ]
+  },
+  {
+    "id": "story-068",
+    "word": "Memoir",
+    "meaning": "A historical account written from personal knowledge",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2026-02-06",
+    "samplePhrase": "The memoir aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Memoir is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "autobiography",
+      "recollection",
+      "account",
+      "reminiscence"
+    ],
+    "pronunciation": "MEM-wahr",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      5,
+      5
+    ]
+  },
+  {
+    "id": "story-069",
+    "word": "Nomenclature",
+    "meaning": "The system of names or terms used in a particular field",
+    "genre": "story-telling",
+    "difficulty": 4,
+    "dateAdded": "2026-02-07",
+    "samplePhrase": "The nomenclature aspect of our team helps us achieve professional excellence.",
+    "itContext": "Nomenclature is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "terminology",
+      "naming",
+      "classification",
+      "vocabulary"
+    ],
+    "pronunciation": "NOH-men-klay-cher",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "story-070",
+    "word": "Orator",
+    "meaning": "A skilled and eloquent public speaker",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2026-02-08",
+    "samplePhrase": "The orator aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Orator is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "speaker",
+      "presenter",
+      "rhetorician",
+      "lecturer"
+    ],
+    "pronunciation": "OR-uh-ter",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "story-071",
+    "word": "Persona",
+    "meaning": "The character or role assumed by a speaker or writer",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2026-02-09",
+    "samplePhrase": "The persona aspect of the review helps us achieve professional excellence.",
+    "itContext": "Persona is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "character",
+      "role",
+      "identity",
+      "mask"
+    ],
+    "pronunciation": "per-SOH-nuh",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3,
+      5
+    ]
+  },
+  {
+    "id": "story-072",
+    "word": "Raconteur",
+    "meaning": "A person who tells anecdotes in a skillful and amusing way",
+    "genre": "story-telling",
+    "difficulty": 5,
+    "dateAdded": "2026-02-10",
+    "samplePhrase": "The raconteur aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Raconteur is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "storyteller",
+      "narrator",
+      "speaker",
+      "entertainer"
+    ],
+    "pronunciation": "rak-on-TUR",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "story-073",
+    "word": "Soliloquy",
+    "meaning": "The act of speaking one's thoughts aloud when alone",
+    "genre": "story-telling",
+    "difficulty": 4,
+    "dateAdded": "2026-02-11",
+    "samplePhrase": "The soliloquy aspect of the project helps us achieve professional excellence.",
+    "itContext": "Soliloquy is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "monologue",
+      "speech",
+      "aside",
+      "self-talk"
+    ],
+    "pronunciation": "soh-LIL-oh-kwee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "story-074",
+    "word": "Theatrical",
+    "meaning": "Exaggerated and dramatic in manner or effect",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2026-02-12",
+    "samplePhrase": "The theatrical aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Theatrical is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "dramatic",
+      "expressive",
+      "showy",
+      "performative"
+    ],
+    "pronunciation": "thee-AT-rih-kul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5,
+      3
+    ]
+  },
+  {
+    "id": "story-075",
+    "word": "Utterance",
+    "meaning": "A spoken word, statement, or vocal sound",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2026-02-13",
+    "samplePhrase": "The utterance aspect of our team helps us achieve professional excellence.",
+    "itContext": "Utterance is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "statement",
+      "remark",
+      "expression",
+      "declaration"
+    ],
+    "pronunciation": "UT-er-uns",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "story-076",
+    "word": "Vernacular",
+    "meaning": "The everyday language spoken by ordinary people",
+    "genre": "story-telling",
+    "difficulty": 4,
+    "dateAdded": "2026-02-14",
+    "samplePhrase": "The vernacular aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Vernacular is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "common language",
+      "slang",
+      "dialect",
+      "everyday speech"
+    ],
+    "pronunciation": "ver-NAK-yoo-ler",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      3,
+      5
+    ]
+  },
+  {
+    "id": "story-077",
+    "word": "Wordsmith",
+    "meaning": "A skilled user or maker of words",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2026-02-15",
+    "samplePhrase": "The wordsmith aspect of the review helps us achieve professional excellence.",
+    "itContext": "Wordsmith is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "writer",
+      "author",
+      "poet",
+      "linguist"
+    ],
+    "pronunciation": "WURD-smith",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      2,
+      5
+    ]
+  },
+  {
+    "id": "story-078",
+    "word": "Xenophile",
+    "meaning": "A person who is attracted to foreign peoples and cultures",
+    "genre": "story-telling",
+    "difficulty": 5,
+    "dateAdded": "2026-02-16",
+    "samplePhrase": "The xenophile aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Xenophile is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "cosmopolitan",
+      "globalist",
+      "worldly person",
+      "culturist"
+    ],
+    "pronunciation": "ZEN-oh-file",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "story-079",
+    "word": "Yarn",
+    "meaning": "An entertaining informal story, often exaggerated",
+    "genre": "story-telling",
+    "difficulty": 2,
+    "dateAdded": "2026-02-17",
+    "samplePhrase": "The yarn aspect of the project helps us achieve professional excellence.",
+    "itContext": "Yarn is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "tale",
+      "story",
+      "anecdote",
+      "narrative"
+    ],
+    "pronunciation": "YARN",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      5
+    ]
+  },
+  {
+    "id": "story-080",
+    "word": "Zeal",
+    "meaning": "Great energy and enthusiasm in pursuit of a cause",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2026-02-18",
+    "samplePhrase": "The zeal aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Zeal is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "enthusiasm",
+      "passion",
+      "fervor",
+      "ardor"
+    ],
+    "pronunciation": "ZEEL",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "story-081",
+    "word": "Apostrophe",
+    "meaning": "A rhetorical device addressing an absent person or concept",
+    "genre": "story-telling",
+    "difficulty": 4,
+    "dateAdded": "2026-02-19",
+    "samplePhrase": "The apostrophe aspect of our team helps us achieve professional excellence.",
+    "itContext": "Apostrophe is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "address",
+      "invocation",
+      "exclamation",
+      "appeal"
+    ],
+    "pronunciation": "uh-POS-troh-fee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "story-082",
+    "word": "Burlesque",
+    "meaning": "A parody or comically exaggerated imitation",
+    "genre": "story-telling",
+    "difficulty": 4,
+    "dateAdded": "2026-02-20",
+    "samplePhrase": "The burlesque aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Burlesque is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "parody",
+      "satire",
+      "caricature",
+      "spoof"
+    ],
+    "pronunciation": "ber-LESK",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "story-083",
+    "word": "Connotation",
+    "meaning": "An idea or feeling that a word invokes beyond its literal meaning",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2026-02-21",
+    "samplePhrase": "The connotation aspect of the review helps us achieve professional excellence.",
+    "itContext": "Connotation is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "implication",
+      "association",
+      "overtone",
+      "undertone"
+    ],
+    "pronunciation": "kon-oh-TAY-shun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "story-084",
+    "word": "Didactic",
+    "meaning": "Intended to teach or instruct through storytelling",
+    "genre": "story-telling",
+    "difficulty": 4,
+    "dateAdded": "2026-02-22",
+    "samplePhrase": "The didactic aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Didactic is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "instructive",
+      "educational",
+      "moralistic",
+      "pedagogic"
+    ],
+    "pronunciation": "dy-DAK-tik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      2
+    ]
+  },
+  {
+    "id": "story-085",
+    "word": "Epiphany",
+    "meaning": "A moment of sudden revelation or insight",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2026-02-23",
+    "samplePhrase": "The epiphany aspect of the project helps us achieve professional excellence.",
+    "itContext": "Epiphany is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "revelation",
+      "realization",
+      "insight",
+      "discovery"
+    ],
+    "pronunciation": "eh-PIF-uh-nee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      2
+    ]
+  },
+  {
+    "id": "story-086",
+    "word": "Fable",
+    "meaning": "A short story conveying a moral, often with animal characters",
+    "genre": "story-telling",
+    "difficulty": 2,
+    "dateAdded": "2026-02-24",
+    "samplePhrase": "The fable aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Fable is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "moral tale",
+      "parable",
+      "allegory",
+      "legend"
+    ],
+    "pronunciation": "FAY-bul",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      2
+    ]
+  },
+  {
+    "id": "story-087",
+    "word": "Grandiose",
+    "meaning": "Impressive and imposing in appearance or style",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2026-02-25",
+    "samplePhrase": "The grandiose aspect of our team helps us achieve professional excellence.",
+    "itContext": "Grandiose is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "magnificent",
+      "grand",
+      "impressive",
+      "majestic"
+    ],
+    "pronunciation": "GRAN-dee-ohs",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "story-088",
+    "word": "Homage",
+    "meaning": "A special honor or respect shown publicly",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2026-02-26",
+    "samplePhrase": "The homage aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Homage is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "tribute",
+      "respect",
+      "honor",
+      "salute"
+    ],
+    "pronunciation": "HOM-ij",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "story-089",
+    "word": "Irony",
+    "meaning": "A contrast between expectation and reality for effect",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2026-02-27",
+    "samplePhrase": "The irony aspect of the review helps us achieve professional excellence.",
+    "itContext": "Irony is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "contradiction",
+      "paradox",
+      "sarcasm",
+      "incongruity"
+    ],
+    "pronunciation": "EYE-roh-nee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "story-090",
+    "word": "Juxtapose",
+    "meaning": "To place ideas or scenes together for contrast",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2026-02-28",
+    "samplePhrase": "We should juxtapose this initiative to drive better outcomes.",
+    "itContext": "Juxtapose is valuable vocabulary for IT professionals in story telling contexts.",
+    "alternativeWords": [
+      "contrast",
+      "compare",
+      "pair",
+      "set against"
+    ],
+    "pronunciation": "JUK-stuh-pohz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      2
+    ]
+  }
+]

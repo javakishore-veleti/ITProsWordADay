@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/ITProsWordADay/Services/EnglishWordADayService/internal/services/rating"
+	"itpros-wordaday-service/internal/services/rating"
 )
 
 type RatingHandler struct {

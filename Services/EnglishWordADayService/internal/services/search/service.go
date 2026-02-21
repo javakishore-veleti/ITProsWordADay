@@ -1,8 +1,8 @@
 package search
 
 import (
-	"github.com/ITProsWordADay/Services/EnglishWordADayService/internal/models"
-	"github.com/ITProsWordADay/Services/EnglishWordADayService/internal/repository"
+	"itpros-wordaday-service/internal/models"
+	"itpros-wordaday-service/internal/repository"
 )
 
 type Service struct {

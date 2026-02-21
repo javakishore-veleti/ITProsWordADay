@@ -1,0 +1,2118 @@
+[
+  {
+    "id": "ono-001",
+    "word": "Rapport",
+    "meaning": "A close and harmonious relationship based on mutual trust",
+    "genre": "one-on-one",
+    "difficulty": 3,
+    "dateAdded": "2025-12-01",
+    "samplePhrase": "The rapport aspect of the project helps us achieve professional excellence.",
+    "itContext": "Rapport is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "connection",
+      "bond",
+      "understanding",
+      "harmony"
+    ],
+    "pronunciation": "rah-POR",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      2,
+      4
+    ]
+  },
+  {
+    "id": "ono-002",
+    "word": "Candor",
+    "meaning": "The quality of being open and honest in expression",
+    "genre": "one-on-one",
+    "difficulty": 3,
+    "dateAdded": "2025-12-02",
+    "samplePhrase": "The candor aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Candor is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "honesty",
+      "frankness",
+      "openness",
+      "directness"
+    ],
+    "pronunciation": "KAN-der",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      5
+    ]
+  },
+  {
+    "id": "ono-003",
+    "word": "Agenda",
+    "meaning": "A list of items to be discussed at a meeting",
+    "genre": "one-on-one",
+    "difficulty": 1,
+    "dateAdded": "2025-12-03",
+    "samplePhrase": "The agenda aspect of our team helps us achieve professional excellence.",
+    "itContext": "Agenda is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "plan",
+      "schedule",
+      "outline",
+      "topics"
+    ],
+    "pronunciation": "uh-JEN-duh",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      2
+    ]
+  },
+  {
+    "id": "ono-004",
+    "word": "Feedback",
+    "meaning": "Information about reactions used as a basis for improvement",
+    "genre": "one-on-one",
+    "difficulty": 1,
+    "dateAdded": "2025-12-04",
+    "samplePhrase": "The feedback aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Feedback is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "input",
+      "response",
+      "commentary",
+      "evaluation"
+    ],
+    "pronunciation": "FEED-bak",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "ono-005",
+    "word": "Blocker",
+    "meaning": "An obstacle that prevents progress on a task",
+    "genre": "one-on-one",
+    "difficulty": 2,
+    "dateAdded": "2025-12-05",
+    "samplePhrase": "The blocker aspect of the review helps us achieve professional excellence.",
+    "itContext": "Blocker is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "obstacle",
+      "impediment",
+      "barrier",
+      "hindrance"
+    ],
+    "pronunciation": "BLOK-er",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "ono-006",
+    "word": "Cadence",
+    "meaning": "The regular rhythm or pace of recurring meetings",
+    "genre": "one-on-one",
+    "difficulty": 3,
+    "dateAdded": "2025-12-06",
+    "samplePhrase": "The cadence aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Cadence is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "rhythm",
+      "frequency",
+      "pace",
+      "regularity"
+    ],
+    "pronunciation": "KAY-dens",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "ono-007",
+    "word": "Align",
+    "meaning": "To bring into agreement or close cooperation",
+    "genre": "one-on-one",
+    "difficulty": 2,
+    "dateAdded": "2025-12-07",
+    "samplePhrase": "We should align the project to drive better outcomes.",
+    "itContext": "Align is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "synchronize",
+      "coordinate",
+      "harmonize",
+      "agree"
+    ],
+    "pronunciation": "uh-LINE",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      2,
+      5
+    ]
+  },
+  {
+    "id": "ono-008",
+    "word": "Mentorship",
+    "meaning": "Guidance provided by an experienced person",
+    "genre": "one-on-one",
+    "difficulty": 2,
+    "dateAdded": "2025-12-08",
+    "samplePhrase": "The mentorship aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Mentorship is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "guidance",
+      "coaching",
+      "advising",
+      "tutoring"
+    ],
+    "pronunciation": "MEN-tor-ship",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "ono-009",
+    "word": "Advocacy",
+    "meaning": "Active support on behalf of someone's interests",
+    "genre": "one-on-one",
+    "difficulty": 3,
+    "dateAdded": "2025-12-09",
+    "samplePhrase": "The advocacy aspect of our team helps us achieve professional excellence.",
+    "itContext": "Advocacy is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "support",
+      "championing",
+      "backing",
+      "endorsement"
+    ],
+    "pronunciation": "AD-voh-kuh-see",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3,
+      5
+    ]
+  },
+  {
+    "id": "ono-010",
+    "word": "Transparent",
+    "meaning": "Open and visible in communication; nothing hidden",
+    "genre": "one-on-one",
+    "difficulty": 2,
+    "dateAdded": "2025-12-10",
+    "samplePhrase": "The transparent aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Transparent is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "open",
+      "clear",
+      "honest",
+      "forthright"
+    ],
+    "pronunciation": "trans-PAIR-ent",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "ono-011",
+    "word": "Vulnerability",
+    "meaning": "The willingness to show uncertainty or emotional openness",
+    "genre": "one-on-one",
+    "difficulty": 3,
+    "dateAdded": "2025-12-11",
+    "samplePhrase": "The vulnerability aspect of the review helps us achieve professional excellence.",
+    "itContext": "Vulnerability is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "openness",
+      "exposure",
+      "honesty",
+      "authenticity"
+    ],
+    "pronunciation": "vul-ner-uh-BIL-ih-tee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      5
+    ]
+  },
+  {
+    "id": "ono-012",
+    "word": "Empathy",
+    "meaning": "The ability to understand and share another's feelings",
+    "genre": "one-on-one",
+    "difficulty": 2,
+    "dateAdded": "2025-12-12",
+    "samplePhrase": "The empathy aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Empathy is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "understanding",
+      "compassion",
+      "sympathy",
+      "sensitivity"
+    ],
+    "pronunciation": "EM-puh-thee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      5,
+      5
+    ]
+  },
+  {
+    "id": "ono-013",
+    "word": "Accountability",
+    "meaning": "The obligation to accept responsibility for one's actions",
+    "genre": "one-on-one",
+    "difficulty": 2,
+    "dateAdded": "2025-12-13",
+    "samplePhrase": "The accountability aspect of the project helps us achieve professional excellence.",
+    "itContext": "Accountability is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "responsibility",
+      "ownership",
+      "answerability",
+      "liability"
+    ],
+    "pronunciation": "uh-kown-tuh-BIL-ih-tee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "ono-014",
+    "word": "Navigate",
+    "meaning": "To find one's way through a complex conversation",
+    "genre": "one-on-one",
+    "difficulty": 2,
+    "dateAdded": "2025-12-14",
+    "samplePhrase": "We should navigate this quarter to drive better outcomes.",
+    "itContext": "Navigate is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "steer",
+      "guide",
+      "maneuver",
+      "handle"
+    ],
+    "pronunciation": "NAV-ih-gayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      2
+    ]
+  },
+  {
+    "id": "ono-015",
+    "word": "Perspective",
+    "meaning": "A particular attitude toward or way of regarding something",
+    "genre": "one-on-one",
+    "difficulty": 2,
+    "dateAdded": "2025-12-15",
+    "samplePhrase": "The perspective aspect of our team helps us achieve professional excellence.",
+    "itContext": "Perspective is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "viewpoint",
+      "outlook",
+      "angle",
+      "standpoint"
+    ],
+    "pronunciation": "per-SPEK-tiv",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "ono-016",
+    "word": "Aspirational",
+    "meaning": "Relating to a strong desire to achieve something",
+    "genre": "one-on-one",
+    "difficulty": 3,
+    "dateAdded": "2025-12-16",
+    "samplePhrase": "The aspirational aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Aspirational is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "ambitious",
+      "goal-oriented",
+      "hopeful",
+      "idealistic"
+    ],
+    "pronunciation": "as-pih-RAY-shun-ul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "ono-017",
+    "word": "Reciprocal",
+    "meaning": "Given or felt by each toward the other; mutual",
+    "genre": "one-on-one",
+    "difficulty": 3,
+    "dateAdded": "2025-12-17",
+    "samplePhrase": "The reciprocal aspect of the review helps us achieve professional excellence.",
+    "itContext": "Reciprocal is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "mutual",
+      "shared",
+      "bilateral",
+      "two-way"
+    ],
+    "pronunciation": "rih-SIP-roh-kul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "ono-018",
+    "word": "Facilitate",
+    "meaning": "To make a conversation or process easier and more productive",
+    "genre": "one-on-one",
+    "difficulty": 2,
+    "dateAdded": "2025-12-18",
+    "samplePhrase": "We should facilitate this initiative to drive better outcomes.",
+    "itContext": "Facilitate is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "enable",
+      "smooth",
+      "ease",
+      "support"
+    ],
+    "pronunciation": "fuh-SIL-ih-tayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "ono-019",
+    "word": "Calibrate",
+    "meaning": "To carefully adjust expectations or understanding",
+    "genre": "one-on-one",
+    "difficulty": 3,
+    "dateAdded": "2025-12-19",
+    "samplePhrase": "We should calibrate the project to drive better outcomes.",
+    "itContext": "Calibrate is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "adjust",
+      "fine-tune",
+      "align",
+      "recalibrate"
+    ],
+    "pronunciation": "KAL-ih-brayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      4
+    ]
+  },
+  {
+    "id": "ono-020",
+    "word": "Constructive",
+    "meaning": "Serving a useful purpose; aimed at improvement",
+    "genre": "one-on-one",
+    "difficulty": 2,
+    "dateAdded": "2025-12-20",
+    "samplePhrase": "The constructive aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Constructive is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "helpful",
+      "productive",
+      "positive",
+      "beneficial"
+    ],
+    "pronunciation": "kun-STRUK-tiv",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "ono-021",
+    "word": "Delegate",
+    "meaning": "To entrust a task or responsibility to another person",
+    "genre": "one-on-one",
+    "difficulty": 2,
+    "dateAdded": "2025-12-21",
+    "samplePhrase": "We should delegate our team to drive better outcomes.",
+    "itContext": "Delegate is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "assign",
+      "entrust",
+      "hand off",
+      "transfer"
+    ],
+    "pronunciation": "DEL-eh-gayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      2,
+      5
+    ]
+  },
+  {
+    "id": "ono-022",
+    "word": "Empowerment",
+    "meaning": "The process of giving someone more control over decisions",
+    "genre": "one-on-one",
+    "difficulty": 3,
+    "dateAdded": "2025-12-22",
+    "samplePhrase": "The empowerment aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Empowerment is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "enablement",
+      "authorization",
+      "autonomy",
+      "agency"
+    ],
+    "pronunciation": "em-POW-er-ment",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "ono-023",
+    "word": "Followthrough",
+    "meaning": "The act of continuing a plan or commitment to completion",
+    "genre": "one-on-one",
+    "difficulty": 2,
+    "dateAdded": "2025-12-23",
+    "samplePhrase": "The followthrough aspect of the review helps us achieve professional excellence.",
+    "itContext": "Followthrough is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "completion",
+      "execution",
+      "persistence",
+      "follow-up"
+    ],
+    "pronunciation": "FOL-oh-throo",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      5,
+      3
+    ]
+  },
+  {
+    "id": "ono-024",
+    "word": "Gravitas",
+    "meaning": "Dignity and seriousness of manner in professional settings",
+    "genre": "one-on-one",
+    "difficulty": 4,
+    "dateAdded": "2025-12-24",
+    "samplePhrase": "The gravitas aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Gravitas is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "weight",
+      "authority",
+      "seriousness",
+      "presence"
+    ],
+    "pronunciation": "GRAV-ih-tahs",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      2
+    ]
+  },
+  {
+    "id": "ono-025",
+    "word": "Holistic",
+    "meaning": "Considering all aspects of a situation comprehensively",
+    "genre": "one-on-one",
+    "difficulty": 3,
+    "dateAdded": "2025-12-25",
+    "samplePhrase": "The holistic aspect of the project helps us achieve professional excellence.",
+    "itContext": "Holistic is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "comprehensive",
+      "complete",
+      "all-encompassing",
+      "integrated"
+    ],
+    "pronunciation": "hoh-LIS-tik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      2
+    ]
+  },
+  {
+    "id": "ono-026",
+    "word": "Insight",
+    "meaning": "An accurate and deep understanding of a situation",
+    "genre": "one-on-one",
+    "difficulty": 2,
+    "dateAdded": "2025-12-26",
+    "samplePhrase": "The insight aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Insight is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "understanding",
+      "perception",
+      "awareness",
+      "realization"
+    ],
+    "pronunciation": "IN-site",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "ono-027",
+    "word": "Juncture",
+    "meaning": "A particular point in events or time for important decisions",
+    "genre": "one-on-one",
+    "difficulty": 3,
+    "dateAdded": "2025-12-27",
+    "samplePhrase": "The juncture aspect of our team helps us achieve professional excellence.",
+    "itContext": "Juncture is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "moment",
+      "point",
+      "crossroads",
+      "stage"
+    ],
+    "pronunciation": "JUNGK-cher",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "ono-028",
+    "word": "Kinship",
+    "meaning": "A feeling of closeness or connection between people",
+    "genre": "one-on-one",
+    "difficulty": 3,
+    "dateAdded": "2025-12-28",
+    "samplePhrase": "The kinship aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Kinship is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "bond",
+      "affinity",
+      "connection",
+      "camaraderie"
+    ],
+    "pronunciation": "KIN-ship",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "id": "ono-029",
+    "word": "Latitude",
+    "meaning": "The freedom to make choices or take independent action",
+    "genre": "one-on-one",
+    "difficulty": 3,
+    "dateAdded": "2025-12-29",
+    "samplePhrase": "The latitude aspect of the review helps us achieve professional excellence.",
+    "itContext": "Latitude is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "freedom",
+      "leeway",
+      "flexibility",
+      "autonomy"
+    ],
+    "pronunciation": "LAT-ih-tood",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      5
+    ]
+  },
+  {
+    "id": "ono-030",
+    "word": "Momentum",
+    "meaning": "The impetus and driving force gained by a course of events",
+    "genre": "one-on-one",
+    "difficulty": 2,
+    "dateAdded": "2025-12-30",
+    "samplePhrase": "The momentum aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Momentum is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "drive",
+      "impetus",
+      "energy",
+      "pace"
+    ],
+    "pronunciation": "moh-MEN-tum",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      2,
+      5
+    ]
+  },
+  {
+    "id": "ono-031",
+    "word": "Nuance",
+    "meaning": "A subtle difference in meaning, expression, or understanding",
+    "genre": "one-on-one",
+    "difficulty": 3,
+    "dateAdded": "2025-12-31",
+    "samplePhrase": "The nuance aspect of the project helps us achieve professional excellence.",
+    "itContext": "Nuance is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "subtlety",
+      "shade",
+      "distinction",
+      "refinement"
+    ],
+    "pronunciation": "NOO-ahns",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "ono-032",
+    "word": "Ownership",
+    "meaning": "Taking full responsibility for tasks and outcomes",
+    "genre": "one-on-one",
+    "difficulty": 2,
+    "dateAdded": "2026-01-01",
+    "samplePhrase": "The ownership aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Ownership is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "responsibility",
+      "accountability",
+      "stewardship",
+      "charge"
+    ],
+    "pronunciation": "OH-ner-ship",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "id": "ono-033",
+    "word": "Pivotal",
+    "meaning": "Of crucial importance to the success of something",
+    "genre": "one-on-one",
+    "difficulty": 3,
+    "dateAdded": "2026-01-02",
+    "samplePhrase": "The pivotal aspect of our team helps us achieve professional excellence.",
+    "itContext": "Pivotal is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "crucial",
+      "critical",
+      "key",
+      "essential"
+    ],
+    "pronunciation": "PIV-oh-tul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "ono-034",
+    "word": "Quorum",
+    "meaning": "The minimum number of participants needed for a productive meeting",
+    "genre": "one-on-one",
+    "difficulty": 4,
+    "dateAdded": "2026-01-03",
+    "samplePhrase": "The quorum aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Quorum is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "threshold",
+      "minimum",
+      "required number",
+      "critical mass"
+    ],
+    "pronunciation": "KWOR-um",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      5,
+      3
+    ]
+  },
+  {
+    "id": "ono-035",
+    "word": "Resonate",
+    "meaning": "To evoke shared feelings or understanding",
+    "genre": "one-on-one",
+    "difficulty": 3,
+    "dateAdded": "2026-01-04",
+    "samplePhrase": "We should resonate the review to drive better outcomes.",
+    "itContext": "Resonate is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "connect",
+      "relate",
+      "echo",
+      "strike a chord"
+    ],
+    "pronunciation": "REZ-oh-nayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      5
+    ]
+  },
+  {
+    "id": "ono-036",
+    "word": "Scaffold",
+    "meaning": "To provide support structures to help someone grow",
+    "genre": "one-on-one",
+    "difficulty": 3,
+    "dateAdded": "2026-01-05",
+    "samplePhrase": "We should scaffold this initiative to drive better outcomes.",
+    "itContext": "Scaffold is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "support",
+      "structure",
+      "guide",
+      "framework"
+    ],
+    "pronunciation": "SKAF-old",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      4,
+      2
+    ]
+  },
+  {
+    "id": "ono-037",
+    "word": "Touchpoint",
+    "meaning": "A point of contact or interaction between two parties",
+    "genre": "one-on-one",
+    "difficulty": 2,
+    "dateAdded": "2026-01-06",
+    "samplePhrase": "The touchpoint aspect of the project helps us achieve professional excellence.",
+    "itContext": "Touchpoint is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "interaction",
+      "contact point",
+      "meeting",
+      "check-in"
+    ],
+    "pronunciation": "TUCH-poynt",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      5,
+      2
+    ]
+  },
+  {
+    "id": "ono-038",
+    "word": "Unpack",
+    "meaning": "To analyze and explore an issue in detail",
+    "genre": "one-on-one",
+    "difficulty": 2,
+    "dateAdded": "2026-01-07",
+    "samplePhrase": "We should unpack this quarter to drive better outcomes.",
+    "itContext": "Unpack is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "analyze",
+      "explore",
+      "examine",
+      "dissect"
+    ],
+    "pronunciation": "un-PAK",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "ono-039",
+    "word": "Vested",
+    "meaning": "Having a personal stake or interest in an outcome",
+    "genre": "one-on-one",
+    "difficulty": 3,
+    "dateAdded": "2026-01-08",
+    "samplePhrase": "The vested aspect of our team helps us achieve professional excellence.",
+    "itContext": "Vested is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "invested",
+      "committed",
+      "interested",
+      "involved"
+    ],
+    "pronunciation": "VES-ted",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      4,
+      2
+    ]
+  },
+  {
+    "id": "ono-040",
+    "word": "Wholesome",
+    "meaning": "Conducive to or suggestive of good health and well-being",
+    "genre": "one-on-one",
+    "difficulty": 2,
+    "dateAdded": "2026-01-09",
+    "samplePhrase": "The wholesome aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Wholesome is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "healthy",
+      "positive",
+      "beneficial",
+      "supportive"
+    ],
+    "pronunciation": "HOHL-sum",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      2
+    ]
+  },
+  {
+    "id": "ono-041",
+    "word": "Catalyze",
+    "meaning": "To inspire or accelerate personal or professional growth",
+    "genre": "one-on-one",
+    "difficulty": 3,
+    "dateAdded": "2026-01-10",
+    "samplePhrase": "We should catalyze the review to drive better outcomes.",
+    "itContext": "Catalyze is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "spark",
+      "inspire",
+      "trigger",
+      "accelerate"
+    ],
+    "pronunciation": "KAT-uh-lize",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "ono-042",
+    "word": "Debrief",
+    "meaning": "To discuss results and lessons after completing a task",
+    "genre": "one-on-one",
+    "difficulty": 2,
+    "dateAdded": "2026-01-11",
+    "samplePhrase": "We should debrief this initiative to drive better outcomes.",
+    "itContext": "Debrief is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "review",
+      "discuss",
+      "reflect",
+      "analyze"
+    ],
+    "pronunciation": "dee-BREEF",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      2
+    ]
+  },
+  {
+    "id": "ono-043",
+    "word": "Elevate",
+    "meaning": "To raise to a higher level of quality or importance",
+    "genre": "one-on-one",
+    "difficulty": 2,
+    "dateAdded": "2026-01-12",
+    "samplePhrase": "We should elevate the project to drive better outcomes.",
+    "itContext": "Elevate is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "raise",
+      "uplift",
+      "promote",
+      "enhance"
+    ],
+    "pronunciation": "EL-eh-vayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "ono-044",
+    "word": "Friction",
+    "meaning": "Tension or conflict between people or ideas",
+    "genre": "one-on-one",
+    "difficulty": 2,
+    "dateAdded": "2026-01-13",
+    "samplePhrase": "The friction aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Friction is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "tension",
+      "conflict",
+      "resistance",
+      "disagreement"
+    ],
+    "pronunciation": "FRIK-shun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "ono-045",
+    "word": "Grounded",
+    "meaning": "Sensible and realistic; well-balanced in approach",
+    "genre": "one-on-one",
+    "difficulty": 2,
+    "dateAdded": "2026-01-14",
+    "samplePhrase": "The grounded aspect of our team helps us achieve professional excellence.",
+    "itContext": "Grounded is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "stable",
+      "balanced",
+      "realistic",
+      "practical"
+    ],
+    "pronunciation": "GROWN-ded",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "ono-046",
+    "word": "Harmonize",
+    "meaning": "To make different elements work together smoothly",
+    "genre": "one-on-one",
+    "difficulty": 3,
+    "dateAdded": "2026-01-15",
+    "samplePhrase": "We should harmonize the discussion to drive better outcomes.",
+    "itContext": "Harmonize is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "align",
+      "coordinate",
+      "unify",
+      "blend"
+    ],
+    "pronunciation": "HAR-moh-nize",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      5,
+      2
+    ]
+  },
+  {
+    "id": "ono-047",
+    "word": "Iterate",
+    "meaning": "To repeat a process to gradually improve outcomes",
+    "genre": "one-on-one",
+    "difficulty": 2,
+    "dateAdded": "2026-01-16",
+    "samplePhrase": "We should iterate the review to drive better outcomes.",
+    "itContext": "Iterate is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "repeat",
+      "refine",
+      "cycle",
+      "revisit"
+    ],
+    "pronunciation": "IT-er-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "ono-048",
+    "word": "Justify",
+    "meaning": "To show or prove to be right or reasonable",
+    "genre": "one-on-one",
+    "difficulty": 2,
+    "dateAdded": "2026-01-17",
+    "samplePhrase": "We should justify this initiative to drive better outcomes.",
+    "itContext": "Justify is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "explain",
+      "defend",
+      "rationalize",
+      "validate"
+    ],
+    "pronunciation": "JUS-tih-fy",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "ono-049",
+    "word": "Kudos",
+    "meaning": "Praise and honor received for an achievement",
+    "genre": "one-on-one",
+    "difficulty": 2,
+    "dateAdded": "2026-01-18",
+    "samplePhrase": "The kudos aspect of the project helps us achieve professional excellence.",
+    "itContext": "Kudos is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "praise",
+      "credit",
+      "recognition",
+      "accolades"
+    ],
+    "pronunciation": "KOO-dohs",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      2
+    ]
+  },
+  {
+    "id": "ono-050",
+    "word": "Leverage",
+    "meaning": "To use available resources to maximum effect",
+    "genre": "one-on-one",
+    "difficulty": 2,
+    "dateAdded": "2026-01-19",
+    "samplePhrase": "We should leverage this quarter to drive better outcomes.",
+    "itContext": "Leverage is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "utilize",
+      "exploit",
+      "capitalize",
+      "harness"
+    ],
+    "pronunciation": "LEV-er-ij",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      5,
+      5
+    ]
+  },
+  {
+    "id": "ono-051",
+    "word": "Milestone",
+    "meaning": "A significant stage or event in development",
+    "genre": "one-on-one",
+    "difficulty": 2,
+    "dateAdded": "2026-01-20",
+    "samplePhrase": "The milestone aspect of our team helps us achieve professional excellence.",
+    "itContext": "Milestone is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "achievement",
+      "landmark",
+      "marker",
+      "turning point"
+    ],
+    "pronunciation": "MILE-stohn",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "ono-052",
+    "word": "Neutralize",
+    "meaning": "To counteract or make something ineffective",
+    "genre": "one-on-one",
+    "difficulty": 3,
+    "dateAdded": "2026-01-21",
+    "samplePhrase": "We should neutralize the discussion to drive better outcomes.",
+    "itContext": "Neutralize is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "counteract",
+      "offset",
+      "defuse",
+      "nullify"
+    ],
+    "pronunciation": "NOO-truh-lize",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "ono-053",
+    "word": "Orchestrate",
+    "meaning": "To carefully plan and coordinate a complex process",
+    "genre": "one-on-one",
+    "difficulty": 3,
+    "dateAdded": "2026-01-22",
+    "samplePhrase": "We should orchestrate the review to drive better outcomes.",
+    "itContext": "Orchestrate is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "coordinate",
+      "organize",
+      "arrange",
+      "direct"
+    ],
+    "pronunciation": "OR-keh-strayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "ono-054",
+    "word": "Prioritize",
+    "meaning": "To decide the relative importance of tasks or issues",
+    "genre": "one-on-one",
+    "difficulty": 2,
+    "dateAdded": "2026-01-23",
+    "samplePhrase": "We should prioritize this initiative to drive better outcomes.",
+    "itContext": "Prioritize is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "rank",
+      "order",
+      "triage",
+      "schedule"
+    ],
+    "pronunciation": "pry-OR-ih-tize",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      5
+    ]
+  },
+  {
+    "id": "ono-055",
+    "word": "Quantify",
+    "meaning": "To express or measure the quantity of something",
+    "genre": "one-on-one",
+    "difficulty": 3,
+    "dateAdded": "2026-01-24",
+    "samplePhrase": "We should quantify the project to drive better outcomes.",
+    "itContext": "Quantify is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "measure",
+      "calculate",
+      "count",
+      "assess"
+    ],
+    "pronunciation": "KWON-tih-fy",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "ono-056",
+    "word": "Reiterate",
+    "meaning": "To say or do something again for emphasis or clarity",
+    "genre": "one-on-one",
+    "difficulty": 3,
+    "dateAdded": "2026-01-25",
+    "samplePhrase": "We should reiterate this quarter to drive better outcomes.",
+    "itContext": "Reiterate is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "repeat",
+      "restate",
+      "emphasize",
+      "echo"
+    ],
+    "pronunciation": "ree-IT-er-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      4,
+      2
+    ]
+  },
+  {
+    "id": "ono-057",
+    "word": "Synergy",
+    "meaning": "The interaction of elements that produces a combined greater effect",
+    "genre": "one-on-one",
+    "difficulty": 3,
+    "dateAdded": "2026-01-26",
+    "samplePhrase": "The synergy aspect of our team helps us achieve professional excellence.",
+    "itContext": "Synergy is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "collaboration",
+      "cooperation",
+      "combined effort",
+      "teamwork"
+    ],
+    "pronunciation": "SIN-er-jee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "ono-058",
+    "word": "Tactful",
+    "meaning": "Having or showing sensitivity in dealing with others",
+    "genre": "one-on-one",
+    "difficulty": 3,
+    "dateAdded": "2026-01-27",
+    "samplePhrase": "The tactful aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Tactful is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "diplomatic",
+      "considerate",
+      "sensitive",
+      "discreet"
+    ],
+    "pronunciation": "TAKT-ful",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      2
+    ]
+  },
+  {
+    "id": "ono-059",
+    "word": "Uplift",
+    "meaning": "To raise the spirits, morale, or condition of someone",
+    "genre": "one-on-one",
+    "difficulty": 2,
+    "dateAdded": "2026-01-28",
+    "samplePhrase": "We should uplift the review to drive better outcomes.",
+    "itContext": "Uplift is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "encourage",
+      "inspire",
+      "elevate",
+      "boost"
+    ],
+    "pronunciation": "UP-lift",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      5,
+      2
+    ]
+  },
+  {
+    "id": "ono-060",
+    "word": "Validate",
+    "meaning": "To recognize or affirm that someone's feelings are worthwhile",
+    "genre": "one-on-one",
+    "difficulty": 2,
+    "dateAdded": "2026-01-29",
+    "samplePhrase": "We should validate this initiative to drive better outcomes.",
+    "itContext": "Validate is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "affirm",
+      "confirm",
+      "acknowledge",
+      "recognize"
+    ],
+    "pronunciation": "VAL-ih-dayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      5
+    ]
+  },
+  {
+    "id": "ono-061",
+    "word": "Watershed",
+    "meaning": "A key event that marks a shift in someone's development",
+    "genre": "one-on-one",
+    "difficulty": 4,
+    "dateAdded": "2026-01-30",
+    "samplePhrase": "The watershed aspect of the project helps us achieve professional excellence.",
+    "itContext": "Watershed is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "turning point",
+      "milestone",
+      "landmark",
+      "defining moment"
+    ],
+    "pronunciation": "WAW-ter-shed",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "ono-062",
+    "word": "Benchmark",
+    "meaning": "A reference point for measuring progress in a conversation",
+    "genre": "one-on-one",
+    "difficulty": 2,
+    "dateAdded": "2026-01-31",
+    "samplePhrase": "The benchmark aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Benchmark is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "standard",
+      "reference",
+      "baseline",
+      "measure"
+    ],
+    "pronunciation": "BENCH-mark",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "id": "ono-063",
+    "word": "Circumspect",
+    "meaning": "Wary and unwilling to take risks in communication",
+    "genre": "one-on-one",
+    "difficulty": 4,
+    "dateAdded": "2026-02-01",
+    "samplePhrase": "The circumspect aspect of our team helps us achieve professional excellence.",
+    "itContext": "Circumspect is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "cautious",
+      "careful",
+      "prudent",
+      "guarded"
+    ],
+    "pronunciation": "SER-kum-spekt",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "ono-064",
+    "word": "Deliberate",
+    "meaning": "Fully considered and intentional in approach",
+    "genre": "one-on-one",
+    "difficulty": 3,
+    "dateAdded": "2026-02-02",
+    "samplePhrase": "The deliberate aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Deliberate is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "intentional",
+      "purposeful",
+      "calculated",
+      "measured"
+    ],
+    "pronunciation": "deh-LIB-er-it",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      2,
+      2
+    ]
+  },
+  {
+    "id": "ono-065",
+    "word": "Encourage",
+    "meaning": "To give support, confidence, or hope to someone",
+    "genre": "one-on-one",
+    "difficulty": 2,
+    "dateAdded": "2026-02-03",
+    "samplePhrase": "We should encourage the review to drive better outcomes.",
+    "itContext": "Encourage is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "support",
+      "motivate",
+      "inspire",
+      "uplift"
+    ],
+    "pronunciation": "en-KUR-ij",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      5,
+      5
+    ]
+  },
+  {
+    "id": "ono-066",
+    "word": "Forge",
+    "meaning": "To create a strong bond or relationship through effort",
+    "genre": "one-on-one",
+    "difficulty": 2,
+    "dateAdded": "2026-02-04",
+    "samplePhrase": "We should forge this initiative to drive better outcomes.",
+    "itContext": "Forge is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "build",
+      "create",
+      "develop",
+      "establish"
+    ],
+    "pronunciation": "FORJ",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      5,
+      2
+    ]
+  },
+  {
+    "id": "ono-067",
+    "word": "Galvanize",
+    "meaning": "To stimulate someone into action through a conversation",
+    "genre": "one-on-one",
+    "difficulty": 3,
+    "dateAdded": "2026-02-05",
+    "samplePhrase": "We should galvanize the project to drive better outcomes.",
+    "itContext": "Galvanize is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "motivate",
+      "energize",
+      "inspire",
+      "activate"
+    ],
+    "pronunciation": "GAL-vuh-nize",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "id": "ono-068",
+    "word": "Harness",
+    "meaning": "To gain control of and use resources or abilities effectively",
+    "genre": "one-on-one",
+    "difficulty": 2,
+    "dateAdded": "2026-02-06",
+    "samplePhrase": "We should harness this quarter to drive better outcomes.",
+    "itContext": "Harness is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "utilize",
+      "channel",
+      "direct",
+      "employ"
+    ],
+    "pronunciation": "HAR-nes",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "ono-069",
+    "word": "Illuminate",
+    "meaning": "To help someone understand something more clearly",
+    "genre": "one-on-one",
+    "difficulty": 3,
+    "dateAdded": "2026-02-07",
+    "samplePhrase": "We should illuminate our team to drive better outcomes.",
+    "itContext": "Illuminate is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "clarify",
+      "explain",
+      "enlighten",
+      "reveal"
+    ],
+    "pronunciation": "ih-LOO-mih-nayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": "ono-070",
+    "word": "Juxtapose",
+    "meaning": "To place ideas side by side for discussion or comparison",
+    "genre": "one-on-one",
+    "difficulty": 3,
+    "dateAdded": "2026-02-08",
+    "samplePhrase": "We should juxtapose the discussion to drive better outcomes.",
+    "itContext": "Juxtapose is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "compare",
+      "contrast",
+      "pair",
+      "set beside"
+    ],
+    "pronunciation": "JUK-stuh-pohz",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "ono-071",
+    "word": "Kinetic",
+    "meaning": "Relating to energy and momentum in professional growth",
+    "genre": "one-on-one",
+    "difficulty": 3,
+    "dateAdded": "2026-02-09",
+    "samplePhrase": "The kinetic aspect of the review helps us achieve professional excellence.",
+    "itContext": "Kinetic is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "dynamic",
+      "active",
+      "energetic",
+      "spirited"
+    ],
+    "pronunciation": "kih-NET-ik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      5,
+      2
+    ]
+  },
+  {
+    "id": "ono-072",
+    "word": "Liaison",
+    "meaning": "A person who acts as a link between groups to assist communication",
+    "genre": "one-on-one",
+    "difficulty": 3,
+    "dateAdded": "2026-02-10",
+    "samplePhrase": "The liaison aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Liaison is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "link",
+      "contact",
+      "intermediary",
+      "bridge"
+    ],
+    "pronunciation": "lee-AY-zon",
+    "partOfSpeech": "noun",
+    "ratings": [
+      5,
+      2
+    ]
+  },
+  {
+    "id": "ono-073",
+    "word": "Magnify",
+    "meaning": "To increase the perceived importance of contributions",
+    "genre": "one-on-one",
+    "difficulty": 2,
+    "dateAdded": "2026-02-11",
+    "samplePhrase": "We should magnify the project to drive better outcomes.",
+    "itContext": "Magnify is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "amplify",
+      "enhance",
+      "highlight",
+      "elevate"
+    ],
+    "pronunciation": "MAG-nih-fy",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      5
+    ]
+  },
+  {
+    "id": "ono-074",
+    "word": "Negotiate",
+    "meaning": "To try to reach an agreement through discussion",
+    "genre": "one-on-one",
+    "difficulty": 2,
+    "dateAdded": "2026-02-12",
+    "samplePhrase": "We should negotiate this quarter to drive better outcomes.",
+    "itContext": "Negotiate is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "discuss",
+      "bargain",
+      "mediate",
+      "settle"
+    ],
+    "pronunciation": "neh-GOH-shee-ayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "ono-075",
+    "word": "Optimize",
+    "meaning": "To make the most effective use of time in meetings",
+    "genre": "one-on-one",
+    "difficulty": 2,
+    "dateAdded": "2026-02-13",
+    "samplePhrase": "We should optimize our team to drive better outcomes.",
+    "itContext": "Optimize is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "maximize",
+      "improve",
+      "enhance",
+      "streamline"
+    ],
+    "pronunciation": "OP-tih-mize",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "ono-076",
+    "word": "Precipitate",
+    "meaning": "To cause a discussion to happen sooner than expected",
+    "genre": "one-on-one",
+    "difficulty": 4,
+    "dateAdded": "2026-02-14",
+    "samplePhrase": "We should precipitate the discussion to drive better outcomes.",
+    "itContext": "Precipitate is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "trigger",
+      "prompt",
+      "cause",
+      "hasten"
+    ],
+    "pronunciation": "preh-SIP-ih-tayt",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      4,
+      2
+    ]
+  },
+  {
+    "id": "ono-077",
+    "word": "Reinforce",
+    "meaning": "To strengthen or support an idea or behavior",
+    "genre": "one-on-one",
+    "difficulty": 2,
+    "dateAdded": "2026-02-15",
+    "samplePhrase": "We should reinforce the review to drive better outcomes.",
+    "itContext": "Reinforce is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "strengthen",
+      "support",
+      "bolster",
+      "affirm"
+    ],
+    "pronunciation": "ree-in-FORS",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      5
+    ]
+  },
+  {
+    "id": "ono-078",
+    "word": "Synthesize",
+    "meaning": "To combine ideas from different sources into a coherent whole",
+    "genre": "one-on-one",
+    "difficulty": 3,
+    "dateAdded": "2026-02-16",
+    "samplePhrase": "We should synthesize this initiative to drive better outcomes.",
+    "itContext": "Synthesize is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "combine",
+      "merge",
+      "integrate",
+      "blend"
+    ],
+    "pronunciation": "SIN-theh-size",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "ono-079",
+    "word": "Temper",
+    "meaning": "To act as a moderating influence on something",
+    "genre": "one-on-one",
+    "difficulty": 3,
+    "dateAdded": "2026-02-17",
+    "samplePhrase": "We should temper the project to drive better outcomes.",
+    "itContext": "Temper is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "moderate",
+      "soften",
+      "restrain",
+      "balance"
+    ],
+    "pronunciation": "TEM-per",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      2
+    ]
+  },
+  {
+    "id": "ono-080",
+    "word": "Underscore",
+    "meaning": "To emphasize the importance of a point in discussion",
+    "genre": "one-on-one",
+    "difficulty": 2,
+    "dateAdded": "2026-02-18",
+    "samplePhrase": "We should underscore this quarter to drive better outcomes.",
+    "itContext": "Underscore is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "emphasize",
+      "stress",
+      "highlight",
+      "accentuate"
+    ],
+    "pronunciation": "UN-der-skor",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "ono-081",
+    "word": "Verbalize",
+    "meaning": "To express ideas or feelings in spoken words",
+    "genre": "one-on-one",
+    "difficulty": 2,
+    "dateAdded": "2026-02-19",
+    "samplePhrase": "We should verbalize our team to drive better outcomes.",
+    "itContext": "Verbalize is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "express",
+      "articulate",
+      "communicate",
+      "voice"
+    ],
+    "pronunciation": "VER-buh-lize",
+    "partOfSpeech": "verb",
+    "ratings": [
+      5,
+      2
+    ]
+  },
+  {
+    "id": "ono-082",
+    "word": "Wholistic",
+    "meaning": "Taking into account all factors and dimensions of an issue",
+    "genre": "one-on-one",
+    "difficulty": 3,
+    "dateAdded": "2026-02-20",
+    "samplePhrase": "The wholistic aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Wholistic is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "holistic",
+      "comprehensive",
+      "complete",
+      "all-encompassing"
+    ],
+    "pronunciation": "hoh-LIS-tik",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "ono-083",
+    "word": "Exemplify",
+    "meaning": "To serve as a good example of a principle or behavior",
+    "genre": "one-on-one",
+    "difficulty": 3,
+    "dateAdded": "2026-02-21",
+    "samplePhrase": "We should exemplify the review to drive better outcomes.",
+    "itContext": "Exemplify is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "demonstrate",
+      "illustrate",
+      "embody",
+      "model"
+    ],
+    "pronunciation": "eg-ZEM-plih-fy",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      2,
+      4
+    ]
+  },
+  {
+    "id": "ono-084",
+    "word": "Zenith",
+    "meaning": "The highest point of achievement or development in one's career",
+    "genre": "one-on-one",
+    "difficulty": 4,
+    "dateAdded": "2026-02-22",
+    "samplePhrase": "The zenith aspect of this initiative helps us achieve professional excellence.",
+    "itContext": "Zenith is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "peak",
+      "pinnacle",
+      "apex",
+      "summit"
+    ],
+    "pronunciation": "ZEE-nith",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "ono-085",
+    "word": "Acuity",
+    "meaning": "Sharpness of thought, vision, or perception",
+    "genre": "one-on-one",
+    "difficulty": 4,
+    "dateAdded": "2026-02-23",
+    "samplePhrase": "The acuity aspect of the project helps us achieve professional excellence.",
+    "itContext": "Acuity is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "sharpness",
+      "perceptiveness",
+      "keenness",
+      "insight"
+    ],
+    "pronunciation": "uh-KYOO-ih-tee",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "ono-086",
+    "word": "Bolster",
+    "meaning": "To support or strengthen someone's confidence",
+    "genre": "one-on-one",
+    "difficulty": 2,
+    "dateAdded": "2026-02-24",
+    "samplePhrase": "We should bolster this quarter to drive better outcomes.",
+    "itContext": "Bolster is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "support",
+      "strengthen",
+      "reinforce",
+      "boost"
+    ],
+    "pronunciation": "BOHL-ster",
+    "partOfSpeech": "verb",
+    "ratings": [
+      4,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "ono-087",
+    "word": "Cohesion",
+    "meaning": "The act of working together effectively as a unified group",
+    "genre": "one-on-one",
+    "difficulty": 3,
+    "dateAdded": "2026-02-25",
+    "samplePhrase": "The cohesion aspect of our team helps us achieve professional excellence.",
+    "itContext": "Cohesion is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "unity",
+      "solidarity",
+      "togetherness",
+      "bonding"
+    ],
+    "pronunciation": "koh-HEE-zhun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      2,
+      5
+    ]
+  },
+  {
+    "id": "ono-088",
+    "word": "Discern",
+    "meaning": "To perceive or recognize something with clarity",
+    "genre": "one-on-one",
+    "difficulty": 3,
+    "dateAdded": "2026-02-26",
+    "samplePhrase": "We should discern the discussion to drive better outcomes.",
+    "itContext": "Discern is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "perceive",
+      "detect",
+      "recognize",
+      "distinguish"
+    ],
+    "pronunciation": "dih-SERN",
+    "partOfSpeech": "verb",
+    "ratings": [
+      2,
+      2,
+      5
+    ]
+  },
+  {
+    "id": "ono-089",
+    "word": "Equitable",
+    "meaning": "Fair and impartial in treatment and expectations",
+    "genre": "one-on-one",
+    "difficulty": 3,
+    "dateAdded": "2026-02-27",
+    "samplePhrase": "The equitable aspect of the review helps us achieve professional excellence.",
+    "itContext": "Equitable is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "fair",
+      "just",
+      "balanced",
+      "impartial"
+    ],
+    "pronunciation": "EK-wih-tuh-bul",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      4,
+      2
+    ]
+  },
+  {
+    "id": "ono-090",
+    "word": "Foster",
+    "meaning": "To encourage the development of something positive",
+    "genre": "one-on-one",
+    "difficulty": 2,
+    "dateAdded": "2026-02-28",
+    "samplePhrase": "We should foster this initiative to drive better outcomes.",
+    "itContext": "Foster is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "cultivate",
+      "nurture",
+      "promote",
+      "develop"
+    ],
+    "pronunciation": "FOS-ter",
+    "partOfSpeech": "verb",
+    "ratings": [
+      3,
+      5
+    ]
+  },
+  {
+    "id": "ono-091",
+    "word": "Gestalt",
+    "meaning": "A pattern perceived as more than the sum of its parts",
+    "genre": "one-on-one",
+    "difficulty": 5,
+    "dateAdded": "2026-03-01",
+    "samplePhrase": "The gestalt aspect of the project helps us achieve professional excellence.",
+    "itContext": "Gestalt is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "whole",
+      "totality",
+      "complete picture",
+      "big picture"
+    ],
+    "pronunciation": "geh-SHTALT",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      5
+    ]
+  },
+  {
+    "id": "ono-092",
+    "word": "Heuristic",
+    "meaning": "A practical approach to finding satisfactory solutions quickly",
+    "genre": "one-on-one",
+    "difficulty": 4,
+    "dateAdded": "2026-03-02",
+    "samplePhrase": "The heuristic aspect of this quarter helps us achieve professional excellence.",
+    "itContext": "Heuristic is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "shortcut",
+      "rule of thumb",
+      "guideline",
+      "framework"
+    ],
+    "pronunciation": "hyoo-RIS-tik",
+    "partOfSpeech": "noun",
+    "ratings": [
+      2,
+      5,
+      3
+    ]
+  },
+  {
+    "id": "ono-093",
+    "word": "Impetus",
+    "meaning": "The force or energy that drives momentum forward",
+    "genre": "one-on-one",
+    "difficulty": 3,
+    "dateAdded": "2026-03-03",
+    "samplePhrase": "The impetus aspect of our team helps us achieve professional excellence.",
+    "itContext": "Impetus is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "motivation",
+      "drive",
+      "stimulus",
+      "catalyst"
+    ],
+    "pronunciation": "IM-peh-tus",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      5
+    ]
+  },
+  {
+    "id": "ono-094",
+    "word": "Juxtaposition",
+    "meaning": "The placing of things side by side for contrast",
+    "genre": "one-on-one",
+    "difficulty": 4,
+    "dateAdded": "2026-03-04",
+    "samplePhrase": "The juxtaposition aspect of the discussion helps us achieve professional excellence.",
+    "itContext": "Juxtaposition is valuable vocabulary for IT professionals in one on one contexts.",
+    "alternativeWords": [
+      "contrast",
+      "comparison",
+      "pairing",
+      "positioning"
+    ],
+    "pronunciation": "juk-stuh-poh-ZIH-shun",
+    "partOfSpeech": "noun",
+    "ratings": [
+      4,
+      5
+    ]
+  }
+]

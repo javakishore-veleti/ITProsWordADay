@@ -3,10 +3,10 @@ package router
 import (
 	"net/http"
 
-	"github.com/ITProsWordADay/Services/EnglishWordADayService/internal/api/handler"
-	"github.com/ITProsWordADay/Services/EnglishWordADayService/internal/config"
-	"github.com/ITProsWordADay/Services/EnglishWordADayService/internal/services/rating"
-	"github.com/ITProsWordADay/Services/EnglishWordADayService/internal/services/search"
+	"itpros-wordaday-service/internal/api/handler"
+	"itpros-wordaday-service/internal/config"
+	"itpros-wordaday-service/internal/services/rating"
+	"itpros-wordaday-service/internal/services/search"
 )
 
 func New(cfg config.Config, searchSvc *search.Service, ratingSvc *rating.Service) *http.ServeMux {

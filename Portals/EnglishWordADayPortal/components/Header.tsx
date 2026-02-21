@@ -105,17 +105,19 @@ export default function Header() {
       )}
 
       {/* Genre bar */}
-      <div className="h-10 flex items-center px-5 lg:px-8 overflow-x-auto scrollbar-hide bg-white/80 backdrop-blur-lg border-b border-[var(--border-subtle)]">
-        <GenreTab href="/" label="Home" active={pathname === "/"} />
-        <span className="w-px h-4 bg-[var(--border-default)] mx-1.5 shrink-0" />
+      <div className="h-10 flex items-center px-5 lg:px-8 bg-white/80 backdrop-blur-lg border-b border-[var(--border-subtle)]">
+        <div className="flex items-center overflow-x-auto scrollbar-hide flex-1 min-w-0">
+          <GenreTab href="/" label="Home" active={pathname === "/"} />
+          <span className="w-px h-4 bg-[var(--border-default)] mx-1.5 shrink-0" />
 
-        {visible.map((g) => (
-          <GenreTab key={g.slug} href={`/genre/${g.slug}`} label={g.name} icon={g.icon}
-            active={pathname === `/genre/${g.slug}`} />
-        ))}
+          {visible.map((g) => (
+            <GenreTab key={g.slug} href={`/genre/${g.slug}`} label={g.name} icon={g.icon}
+              active={pathname === `/genre/${g.slug}`} />
+          ))}
+        </div>
 
         {others.length > 0 && (
-          <div className="relative shrink-0" ref={ref}>
+          <div className="relative shrink-0 ml-1" ref={ref}>
             <button
               onClick={() => setShowOthers(!showOthers)}
               className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-md text-xs font-medium transition-all whitespace-nowrap
@@ -123,15 +125,15 @@ export default function Header() {
                   ? "text-[var(--accent)] bg-[var(--accent-subtle)]"
                   : "text-[var(--text-tertiary)] hover:text-[var(--text-secondary)] hover:bg-[var(--bg-hover)]"}`}
             >
-              Others
+              More ({others.length})
               <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"
                 className={`transition-transform ${showOthers ? "rotate-180" : ""}`}>
                 <polyline points="6 9 12 15 18 9" />
               </svg>
             </button>
             {showOthers && (
-              <div className="absolute top-full left-0 mt-2 min-w-[220px] py-1.5 rounded-xl bg-white border border-[var(--border-default)] animate-slide-down"
-                style={{ boxShadow: "var(--shadow-elevated)" }}>
+              <div className="fixed right-4 mt-2 min-w-[240px] max-h-[70vh] overflow-y-auto py-1.5 rounded-xl bg-white border border-[var(--border-default)] animate-slide-down z-[100]"
+                style={{ boxShadow: "0 8px 30px rgba(0,0,0,0.12)" }}>
                 {others.map((g) => (
                   <Link key={g.slug} href={`/genre/${g.slug}`} onClick={() => setShowOthers(false)}>
                     <div className={`flex items-center gap-2.5 px-4 py-2.5 text-[0.8rem] transition-colors

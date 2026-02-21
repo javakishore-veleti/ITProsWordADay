@@ -3,6 +3,7 @@
 import { type Word, GENRES } from "./data";
 
 const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8080";
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 export interface PaginatedResponse {
   words: Word[];
@@ -95,7 +96,7 @@ async function fallbackLoadAll(): Promise<Word[]> {
   await Promise.all(
     GENRES.map(async (g) => {
       try {
-        const res = await fetch(`/data/words/${g.slug}/words_001.json`);
+        const res = await fetch(`${BASE_PATH}/data/words/${g.slug}/words_001.json`);
         const words: Word[] = await res.json();
         all.push(...words);
       } catch { /* skip missing files */ }
@@ -107,7 +108,7 @@ async function fallbackLoadAll(): Promise<Word[]> {
 
 async function fallbackFetchByGenre(genre: string, page: number, pageSize: number): Promise<PaginatedResponse> {
   try {
-    const res = await fetch(`/data/words/${genre}/words_001.json`);
+    const res = await fetch(`${BASE_PATH}/data/words/${genre}/words_001.json`);
     const words: Word[] = await res.json();
     const start = (page - 1) * pageSize;
     const paged = words.slice(start, start + pageSize);

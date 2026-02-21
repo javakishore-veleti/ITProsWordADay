@@ -3,7 +3,7 @@ package rating
 import (
 	"fmt"
 
-	"github.com/ITProsWordADay/Services/EnglishWordADayService/internal/repository"
+	"itpros-wordaday-service/internal/repository"
 )
 
 type Service struct {

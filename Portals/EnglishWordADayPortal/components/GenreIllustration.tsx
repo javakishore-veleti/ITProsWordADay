@@ -68,6 +68,31 @@ const GENRE_VISUALS: Record<string, { gradient: string; pattern: string; accent:
     pattern: "M50,75 L20,45 A15,15 0 0,1 50,25 A15,15 0 0,1 80,45 Z",
     accent: "#f472b6",
   },
+  "annual-reviews": {
+    gradient: "linear-gradient(135deg, #fef3c7 0%, #fbbf24 40%, #d97706 100%)",
+    pattern: "M20,25 L80,25 M20,40 L80,40 M20,55 L60,55 M30,70 L40,80 L70,50",
+    accent: "#d97706",
+  },
+  "one-on-one": {
+    gradient: "linear-gradient(135deg, #ede9fe 0%, #a78bfa 40%, #7c3aed 100%)",
+    pattern: "M30,40 A10,10 0 1,1 30,40.1 M70,40 A10,10 0 1,1 70,40.1 M35,55 Q50,70 65,55",
+    accent: "#7c3aed",
+  },
+  "story-telling": {
+    gradient: "linear-gradient(135deg, #ccfbf1 0%, #5eead4 40%, #0d9488 100%)",
+    pattern: "M25,75 L25,25 L65,25 L65,50 L40,50 L40,75 Z M30,35 L60,35 M30,42 L55,42",
+    accent: "#0d9488",
+  },
+  "data-engineering": {
+    gradient: "linear-gradient(135deg, #dbeafe 0%, #60a5fa 40%, #2563eb 100%)",
+    pattern: "M20,50 L35,30 L50,50 L65,20 L80,50 M20,60 L80,60 M30,70 L70,70",
+    accent: "#2563eb",
+  },
+  "it-jokes": {
+    gradient: "linear-gradient(135deg, #ffe4e6 0%, #fb7185 40%, #e11d48 100%)",
+    pattern: "M35,35 A3,3 0 1,1 35,35.1 M65,35 A3,3 0 1,1 65,35.1 M30,55 Q50,75 70,55",
+    accent: "#e11d48",
+  },
 };
 
 const SIZES = { sm: 120, md: 200, lg: 280 };

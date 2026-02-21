@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/ITProsWordADay/Services/EnglishWordADayService/internal/config"
-	"github.com/ITProsWordADay/Services/EnglishWordADayService/internal/services/search"
+	"itpros-wordaday-service/internal/config"
+	"itpros-wordaday-service/internal/services/search"
 )
 
 type WordsHandler struct {
