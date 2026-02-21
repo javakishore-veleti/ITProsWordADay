@@ -6,6 +6,30 @@ A full-stack English vocabulary application designed for IT professionals. Learn
 
 ---
 
+## Screenshots
+
+### Homepage — Today's Word & Genre Browser
+
+![Homepage](docs/screenshots/01-homepage.png)
+
+### Genre Page — Cloud Computing
+
+![Genre Page](docs/screenshots/02-genre-page.png)
+
+### Word Detail — Ephemeral
+
+![Word Detail](docs/screenshots/03-word-detail.png)
+
+### Search
+
+![Search](docs/screenshots/04-search-page.png)
+
+### Professional Speak
+
+![Professional Speak](docs/screenshots/05-professional-speak.png)
+
+---
+
 ## What Makes This Different
 
 Unlike generic vocabulary apps, every word includes:

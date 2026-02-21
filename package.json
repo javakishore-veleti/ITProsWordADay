@@ -9,8 +9,5 @@
     "start:service": "cd Services/EnglishWordADayService && go run main.go",
     "stop": "lsof -ti :3000 -ti :8080 | xargs kill -9 2>/dev/null; echo 'Stopped portal (3000) and service (8080).'",
     "restart": "npm run stop && npm run start"
-  },
-  "dependencies": {
-    "playwright": "^1.58.2"
   }
 }
