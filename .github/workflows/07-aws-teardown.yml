@@ -57,7 +57,7 @@ jobs:
 
       - name: Delete CloudFormation stack
         run: |
-          STACK_NAME="itpros-wordaday-fargate"
+          STACK_NAME="itpros-wordaday-ecs-stack"
           echo "Deleting stack: ${STACK_NAME}"
           aws cloudformation delete-stack --stack-name "${STACK_NAME}"
           echo "Waiting for stack deletion to complete..."
@@ -85,7 +85,7 @@ jobs:
 
       - name: Delete CloudFormation stack
         run: |
-          STACK_NAME="itpros-wordaday-ec2-bluegreen"
+          STACK_NAME="itpros-wordaday-bg-stack"
           echo "Deleting stack: ${STACK_NAME}"
           aws cloudformation delete-stack --stack-name "${STACK_NAME}"
           echo "Waiting for stack deletion to complete..."
