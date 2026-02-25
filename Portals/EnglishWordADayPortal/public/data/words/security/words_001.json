@@ -2244,5 +2244,28 @@
       5,
       5
     ]
+  },
+  {
+    "id": "sec-101",
+    "word": "Incredulous",
+    "meaning": "(Of a person or their manner) unwilling or unable to believe something.",
+    "genre": "security",
+    "difficulty": 3,
+    "dateAdded": "2026-02-21",
+    "samplePhrase": "The security team was incredulous when the pentest found zero critical vulnerabilities.",
+    "itContext": "Security reports that exceed expectations may be met with incredulity; share scope, methodology, and evidence.",
+    "alternativeWords": [
+      "disbelieving",
+      "unbelieving",
+      "doubtful",
+      "dubious"
+    ],
+    "pronunciation": "/inˈkrejələs,iNGˈkrejələs/",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
   }
 ]

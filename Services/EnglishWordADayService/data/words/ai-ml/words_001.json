@@ -2245,5 +2245,28 @@
       4,
       5
     ]
+  },
+  {
+    "id": "ai-101",
+    "word": "Incredulous",
+    "meaning": "(Of a person or their manner) unwilling or unable to believe something.",
+    "genre": "ai-ml",
+    "difficulty": 3,
+    "dateAdded": "2026-02-21",
+    "samplePhrase": "The team was incredulous when the model achieved 99.9% accuracy on the first run.",
+    "itContext": "Stakeholders are often incredulous when AI produces unexpectedly accurate results; use clear metrics to build trust.",
+    "alternativeWords": [
+      "disbelieving",
+      "unbelieving",
+      "doubtful",
+      "dubious"
+    ],
+    "pronunciation": "/inˈkrejələs,iNGˈkrejələs/",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
   }
 ]

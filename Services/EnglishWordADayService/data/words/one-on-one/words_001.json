@@ -2114,5 +2114,28 @@
       4,
       5
     ]
+  },
+  {
+    "id": "ono-095",
+    "word": "Incredulous",
+    "meaning": "(Of a person or their manner) unwilling or unable to believe something.",
+    "genre": "one-on-one",
+    "difficulty": 3,
+    "dateAdded": "2026-02-21",
+    "samplePhrase": "His manager was incredulous when he said he'd finished all quarterly goals two weeks early.",
+    "itContext": "Managers may seem incredulous when reports exceed expectations; bring evidence and specifics to 1:1s.",
+    "alternativeWords": [
+      "disbelieving",
+      "unbelieving",
+      "doubtful",
+      "dubious"
+    ],
+    "pronunciation": "/inˈkrejələs,iNGˈkrejələs/",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
   }
 ]

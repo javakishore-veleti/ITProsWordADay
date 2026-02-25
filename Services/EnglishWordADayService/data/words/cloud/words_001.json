@@ -2255,5 +2255,28 @@
       3,
       4
     ]
+  },
+  {
+    "id": "cloud-101",
+    "word": "Incredulous",
+    "meaning": "(Of a person or their manner) unwilling or unable to believe something.",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2026-02-21",
+    "samplePhrase": "The architect was incredulous when the multi-region failover completed in under 30 seconds.",
+    "itContext": "Cloud engineers often meet incredulous stares when describing SLA achievements; document runbooks to prove it.",
+    "alternativeWords": [
+      "disbelieving",
+      "unbelieving",
+      "doubtful",
+      "dubious"
+    ],
+    "pronunciation": "/inˈkrejələs,iNGˈkrejələs/",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
   }
 ]

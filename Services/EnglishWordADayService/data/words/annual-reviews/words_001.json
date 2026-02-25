@@ -2245,5 +2245,28 @@
       5,
       5
     ]
+  },
+  {
+    "id": "review-101",
+    "word": "Incredulous",
+    "meaning": "(Of a person or their manner) unwilling or unable to believe something.",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2026-02-21",
+    "samplePhrase": "She gave an incredulous look when told her performance rating exceeded expectations.",
+    "itContext": "Managers may seem incredulous when self-assessments exceed their view; back claims with concrete examples.",
+    "alternativeWords": [
+      "disbelieving",
+      "unbelieving",
+      "doubtful",
+      "dubious"
+    ],
+    "pronunciation": "/inˈkrejələs,iNGˈkrejələs/",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
   }
 ]

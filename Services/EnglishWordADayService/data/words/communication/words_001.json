@@ -2248,5 +2248,28 @@
       4,
       3
     ]
+  },
+  {
+    "id": "comm-101",
+    "word": "Incredulous",
+    "meaning": "(Of a person or their manner) unwilling or unable to believe something.",
+    "genre": "communication",
+    "difficulty": 3,
+    "dateAdded": "2026-02-21",
+    "samplePhrase": "Stakeholders were incredulous when we announced the sprint delivery ahead of schedule.",
+    "itContext": "When sharing surprising news in meetings or Slack, expect incredulous reactions and be ready with evidence.",
+    "alternativeWords": [
+      "disbelieving",
+      "unbelieving",
+      "doubtful",
+      "dubious"
+    ],
+    "pronunciation": "/inˈkrejələs,iNGˈkrejələs/",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
   }
 ]

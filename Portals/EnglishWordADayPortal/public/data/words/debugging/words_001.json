@@ -2242,5 +2242,28 @@
       5,
       4
     ]
+  },
+  {
+    "id": "debug-101",
+    "word": "Incredulous",
+    "meaning": "(Of a person or their manner) unwilling or unable to believe something.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2026-02-21",
+    "samplePhrase": "He was incredulous when the bug turned out to be a single missing semicolon.",
+    "itContext": "Junior devs often give incredulous stares when root cause is trivial; use it as a teaching moment.",
+    "alternativeWords": [
+      "disbelieving",
+      "unbelieving",
+      "doubtful",
+      "dubious"
+    ],
+    "pronunciation": "/inˈkrejələs,iNGˈkrejələs/",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
   }
 ]

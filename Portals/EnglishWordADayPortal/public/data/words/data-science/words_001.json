@@ -2229,5 +2229,28 @@
       5,
       4
     ]
+  },
+  {
+    "id": "data-101",
+    "word": "Incredulous",
+    "meaning": "(Of a person or their manner) unwilling or unable to believe something.",
+    "genre": "data-science",
+    "difficulty": 3,
+    "dateAdded": "2026-02-21",
+    "samplePhrase": "She was incredulous when the A/B test showed a 200% lift in conversion.",
+    "itContext": "Data scientists often face incredulous stakeholders; lead with sample size, confidence intervals, and methodology.",
+    "alternativeWords": [
+      "disbelieving",
+      "unbelieving",
+      "doubtful",
+      "dubious"
+    ],
+    "pronunciation": "/inˈkrejələs,iNGˈkrejələs/",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
   }
 ]

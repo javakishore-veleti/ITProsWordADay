@@ -2252,5 +2252,28 @@
       4,
       4
     ]
+  },
+  {
+    "id": "appr-101",
+    "word": "Incredulous",
+    "meaning": "(Of a person or their manner) unwilling or unable to believe something.",
+    "genre": "appreciation",
+    "difficulty": 3,
+    "dateAdded": "2026-02-21",
+    "samplePhrase": "His incredulous expression turned to gratitude when he realized the team had nominated him for the award.",
+    "itContext": "Recipients of unexpected recognition often appear incredulous; give them a moment to absorb the news.",
+    "alternativeWords": [
+      "disbelieving",
+      "unbelieving",
+      "doubtful",
+      "dubious"
+    ],
+    "pronunciation": "/inˈkrejələs,iNGˈkrejələs/",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
   }
 ]

@@ -2046,5 +2046,28 @@
       4,
       5
     ]
+  },
+  {
+    "id": "story-092",
+    "word": "Incredulous",
+    "meaning": "(Of a person or their manner) unwilling or unable to believe something.",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2026-02-21",
+    "samplePhrase": "The audience gave incredulous gasps when the presenter revealed the actual root cause.",
+    "itContext": "In tech talks and retrospectives, an incredulous reaction from the audience signals your story has landed.",
+    "alternativeWords": [
+      "disbelieving",
+      "unbelieving",
+      "doubtful",
+      "dubious"
+    ],
+    "pronunciation": "/inˈkrejələs,iNGˈkrejələs/",
+    "partOfSpeech": "adjective",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
   }
 ]
