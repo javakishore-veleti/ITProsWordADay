@@ -2257,7 +2257,7 @@
     "meaning": "(Of a person or their manner) unwilling or unable to believe something.",
     "genre": "software-dev",
     "difficulty": 3,
-    "dateAdded": "2026-02-21",
+    "dateAdded": "2026-02-22",
     "samplePhrase": "The developer was incredulous when the refactor reduced build time from 45 to 5 minutes.",
     "itContext": "When sharing performance improvements in code reviews, expect incredulous peers; include benchmarks and before/after metrics.",
     "alternativeWords": [

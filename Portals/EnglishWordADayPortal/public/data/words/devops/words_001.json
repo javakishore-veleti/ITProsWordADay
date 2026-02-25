@@ -2231,7 +2231,7 @@
     "meaning": "(Of a person or their manner) unwilling or unable to believe something.",
     "genre": "devops",
     "difficulty": 3,
-    "dateAdded": "2026-02-21",
+    "dateAdded": "2026-02-22",
     "samplePhrase": "The DevOps lead was incredulous when the deployment completed with zero downtime.",
     "itContext": "When reporting incident resolution times, expect incredulous reactions; metrics and runbooks build credibility.",
     "alternativeWords": [

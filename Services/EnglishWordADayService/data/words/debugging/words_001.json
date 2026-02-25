@@ -2249,7 +2249,7 @@
     "meaning": "(Of a person or their manner) unwilling or unable to believe something.",
     "genre": "debugging",
     "difficulty": 3,
-    "dateAdded": "2026-02-21",
+    "dateAdded": "2026-02-22",
     "samplePhrase": "He was incredulous when the bug turned out to be a single missing semicolon.",
     "itContext": "Junior devs often give incredulous stares when root cause is trivial; use it as a teaching moment.",
     "alternativeWords": [

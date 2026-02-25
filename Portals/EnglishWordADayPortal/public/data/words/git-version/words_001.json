@@ -2254,7 +2254,7 @@
     "meaning": "(Of a person or their manner) unwilling or unable to believe something.",
     "genre": "git-version",
     "difficulty": 3,
-    "dateAdded": "2026-02-21",
+    "dateAdded": "2026-02-22",
     "samplePhrase": "She was incredulous when the cherry-pick resolved the merge conflict in one commit.",
     "itContext": "Version control miracles sometimes elicit incredulous reactions; document the fix in the commit message.",
     "alternativeWords": [

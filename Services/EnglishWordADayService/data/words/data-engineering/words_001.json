@@ -2166,7 +2166,7 @@
     "meaning": "(Of a person or their manner) unwilling or unable to believe something.",
     "genre": "data-engineering",
     "difficulty": 3,
-    "dateAdded": "2026-02-21",
+    "dateAdded": "2026-02-22",
     "samplePhrase": "The data engineer was incredulous when the pipeline processed 10TB without a single failure.",
     "itContext": "When reporting pipeline metrics to skeptics, expect incredulous reactions; dashboards and alerts build credibility.",
     "alternativeWords": [
