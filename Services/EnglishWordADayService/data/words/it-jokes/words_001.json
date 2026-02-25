@@ -2137,5 +2137,32 @@
       4,
       4
     ]
+  },
+  {
+    "id": "joke-096",
+    "word": "Adroitness",
+    "meaning": "Cleverness or skill.",
+    "genre": "it-jokes",
+    "difficulty": 3,
+    "dateAdded": "2026-02-23",
+    "samplePhrase": "The adroitness required to explain Kubernetes to the CEO — without laughing.",
+    "itContext": "IT humor often celebrates the adroitness needed to translate tech jargon for non-technical stakeholders.",
+    "alternativeWords": [
+      "skill",
+      "skillfulness",
+      "prowess",
+      "expertise",
+      "expertness",
+      "adeptness",
+      "handiness",
+      "nimbleness"
+    ],
+    "pronunciation": "/əˈdroitnəs/",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
   }
 ]

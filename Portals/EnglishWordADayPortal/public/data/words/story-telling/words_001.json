@@ -2069,5 +2069,32 @@
       4,
       4
     ]
+  },
+  {
+    "id": "story-093",
+    "word": "Adroitness",
+    "meaning": "Cleverness or skill.",
+    "genre": "story-telling",
+    "difficulty": 3,
+    "dateAdded": "2026-02-23",
+    "samplePhrase": "The speaker's adroitness in weaving technical details into a narrative captivated the audience.",
+    "itContext": "Adroitness in storytelling transforms dry retrospectives and demos into memorable experiences.",
+    "alternativeWords": [
+      "skill",
+      "skillfulness",
+      "prowess",
+      "expertise",
+      "expertness",
+      "adeptness",
+      "handiness",
+      "nimbleness"
+    ],
+    "pronunciation": "/əˈdroitnəs/",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
   }
 ]

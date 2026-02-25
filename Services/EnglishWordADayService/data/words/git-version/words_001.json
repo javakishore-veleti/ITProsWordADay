@@ -2270,5 +2270,32 @@
       4,
       4
     ]
+  },
+  {
+    "id": "git-102",
+    "word": "Adroitness",
+    "meaning": "Cleverness or skill.",
+    "genre": "git-version",
+    "difficulty": 3,
+    "dateAdded": "2026-02-23",
+    "samplePhrase": "His adroitness with interactive rebase untangled the messy commit history.",
+    "itContext": "Adroitness with git merge strategies and rebase workflows saves hours during code review.",
+    "alternativeWords": [
+      "skill",
+      "skillfulness",
+      "prowess",
+      "expertise",
+      "expertness",
+      "adeptness",
+      "handiness",
+      "nimbleness"
+    ],
+    "pronunciation": "/əˈdroitnəs/",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
   }
 ]

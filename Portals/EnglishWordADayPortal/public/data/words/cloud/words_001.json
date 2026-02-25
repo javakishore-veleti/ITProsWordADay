@@ -2278,5 +2278,32 @@
       4,
       4
     ]
+  },
+  {
+    "id": "cloud-102",
+    "word": "Adroitness",
+    "meaning": "Cleverness or skill.",
+    "genre": "cloud",
+    "difficulty": 3,
+    "dateAdded": "2026-02-23",
+    "samplePhrase": "The architect's adroitness in designing multi-region failover impressed the CTO.",
+    "itContext": "Cloud architecture requires adroitness in balancing cost, performance, and resilience.",
+    "alternativeWords": [
+      "skill",
+      "skillfulness",
+      "prowess",
+      "expertise",
+      "expertness",
+      "adeptness",
+      "handiness",
+      "nimbleness"
+    ],
+    "pronunciation": "/əˈdroitnəs/",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
   }
 ]

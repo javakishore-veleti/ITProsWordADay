@@ -2246,5 +2246,32 @@
       4,
       4
     ]
+  },
+  {
+    "id": "pm-102",
+    "word": "Adroitness",
+    "meaning": "Cleverness or skill.",
+    "genre": "project-mgmt",
+    "difficulty": 3,
+    "dateAdded": "2026-02-23",
+    "samplePhrase": "The PM's adroitness in balancing scope and timeline kept the project on track.",
+    "itContext": "Adroitness in stakeholder management and risk mitigation defines successful project delivery.",
+    "alternativeWords": [
+      "skill",
+      "skillfulness",
+      "prowess",
+      "expertise",
+      "expertness",
+      "adeptness",
+      "handiness",
+      "nimbleness"
+    ],
+    "pronunciation": "/əˈdroitnəs/",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
   }
 ]

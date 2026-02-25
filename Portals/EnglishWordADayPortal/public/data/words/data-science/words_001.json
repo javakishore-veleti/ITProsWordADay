@@ -2252,5 +2252,32 @@
       4,
       4
     ]
+  },
+  {
+    "id": "data-102",
+    "word": "Adroitness",
+    "meaning": "Cleverness or skill.",
+    "genre": "data-science",
+    "difficulty": 3,
+    "dateAdded": "2026-02-23",
+    "samplePhrase": "The team's adroitness in feature engineering drove the model's accuracy.",
+    "itContext": "Adroitness in experimentation design and statistical reasoning underpins successful data science.",
+    "alternativeWords": [
+      "skill",
+      "skillfulness",
+      "prowess",
+      "expertise",
+      "expertness",
+      "adeptness",
+      "handiness",
+      "nimbleness"
+    ],
+    "pronunciation": "/əˈdroitnəs/",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
   }
 ]

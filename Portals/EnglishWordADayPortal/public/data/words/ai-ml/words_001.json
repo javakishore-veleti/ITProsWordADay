@@ -2268,5 +2268,32 @@
       4,
       4
     ]
+  },
+  {
+    "id": "ai-102",
+    "word": "Adroitness",
+    "meaning": "Cleverness or skill.",
+    "genre": "ai-ml",
+    "difficulty": 3,
+    "dateAdded": "2026-02-23",
+    "samplePhrase": "Her adroitness in tuning hyperparameters reduced training time by 40%.",
+    "itContext": "Adroitness in feature engineering and model selection separates strong ML practitioners from beginners.",
+    "alternativeWords": [
+      "skill",
+      "skillfulness",
+      "prowess",
+      "expertise",
+      "expertness",
+      "adeptness",
+      "handiness",
+      "nimbleness"
+    ],
+    "pronunciation": "/əˈdroitnəs/",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
   }
 ]

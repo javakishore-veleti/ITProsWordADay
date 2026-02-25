@@ -2265,5 +2265,32 @@
       4,
       4
     ]
+  },
+  {
+    "id": "design-102",
+    "word": "Adroitness",
+    "meaning": "Cleverness or skill.",
+    "genre": "design",
+    "difficulty": 3,
+    "dateAdded": "2026-02-23",
+    "samplePhrase": "The designer's adroitness in balancing usability and aesthetics won the stakeholder vote.",
+    "itContext": "Adroitness in prototyping and user testing accelerates design iteration and alignment.",
+    "alternativeWords": [
+      "skill",
+      "skillfulness",
+      "prowess",
+      "expertise",
+      "expertness",
+      "adeptness",
+      "handiness",
+      "nimbleness"
+    ],
+    "pronunciation": "/əˈdroitnəs/",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
   }
 ]

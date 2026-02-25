@@ -2182,5 +2182,32 @@
       4,
       4
     ]
+  },
+  {
+    "id": "deng-098",
+    "word": "Adroitness",
+    "meaning": "Cleverness or skill.",
+    "genre": "data-engineering",
+    "difficulty": 3,
+    "dateAdded": "2026-02-23",
+    "samplePhrase": "His adroitness with Spark optimization cut pipeline costs in half.",
+    "itContext": "Data engineers need adroitness in balancing throughput, latency, and cost in pipeline design.",
+    "alternativeWords": [
+      "skill",
+      "skillfulness",
+      "prowess",
+      "expertise",
+      "expertness",
+      "adeptness",
+      "handiness",
+      "nimbleness"
+    ],
+    "pronunciation": "/əˈdroitnəs/",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
   }
 ]

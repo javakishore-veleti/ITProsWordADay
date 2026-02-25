@@ -2271,5 +2271,32 @@
       4,
       4
     ]
+  },
+  {
+    "id": "comm-102",
+    "word": "Adroitness",
+    "meaning": "Cleverness or skill.",
+    "genre": "communication",
+    "difficulty": 3,
+    "dateAdded": "2026-02-23",
+    "samplePhrase": "She demonstrated adroitness in defusing the tense Slack discussion.",
+    "itContext": "Adroitness in written and verbal communication is essential for remote and hybrid teams.",
+    "alternativeWords": [
+      "skill",
+      "skillfulness",
+      "prowess",
+      "expertise",
+      "expertness",
+      "adeptness",
+      "handiness",
+      "nimbleness"
+    ],
+    "pronunciation": "/əˈdroitnəs/",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
   }
 ]

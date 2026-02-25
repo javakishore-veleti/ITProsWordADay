@@ -2268,5 +2268,32 @@
       4,
       4
     ]
+  },
+  {
+    "id": "review-102",
+    "word": "Adroitness",
+    "meaning": "Cleverness or skill.",
+    "genre": "annual-reviews",
+    "difficulty": 3,
+    "dateAdded": "2026-02-23",
+    "samplePhrase": "His adroitness in navigating difficult conversations earned him the promotion.",
+    "itContext": "Adroitness in handling feedback and career discussions is a hallmark of effective professionals.",
+    "alternativeWords": [
+      "skill",
+      "skillfulness",
+      "prowess",
+      "expertise",
+      "expertness",
+      "adeptness",
+      "handiness",
+      "nimbleness"
+    ],
+    "pronunciation": "/əˈdroitnəs/",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
   }
 ]

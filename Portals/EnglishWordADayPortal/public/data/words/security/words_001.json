@@ -2267,5 +2267,32 @@
       4,
       4
     ]
+  },
+  {
+    "id": "sec-102",
+    "word": "Adroitness",
+    "meaning": "Cleverness or skill.",
+    "genre": "security",
+    "difficulty": 3,
+    "dateAdded": "2026-02-23",
+    "samplePhrase": "Her adroitness in threat modeling identified three critical vulnerabilities.",
+    "itContext": "Security teams need adroitness in risk assessment, penetration testing, and incident response.",
+    "alternativeWords": [
+      "skill",
+      "skillfulness",
+      "prowess",
+      "expertise",
+      "expertness",
+      "adeptness",
+      "handiness",
+      "nimbleness"
+    ],
+    "pronunciation": "/əˈdroitnəs/",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
   }
 ]

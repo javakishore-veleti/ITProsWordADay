@@ -2275,5 +2275,32 @@
       4,
       4
     ]
+  },
+  {
+    "id": "appr-102",
+    "word": "Adroitness",
+    "meaning": "Cleverness or skill.",
+    "genre": "appreciation",
+    "difficulty": 3,
+    "dateAdded": "2026-02-23",
+    "samplePhrase": "Your adroitness in explaining complex systems to executives is remarkable.",
+    "itContext": "Recognizing a colleague's adroitness builds morale and reinforces valued behaviors.",
+    "alternativeWords": [
+      "skill",
+      "skillfulness",
+      "prowess",
+      "expertise",
+      "expertness",
+      "adeptness",
+      "handiness",
+      "nimbleness"
+    ],
+    "pronunciation": "/əˈdroitnəs/",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
   }
 ]

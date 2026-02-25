@@ -2273,5 +2273,32 @@
       4,
       4
     ]
+  },
+  {
+    "id": "dev-102",
+    "word": "Adroitness",
+    "meaning": "Cleverness or skill.",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2026-02-23",
+    "samplePhrase": "His adroitness in refactoring legacy code reduced tech debt significantly.",
+    "itContext": "Adroitness in code design, testing, and debugging distinguishes senior engineers.",
+    "alternativeWords": [
+      "skill",
+      "skillfulness",
+      "prowess",
+      "expertise",
+      "expertness",
+      "adeptness",
+      "handiness",
+      "nimbleness"
+    ],
+    "pronunciation": "/əˈdroitnəs/",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
   }
 ]

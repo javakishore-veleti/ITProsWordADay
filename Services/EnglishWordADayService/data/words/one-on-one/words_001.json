@@ -2137,5 +2137,32 @@
       4,
       4
     ]
+  },
+  {
+    "id": "ono-096",
+    "word": "Adroitness",
+    "meaning": "Cleverness or skill.",
+    "genre": "one-on-one",
+    "difficulty": 3,
+    "dateAdded": "2026-02-23",
+    "samplePhrase": "I'd like to discuss how your adroitness in mentoring has raised team performance.",
+    "itContext": "1:1s are a chance to acknowledge a report's adroitness and discuss growth areas.",
+    "alternativeWords": [
+      "skill",
+      "skillfulness",
+      "prowess",
+      "expertise",
+      "expertness",
+      "adeptness",
+      "handiness",
+      "nimbleness"
+    ],
+    "pronunciation": "/əˈdroitnəs/",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
   }
 ]

@@ -2265,5 +2265,32 @@
       4,
       4
     ]
+  },
+  {
+    "id": "debug-102",
+    "word": "Adroitness",
+    "meaning": "Cleverness or skill.",
+    "genre": "debugging",
+    "difficulty": 3,
+    "dateAdded": "2026-02-23",
+    "samplePhrase": "His adroitness in tracing the distributed system bug saved the release.",
+    "itContext": "Debugging complex systems requires adroitness with logs, traces, and reproducible test cases.",
+    "alternativeWords": [
+      "skill",
+      "skillfulness",
+      "prowess",
+      "expertise",
+      "expertness",
+      "adeptness",
+      "handiness",
+      "nimbleness"
+    ],
+    "pronunciation": "/əˈdroitnəs/",
+    "partOfSpeech": "noun",
+    "ratings": [
+      3,
+      4,
+      4
+    ]
   }
 ]
