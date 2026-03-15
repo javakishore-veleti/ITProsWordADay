@@ -2300,5 +2300,45 @@
       4,
       4
     ]
+  },
+  {
+    "id": "dev-103",
+    "word": "Tomfoolering",
+    "meaning": "Playful foolish behavior that can disrupt focus when it crosses professional boundaries.",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2026-02-24",
+    "samplePhrase": "We can keep the stand-up energetic, but let's avoid tomfoolering and finish blocker triage first.",
+    "itContext": "In engineering teams, naming tomfoolering politely helps redirect side chatter toward delivery-critical work without sounding harsh.",
+    "alternativeWords": [
+      "horseplay",
+      "antics",
+      "mischief",
+      "fooling around",
+      "unserious behavior"
+    ],
+    "pronunciation": "/tɑmˈfuːlɪŋ/",
+    "partOfSpeech": "noun",
+    "ratings": []
+  },
+  {
+    "id": "dev-104",
+    "word": "Tomfoolery",
+    "meaning": "Silly or playful behavior that can distract teams when it interrupts focused engineering work.",
+    "genre": "software-dev",
+    "difficulty": 3,
+    "dateAdded": "2026-02-24",
+    "samplePhrase": "A little humor is healthy, but recurring tomfoolery during incident response slows decision-making.",
+    "itContext": "Use tomfoolery in retrospectives to describe non-productive team behavior diplomatically while still keeping feedback professional.",
+    "alternativeWords": [
+      "buffoonery",
+      "horseplay",
+      "clowning",
+      "antics",
+      "foolishness"
+    ],
+    "pronunciation": "/tɑmˈfuːləri/",
+    "partOfSpeech": "noun",
+    "ratings": []
   }
 ]

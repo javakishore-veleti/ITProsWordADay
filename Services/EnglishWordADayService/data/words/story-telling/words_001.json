@@ -2096,5 +2096,25 @@
       4,
       4
     ]
+  },
+  {
+    "id": "story-094",
+    "genre": "story-telling",
+    "word": "Tomfoolering",
+    "meaning": "Playful foolish behavior that can disrupt focus when it crosses professional boundaries.",
+    "difficulty": 3,
+    "dateAdded": "2026-02-24",
+    "samplePhrase": "We can keep the discussion energetic, but let us avoid tomfoolering and close the blockers first.",
+    "itContext": "In IT teams, naming tomfoolering politely helps redirect side chatter toward delivery-critical work without sounding harsh.",
+    "alternativeWords": [
+      "horseplay",
+      "antics",
+      "mischief",
+      "fooling around",
+      "unserious behavior"
+    ],
+    "pronunciation": "/tɑmˈfuːlɪŋ/",
+    "partOfSpeech": "noun",
+    "ratings": []
   }
 ]
