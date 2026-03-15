@@ -7,6 +7,8 @@
     "start": "npm run start:service & npm run start:portal & echo 'Both services started. Use npm run stop to shut down.'",
     "start:portal": "npm --prefix Portals/EnglishWordADayPortal run dev",
     "start:service": "cd Services/EnglishWordADayService && go run main.go",
+    "word:add": "node scripts/add-word.js",
+    "word:add:dry": "node scripts/add-word.js --dry-run",
     "stop": "lsof -ti :3000 -ti :8080 | xargs kill -9 2>/dev/null; echo 'Stopped portal (3000) and service (8080).'",
     "restart": "npm run stop && npm run start"
   }
