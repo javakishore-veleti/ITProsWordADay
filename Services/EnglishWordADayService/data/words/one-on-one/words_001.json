@@ -2168,20 +2168,20 @@
   {
     "id": "ono-097",
     "genre": "one-on-one",
-    "word": "Tomfoolering",
-    "meaning": "Playful foolish behavior that can disrupt focus when it crosses professional boundaries.",
+    "word": "Tomfoolery",
+    "meaning": "Foolish or silly behavior; tomfoolishness.",
     "difficulty": 3,
     "dateAdded": "2026-02-24",
-    "samplePhrase": "We can keep the discussion energetic, but let us avoid tomfoolering and close the blockers first.",
-    "itContext": "In IT teams, naming tomfoolering politely helps redirect side chatter toward delivery-critical work without sounding harsh.",
+    "samplePhrase": "The sprint can stay lively, but avoid tomfoolery so blockers get closed on time.",
+    "itContext": "In engineering teams, politely naming tomfoolery helps redirect unproductive side chatter toward delivery-focused collaboration.",
     "alternativeWords": [
+      "monkeyshine",
       "horseplay",
-      "antics",
-      "mischief",
-      "fooling around",
-      "unserious behavior"
+      "silliness",
+      "foolishness",
+      "tomfoolishness"
     ],
-    "pronunciation": "/tɑmˈfuːlɪŋ/",
+    "pronunciation": "/ˌtɑmˈfuːləri/ (US), /ˌtɒmˈfuːləri/ (UK)/",
     "partOfSpeech": "noun",
     "ratings": []
   }
