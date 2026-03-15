@@ -23,10 +23,16 @@ async function backendAvailable(): Promise<boolean> {
 }
 
 let _useBackend: boolean | null = null;
+let _useBackendCheckedAt = 0;
+const BACKEND_CHECK_TTL_MS = 5000;
 
 async function shouldUseBackend(): Promise<boolean> {
-  if (_useBackend !== null) return _useBackend;
+  const now = Date.now();
+  if (_useBackend !== null && now - _useBackendCheckedAt < BACKEND_CHECK_TTL_MS) {
+    return _useBackend;
+  }
   _useBackend = await backendAvailable();
+  _useBackendCheckedAt = now;
   return _useBackend;
 }
 
@@ -52,15 +58,16 @@ export async function fetchWordById(id: string): Promise<Word | null> {
 
 // Search words
 export async function searchWords(query: string, genre?: string, date?: string, page = 1, pageSize = 50): Promise<PaginatedResponse> {
+  const normalizedQuery = (query || "").trim();
   if (await shouldUseBackend()) {
     const params = new URLSearchParams({ page: String(page), pageSize: String(pageSize) });
-    if (query) params.set("q", query);
+    if (normalizedQuery) params.set("q", normalizedQuery);
     if (genre) params.set("genre", genre);
     if (date) params.set("date", date);
     const res = await fetch(`${API_BASE}/api/search?${params}`);
     return res.json();
   }
-  return fallbackSearch(query, genre, date, page, pageSize);
+  return fallbackSearch(normalizedQuery, genre, date, page, pageSize);
 }
 
 // Rate a word (backend only — no-op on static fallback)
@@ -91,7 +98,8 @@ export async function fetchAllWords(): Promise<Word[]> {
 let _allWordsCache: Word[] | null = null;
 
 async function fallbackLoadAll(): Promise<Word[]> {
-  if (_allWordsCache) return _allWordsCache;
+  // In development, avoid sticky in-memory cache so local JSON edits show up quickly.
+  if (process.env.NODE_ENV !== "development" && _allWordsCache) return _allWordsCache;
   const all: Word[] = [];
   await Promise.all(
     GENRES.map(async (g) => {
@@ -120,7 +128,7 @@ async function fallbackFetchByGenre(genre: string, page: number, pageSize: numbe
 
 async function fallbackSearch(query: string, genre: string | undefined, date: string | undefined, page: number, pageSize: number): Promise<PaginatedResponse> {
   const all = await fallbackLoadAll();
-  const q = (query || "").toLowerCase();
+  const q = (query || "").trim().toLowerCase();
   const filtered = all.filter((w) => {
     if (genre && w.genre !== genre) return false;
     if (date && w.dateAdded !== date) return false;

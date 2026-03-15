@@ -3,6 +3,7 @@ package handler
 import (
 	"net/http"
 	"strconv"
+	"strings"
 
 	"itpros-wordaday-service/internal/config"
 	"itpros-wordaday-service/internal/services/search"
@@ -27,9 +28,9 @@ func (h *SearchHandler) Search(w http.ResponseWriter, r *http.Request) {
 		pageSize = h.cfg.PageSize
 	}
 
-	query := r.URL.Query().Get("q")
-	genre := r.URL.Query().Get("genre")
-	date := r.URL.Query().Get("date")
+	query := strings.TrimSpace(r.URL.Query().Get("q"))
+	genre := strings.TrimSpace(r.URL.Query().Get("genre"))
+	date := strings.TrimSpace(r.URL.Query().Get("date"))
 
 	result := h.searchSvc.GetWords(page, pageSize, genre, date, query)
 	writeJSON(w, http.StatusOK, result)
